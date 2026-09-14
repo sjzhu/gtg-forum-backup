@@ -50,3 +50,21 @@ python3 tools/generate_readable_site.py
 
 This reads the six category folders directly and rewrites `readable/` from scratch — it's safe
 to re-run any time, and takes a few seconds.
+
+## Live version (GitHub Pages)
+
+The same site is also published at https://sjzhu.github.io/gtg-forum-backup/, on a separate
+`pages` branch. It's built the same way as `readable/`, except every image points at
+`raw.githubusercontent.com` on `main` instead of a local relative path, so the published site
+only ships ~188MB of HTML instead of the multi-gigabyte raw backup.
+
+To republish it after the raw data changes:
+
+```bash
+python3 tools/publish_pages.py
+```
+
+This regenerates the pages-mode site and pushes straight to the `pages` branch; GitHub rebuilds
+automatically, usually in under a minute. Pass `--no-push` to build the branch locally without
+pushing. It only republishes whatever's currently on disk — run `update_backup.py` first (see
+below) if you want fresh forum content included.
