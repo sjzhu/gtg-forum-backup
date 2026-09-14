@@ -28,6 +28,8 @@ ap.add_argument("--mode", choices=["local", "pages"], default="local",
                      "standalone (e.g. on a `pages` branch) without shipping the uploads/ folders.")
 ap.add_argument("--out", default=None, help="Output directory (default: <repo>/readable for local, "
                                              "<repo>/../_pages_build for pages)")
+ap.add_argument("--cname", default=None, help="Custom domain to write into a CNAME file for GitHub "
+                                               "Pages (pages mode only; omit for none)")
 args = ap.parse_args()
 
 MODE = args.mode
@@ -442,5 +444,9 @@ root_body = "<h1>Greater Than Games Forums &mdash; Offline Archive</h1><div clas
 write(os.path.join(OUT, "index.html"), page("GTG Forums Archive", root_body, 0))
 
 write(os.path.join(OUT, "style.css"), CSS)
+
+if args.cname:
+    with open(os.path.join(OUT, "CNAME"), "w") as f:
+        f.write(args.cname.strip() + "\n")
 
 print("DONE")

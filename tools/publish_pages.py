@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent  # the `public` repo
 BUILD_DIR = ROOT.parent / "_pages_build"
 BRANCH = "pages"
 INDEX_FILE = "/tmp/gtg_pages_publish_index"
+CUSTOM_DOMAIN = "gtg-forum-backup.thewyrmsuperior.com"
 
 COMMIT_MESSAGE = (
     "Publish readable site (auto-generated, images served from main branch)\n\n"
@@ -46,11 +47,11 @@ def main():
     args = ap.parse_args()
 
     print("Regenerating pages-mode site...")
-    subprocess.run(
-        [sys.executable, str(ROOT / "tools" / "generate_readable_site.py"),
-         "--mode", "pages", "--out", str(BUILD_DIR)],
-        cwd=str(ROOT), check=True,
-    )
+    gen_cmd = [sys.executable, str(ROOT / "tools" / "generate_readable_site.py"),
+               "--mode", "pages", "--out", str(BUILD_DIR)]
+    if CUSTOM_DOMAIN:
+        gen_cmd += ["--cname", CUSTOM_DOMAIN]
+    subprocess.run(gen_cmd, cwd=str(ROOT), check=True)
 
     plumbing_env = os.environ.copy()
     plumbing_env.update({
