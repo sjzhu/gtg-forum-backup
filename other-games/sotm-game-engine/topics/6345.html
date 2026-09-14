@@ -1,0 +1,62 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Effects Mid-AOE</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Effects Mid-AOE</div>
+<h1>Effects Mid-AOE</h1>
+<div class="desc">5 posts &middot; 757 views &middot; started 2012-09-28 16:33 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(212 45% 42%)">BA</div>
+    <div><div class="who">BaloTheJester</div><div class="when">2012-09-28 16:33 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>I couldn't think of a more generic way of putting this.</p><p>The general question: When a card including damage that affects all targets (or all targets of a given type) triggers a card that puts a target into play, is that target affected by the damage? When a card including multi-target damage triggers an effect that destroys the card, does the damage happen to all targets who would resolve after that trigger?</p><p>The specific situation: We were fighting Gloomweaver, who had out a Cultist (I forget which one) and some Zombies. Nightmist cast Oblivion. The "all targets" damage of Oblivion killed all the zombies and damaged the Cultist. The "all non-hero targets" damage killed the Cultist. Per Gloomweaver's villain card, a zombie then spawns. Should this new zombie take the "all non-hero targets" damage as well?</p><p>Another moment in the same game - the Drum of Despair went off at the start of the villain turn. It had only 3 HP remaining. Nightmist had the Amulet out that let her redirect damage (I have forgotten the name of the card, embarrassingly). When Nightmist resolved the Drum's effect she chose to take the damage, then use the Amulet to redirect it back at the Drum and destroy it. If we resolved the Drum's effect on Nightmist first, would this mean only Nightmist took any effect from the Drum?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2012-09-28 17:11 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>If a card which is dealing damage to multiple targets is destroyed, any remaining potential damage is cancelled.&nbsp; Based on that logic, I would assume that damage being dealt to multiple targets continues until there are no longer any potential targets (e.g. if a target enters play&nbsp;and is a valid target for currently ongoing damage being dealt, it would recieve the damage).&nbsp; This, however, would create issues with cards that deal the top X targets with the highest HP, or all except the target with the lowest HP, etc, as if a new valid target enters play, it could make a previous valid target an invalid target, and, while the new target could be valid, it would go outside the count limit (while technically within the count limit were damage not already dealt to some now invalid targets).&nbsp; Two possible solutions to this, one is that cards dealing damage to multiple targets must identify all targets before dealing damage.&nbsp; This would cause new targets introduced to be prevented from recieving damage from the multi target damage.&nbsp; The second would be to seperate multi-target attacks into two classifications based on logical interpretations of the target specitications, one which requires predetermination of targets prior to dealing damage (to prevent contraditory targetting), and one which does not require predetermination of targets (as it would be impossible to create any ambiguity).</p><p>&nbsp;</p><p>Or, just do what you think makes most sense.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2012-09-28 17:15 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>If I remember correctly, this came up during play testing and the answers to your two questions, BaloTheJester, are "Yes" and "Yes".  <img src="https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=9" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:"></p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2012-09-28 17:17 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>The effect of the drum can definately be worked the way you did, redirecting it back to original source is a favourite of Visionary and her <em>Wrest the Mind</em>. I'm pretty sure the other question is answered in Spiff's consolidated FAQ... but I can't for the HP of me remember what the answer is.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2012-10-01 03:26 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Rabit">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabit/48/5774_2.png" class="avatar"> Rabit:</div>
+<blockquote>
+<p>If I remember correctly, this came up during play testing and the answers to your two questions, BaloTheJester, are "Yes" and "Yes".  <img src="https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=12" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:" loading="lazy" width="20" height="20"></p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Agreed. A trigger in the middle of AoE would could cause a newly-put-in-play target to also be hit, AND a card doing multiple attacks which is destroyed would forestall the attackes that haven't yet occured.</p>
+<p>&nbsp;</p>
+<p>As for changing which X cards are hit due to triggers or destroyed cards, the question is moot, as <em>which</em> targets will be hit is determined all at once before any targets are attacked.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

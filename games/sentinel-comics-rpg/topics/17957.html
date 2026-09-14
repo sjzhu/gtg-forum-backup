@@ -1,0 +1,230 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GMnitron - SCRPG Discord Bot</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sentinel-comics-rpg/index.html">Sentinel Comics RPG</a> &rsaquo; GMnitron - SCRPG Discord Bot</div>
+<h1>GMnitron - SCRPG Discord Bot</h1>
+<div class="desc">20 posts &middot; 2920 views &middot; started 2018-04-18 19:58 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">BR</div>
+    <div><div class="who">Briar</div><div class="when">2018-04-18 19:58 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Hey everybody!</p><p>&nbsp;</p><p>I've developed a Discord bot to help run SCRPG games on Discord called GMnitron.</p><p><span>You can find it here:&nbsp;https://github.com/darthdie/gmnitron</span></p><p>&nbsp;</p><p>It has game-specific die commands (!min, !max, !overcome, !boost, etc.) as well as commands to help keep track of the scene &amp; initiative.</p><p>&nbsp;</p><p>Feel free to add it to your servers, as well as let me know if you have any questions/issues/feature requests.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(83 45% 42%)">CH</div>
+    <div><div class="who">Christopher</div><div class="when">2018-04-18 20:03 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Thanks, Briar!</p><p>I can say that this bot is SUPER helpful - I've seen it in action multiple times in games in the Letters Page Patreon channel. I cannot recommend it enough.</p><p>Keep up the great work!</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(171 45% 42%)">BU</div>
+    <div><div class="who">bjorn.arnesen.us</div><div class="when">2019-05-04 16:07 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>I don't think I'm understanding what to type for overcomes, or actions that use multiple dice.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2019-05-04 20:02 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>You put !min , !mid , or !max and then enter your die values. &nbsp; Here is an&nbsp;example would be for getting the mid value of my power die value of d12 , a quality die of d8, and a status die of d10:</p>
+<p>!mid d12 d8 d10&nbsp;</p>
+<p>&nbsp;</p>
+<p>The resulting response&nbsp;from Gmnitron would look like&nbsp;this:</p>
+<p>Rolled&nbsp;5&nbsp;= 5&nbsp;+ 0 (d12:&nbsp;5, d8:&nbsp;7,&nbsp;d10:&nbsp;3)</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(171 45% 42%)">BU</div>
+    <div><div class="who">bjorn.arnesen.us</div><div class="when">2019-05-05 03:09 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>I was thinking more like playing Unity and either the scene or she's in the Red Zone, and she's using Construction Pylon, which uses both the Max and the Mid, if I'm remembering correctly.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(20 45% 42%)">TR</div>
+    <div><div class="who">Trappit</div><div class="when">2020-03-02 20:21 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Has the bot been updated recently? The one we are using seems like it has some small errors in the programming.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">BR</div>
+    <div><div class="who">Briar</div><div class="when">2020-03-02 20:34 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>It's been a minute since it's been updated, but I know a number of things in particular that need to be fixed.</p>
+<p><strong>To do</strong></p>
+<ul>
+	<li>The meme images are broken now</li>
+	<li>Add support for combining the various types of rolls</li>
+	<li>Contemplate how hand off works</li>
+	<li>Fix overcome</li>
+</ul>
+<p><strong>Fixed</strong></p>
+<ul>
+	<li><em>D4 minions can't defend.</em></li>
+	<li><em>Single die rolls are broken</em></li>
+	<li><em>Don't spam error messages</em></li>
+</ul>
+<p>If there's anything else that needs to be added please let me know!</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(20 45% 42%)">TR</div>
+    <div><div class="who">Trappit</div><div class="when">2020-03-02 20:41 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>The hand off command wasn't working for us when we set up our session last week. The only way the hand off command worked was the !hand off @you @Discord (as an example obviously). Also, I never saw if it was able to be updated for max+mid rolls? I mean, obviously we could do it ourselves but the bot would be better.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2020-03-02 20:59 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>It would also be nice if it responded to a syntax error just once instead of 5 times.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(20 45% 42%)">TR</div>
+    <div><div class="who">Trappit</div><div class="when">2020-03-03 16:27 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Another error we are having right now is the overcome is only doing max rolls, no longer calculating for mid even though we type it.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">BR</div>
+    <div><div class="who">Briar</div><div class="when">2020-03-03 16:35 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>I pushed out an update last night:</p>
+<ul>
+	<li>D4 minions can now defend.</li>
+	<li>!mid now works correctly with a single die</li>
+	<li>No longer spams error messages</li>
+</ul>
+<p>I've added the overcome bug to the list, thanks!</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(20 45% 42%)">TR</div>
+    <div><div class="who">Trappit</div><div class="when">2020-03-04 20:46 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>The mid doesn't work still on our bot.. But I did notice the spamming has seemed to stop. The minion thing does appear to be fixed though.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2020-03-05 20:44 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>It's not just overcomes, either.&nbsp; Everything that calls for Mid is using Max instead.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(20 45% 42%)">TR</div>
+    <div><div class="who">Trappit</div><div class="when">2020-03-10 12:49 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>Thanks for the updates!</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2020-05-20 19:45 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>Here's something that seems to trip everyone up, me included: indicating whose turn it is at the beginning of the scene.&nbsp; "!hand off to" doesn't&nbsp;seem to work at all.&nbsp; We're picking whoever to go first out of character, then they hand off to the second player, which has the correct end result but is confusing.</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(20 45% 42%)">TR</div>
+    <div><div class="who">Trappit</div><div class="when">2020-05-27 00:40 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p>This is really not important but the gifs you linked to are obviously gone now, FYI. Ex. !cult gets me a no longer available pic.</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(277 45% 42%)">AR</div>
+    <div><div class="who">aramis</div><div class="when">2020-06-01 06:10 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>!hand of to&nbsp;</p>
+<p>it fails every time we try to use it.</p>
+<p>It would also be nice to have a short commands mode.Noting that all commands are case sensitive lower case...</p>
+<ul>
+	<li>!HO</li>
+	<li>as an option that parses as&nbsp;</li>
+</ul>
+<p>!hand off&nbsp; (char1) (char2)</p>
+<ul>
+	<li>!M<br>
+	for mid</li>
+	<li>!L<br>
+	for min</li>
+	<li>!B<br>
+	for boost</li>
+	<li>!H<br>
+	for Hinder</li>
+	<li>1D (dice code)<br>
+	&nbsp;</li>
+</ul>
+<p>It would be nice if eitherboth:</p>
+<ul>
+	<li>a specific die could be rerolled on last roll</li>
+	<li>A roll can be generated with a specific spot preset to a value<br>
+	&nbsp;</li>
+</ul>
+<p>It would be nice to have</p>
+<ul>
+	<li>&nbsp;!hasnt gone&nbsp;(name)<br>
+	to mark someone as available for turn because you accidentally passed to them.<br>
+	Short code would be hg.</li>
+	<li>shorthand codes for characters possibly set by using (longname)=(shortname</li>
+	<li>boost/hinder/overcome accept minion and LT&nbsp;</li>
+</ul></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(204 45% 42%)">CO</div>
+    <div><div class="who">Corte7</div><div class="when">2020-11-17 02:34 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>Are there any plans to verify the bot?&nbsp;Discord has changed how bots work and once they reach over 100 servers they now have to be verified to be added to any more.</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">BR</div>
+    <div><div class="who">Briar</div><div class="when">2020-11-24 18:13 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><p>So Discord reached out to me a while ago about verifying GMnitron. So I said to myself, alright cool I'll do that soon.</p>
+<p>&nbsp;</p>
+<p>Aannnnyywaaaayyyy 7 months later I'm now going through the application to verify it.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(98 45% 42%)">TW</div>
+    <div><div class="who">twoeyedjack</div><div class="when">2020-12-22 06:46 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><p>How's verification coming along?</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OblivAeon weird card interaction</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; OblivAeon weird card interaction</div>
+<h1>OblivAeon weird card interaction</h1>
+<div class="desc">14 posts &middot; 158 views &middot; started 2025-11-04 23:13 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-04 23:13 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Not that I’ll ever get an official answer, but I hoped someone might know.  Fanatic has a Wounding Buffer from Captain Cosmic, which in turn also has an Autonomous Blade on itself.  The mission card “Hermetic Evolved” deals 1 damage to Fanatic, causing her to deal 1 damage to herself.  The Wounding Buffer then damages <em>her</em>, and then <em>itself</em>, and only then does Autonomous Blade activate.  I don’t understand why the Buffer did not at least damage Hermetic Evolved <em>first</em>, before Fanatic’s self damage, and perhaps <em>then</em> also damage her and itself.  How is it possible that the Buffer responded to the second damage instance Fanatic had taken that turn?</p>
+<p>For reference, here are the texts of the cards involved, emphasis mine on what seem to be the critical phrases that I thought I unambiguously interpreted as meaning Hermetic should get hit first.</p>
+<p>Hermetic Evolved - Objective, Villain <em>Target</em><br>
+At the end of your turn, this card deals each hero <em>target</em> 1 irreducible infernal damage.  Any <em>hero character card</em> dealt this way deals itself 1 psychic damage.</p>
+<p>Wounding Buffer<br>
+Play this card next to a hero character card. The first time that hero character card is dealt damage by <em>a target</em> each turn, this card deals the source of that damage 2 energy damage.</p>
+<p>Autonomous Blade<br>
+Play this card next to a hero target.<br>
+The first time <em>that target deals damage</em> each turn, this card deals 1 target 2 energy damage.</p>
+<p>So in the sequence that the app executes, two rules appear to be violated.  First, Hermetic dealt damage to Fanatic, and the Buffer should have immediately hit him before she hit herself.  Second, when she hit herself, the Buffer hit her, then the Buffer hit itself, and only then did the Blade fire.  The Blade is supposed to fire on the first damage instance, not the second.</p>
+<p>Let me know if you can explain this as anything other than a programming error (which unfortunately won’t likely ever be fixed).</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2025-11-04 23:52 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>If you’re playing on PC can you attach the log too?  If so, it should be at c:\Users(YourNameHere)\AppData\LocalLow\Handelabra Games Inc_\Sentinels</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-05 00:46 UTC <span class="when">(in reply to #2)</span></div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Well I could, but it would be basically unreadable, since it was an entire OblivAeon game with multiple restarts (which amazingly managed to make it to phase 3 despite accidentally starting with probably the hardest Shield card and never removing it).  And anyway I can’t put up that amount of text in one message without extensive editing.  I believe the following is the relevant excerpt of a block of consecutive lines from the log, this should cover the entirety of the interaction described:</p>
+<p>Went from Fanatic’s DrawCard phase to End phase.<br>
+Created decision [SelectTargets/None D70 Fanatic]<br>
+Created decision [SelectTarget/None D70-1 Fanatic]<br>
+Hermetic Evolved initiates 1 Infernal damage to Autonomous Blade.<br>
+Hermetic Evolved deals Autonomous Blade 1 Infernal damage.<br>
+Autonomous Blade is now at 3 HP.<br>
+Created decision [SelectTarget/None D70-2 Fanatic]<br>
+Hermetic Evolved initiates 1 Infernal damage to Fanatic.<br>
+Hermetic Evolved deals Fanatic 1 Infernal damage.<br>
+Fanatic is now at 12 HP.<br>
+Fanatic initiates 1 Psychic damage to Fanatic.<br>
+Fanatic deals Fanatic 1 Psychic damage.<br>
+Fanatic is now at 11 HP.<br>
+Wounding Buffer reacts!<br>
+Wounding Buffer initiates 2 Energy damage to Fanatic.<br>
+Wounding Buffer deals Fanatic 2 Energy damage.<br>
+Fanatic is now at 9 HP.<br>
+Wounding Buffer reacts!<br>
+Wounding Buffer initiates 2 Energy damage to Wounding Buffer.<br>
+Wounding Buffer deals Wounding Buffer 2 Energy damage.<br>
+Wounding Buffer is now at 2 HP.<br>
+Created decision [SelectTargets/None D71 Captain Cosmic]<br>
+Created decision [SelectTarget/None D71-1 Captain Cosmic]<br>
+Autonomous Blade initiates 2 Energy damage to Hermetic Evolved.<br>
+Autonomous Blade deals Hermetic Evolved 2 Energy damage.<br>
+Hermetic Evolved is now at 6 HP.<br>
+Wounding Buffer reacts!<br>
+Wounding Buffer initiates 2 Energy damage to Hermetic Evolved.<br>
+Wounding Buffer deals Hermetic Evolved 2 Energy damage.<br>
+Hermetic Evolved is now at 4 HP.<br>
+Created decision [SelectTarget/None D70-3 Fanatic]<br>
+Hermetic Evolved initiates 1 Infernal damage to Wounding Buffer.<br>
+Hermetic Evolved deals Wounding Buffer 1 Infernal damage.<br>
+Wounding Buffer is now at 1 HP.<br>
+Created decision [SelectTarget/None D70-4 Fanatic]<br>
+Went from Fanatic’s End phase to AfterEnd phase.</p>
+<p>Later in the game, Korrupton came into play from one of the Environments being threatened by Blivs, and it’s possible that there’s some subtle difference in wording between Hermetic and Korrupton that explains why the latter damages each target once, and then again damages each target once, but Hermetic damages a target who immediately damages itself, and only the latter is somehow counted as the first damage to occur that turn.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2025-11-05 00:57 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>I’d submit a bug report with that information to Handelabra.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-05 02:28 UTC <span class="when">(in reply to #4)</span></div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Are they still taking bug reports for a product from that long ago?</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2025-11-05 03:39 UTC <span class="when">(in reply to #5)</span></div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Yes, they still actively put out patches and MigrantP still puts together a weekly one-shot.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-06 11:09 UTC <span class="when">(in reply to #6)</span></div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>Well I tried to replicate the glitch last night, instead I got pulled into a rather successful game that I paused at phase 2, so it’ll be at least a couple days before I can try again.  Maybe in the meantime someone else can do it.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(220 45% 42%)">OM</div>
+    <div><div class="who">Omegatron</div><div class="when">2025-11-06 17:01 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>Is it possible that Hermetic had already damage Fanatic that turn? The buffer only reacts once per target I believe.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-06 18:22 UTC <span class="when">(in reply to #8)</span></div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>He was activating his own text, and that attack was the first thing he did; I’m not 100% sure nothing else was like “the third lowest HP non-environment target which is a non-hero character card” dealing some damage, but I’m 99% sure.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(220 45% 42%)">OM</div>
+    <div><div class="who">Omegatron</div><div class="when">2025-11-06 18:44 UTC <span class="when">(in reply to #9)</span></div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>I can’t think of anything off hand that would cause that, but it’s the only non-bug explanation I can think of. If you upload the complete log to something like <a href="https://pastebin.com/" rel="noopener nofollow ugc">pastebin</a>, we could check.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-06 20:00 UTC <span class="when">(in reply to #10)</span></div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Not sure if I kept the whole log, I’ll see.  When I suggested you guys might find it before I can do it again, I was suggesting you try what I did: set up an Oblivaeon game with Fanatic as hero 5, four other heroes before her including CC, and then draw a mission card or reshuffle the deck until Hermetic Evolved turns up.</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-07 04:30 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Unrelated to the earlier mentioned glitch (the game I resumed today had already run out of Captains Cosmic by the time I did a save-and-quit yesterday), I faced OblivaeVoss for the first time.  Did you know he has his own unique victory music?  I didn’t!  A special Apostate-like choral remix of the Voss theme  for when he successfully “subjugates” the universe? (Which is better than destroying the multiverse, I suppose, if only because it’s a localized despotic regime.)</p>
+<p>Most of seven years that song has existed without my knowing about it.  I don’t think you can even hear it any other way besides losing an OblivAeon game in phase 4.  I can’t say it’s my favorite villain victory song, but it’s certainly better than the silence you’re greeted with after Original Recipe OblivAeon blows up his fifth Environment.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-07 11:50 UTC <span class="when">(in reply to #12)</span></div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>Two more replication attempts failed.  The absolute perversity with which Captain Cosmic’s deck refuses to cough up a Wounding Buffer for me beggars belief.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-11-17 13:06 UTC <span class="when">(in reply to #13)</span></div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>Finally got the bug replicated (more or less) and reported.  If I never play CC and Fanny against Blivs again, it’ll be too soon.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

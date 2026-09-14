@@ -1,0 +1,86 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Syntactic Analysis Shenanigans</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Syntactic Analysis Shenanigans</div>
+<h1>Syntactic Analysis Shenanigans</h1>
+<div class="desc">7 posts &middot; 379 views &middot; started 2014-11-01 23:51 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(160 45% 42%)">DW</div>
+    <div><div class="who">dwetuski</div><div class="when">2014-11-01 23:51 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>I was playing a game with Parse and Nightmist, and it's raised some questions about exactly how flexible Syntacic Analysis is. &nbsp;The card text:</p><p>"Select a player. &nbsp;That player reveals the top 2 cards of their deck. &nbsp;They may play, draw, or discard each of those cards in any order."</p><p>Now, I've always played this card with the assumption that the word "each" means the selected player can choose a different option for each card. &nbsp;But, now it occurs to me that the word "may" implies that the player is not required to choose any of those 3 options, in which case the card would return to the top of the deck, since it has only been revealed. &nbsp;This is particularly relevant to Nightmist because of cards like Enlightenment which check the spell icon value of the top card of her deck.</p><p>So, for example, let's say Nightmist drew an Enlightenment (1) and a Tome of Elder Magic (4). &nbsp;I think she chould choose to process the Tome first, pass on all 3 options to return it to the top of the deck, then play Enlightenment to give someone a guaranteed 4 card draw; or play the Enlightenment first to gamble on the draw (since the Tome is still being revealed, it's not technically on top of the deck), then return the Tome to the top of the deck to power one the spells in her hand on her next turn; or choose to pass on both cards to guarantee an optimized Oblivion on her next turn.</p><p>But, I feel like I'm making some assumptions with this interpretation, so does anyone see a problem with it? &nbsp;Thanks.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-11-02 02:59 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>May is not there for "you may choose one of these, or not", it is there for "you may chose a different option for each card".</p><p>Primary rule of Sentinels is Read the cards literally, there is no option to put it back on the deck, so you can't do that with this card. The options that you "may" select from are draw, discard or play, for each card separately. If you do not choose from one of those selected options then the game has stalled as Syntactic Analysis is still waiting for the 2 revealed cards to be played, drawn or discarded.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(160 45% 42%)">DW</div>
+    <div><div class="who">dwetuski</div><div class="when">2014-11-02 09:24 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Ah, good catch. &nbsp;If they could be returned to the deck, it would explicitly say that. &nbsp;I knew something felt off. &nbsp;Thanks.</p><p>Although, if we're really going to read the card literally, the word "may" still implies that making the choice is optional. &nbsp;Otherwise, it would say something like, "That player reveals the top 2 cards of their deck and chooses to play, draw, or discard each of them in any order." &nbsp;So, rules as written, if the player chooses not to do any of those 3 things to one or both cards, then the card(s) would remain revealed and effectively out of play for the rest of the game. &nbsp;Of course, it's hard to imagine that that's rules as intended, and I certainly wouldn't play it that way, but literally, that's what it says.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-02 16:08 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>I thought for a while that I had a counterargument:&nbsp; Tachyon's base power (Rapid Recon).&nbsp; If read the way Matchstickman suggests, Tachyon would *always* have to discard the top card, and that doesn't seem right.&nbsp; But her power doesn't actually say "reveal", it says "look at".&nbsp; So the card is still technically on top of the deck (even if the player actually picked it up to look at), and doing a no-op doesn't leave any cards in an untenable state.</p><p>This Reveal/Look At distinction can also be significant when fighting Ambuscade.&nbsp; If I understand correctly, "reveal" actions cause traps underneath the revealed cards to go off, whereas "look at" actions do not.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(6 45% 42%)">SE</div>
+    <div><div class="who">Sefirit</div><div class="when">2014-11-03 16:39 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Honestly I think he did read it literally.&nbsp; Don't we have cards that say something like "You may draw a card" which is ready as "you can draw a card or not as you choose."&nbsp; I'm sure matchstick is correct on his ruling, but as far as reading it literally I could see an argument being made for</p><p>1. card is revealed</p><p>2. I may draw it, but choose not to</p><p>3. I may play it, but choose not to</p><p>4. I may discard it, but choose not to</p><p>5. nothing happens to card i.e. usually when you only reveal a card and don't do anything else with it, it is returned to the top of the deck.</p><p>I suppose you could say that it never tells you to return it to the top so it would sit in some ambiguous revealed state forever.&nbsp; I suppose you might also need a clause in there to say that if any option is chosen no other option can be chosen for the same card.</p><p>&nbsp;</p><p>I'm not a fan of rules lawyering in most cases but this seemed clever.&nbsp; I like it better than some things I've seen in other posts such as Freedom Six Tempest being able to destroy his cards under La Capitan.</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(205 45% 42%)">MT</div>
+    <div><div class="who">Medic-Tank</div><div class="when">2014-11-03 17:45 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Sefirit">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/s/e68b1a/48.png" class="avatar"> Sefirit:</div>
+<blockquote>
+<p>&nbsp; I like it better than some things I've seen in other posts such as Freedom Six Tempest being able to destroy his cards under La Capitan.&nbsp;</p>
+</blockquote>
+</aside>
+<p>Except that also means omnitron card wreck your world if your savage mana is filled with say final wasteland criters…</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2014-11-04 02:34 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Medic-Tank">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/medic-tank/48/2107_2.png" class="avatar"> Medic-Tank:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Sefirit wrote:</b><br><blockquote>&nbsp; I like it better than some things I've seen in other posts such as Freedom Six Tempest being able to destroy his cards under La Capitan.&nbsp;
+&nbsp;
+</blockquote></div>
+Except that also means omnitron card wreck your world if your savage mana is filled with say final wasteland criters...
+</blockquote>
+</aside>
+<p>And that is exactly what it does. &nbsp;Don't Savage Mana the envronment vs. Omnitron.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

@@ -1,0 +1,358 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stealth Bot vs Smoke Bombs issue (app interaction and question)</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Stealth Bot vs Smoke Bombs issue (app interaction and question)</div>
+<h1>Stealth Bot vs Smoke Bombs issue (app interaction and question)</h1>
+<div class="desc">28 posts &middot; 681 views &middot; started 2015-02-09 13:44 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-09 13:44 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Here's what happens.</p><p>1. &nbsp;Ambuscade tries to shoot someone for 3 damage.</p><p>2. &nbsp;All heroes are equal health, Stealth Bot and Smoke Bombs are in play, SB is the lowest HP hero target.</p><p>3. &nbsp;So I have to choose the highest HP hero target, I choose Unity. &nbsp;</p><p>4. &nbsp;I<span>t asks if I want to redirect the damage from Unity to Stealth Bot. &nbsp;</span><span>I say Yes.</span></p><p><span>5. &nbsp;Stealth Bot is dealt 2 damage.</span></p><p>&nbsp;</p><p>Step 5 apparently has Stealth Bot redirecting from Unity, but Smoke Bombs should make it impossible for SB to take the damage, except that the highest HP target is Unity, and I had already told Stealth Bot to take that damage for Unity.</p><p>So first I think the option to redirect to stealth Bot should be available as an option, or maybe Smoke Bombs isn't programmed to work if the damage gets bounced around multiple times?</p><p>&nbsp;</p><p>Secondly, as a general rules question:</p><p>Should the highest/lowest hp target be able to be rechosen when damage gets redirected? &nbsp;Just wondering if it is a per instance resolution or is it even more fluid than that.</p><p>*side note* great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It's cool how few interactions go wrong in a game this complex.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2015-02-09 13:57 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>We'll take a look, I think Smoke Bombs should have triggered.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-09 14:46 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="MigrantP">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png" class="avatar"> MigrantP:</div>
+<blockquote>
+<p>We'll take a look, I think Smoke Bombs should have triggered.</p>
+</blockquote>
+</aside>
+<p>Sadly I tapped the text box while skimming it, so I don't know what it said, other than Stealth Bot reduced the damage.</p>
+<p>I can verift that there wasn't a lower health hero target, SB was the only golem in play and all three heroes were tied at 20hp.</p>
+<p>Although thinking about it it ended up dealing 2 damage, which means Smoke Bombs couldn't have triggered.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">RA</div>
+    <div><div class="who">Rabk</div><div class="when">2015-02-09 15:03 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p><em>side note</em> great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It's cool how few interactions go wrong in a game this complex.</p>
+</blockquote>
+</aside>
+<p>I may be mistaken, but doesn't the Wagon damage come directly from the environment? From the spoiler sheet:</p>
+<aside class="quote no-group" data-username="Explosives Wagon">
+<div class="title">
+<div class="quote-controls"></div>
+ Explosives Wagon:</div>
+<blockquote>
+<p>When this card is destroyed, deal each Target 2 Fire Damage and 2 Projectile Damage.</p>
+</blockquote>
+</aside>
+<p>If the Wagon itself was dealing the damage it would say something like "…this card deals each target…" instead. As I understand it, an Explosives Wagon can be neither Chastised nor stopped by Hypersonic Assaults, etc. Or did I miss yet another ruling?</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2015-02-09 15:16 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Rabk">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabk/48/1978_2.png" class="avatar"> Rabk:</div>
+<blockquote>
+<div><b>phantaskippy wrote:</b><br><blockquote>*side note* great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It's cool how few interactions go wrong in a game this complex.
+&nbsp;
+</blockquote></div>
+I may be mistaken, but doesn't the Wagon damage come directly from the environment? From the spoiler sheet:
+<div><b>Explosives Wagon wrote:</b><br><blockquote>When this card is destroyed, deal each Target 2 Fire Damage and 2 Projectile Damage.
+&nbsp;
+</blockquote></div>
+If the Wagon itself was dealing the damage it would say something like "...this card deals each target..." instead. As I understand it, an Explosives Wagon can be neither Chastised nor stopped by Hypersonic Assaults, etc. Or did I miss yet another ruling?
+</blockquote>
+</aside>
+<p>Ummm…well first off I think you bring up a good point.</p>
+<p>For the record, I have always assumed the damage came from Explosive Wagon. Since that card is creating the effect of the damage, the damage is coming from that card.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2015-02-09 15:20 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>The damage is coming from the Explosive Wagon and stays in play until it finishes dealing damage.&nbsp;</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2015-02-09 15:24 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>It may need some errata, the text specifying it as the source may of mistakenly been left off.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">RA</div>
+    <div><div class="who">Rabk</div><div class="when">2015-02-09 15:26 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>[quote=Spiff's FAQ]</p>
+<p><strong>Source of Damage</strong>&nbsp;<br>Not all environment cards specify who/what is dealing damage. Instead of the text “this card deals xyz damage”, some just say “deal xyz damage”. In cases like this, you should assume the damage is being dealt by the environment itself, or if it’s important, from the card itself.<br>[/quote]</p>
+<p>I knew I had read that non-sourced damage came from the environment itself, but apparently I missed the phrase, " <em>or if it’s important, from the card itself</em>." I guess this is a case where it is, in fact, important. Spiff doesn't provide a link for that particular ruling; it's one I would be interested in.</p>
+<p><br>&nbsp;</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">RA</div>
+    <div><div class="who">Rabk</div><div class="when">2015-02-09 15:32 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Ronway">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png" class="avatar"> Ronway:</div>
+<blockquote>
+<p>It may need some errata, the text specifying it as the source may of mistakenly been left off.</p>
+</blockquote>
+</aside>
+<p>Aye, I'm pretty sure the Wagon is the only environment  <em>target </em> that deals damage without specifying the source. All of the Volcanoes, Primordial Plants, Police, Checmicals, etc. that do the same are non-target cards.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2015-02-09 15:36 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Spiffs FAQ actually does talk about that card. It explains why it deals three fire and three projectile damage not sure if that answers you on this fully or not. &nbsp;</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">RA</div>
+    <div><div class="who">Rabk</div><div class="when">2015-02-09 15:50 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>Spiffs FAQ actually does talk about that card. It explains why it deals three fire and three projectile damage not sure if that answers you on this fully or not. &nbsp;</p>
+</blockquote>
+</aside>
+<p>No, the staying in play part I understand just fine - that's not at issue. It's the wording that doesn't specify the wagon actually dealing the damage. If an environment card just says, "deal <i>X&nbsp;</i>target&nbsp;<em>Y</em> damage," you usually assume it's coming from the environment itself rather than the card. The wagon doesn't say, "This card deals each target 2…," so it shouldn't technically be able to be stopped by Chastise <em>et al.</em></p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-09 16:11 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>It definitely comes from the environment. My triple Mega Computer neutered all environment damage in a game I played last night.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2015-02-09 16:14 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>The same sentence states, when this card is destroyed, which implies to me that the Wagon which just blew up is dealing the damage. &nbsp;</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2015-02-09 16:15 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="xThe Killswitch">
+<div class="title">
+<div class="quote-controls"></div>
+ xThe Killswitch:</div>
+<blockquote>
+<p>It definitely comes from the environment. My triple Mega Computer neutered all environment damage in a game I played last night.</p>
+</blockquote>
+</aside>
+<p>That would neuter the damage regardless of whether Explosive Wagon or the environment itself dealt the damage so long as the source occurred because of an environment card. &nbsp;</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(317 45% 42%)">SI</div>
+    <div><div class="who">Silverleaf</div><div class="when">2015-02-09 16:23 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>I've always thought it was the Wagon dealing the damage even if it doesn't specify that. Thematically it makes sense that the explody damage comes from the explody target...</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2015-02-09 16:26 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Rabk">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabk/48/1978_2.png" class="avatar"> Rabk:</div>
+<blockquote>
+<p><b>Spiff's FAQ wrote:</b></p>
+<div><blockquote><strong>Source of Damage</strong>&nbsp;Not all environment cards specify who/what is dealing damage. Instead of the text “this card deals xyz damage”, some just say “deal xyz damage”. In cases like this, you should assume the damage is being dealt by the environment itself, <em><strong>or if it’s important, from the card itself.</strong></em>
+&nbsp;
+</blockquote></div>
+I knew I had read that non-sourced damage came from the environment itself, but apparently I missed the phrase, "<em>or if it’s important, from the card itself</em>." I guess this is a case where it is, in fact, important. Spiff doesn't provide a link for that particular ruling; it's one I would be interested in.&nbsp;
+</blockquote>
+</aside>
+<p>I highlighted the important part of Spiffs FAQ. The damage still is coming from the card Explosive Wagon.</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-09 16:36 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>According to some old rulings any villain card that doesn't specify the dealer of the damage it is assumed to be dealt by the villain character card.</p><p>Also The Environment, per the rule book, can be the source of damage, as seen on PW Tempest's card, wagon, and all over Insula Primalis.</p><p>However, when an environment card causes damage to be dealt without specifying a source, that environment card is causing the damage to be dealt, so it would be reducable by Mega Computer, or redirectable by Infiltrate and Obfuscate, even though the damage is being dealt by "The Environment."</p><p>Look at Insula Primalis, that environment deals a lot of damage, but the damage is treated as being dealt by the cards for the purposes of reduction and redirection.</p><p>That's why Spiff's FAQ says:</p><blockquote><p><span>&nbsp;In cases like this, you should assume the damage is being dealt by the environment itself, or if it’s important, from the card itself.</span></p></blockquote><p><span>Because when it makes a difference you treat is as if the card is dealing the damage, since the card is the environment.</span></p><p>&nbsp;</p><p><span>It also means that PW Tempest's power causes damage to be dealt from the Environment, but not from an Environment card, so it is not dealt by an environment card, just from the environment, which means your only reduction/redirection options are ones that focus on a hero taking damage, and not cards that react or modify damage from Environment cards.</span></p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-09 16:42 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>In any case, I agree how Chastise works (as that is also something I tried myself in the app), and it seems as though Wagon is indeed the source of damage.</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-02-09 16:47 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><p>That was a very unfun argument to read. Everybody agreed.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-09 16:57 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>That was a very unfun argument to read. Everybody agreed.</p>
+</blockquote>
+</aside>
+<p>No, we didn't!</p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-09 17:19 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>That was a very unfun argument to read. Everybody agreed.</p>
+</blockquote>
+</aside>
+<p>I know, and it has such potential, the trouble was all the old arguments over this topic were resolved quickly with official responses.</p>
+<p>It's not everyday Christopher goes on a cruise and we can sew chaos and discord in the forums.</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2015-02-09 18:23 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p>It's not everyday Christopher goes on a cruise and we can sew chaos and discord in the forums.</p>
+</blockquote>
+</aside>
+<p>I think I can speak for the rest of the staff in saying that we really <em><strong>love </strong></em>that this is your definition of "chaos and discord".  <img src="https://forums.greaterthangames.com/images/emoji/apple/grin.png?v=12" title=":grin:" class="emoji" alt=":grin:" loading="lazy" width="20" height="20"></p>
+<p>Please continue.  <img src="https://forums.greaterthangames.com/images/emoji/apple/sunglasses.png?v=12" title=":sunglasses:" class="emoji" alt=":sunglasses:" loading="lazy" width="20" height="20"></p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-09 18:42 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><p>You're all stupid heads!</p><p>-leaves and lets chaos and discord unfold-</p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2015-02-09 18:43 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><p>Oh yeah!?!?! &nbsp;Well, you're a towel!</p></div>
+</div>
+<div class="post" id="post-25">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2015-02-09 18:53 UTC</div></div>
+    <div class="postnum">#25</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>Oh yeah!?!?!  Well, you’re a towel!</p>
+</blockquote>
+</aside>
+<p>I know where MY towel is.  Do you know where yours is?</p></div>
+</div>
+<div class="post" id="post-26">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-09 19:01 UTC</div></div>
+    <div class="postnum">#26</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>Oh yeah!?!?! &nbsp;Well, you're a towel!</p>
+</blockquote>
+</aside>
+<p>The most useful asset to have while hitchhiking through the galaxy? Yeah, I know.</p></div>
+</div>
+<div class="post" id="post-27">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(14 45% 42%)">EU</div>
+    <div><div class="who">eugeneruss</div><div class="when">2015-02-09 19:44 UTC</div></div>
+    <div class="postnum">#27</div>
+  </div>
+  <div class="post-body"><p>Respectfully, I'd like to disagree with the conclusions drawn in this argument.</p><p>&nbsp;</p><p>But I can't.</p></div>
+</div>
+<div class="post" id="post-28">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(347 45% 42%)">DR</div>
+    <div><div class="who">DrScott</div><div class="when">2015-02-12 03:58 UTC</div></div>
+    <div class="postnum">#28</div>
+  </div>
+  <div class="post-body"><p>You are all without a doubt hoopy froods.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

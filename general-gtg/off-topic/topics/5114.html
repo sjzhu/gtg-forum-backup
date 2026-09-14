@@ -1,0 +1,565 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I&#x27;m bored...</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../general-gtg/index.html">General GTG</a> &rsaquo; <a href="../../../general-gtg/off-topic/index.html">Off Topic</a> &rsaquo; I&#x27;m bored...</div>
+<h1>I&#x27;m bored...</h1>
+<div class="desc">24 posts &middot; 2216 views &middot; started 2011-08-22 12:20 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-22 12:20 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>[font=courier]    class SubZeroAtmosphere : LastingCard {</p>
+<pre><code>    private class SubZeroStartVillainTurnTrigger : ITrigger {
+        private Trigger _VillainStart;
+        private Trigger _VillainEnd;
+
+        public SubZeroStartVillainTurnTrigger(Trigger villainStart, Trigger villainEnd) {
+            _VillainStart = villainStart;
+            _VillainEnd = villainEnd;
+        }
+
+        public bool Raise(Player value) {
+            var responses = new SortedSet&gt;(_VillainStart.Responses, new Trigger.ResponseByDateComparer());
+            foreach (var response in _VillainEnd.Responses.Where(r =&gt; r.Card.Type == CardType.Villain)) responses.Add(response);
+            var c = new Cancelable() { Value = value, IsCancelled = false };
+            foreach (var response in responses) {
+                response.OnNext(c);
+                if (c.IsCancelled) return false;
+            }
+            return true;
+        }
+
+
+        public IDisposable Subscribe(IObserver&gt; observer) {
+            return _VillainStart.Subscribe(observer);
+            
+        }
+    }
+
+    private class SubZeroEndVillainTurnTrigger : ITrigger {
+        private Trigger _VillainEnd;
+
+        public SubZeroEndVillainTurnTrigger(Trigger villainEnd) {
+            _VillainEnd = villainEnd;
+        }
+
+        public bool Raise(Player value) {
+            var responses = new SortedSet&gt;(
+                _VillainEnd.Responses.Where(r =&gt; r.Card.Type != CardType.Villain),
+                new Trigger.ResponseByDateComparer()
+            );
+            var c = new Cancelable() { Value = value, IsCancelled = false };
+            foreach (var response in responses) {
+                response.OnNext(c);
+                if (c.IsCancelled) return false;
+            }
+            return true;
+        }
+
+
+        public IDisposable Subscribe(IObserver&gt; observer) {
+            return _VillainEnd.Subscribe(observer);
+        }
+
+    }
+
+    private Trigger _VillainStart;
+    private Trigger _VillainEnd;
+
+    public SubZeroAtmosphere(HeroPlayer player) : base("Sub-Zero Atmosphere", player) { }
+
+    protected override bool PlayLasting() {
+        if (!(Game.Villain.OnStartTurn is Trigger &amp;&amp; Game.Villain.OnEndTurn is Trigger)) return false;
+        _VillainStart = (Trigger)Game.Villain.OnStartTurn;
+        _VillainEnd = (Trigger)Game.Villain.OnEndTurn;
+        Game.Villain.OnStartTurn = new SubZeroStartVillainTurnTrigger(_VillainStart, _VillainEnd);
+        Game.Villain.OnEndTurn = new SubZeroEndVillainTurnTrigger(_VillainEnd);
+        return true;
+    }
+
+    protected override void DestroyCard() {
+        Game.Villain.OnStartTurn = _VillainStart;
+        Game.Villain.OnEndTurn = _VillainEnd;
+        base.DestroyCard();
+    }
+
+    public override bool CanPlay {
+        get { throw new NotImplementedException(); }
+    }
+
+    public override CardType Type {
+        get { return CardType.Hero; }
+    }
+
+    public override IEnumerable Keywords {
+        get { return new string[]{"ongoing"}; }
+    }
+
+    public override string GameText {
+        get {
+            return "Any villain card which would act at the end of the villain turn instead acts at the start of the villain turn.";
+        }
+    }
+
+    public override IEnumerable Powers {
+        get { return Enumerable.Empty(); }
+    }
+}[/font]</code></pre></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(11 45% 42%)">AD</div>
+    <div><div class="who">Adam</div><div class="when">2011-08-22 12:24 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Just out of curiosity, at what percentage of coding the entire card game are you? ???</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-22 12:50 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Well, as far as anything specific to Sentinels of the Multiverse itself, I’ve only coded two cards (one of which doesn’t exactly fit the current API).  Right now I’ve probably implemented most of the model, but none of the engine.  I know one tough hurdle I’m going to hit is the fact most (all?) enumerators already defined in the .NET framework are either wrappers around other enumerators, or they throw an exception when the underlying collection is modified while being enumerated.  I’ll likely have to implement my own wrapper enumerator which sets itself back to where it left off when the wrapped enumerator throws its exception.  Either that or reimplement a trigger’s collection of responses using the observer pattern while not relying on any enumerators, but the former sounds much simpler.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(11 45% 42%)">AD</div>
+    <div><div class="who">Adam</div><div class="when">2011-08-22 12:54 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>So…magic then? You’re using magic?</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-22 12:58 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>If that’s what you people believe when you see a computer working, then yes, I’m using magic, hehehehe.</p>
+<p>Once I get the engine up to a decent point, I wouldn’t mind releasing it open source.  Of course, card packs would be a completely different story, as it would contain various IP (copyrights and trademarks) of Greater Than Games, and could get me in trouble.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(83 45% 42%)">CH</div>
+    <div><div class="who">Christopher</div><div class="when">2011-08-22 13:17 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>“Any sufficiently advanced technology is indistinguishable from magic.”<br>
+- Arthur C. Clarke</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-22 13:20 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>That must mean I’m some sort of grand warlock, yes?</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(141 45% 42%)">TA</div>
+    <div><div class="who">Tamar</div><div class="when">2011-08-22 14:06 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="&quot;&quot;Adam&quot;&quot;">
+<div class="title">
+<div class="quote-controls"></div>
+ ""Adam"":</div>
+<blockquote>
+<p>So…magic then? You’re using magic?</p>
+</blockquote>
+</aside>
+<p>Sure looks like magic to me!</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2011-08-22 18:33 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>In thinking how I’d code the game, it seemed like a queue of actions to take would work well, where the result of an action could be more actions inserted into the queue at the head. I imagine the queue starting with a single task which is something like ‘Do a Round’. That task would then spawn a Villain Turn, each Hero Turn, and an environment Turn, all to be put in the queue, followed by another ‘Do a Round’ task. Beyond the queue, the model would need to have heroes, villains, environment and their associated draw pile, trash pile, in-play set, and hand. The piles, set, and hands would then have cards associated with them. Each card would then have actions they could spawn and effect filters they could set. Some actions, such as doing damage, would be implemented by looking through a set of source filters (like Absolute Zero changing cold damage he does to +1), general filters (like Legacy’s Galvanize setting all damage done by heroes to +1), and target filters (like Warlord Voss having all damage decreased by 1 or 2 for each minion). Other actions would primarily change the status of cards – this card is no longer in the hand, it is in the in-play set.</p>
+<p>I share this both because I felt like writing down what’s in my head and to ask The JayMann if this is like what he envisions.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-22 18:46 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Half of what you have written is what I’ve implemented.  However, instead of something generic like “filters” or whatnot, I’m using the Observable/Observer pattern (Reactive Framework).  Basically, the opposite of an enumerator (a push based enumerator of sorts).  Basically, anything that needs to respond to any event registers it’s response (observer) with a trigger (observable), and I’ve designed lasting cards to have a play time, and responses have a reference to a card, and if the card is lasting, it uses it’s play time (otherwise uses the current time or a custom defined time) such that all responses can then be sorted by earliest so that earlier responses are triggered first.  Also, any response can cancel the trigger, prevent further responses from responding to the trigger.  Many triggers I’m implementing in pairs, such that one trigger occurs before the action takes place (allowing the action to be cancelled before it’s performed) and one that occurs after the action (so it can respond to the fact the action actually took place).  Basically, the only thing I haven’t implemented yet is the code that processes each round (engine), and that’s because I’ll need a good amount of the model defined and set in stone so that engine is strait forward, and so that a necessary change in model doesn’t adversely effect the engine.</p>
+<p>Basic M-C-VM-V pattern (Model, Controller, View Model, View)</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2011-08-22 19:09 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="&quot;&quot;TheJayMann&quot;&quot;">
+<div class="title">
+<div class="quote-controls"></div>
+ ""TheJayMann"":</div>
+<blockquote>
+<p>Half of what you have written is what I’ve implemented.  However, instead of something generic like “filters” or whatnot, I’m using the Observable/Observer pattern (Reactive Framework).  Basically, the opposite of an enumerator (a push based enumerator of sorts).  Basically, anything that needs to respond to any event registers it’s response (observer) with a trigger (observable), and I’ve designed lasting cards to have a play time, and responses have a reference to a card, and if the card is lasting, it uses it’s play time (otherwise uses the current time or a custom defined time) such that all responses can then be sorted by earliest so that earlier responses are triggered first.  Also, any response can cancel the trigger, prevent further responses from responding to the trigger.  Many triggers I’m implementing in pairs, such that one trigger occurs before the action takes place (allowing the action to be cancelled before it’s performed) and one that occurs after the action (so it can respond to the fact the action actually took place).  Basically, the only thing I haven’t implemented yet is the code that processes each round (engine), and that’s because I’ll need a good amount of the model defined and set in stone so that engine is strait forward, and so that a necessary change in model doesn’t adversely effect the engine.</p>
+<p>Basic M-C-VM-V pattern (Model, Controller, View Model, View)</p>
+</blockquote>
+</aside>
+<p>Very cool. I’d be keen to see it if you make it available. What do you have in mind for the View? Are you envisioning a web app?</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-22 19:50 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Right now, WPF, as I’m experienced in using ViewModels in WPF.  <a href="http://ASP.NET" rel="noopener nofollow ugc">ASP.NET</a> MVC should work well with ViewModels as well, and Silverlight/WP7 is just a different version of WPF.  Other views shouldn’t be too difficult (for someone with experience that is) like MonoTouch, Monodroid, GTK#, etc.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2011-08-22 20:45 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>Certainly is a lot of magic talk. I can’t understand a bit, maybe speaking in Dragonic?</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(141 45% 42%)">TA</div>
+    <div><div class="who">Tamar</div><div class="when">2011-08-22 21:22 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>I love listening in on other people’s nerdery, even when I don’t really get it <img src="https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=9" title=":stuck_out_tongue:" class="emoji" alt=":stuck_out_tongue:">  It’s just fun to hear knowledgeable people talk about what they know.</p>
+<p>And maybe if I pay enough attention I’ll learn to cast fireball!</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(240 45% 42%)">BE</div>
+    <div><div class="who">beevolant</div><div class="when">2011-08-22 23:27 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="&quot;&quot;Tamar&quot;&quot;">
+<div class="title">
+<div class="quote-controls"></div>
+ ""Tamar"":</div>
+<blockquote>
+<p>And maybe if I pay enough attention I’ll learn to cast fireball!</p>
+</blockquote>
+</aside>
+<p>Ooooh! Fireball! My favorite! <img src="https://forums.greaterthangames.com/images/emoji/apple/smiley.png?v=12" title=":smiley:" class="emoji" alt=":smiley:" loading="lazy" width="20" height="20"></p>
+<p>I once programmed a website in html <em>mumblemumble</em> years ago. So for me, this looks more like <em>cue Announcer voice</em> Science FICTION!</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-27 23:00 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p>[font=courier]    class DrawnToTheFlame : LastingCard {</p>
+<pre><code>    protected override bool PlayLasting() {
+        return true;
+    }
+
+    public override bool CanPlay {
+        get { return true; }
+    }
+
+    public override CardType Type {
+        get { return CardType.Hero; }
+    }
+
+    private string[] keywords = { "Ongoing" };
+
+    public override IEnumerable Keywords {
+        get { return keywords; }
+    }
+
+    public override string GameText {
+        get { return string.Empty; }
+    }
+
+    Power power = new Power() {
+        GameText = "Ra deals each non-hero target 1 fire damage for each villain ongoing card in play.",
+        Play = () =&gt; {
+            var damageCount = Game.Villain.CardsInPlay.Where(c =&gt; c.Keywords.Contains("Ongoing")).Count();
+            foreach (var target in Game.CardsInPlay.OfType().Where(t =&gt; t.CardType != CardType.Hero)) this.DamageTarget(target, damageCount, DamageType.Fire);
+        },
+    };
+            
+    public override IEnumerable Powers {
+        get { return new Power[] { power }; }
+    }
+}[/font]
+</code></pre>
+<p>At a stuck point, more or less, so decided to draw a random card and implement it.  (Note: Card does not compile, as there currently is no Game.CardsInPlay list.  I’m still not sure if I should make a bunch of game level lists, or if I should just create a game level player list and compose the more specific lists as needed (e.g. Game.Players.SelectMany(p =&gt; p.CardsInPlay)).)</p>
+<p>I also have yet to implement services (request dialogs, etc)…</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2011-08-28 01:25 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="&quot;&quot;TheJayMann&quot;&quot;">
+<div class="title">
+<div class="quote-controls"></div>
+ ""TheJayMann"":</div>
+<blockquote>
+<p>I’m still not sure if I should make a bunch of game level lists, or if I should just create a game level player list and compose the more specific lists as needed (e.g. Game.Players.SelectMany(p =&gt; p.CardsInPlay)).)</p>
+</blockquote>
+</aside>
+<p>I was thinking that the lists should be specific to individual players, such that a game would consist of one (or more!) villains, one (or more!) environments, and three to five (or less or more!) heroes, and then within each villain, environment, and hero you’d have separate lists for draw pile, trash, hand, and in-play.</p>
+<p>I mostly think of it that way because, well, that’s how I think of the game, but if you have game-level lists, then you have to tag each individual card with who owns it and what state (draw pile, trash, hand, in-play) anyway.</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-28 01:36 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>If I were to have game level lists, they would just be enumerable wrappers over the individual lists.  The internal debate is whether to create a game level wrapper for each possible list, or just create a player wrapper and compose the lists as needed.  (I.e. do I create public static Pile CardsInPlay { get { return players.SelectMany(p=&gt;p.CardsInPlay);}} or do I just use Game.Players.SelectMany(p=&gt; p.CardsInPlay) each time I need to get all cards in play?)</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2011-08-28 04:58 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="&quot;&quot;TheJayMann&quot;&quot;">
+<div class="title">
+<div class="quote-controls"></div>
+ ""TheJayMann"":</div>
+<blockquote>
+<p>If I were to have game level lists, they would just be enumerable wrappers over the individual lists.  The internal debate is whether to create a game level wrapper for each possible list, or just create a player wrapper and compose the lists as needed.  (I.e. do I create public static Pile CardsInPlay { get { return players.SelectMany(p=&gt;p.CardsInPlay);}} or do I just use Game.Players.SelectMany(p=&gt; p.CardsInPlay) each time I need to get all cards in play?)</p>
+</blockquote>
+</aside>
+<p>Ah. Very interesting. I can see arguments on both sides in terms of understandability. I’d probably implement the wrappers after about the 2nd or third time I wanted all of the cards in play.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-28 05:51 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><p>So I created a chm based on what I’ve documented of the model thus far.  I can’t attach more than 192 KB at a time, so I have to provide a link.</p>
+<p><a href="http://www.mediafire.com/download.php?spb13h8khh8dp8h" class="onebox" target="_blank" rel="noopener nofollow ugc">http://www.mediafire.com/download.php?spb13h8khh8dp8h</a></p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2011-08-28 13:22 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="&quot;&quot;TheJayMann&quot;&quot;">
+<div class="title">
+<div class="quote-controls"></div>
+ ""TheJayMann"":</div>
+<blockquote>
+<p>So I created a chm based on what I’ve documented of the model thus far.  I can’t attach more than 192 KB at a time, so I have to provide a link.</p>
+<p><a href="http://www.mediafire.com/download.php?spb13h8khh8dp8h">http://www.mediafire.com/download.php?spb13h8khh8dp8h</a></p>
+</blockquote>
+</aside>
+<p>I’m unfamiliar with this file format. When I try to open it (under Win7), I get a window that has a nice heiarchy on the left-hand-side with what  looks like a bunch of Class names, but attempting to click on any particular class just gives me: ‘Navigation to the web page was canceled’. What <em>should</em> be seeing? Is there some particular software I need?</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-08-28 13:29 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><p>Ah, I forgot to mention.</p>
+<p>CHM is Compiled HTML, it’s a new help file format to replace HLP.  However, starting with Windows XP SP2, Internet Explorer (and now Chrome, and maybe a few other browsers) set all files downloaded from the internet with an internet tag.  Various checks are performed by the system and applications if the tag is detected.  For EXE files, the system shows a dialog asking if you really want to run the application first, same with msiexec when an MSI is run.  When a ZIP file has the tag, every file extracted from the ZIP file has the same tag added on.  When hh sees that a CHM has the internet tag, all navigation attempts fail.  What you have to do is bring up the properties of the file (right cick → Properties, among other methods) and unblock the file.</p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2011-08-28 16:35 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="&quot;&quot;TheJayMann&quot;&quot;">
+<div class="title">
+<div class="quote-controls"></div>
+ ""TheJayMann"":</div>
+<blockquote>
+<p>What you have to do is bring up the properties of the file (right cick → Properties, among other methods) and unblock the file.</p>
+</blockquote>
+</aside>
+<p>Excellent. That worked.</p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2011-09-03 02:51 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><p>The first bit of actual code from the game engine to be made public.  I tried to document as well as I could.  Unfortunately, I can’t post in color (or, at least, it would take me a very long time to format it here similar to how it is in Visual Studio.<br>
+[font=courier]using System;<br>
+using System.Collections.Generic;<br>
+using System.Linq;</p>
+<p>namespace SotM.Utilities {</p>
+<pre><code>/// 
+/// This trigger fires in response to group of triggers.
+/// 
+/// 
+/// The type of data passed from the trigger.
+/// 
+/// 
+/// This special trigger filter is used to automatically subscribe
+/// all responses subscribed to it to a number of other triggers,
+/// and responds to other triggers that fire when another trigger
+/// is created, allowing that trigger to automatically be added
+/// to the trigger list.
+/// 
+sealed class CompositeTrigger : IObservable&gt;{
+
+    private ISet&gt; _Triggers;
+    private IList _Registers;
+
+    /// 
+    /// Creates a new composite trigger.
+    /// 
+    /// 
+    /// A list of triggers to listen to.
+    /// 
+    private CompositeTrigger(IEnumerable&gt; triggers) {
+        _Triggers = new HashSet&gt;(triggers);
+    }
+
+    /// 
+    /// Creates a new composite trigger given a list of triggers,
+    /// a trigger to add triggers, and a converter to select
+    /// a trigger from the trigger.  Trigger trigger trigger
+    /// trigger.
+    /// 
+    /// 
+    /// The type of data passed when the update trigger is fired.
+    /// 
+    /// 
+    /// The list of triggers to initialize the composite trigger
+    /// with.
+    /// 
+    /// 
+    /// A trigger that is fired when a new trigger should be added
+    /// to the composite trigger.
+    /// 
+    /// 
+    /// A function which obtains the trigger to be added from the
+    /// data passed from the update trigger.
+    /// 
+    /// 
+    /// An autoupdated composite trigger.
+    /// 
+    public CompositeTrigger Create(IEnumerable&gt; triggers, Trigger updateTrigger, Func&gt; triggerSelector){
+        var cTrigger = new CompositeTrigger(triggers);
+        updateTrigger.Subscribe(new Response(DateTime.Now.AddYears(-1)) { Next = u =&gt; cTrigger.AddTrigger(triggerSelector(u.Value)) });
+        return cTrigger;
+    }
+
+    /// 
+    /// Adds a trigger to the composite trigger.
+    /// 
+    /// 
+    /// The trigger to add
+    /// 
+    private void AddTrigger(Trigger trigger) {
+        // We want to register all current registers with the
+        // new trigger, but only if we haven't already registered
+        // with the trigger.
+        if (_Triggers.Add(trigger)) foreach (var register in _Registers) register.AddTrigger(trigger);
+        
+    }
+
+    /// 
+    /// Registers a response with the composite trigger.  This in
+    /// turn registers the response to all the composed triggers
+    /// contained by the composite trigger.
+    /// 
+    /// 
+    /// The response to register
+    /// 
+    /// 
+    /// A registration object which can unregister from all
+    /// composed triggers when unregistered.
+    /// 
+    public override IDisposable Subscribe(IObserver&gt; observer) {
+        // Convert observable to response, as we need an actual
+        // response object.
+        var response = observer.AsResponse();
+
+        // We need to create a register based on the response
+        // and the list of triggers, add the register to the
+        // list of registers, and then 
+        var register = new CompositeTriggerRegistration(response, _Triggers, this);
+        _Registers.Add(register);
+        return register;
+    }
+
+    /// 
+    /// A private class that handles the registration of responses
+    /// to a composite trigger.
+    /// 
+    /// 
+    /// This class handles subscribing a given response to all
+    /// triggers, subscribes the response when new triggers are
+    /// added, and removes all registrations of the response
+    /// when the composite registration is unregistered.
+    /// 
+    private class CompositeTriggerRegistration : IDisposable {
+
+        private ISet _Registers;
+        private CompositeTrigger _Owner;
+
+        public Response Response { get; private set; }
+
+        /// 
+        /// Creates a registration given a response and a list
+        /// of triggers to register.
+        /// 
+        /// 
+        /// The response to register
+        /// 
+        /// 
+        /// An initial list of triggers to register to
+        /// 
+        /// 
+        /// The composite trigger that owns the register.  This
+        /// allows the register to remove itself from the owning
+        /// composite trigger when it's unregistered.
+        /// 
+        public CompositeTriggerRegistration(Response response, IEnumerable&gt; triggers, CompositeTrigger owner) {
+            Response = response;
+            _Registers = new HashSet(triggers.Select(t =&gt; t.Subscribe(response)));
+            _Owner = owner;
+        }
+
+        /// 
+        /// Registers the response to a new trigger.
+        /// 
+        /// 
+        /// The new trigger to register to
+        /// 
+        public void AddTrigger(Trigger trigger) {
+            _Registers.Add(trigger.Subscribe(Response));
+        }
+
+        /// 
+        /// Unregisters the response from all triggers it is
+        /// registered to.
+        /// 
+        public void Dispose() {
+            foreach (var register in _Registers) register.Dispose();
+            _Owner._Registers.Remove(this);
+        }
+    }
+
+
+}
+</code></pre>
+<p>}[/font]</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

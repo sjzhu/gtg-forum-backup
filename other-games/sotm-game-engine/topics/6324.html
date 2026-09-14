@@ -1,0 +1,74 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>What is the order of damage calculations?</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; What is the order of damage calculations?</div>
+<h1>What is the order of damage calculations?</h1>
+<div class="desc">7 posts &middot; 900 views &middot; started 2012-09-24 17:52 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(261 45% 42%)">GO</div>
+    <div><div class="who">Gorith</div><div class="when">2012-09-24 17:52 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Perhaps my group is overthinking this but we played virtualy all night last night (About 9 hours) and ran into a problem with damage calculation mainly what order things happen in. so where do these fall in the the game steps "Damage Dealt to x increase/decrease" , "Damage dealt by x increase/decrease" , "Change all damage" , "Convert Damage to" &nbsp;, "effects that cause you to do X instead of taking damage"?</p><p>&nbsp;</p><p>The problem(s) we ran into.</p><p>We were fighting Omnitron (though the villian has nothing to do with the problem) on pike industrial complex Absolute Zero was using "Focused Apertures" , "Cryo Chamber" , "Null-Point Calibration Unit". when he used his basic power to deal cold damage to himself to try to heal would he get 1, 2, or 3 HP back? We figured he would get 2 because he damage dealt by him was getting increased as he was making his attack by focused aperatures but then negated before it hit therefore cryochamber could not increase it more. later on a enviorment changed all damage to toxic and we were not sure if it changed it before or after the damage was dealt.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2012-09-24 18:33 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>While actions occur in the order the the cards have been played, anything which modifies damage count is considered to always be in effect, and thus is easiest to simply apply them at the point damage is to be dealt.&nbsp; The effect of Null-Point Calibration Unit triggers once damage has been determined to occur (and thus all damage count modifiers that would apply would be applied first), so you would get the&nbsp;3 cold damage reguardless of order of play.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(325 45% 42%)">FL</div>
+    <div><div class="who">flamethrower49</div><div class="when">2012-09-24 19:06 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>JayMann is correct.&nbsp; With those three equipments in play, a use of Zero's <em>Thermodynamics</em>&nbsp;can allow Zero to regain three hit points.&nbsp;</p><p>However, if the vat that makes everything toxic is in play,&nbsp;either use of <em>Thermodynamics</em> would merely result in Zero dealing himself two toxic damage.&nbsp; (Yeah, try not to let that card around Zero.)</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(137 45% 42%)">VY</div>
+    <div><div class="who">Vyolynce</div><div class="when">2012-09-24 20:01 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="flamethrower49">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/f/838e76/48.png" class="avatar"> flamethrower49:</div>
+<blockquote>
+<p>However, if the vat that makes everything toxic is in play,&nbsp;either use of <em>Thermodynamics</em> would merely result in Zero dealing himself two toxic damage.&nbsp; (Yeah, try not to let that card around Zero.)</p>
+</blockquote>
+</aside>
+<p>He tends to enjoy the Trisolvent Vat being around, though.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(261 45% 42%)">GO</div>
+    <div><div class="who">Gorith</div><div class="when">2012-09-24 21:24 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Thanks for the responses we were certainly overthinking it. Gotta get our head outa all the CCGs and other games with multiple steps in each phase.</p><p>&nbsp;</p><p>So for final clarification it all goes into effect before the ability is even used? So in effect zeros power should have read something like (gond have card infront of me) "Absolute zero deals himself 3 Cold damage or 0 Fire damage"?</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2012-09-24 21:30 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Well, if you want to think of it as multiple steps, with all those cards out, he has a status effect of cold damage +2, fire damage -1.&nbsp; Every time he initiates an attack, the necessary modifiers are applied.&nbsp; So, more or less, he could read a modified power of "deals himself 3 cold or 0 fire damage," yes.&nbsp; But, if you initiate cold damage, it would be 1 + 2 cold damage, but if something converted that cold damage to fire damage, the cold damage modifier goes away and the fire damage modifier applies, making it 1 - 1 fire damage.&nbsp; Given that modifiers will keep changing while other cards modify damage types and redirect damage, it's simpler to wait until you are at a point of final damage before applying count modifiers.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2012-09-25 02:57 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>I don't think you were overthinking it -- we've just had a lot of time on the forums to think through it quite thoroughly.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

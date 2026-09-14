@@ -1,0 +1,371 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>multiple destroy effects timing vs globals</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; multiple destroy effects timing vs globals</div>
+<h1>multiple destroy effects timing vs globals</h1>
+<div class="desc">26 posts &middot; 1751 views &middot; started 2013-08-11 22:26 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(181 45% 42%)">TY</div>
+    <div><div class="who">tyquaius</div><div class="when">2013-08-11 22:26 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Question 1:</p><p>I understand that global effects aren't really global where you can choose the order in which the damage is received, that multiple effects with timing resolve in the order in which they were played (oldest resolves first) and that triggered effects begin resolving once the triggering conditions are satisfied but what about during the resolution of a global?</p><p>&nbsp;</p><p>For example: Fanatic's holy nova deals each non-hero target 1 radiant damage. This one radiant damage kills one of gloomweaver's cultist. Do I resolve the entire holy nova effect first, or do I take a pause in the resolution to resolve the destroy effects then resume the resolution of holy nova?</p><p>&nbsp;</p><p>Question 2:</p><p>Do "When this card is destroyed" effects resolve first before a "When a [card] is destroyed" effect?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2013-08-11 22:51 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Question 1: The zombie comes out immediately upon the cultist dying, and can even be hit by Holy Nova.</p><p>QUestion 2: Technically, "when this card is destroyed" effects happen before it actaully is destoryed, otherwise it wouldn't be there to do anything. Although, there has been some discussion about this.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2013-08-11 22:52 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="tyquaius">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/t/e95f7d/48.png" class="avatar"> tyquaius:</div>
+<blockquote>
+<p>Question 1:I understand that global effects aren't really global where you can choose the order in which the damage is received, that multiple effects with timing resolve in the order in which they were played (oldest resolves first) and that triggered effects begin resolving once the triggering conditions are satisfied but what about during the resolution of a global?&nbsp;For example: Fanatic's holy nova deals each non-hero target 1 radiant damage. This one radiant damage kills one of gloomweaver's cultist. Do I resolve the entire holy nova effect first, or do I take a pause in the resolution to resolve the destroy effects then resume the resolution of holy nova?&nbsp;</p>
+</blockquote>
+</aside>
+<p>LIFO (last in first out) – Deal w/ effects from the destroyed cultist, then go back to the Holy Nova attacks.</p>
+<p>&nbsp;</p>
+<blockquote></blockquote>
+<p>Question 2:Do "When this card is destroyed" effects resolve first before a "When a [card] is destroyed" effect?</p>
+<p>Card played order.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(181 45% 42%)">TY</div>
+    <div><div class="who">tyquaius</div><div class="when">2013-08-11 23:36 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>Thanks very much. Much appreciated.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 13:24 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p><em><strong>Conditional triggers and effects:</strong></em></p><p>Whenever you have consecutive effects being triggered that overlap, the newest trigger always resolves first. (This is not to be confused with simultanious effects. Those resolve in the order the cards were played. Ill get to that in a bit).</p><p>So for your first question, Holy Nova would be played and its effect triggered. Your first target is a Cultist and it gets destroyed. The Cultist has a triggered effect on its destruction, so you pause Holy Nova, resolve the new triggered effect by bringing out a Zombie, and now you continue to Holy Nova, including damaging that new Zombie!</p><p>Ok. Lets get into simultanious effects and triggers. This is your question #2.</p><p>"When this card is destroyed" and "When a card is destroyed" are simultanious triggers. They both go off at the same point in the cards destruction. I dissagree with Pydros assesment. For things like destruction and damage, there is a "before" period (this is denoted by "would be" triggers, like "would be delt damage" or "would be destroyed") and anything else is implied to be an "after" period (this would be why throat jab needs to result in HP loss before its effect can be applied). Because they are in fact simultanious triggers, Arenson9 is correct in that this will be based on the order the cards were played.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2013-08-12 15:52 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>"When this card is destroyed" and "When a card is destroyed" are simultanious triggers. They both go off at the same point in the cards destruction. I dissagree with Pydros assesment. For things like destruction and damage, there is a "before" period (this is denoted by "would be" triggers, like "would be delt damage" or "would be destroyed") and anything else is implied to be an "after" period (this would be why throat jab needs to result in HP loss before its effect can be applied). Because they are in fact simultanious triggers, Arenson9 is correct in that this will be based on the order the cards were played.</p>
+</blockquote>
+</aside>
+<p>I would disagree with this. If a card is destroyed, it leaves play. If it left play, the rest of its text no longer functions. Therefore, the text needs to function before it is actually destoyed, then it is destroyed. I did read through the other thread, but I see no reason to say that it is destroyed but still in play, then it leaves play afterwards. Of course, if there is an official ruling that says those are 2 separate steps then fine. I would say that is is similar to the Omni-X and Toxic Seaweed ruling. Activate a power and the actual power are not separate, just like being destroyed and leaving play are not separate. you would fully resolve the destruction, which would mean it leaves play, then move on to triggers that are affected by it.</p>
+<p>There is another difference between "would be" and "is." If something says "would be" it means that "something else happens instead of the normal action." For example, if BB "would be" destroyed, do something else instead. However, if it just says "when it is destroyed" it means that the same action will remain, you just do this first. Of course, someone will bring me a card that disagrees with this, so just read the first paragraph.</p>
+<p>Now I was looking for other rulings that would prove one way or the other, but I couldn't find one. So let me ask the question like this: If Savage Mana was out first, would it stop all "when this card is destroyed" effects? ACcording to you, the Sonic Mine won't do damage, but according to me it will.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 15:57 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>You can destroy something, have it stay in play while it resolves its "when this card is destroyed" effect, and then leave play.&nbsp;</p><p>Where does it say that a card must leave play&nbsp;<em>first</em> before it is destroyed?</p><p>This is why the Sonic Mines question was ruled the way it was! Sonic Mines gets destroyed first. However, Sonic Mines has an effect that triggers when it gets destroyed. So Sonic Mines stays in play as it carries out its "on destruction" effect, but it is still tagged as "destroyed" and will move to the trash after its effect has resolved.</p><p>The Savage Mana + Sonic Mines is a good question. I would say they are both simultanious triggers and if Savage Mana was out first, Sonic Mines would not have the chance to do its damage. It is like killing a target with an End of Turn effect during the End of Turn. If it gets destroyed it does not still get to do its effect.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2013-08-12 16:03 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>You can destroy something, have it stay in play while it resolves its "when this card is destroyed" effect, and then leave play.&nbsp;Where does it say that a card must leave play&nbsp;<em>first</em> before it is destroyed?</p>
+</blockquote>
+</aside>
+<p>That's what you said in the other thread, but I see no reason to say that they are 2 separate steps, and that they can be interrupted.</p>
+<aside class="quote no-group" data-username="Rulebook">
+<div class="title">
+<div class="quote-controls"></div>
+ Rulebook:</div>
+<blockquote>
+<p><strong>Destroy:&nbsp;</strong>When a card is destroyed, it is removed from play and place in the appropriate trash.</p>
+</blockquote>
+</aside>
+<p>I see no reason to separate these, just like you don't separate using a power and the actual power. This is the definition of "destroyed." In fact, according to the rulebook, this is a trigger, and as part of the rullebook, it would be in play and in effect first, since you only choose the decks after the rules are in place.</p>
+<p>EDIT:</p>
+<aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>This is why the Sonic Mines question was ruled the way it was! Sonic Mines gets destroyed first. However, Sonic Mines has an effect that triggers when it gets destroyed. So Sonic Mines stays in play as it carries out its "on destruction" effect, but it is still tagged as "destroyed" and will move to the trash after its effect has resolved.</p>
+</blockquote>
+</aside>
+<p>If that is a ruling then fine, but i couldn't find anything official. However, pratically, the exact same effect happens my way. Right before it would be destroyed, it deal damage, then is destroyed and leaves play.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 16:13 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p><a href="https://greaterthangames.com/forum/topic/answers-to-debated-questions-3871" rel="noopener nofollow ugc">https://greaterthangames.com/forum/topic/answers-to-debated-questions-3871</a></p><p><strong>17. Can you redirect damage from Sonic Mine with Wrest the Mind?</strong></p><p>Yes, as it is still in play to deal the damage before it exits.</p><p>This is pretty clear how Sonic Mines works.</p><p>The rulebook says "When a card is destroyed, it is removed from play...". You seem to be reading that as "A card is destroyed when it is removed from play" and thats just not what it says. Removal from play is an action steming from the fact that the card was in fact destroyed. Removal from play is not a pre-requisit in that sense, it is the consequence.</p><p>Edit:&nbsp;<span>Also, just like one-shots moving to the trash when they are played, moving to the trash when destroyed is a baked in mechanic of the game system and not a card effect. Those do not follow the same resolution conventions, so order played does not apply here.</span></p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2013-08-12 16:15 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>I think we just disgree on this. Since there are 2 people against me,&nbsp;<a href="https://greaterthangames.com/users/tyquaius" title="View user profile.">tyquaius</a>, I would go with there ruling.</p>
+<aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>The Savage Mana + Sonic Mines is a good question. I would say they are both simultanious triggers and if Savage Mana was out first, Sonic Mines would not have the chance to do its damage.&nbsp;</p>
+</blockquote>
+</aside>
+<p>I just had an image from like every cartoon, where a character eats dynamite, and there is a huge explosion in their belly.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2013-08-12 16:19 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p><a href="https://greaterthangames.com/forum/topic/answers-to-debated-questions-3871" rel="nofollow">https://greaterthangames.com/forum/topic/answers-to-debated-questions-3871</a><strong>17. Can you redirect damage from Sonic Mine with Wrest the Mind?</strong>Yes, as it is still in play to deal the damage before it exits.This is pretty clear how Sonic Mines works.</p>
+</blockquote>
+</aside>
+<p>Actually, unless Ronway clears this up, it completely agrees with me. Sonic Mines is still in play because it hasn't been destroyed yet.</p>
+<aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>The rulebook says "When a card is destroyed, it is removed from play…". You seem to be reading that as "A card is destroyed when it is removed from play" and thats just not what it says. Removal from play is an action steming from the fact that the card was in fact destroyed. Removal from play is not a pre-requisit in that sense, it is the consequence.</p>
+</blockquote>
+</aside>
+<p>Actually, I am not saying that at all. I am saying that by definition "being destroyed" means " it has to leave play." This doesn't mean that it has to "leave play" to be "destroyed," but the opposite, if it is "destoryed," it has to leave play, and there is nothing that says it shouldn't or doesn't. Therefore, if Sonic Mines is destroyed, it has to leave play, which means that the text has to trigger before it is destroyed.</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 16:21 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>The problem is if you moved something like Sonic Mines to the trash and then had it deal its damage, you would have to explain how the game system is dealing damage that has no source, and I find that problem to be like dividing by zero. It nessesarily <em>has</em> to stay in play to resolve its triggered effect before it goes to the trash.&nbsp;</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 16:25 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>Actually, I am not saying that at all. I am saying that by definition "being destroyed" means " it has to leave play." This doesn't mean that it has to "leave play" to be "destroyed," but the opposite, if it is "destoryed," it has to leave play, and there is nothing that says it shouldn't or doesn't. Therefore, if Sonic Mines is destroyed, it has to leave play, which means that the text has to trigger before it is destroyed.</p>
+</blockquote>
+</aside>
+<p>It does leave play. I am not saying it doesn't, so I agree with you there. We have a difference on the timing.&nbsp;</p>
+<p>If Sonic Mines was ment to do damage before it was destroyed, it probably would have said "When Sonic Mines would be destroyed, instead deal X damage and then destroy Sonic Mines". Or maybe even "Before Sonic Mines is destroyed".</p>
+<p>But it says "When it is destroyed". When. Not if. Not before. That is the trigger condition. The card MUST be considered destroyed to meet the trigger condition in the first place.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2013-08-12 16:26 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>EDIT: Ninja'd</p><p>I find it more plausible to say it happens right before it is destroyed, then to create an entire new idea that something destroyed doesn't leave play.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 16:28 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>That is not what I am saying. What I am saying is that the card triggers before it is actually destroyed, then it is destoryed and leaves play.</p>
+<div><b>Foote wrote:</b><br><blockquote>&nbsp;It nessesarily&nbsp;<em>has</em>&nbsp;to stay in play to resolve its triggered effect before it goes to the trash.
+&nbsp;
+</blockquote></div>
+Right it has to stay in play, which means it wasn't destroyed yet.&nbsp;
+</blockquote>
+</aside>
+<p>But it must be destroyed to trigger the effect in the first place. We are just going around in circles.</p>
+<p>And there is no "new idea" that a destroyed target does not leave play. It most certainly does. But if there is a triggered effect upon its destruction, it was stay in play for the sole reason to resolve its effect before it exits, just like Ronway typed it up.</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 16:34 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p>By the way, the rulebook post you made about Destroyed cards reads more like a list of actions to take once a card is destroyed instead of a "definition" of what destroyed means. So if your interpretation hinges on you calling that the "definition" of destroyed, its a bit of a stretch.</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2013-08-12 17:34 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>So then I have a question for how to resolve a situation:</p><p>Bunker has Ammo Drop in play and destroys Tome of the Unknowable. The card is destroyed but still in play. Bunker draws a card for destroying a villain card, which causes the top of the villain deck to be played. The villain deck plays Fallen Angel which does what? Is TotU now back to full health? Would you still search for Comdenation?</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 17:37 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>So then I have a question for how to resolve a situation:Bunker has Ammo Drop in play and destroys Tome of the Unknowable. The card is destroyed but still in play. Bunker draws a card for destroying a villain card, which causes the top of the villain deck to be played. The villain deck plays Fallen Angel which does what? Is TotU now back to full health? Would you still search for Comdenation?</p>
+</blockquote>
+</aside>
+<p>I do not have the cards in front of me, does Ammo Drop trigger off of villain targets leaving play or being destroyed?</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2013-08-12 17:54 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><p>Destroyed.&nbsp; That's why it gets a double dip when a villain card under Savage Mana gets destroyed again.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-08-12 18:01 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><p>Here are my thoughs on the matter.</p><p>I think cards that currently say "when this card is destroyed" should say "when this card would be destroyed,&nbsp;do x and then destroy this card" solely for the fact that most other destruction effects trigger when they actually reach the trash, however that changes with cards that say "when this card", because it obviously has to remain in play for it's effect to kick off, which causes more problems. Such as Pydro's example with Ammo Drop, really having the Tome regain HP after Bunker already drew a card when it was supposed to be destroyed is just redonkulous.</p><p>Now I have to go through and see how many other cards in Vengenace had "when this card" is destroyed and stop this evil chain!</p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-08-12 18:56 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>Bunker has Ammo Drop in play and destroys Tome of the Unknowable. The card is destroyed but still in play. Bunker draws a card for destroying a villain card, which causes the top of the villain deck to be played. The villain deck plays Fallen Angel which does what? Is TotU now back to full health? Would you still search for Comdenation?</p>
+</blockquote>
+</aside>
+<p>Thanks Spiff for the quick clarification.</p>
+<p>Bunker with Ammo Drop destroying Tome of the Unknowable. Both of those cards have conditional triggers of a card being destroyed. These are now simultanious triggers, which means that the order of resolution will depend of what card was out first.</p>
+<p>If this was Advanced mode, Tome would act first since it must have been in play before Ammo Drop. Its trigger resolves first, searching for Condemnatiom, then will move to the trash since it now has completed its final effect. Bunker now draws his card safely.</p>
+<p>If it was the other way around, Bunker would draw his Ammo Drop card first, triggering Tome to play the top card of the deck (and newest consecutive triggers always go first). Fallen Angel would NOT heal the Tome, as the Tome has already been tagged for destruction. Then Tome would carry out its destruction effect, searching for the sword, and then move to the trash.</p>
+<p>Now I know your next point already. But Kismet can get healed after being destroyed with Lady Luck in play, why not the Tome in the above example? Well, this is where Ronways proposed wording change matters. Lady Luck triggers on the same wording that Ronway proposes, which is "When X would be destroyed, instead do this" sort of deal. What that actually does is postpone taging a card for destruction and keeps them as eligable targets for other effects.</p>
+<p>Now, I guess that Ronways proposed wording would makes the interaction much cleaner and less confusing, and if that change were to be made, I wouldn't hate it.&nbsp;</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2013-08-13 04:18 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><p>I would approach the second question differently: &nbsp;Those are not simultaneous effects.</p><p>When a target hits 0hp and enters the destruction check, or when a dard is destroyed by a card effect (not HP) you enter the "unless otherwise stated" phase of the desrtuction check.</p><p>This is where Lady Luck, character cards flipping sides happen.</p><p>These are the "When a card would be destroyed" effects.</p><p>Next the card that is being destroyed must be dealt with, which includes its own text about when it is destroyed. &nbsp;It is still in play, it resolves it's effect then leaves play.</p><p>As it leaves play all other effects that occur when a card is destroyed trigger.</p><p>Bunker would not trigger tome of the unk<span>nowable. &nbsp;That would be wrong. &nbsp;An action that occurs because a card is destroyed preventing that destruction would prevent itself. &nbsp;Bunker can't draw a card because Tome wasn't destroyed. &nbsp;But then Paradox.</span></p><p><span>I'd put the order:</span></p><p><span>1: &nbsp;Destruction check is triggered.</span></p><p><span>2: &nbsp;Is card indestructible, if so stop.</span></p><p><span>3. &nbsp;Check for would be destroyed effects and resolve.</span></p><p><span>4. &nbsp;Check destruction target card for destruction effects and resolve.</span></p><p><span>5. &nbsp;Move card to trash, or other place if appropriate.</span></p><p><span>6. &nbsp;Trigger remaining "when card is destroyed" effects.</span></p><p>I honestly think we overuse the order of cards played rule, it doesn't work well here.</p><p>This issue reminds me of damage timing, "would be" rext can take place before damage is certain, and before a destruction is certain, while "is dealt" takes place after damage or destruction is certain. &nbsp;But even then there is timing differences. &nbsp;Legacy can reduce damage when he is dealt damage, and AZ can turn damage dealt into healing, or respond to it with Isothermic. &nbsp;That last example takes place after damage is dealt, not while it is being dealt. &nbsp;It is a response trigger. &nbsp;Bunker drawing a card is more AZ's Isothermic conductor timing than damage reduction reducing damage, it is a response trigger.</p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(266 45% 42%)">DY</div>
+    <div><div class="who">dypaca</div><div class="when">2013-08-13 04:31 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><p>In the past I'd just assumed that "when this card is destroyed" effects are exceptions to card effects being canceled when the card is destroyed.&nbsp; Similar to how Unity's Bots and Spite's Drugs have text which only applies when they are not in play.&nbsp; Basically if the text can't have an effect while the card is in play, then it is in effect when the card is not in play.</p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(312 45% 42%)">PP</div>
+    <div><div class="who">pppery</div><div class="when">2013-08-16 02:26 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Pydro wrote:</b><br><blockquote>Bunker has Ammo Drop in play and destroys Tome of the Unknowable. The card is destroyed but still in play. Bunker draws a card for destroying a villain card, which causes the top of the villain deck to be played. The villain deck plays Fallen Angel which does what? Is TotU now back to full health? Would you still search for Comdenation?
+&nbsp;
+</blockquote></div>
+Thanks Spiff for the quick clarification.Bunker with Ammo Drop destroying Tome of the Unknowable. Both of those cards have conditional triggers of a card being destroyed. These are now simultanious triggers, which means that the order of resolution will depend of what card was out first. If this was Advanced mode, Tome would act first since it must have been in play before Ammo Drop. Its trigger resolves first, searching for Condemnatiom, then will move to the trash since it now has completed its final effect. Bunker now draws his card safely.If it was the other way around, Bunker would draw his Ammo Drop card first, triggering Tome to play the top card of the deck (and newest consecutive triggers always go first). Fallen Angel would NOT heal the Tome, as the Tome has already been tagged for destruction. Then Tome would carry out its destruction effect, searching for the sword, and then move to the trash.Now I know your next point already. But Kismet can get healed after being destroyed with Lady Luck in play, why not the Tome in the above example? Well, this is where Ronways proposed wording change matters. Lady Luck triggers on the same wording that Ronway proposes, which is "When X would be destroyed, instead do this" sort of deal. What that actually does is postpone taging a card for destruction and keeps them as eligable targets for other effects.Now, I guess that Ronways proposed wording would makes the interaction much cleaner and less confusing, and if that change were to be made, I wouldn't hate it.&nbsp;&nbsp;
+</blockquote>
+</aside>
+<p>Foote, this appears to contradict your view about fortunes smile + lady luck. Is your view that "Would be destroyed" can stop 0hp targets from being destroyed but "is destroyed" can't?</p></div>
+</div>
+<div class="post" id="post-25">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(181 45% 42%)">TY</div>
+    <div><div class="who">tyquaius</div><div class="when">2013-08-16 07:42 UTC</div></div>
+    <div class="postnum">#25</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Ronway">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png" class="avatar"> Ronway:</div>
+<blockquote>
+<p>Here are my thoughs on the matter.I think cards that currently say "when this card is destroyed" should say "when this card would be destroyed,&nbsp;do x and then destroy this card" solely for the fact that most other destruction effects trigger when they actually reach the trash, however that changes with cards that say "when this card", because it obviously has to remain in play for it's effect to kick off, which causes more problems. Such as Pydro's example with Ammo Drop, really having the Tome regain HP after Bunker already drew a card when it was supposed to be destroyed is just redonkulous.Now I have to go through and see how many other cards in Vengenace had "when this card" is destroyed and stop this evil chain!</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Should we assume that this is the way to play it for all cards that currently have the text "when this card is destroyed"?</p></div>
+</div>
+<div class="post" id="post-26">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-08-16 13:54 UTC</div></div>
+    <div class="postnum">#26</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="tyquaius">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/t/e95f7d/48.png" class="avatar"> tyquaius:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Ronway wrote:</b><br><blockquote>Here are my thoughs on the matter.I think cards that currently say "when this card is destroyed" should say "when this card would be destroyed,&nbsp;do x and then destroy this card" solely for the fact that most other destruction effects trigger when they actually reach the trash, however that changes with cards that say "when this card", because it obviously has to remain in play for it's effect to kick off, which causes more problems. Such as Pydro's example with Ammo Drop, really having the Tome regain HP after Bunker already drew a card when it was supposed to be destroyed is just redonkulous.Now I have to go through and see how many other cards in Vengenace had "when this card" is destroyed and stop this evil chain!
+&nbsp;
+</blockquote></div>
+&nbsp;Should we assume that this is the way to play it for all cards that currently have the text "when this card is destroyed"?
+</blockquote>
+</aside>
+<p>No, it is just the way I thing it should be changed to, but until there is anything official, the destroy effects should continue to be triggered by order of play.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

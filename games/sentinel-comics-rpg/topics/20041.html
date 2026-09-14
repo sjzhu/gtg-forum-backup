@@ -1,0 +1,1144 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SCRPG GM Management Web App (fanmade)</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sentinel-comics-rpg/index.html">Sentinel Comics RPG</a> &rsaquo; SCRPG GM Management Web App (fanmade)</div>
+<h1>SCRPG GM Management Web App (fanmade)</h1>
+<div class="desc">67 posts &middot; 3286 views &middot; started 2020-07-16 03:14 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-07-16 03:14 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Hi everyone,</p>
+<p>I'm a web developer as well as a SCRPG fan and backer. I've been running the Starter Kit with some friends and I made a few tools to help me GM more effectively, particularly during social distancing. I've made this app and I want to share it with you all to see if you want to use it. This is intended to be shown to your players via screen share app.</p>
+<p>https://kcdrez.github.io/SCRPG/dist/index.html#/</p>
+<p>Report any bugs or feature requests here: https://github.com/kcdrez/SCRPG/issues</p>
+<p>There a few different features:</p>
+<ul>
+	<li>Scene Tracker
+	<ul>
+		<li>Add a custom GYR for a scene tracker</li>
+	</ul>
+	</li>
+	<li>Round Tracker
+	<ul>
+		<li>This is indended that all players and other NPCs will appear in a list</li>
+		<li>After an actor has taken a turn, you can click them.</li>
+		<li>This is to track what actors have taken a turn in the current round</li>
+	</ul>
+	</li>
+	<li>Minions and Lieutenants list
+	<ul>
+		<li>Add/remove minions and lieutenants</li>
+		<li>Add/remove boosts, penalties, and defends to the minion</li>
+		<li>Demote to the next die (i.e. saving throw)</li>
+	</ul>
+	</li>
+	<li>Villains
+	<ul>
+		<li>Add/remove boosts, penalties, and defends to a villain</li>
+	</ul>
+	</li>
+</ul>
+<p>Hope this helps you other GMs out there!</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-07-16 09:04 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>This is indeed very handy, I love it!<br>
+Thank you for the effort you put into this, and I'll follow its development with great interest!</p>
+<p>&nbsp;</p>
+<p>I assume the Minions and Lieutenant management&nbsp;is still WIP?<br>
+When I tried to use the demote and boost functions, I somehow&nbsp;resulted&nbsp;in the whole "Minions" block disappearing and not coming back - even when reloading the page with caching disabled. So now they are gone, permanently. Looks like they even completely diappeared from DOM.&nbsp;</p>
+<p>[Edit: reproducible with Lieutenants. I clicked the demote function twice, then reloaded the page. The&nbsp;are now gone, except for the player list where they are still present. This persists across reloading.]</p>
+<p>Maybe it is something with the way the group is managed when you apply something that would affect only one of them?&nbsp;</p>
+<p>Speaking of which, I'd heavily suggest adding a global "reset all" function, not only as ameans to get out of possible deadends, but also as a more comfortable means to open a brand new scene. Maybe even call it "New Scene"</p>
+<p>On a related note, you might want to check the caching settings. As of now, a page reload would remove all players and the scene tracker, but Villains, Lieutenants and Minions stick around (and in case of the aforementioned bug, I have yet to find a way to reset them at all).</p>
+<p>&nbsp;</p>
+<p>Other thoughts:&nbsp;</p>
+<p>* It would be nice if the Scene Tracker values defaulted to 2-4-2, as that is the suggested standard by SCRPG.</p>
+<p>* When adding players, the focus should be set to "continue", not "close". So you can type the name, and hit [ENTER].&nbsp;* New players should be checked against empty input before saving - as it is, one might result in nameless players.</p>
+<p>* MInions and Lieutenants Management seems a bit over-sophisticated, trying to manage them all group-wise.<br>
+Maybe things were a little more intuitive if they were&nbsp;listed as single Minions, visually grouped as a table, and of course created en-bloc, but then&nbsp;accounted for in single? (in-game, the group standardization&nbsp;quickly falls apart anyway, when one gets a hinder, another gets demoted, and a third one dies...). This might work pretty similar to how you manage Villain Bonuses/Penalties already.</p>
+<p>* Players can't be&nbsp;removed or edited. This is, of course, a very minor inconvenience.</p>
+<p>&nbsp;</p>
+<p>Keep up the great work!</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-07-16 21:26 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Thanks for the feedback!</p>
+<p>Nothing is intentionally WIP but there are a number of bugs though that you encountered. I have fixed the following:</p>
+<ul>
+	<li>Minions and Lieutenants could not be edited (adding boosts, hinders, etc.)</li>
+	<li>Changed Scene Tracker create modal to default to 2-4-2</li>
+	<li>Added a Reset button with the Scene Tracker. Will display a confirmation detailing that all minions, lieutenants, and villains will be removed.
+	<ul>
+		<li>Added hover text on the Create, Clear, and Reset scene tracker buttons for better clarity</li>
+	</ul>
+	</li>
+	<li>Player list is now saved in Cookies (like everything else). Refreshing the page will keep the player list.</li>
+	<li>Changed Round Data to be in a table. Includes the name, type (player, minion, etc) and some util buttons (such as marking them as having acted, and removing them if they are a player)</li>
+</ul>
+<p>Coming Soon (in the next day or so)</p>
+<ul>
+	<li>Edit Player names in the Round Data</li>
+	<li>Redesign Minion and Lieutenants UI (still prototyping out some ideas)</li>
+	<li>Fix focus when adding players modal so Enter key is the default</li>
+	<li>Include version number in the nav bar</li>
+</ul></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-07-16 22:52 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>Cool, big improvement already!</p>
+<p>So here goes a new round of alpha-testing:</p>
+<p>* Boost/Hinder Management for Minions / Lieutenants works fine now.<br>
+Defends are not always responding, and sometimes empty defends show up uninvited... I have not yet figured out when axactly that happens.</p>
+<p><br>
+* When adding a new player with a click on "continue", it works fine. However, adding per [Enter] will add an empty name. Again, input is not yet checked against empty fields. But you are probably already well aware and working on that :)</p>
+<p><br>
+* The new player list is much better in regards to visual accessibility.<br>
+Still,&nbsp;Players can not be removed (the new button is not working), nor can the list&nbsp;be cleared... As a result, this time I'm now stuck with a long player list I cannot get rid of :)<br>
+(Btw, are you sure it is the best idea to store all scene data in cookies, without a means to wipe that data? It makes getting a totally fresh setup really tiresome, unless we'd play in incognito-mode... which sort of defies the purpose I guess.)&nbsp;</p>
+<p>&nbsp;</p>
+<p>More thoughts on accessibility:</p>
+<p>* I like the new way Minions groups are presented as tables. However, I'm still not overly fond of&nbsp;all the dynamic grouping for Minions and Lieutenants.<br>
+While it seems to work nicely, it seems not quite so easy&nbsp;to keep track of (a small, changing&nbsp;number at the beginning of a line is so very easily overlooked).<br>
+My personal preference would be to keep Minions as separate list entries at all times, if only for a better overview. Less sophisticated for sure, but much more accessible.</p>
+<p>* On a related note, I think it is unnecessary&nbsp;to have MInion, Lieutenant and Villain stats collaps/expand.<br>
+If empty, they don't take up any more space anyway; and if <em>not</em> enpty, you certainly want to make sure you won't overlook them.</p>
+<p>&nbsp;</p>
+<p>I hope this helps!</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-07-17 14:57 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>More fixes (v1.0.2):</p>
+<ul>
+	<li>Improved Player utility in Round Data
+	<ul>
+		<li>Players can be renamed</li>
+		<li>Players can be removed individually</li>
+		<li>Players data can be cleared (displays confirmation)</li>
+		<li>Add a Player modal improved (enter key should work now on the input field, in addition to the input taking focus)</li>
+	</ul>
+	</li>
+	<li>Scene Tracker
+	<ul>
+		<li>Green input takes focus on modal opening</li>
+		<li>Enter key (on any input field) will create the scene</li>
+	</ul>
+	</li>
+	<li>Added versioning</li>
+</ul>
+<p>Explanation on some things:</p>
+<ul>
+	<li>I want to keep all the data stored in cookies. The reason being is if the app and/or browser crashes, I want the user to be able to retrieve this data upon a page refresh or new browser tab/window. If someone chooses to use incognito mode, that's their own choice and they won't get this functionality.
+	<ul>
+		<li>All the clear buttons resets the cookies as well. I think you've just seen it during development so some of these buttons weren't working. Ideally (and eventually) all of these buttons will work so there shouldn't be much issue. The user could also clear cookies themselves using browser settings (but I suppose not everyone knows how to do that).</li>
+	</ul>
+	</li>
+	<li>I'm unable to reproduce the issue you called out about Defends acting strangely. Any other info you can provide to troubleshoot, let me know.</li>
+	<li>I'll think about your feedback on the Minions/Lieutenants. I definitely understand where you are coming from, and I think there can be some improvements for sure. My counter arguement is that if there are 10 minions all of the same type (e.g. d6 Robot), and only 1 has a hinder at the moment, and 1 has been demoted, I want there to be 3 rows: 1 for the d6 vanilla Robots, 1 for the d6 with the hinder, and 1 for the d4. It sounds like your proposal would have 10 rows if I'm understanding correctly.
+	<ul>
+		<li>I think I agree that it's overly sophisticated, especially since there's a small chance of having that many minions anyways. I have an idea that's a bit of a hybrid of our two solutions. I'll post back when thats ready.</li>
+		<li>Similarly, I agree that the collapse/expand nature is also unneeded. I added that in mostly for myself during development for Villains cuz I was getting tired of scrolling to the bottom of the page every time I made a change :p</li>
+	</ul>
+	</li>
+</ul></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(248 45% 42%)">DR</div>
+    <div><div class="who">drkrash1969</div><div class="when">2020-07-17 15:31 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>This is very cool.&nbsp; If I found this before I started my online game, I would have used it for sure! (As it is I think we've gotten used to our system.)</p>
+<p>Thanks!</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(247 45% 42%)">LO</div>
+    <div><div class="who">Locnar</div><div class="when">2020-07-17 15:58 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>This is great! Thanks so much for sharing it.&nbsp;</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-07-18 16:07 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>Thanks for making this. I will test this out in tonight's session and may have more feedback afterwards.</p>
+<p>I do think that the an option to add the&nbsp;Scene&nbsp;to the Round Tracker would be useful as a visual aid to remind everyone that the Scene has an initiative&nbsp;turn too.&nbsp;</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-07-19 14:55 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Latest Changes (1.0.3)</p>
+<ul>
+	<li>Changed Minion and Lieutenant layout
+	<ul>
+		<li>A single table for each minion that spans the width of the view port</li>
+		<li>Each row is a Minion entry
+		<ul>
+			<li>Minions that are the same name, size, and identical bonuses, penalties, and defends will be grouped together in a single row</li>
+			<li>If a minion is demoted or a bonus, penalty, or defend is added to a single minion group, a new row will be added.</li>
+			<li>This is identical for Lieutenants</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Add a name to the Environment when creating a scene tracker</li>
+	<li>Environment, Players, Minions, Lieutenants, Villains show up in the Round Tracker table
+	<ul>
+		<li>Minions and Lieutenants will have a separate row for for each die size (note: they are NOT separated if they have unique bonuses, penalties, or defends. This is different than the Minion section details above)</li>
+		<li>Clicking on an Actor's Name or Type cell will also toggle the "Acted" attribute, just like clicking the Acted button</li>
+	</ul>
+	</li>
+	<li>Various bug fixes and logic improvements</li>
+</ul>
+<p>Thanks for all the feedback! Keep it up!</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-07-19 21:45 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Amazing, how fast you're pumping these versions out!</p>
+<p>I really love all the changes you made to the overall layout and functions.&nbsp;<br>
+Also, many thanks for the explanation on using cookies - it totally makes sense from that perspective, so&nbsp;great!</p>
+<p>One little bug though:<br>
+"Reset Round Tracker" does reset all actors <em>except</em> the newly-added environment.</p>
+<p>Then, please let me humbly rephrase my need for a "promote" function - not only is there no other way to mitigate an accidental demotion (the game is a lot of "no, let's say we did that differently"), but also many hero/villain abilities tell you to increase your Minions' dice.</p>
+<p>&nbsp;</p>
+<p>My only real&nbsp;gripe now is still the Minions grouping.&nbsp;Playing around with that, I found a few (new?) bugs - all sort of related to the management of&nbsp;groups (i.e. grouping same-type Minions/Lieutenants as a&nbsp;single line with a counter, and thus needing to shift count numbers around as things happen).</p>
+<ol>
+	<li>When creating more Minions of an&nbsp;existing&nbsp;name, only one will be added to the group - no matter what count I entered.<br>
+	&nbsp;</li>
+	<li>When adding a defend or hinder to a group of&nbsp;Minions, an new line is added. One Minion is correctly subtracted from the count of the original line, but the new line gets to hold not 1 Minion, but the *original number* of the first line - meaning, I increase the total number of Minions to "(original x2), minus 1".<br>
+	This applies to hinders and defends, while boosts seem to work as expected (I think).<br>
+	&nbsp;</li>
+	<li>When I create a group of, for example, 5 Minions, then demote 2 of the (resulting in two lines of 3 and 2 Minions resp);<br>
+	and then I boost one Minion of&nbsp;the first type, then *all* Minions of the demoted type return to their original&nbsp;size (i.e. the demotions are reverted).<br>
+	When&nbsp;I then remove the boost, all 5 are back to their orginal status.<br>
+	This applies to hinders and defends as well.</li>
+</ol>
+<p><br>
+...I'll&nbsp;say that I still believe&nbsp;that the above errors are not really calling for direct fixes (possibly&nbsp;introducing new bugs and more strange edge cases), but a re-thinking of the way Minion groups are handled.&nbsp;<br>
+Listing all Minions as single entries would not only make for a&nbsp;more acessible, unmistakable layout - but also needs much less "logic" and is therefore less prone to buggy behaviour.&nbsp;So I'd suggest ditching all that sophisticated logic&nbsp;in favour of some plain-and-simple, but unbreakable and&nbsp;user-friendly solution. The only disadvantage of splaying them out like this is, if you have an absurd number of Minions, they take up a little more space...<br>
+One could even sort those single lines by (1) name, (2). die size -&nbsp;to give you enough&nbsp;basic grouping for efficiently handling them, like rolling them together etc.</p>
+<p>&nbsp;</p>
+<p>Working over a decade as UX consultant now, I really know how vexing&nbsp;it is&nbsp;to let go of an approach that's just a little too clever for its own good, when you've already invested so much brain into it, and after all you're&nbsp;<em>so close</em> to getting it just right...&nbsp;But ultimately, simpler&nbsp;methods&nbsp;usually prove&nbsp;superior.&nbsp;<br>
+...and my apologies if I'm sounding overly patronizing&nbsp;here :D<br>
+So let me just say, I love&nbsp;your&nbsp;app no matter,&nbsp;with or without that grouping!</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-07-20 01:00 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>More fixes! (1.0.4)</p>
+<ul>
+	<li>Reset round should correctly reset the environment</li>
+	<li>Added a promote button for Minions and Lieutenants</li>
+	<li>Fixed issue when creating a new minion/lieutenant of one that already exists (by name) will correctly add the correct count (#1 in the above list)</li>
+	<li>Adding a hinder or defend to a minion/lieutenant will correctly only add it to one of those entities (#2 in the above list)</li>
+	<li>Fixed an issue that when making a boost, penalty, or defend the count for each minion would get messed up (#3 in the above list)</li>
+	<li>Sort Minions and Lieutenants with the following priority
+	<ul>
+		<li>Alphabetically by name</li>
+		<li>Die Size</li>
+		<li>Bonuses length (i.e. if one has a bonus and another doesnt, the one with the bonus will be first)</li>
+		<li>Penalty length</li>
+		<li>Defend length</li>
+	</ul>
+	</li>
+	<li>Bonuses, penalties, and defends will be sorted by the following priority
+	<ul>
+		<li>Alphabetically by name</li>
+		<li>Amount</li>
+		<li>Is persistent</li>
+		<li>Is exclusive</li>
+	</ul>
+	</li>
+</ul>
+<p>I understand where you are coming from with the simple layout, and not as a UX designer myself, I definitely tend to overcomplicate/over-engineer solutions, since that is more where my expertise lies. I think I want to play around with the system myself in a real session (I've only used it once myself as a GM, and that was before I posted it here. It's gone through some changes since then of course thanks to everyone's feedback :) ) so I'd like to see how the flow works first-hand before I make any additional changes (other than bug fixes and minor tweaks). I'll keep your feedback in mind as I use it though. My next session is next weekend so I think I'm going to keep it as-is (other than fixing bugs) until then.</p>
+<p>Thanks for all the feedback and compliments. I enjoy working on this, so its fun for me to get feedback and fix bugs/add features :)</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-07-20 08:16 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>I can’t stop being amazed how fast you are publishing new versions <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=9" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+<p>One very minor inconvenience (not really a bug) I’ve found is that Minions ordering in not totally consistent:<br>
+A demotet or promoted Minion is added as the new bottom line (no matter the die size), whereas adding a modifier seems to sort them by size (ascending).</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-07-20 14:26 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>Fixed sorting issues 1.0.5</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-07-24 05:37 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>I've added a new feature under the Scene Tracker for "Obstacles" (v1.0.6). This is where the GM can list the various obstacles and overcomes in the environment.</p>
+<p>I did this rather quickly tonight so there may be some bugs. Let me know what you think of the UI as well and if you find any issues!</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(55 45% 42%)">ER</div>
+    <div><div class="who">ErekLich</div><div class="when">2020-07-27 03:30 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>I made a character with a similar concept, but what I did with her is to give her Major Regeneration and Ressurection (from the Self-Control list).</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(39 45% 42%)">CA</div>
+    <div><div class="who">catDreaming</div><div class="when">2020-07-27 03:34 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="ErekLich">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/f6c823/48.png" class="avatar"> ErekLich:</div>
+<blockquote>
+<p>I made a character with a similar concept, but what I did with her is to give her Major Regeneration and Ressurection (from the Self-Control list).</p>
+</blockquote>
+</aside>
+<p>Wrong thread?</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-07-30 12:49 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>Keep up the good work.</p>
+<p>In the Round Tracker the "acted" button does not work for Lieutenants.</p>
+<p>In the Villains section the "remove" button does not work.&nbsp;</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-08-02 15:06 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="smashed247">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/s/3d9bf3/48.png" class="avatar"> smashed247:</div>
+<blockquote>
+<p>Keep up the good work.</p>
+<p>In the Round Tracker the “acted” button does not work for Lieutenants.</p>
+<p>In the Villains section the “remove” button does not work.</p>
+</blockquote>
+</aside>
+<p>Fixed these issues v1.0.9</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-08-08 21:17 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><p>Please will you add a tracker for timed challenges so their progress can be easily monitored by everyone - maybe something like "completed" column of the Obstacles section, idealy with the option to add additional check boxes to existing tracks.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-08-13 10:43 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><p>Hi, and&nbsp;sorry for the long wait!</p>
+<p>Love the new obstacle element, and it comes in really handy!&nbsp;<br>
+Although I must admit it took me quite a while to figure out how to use it. Therefore, I'll start with UX suggestions right away!</p>
+<p>&nbsp;</p>
+<ol>
+	<li>I think it would be more consistent&nbsp;if you renamed it&nbsp;to "Challenges", which is the in-game term.&nbsp;<br>
+	&nbsp;</li>
+	<li>in terms of structure, the [Add Element] Feature should sit at the bottom of the respective list, while visually being a part of it (please see my mockup for clarification). That way, the challenge's Name and its details are not cut off by a meta-management function.<br>
+	Adding new aspects on-the-fly is also more intuitive, as they would also be expected to appear at the bottom of the list..<br>
+	&nbsp;</li>
+	<li>If possible, please allow for multi-part challenges (again, please see my mockup). This is a regular situation in the game, and can be handled easily by havíng multiple checkboxes.<br>
+	&nbsp;</li>
+	<li>I think an empty checkbox might work better as an icon. The X typically communicates something has failed, not something not-done-yet.</li>
+</ol>
+<p>A nice side-effect:<br>
+With 3 and 4 implemented, timed challenges (as requested here&nbsp;^) would automatically be included.<br>
+The GM can simply set up a multi-checkbox Element&nbsp;and gradually un-check them one&nbsp;by one as time progresses.<br>
+I don't even think that feels like a cheap workaround: I can&nbsp;think of a few situations (e.g. a car chase or race) where such a timer and overcome actions would directly cancel each other out, so it might be handy to have both represented by the same function.</p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-08-13 10:58 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><p>Few more things I forgot to mention:&nbsp;</p>
+<p>The [Add an Obstacle] dialogue is somewhat confusing, with offering to “Add some obstacles”. I suspect this would be “Add <span class="bbcode-s">Obstacle</span>Challenge&nbsp;Elements”?&nbsp;</p>
+<p>I’d further suggest adding one Element (with a single checkbox) automatically,&nbsp;if none are defined - empty Challenges are rare, and this might save a lot of clicks.<br><br>
+<br><br>
+More click-saving: Whenever adding a new Element, you might want to automatically&nbsp;call the [Edit] function, and focus the description input field.&nbsp;</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(20 45% 42%)">TR</div>
+    <div><div class="who">Trappit</div><div class="when">2020-08-19 01:14 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><p>Another helpful thing would be a health box for heroes. Allow us all one spot to see where people are.</p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-08-22 16:30 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><p>Being able to list all of an environment's locations would be a useful visual aid when running a larger environment such as Pike Industrial Complex or&nbsp;Megalopolis.&nbsp;</p>
+<p>Thank you for all you've done drezzinator.&nbsp;</p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-09-22 20:31 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><p>Thanks for all the feedback and ideas everyone! Sorry I've been MIA recently, but I should have some time in the next couple of weeks to work on some of those changes yall have requested. I'll post here when I make updates. Thanks for your support!</p></div>
+</div>
+<div class="post" id="post-25">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(247 45% 42%)">LO</div>
+    <div><div class="who">Locnar</div><div class="when">2020-09-23 13:07 UTC</div></div>
+    <div class="postnum">#25</div>
+  </div>
+  <div class="post-body"><p>I've been using it for weeks in my new SOTM game that is run online an it has been a life saver. Thanks for your work on this.&nbsp;</p></div>
+</div>
+<div class="post" id="post-26">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-09-23 15:45 UTC</div></div>
+    <div class="postnum">#26</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="drezzinator">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/bc8723/48.png" class="avatar"> drezzinator:</div>
+<blockquote>
+<p>Thanks for all the feedback and ideas everyone! Sorry I’ve been MIA recently, but I should have some time in the next couple of weeks to work on some of those changes yall have requested. I’ll post here when I make updates. Thanks for your support!</p>
+</blockquote>
+</aside>
+<p>No worries, this is after all a voluntary project; I am glad to see you back though.</p></div>
+</div>
+<div class="post" id="post-27">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-09-24 05:45 UTC</div></div>
+    <div class="postnum">#27</div>
+  </div>
+  <div class="post-body"><p>Made the following changes (1.0.10)</p>
+<ul>
+	<li>Renamed <em>Obstacles </em>to <em>Challenges</em>
+</li>
+	<li>Changed the Challenge Completed column to be red empty box when incomplete, and green check mark in box when completed</li>
+	<li>Moved Add Element to the bottom of the table for a given Challenge</li>
+	<li>Changed verbage on the Add Challenge modal</li>
+	<li>If no challenge elements are added to a challenge, a default element will be added with the text "Complete {challenge name}"</li>
+	<li>Clicking on 'Edit' for a Challenge element, the input field automatically gains focus</li>
+	<li>Removed the "Acted" button
+	<ul>
+		<li>Added the Pointer cursor on cells A and B</li>
+		<li>Click on cells A or B to toggle</li>
+		<li>Hover text appears over each of these cells</li>
+		<li>This is to clean up some UI because there's limited horizontal space</li>
+	</ul>
+	</li>
+	<li>Changed Rename and Remove (for players) to be icons
+	<ul>
+		<li>Again, clean up horizontal spacing</li>
+		<li>Includes hover text for clarification</li>
+	</ul>
+	</li>
+	<li>Added Player's HP</li>
+</ul>
+<p>Not enough time tonight, but planning on getting to:</p>
+<ul>
+	<li>Add locations to the environment</li>
+	<li>Global effects (e.g. a net fell on the heros, everyone gets -1 Hinder while its present, requires an overcome to remove)</li>
+	<li>Notes field
+	<ul>
+		<li>Just a general text field for various notes that other systems cant manage</li>
+		<li>Maybe eventually I can look into implementing a primitive drawing pad and/or Image uploader so you can show your players things</li>
+	</ul>
+	</li>
+</ul>
+<p>For further discussion:</p>
+<ul>
+	<li>I havent added a "multi part challenge" because I feel that that is what the whole Challenge system is for with multiple elements. I don't see why you cant add each of the elements in your mock as individual entries? What would be the benefit for having a multi part challenge versus them separated out like this?
+	<ul>
+		<li>Find the entrance</li>
+		<li>Disable the alarm</li>
+		<li>Disable surveilance cam 1</li>
+		<li>Disable surveilance cam 2</li>
+		<li>Distract Guard 1</li>
+		<li>Distract Guard 2</li>
+	</ul>
+	</li>
+</ul></div>
+</div>
+<div class="post" id="post-28">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-09-24 12:07 UTC</div></div>
+    <div class="postnum">#28</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="drezzinator">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/bc8723/48.png" class="avatar"> drezzinator:</div>
+<blockquote>
+<p>Made the following changes (1.0.10)</p>
+</blockquote>
+</aside>
+<p>Great work!</p></div>
+</div>
+<div class="post" id="post-29">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(247 45% 42%)">LO</div>
+    <div><div class="who">Locnar</div><div class="when">2020-09-24 13:20 UTC</div></div>
+    <div class="postnum">#29</div>
+  </div>
+  <div class="post-body"><p>Thanks so much!&nbsp;</p></div>
+</div>
+<div class="post" id="post-30">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-09-24 15:22 UTC</div></div>
+    <div class="postnum">#30</div>
+  </div>
+  <div class="post-body"><p>Wow, absolutely amazing!<br>
+I especially love all the visual&nbsp;cleanup you did there.</p>
+<p><br>
+And you are of correct, this should cover each and every type of Challenge nicely, there's no real need for multi-Step Challenge Elements.</p>
+<p>On the idea of an image uploader / drawing board:&nbsp;<br>
+I think the whole thing relies on me sharing my screen anyway - so I can perfectly show any pictures I have prepared anyway.<br>
+So, probably, a nice feature to round things out, but by no means neccessary.</p>
+<p>On the other hand, general notes about the situation seems like a perfect idea to flexibly cover anything that isn't covered already.<br>
+I would even say, there's no real need for global effects to be mentioned separately, notes should do that just fine, too.</p>
+<p>So, as far as I'm concerned, this little helper is one simple "general notes" function away from being&nbsp;perfect!</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-31">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-09-28 15:58 UTC</div></div>
+    <div class="postnum">#31</div>
+  </div>
+  <div class="post-body"><p>I added the following over the weekend (1.0.12)</p>
+<ul>
+	<li>Locations
+	<ul>
+		<li>Add a name and description for a location in the environment and displays in a table</li>
+		<li>Rename and Delete individual locations</li>
+		<li>Remove all locations button</li>
+	</ul>
+	</li>
+	<li>Notes
+	<ul>
+		<li>Add miscellaneous notes</li>
+		<li>Uses markdown for custom formatting</li>
+		<li>Includes a link in the Help tab to help with formatting</li>
+	</ul>
+	</li>
+	<li>Charts
+	<ul>
+		<li>Added Overcome and Boost/Hinder charts in the navbar</li>
+	</ul>
+	</li>
+</ul></div>
+</div>
+<div class="post" id="post-32">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(247 45% 42%)">LO</div>
+    <div><div class="who">Locnar</div><div class="when">2020-09-30 12:28 UTC</div></div>
+    <div class="postnum">#32</div>
+  </div>
+  <div class="post-body"><p>Can't wait to test the new features out tonight!&nbsp;</p></div>
+</div>
+<div class="post" id="post-33">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-10-08 17:20 UTC</div></div>
+    <div class="postnum">#33</div>
+  </div>
+  <div class="post-body"><p>Could a feature by added that makes it clear on the Round Tracker whether a minion or lieutenant is on the villains', heroes' or environment's side?&nbsp;It'd be even better if marking the environment or a hero as having acted also marked&nbsp;all of the relevant minions and lieutenants as having acted too.</p></div>
+</div>
+<div class="post" id="post-34">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-10-10 23:30 UTC</div></div>
+    <div class="postnum">#34</div>
+  </div>
+  <div class="post-body"><p>Not sure if I am getting what you aim for, smashed247... Why would you want&nbsp;to mark anything as 'acted', unless it just did? Is there a specific scenario&nbsp;you have in mind?</p>
+<p>&nbsp;</p>
+<p>Anyway, I did some test-running on Discord the other day, and all the various bits just barely&nbsp;fit on one screen when I zoomed a little (which is the very idea of having everything at a glance)... so I'd say let's not overstuff it to cover all eventualities, lest the main functionality might suffer.</p></div>
+</div>
+<div class="post" id="post-35">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-10-17 12:41 UTC</div></div>
+    <div class="postnum">#35</div>
+  </div>
+  <div class="post-body"><p>The Minion-Maker archetype (SCRPG p.86) states that any minions you (the hero) create act at the start of your turn and the scene tracker's turn (SCRPG p.157) lists step 2 as "Activate all environment threats". Therefore while they do have their own marker/card/target in the scene, any and all minions and lieutenants belonging to the environment or heroes do not receive their own turn but instead act in the same turn as their parent actor as a sort of group activation. Having the ability to mark all members of a group as an acted with one click would be a great luxury but being able to visually distinguish what belongs to which group on the round track is more of a necessity. i.e. Unity activates and creates a d6 Raptor Bot minion that gets its own marker on the round tracker but doesn't actually have it's own turn and so can't be handed off to at the end of a turn however there isn't a visual indicator that Unity and Raptor Bot are linked and so remembering this relies entirely on human memory which I've found is consistently fallible. If the round tracker had a "Group" section Unity and Raptor Bot could both have "unity" listed next to their names in this section&nbsp;thus creating a visual reminder that the two are&nbsp;associated.&nbsp;&nbsp;&nbsp;</p>
+<p>P.S. I've encountered the same grouping problem when it comes to minion groups that consist of different die sizes. i.e. a minion group of&nbsp;4 d8 Blade Troops suffers 1 casualty become 3 d8 Blade Troops and 1 d6 Blade Troop; the 4 Blade Troops still share one activation but the round&nbsp;tracker of the web app lists the d6 Troop seperately from the d8 Troops which while convenient for target assessment unintentionally obfuscates that they are in fact one actor for the purpose of choosing who to hand off initiative to.&nbsp;&nbsp;</p>
+<p>Another improvement would be&nbsp;to option to apply a mod to all minions or lieutenants in the same group at once rather than having to add the mod to each member seperately.&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<br>
+&nbsp;</p></div>
+</div>
+<div class="post" id="post-36">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-10-18 12:00 UTC</div></div>
+    <div class="postnum">#36</div>
+  </div>
+  <div class="post-body"><p>I think I can see your point... however I don't think more functionality can solve this.</p>
+<ul>
+	<li>On grouping: We already have Minion Groups, of different names. If need be, the instance they are bound to can be noted in the description. In the same way, if you need a cross-reference, simply rename the Hero to "Unity +her Bots" whenever it applies.</li>
+	<li>On multi-modding: Adding a function to apply mods to more&nbsp;than one Minion required another function to manage what applies&nbsp;together and what doesn't. A&nbsp;few (situational) click might be saved, but also a few extra clicks for management are introduced = no gain, only the complexity to handle things rises.</li>
+	<li>On player minions: I am very much convinced we don't need to remind players of their own Minions, which&nbsp;require quite an effort to set up in the first place. A player who is oblivious of their precious self-made and&nbsp;carefully boosted Minions finally going into the action? Not gonna happen, unless that player is beyond help. Anyway,&nbsp;I don't quite see the GM in charge of constantly reminding players of their own assets.</li>
+</ul></div>
+</div>
+<div class="post" id="post-37">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-10-19 17:47 UTC</div></div>
+    <div class="postnum">#37</div>
+  </div>
+  <div class="post-body"><p>Here's my 2 cents:</p>
+<ul>
+	<li>Minion Ownership
+	<ul>
+		<li>I think having some kind of a link between a player created minions and others would be useful. When I've been GMing, Ive had to manually set the name to "Dinobot - Unity" or similar. Especially because my Unity player likes to create minions that are related to the environment so sometimes there will be a bad guy raptor and a unity built raptor. Being able to have these automatically linked makes sense to me instead of having to opt to change the name.</li>
+		<li>I can see the case being made for the above with Villains as well.</li>
+		<li>I dont really see the need for the above for the environment though. Wouldnt all other minions be part of the environment? I dont see a need to explicitly say "this minion is for the environment" when the lack of a player/villain having ownership of it means that it is "owned" by the environment</li>
+	</ul>
+	</li>
+	<li>Marking all minions as having acted with their player
+	<ul>
+		<li>I think this makes sense to me.</li>
+		<li>Often times my Unity player will do their minion's actions, then move right in to their own action. Marking off unity to also mark off their minions makes sense</li>
+		<li>I think the way I'm going to implement this is with a warning that effectively says "hey you're about to mark off Unity and some of their minions havent acted yet. do you also want to mark off their minions?"</li>
+	</ul>
+	</li>
+	<li>Boosting all in the group
+	<ul>
+		<li>I can see the need for this. Sometimes a player or environment affects everyone so I think having a toggle that does so makes sense. It'll be easy enough to implement too i think and just a checkbox so it shouldnt make the system that much more complicated</li>
+		<li>The only complication is that there's kinda multiple definitions of a "minion group" in the context of the app.
+		<ul>
+			<li>There's a minion with a specified name that has all minions with that name grouped together</li>
+			<li>There's a minion die size, that is all minions of a given name with a given die size</li>
+		</ul>
+		</li>
+		<li>Would adding a boost to a minion group be of all the same name or die size? I can see a case being made for either, and I suppose it could be a 3 option rather than just a checkbox</li>
+	</ul>
+	</li>
+</ul>
+<p>I've already started work on these changes and should have them out in the next day or two. After which I can always change it if I get feedback one way or another.</p></div>
+</div>
+<div class="post" id="post-38">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-10-22 14:00 UTC</div></div>
+    <div class="postnum">#38</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="drezzinator">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/bc8723/48.png" class="avatar"> drezzinator:</div>
+<blockquote>
+<pre><code>Minion Ownership
+</code></pre>
+<p>I don’t really see the need for the above for the environment though. Wouldnt all other minions be part of the environment? I dont see a need to explicitly say “this minion is for the environment” when the lack of a player/villain having ownership of it means that it is “owned” by the environment<br>
+<br></p>
+</blockquote>
+</aside>
+<p>The absence of one thing does not imply the presence of another thing. If all minions belonging to players are marked as such and all minions belonging to villains are marked as such then having minions listed without an indication of who they are owned by would raise the question <span class="bbcode-i">“is that absence of ownership deliberate or a mistake?”</span> more often than it would imply <span class="bbcode-i">“this minion is not owned by villains nor players therefore it belongs to the environment”</span> thus undermining the apps purpose slightly. The most regular clarity of ownership issue I’ve run into is when one the players says <span class="bbcode-i">“I pass my initiative of too the pterodactyl minion”</span> and the GM responds <span class="bbcode-i">“That minion is an environment threat so in order for them to act the scene tracker has to take a turn, are you okay with that?”</span> which regardless of the players response has broken the flow of the scene because of a misunderstanding.</p>
+<aside class="quote no-group" data-username="drezzinator">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/bc8723/48.png" class="avatar"> drezzinator:</div>
+<blockquote>
+<pre><code>Marking all minions as having acted with their player
+</code></pre>
+<p>I think the way I’m going to implement this is with a warning that effectively says “hey you’re about to mark off Unity and some of their minions haven’t acted yet. do you also want to mark off their minions?”</p>
+</blockquote>
+</aside>
+<p>Yes, this sounds like a great way to implement it.</p>
+<aside class="quote no-group" data-username="drezzinator">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/bc8723/48.png" class="avatar"> drezzinator:</div>
+<blockquote>
+<pre><code>Boosting all in the group
+
+	Would adding a boost to a minion group be of all the same name or die size? I can see a case being made for either, and I suppose it could be a 3 option rather than just a checkbox
+</code></pre>
+</blockquote>
+</aside>
+<p>Having all 3 options would be the most complete solution but defining “minion group” as same name would cover most cases and maybe be less work for you</p></div>
+</div>
+<div class="post" id="post-39">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-10-25 04:40 UTC</div></div>
+    <div class="postnum">#39</div>
+  </div>
+  <div class="post-body"><p>Updates in 1.0.13</p>
+<ul>
+	<li>Changed the notes section to be a rich text editor rather than markdown view/edit</li>
+	<li>Changed button text to use icons (to save horizontal spacing)
+	<ul>
+		<li>Hover text still present</li>
+	</ul>
+	</li>
+	<li>Added Minion ownership
+	<ul>
+		<li>When creating a minion, you can select a player or villain from the dropdown</li>
+		<li>If owned, the respective owner's name will appear in parens after the minion's name
+		<ul>
+			<li>If unowned, this is omitted</li>
+		</ul>
+		</li>
+		<li>When marking a player/villain as having acted in the round tracker, a warning will appear if all of their minions have not been marked as acted. Yes -&gt; all minions will then be marked as acted. No -&gt; only the player will be marked as acted</li>
+		<li>Players have an add minion button in the round tracker
+		<ul>
+			<li>This pops the add minion modal with that player pre selected as the owner</li>
+		</ul>
+		</li>
+		<li>I'm still thinking about if I want to implement the environment as an owner. As of right now, I did not add this in.</li>
+	</ul>
+	</li>
+	<li>Modifiers
+	<ul>
+		<li>When adding a modifier to a minion or lieutenant, you can select how that modifier is applied via the <em>Apply To</em> field
+		<ul>
+			<li>Just One (default) - Adds this modifier to just a single minion. This was how the app worked before this point</li>
+			<li>All the same die size - Adds this modifier to all minions of this name and die size</li>
+			<li>All of the same name - Adds this modifier to all minions of this name</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Add a minion button
+	<ul>
+		<li>A new button is present in the Minions and Lieutenants Actions column</li>
+		<li>This essentially increments the count of the given row by 1; the opposite of the delete button</li>
+	</ul>
+	</li>
+	<li>Round tracker
+	<ul>
+		<li>Updated sorting order
+		<ul>
+			<li>Players (alphabetical by name)
+			<ul>
+				<li>Minions owned by players are directly after that player</li>
+			</ul>
+			</li>
+			<li>Villains
+			<ul>
+				<li>Minions owned by villains directly after that villain</li>
+			</ul>
+			</li>
+			<li>Lieutenants</li>
+			<li>Minions (unowned)</li>
+		</ul>
+		</li>
+		<li>I <em>think</em> this is the best order, but I'm open for feedback on this</li>
+	</ul>
+	</li>
+	<li>Behind the scenes changes
+	<ul>
+		<li>I've updated a lot of the tech behind the scenes. This may introduce new bugs. Post here if you find anything.</li>
+	</ul>
+	</li>
+</ul></div>
+</div>
+<div class="post" id="post-40">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-10-25 22:38 UTC</div></div>
+    <div class="postnum">#40</div>
+  </div>
+  <div class="post-body"><p>Love the changes, especially all the little bandles and icons.</p>
+<p>&nbsp;</p>
+<p>Haven't had time to test much yet, but I think the new Minion button does not simply increase count by one; it rather seems to double the current count.</p>
+<p>The delete button, however, works as intended (decrease count by 1).</p></div>
+</div>
+<div class="post" id="post-41">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-10-28 10:39 UTC</div></div>
+    <div class="postnum">#41</div>
+  </div>
+  <div class="post-body"><p>After some testing, I can now confirm that the [+] button for Minions and Lieutenants does not, in fact, add one.<br>
+Instead, it adds a number equal to the existing count.&nbsp;</p>
+<p>The delete button reduces the count by 1, which is the expected behaviour.</p>
+<p>As for multiple boost/hinder/defense, I'd suggest renaming the text from "All of the same die size" to "All Minions/Lieutenants in this line", only for clarity.<br>
+(Because&nbsp;other Minions of the same die size and name, but in another table row for any modifiers,&nbsp;are not affected).</p>
+<p>&nbsp;</p>
+<p>= = = = = =&nbsp;</p>
+<p>One more idea I had about useful functions:&nbsp;<br>
+It would be a great help if the GM could prepare a few scenes in advance, and thus reduce setup-downtime during play.&nbsp;</p>
+<p>Since all data in stored in cookies (I think this is still true?), a simple way to implement this might be to download/upload the respective cookie as some kind of config file.<br>
+I imagine preparing a little library of files for the scenes I am planning, and then uploading them into the page when the moment comes.</p>
+<p>What do you think?</p></div>
+</div>
+<div class="post" id="post-42">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(247 45% 42%)">LO</div>
+    <div><div class="who">Locnar</div><div class="when">2020-10-28 14:02 UTC</div></div>
+    <div class="postnum">#42</div>
+  </div>
+  <div class="post-body"><p>Hello,</p>
+<p>First of all thanks for making this. I've been using this in my weekly game.&nbsp;<br>
+<br>
+I am a little confused about the minion ownership features put in. According to the rules, villain&nbsp;minions in general go on their own turn. Hero created minions go on the hero turn, and environment minions go on the environment turn. Also, there are a few hero and villian abilities that specifically effect environment minions. If I have that all correct I think that being able to mark the minions as being owned by the environment would be more useful, and I can't see as to why I would need to mark them as being owned by the villiain. Is is of course possible that I have the rules wrong.&nbsp;</p></div>
+</div>
+<div class="post" id="post-43">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-10-29 02:36 UTC</div></div>
+    <div class="postnum">#43</div>
+  </div>
+  <div class="post-body"><p>Changed the following in 1.1.14:</p>
+<ul>
+	<li>Fixed the issue that adding a minion would double the count</li>
+	<li>Changed text from "All of the same die size" to "All minions/lieutenants in this row"</li>
+	<li>Changed text from "All of the the same name" to "All the minions/lieutenants with the same name"</li>
+	<li>Added border color and font color to the modifiers to match the type. This just gives a little bit of a visualization consistency at a glance.</li>
+	<li>Added the environment as a selectable owner for minions/Lieutenants</li>
+</ul>
+<p>---</p>
+<p>I like the idea of being able to set up the environments ahead of time and being able to import/export them. I actually have an even grander idea which is being able to set up an account of some kind and then your players can log in and see all the data in real time. This would provide a few advantages, however it comes with some disadvantages as well which is why I havent implemented it yet.</p>
+<ul>
+	<li>Advantages
+	<ul>
+		<li>No longer needed to screen share.
+		<ul>
+			<li>Players can scroll up and down at their leisure. Ive had my players be like "can you scroll down to the minion list? I cant remember what targets there are" or whatever.</li>
+			<li>Players can mark themselves as having acted</li>
+			<li>Players can add their own minions</li>
+		</ul>
+		</li>
+		<li>Hidden Information
+		<ul>
+			<li>Ive intentionally left out villain health thus far. This is because I dont want my players to be like "oh one more hit and we win!". I could add this in as a GM tracker, but keep it hidden for players</li>
+			<li>Add various notes, minions, or other things that wont show up until toggled</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Issues/Disadvantages
+	<ul>
+		<li>I need to have a DB and server
+		<ul>
+			<li>This increases the monetary cost from $0 to ...well there are a lot of options out there but all of them are more than $0. I'm not sure I want to shell out any money at this time for something thats just a hobby.</li>
+		</ul>
+		</li>
+		<li>I need authentication of some kind for account management
+		<ul>
+			<li>This also may require password encryption</li>
+			<li>I have a few ideas that wouldn't require a full on password/encryption as well, but would come with it's own risks</li>
+			<li>This multiplies the sophistication and maintenance/commitment by about tenfold I'd estimate</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+<p>Thus far, the downsides outweigh the benefits to me.</p>
+<p>Anyways, all that to say, your suggestion is a good interim step and wouldnt bring any of the baggage I mentioned. I've done some csv/xlsx file imports before and its relatively easy. I'll look into doing that soon. Good idea!</p></div>
+</div>
+<div class="post" id="post-44">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-10-29 11:22 UTC</div></div>
+    <div class="postnum">#44</div>
+  </div>
+  <div class="post-body"><p>Awesome!</p>
+<p>As always, I'm a fan of simple, lightweight approaches, so I'd second the sentiment that a DB+Login structure seems a fair bit over-the-top for what it achieves. And to think that the long tail includes rights-management in who can edit what, and then account management for the GM to grant their players various types of access, and&nbsp; then login recovery... phew.</p>
+<p>On the other hand, a simple shared screen seems little, if any, trouble.</p>
+<p>&nbsp;</p>
+<p>On a related note: Hopefully&nbsp;one day, we'll all return to sitting around one table, and then this tool could run as a handy helper on a tablet.</p>
+<p>Therefore,&nbsp; I'm already thinking how this might&nbsp;translate into a 100% local app (so we wouldn't even depend on&nbsp;an internet connection or a server being up and running)... and going the DB route would definitively kill&nbsp;that possibility.</p></div>
+</div>
+<div class="post" id="post-45">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-10-29 17:50 UTC</div></div>
+    <div class="postnum">#45</div>
+  </div>
+  <div class="post-body"><p>The work you've done in&nbsp;these last two updates is amazing, thank you.</p>
+<p>I don't think having a the advantages you list are worth the extra hoops that would need to be jumped through to achieve and maintain them. The&nbsp;screen sharing isn't a problem if one has a 2nd monitor, which is something I'd recommend having in general.&nbsp;</p>
+<p>I think allowing&nbsp;players&nbsp;to also manipulate the round tracker would most likely lead to confusion.&nbsp;&nbsp;</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-46">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-11-02 02:58 UTC</div></div>
+    <div class="postnum">#46</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="der andere Jan">
+<div class="title">
+<div class="quote-controls"></div>
+ der andere Jan:</div>
+<blockquote>
+<p>Awesome!</p>
+<p>Therefore,  I’m already thinking how this might translate into a 100% local app (so we wouldn’t even depend on an internet connection or a server being up and running)… and going the DB route would definitively kill that possibility.</p>
+</blockquote>
+</aside>
+<p>I’ve done some preliminary research into turning a website into an android/ios app with my work in the past, and its very doable. I’ll do some more R&amp;D to see the feasibility of this in the future. I think this is a great idea to translate the tools into an in person session that we all hope happens sooner than later… <img src="https://forums.greaterthangames.com/images/emoji/apple/confused.png?v=12" title=":confused:" class="emoji" alt=":confused:" loading="lazy" width="20" height="20"></p></div>
+</div>
+<div class="post" id="post-47">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">RI</div>
+    <div><div class="who">rickjonzz</div><div class="when">2020-11-02 19:50 UTC</div></div>
+    <div class="postnum">#47</div>
+  </div>
+  <div class="post-body"><p>Rather than have a "Villain HP" tracker (which, I agree, takes the mystery out of it) you could call the field "Villain HP taken." The GM can show how much damage the villain has taken, without giving away that they've only got 2 left.&nbsp;</p></div>
+</div>
+<div class="post" id="post-48">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-11-03 22:44 UTC</div></div>
+    <div class="postnum">#48</div>
+  </div>
+  <div class="post-body"><p>I've noticed that the Boost, Hinder &amp; Defend buttons under the Villain tab are non-responsive when I click on them.</p></div>
+</div>
+<div class="post" id="post-49">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-11-12 03:24 UTC</div></div>
+    <div class="postnum">#49</div>
+  </div>
+  <div class="post-body"><p>Changelog v1.1.15</p>
+<ul>
+	<li>Added import/export functionality. Find it in the navbar
+	<ul>
+		<li>Ive only done some preliminary testing and it seems to be working, but i dont have time to test it fully right now. If you find any bugs, post them here. Including the exported xlsx file would be helpful as well.</li>
+		<li>There's very little data validation with the import. If you just straight export then import the file without editing it, you shouldnt have any issues. But if you decide to edit the file (its relatively easy to reverse engineer if that's your thing), you may get errors/unexpected data.</li>
+		<li>I dont really want to add data validation because thats just a pain in the butt, but if there's a common issue that occurs frequently for enough people and/or people find it useful to create their own xlsx files and import them, I could be persuaded to add some on-the-rails options to prevent issues.</li>
+	</ul>
+	</li>
+	<li>Fixed villain boost/hinder/defend</li>
+</ul></div>
+</div>
+<div class="post" id="post-50">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-11-19 16:10 UTC</div></div>
+    <div class="postnum">#50</div>
+  </div>
+  <div class="post-body"><p>Thanks for the update. The import/export feature is working fine for me so far. There's an odd bug that any villain I create initially loads in as d12 minion but after refreshing the page the&nbsp;entry is correctly displayed as a villain and all the associate functions work fine for it.&nbsp;</p></div>
+</div>
+<div class="post" id="post-51">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2020-11-29 19:01 UTC</div></div>
+    <div class="postnum">#51</div>
+  </div>
+  <div class="post-body"><p>Great improvements to the round tracker. Little changes that make noticeable differences&nbsp;</p></div>
+</div>
+<div class="post" id="post-52">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-11-29 20:04 UTC</div></div>
+    <div class="postnum">#52</div>
+  </div>
+  <div class="post-body"><p>Thanks! Yea I'm playing around with UI improvements here and there. I'm not a designer so I dont really know what's objectively good layout. I'm not too fond of the color scheme right now as its just some default colors. I think I might do some work around that next. I also dont love the cream background color either so that might get a redo at some point. Any ideas/pointers appretiated!</p></div>
+</div>
+<div class="post" id="post-53">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-11-30 10:38 UTC</div></div>
+    <div class="postnum">#53</div>
+  </div>
+  <div class="post-body"><p>Something very, very minor: when creating a new Challenge, the field for creating challenge aspects has the monicker 'challenge entry' (which seems a little ambiguous), and is pre-filled with 'challenge description' (which is misleading).</p>
+<p>Come to think of it, a&nbsp;challenge description - essentially a line without a checkbox - might be another nice touch. I've found that sometimes I like to give a general description before listing the actual overcomes needed. That, or maybe even simpler, a feature to define how many checkboxes (0-x) a challenge has. This way, we could even cover timed challenges.</p>
+<p>Example: Old uncle Billy is down because his heart wasn't up to all this trouble. Yep, that looks like a heart attack!(general description). He&nbsp;needs immediate medical attention (task 1) and someone to call an ambulance (task 2). Timer is 2 rounds.</p>
+<p>With multiple boxes per line, I'd arrange this so:</p>
+<p>Uncle B is down!</p>
+<p>[His heart... blablabla]</p>
+<p>ΠΠ Time's running out</p>
+<p>Π First aid</p>
+<p>Π get ambulance / more professional care</p>
+<p>&nbsp;</p>
+<p>Or, with the tasks even more concise:</p>
+<p>ΠΠ help,&nbsp;<i>and</i>&nbsp;get others to help too</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-54">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-12-11 04:46 UTC</div></div>
+    <div class="postnum">#54</div>
+  </div>
+  <div class="post-body"><p>Been working on v1.3.19 for a couple weeks now and i honestly forget the full list of what ive changed.</p>
+<p>Most notably though, I made some changes to the UI, formatting, and colors. Hopefully thats easier to see everything and better on the eyes!</p></div>
+</div>
+<div class="post" id="post-55">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2020-12-11 22:36 UTC</div></div>
+    <div class="postnum">#55</div>
+  </div>
+  <div class="post-body"><p>Wow, what a change!&nbsp;Thanks again!</p>
+<p>One last request though: Can you make the scene tracker fields a smidge smaller, so that a standard 8-round tracker fits into one line on a common 1800px-wide screen? Resizing to 90% (104x100px) should do the trick.</p>
+<p>Looks so much cleaner ;)</p></div>
+</div>
+<div class="post" id="post-56">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2020-12-13 03:31 UTC</div></div>
+    <div class="postnum">#56</div>
+  </div>
+  <div class="post-body"><p>Ask and you shall receive</p></div>
+</div>
+<div class="post" id="post-57">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2021-01-04 05:56 UTC</div></div>
+    <div class="postnum">#57</div>
+  </div>
+  <div class="post-body"><p>Rather large feature in coming on this in 1.4.22</p>
+<p>I added a drawing board on the bottom of the page. This allows the GM to have a "board" layout. I was getting a little frustrated at my players being like "well all the minions are nearby so my ability can attack all of them". Now there will be some representation to show who is in what location. I hope it helps out your games!</p></div>
+</div>
+<div class="post" id="post-58">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2021-01-04 13:11 UTC</div></div>
+    <div class="postnum">#58</div>
+  </div>
+  <div class="post-body"><p>Interesting feature, still getting the hang of it... :)</p>
+<p>&nbsp;</p>
+<p>New Bug:<br>
+When demoting Minions, their number is copied, not split.</p>
+<p>Example: 5 d6 Minions =&gt; click "demote" =&gt; 5 new d4 Minions PLUS the existing 5 d6 Minions.</p>
+<p>&nbsp;</p>
+<p>Edit:<br>
+Also, the two entries seem connected afterwards - promoting them will increase numbers on both, and adding/removing will also affect both lines simultaneously..</p>
+<p>Edit 2:<br>
+The same thing happens when a mod is applied, and removed. In both cases, Minion numbers just rise and rise... weird stuff going on there :)</p></div>
+</div>
+<div class="post" id="post-59">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2021-01-05 07:06 UTC</div></div>
+    <div class="postnum">#59</div>
+  </div>
+  <div class="post-body"><p>Whoops. Should be fixed 1.4.24</p></div>
+</div>
+<div class="post" id="post-60">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(112 45% 42%)">DE</div>
+    <div><div class="who">deanjday</div><div class="when">2021-01-05 11:15 UTC</div></div>
+    <div class="postnum">#60</div>
+  </div>
+  <div class="post-body"><p>Would just like to say, thank you once again for all your work. I am a bit confused on how the map feature can and should work?</p></div>
+</div>
+<div class="post" id="post-61">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2021-01-05 16:35 UTC</div></div>
+    <div class="postnum">#61</div>
+  </div>
+  <div class="post-body"><p>It's basically just another visual representation of the environment and all the actors in it. While SCRPG doesnt have a board like other RPGs, there are some mechanics that are dependent on location and proximity. Certain challenges only exist in certain locations, some abilities say "attack all nearby targets", and moving from one location to another may use up some of your hero's actions (depending on a couple of factors). If I were to run my games in person, I would likely have the center of my table contain all these components. I found myself in my games trying to remember where everyone was, especially when theres several minions, some lieutenants, a villain, 4-5 heroes (and their minions), and some challenges. I had to ask the players multiple times, which minion are you attacking? I thought that minion was over there, I dont think you can use a melee attack on two minions in different locations. etc.</p>
+<p>This map feature is intended to solve all of that. It's totally an opt in system, so if you dont want to use it, you dont have to. Right now all of this is theoretical, and I'll be running my first session with it this weekend so I'll know more effectively if its helpful or just gets in the way, and I'll post updates on my findings (and I encourage you to do the same).</p>
+<p>Does that help bring some clarity? Any other questions on it?</p></div>
+</div>
+<div class="post" id="post-62">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2021-01-11 02:41 UTC</div></div>
+    <div class="postnum">#62</div>
+  </div>
+  <div class="post-body"><p>I ran my game this weekend and used the drawing board a little bit. There were a couple of bugs (fixed 1.4.25), but for the most part it was successful and my players seemed to appretiate having the visual aid so I think I'm going to continue working on it. As I mentioned before, its a complete opt in feature so don't feel like you need to use it.</p></div>
+</div>
+<div class="post" id="post-63">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2021-01-11 18:27 UTC</div></div>
+    <div class="postnum">#63</div>
+  </div>
+  <div class="post-body"><p>One thing that crossed my mind over a few reaction-heavy rounds - do you think we should track if a Hero has their free Reaction still available, or already spent?&nbsp;</p>
+<p>I can't really think of a good mechanic to do&nbsp;that automatically (they refresh at the start of a player's turn);&nbsp;maybe it is just something to check and un-check manually, much like we edit HP...</p></div>
+</div>
+<div class="post" id="post-64">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2021-01-11 20:31 UTC</div></div>
+    <div class="postnum">#64</div>
+  </div>
+  <div class="post-body"><p>I have a card I flip. One side says my reaction is available, and the other says it isn't. :-)</p>
+<p>So yeah, a checkbox would be great!&nbsp;</p></div>
+</div>
+<div class="post" id="post-65">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(132 45% 42%)">DR</div>
+    <div><div class="who">drezzinator</div><div class="when">2021-01-11 21:43 UTC</div></div>
+    <div class="postnum">#65</div>
+  </div>
+  <div class="post-body"><p>I can look into adding something like that, but before I do so I'm just curious why your players arent keeping track of that themselves? Right now, the players are expected to keep track of their own mechanics (boosts, hinders, defends, hp, and now adding reactions to that list). The only reason why I've added the HP to the app is that (for my games at least), different minions will prioritize certain heroes (i.e. some minions attack the highest hp, others attack the lowest hp, just like in the card game); due to that, I wanted to be able to easily identify the targets without stoping the flow of the game and asking "what's everyone's hp at? ...oh okay so the minion is going to attack Absolute Zero since you have the highest HP." In addition, the amount of mechanics and complexity in SCRPG is drastically less than that of other RPGs so I dont think that there's much book keeping for each individual player needs to do.</p>
+<p>In my opinion, it seems relatively easy for the players to keep track of their own reaction status. A coin, any card from a standard deck of cards, even a scrap piece of paper with "Available" and "Used" written on each side would work. Why do you think this feature in the app would be better than the players keeping track of it themselves?</p></div>
+</div>
+<div class="post" id="post-66">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(329 45% 42%)">DJ</div>
+    <div><div class="who">der_andere_Jan</div><div class="when">2021-01-11 21:49 UTC</div></div>
+    <div class="postnum">#66</div>
+  </div>
+  <div class="post-body"><p>I thought more of a means&nbsp;to transparently keep track of what players have at their disposal.&nbsp;</p>
+<p>Especially when the group starts strategizing the turn order, it can become fuzzy who may or may not have another Reaction ready... and&nbsp; some cases, even argument may arise.</p>
+<p>But you are right, it might be a step to finally turn a GM tool into a babysitter app... :)</p></div>
+</div>
+<div class="post" id="post-67">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(178 45% 42%)">SM</div>
+    <div><div class="who">smashed247</div><div class="when">2021-02-20 15:37 UTC</div></div>
+    <div class="postnum">#67</div>
+  </div>
+  <div class="post-body"><p>Thank you for all the work you continue to do. </p>
+<p>I've noticed that Defends, Bonuses &amp; Penalties cannot be removed to Minions &amp; Lieutenants once added.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

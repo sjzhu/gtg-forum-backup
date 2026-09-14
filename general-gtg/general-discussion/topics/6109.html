@@ -1,0 +1,290 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>So, I did some maths...</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../general-gtg/index.html">General GTG</a> &rsaquo; <a href="../../../general-gtg/general-discussion/index.html">General Discussion</a> &rsaquo; So, I did some maths...</div>
+<h1>So, I did some maths...</h1>
+<div class="desc">19 posts &middot; 1643 views &middot; started 2012-07-27 05:25 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2012-07-27 05:25 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>I was bored, so I decided to create a formula to determine the exact number of unique scenarios that could be created with the heroes, villains, and environments we have as of Infernal Relics. These are, of course, including all promotional heroes and villains, but with the rules of 3-5 heroes, 1 villain, 1 environment, and no promotional hero played alongside their original counterpart. (no Legacy + young Legacy.) Also, normal and advanced mode are each counted, but half-on, half-off advanced mode is not, for simplicity’s sake.</p>
+<p>Accounting for the promos tripped me up a bit, but I have found what I believe to be the correct formula.</p>
+<p>2 * V * E * F(A)<br>
+F(A) = F(H) + F§<br>
+F(H) = (H * H-1 * H-2)^3 * (H-3)^2 * H-4<br>
+F§ = (P * H-1 * H-2)^3 * (H-3)^2 * H-4</p>
+<p>V = total villains (15)<br>
+E = environments (8)<br>
+H = non-promotional heroes (15)<br>
+P = Promotional heroes (4)<br>
+2 for normal and advanced mode.</p>
+<p>All of this adds up to a grand total of 7,881,570,393,000,000<br>
+That’s over 7 QUADRILLION combinations of heroes, villains, environments, and difficulties.</p>
+<p>You should advertise that. That’s pretty impressive.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(343 45% 42%)">RI</div>
+    <div><div class="who">Riffian</div><div class="when">2012-07-27 08:34 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>I’ll admit you lost me at ‘maths’, but I tuned back in at OVER 7 QUADRILLION.<br>
+Not to mention the fact that, even with the exact same match-up, the cards you draw each time will likely be a very different set…</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(240 45% 42%)">BE</div>
+    <div><div class="who">beevolant</div><div class="when">2012-07-27 14:53 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="&quot;&quot;Riffian&quot;&quot;">
+<div class="title">
+<div class="quote-controls"></div>
+ ""Riffian"":</div>
+<blockquote>
+<p>Not to mention the fact that, even with the exact same match-up, the cards you draw each time will likely be a very different set…</p>
+</blockquote>
+</aside>
+<p>And, given that some heros have more than one valid set of strategies to use in their decks… The number of completely unique feeling games is beyond imagination.</p>
+<p>And yet, we have some how gotten the T-Rex to finish the game for us multiple times <img src="https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12" title=":stuck_out_tongue:" class="emoji" alt=":stuck_out_tongue:" loading="lazy" width="20" height="20"></p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(126 45% 42%)">CR</div>
+    <div><div class="who">Craig</div><div class="when">2012-07-27 14:55 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>We’ve crossed from actual numbers into batsh*t insane numbers. Might as well just say that you have better odds of being sent Dreamings from The Great Lord Cthulhu than playing the same game twice.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2012-07-27 15:04 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>I agree that the number of combinations of decks is vast and a great selling point, but I don’t follow your math.</p>
+<p>The total number of combinations equals the total number of ways to choose 3, 4, or 5 hero decks multiplied by the total number of villain decks multiplied by the total number of environment decks:</p>
+<blockquote>
+<p>NumCombos = NumHeroCombos * NumVillains * NumEnviros</p>
+</blockquote>
+<p>The total number of ways to choose 3, 4, or 5 hero decks equals the number of ways to choose 3 hero decks plus the number of ways to choose 4 hero decks plus the number of ways to choose 5 hero decks:</p>
+<blockquote>
+<p>NumHeroCombos = NumHeroCombos3 + NumHeroCombos4 + NumHeroCombos5</p>
+</blockquote>
+<p>If we were allowing two versions of the same hero (as in Finest Legacy and Newest Legacy) to be used at the same time, then the number of ways to choose 3 hero decks would simply be the combinations one can form from the number of total heroes, choosing three:</p>
+<blockquote>
+<p>NumHeroes = 19 (ten in base set, four in Rook City, four in Infernal Relics, Ambuscade, four promo heroes)</p>
+</blockquote>
+<blockquote>
+<p>RawHeroCombos3 = Combinations(NumHeroes, 3) = 19! / ((19-3)! * 3!) = 19 * 18 * 17 / 6 = 969</p>
+</blockquote>
+<p>But we are not allowing the use of a hero and his or her corresponding promo hero, so we need to subtract all of the instances when such a pair shows up in our combinations. In the case of choosing only three heroes, this is relatively simple, as we don’t have to worry about <span class="bbcode-b">TWO</span> pairs of a hero and a corresponding promo showing up at the same time. For any given hero/promo pair there are are 17 ways for it to show up, because there’s a third hero on the team. Since there are four hero/promo pairs, then the number of teams of three heroes that have a promo pair, and thus need to be discarded, are:</p>
+<blockquote>
+<p>PromoCombos3 = 4 * Combinations((NumHeroes-2),1) = 4 * 17 = 68</p>
+</blockquote>
+<blockquote>
+<p>NumHeroCombos3 = RawHeroCombos3 - PromoCombos3 = 901</p>
+</blockquote>
+<p>For teams of four heroes, we again need to determine the raw number of teams and subtract the number of teams that have promo pairs in them, but we also need to consider that we could now have two different promo pairs in the same combination, so we need to be careful not to subtract that team twice from the total. Given that there are four possible promo pairs and that we would have two of them at a time, this is the combinations of four, choose two:</p>
+<blockquote>
+<p>RawHeroCombos4 = Combinations(NumHeroes,4) = 19! / ((19-4)! * 4!) = 3,876</p>
+</blockquote>
+<blockquote>
+<p>PromoCombos4 = 4 * Combinations((NumHeroes-2),2) = 4 * (17 * 16 / 2) = 544</p>
+</blockquote>
+<blockquote>
+<p>PromoPromoCombos4 = Combinations(4,2) = 6</p>
+</blockquote>
+<blockquote>
+<p>NumHeroCombos4 = RawHeroCombos4 - (PromoCombos4 - PromoPromoCombos4) = 3,338</p>
+</blockquote>
+<p>For teams of five heroes, when considering how many teams have multiple promo pairs, we have to keep in mind that with a fifth team member, there will be many more combinations that have two promo pairs. To account for this the number of combinations of promo pairs is multiplied by the total number of heroes minus four (which represents the four heroes that make up the two promo pairs):</p>
+<blockquote>
+<p>RawHeroCombos5  = Combinations(NumHeroes,5) = 19! / ((19-5!) * 5!) = 11,628</p>
+</blockquote>
+<blockquote>
+<p>PromoCombos5 = 4 * Combinations((NumHeroes-2,3) = 4 * (17 * 16 * 15 / 6) = 2,720</p>
+</blockquote>
+<blockquote>
+<p>PromoPromoCombos5 = Combinations(4,2) * 15 = 90</p>
+</blockquote>
+<blockquote>
+<p>NumHeroCombos5 = RawHeroCombos4 - (PromoCombos5 - PromoPromoCombos5) = 8,998</p>
+</blockquote>
+<p>Now we can add all of the ways to form three-hero, four-hero, or five-hero teams:</p>
+<blockquote>
+<p>NumHeroCombos = NumHeroCombos3 + NumHeroCombos4 + NumHeroCombos5 = 901 + 3,338 + 8,998 = 13,237</p>
+</blockquote>
+<p>And then we can multiple the number of hero combinations by the number of villain and environment decks:</p>
+<blockquote>
+<p>NumVillains = 13 (four in base set, four in Rook City, four in Infernal Relics, and Ambuscade)</p>
+</blockquote>
+<blockquote>
+<p>NumEnviros = 8 (four in base set, two in Rook City, two in Infernal Relics)</p>
+</blockquote>
+<blockquote>
+<p>NumCombos = NumHeroCombos * NumVillains * NumEnviros = 13,237 * 13 * 8 = 1,376,648</p>
+</blockquote></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2012-07-27 15:51 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>… I multiplied the hero combinations. Dammit.</p>
+<p>So really, it’s 2 (because I’m counting advanced and not-advanced as separate things) * 15 (promotional villains, don’t forget) * 8 * ((3(15 * 14 * 13) + 24 + 11) + ((3(4 * 14 * 13) + 24 + 11)))</p>
+<p>I forgot to think. Or I overthought it. I don’t know.</p>
+<p>Anyway, my doing the promotional heroes was much less complex than yours. I just calculated the total number of NON-promotional heroes (15 * 14 * 13) + (15 * 14 ) 13 * 12) + ( 15 * 14 * 13 * 12 * 11)<br>
+and then added in the number of promotionals, but calculating them in the place of their normal heroes. (4 * 14 * 13) + (4 * 14 * 13 * 12) + (4 * 14 * 13 * 12 * 11).</p>
+<p>Anyway, I got</p>
+<p>2,506,560</p>
+<p>… so, apart from me using different numbers of villains, we got the same number.</p>
+<p>Hooray for correcting flawed equations!</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(147 45% 42%)">TD</div>
+    <div><div class="who">The_Densetsu</div><div class="when">2012-07-27 16:00 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>When I saw your first post, I was like  " &gt;:(  Someone doesn’t get combinatorics!  &gt;:( ".</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(37 45% 42%)">KI</div>
+    <div><div class="who">kirioni</div><div class="when">2012-07-27 16:10 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>I personally loved how eight parenthesis became cool glasses guy <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=9" title=":slight_smile:" class="emoji" alt=":slight_smile:"> Uhhh and the math was nice too <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=9" title=":slight_smile:" class="emoji" alt=":slight_smile:"> I believe there is no limit to the experience(s) to be had and am satisfied with that.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2012-07-27 16:21 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Well, the last math class I took was College Algebra, my Junior year of high school, 3 years ago. So I am a bit rusty.</p>
+<p>I just kind of figured it out from scratch. I figured it out eventually though.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2012-07-27 17:22 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>McBehrer, I think you need to consider combinations instead of permutations.</p>
+<p>For instance, just using the 15 non-promo heroes, when forming a team of 3 there aren’t (15 * 14 * 13) ways to do it. Why not? Imagine your first team is Legacy, AZ, Wraith and your second team is Wraith, AZ, Legacy. Those are two different permutations, but they are the same combination.</p>
+<p>I’m also not sure that the way you handled promotional heroes counts all of the combinations properly. How, for instance, do you count the situation when two different promo heroes are on the same team?</p>
+<p>Than you for pointing out the promo villains. I had, indeed, forgotten about those. My revised total is 1,588,440. Why, yes, I did create a spreadsheet for this.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2012-07-27 17:43 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Thanks for starting this conversation, McBehrer! Interesting and entertaining stuff. <img src="https://forums.greaterthangames.com/images/emoji/apple/smiley.png?v=9" title=":smiley:" class="emoji" alt=":smiley:"></p>
+<p>Have to agree with the earlier sentiments expressed:</p>
+<ul>
+<li>With all the possible deals, the permutations are impressively near-infinite[/<em>][</em>]The many different styles of decks creates very different experiences in each of those games[/<em>][</em>]There are things that are awesome about the game, such as using a T-Rex or a Kraken to the heroes’ advantage, that randomness allows to happen multiple times (although Wednesday’s two side-by-side games with three Kraken out each was a little sureal, but hilarious in that one won and one lost  ???) [/<em>][</em>]Having 8) turn into 8) is always humorous (to me <img src="https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=9" title=":wink:" class="emoji" alt=":wink:"> )[/<em>][</em>]I’m suddenly hoping to receive dreamings from the greatest of the Elder Gods…[list][/list][/*]</li>
+</ul></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(44 45% 42%)">VE</div>
+    <div><div class="who">Veet</div><div class="when">2012-07-28 02:16 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Assuming about a half hour per game playing all those instances would take a little over 90 years of solid play.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2012-07-28 05:01 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>hmm… I’ll have to think about it.<br>
+I don’t know how to do it the other way.  I just kind of came up with these off the top of my head.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2012-11-13 08:35 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="arenson9">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png" class="avatar"> arenson9:</div>
+<blockquote>
+<p>My revised total is 1,588,440. Why, yes, I did create a spreadsheet for this.</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>I shudder at the thought of accommodating the fact that there will be three different versions of The Wraith in the future, spreadsheet or no.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(240 45% 42%)">BE</div>
+    <div><div class="who">beevolant</div><div class="when">2012-11-13 22:21 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="arenson9">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png" class="avatar"> arenson9:</div>
+<blockquote>
+<p>I shudder at the thought of accommodating the fact that there will be three different versions of The Wraith in the future, spreadsheet or no.</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>There could even be more versions of The Wraith - we still haven't seen the comedy Adam-West-Style Wraith, I kind of want a goofy buddy match of The Wraith and Tachyon.&nbsp;</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2012-11-13 22:24 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p>The Kevin Conroy style Wraith is the only true Wraith in my opinion, just like the Mark Hamill style Spite is the only true Spite to me.</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(345 45% 42%)">AN</div>
+    <div><div class="who">AnachronismAxe</div><div class="when">2012-11-13 22:37 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>The next expansion after Shattered Timelines is all about The Wraith. 2 new Wraith decks so you can have 5 DIFFERENT WRAITHS IN PLAY AT THE SAME TIME. Including the time she had all those spider arms, the alternate universe where she had her secret identity out in the open, the time she was mind controlled, and before she got amnesia the third and seventh times. THE VILLAINS ARE ALL EVIL ALTERNATE VERSIONS OF HER AND HER MANSION/LAIR WILL BE THE ENVIRONMENTS.</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(55 45% 42%)">EV</div>
+    <div><div class="who">EvanDan55</div><div class="when">2012-11-13 22:44 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>All cards in this expansion will just have art of Wraith doing Wraith-like things. No one else is allowed in the art, or story.</p><p>And what will this expansion be called?</p><p><em>Everybody Loves Maia</em>.</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">CZ</div>
+    <div><div class="who">Cosmonaut_Zero</div><div class="when">2012-11-13 22:47 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="AnachronismAxe">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/anachronismaxe/48/2163_2.png" class="avatar"> AnachronismAxe:</div>
+<blockquote>
+<p>The next expansion after Shattered Timelines is all about The Wraith. 2 new Wraith decks so you can have 5 DIFFERENT WRAITHS IN PLAY AT THE SAME TIME. Including the time she had all those spider arms, the alternate universe where she had her secret identity out in the open, the time she was mind controlled, and before she got amnesia the third and seventh times. THE VILLAINS ARE ALL EVIL ALTERNATE VERSIONS OF HER AND HER MANSION/LAIR WILL BE THE ENVIRONMENTS.</p>
+</blockquote>
+</aside>
+<p>This follows from the philosophy that if everything is overpowered, then nothing is overpowered. Maybe the most plausible way I've heard to balance her deck yet. ;D</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

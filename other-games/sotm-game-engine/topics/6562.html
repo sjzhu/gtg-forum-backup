@@ -1,0 +1,106 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Randomizer update</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Randomizer update</div>
+<h1>Randomizer update</h1>
+<div class="desc">12 posts &middot; 1780 views &middot; started 2012-11-01 08:29 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(325 45% 42%)">FL</div>
+    <div><div class="who">flamethrower49</div><div class="when">2012-11-01 08:29 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Spiff, do you think we could have a Randomizer update for those of us playtesters who just can't stand to play without randomizing things? &nbsp;Heros 1 and 2, Villains 1-4, and Environments 1 and 2 would be what I'm thinking of, but I understand if you want to wait until at least the names are revealed. &nbsp;I don't know if adding or changing things for that is an easy task. &nbsp;But I would really appreciate it. &nbsp;Of course, you could always add the newly revealed promos while you wait.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(125 45% 42%)">BR</div>
+    <div><div class="who">broccoli</div><div class="when">2012-11-01 13:55 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Check the playtest forums, and I'll have something for you.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2012-11-01 19:46 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Sure, I could do that.&nbsp; Do we still need it, or did whatever Broccoli do resolve the need?</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2012-11-03 04:30 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>I never heard back if this would still be helpful, but I went ahead and made the update anyway. &nbsp;You can now choose to include "playtest hero 1", "playtest villain 3", etc. in the randomizer. &nbsp;I also included Dark Visionary and the Freedom Six, as well as the potential Kickstarter rewards hero/villain/environment decks, since I don't know if you guys are playtesting those or not.</p><p>The only new option that has any art is Dark Visionary (the others use placeholder pix). &nbsp;As I work my way through the Freedom Six, I'll post their art, and as I'm able, I'll update the rest.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(325 45% 42%)">FL</div>
+    <div><div class="who">flamethrower49</div><div class="when">2012-11-03 08:31 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>We were experiencing some technical difficulties with Broccoli's program, but they are resolved now. &nbsp;So now I have two great randomizers to choose from! &nbsp;Thank you guys very much.&nbsp;</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2012-12-16 01:51 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>OK, I think I've got it this time. &nbsp;It took me a long time to figure out a proper method to do what, to a human, is an achingly simple thing -- given a stack of cards, figure out which ones are alternates of each other and only allow one of each alternate in the final stack. &nbsp;I thought I had it figured out earlier in the day, but then I realized that my solution only worked if you included the base card in the group. &nbsp;If you only wanted Young Legacy and Greatest Legacy but not Finest Legacy, for example, my early attempt fell on its face.</p><p>But now it should be working just like we all want, for any number of alts, and all in an automated way so that as future cards are added, I don't have to do a bunch of manual futzing to get it to work out. &nbsp;Please do your best to poke holes in it, and I'll try to jump on any fixes. &nbsp;I've saved the old code, so if it turns out that the new code is completely unacceptable for some reason, I can revert to the old stuff and you can all keep using that while I figure out where I went wrong with the new stuff.</p><p>www.spiffworld.com/sotm/randomizer.cfm</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2013-03-15 04:15 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>p.d.magnus was right when he said that my randomizer didn't format well on a phone, so I've updated it. &nbsp;Rather than displaying the options running down the left side of the page like before, now there's a single line at the top where you choose the number of heroes and hit "go" along with an "options" &nbsp;link that hides/shows the section where you can tell it which heroes/villains/environments to include in the randomization. &nbsp;All the pictures are displayed in a single vertical column at full size rather than being smooshed and shrunk like before. &nbsp;It still looks good on an iPad or a monitor, so I think it's a big improvement.</p><p>My randomizer is still not something you can use without Internet connectivity because of the way I built it, and it's almost certain to stay that way.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(297 45% 42%)">YO</div>
+    <div><div class="who">youperguy</div><div class="when">2013-03-15 12:34 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>Spiff, love your randomizer. It is awesome.&nbsp;</p><p>&nbsp;</p><p>Is there a way to save a setting? Right now I have to go in and change the setting each time to remove the stuff I don't have? (I play no more then once a day, so the page resets when I want to use it again.)</p><p>&nbsp;</p><p>For example you could have a toggle for each expansion, and maybe promos in general. Right now I have to unclick all of the Shattered Timelines, heroes, villains, environments, and most promos. That is a lot of clicks and the buttons are a little small on my IPAD.&nbsp;</p><p>&nbsp;</p><p>Again thanks for your awesome support of this game.&nbsp;</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2013-03-15 14:12 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>I was confused by your question at first, because in its current state it does retain your settings. &nbsp;When you click the "go" button, it posts all of your settings back to the page, and as long as you keep using that same page, you'll retain those settings (that's why, if you refresh the page after having made a selection, it will ask if you want to resubmit the form). &nbsp;But you mean you want to save the options even if you close down the browser and come back to the page fresh some other time, don't you? &nbsp;Easy to fix. &nbsp;I changed it so that now the randomizer puts your options into the URL after you hit "go". &nbsp;If you bookmark the page after having set some options (or copy/paste the URL so you can get to it later), you'll go back to the page as it was after you made the selections. &nbsp;If you ever want to start from scratch, just hit the "reset page" link in the "options" section. &nbsp;Let me know if this addresses what you want, or if I've misunderstood completely.</p><p>I forgot to mention earlier that I've also added all the ST heroes/villains/environments to be in the random rotation by default (you can always turn them off if you don't have ST). &nbsp;Greatest Legacy is still off by default since he's not really coming until Vengeance.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(297 45% 42%)">YO</div>
+    <div><div class="who">youperguy</div><div class="when">2013-03-15 15:13 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Spiff, wow, you are the best. That is awesome, thank you!</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(355 45% 42%)">WE</div>
+    <div><div class="who">Wendell</div><div class="when">2013-03-16 01:06 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>That was a very easy and clever way to solve the question. I also had the same problem, and it was not only that it was time -consuming to unclick everything, it also reminded each time how much stuff i don'have (and I'm not going to have soon ... or possibly ever, like unity)</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2013-09-20 00:43 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>I've updated my <a href="http://www.spiffworld.com/sotm/randomizer.cfm" rel="noopener nofollow ugc">SotM Randomizer</a> to include the new Vengeance heroes, if any playtesters are interested. &nbsp;They won't be included by default, but if you check their boxes, run a randomization, and then save that URL, it will remember your choices so you won't have to re-pick the new heroes each time.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

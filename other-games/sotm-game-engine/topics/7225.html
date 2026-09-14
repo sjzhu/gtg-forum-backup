@@ -1,0 +1,168 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stats</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Stats</div>
+<h1>Stats</h1>
+<div class="desc">15 posts &middot; 1283 views &middot; started 2013-02-19 14:58 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(297 45% 42%)">YO</div>
+    <div><div class="who">youperguy</div><div class="when">2013-02-19 14:58 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Hi all,</p><p>&nbsp; &nbsp; &nbsp;I love the community stats page, so I thought I would calculate the statistics to help put things in perspective.&nbsp;</p><p>&nbsp;</p><p>This is a binomial stat calculation assuming a 2/3 win percentage. It would be more accurate to use the exact win % for each hero, villain and environment, but I am to lazy.</p><p>So in general the formula comes to:</p><p>% error = square root(2/9/N) x 100%</p><p>&nbsp;</p><p>where N is the number of games for that hero, villain, or environment.</p><p>&nbsp;</p><p>So for 100 games which is about where most heroes are we get 4.7%.</p><p>&nbsp;</p><p>for 40 games which is where most villains are at we get 7.5%.</p><p>&nbsp;</p><p>to get 2% error we need 500 games for each hero, villain, or environment.</p><p>&nbsp;</p><p>to get 1% error we need 2000 games for each hero, villain, or environment.</p><p>&nbsp;</p><p>so we can say a little bit about the heroes, but I think the stats are still to low to say much about the villains.</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2013-02-19 21:24 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Erm...so...erm...what is it you're working out, exactly?</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2013-02-19 22:35 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>&nbsp;</p><p>Ooh, yeah, this looks fun. Statistical analysis, I choose you!</p><p>Mean victory rate is 65.75%, in 511 games. Legacy is 78.45% with 116 games, Tempest is 75.61% with 123 games, Tachyon 74.79 with 119, Young Legacy 74.79 with 31, Visionary 72.58 with 124, Expat 60.36 with 111, Wraith 60.34 with 116, Bunker 60.05 with 119, Ab-Zero 60 with 105 and Fixer 60 with 100.</p><p>Jesus, I've forgotten how to do this... Okay, so we have a mean of 0.6575, standard deviation of... 0.475? I think?* And n=511. Then we're comparing that to:</p><p>Legacy:<span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)=0.7845, S=0.413, n=116, so Z = [0.7845 - 0.6575/Root(0.413^2/116 + 0.475^2/511)] = 2.9045</p><p><span>Tempest:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.7561, S=0.431, n=123, so Z = [0.7561 - 0.6575/Root(0.431^2/123 + 0.475^2/511)] = 2.2318</span></p><p><span>Tachyon:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.7479, S=0.436, n=119, so Z = 2.0020</span></p><p><span>Young Legacy:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.7479, S=0.434, n=31, so Z = 1.1198</span></p><p><span>Visionary:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.7258, S=0.447, n=124, so Z = 1.5074</span></p><p><span>Expatriette:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.6036, S=0.491, n=111, so Z = -1.0543</span></p><p><span>Wraith:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.6034, S=0.491, n=116, so Z = -1.0777</span></p><p><span>Bunker:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.6005, S=0.497, n=119, so Z = -1.1361</span></p><p><span>Absolute Zero:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.6, S=0.492, n=105, so Z = -1.0971</span></p><p><span>Mr. Fixer:</span><span>&nbsp;</span>![\bar{x}](upload://qdnzMvxDMowwvWP91QGyflAa8ch.png)<span>=0.6, S=0.492, n=100, so Z = -1.0748</span></p><p><span>So, to put those Z-values in perspective: any value above 1.6449 (or below -1.6449) has a less than 5% chance of occurring if everything was perfectly equal. So statistically, Legacy, Tempest and Tachyon may be overpowered (or at least other factors result in them winning more games than the average), but none of the heroes at the bottom are statistically underpowered... The chances of Fixer's figure or worse coming up on a perfectly average hero is 14%.</span></p><p>&nbsp;</p><p>*My formula for the curious, though it's probably wrong: S^2 = [Sum(x^2) - n(mean^2)]/[n - 1].</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(297 45% 42%)">YO</div>
+    <div><div class="who">youperguy</div><div class="when">2013-02-19 23:24 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>&nbsp;Blue your formula looks good.&nbsp;</p><p>&nbsp;</p><p>I agree that legacy looks overpowered, but that is about the only significant stat yet.</p><p>&nbsp;</p><p>My purpose is just to say that we need a lot more stats, before we can say anything about balance, so play more and record you results.</p><p>&nbsp;</p><p>edit: Blue are your S's missing a zero? I could be wrong, but I agree with you Z's.</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-02-20 04:44 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>I ... -believe- ... what this is about (correct me if im wrong, but my math and statistics are waaaay behind me) is finding the necessary # of games to give accurate represenatation of which heroes are better and which are worse. Am i right?</p><p>&nbsp;</p><p>and the second bit is about which are higher than the average wins (not average, mean I guess) or mean sstatitistcs and are overperforming in comparision and which are under performing. (by an exact numerical value than just a strict comparison - in other words, in comparison to others Legacy is overperforming by about 1.something)</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(297 45% 42%)">YO</div>
+    <div><div class="who">youperguy</div><div class="when">2013-02-20 11:13 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Yes, Blue is assuming that all heroes are equal, and the Legacy result is significantly different from average to suggest that he is better then the average hero.</p><p>&nbsp;</p><p>Some people, myself included, are using the statistics report to say things like fixer is the worst hero. My point is tocaution people, we don't know yet. We need more data.</p><p>&nbsp;</p><p>About the only statistically significant result is that Legacy is good. The villain stats in particular are still so low it is difficult to say anything except that the Chairman is tougher the Gloomweaver.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(66 45% 42%)">TH</div>
+    <div><div class="who">TheSoundOfTrees</div><div class="when">2013-02-20 12:51 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>Yes, we need more data to make any statiscally valid statement. The temptation is to look at the values and try to interpret them "intuitively", but statistical analysis only can tell if, for instance Legacy really wins more often than other heroes, or if his apparent success can be attributed to an imperfect distribution of results.</p><p>I am impatiently waiting for when we will hit enough results to begin extracting datas with a very low chance of misrepresentation !</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-02-20 15:51 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>also its folly to believe all heroes are created equal.  it’s been stated this is not the case  - and in any case this is a cooperative game,  because it wouldn’t be unfair to any player if x hero was significantly more over powered than any other because we aren’t competing</p>
+<p>that said were pushing almost 800 games with a week to go.  Awesome!</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(42 45% 42%)">PA</div>
+    <div><div class="who">Paul</div><div class="when">2013-02-20 17:27 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>This is absolutely fantastic. I am way excited about stats :)</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(98 45% 42%)">FB</div>
+    <div><div class="who">fba827</div><div class="when">2013-02-20 17:47 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Paul">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/paul/48/5862_2.png" class="avatar"> Paul:</div>
+<blockquote>
+<p>This is absolutely fantastic. I am way excited about stats <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p>
+</blockquote>
+</aside>
+<p>It's okay to be '<em>excited</em>', but '<em>way excited</em>' ? hrm. sounds a little dirty <img src="https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12" title=":wink:" class="emoji" alt=":wink:" loading="lazy" width="20" height="20"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(325 45% 42%)">FL</div>
+    <div><div class="who">flamethrower49</div><div class="when">2013-02-20 19:04 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Like those "more than happy" weirdos?&nbsp;  <img src="https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=9" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:"></p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">CZ</div>
+    <div><div class="who">Cosmonaut_Zero</div><div class="when">2013-02-20 19:07 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>I'm more than happy to be a weirdo. ;P</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(6 45% 42%)">SE</div>
+    <div><div class="who">Sefirit</div><div class="when">2013-02-20 21:22 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="BlueHairedMeerkat">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/48/1967_2.png" class="avatar"> BlueHairedMeerkat:</div>
+<blockquote>
+<p>&nbsp;*My formula for the curious, though it's probably wrong: S^2 = [Sum(x^2) - n(mean^2)]/[n - 1].</p>
+</blockquote>
+</aside>
+<p>In this case is the value of x either 1 or 0 in all cases (for win or loss)?&nbsp;</p>
+<p>Are you using x-bar or mu when you say mean?&nbsp; Since these are your sample std devs it should be the x-bar value.&nbsp; I'm guessing so as I just ran Legacy myself and got the exact same value for s.</p>
+<aside class="quote group-playtesters" data-username="BlueHairedMeerkat">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/48/1967_2.png" class="avatar"> BlueHairedMeerkat:</div>
+<blockquote>
+<p>Z = [0.7845 - 0.6575/Root(0.413^2/116 + 0.475^2/511)]</p>
+</blockquote>
+</aside>
+<p>I thought the z-score of the sampling distribution was just (x-bar - mu)/(sqrt(s^2/n)) which essentially means I'm not sure where the + 0.475^2/511 portion of the denominator is coming from.&nbsp; This makes quite a difference in the results as all the z-scores would have a larger magnatude.</p>
+<p>Could we also do this as a Chi-square test where we assume they are all the same and then calculate the whether the variation is significant enough to say that they are not?&nbsp; I think that would work but whats the point since we already know that the heros were not all created to be equal and that doesn't identify anything about the specific individuals.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(6 45% 42%)">SE</div>
+    <div><div class="who">Sefirit</div><div class="when">2013-02-20 21:30 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Sefirit">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/s/e68b1a/48.png" class="avatar"> Sefirit:</div>
+<blockquote>
+<p>I thought the z-score of the sampling distribution was just (x-bar - mu)/(sqrt(s^2/n)) which essentially means I'm not sure where the + 0.475^2/511 portion of the denominator is coming from.&nbsp;</p>
+</blockquote>
+</aside>
+<p>Edit: Ok I looked it up and you seem to be correct, its just that for large enough N that part is often ignored and dropped from the equation.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(48 45% 42%)">UX</div>
+    <div><div class="who">UXM266</div><div class="when">2013-02-21 16:20 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>Well, this Saturday i have a game-long day. i mean a day-long gaming session 9ewiter works :D).</p><p>I will be playiong a lot of games, different hero/villain combinations, and so expect tos ee a lot of new data. I'll even take count to the number of rounds it takes!</p><p>&nbsp;</p><p>Regards,</p><p>&nbsp;</p><p>Your friendly-neighbourhood Me.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

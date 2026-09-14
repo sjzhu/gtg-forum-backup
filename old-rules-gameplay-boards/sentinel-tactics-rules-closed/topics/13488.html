@@ -1,0 +1,171 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Okay, tell me the odds - what your chances are when you roll an attack vs defense</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../old-rules-gameplay-boards/index.html">Old Rules &amp; Gameplay Boards</a> &rsaquo; <a href="../../../old-rules-gameplay-boards/sentinel-tactics-rules-closed/index.html">Sentinel Tactics Rules [Closed]</a> &rsaquo; Okay, tell me the odds - what your chances are when you roll an attack vs defense</div>
+<h1>Okay, tell me the odds - what your chances are when you roll an attack vs defense</h1>
+<div class="desc">7 posts &middot; 694 views &middot; started 2015-08-25 16:43 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(154 45% 42%)">KI</div>
+    <div><div class="who">kitmehsu</div><div class="when">2015-08-25 16:43 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Do you want to know if it was worthwhile to aim that flack cannon, or if you should spend those attack +1 tokens?  Or even aiming an omni cannon is overkill?  Well if you have any of those questions but the last one, check this link out.</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <a href="https://anydice.com/" target="_blank" rel="noopener nofollow ugc">anydice.com</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://forums.greaterthangames.com/uploads/default/original/2X/3/3bf3f630c88a1a9358a65606e062fa0839265624.jpeg" class="thumbnail onebox-avatar" width="200" height="200">
+
+<h3><a href="https://anydice.com/" target="_blank" rel="noopener nofollow ugc">AnyDice</a></h3>
+
+<p>AnyDice is an advanced dice probability calculator, available online. It is created with roleplaying games in mind.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<p>
+This links you to an anydice program which can calculate an attack with automisses against a given size defense and know what your odds are for a given damage.<br>
+I’m going to break it down so hopefully even people who are code savvy can use this</p>
+<pre><code class="lang-auto">function: attack ATTACK:s at RANGE:n against DEFENSE:s{
+ A: [sort ATTACK]
+ D: [sort DEFENSE]
+ DAM:0
+ DEF:1
+ loop N over A{
+  if N &gt;= RANGE {
+   if N &gt; DEF@D{
+    DAM:DAM+1
+   }else{
+    DEF: DEF +1
+   }
+  }
+ }
+ result: DAM
+}
+function: aimed ATTACK:s at RANGE:n against DEFENSE:s{
+ A: [sort ATTACK]
+ D: [sort DEFENSE]
+ AV: 1@A
+ DAM:0
+ DEF:1
+ loop N over {1..#A}{
+  if AV &gt;= RANGE {
+   if AV &gt; DEF@D{
+    DAM:DAM+1
+   }else{
+    DEF: DEF +1
+   }
+  }
+ }
+ result: DAM
+}
+
+function: attack ATTACK:s at RANGE:n dodged DEFENSE:s{
+ A: [sort ATTACK]
+ D: [sort DEFENSE]
+ DV: 1@D
+ DAM:0
+ DEF:1
+ loop N over A{
+  if N &gt;= RANGE {
+   if N &gt; DV | DEF &gt; #D{
+    DAM:DAM+1
+   }else{
+    DEF: DEF +1
+   }
+  }
+ }
+ result: DAM
+}
+
+function: aimed ATTACK:s at RANGE:n dodged DEFENSE:s{
+ A: [sort ATTACK]
+ D: [sort DEFENSE]
+ AV: 1@A
+ DV: 1@D
+ DAM:0
+ DEF:1
+ loop N over {1..#A}{
+  if AV &gt;= RANGE {
+   if AV &gt; DV | DEF &gt; #D{
+    DAM:DAM+1
+   }else{
+    DEF: DEF +1
+   }
+  }
+ }
+ result: DAM
+}</code></pre>
+<p>This is the text that you ignore, as this handles the actual function building and the like and has to be included first.  Just skip down until you reach the lines starting with output at the bottom.</p>
+<pre><code class="lang-auto">output [attack 5d{1,0,3,4,0,6} at 1 against 3d6] named "Ra flame burst"</code></pre>
+<p>Here is the basic format of the function.  The 5d tells it how may dice it to roll (unfortunately it caps around 7 dice due to limitations in the website).  The { } enclose the auto misses array, replacing any number with a 0 to represent an automiss.  the number after the “at” is the min value the attack die has to roll to make range.  And finally the against 3d6 is the number of defense die it’s rolling against.</p>
+<pre><code class="lang-auto">output [aimed 5d{1,0,3,4,0,6} at 1 against 3d6] named "Aimed Ra flame burst" </code></pre>
+<p>Replacing the word ‘attack’ with ‘aimed’ will make the attack as though it spent an Aim token</p>
+<pre><code class="lang-auto">output [attack 5d{1,0,3,4,0,6} at 1 dodged 3d6] named "Dodged Ra flame burst" </code></pre>
+<p>likewise, replace ‘against’  with ‘dodged’ to simulate a dodge token</p>
+<pre><code class="lang-auto">output [aimed 5d{1,0,3,4,0,6} at 1 dodged 3d6] named "Aimed and Dodged Ra flame burst"  </code></pre>
+<p>and of course the two may be combined.</p>
+<p>Finally, their are some modifers to the resolts<br>
+At - least tells the odds of rolling it or better results<br>
+At - most is the reverse, telling odds of rolling it or lower<br>
+and summery can tell you stuff like the average damage per roll and how much deviation their would be in the scenario</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(142 45% 42%)">BO</div>
+    <div><div class="who">Bowie</div><div class="when">2015-08-25 17:36 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>This is amazing.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(126 45% 42%)">CR</div>
+    <div><div class="who">Craig</div><div class="when">2015-08-25 18:40 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p><span class="broken-image" title="This image is broken"><svg class="fa d-icon d-icon-unlink svg-icon" aria-hidden="true"><use xlink:href="#unlink"></use></svg></span></p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">DO</div>
+    <div><div class="who">Donner</div><div class="when">2015-08-25 19:36 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>Such...wrong....OCD...driving...me...to...murder...</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2015-08-25 20:11 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Craig… I… You…</p>
+<p>Don’t do that. I think you broke a few of us…</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(328 45% 42%)">DP</div>
+    <div><div class="who">dpt</div><div class="when">2015-08-25 22:19 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>I'm missing one bit of wrongness: who has middle initial "L"?</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2015-08-25 22:55 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>Luc?</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

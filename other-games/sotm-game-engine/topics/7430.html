@@ -1,0 +1,637 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>So, how does Jack Handle + Dual Crowbars work?</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; So, how does Jack Handle + Dual Crowbars work?</div>
+<h1>So, how does Jack Handle + Dual Crowbars work?</h1>
+<div class="desc">51 posts &middot; 4503 views &middot; started 2013-03-20 23:39 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(261 45% 42%)">KA</div>
+    <div><div class="who">Katsue</div><div class="when">2013-03-20 23:39 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>I know it's only possible with the Fixed Point, but it is possible, and on the face of it seems to create an infinite loop. So how does it work?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2013-03-20 23:46 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Tool cards aren't destroyed when you play a new tool - they go to your hand. This would seem to be a separate factor from the indestructibility granted by Fixed Point - as tools aren't specified to be <span class="bbcode-i">destroyed</span> when replaced, wouldn't you just act as normal when playing a new tool? It's <span class="bbcode-i">Styles</span> that are destroyed when replaced…</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2013-03-21 00:26 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Indestructible is actually defined as not allowing destruction or otherwise being removed from play, so yeah, Fixed Point prevents the tools from returning to the player's hand.</p><p>As to the results of having them in play at the same time, I believe it depends on the order they were played. Here's my interpretation...</p><p>If the Crowbars were first:</p><ol>
+<li>MF uses Strike for 1 + 1 for Crowbars (+ anything else)</li>
+<li>Crowbars triggers on the original, allowing for a second target for the same damage</li>
+<li>Jack Handle triggers on the original then triggers again on the second</li>
+<li>End result: two targets damaged and all non-hero targets damaged twice</li>
+</ol><p>If the Jack Handle was first:</p><ol>
+<li>MF uses Strike for 1 + 1 for Crowbars (+ anything else)</li>
+<li>Jack Handle triggers on the original for the same damage</li>
+<li>Crowbars triggers on each instance of damage done by both the first and all the Jack Handle damage instances</li>
+<li>End result: one target damaged, all non-hero targets damaged, then a number of targets damaged equal to the number of non-hero targets damaged</li>
+</ol><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2013-03-21 01:07 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>Actually, I believe Jack Handle implies an ‘instead’ and thus the original targets are not hit, thus just all targets hit twice for the first and all targets hit once, and an equal amount of targets hit again, possibly repeatedly, for the second.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2013-03-21 01:24 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Crap - you're completely right, TheJayMann. I totally forgot that, and just went based on the card text. Thanks!</p><p>So...</p><p>If the Crowbars were first:</p><ol>
+<li>MF uses Strike for 1 + 1 for Crowbars (+ anything else)</li>
+<li>Crowbars triggers on the original, allowing for a second target for the same damage</li>
+<li>Jack Handle triggers on the original then triggers again on the second, replacing each</li>
+<li>End result: all non-hero targets damaged twice</li>
+</ol><p>If the Jack Handle was first:</p><ol>
+<li>MF uses Strike for 1 + 1 for Crowbars (+ anything else)</li>
+<li>Jack Handle triggers on the original for the same damage</li>
+<li>Crowbars triggers on each instance of damage done by all the Jack Handle damage instances</li>
+<li>End result: all non-hero targets damaged, then a number of targets damaged equal to the number of non-hero targets damaged</li>
+</ol></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-03-21 01:25 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>I think only each one would activate once as it will satisfy each condition that is met on the card. No matter what Jack Handle would take priority as it triggers on "would deal" rather than "deals damage" so order doesn't have an effect. You'll start an attack that will hit all targets, upon dealing damage to the first target he can immediately deal that damage to&nbsp;a second target. After that the rest of the damage from Jack Handle would be resolved.</p><p>&nbsp;</p><p>Edit: Though I can see it being agrued that each hit from Jack Handle could trigger another instance of damage due to Dual Crowbars, but that seems overly powerful.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-21 02:00 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>I think that Mister Fixed Point is one of the coolest things in Shattered Timelines.&nbsp; In playtesting, we cycled through the Environment deck twice to get out four or five Styles, and six or seven Tools.&nbsp; It was gratuitous, absurd, and self-indulgent.<br><br>It was also one of the best nights ever.<br><br>P.S. It also works with Little O's Plating cards!</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">CZ</div>
+    <div><div class="who">Cosmonaut_Zero</div><div class="when">2013-03-21 04:20 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Reckless">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/reckless/48/2467_2.png" class="avatar"> Reckless:</div>
+<blockquote>
+<p>P.S. It also works with Little O's Plating cards!</p>
+</blockquote>
+</aside>
+<p>We call that O-X Body Technique. <img src="https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue_winking_eye.png?v=12" title=":stuck_out_tongue_winking_eye:" class="emoji" alt=":stuck_out_tongue_winking_eye:" loading="lazy" width="20" height="20"></p>
+<p>(If anybody gets that, I will give you a cookie)</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2013-03-21 13:20 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Reckless">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/reckless/48/2467_2.png" class="avatar"> Reckless:</div>
+<blockquote>
+<p>&nbsp;Little O's …</p>
+</blockquote>
+</aside>
+<p>Any computer scientist's out there also reminded, like me, of big O notation 'O(n)'? Little O is quite a propos.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(125 45% 42%)">BR</div>
+    <div><div class="who">broccoli</div><div class="when">2013-03-21 13:25 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="arenson9">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png" class="avatar"> arenson9:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Reckless wrote:</b><br><blockquote>&nbsp;Little O's ...
+&nbsp;
+</blockquote></div>
+Any computer scientist's out there also reminded, like me, of big O notation 'O(n)'? Little O is quite a propos.
+</blockquote>
+</aside>
+<p>Ugh, I sucked so bad at analysis of algorithms. &nbsp;I was fine until we started doing the T notation for recusive algorithms. &nbsp;Big O, little O, and Omega, I was fine with, but I sucked at T.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2013-03-21 15:00 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>I really want Fixed Point to come up in a game now - I think we've only fought in the Time Cataclysm once so far (possibly twice) and it didn't come up :(. But I'm already thinking how insane a certain hero's damage could get when he has all four copies of his Staff out, plus as many Inspiring Presences as a certain other hero can play, plus both copies of Imbued Fire as well...omg actually this card could be quite insane...hopefully it'll come up in some of our games over the weekend and we can wreak havoc with having multiple copies of Limited stuff out and "kill" everything and then do whatever you need to do to remove the card...unless it goes away after one round anyway...I haven't seen it yet.</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-03-21 15:05 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Limited stuff cannot be played. As when a limited card tries to enter play when another is already in play the second card would just be moved to the appriote trash and since it never enters play it's more or less counted as a discard.</p><p>&nbsp;</p><p>Fixed point destroys itself at the start of the environment turn.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2013-03-21 15:10 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>But...I thought Fixed Point made everything indestructible (everything I know about this card I've read on the forum since, as mentioned, I've not actually looked at the card itself yet as it hasn't come up in-game). So if you play a second copy of a limited card, the first one should be destroyed (moved to trash) and replaced by the new one...but Fixed Point prevents that from happening. So it should stay in play, surely?</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-03-21 15:18 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>No it's the second card that is played that gets moved to the trash. It never enters play though. Anytime you play a limited card there is a check to see if another limited is already in play. Afterwards if there is one then instead of entering play the second card goes into the trash instead. I checked the rulebook about it to, and it is the second card that enters the trash before even entering play.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2013-03-21 15:40 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>Ah. There goes replacing an old Staff of Ra with a new one to get a second heal without having to use a power to get rid of the first one, then...although I don't think I've ever actually got round to doing that.</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(268 45% 42%)">SM</div>
+    <div><div class="who">smafdi</div><div class="when">2013-03-21 17:14 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Cosmonaut Zero">
+<div class="title">
+<div class="quote-controls"></div>
+ Cosmonaut Zero:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Reckless wrote:</b><br><blockquote>P.S. It also works with Little O's Plating cards!
+&nbsp;
+</blockquote></div>
+We call that O-X Body Technique. ;P(If anybody gets that, I will give you a cookie)
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Well played good sir. Though I can't think he has more than 1 point in resistance. &gt;.&gt;</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2013-03-21 17:23 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Ameena">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ameena/48/1907_2.png" class="avatar"> Ameena:</div>
+<blockquote>
+<p>Ah. There goes replacing an old Staff of Ra with a new one to get a second heal without having to use a power to get rid of the first one, then…although I don't think I've ever actually got round to doing that.</p>
+</blockquote>
+</aside>
+<p>True, but you can still throw the staff, again and again and again…</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">CZ</div>
+    <div><div class="who">Cosmonaut_Zero</div><div class="when">2013-03-21 17:39 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="smafdi">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/s/c67d28/48.png" class="avatar"> smafdi:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Cosmonaut Zero wrote:</b><br><blockquote>&nbsp;Reckless wrote:<br><blockquote>P.S. It also works with Little O's Plating cards!&nbsp;
+&nbsp;
+</blockquote>
+We call that O-X Body Technique. ;P(If anybody gets that, I will give you a cookie)
+</blockquote></div>
+&nbsp;Well played good sir. Though I can't think he has more than 1 point in resistance. &gt;.&gt;
+</blockquote>
+</aside>
+<p>LOL. He spent all his BP maxing out his Compassion score.</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-21 18:43 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Cosmonaut Zero">
+<div class="title">
+<div class="quote-controls"></div>
+ Cosmonaut Zero:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Reckless wrote:</b><br><blockquote>P.S. It also works with Little O's Plating cards!
+&nbsp;
+</blockquote></div>
+We call that O-X Body Technique. ;P(If anybody gets that, I will give you a cookie)
+</blockquote>
+</aside>
+<p>Gimme my cookie, because Exalted is awesome!&nbsp; I've actually played many a game with one of the more recent writers (Charles Spaulding), and helped a little with the playtesting of 2nd Ed. Infernals because of it!</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2013-03-21 20:52 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><p>If Fixed Point is out and you use the Staff's power, obviously it isn't destroyed, but is that effect basically put "on hold" and instantly acts when the Fixed Point goes away? Or can you get away with using the Staff's power repeatedly and yet it stays in play when the Fixed Point is destroyed?</p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-21 21:01 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><p>As far as I know, destruction effects happen when they happen, and don't "carry over" after they take effect.&nbsp; The Staff of Ra effectively becomes The Boomerang of Ra with Fixed Point.</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2013-03-21 21:19 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><p>Lol cool :D. I don't think there are any other cards that work like that, are there, which could be similarly exploited...</p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">CZ</div>
+    <div><div class="who">Cosmonaut_Zero</div><div class="when">2013-03-21 21:26 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><p>Chrono-Ranger's Temporal Grenade is the only other one I can think of.</p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-21 21:29 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><p>Construction Pylon for the win.&nbsp; Also Unity's innate power.</p></div>
+</div>
+<div class="post" id="post-25">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-03-21 21:32 UTC</div></div>
+    <div class="postnum">#25</div>
+  </div>
+  <div class="post-body"><p>You could play Ground Pound into play and then not discard anything and it'll stay in play since it can't be destroyed. Or even better, put it into play and then Environment plays Fixed Point, that'd be 2 rounds of Ground Pound for the price of one! Though that will either take some luck or Visionary.</p><p>&nbsp;</p><p>Using the accompany&nbsp;of the&nbsp;Subdominant from Argent will allow you to use another power without destroying it! Oh the joys of indestructibleness..</p></div>
+</div>
+<div class="post" id="post-26">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(209 45% 42%)">JA</div>
+    <div><div class="who">jagarciao</div><div class="when">2013-03-21 21:33 UTC</div></div>
+    <div class="postnum">#26</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Reckless">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/reckless/48/2467_2.png" class="avatar"> Reckless:</div>
+<blockquote>
+<p>Construction Pylon for the win.&nbsp; Also Unity's innate power.</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Does it work that way? If nothing is actually destroyed, does the effect trigger? Is it like "deal" vs "is dealt"? Does the act of attempting to destroy satisfy the condition to put a golem into play?</p>
+<p>So much déjà vu is giving me a headache…</p>
+<p>Edit: Actually, doesn't Unity's innate have the "if you do" clause, which means the condition would not be satisfied with Fixed Point?</p></div>
+</div>
+<div class="post" id="post-27">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2013-03-21 21:33 UTC</div></div>
+    <div class="postnum">#27</div>
+  </div>
+  <div class="post-body"><p>2 turn Ground Pound for the low, low cost of only 2 cards down, act now!</p><p>Or</p><p>If you're not sure about this deal why not test drive Ground Pound now, discard ZERO cards and keep it in play, be the envy of your neighbours!</p><p>&nbsp;</p><p>EDIT: Damn! ninja'ed while coming up with snappy sales patter!</p></div>
+</div>
+<div class="post" id="post-28">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-21 21:35 UTC</div></div>
+    <div class="postnum">#28</div>
+  </div>
+  <div class="post-body"><p>If the card said "If this card is destroyed this way..." then yes, you would need to have it destroyed.&nbsp; As worded, they are two separate effects of the power that are not dependent on each other.</p></div>
+</div>
+<div class="post" id="post-29">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-03-21 21:49 UTC</div></div>
+    <div class="postnum">#29</div>
+  </div>
+  <div class="post-body"><p>Unity's innate however cannot be used, as it says "If you do", though a double use Construction Pylon is more than enough for me!</p><p>&nbsp;</p><p>Scholar wouldn't have to discard anything that round to keep is Elements in play!</p><p>&nbsp;</p><p>Bunker's Gatling Gun stays in for free for a round. Also you could play Auxillary Power Source and use it to draw 3 cards, then next turn you can destroy it to use an additional power! Or if you were fortunate enough to already have it in play you could use an additional power and then use that additional power to draw three cards, then next turn you can use an additional power again! Using Omni-Cannon without losing the cards underneath.</p><p>&nbsp;</p><p>Absolute Zero's Cyro Chamber works exactly like The Staff of Ra.</p><p>&nbsp;</p><p>Double use out of Expatriette's ammo.</p><p>&nbsp;</p><p>Tachyon can keep Pushing the Limits in play without losing any precious hitpoints.</p><p>&nbsp;</p><p>Another Haka, he can use Savage Mana without losing any cards underneath, just like Omni-cannon!</p><p>&nbsp;</p><p>Fanatic reaches 0 health and restores to 10 HP and Aegis in still in play.</p><p>&nbsp;</p><p>NightMist can use her power on Elder Ring and it still remains in play.</p><p>&nbsp;</p><p>Grease Gun could be kept in for to turns if it were played right before Fixed Point is played. Though that means on his turn he can only play a card.</p></div>
+</div>
+<div class="post" id="post-30">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(209 45% 42%)">JA</div>
+    <div><div class="who">jagarciao</div><div class="when">2013-03-21 21:49 UTC</div></div>
+    <div class="postnum">#30</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Reckless">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/reckless/48/2467_2.png" class="avatar"> Reckless:</div>
+<blockquote>
+<p>If the card said "If this card is destroyed this way…" then yes, you would need to have it destroyed.&nbsp; As worded, they are two separate effects of the power that are not dependent on each other.</p>
+</blockquote>
+</aside>
+<p>But it does say "Destroy an equipment card. If you do…" Wouldn't having Fixed Point in play mean that you, in fact, did NOT destroy an equipment card?</p></div>
+</div>
+<div class="post" id="post-31">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-21 21:57 UTC</div></div>
+    <div class="postnum">#31</div>
+  </div>
+  <div class="post-body"><p>My apologies.&nbsp; I was referring to Construction Pylon.&nbsp; Unity's innate does have "if you do..." on it, so I misspoke on that one.&nbsp; But still, double Construction Pylon!</p></div>
+</div>
+<div class="post" id="post-32">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(261 45% 42%)">KA</div>
+    <div><div class="who">Katsue</div><div class="when">2013-03-22 00:35 UTC</div></div>
+    <div class="postnum">#32</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Rabit">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabit/48/5774_2.png" class="avatar"> Rabit:</div>
+<blockquote>
+<p>Crap - you're completely right, TheJayMann. I totally forgot that, and just went based on the card text. Thanks!So…If the Crowbars were first:MF uses Strike for 1 + 1 for Crowbars (+ anything else)Crowbars triggers on the original, allowing for a second target for the same damageJack Handle triggers on the original then triggers again on the second, replacing eachEnd result: all non-hero targets damaged twiceIf the Jack Handle was first:MF uses Strike for 1 + 1 for Crowbars (+ anything else)Jack Handle triggers on the original for the same damageCrowbars triggers on each instance of damage done by all the Jack Handle damage instancesEnd result: all non-hero targets damaged, then a number of targets damaged equal to the number of non-hero targets damaged</p>
+</blockquote>
+</aside>
+<p>The scenario I was looking at is this.</p>
+<p>Mr Fixer faces Akash'bhutha. He uses Strike, and with Dual Crowbars targets himself and Akash'bhutha. Jack Handle kicks in, redirecting the damage he targetted himself with to Akash'bhutha (and any other non-Hero targets around). He hits Akash'bhutha, and gets to hit another target, because of Dual Crowbars. He nominates himself. Jack Handle kicks in, etc., <em>ad infinitum, </em>or until Akash'bhutha is dead, whichever comes first.</p></div>
+</div>
+<div class="post" id="post-33">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-22 01:11 UTC</div></div>
+    <div class="postnum">#33</div>
+  </div>
+  <div class="post-body"><p>Wouldn't reading it that way also mean that Dual Crowbars would trigger off of itself over and over again by itself without any other Tools?&nbsp; And Jack Handle as well?&nbsp; I'm thinking he just hits every target twice.&nbsp; This just sounds a lot like the confusion the forum had over how Shock Rounds worked, and it turned out to activate only once (even on the Submachine Gun).</p></div>
+</div>
+<div class="post" id="post-34">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2013-03-22 18:14 UTC</div></div>
+    <div class="postnum">#34</div>
+  </div>
+  <div class="post-body"><p>I actually asked Christopher about it in the playtester meetups, and what he said was this:</p><p>&nbsp;</p><p>Each one only triggers once, and in the order they were played. Thus, if crowbars would play first. He would hit the first target (becoming all targets) and then hit a second target (becoming all targets). So, he hits everything twice. Like sending out 2 separate Jack Handle attacks. it starts as a crowbar attack, then upon connecting becomes a jack handle, hitting everyone.</p><p>&nbsp;</p><p>If jack handle hits first, it's a little more complex. First, he hits everyone. Each time he hits someone, he gets to hit a second target too. Therefore, he gets to make X hits, where X is the amount of non-hero targets in play times 2, but he can maneuver them so it's not necessarily 2 hits each. It could be 2 hits each, 1 hit on each and a bunch of hits on one, or anywhere in between. Like sending out one jack handle attack, that upon connecting with each target becomes a crowbar attack, arcing off to hit a second target.</p><p>&nbsp;</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-35">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-03-22 19:27 UTC</div></div>
+    <div class="postnum">#35</div>
+  </div>
+  <div class="post-body"><p>*grumbles about more situations where Order of Hereo Cards played starts to matter*</p></div>
+</div>
+<div class="post" id="post-36">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-03-22 19:28 UTC</div></div>
+    <div class="postnum">#36</div>
+  </div>
+  <div class="post-body"><p>If each effect only triggers once and in the order of play then why are you activating Jack Handle twice and then Dual Crowbars X times? Wouldn't it be you hit everyone with Jack Handle and then can hit&nbsp;another target? That to me sounds like more like Jack Handle only triggering once. The same would happen useing Dual Crowbars in play first.</p></div>
+</div>
+<div class="post" id="post-37">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(266 45% 42%)">DY</div>
+    <div><div class="who">dypaca</div><div class="when">2013-03-23 00:13 UTC</div></div>
+    <div class="postnum">#37</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Ronway">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png" class="avatar"> Ronway:</div>
+<blockquote>
+<p>If each effect only triggers once and in the order of play then why are you activating Jack Handle twice and then Dual Crowbars X times? Wouldn't it be you hit everyone with Jack Handle and then can hit&nbsp;another target? That to me sounds like more like Jack Handle only triggering once. The same would happen useing Dual Crowbars in play first.</p>
+</blockquote>
+</aside>
+<p>Well this is kind of what I was trying to get at before ST was&nbsp;released to the public&nbsp;when I was saying Jack Handle and Dual Crowbars behave differently from most damage triggers.</p>
+<p>Basically the idea seems to be that instead of triggering off of each individual damage like most cards, they actually edit the list of targets whenever Mr Fixer deals damage.&nbsp; (It's just that until now the list of targets was always a single target before they edited it).&nbsp; So the way I see it, when a card says that Mr Fixer deals one or more targets a type and amount of damage, Jack Handle replaces <em>each</em> target in the list with 'all non-hero targets'.&nbsp; Dual crowbars replaces <em>each </em>target in the list with that target and a different target.</p>
+<p>Of course there are other ways to interpret the ruling, like you could say that his tools do not trigger off of any damage they create directly or indirectly.&nbsp; It just seems odd since normally I would allow cards to trigger off of things they caused to happen.</p>
+<p>Also note that it is not just the two possibilities of Jack Handle then Dual Crowbars and vice versa.&nbsp; There are two? copies of each and they are not limited.&nbsp; So you could have Jack Handle/Jack Handle (n^2 damage?) or Dual Crowbars/Dual Crowbars (4 chunks of damage to 2 to 4 targets?) or if he manages to play multiple cards with Fixed Point in play you could have 3 or 4 of them out with for another 18 possible combinations.</p></div>
+</div>
+<div class="post" id="post-38">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-03-23 02:45 UTC</div></div>
+    <div class="postnum">#38</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="dypaca">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dypaca/48/2079_2.png" class="avatar"> dypaca:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Ronway wrote:</b><br><blockquote> &nbsp; So you could have Jack Handle/Jack Handle (n^2 damage?) or Dual Crowbars/Dual Crowbars (4 chunks of damage to 2 to 4 targets?) or if he manages to play multiple cards with Fixed Point in play you could have 3 or 4 of them out with for another 18 possible combinations. </blockquote></div>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>or &nbsp;is it addative? would 2 dual crowbars simply be targets, not 4? OH THE INSANITY.</p>
+<p>&nbsp;</p>
+<p>i just think i wont play Mr Fixer with Time Cataclysm… <img src="https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12" title=":stuck_out_tongue:" class="emoji" alt=":stuck_out_tongue:" loading="lazy" width="20" height="20"></p></div>
+</div>
+<div class="post" id="post-39">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-03-23 04:53 UTC</div></div>
+    <div class="postnum">#39</div>
+  </div>
+  <div class="post-body"><p>I'll still play Fixer in Time Cataclysm, I probably just won't play Dual Crowbars and Jack handle in there together. I'd much rather have one of those paired with Tire Iron. Grease Monkey Fist with Driving Mantis!</p></div>
+</div>
+<div class="post" id="post-40">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(261 45% 42%)">KA</div>
+    <div><div class="who">Katsue</div><div class="when">2013-03-23 11:46 UTC</div></div>
+    <div class="postnum">#40</div>
+  </div>
+  <div class="post-body"><p>Riveting Crane + Alternating Tiger Claw seems pretty great to me against the likes of Miss Information.</p><p>Looking at my Unity deck, Scrap Metal has joined the list of cards that become different when played with Fixed Point. I think Fixed Point has joined The Matriarch, Bee Bot and Illusory Demon as a way of doing selective destruction shenanigans with End of Days.</p></div>
+</div>
+<div class="post" id="post-41">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(266 45% 42%)">DY</div>
+    <div><div class="who">dypaca</div><div class="when">2013-03-23 16:44 UTC</div></div>
+    <div class="postnum">#41</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Katsue">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/katsue/48/2012_2.png" class="avatar"> Katsue:</div>
+<blockquote>
+<p>I think Fixed Point has joined The Matriarch, Bee Bot and Illusory Demon as a way of doing selective destruction shenanigans with End of Days.</p>
+</blockquote>
+</aside>
+<p>I've wondered if that is how that would work.&nbsp; Basically does End of Days try only once to destroy each card in the order of&nbsp;player's choice, then destroy itself?&nbsp; Or does an indestructible card becoming destructible put it on End of Days checklist the same way a card entering play does?</p>
+<p>I find it a little hard to accept that End of Days can move on from its first&nbsp;effect while there is a valid card for it to destroy in play.</p></div>
+</div>
+<div class="post" id="post-42">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-03-23 19:32 UTC</div></div>
+    <div class="postnum">#42</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="dypaca">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dypaca/48/2079_2.png" class="avatar"> dypaca:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Katsue wrote:</b><br><blockquote>I think Fixed Point has joined The Matriarch, Bee Bot and Illusory Demon as a way of doing selective destruction shenanigans with End of Days.
+&nbsp;
+</blockquote></div>
+I've wondered if that is how that would work.&nbsp; Basically does End of Days try only once to destroy each card in the order of&nbsp;player's choice, then destroy itself?&nbsp; Or does an indestructible card becoming destructible put it on End of Days checklist the same way a card entering play does?I find it a little hard to accept that End of Days can move on from its first&nbsp;effect while there is a valid card for it to destroy in play.
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>as i understand it if End of Days and Fixed point is in play, you could very well choose to target all of the indistructable hero cards first, then target Fixed Point (Destroying it) then destroy all the villain cards and then End of Days.</p></div>
+</div>
+<div class="post" id="post-43">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-23 20:07 UTC</div></div>
+    <div class="postnum">#43</div>
+  </div>
+  <div class="post-body"><p>Wouldn't Fixed Point destroy itself before End of Days would activate?</p></div>
+</div>
+<div class="post" id="post-44">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-03-23 20:19 UTC</div></div>
+    <div class="postnum">#44</div>
+  </div>
+  <div class="post-body"><p>As with the ruling on End of Days with Voss and his bring all the minion cards out, you gett to choose the order in which all cards are destroyed.</p></div>
+</div>
+<div class="post" id="post-45">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(266 45% 42%)">DY</div>
+    <div><div class="who">dypaca</div><div class="when">2013-03-23 20:25 UTC</div></div>
+    <div class="postnum">#45</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Reckless">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/reckless/48/2467_2.png" class="avatar"> Reckless:</div>
+<blockquote>
+<p>Wouldn't Fixed Point destroy itself before End of Days would activate?</p>
+</blockquote>
+</aside>
+<p>True, in virtually all actual cases Fixed Point will enter play before End of Days, and will therefor destroy itself before End of Days can destroy anything.&nbsp; But theoretically OmnitronX or Rook City Wraith or the Ennead&nbsp;could bring out fixed point after End of Days.&nbsp;</p></div>
+</div>
+<div class="post" id="post-46">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-03-23 20:30 UTC</div></div>
+    <div class="postnum">#46</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="lynkfox">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/lynkfox/48/1997_2.png" class="avatar"> lynkfox:</div>
+<blockquote>
+<p>As with the ruling on End of Days with Voss and his bring all the minion cards out, you gett to choose the order in which all cards are destroyed.</p>
+</blockquote>
+</aside>
+<p>But Fixed Point came out first, so by the ruling on cards going off in the turn they are played, it would destroy itself before End of Days would activate at the start of the Environment turn.</p></div>
+</div>
+<div class="post" id="post-47">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-03-23 21:47 UTC</div></div>
+    <div class="postnum">#47</div>
+  </div>
+  <div class="post-body"><p>you... may be right, but not for the reasoning you state.</p><p>&nbsp;</p><p>https://greaterthangames.com/forum/topic/forced-deployment-end-days</p><p>&nbsp;</p><p>there is the clarifciation on End of Days and Forced deployment, in which it says you get to choose the order in which you destroy cards. So you could choose 'Try to destroy all hero cards, then destroy Fixe d Point, then destroy all villian cards (Destroying them).</p><p>&nbsp;</p><p>However... due to the other wording in that clarification, you may go /back/ to the hero cards that are not destroyed (this effect continues until there are no cards in play)- This has nothing to do with what card was played first mind you. its just the way End of Days works according to that official clarification.</p></div>
+</div>
+<div class="post" id="post-48">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(261 45% 42%)">KA</div>
+    <div><div class="who">Katsue</div><div class="when">2013-03-23 22:23 UTC</div></div>
+    <div class="postnum">#48</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="lynkfox">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/lynkfox/48/1997_2.png" class="avatar"> lynkfox:</div>
+<blockquote>
+<p>you… may be right, but not for the reasoning you state.&nbsp;<a href="https://greaterthangames.com/forum/topic/forced-deployment-end-days" rel="noopener nofollow ugc">https://greaterthangames.com/forum/topic/forced-deployment-end-days</a>&nbsp;there is the clarifciation on End of Days and Forced deployment, in which it says you get to choose the order in which you destroy cards. So you could choose 'Try to destroy all hero cards, then destroy Fixe d Point, then destroy all villian cards (Destroying them).&nbsp;However… due to the other wording in that clarification, you may go /back/ to the hero cards that are not destroyed (this effect continues until there are no cards in play)- This has nothing to do with what card was played first mind you. its just the way End of Days works according to that official clarification.</p>
+</blockquote>
+</aside>
+<p>Well, End of Days had a different wording back then, so I'm not sure that wording applies, in particular because End of Days hadn't previously attempted to destroy the Minions brought into play by Forced Deployment.</p></div>
+</div>
+<div class="post" id="post-49">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-03-23 22:37 UTC</div></div>
+    <div class="postnum">#49</div>
+  </div>
+  <div class="post-body"><p>And it doesn tmatter anyways, because i forgot Fixed Point auto destroys itself at the start of the Environment turn :P SO yes, what they had said about card order is actually correct.</p><p>&nbsp;</p><p>Never mind me.</p></div>
+</div>
+<div class="post" id="post-50">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-03-23 23:01 UTC</div></div>
+    <div class="postnum">#50</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Katsue">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/katsue/48/2012_2.png" class="avatar"> Katsue:</div>
+<blockquote>
+<p>&nbsp;</p>
+<p>Well, End of Days had a different wording back then, so I'm not sure that wording applies, in particular because End of Days hadn't previously attempted to destroy the Minions brought into play by Forced Deployment.</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>End of Days has always attempted, and successfully destroyed minions brought about from the destruction of Forced Deployment. Always has and always will.</p>
+<p>&nbsp;</p>
+<p>I'm not too big of a fan of End of Days tricks, so i'm personally on the side that as long as End of Days remains in play it will continue attempt to destroy everything in play until nothing remains other than Relics, Indestructibles&nbsp;and Character Cards.</p></div>
+</div>
+<div class="post" id="post-51">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(261 45% 42%)">KA</div>
+    <div><div class="who">Katsue</div><div class="when">2013-03-24 01:15 UTC</div></div>
+    <div class="postnum">#51</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Ronway">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png" class="avatar"> Ronway:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Katsue wrote:</b><br><blockquote>&nbsp;Well, End of Days had a different wording back then, so I'm not sure that wording applies, in particular because End of Days hadn't previously attempted to destroy the Minions brought into play by Forced Deployment.
+&nbsp;
+</blockquote></div>
+&nbsp;End of Days has always attempted, and successfully destroyed minions brought about from the destruction of Forced Deployment.
+</blockquote>
+</aside>
+<p>Sorry I was unclear. That wasn't what I meant. I mean that in the (out of date) link given, End of Days doesn't try to kill a Gene-Bound Soldier, fail, and then try to do it again, which makes the circumstances different. And in the case of a card that dealt damage to all targets at the Start of the Environment turn before destroying itself, nobody would suggest that if it failed to damage one target, it wouldn't destroy itself.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

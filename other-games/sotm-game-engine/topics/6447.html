@@ -1,0 +1,242 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Smoke Bombs when all heroes at equal HP</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Smoke Bombs when all heroes at equal HP</div>
+<h1>Smoke Bombs when all heroes at equal HP</h1>
+<div class="desc">15 posts &middot; 1853 views &middot; started 2012-10-15 04:45 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">AL</div>
+    <div><div class="who">Alex319</div><div class="when">2012-10-15 04:45 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Suppose that I have Smoke Bombs in play while all hero targets have exactly the same number of HP left.</p><p>It seems that then all my heroes would both "have the lowest HP" and "have the highest HP". Thus whenever any villain target deals damage to a hero target, Smoke Bombs could redirect it to any other hero target (because if heroes are tied for HP then you get to make the choice) and reduce the damage by 1.</p><p>But - the key thing is that the target redirected to also "has the lowest HP", so Smoke Bombs would try to redirect it again, reducing the damage by 1 again. So in this case you would keep doing that until the damage is reduced to zero - effectively in this situation all the hero targets would be immune to all damage from villain targets. Is this correct?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(125 45% 42%)">BR</div>
+    <div><div class="who">broccoli</div><div class="when">2012-10-15 05:27 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Smoke Bombs will only trigger once per instance of damage, just like Fortitude or Ta Moko, or any other card that reduces or redirects damage.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2012-10-15 12:21 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Who says it only triggers once?&nbsp; Fortitude and Ta Moko only "trigger once" because they are an always on effect that doesn't trigger, it either applies (Legacy or Haka is being dealt damage) or it doesn't, whereas Smokebombs trigger on an event.&nbsp; I'm still on the side that Smokebombs can go off so many times as to reduce the damage to zero (at which point, there is no damage to deal, and Smokebombs don't keep bouncing zero damage).</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2012-10-15 16:22 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>This issue has been argued many times <a href="https://sentinelsofthemultiverse.com/forum/topic/smoke-bombs">on </a><a href="https://sentinelsofthemultiverse.com/forum/topic/multiple-redirects">other </a><a href="https://sentinelsofthemultiverse.com/forum/topic/smoke-bomb-use">threads</a>, but unfortunately the only official answer we’ve received was that, with only one hero in play, Smoke Bombs does reduce the damage when it redirects from the highest hero to the lowest hero, because in this situation they are the same. This caused some confusion in later conversations, as people equated that scenario (one active hero) with all heroes having the same hit points.</p>
+<p>My thoughts: When all heroes have the same hit points and damage triggers Smoke Bombs, the Smoke Bombs checks to find the highest and lowest. They players have to decide which heroes are highest and lowest. Because of <strong>rules of logic</strong>, we can pick different heroes, but it makes no logical sense (even if it's useful)&nbsp;to pick the same hero. Effectively, we're ranking all the current heroes from highest to lowest, basically "breaking the tie".</p>
+<p>Doing this prevents the concerns of Smoke Bombs triggering more than once - and keeps it from becoming far too powerful. Because the nature of Smoke Bombs is to even-out the hit points of the heroes, so the likelihood of everyone going to the same hit points while it's out is actually pretty good (depending on the hero mix and actions, of course).</p>
+<p>If damage is being dealt to all heroes, each individual attack is evaluated independently, as usual. Here's an example with no other contributing factors.</p>
+<ol>
+<li>Haka, Ra, Legacy, and&nbsp;Wraith are all at 20 hit points.</li>
+<li>A source does 2 damage to each hero.</li>
+<li>The players decide to have Legacy take the first attack.</li>
+<li>The order is decided (highest to lowest) to be Haka, Ra, Wraith, and Legacy.</li>
+<li>Smoke Bombs redirects the damage from lowest (Legacy) to highest (Haka), and reduces the damage to 1, putting Haka at 19.</li>
+<li>The players decide to have&nbsp;Haka take the next attack, because if they picked anyone else, Smoke Bombs would not trigger, as Haka is now lowest.</li>
+<li>The order is decided (highest to lowest) to be Wraith, Ra, Legacy, and Haka (no choice but to make him lowest).</li>
+<li>Smoke Bombs redirects the damage from lowest (Haka) to highest (Wraith), and reduces the damage to 1, putting Wraith at 19.</li>
+<li>(At this point, you can probably see where this is going...) The players decide to have&nbsp;Wraith take the next attack, because if they picked Ra, Smoke Bombs would not trigger.</li>
+<li>The order is decided (highest to lowest) to be Ra, Legacy, Haka, and&nbsp;Wraith - so the players have selected the order for the 20s and the 19s.</li>
+<li>Smoke Bombs redirects the damage from lowest (Wraith) to highest (Ra), and reduces the damage to 1, putting&nbsp;Ra at 19.</li>
+<li>Ra is the last hero to take damage.</li>
+<li>The order is decided (highest to lowest) to be&nbsp;Legacy (no choice but to make him highest), Haka, Wraith, and &nbsp;Ra.</li>
+<li>Smoke Bombs redirects the damage from lowest (Ra) to highest (Legacy), and reduces the damage to 1, putting Legacy at 19.</li>
+</ol>
+Just my take, though. Until we get something official, we'll probably continue to agree to disagree.  :sunglasses:</div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2012-10-15 22:17 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Actually, the <strong>Rules of Logic</strong> says that any hero can have both the highest and the lowest, and the unofficial-but-widely-followed ruling is that each instance of damage can only be redirected once, but everyone can be both the highest and the lowest, so an AoE for 1 wouldn't hit anyone.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(125 45% 42%)">BR</div>
+    <div><div class="who">broccoli</div><div class="when">2012-10-15 22:49 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="McBehrer">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mcbehrer/48/1850_2.png" class="avatar"> McBehrer:</div>
+<blockquote>
+<p>Actually, the <strong>Rules of Logic</strong> says that any hero can have both the highest and the lowest, and the unofficial-but-widely-followed ruling is that each instance of damage can only be redirected once, but everyone can be both the highest and the lowest, so an AoE for 1 wouldn't hit anyone.</p>
+</blockquote>
+</aside>
+<p>I definitely agree about an AoE for 1. &nbsp;I just don't think that and AoE for 3 (for instance) would bounce continuously and become 0.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2012-10-16 00:00 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>Like I said, that's my thoughts on it, and I know there are different opinions; I'm not saying anyone else is wrong or that I'm right. We're not going to come to an agreement until/unless we get an official answer - and even then there will be folks who won't accept it.  <img src="https://forums.greaterthangames.com/images/emoji/apple/sunglasses.png?v=9" title=":sunglasses:" class="emoji" alt=":sunglasses:"></p>
+<p>Unfortunately, they're on their way to and at Essen, so this thread will probably be buried before they have an opportunity to respond.  <img src="https://forums.greaterthangames.com/images/emoji/apple/slightly_frowning_face.png?v=9" title=":slightly_frowning_face:" class="emoji" alt=":slightly_frowning_face:"></p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(26 45% 42%)">BL</div>
+    <div><div class="who">Blossercubbles</div><div class="when">2012-10-16 02:56 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>Just like with other ties in the game, players decide who is highest and lowest. Without Smoke Bombs, when a villain targets the highest or lowest HP Hero, the players decide who takes the punch, right? Smoke Bombs doesn't change that at all, but their first choice is not attacked, instead redirecting to their second choice (with the damage reduced by one, of course).</p><p>&nbsp;</p><p>This is how we've always rolled with the Smoke Bombs. If Unity is around, they can seriously damage the Hero team (or she can make a neat bot!)</p><p>&nbsp;</p><p>This is coming from the guy that also likes his Flame Barriers and Combat Stances to counter each different target that attacks Ra/Wraith the first time each turn, and not the first time they are dealt damage on a turn.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2012-10-17 00:23 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="broccoli">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/broccoli/48/1861_2.png" class="avatar"> broccoli:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>McBehrer wrote:</b><br><blockquote>Actually, the <strong>Rules of Logic</strong> says that any hero can have both the highest and the lowest, and the unofficial-but-widely-followed ruling is that each instance of damage can only be redirected once, but everyone can be both the highest and the lowest, so an AoE for 1 wouldn't hit anyone.
+&nbsp;
+</blockquote></div>
+I definitely agree about an AoE for 1. &nbsp;I just don't think that and AoE for 3 (for instance) would bounce continuously and become 0.
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Oh, right. an AoE for 3 would be come an AoE for 2, basically. Each instance of damage can only be redirected once.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(292 45% 42%)">DR</div>
+    <div><div class="who">dragonlordged</div><div class="when">2012-10-17 12:25 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Not true.&nbsp; For an aoe of 3, once the first damage is redirected, whoever you decided was at "highest" is now 2 lower than everyone else and they'll all have to take their own lumps because they're not lowest anymore.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2012-10-17 12:41 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="dragonlordged">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dragonlordged/48/2413_2.png" class="avatar"> dragonlordged:</div>
+<blockquote>
+<p>Not true.&nbsp; For an aoe of 3, once the first damage is redirected, whoever you decided was at "highest" is now 2 lower than everyone else and they'll all have to take their own lumps because they're not lowest anymore.</p>
+</blockquote>
+</aside>
+<p>Which is why the order selected is very important - see my example above.  <img src="https://forums.greaterthangames.com/images/emoji/apple/sunglasses.png?v=12" title=":sunglasses:" class="emoji" alt=":sunglasses:" loading="lazy" width="20" height="20"></p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2012-10-17 17:51 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Ok, let's explain this.</p><p>&nbsp;</p><p>they are all at 20. Hero one gets targeted, which redirects it to hero 2, who is now at 18. Then, hero 2 (now the lowest) gets targeted, so it gets redirected to hero 3. Then hero 3 (18 health) redirects it to hero 4. Hero 4 is targeted, and redirects it to hero 1. Everyone has taken 2 damage, everyone has been targeted, and the rules of Smoke Bombs have not been violated.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2012-10-23 21:20 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>First, I apologize for bringing up an old and&nbsp;quite possibly solved thread.</p><p>So, I'm going to decide to retract my original statement (not like anyone cares, as everyone seems to disagree with me) mainly due to the basis that I'm contradicting myself from an earlier thread about Lead from the Front and Smoke Bombs.&nbsp; Though, I am going to retract that as well, mainly because in both questions I'm begging the question of how damage redirection is treated.</p><p>For some reason (mainly, after I made my statement about Lead from the Front and Smoke Bombs, but before now) I came to the conclusion that&nbsp;when damage is redirected, the initial damage is cancelled, and a new instance of damage is created with the original source and the new target, thus reseting all events. I think this was due to the confusion about what happens to various damage modifiers once damage redirection occurs.&nbsp; However, this could lead to the point where Smoke Bombs + same HP = no damage, and same with Smoke Bombs + Lead from the Front with Legacy at lowest HP. (Also, with irreducible damage, will cause Smoke Bombs&nbsp;+ same HP infinit loop, while Lead from the Front has the word "may" to allow it to stop.)</p><p>Though, having now worked out that cancelling and creating new damage can result in an infinite loop, it must be wrong, leaving one way left that I can think of for how redirection works in those weird cases: when damage redirection occurs, the damage is retargetted to the new target, and any further reactions to the damage remain in the position they already are (thus, a card reacts to damage being dealt, but it was played before the card that caused damage redirection, then it doesn't get a chance to react to the damage at all), while static modifiers are applied and unapplied as needed (basically, just check them when you need to know what the damage would be at that point, which typically only happens when damage is to be dealt, and for cards that state "when XXX would be dealt Y or more damage" or such).</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(19 45% 42%)">AX</div>
+    <div><div class="who">ax0r</div><div class="when">2012-10-24 09:49 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="TheJayMann">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/thejaymann/48/2261_2.png" class="avatar"> TheJayMann:</div>
+<blockquote>
+<p>(basically, just check them when you need to know what the damage would be at that point, which typically only happens when damage is to be dealt, and for cards that state "when XXX would be dealt Y or more damage" or such).</p>
+</blockquote>
+</aside>
+<p>I believe there was an old thread that dealt with this particular issue (redirecting due to a condition being met). I'll try and dig it up later.</p>
+<p>The upshot of that thread was that damage was resolved like this (if it turns out I've remembered this wrong, I'm putting my foot right in my mouth here):</p>
+<p>Hero A has a conditional redirect in play.</p>
+<ol>
+<li>
+<p>Attack on target (Hero A)</p>
+</li>
+<li>
+<p>Does damage amount meet the redirect condition? If so, restart at (1), target is now Hero B.</p>
+</li>
+<li>
+<p>Add damage modifiers (in card order)</p>
+</li>
+<li>
+<p>Does damage amount meet the condition? If so, REMOVE DAMAGE MODIFIERS and restart at (1), target is now Hero B.</p>
+</li>
+<li>
+<p>If condition has not been met, damage is dealt to hero A</p>
+</li>
+</ol>
+<p>&nbsp;</p>
+<p>This is slightly different to conditional damage reduction - here, step 2 is skipped. Damage modifiers are applied in card order, which means that a conditional reduction played after a flat reduction is calculated on the damage after the flat reduction.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(255 45% 42%)">TH</div>
+    <div><div class="who">TheJayMann</div><div class="when">2012-10-24 13:17 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="ax0r">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/e0b2c6/48.png" class="avatar"> ax0r:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>TheJayMann wrote:</b><br><blockquote>(basically, just check them when you need to know what the damage would be at that point, which typically only happens when damage is to be dealt, and for cards that state "when XXX would be dealt Y or more damage" or such).
+&nbsp;
+</blockquote></div>
+I believe there was an old thread that dealt with this particular issue (redirecting due to a condition being met). I'll try and dig it up later.
+<p>The upshot of that thread was that damage was resolved like this (if it turns out I've remembered this wrong, I'm putting my foot right in my mouth here):</p>
+<p>Hero A has a conditional redirect in play.</p>
+<ol>
+<li>
+<p>Attack on target (Hero A)</p>
+</li>
+<li>
+<p>Does damage amount meet the redirect condition? If so, restart at (1), target is now Hero B.</p>
+</li>
+<li>
+<p>Add damage modifiers (in card order)</p>
+</li>
+<li>
+<p>Does damage amount meet the condition? If so, REMOVE DAMAGE MODIFIERS and restart at (1), target is now Hero B.</p>
+</li>
+<li>
+<p>If condition has not been met, damage is dealt to hero A&nbsp;</p>
+</li>
+</ol>
+<p>This is slightly different to conditional damage reduction - here, step 2 is skipped. Damage modifiers are applied in card order, which means that a conditional reduction played after a flat reduction is calculated on the damage after the flat reduction.</p>
+</blockquote>
+</aside>
+<p>Well, first, damage count modifiers were explained to be static, and thus always apply, so you would always apply damage count modifiers in all cases.&nbsp; As for other things that respond to damage being dealt, as far as I can tell, everything that has the ability to redirect damage first respond to damage being dealt.&nbsp; Thus, they would have to occur in order with other things that respond to damage being dealt.&nbsp; To put the choice of whether a card redirects damage or not in multiple points in resolution tends to violate some principals of how order is determined.</p>
+<p>I believe the thread you were talking about is using Lead from the Front and Smoke Bombs, which is where I was saying that if one&nbsp;were played before the other, you'd have to do them in order (which may cause only one of them to be applicable).&nbsp; E.g., if Lead from the Front was played before Smoke Bombs, you'd have to choose whether you wanted to use Lead from the Front, but if you do, it has to occur before Smoke Bombs kick in, which means if Legacy is not the lowest HP, chosing to redirect to Legacy means Smoke Bombs won't kick in.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>
