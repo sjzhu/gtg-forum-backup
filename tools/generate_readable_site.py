@@ -1,12 +1,45 @@
-import json, os, re, html, math
+import argparse, json, os, re, html, math, subprocess, sys
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = str(Path(__file__).resolve().parent.parent)
-OUT = os.path.join(ROOT, "readable")
 CATS_SNAPSHOT = os.path.join(ROOT, "tools", "categories_snapshot.json")
 PER_PAGE = 50
+
+# Branch that actually holds the raw category folders + uploads/. Used to build
+# raw.githubusercontent.com URLs in --mode pages, regardless of which branch this
+# script itself is being run from.
+IMAGE_SOURCE_BRANCH = "main"
+
+
+def detect_owner_repo():
+    url = subprocess.check_output(["git", "-C", ROOT, "remote", "get-url", "origin"], text=True).strip()
+    m = re.search(r"github\.com[:/]([^/]+)/([^/.]+?)(?:\.git)?$", url)
+    if not m:
+        raise RuntimeError(f"Could not parse GitHub owner/repo from origin remote: {url}")
+    return m.group(1), m.group(2)
+
+
+ap = argparse.ArgumentParser(description=__doc__)
+ap.add_argument("--mode", choices=["local", "pages"], default="local",
+                help="local: relative links for browsing off disk (default, used for the main branch). "
+                     "pages: images point at raw.githubusercontent.com so the output can be published "
+                     "standalone (e.g. on a `pages` branch) without shipping the uploads/ folders.")
+ap.add_argument("--out", default=None, help="Output directory (default: <repo>/readable for local, "
+                                             "<repo>/../_pages_build for pages)")
+args = ap.parse_args()
+
+MODE = args.mode
+if args.out:
+    OUT = os.path.abspath(args.out)
+elif MODE == "local":
+    OUT = os.path.join(ROOT, "readable")
+else:
+    OUT = os.path.join(str(Path(ROOT).parent), "_pages_build")
+
+if MODE == "pages":
+    GITHUB_OWNER, GITHUB_REPO = detect_owner_repo()
 
 TOP_SLUGS = ["administration", "conventions", "games", "general-gtg", "old-rules-gameplay-boards", "other-games"]
 
@@ -61,10 +94,13 @@ def process_cooked(cooked, top_slug, current_out_dir):
         attr, url = m.group(1), m.group(2)
         local = upload_local_name(url)
         local_path = os.path.join(ROOT, top_slug, "uploads", local)
-        if os.path.exists(local_path):
-            rel_root = os.path.relpath(ROOT, current_out_dir)
-            return f'{attr}="{rel_root}/{top_slug}/uploads/{local}"'
-        return m.group(0)
+        if not os.path.exists(local_path):
+            return m.group(0)
+        if MODE == "pages":
+            gh_url = f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{IMAGE_SOURCE_BRANCH}/{top_slug}/uploads/{local}"
+            return f'{attr}="{gh_url}"'
+        rel_root = os.path.relpath(ROOT, current_out_dir)
+        return f'{attr}="{rel_root}/{top_slug}/uploads/{local}"'
     cooked = UPLOAD_RE.sub(_upload, cooked)
 
     def _topic(m):
