@@ -1,0 +1,116 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scholar card math</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sentinels-of-the-multiverse/index.html">Sentinels of the Multiverse</a> &rsaquo; Scholar card math</div>
+<h1>Scholar card math</h1>
+<div class="desc">11 posts &middot; 850 views &middot; started 2015-11-02 04:23 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2015-11-02 04:23 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>I was playing Scholar and three other heroes tonight. (Eternal Haka, Redeemer Fanatic, AZ in the Final Wasteland vs Miss Information, though those decks aren't relevant to my story.)</p><p>&nbsp;</p><p>The other heroes were all incapacitated and could collectively give The Scholar two out of turn card plays and one out of turn power use.</p><p>&nbsp;</p><p>Scholar had one Iron, two Energies, and one Water form in play, as well as Bring What You Need, which gives Scholar the power to reveal three cards and put two in his hand.</p><p>&nbsp;</p><p>So, in a given round, Scholar wanted to discard four cards to keep his four form cards in play and ALSO wanted to play three more cards -- one each on his turn and two incapacitated heroes' turns. To keep that up, Scholar needed to be able to draw, on average, at least seven cards a turn.</p><p>&nbsp;</p><p>On Scholar's turn, he could draw two cards from Bring What You Need and draw a third card during the Draw phase. Scholar could also draw a fourth and fifth card via on off-turn use of Bring What You Need. That left Scholar just two draws a round short, on average.</p><p>&nbsp;</p><p>So, over five rounds, on average, Scholar would be ten cards short. Scholar has a card, though, that gives five card draws, so I found myself wondering what are the odds that he would be able to play just that card enough times to get all the card draws needed.&nbsp;</p><p>&nbsp;</p><p>Assuming Scholar succeeded in drawing seven cards a round, then over five rounds Scholar would draw thirty-five cards. Since there are forty cards in a deck and in this Scenario Scholar has five cards in play (Four forms and Bring What You Need), it seems like Scholar will see every other card in the deck. Since the deck includes at least two copies of the card that gives five card draws, this seems doable. Once you get this engine going, if it's not disturbed from the outside (by something like Miss Information forcing Scholar to either destroy all cards in play or discard all cards in hand), it seems like it would go indefinitely.</p><p>&nbsp;</p><p>Even if it _is_ disturbed, in a lot of cases if Scholar is planning for such a situation, the engine can likely get going again in a round or two.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(288 45% 42%)">AP</div>
+    <div><div class="who">Apo</div><div class="when">2015-11-16 17:23 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>It is this thread and immense boredom that made me finally register in the forum. So...hi guys!</p><p>I didn't crunch any numbers, because I had the feeling this problem would be rather involved to solve on paper. Instead, I wrote a mathematica script to simulate the scholar card draw engine. The results are kind of nice, so I decided to share them. I didn't have my cards at hand, but I remembered that when you use the card that lets you draw 5 (Know when to hold fast), you immediately have to end your turn. I hope this is correct. :D</p><p>As far as I understood the original problem, the optimal hero turns would look like this:</p><p>1) Scholar discards 4 cards; never discard Know when to hold fast (KWTHF) except when forced to do so.</p><p>2) Scholar plays a card; if possible, Scholar does <strong>not </strong>play KWTHF, because it forces him to skip both the power and draw phase. If Scholar only has KWTHF on his hand, play KWHTF.</p><p>3) Use Bring what you need (BWYN), if 2) permits it. Discard a card that is not KWTHF.</p><p>4) Draw a card if 2) permits</p><p>5-7) The incapped heroes allow Scholar to play two more cards and use BWYN. OP didn't specify the order of these events. This results in three possible scenarios (Play,Play,BWYN), (Play,BWYN,Play), (BWYN,Play,Play)&nbsp; (scenario 1 to 3). Following the logic behind Scholar's card play in-turn, he'll want to play KWTHF here. Do so if possible. If not, play another one. Same as in 3): never discard KWTHF due to BWYN's effect.</p><p>I considered the engine to fail whenever Scholar wasn't able to either pay the upkeep cost for his elemental cards or whenever he wasn't able to play a card when he could legally do so. This is a rather strict requirement, but you sounded like that was what you wanted. Among other things, this means that whenever Scholar started his turn with less than five cards in hand, the engine had failed.</p><p>The only remaining input parameter is Scholar's starting hand. I created histograms for a starting hand of 5 (the absolut minimum), 6, 7 cards in scenario 1, 2, 3,&nbsp; for a total of nine histograms. I simulated 10k games and took note of how many turns Scholar could keep his engine going. Number of rounds is what you see in the x-axis. Y-axis is the estimated probability. Moreover, I collected some bins for clarity.</p><p>Bin 1 :: 0, 1 Round</p><p>Bin 2 :: 2,..,5 Rounds</p><p>Bin 3 :: 6,..10 Rounds</p><p>Bin 4 :: 11,.., 40 Rounds</p><p>Bin 5 :: 41,..,99 Rounds</p><p>Bin 6 :: 100+ Rounds; <strong>see below</strong></p><p>Since the histograms look similar, I'll only attach the scenario 3 ones, and otherwise describe my findings.</p><p>What can we see? Usually, the engine either fails quickly within a few turns, or reaches the overflow bin at very very right. This is what I like to call the equilibrium bin. All multiversial Scholars that reached this result were in an equilibrium state (cosmic harmony and stuff I guess); they had their whole deck on hand with a few exceptions that were in the trash. Because of a KWTHF on their hand and their powers they were always able to completely draw their reshuffled trash into their hands and end up in the exact same situation as the previous turn.</p><p>The higher the starting hand, the higher the chance that this happened. For scenario 3, the probabilities for reaching an equilibrium state with starting hand 5/6/7 are about 25%, 53%, 81%. This behaviour is expected.</p><p>Also expected: scenario 1 has the lowest probability for equilibrium for a given starting hand size (12%, 37%, 60%). Unexpected finding: scenario 2 always has the highest probability for equilibrium (~3% higher than scenario 3). I did not look into this, and probably won't. But it seems unintuitive to me.</p><p>Well...I hope to have answered your question. :) All in all, you have pretty good chances to get his engine fired for all eternity, even with the strict fail condition I imposed.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-11-16 17:47 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Wow!</p>
+<p>Welcome to the forums!</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2015-11-16 20:01 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>AWESOME! So glad you did this work and posted it. Welcome to the forums. Yes, the assumption is correct.</p><p>&nbsp;</p><p>I think the chances are even a touch better then your simulations, because some of the other cards also lead to card draw. Add that to the fact that one wouldn't have far to recover if just one or two elements had to be let go, and I feel rather affirmed that this setup would most of the time be quite resilient.</p><p>&nbsp;</p><p>Well, assuming outside factos aren't destroying your stuff and/or forcing discards.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(288 45% 42%)">AP</div>
+    <div><div class="who">Apo</div><div class="when">2015-11-17 10:28 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>You are right that the chances are a touch (much!) better. To get things going properly you can opt not to play a card everytime you could (or rather, only play cards that give draw) and the whole start-up process is a lot more robust. Or to put it differently, I think Scholar could handle two "perturbative" discards a round if he doesn't play any cards but KWTHF and would end up with almost the same chances as above.</p><p>Even if there are significant outside sources of perturbation, once you've hit equilibrium you're almost untouchable. An effect that discards your hand...yes, that could bring you down. Anything else? I doubt it.</p><p>Personally I don't like Scholar very much. I've yet to see a game in which he gets incapacitated. :)</p><p>I'll go back to lurking now, until my services are needed again. There really should be an animated smokebomb emoji. A lot of dramatic potential lost this way. :D</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2015-11-17 12:43 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>I've seen Scholar incapped and it mostly seems to occur with an ill fated play of Alchemical Redirection. &nbsp; &nbsp;</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-11-17 13:24 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>Don’t just lurk!</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2015-11-17 13:38 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>Don't just lurk!</p>
+</blockquote>
+</aside>
+<p>It makes you… well, see my sig.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(288 45% 42%)">AP</div>
+    <div><div class="who">Apo</div><div class="when">2015-11-19 09:35 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Convinced. Instead of a target, I'd rather be an ongiong (ba dum tss).</p><p>&nbsp;</p><p>I can see how Alchemical Redirection can go awry, but usual losing games with Scholar on the team (in my gang at least) ended with the agreement that Scholar alone -- the last man standing -- couldn't possible win the game anymore.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2015-11-19 12:16 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Apo">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/aeb1de/48.png" class="avatar"> Apo:</div>
+<blockquote>
+<p>Convinced. Instead of a target, I'd rather be an ongiong (ba dum tss).</p>
+</blockquote>
+</aside>
+<p>Woohoo! <img src="../../../../games/uploads/uploads__default__original__2X__b__bf77086fa1313d7564909f16ab424f5b8365e650.gif" alt="" data-base62-sha1="rjMdSdxIa10TYxPrDX1chAlqPCg" role="presentation" width="25" height="27" class="animated"></p>
+<p>One of us! One of us!</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(119 45% 42%)">YG</div>
+    <div><div class="who">Yak_Guardian</div><div class="when">2015-12-09 15:26 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Welcome Apo!</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

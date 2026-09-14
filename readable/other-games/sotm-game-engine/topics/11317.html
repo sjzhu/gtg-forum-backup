@@ -1,0 +1,905 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dealing Damage Timing Clarification</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Dealing Damage Timing Clarification</div>
+<h1>Dealing Damage Timing Clarification</h1>
+<div class="desc">68 posts &middot; 2171 views &middot; started 2014-09-29 15:46 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-09-29 15:46 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p><span><span>I have seen a lot of different opinion regarding how to exactly handle timing issues with attacks, and I wanted to try and clear things up.</span></span></p><p>&nbsp;</p><p><span><span>“WOULD BE DEALT” VS “DEALT”</span></span></p><p>&nbsp;</p><p><span><span>There has been a lot of speculation about how these two wordings affect the timing of attacks, and that “would be dealt” should trigger first. I understand that the wording can be confusing, but I want to emphasize that they do not have different timings, and we already know this.</span></span></p><p>&nbsp;</p><p><span><span>Originally, all cards triggered in the order that they were played. However, after some problems, namely with Superhuman Durability and Fortitude, this changed so that you can choose which card takes effect first. Here are the text of the cards:</span></span></p><p>&nbsp;</p><p><em><span><span>Superhuman Durability: Whenever Legacy would be dealt 5 or more Damage from a single source, reduce that Damage by 3.</span></span></em></p><p>&nbsp;</p><p><em><span><span>Fortitude: Reduce Damage dealt to Legacy by 1.</span></span></em></p><p>&nbsp;</p><p><span><span>Notice how Superhuman Durability says “would be dealt” and Fortitude says “damage dealt.” If these would have had different timings, then there would never have been an issue, since Superhuman Durability would always trigger first. However, since we had a previous ruling that says they trigger in the order they were played, we can clearly see what “would be dealt” and “dealt” do not have different timings.</span></span></p><p>&nbsp;</p><p><span><span>If this is true, then why the different wording and the confusion? If you look at the cards, you can see that “would” is used in very specific situations that have nothing to do with timing. There are two types of situations where “would” is used:</span></span></p><p>&nbsp;</p><ol><li><p><span><span>When there is a conditional modifier</span><span>. Consider the example above with Superhuman Durability and Fortitude. Fortitude doesn’t have a “would” because the modifier always applies when Legacy would take damage. The “would” in Superhuman durability is being used to show that the modifier is conditional, and that it will only trigger under the specified conditions.</span></span></p></li></ol><p>&nbsp;</p><ol start="2"><li><p><span><span>When you are to replace a standard effect with a different one.</span><span> The other time when “would” is used is when you would normally do one type of effect, but a card is telling you to do another type of effect instead. For example:</span></span></p></li></ol><p><em><span><span>Amulet of the Elder Gods: The first time Nightmist would be dealt Damage each turn, you may discard 2 cards. If you do, you may redirect that Damage to a Target of your choice.</span></span></em></p><p>&nbsp;</p><p><span><span>Here, NightMist should have taken damage, but the Amulet allows you to do another effect instead. When this “would” is used, the original effect is negated, and another effect happens instead.</span></span></p><p>&nbsp;</p><p><span><span>In general, when the word “would” is used in SotM, it is being used in one of the two ways above, and it is not meant to indicate a different timing of an effect.</span></span></p><p>&nbsp;</p><p><span><span>Dealing Damage Order of Operations</span></span></p><p>&nbsp;</p><p><span><span>Now that we know that “would be dealt” and “dealt” do not have different timings, let’s go through the order of operations for dealing damage.</span></span></p><p>&nbsp;</p><ol>
+<li><p><span><span>Determine damage type</span></span></p></li>
+<li><p><span><span>Identify and apply all modifiers to dealing</span></span></p></li>
+<li><p><span><span>Determine if damaged is dealt, and reduce hp</span></span></p></li>
+<li><p><span><span>Apply effects based on damage being dealt</span></span></p></li>
+</ol><p>&nbsp;</p><p><span><span>Determine damage type</span></span></p><p>&nbsp;</p><p><span><span>The very first step when dealing damage is to determine the damage type. Based on the newest ruling, if there are multiple cards that change the damage type, you can choose the order of the effects and, essentially, choose what the final type will be. Determining damage type first, also explains how to interpret Imbued Fire. Even though the change of damage type comes after the damage increase in the text, since damage type is determined first, it will apply first, and the heroes will get the damage increase.</span></span></p><p>&nbsp;</p><p><span><span>Identify and apply all modifiers relating to dealing damage</span></span></p><p>&nbsp;</p><p><span><span>At this point, you should identify all modifiers that would increase or decrease the damage. It doesn’t matter if it says “would be dealt” or just “dealt.” It, also, doesn’t matter where the modifier is coming from. It could be from the source of the damage, the target, or something else. All modifiers are considered at this point.</span></span></p><p>&nbsp;</p><p><span><span>Consider the following example using the following cards:</span></span></p><p>&nbsp;</p><p><span><span>Stunbolt: Power: The Wraith deals 1 Target 1 Projectile Damage. Until the start of your next turn, reduce all Damage dealt by that Target by 1.</span></span></p><p>&nbsp;</p><p><span><span>Localized Hurricane: Increase Damage dealt to Tempest by 1.</span></span></p><p><span><span>Power: Tempest deals up to 2 Targets 3 Projectile Damage each. You may draw 2 cards.</span></span></p><p><span><span>Power: Destroy this card.</span></span></p><p>&nbsp;</p><p><span><span>Shielding Winds: Whenever a Hero Target would be dealt 5 or more Damage from a single source, reduce that Damage by 2.</span></span></p><p>&nbsp;</p><p><span><span>Voss, Tempest’s nemesis (+1 damage) is attempting to deal 3 damage to Tempest, and was previously hit by Stunbolt. We have 4 different modifiers (with the nemesis bonus), and you can apply them in any order that you want. Here is how I would apply the modifiers:</span></span></p><p>&nbsp;</p><ol>
+<li><p><span><span>Use Localized Hurricane’s modifier to increase the damage to 4.</span></span></p></li>
+<li><p><span><span>Use the nemesis bonus to increase the damage to 5. </span><span>Note that the first two steps can be switched.</span></span></p></li>
+<li><p><span><span>Now that the damage is up to 5, I can now use Shielding Winds modifier to decrease it to 3.</span></span></p></li>
+<li><p><span><span>Finally, I use Stunbolt’s modifier for a final damage of 2.</span></span></p></li>
+</ol><p>&nbsp;</p><p><span><span>You do not have to apply the damage dealer’s modifier’s first, then the target’s second. Also, you do not have to apply “would be dealt” first and “dealt” second. Once you have identified all the modifiers, you can apply them in </span><span>any</span><span> order.</span></span></p><p>&nbsp;</p><p><span><span>Determine if damaged is dealt and reduce hp</span></span></p><p>&nbsp;</p><p><span><span>At this point, we can now determine if damage was dealt. If after all of the modifiers the total damage is at least one, then damage was dealt and you might reduce hp. A good rule for SotM is that “damage dealt = reduce hp”. If no hp is reduced, either because of modifiers that brought the damage below 0, or because a target is immune, then no damage is dealt. </span></span></p><p>&nbsp;</p><p><span><span>Apply effects based on damage being dealt</span></span></p><p><span><span>Once you have determines that there is actually damage being dealt, then the final step of damage calculation is to apply any effects based on damage being dealt. If no damage is being dealt, then this step is skipped. There are two types of effects that can happen here:</span></span></p><p>&nbsp;</p><ol><li><p><span><span>Effects that apply </span><span>after</span><span> taking damage. </span><span>There are many effects in SotM that happen after a target is dealt damage. When this type of effect applies, the target first takes the damage, then applies the effect. A common example of this type of effect, is a retaliation attack. For example:</span></span></p></li></ol><p>&nbsp;</p><p><span><span>Isothermic Transducer: When Absolute Zero is dealt Fire Damage, Absolute Zero deals 1 Target that much Cold Damage.</span></span></p><p>&nbsp;</p><p><span><span>With Isothermic Transducer, Absolute Zero needs to actually take damage, have his hp reduced, to apply the damage to the other target. </span></span></p><p>&nbsp;</p><ol start="2"><li><p><span><span>Effect that apply </span><span>instead</span><span> of taking damage. </span><span>&nbsp;With this type of effect, the target </span><span>does not</span><span> take the initial damage, but instead applies another effect. Often, the word “would” and “instead” on the card indicates that this is happening. For example,</span></span></p></li></ol><p>&nbsp;</p><p><span><span>Null-Point Calibration Unit: When Absolute Zero would take Cold Damage, he regains that many HP instead.</span></span></p><p>&nbsp;</p><p><span><span>In this case, Absolute Zero does not take the initial cold damage, but instead regains that many hp.</span></span></p><p>&nbsp;</p><p><span><span>Another type of effect that fall under the second type is redirection. In SotM redirection has its own keyword and meaning. Even though it might not say “would” it works in a similar way. </span></span></p><p>&nbsp;</p><p><span><span>Note that even though the effect or target changes, there still has to be some damage “being dealt” (as per step 3) for this effect to take place. This is why NightMist can’t redirect damage while in Mistform. Since she didn’t take any damage, the effect wouldn’t trigger.</span></span></p><p>&nbsp;</p><p><span><span>I know this was a long post, but, hopefully, it can shed some light on how to deal damage in the greatest co-op superhero game ever made.</span></span></p><div>&nbsp;</div></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2014-09-29 15:56 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>I learned nothing about Sentinels of the Multiverse from this. I demand it be removed and then a new thread to be made that actually teaches me something about Sentinels of the Multiverse.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(346 45% 42%)">TM</div>
+    <div><div class="who">The_Orange_Mailman</div><div class="when">2014-11-24 01:12 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><blockquote><p>Determine damage type</p><p>&nbsp;</p><p>The very first step when dealing damage is to determine the damage type.&nbsp; Based on the newest ruling, if there are multiple cards that change the damage type, you can choose the order of the effects and, essentially, choose what the final type will be.</p></blockquote><p>&nbsp;</p><p>Can&nbsp;someone point me in the direction of what this newest ruling entails.&nbsp; I thought that the order in which the cards were played was essential in this whole process.&nbsp; The other night I was playing Mr. Fixer while there was another card in play which changed all the damage to one type.&nbsp; He has a style that allows him to change damage type and I was wondering if he could change the damage type even when there was another card that stated all damage was of one type.&nbsp; Thanks in advance.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-24 01:19 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p><a href="https://greaterthangames.com/forum/topic/timing-and-order-of-operations-4347" class="onebox" target="_blank" rel="noopener">https://greaterthangames.com/forum/topic/timing-and-order-of-operations-4347</a></p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2014-11-24 18:49 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Having an order of operations is nice and all, but this creates one more issue with Legacy's "Lead from the Front" and other, similar cards that redirect damage to a target whom may have damage modifiers of their own</p><p>If Legacy redirects any damage to himself, may he apply the reduction from Fortitude/Superhuman Durability from himself? Applying operations to damage in order would suggest not, since redirection happens after damage quantity has already been figured out</p><p>I know that's probably not the intent of those interactions, and certainly I can apply rule ofcommon sense where required, but it would be nice, I think, to have an official and officially worded ruling for those situations</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-24 18:56 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Once redirection occurs you go back to the damage modifiers step and start over with different targets.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2014-11-24 19:02 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>That opens a whole new can of worms: do effects that add to damage (Obsidian Fields for example) get applied again when damage gets redirected? This could lead to absurd quantities and kinda defeats the purpose of Legacy using Lead from the Front to tank damage...</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-24 19:09 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>No, all previous modifiers are cancelled and you start again, applying everything applies. Redurect essentiallu cancels out the previous attack completely, and starts a new one with a new target.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2014-11-24 19:11 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Ah, seems a bit fiddly but makes sense, thank you!</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2014-11-24 19:52 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>There's that F word again :/</p><p>Reminnds me of that thread on BGG...</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2014-11-24 20:07 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="xThe Killswitch">
+<div class="title">
+<div class="quote-controls"></div>
+ xThe Killswitch:</div>
+<blockquote>
+<p>There's that F word again <img src="https://forums.greaterthangames.com/images/emoji/apple/confused.png?v=12" title=":confused:" class="emoji" alt=":confused:" loading="lazy" width="20" height="20"></p>
+<p>Reminnds me of that thread on BGG…</p>
+</blockquote>
+</aside>
+<p>Shush, you.  <img src="https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12" title=":wink:" class="emoji" alt=":wink:" loading="lazy" width="20" height="20"></p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(346 45% 42%)">TM</div>
+    <div><div class="who">The_Orange_Mailman</div><div class="when">2014-11-24 23:53 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Thanks.&nbsp; I was playing correctly.&nbsp; Still lost though.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(318 45% 42%)">EN</div>
+    <div><div class="who">eNamorD</div><div class="when">2014-11-26 04:52 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>Are you implying that the order of calculations happening within a step is left up to player choice? If so, then reading through this makes me think that Step 4 should be split into two parts - the first part for effects which happen <em>instead</em> of the damage taking the place and the second part for effects which happen <em>after </em>the damage taking place. Otherwise, something like this could happen...</p><p>Let's say Absolute Zero is at 4 HP and has an Isothermic Transducer out and Legacy has Lead From the Front. A villain character card aims an attack at Absolute Zero, and the final result at step 3 is that Absolute Zero is going to take 4 fire damage.</p><blockquote><p>Isothermic Transducer</p><p>Whenever Absolute Zero is dealt fire damage, Absolute Zero deals 1 target that much cold damage.</p></blockquote><blockquote><p>Lead from the Front</p><p>Whenever a Hero target would be dealt damage by a Villain card, you may redirect that damage to Legacy.</p></blockquote><p>Both of these effects happen as a result of the damage. If we could pick and choose the order of these effects, couldn't we choose to have AZ deal one target 4 cold damage using IT and then have Legacy tank the actual hit?</p><p>It doesn't feel quite right to me, so I think step 4 is actually two separate steps.</p><p>....</p><p>4. Apply effects which happen instead of taking damage</p><p>5. Apply effects which happen after taking damage.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-11-26 05:06 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>"is dealt" means HP is lowered, if Legacy takes the hit then no fire damage "is dealt" to AZ, so there is no corresponding generation of cold damage.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">RA</div>
+    <div><div class="who">Rabk</div><div class="when">2014-11-26 13:48 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><blockquote><p><span>Lead from the Front<br><br>Whenever a Hero target <strong>would be dealt</strong> damage by a Villain card, you may redirect that damage to Legacy.</span></p></blockquote><blockquote>Isothermic Transducer<br><br>Whenever Absolute Zero <strong>is dealt</strong> fire damage, Absolute Zero deals 1 target that much cold damage.</blockquote><h2>&nbsp;</h2><p>Lead from the front triggers before damage is dealt, while the Transducer doesn't power up until after A0 has actually taken damage (lost HP).</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-26 15:33 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p>“Would be dealt” and “dealt” do not have different timings:</p>
+<p><a href="https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047" class="onebox" target="_blank" rel="noopener">https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047</a></p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">RA</div>
+    <div><div class="who">Rabk</div><div class="when">2014-11-26 15:43 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>OK, now I'm even more confused. A0 has to actually take damage for the Transducer to trigger, no? I don't see how it can be possible for Lead from the Front and IT to both apply their effects to the same instance of damage.</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-26 15:46 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>Both can’t apply. They have the same timing, but both effects are mutually exclusive. If you choose one set of effects, the other won’t apply anymore.</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-26 15:55 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><p>This thread may help a bit: https://greaterthangames.com/forum/topic/damage-effects-timing-meta-question-6141</p><p>Combining the claims of both threads, a fuller list of steps would be:</p><p>0. Is the damage source allowed to deal damage at all?&nbsp; If no, stop.</p><p>1. Make Irreducible (if applicable)</p><p>2. Change Damage Type</p><p>3. Check If Immune.&nbsp; (If so, stop here)</p><p>4. Increase or Reduce Amount</p><p>5. Redirect or Prevent Damage</p><p>5a. If damage is redirected, go back to step 1 and re-evaluate with new target.</p><p>5b. If damage is entirely prevented, stop here.</p><p>6. Apply damage (reducing HP)</p><p>7. Apply effects based on damage being dealt</p><p>Within a given step, if there are multiple things happening, the players choose the order.&nbsp; [This can be a little weird in step 5, which mixes multiple types of things.&nbsp; The example that leaps to mind is that if Undaunted is trying to prevent 1 damage, and Smoke Bombs is trying to redirect that damage, players choose what order they happen in.]</p><p>Applying this to the problem above, we see that Lead From the Front takes place in step 5, while Isothermic Transducer doesn't trigger until step 7.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-26 16:06 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><p>FWIW, my choice of steps was based on the wording of the cards, and all similar wordings are put into one step for consistency. This is not to say that two opposite effects happen.</p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-26 16:23 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><p>While grouping things by wording is a sensible first approach, the ambiguity of the english language makes it (I think) not the optimal one.&nbsp; This is evidenced by the fact that "would" is use for effects in both step 5 and step 7 of my ordering.</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-26 16:25 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><p>Which is why I explained both meanings of "would."  <img src="https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=9" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:"></p>
+<p>However, Null-Point Iso is exactly why&nbsp;I did it that way. Both have simialr wordings, and just looking at the texts should dicate the timing, not the interpretation of the cards. However, you could go either way. One thing you did miss was to see if damage "would be dealt"  <img src="https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=9" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:"> &nbsp;after modifications but before redirecting.</p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">RA</div>
+    <div><div class="who">Rabk</div><div class="when">2014-11-26 16:31 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><p>Alright, I understood it correctly then. I was <span>using card semantics&nbsp;</span><span>innapproriately&nbsp;</span><span>to&nbsp;</span><span>try to justify the exclusivity of the effects.</span></p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-26 16:41 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>Both have simialr wordings, and just looking at the texts should dicate the timing, not the interpretation of the cards.</p>
+</blockquote>
+</aside>
+<p>In a perfect world, yes, but we don't live there <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p>
+<aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>However, you could go either way. One thing you did miss was to see if damage "would be dealt"  <img src="https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=12" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:" loading="lazy" width="20" height="20"> &nbsp;after modifications but before redirecting.</p>
+</blockquote>
+</aside>
+<p>Do you know of an actual case for "would be dealt" that should happen "after modifications but before redirecting"?&nbsp; All the cases I can think of off the top of my head either work out to Prevention or Redirection, which happen in the same sub-phase.</p></div>
+</div>
+<div class="post" id="post-25">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-26 16:55 UTC</div></div>
+    <div class="postnum">#25</div>
+  </div>
+  <div class="post-body"><p>If no damage would have been dealt, then there is no redirection. NightMist can't redirect while is Mistform, since there is no damage to redirect. After all modifications, you still have to check to see if there is potential damage, if not then there are no other effects. This was another reason why I grouped it that way. You still have to check for hp loss in&nbsp;each case, but cetain things, like rediction and Null-Point, will change that hp loss into something else.</p></div>
+</div>
+<div class="post" id="post-26">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-26 17:10 UTC</div></div>
+    <div class="postnum">#26</div>
+  </div>
+  <div class="post-body"><p>I've edited my listing to make it clear that steps 3 (which covers Mist Form) and 5b can halt evaluation.&nbsp; Am I still missing anything?</p></div>
+</div>
+<div class="post" id="post-27">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-26 17:19 UTC</div></div>
+    <div class="postnum">#27</div>
+  </div>
+  <div class="post-body"><p>Since Prevention negates redirection, it should come first.</p></div>
+</div>
+<div class="post" id="post-28">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-26 19:07 UTC</div></div>
+    <div class="postnum">#28</div>
+  </div>
+  <div class="post-body"><p>I think you're assuming the outcome you want.&nbsp; What makes "prevention negates redirection" more valid than "redirection negates prevention"?&nbsp;</p><p>In the case I'm most familiar with (Undaunted + Smoke Bombs), obviously only one of them can happen, but it's not clear to me which one should.&nbsp; And indeed, the App lets the player choose in this case.</p><p>It would be plausible to put prevention and redirection into separate categories and put those categories in a specific order, but that doesn't seem to be what Christopher wants.</p></div>
+</div>
+<div class="post" id="post-29">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2014-11-26 19:16 UTC</div></div>
+    <div class="postnum">#29</div>
+  </div>
+  <div class="post-body"><p>step 0: &nbsp;can damage be dealt by the damage dealer?</p></div>
+</div>
+<div class="post" id="post-30">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2014-11-26 19:25 UTC</div></div>
+    <div class="postnum">#30</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="AlexxKay">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png" class="avatar"> AlexxKay:</div>
+<blockquote>
+<p>I think you're assuming the outcome you want.&nbsp; What makes "prevention negates redirection" more valid than "redirection negates prevention"?&nbsp;In the case I'm most familiar with (Undaunted + Smoke Bombs), obviously only one of them can happen, but it's not clear to me which one should.&nbsp; And indeed, the App lets the player choose in this case.It would be plausible to put prevention and redirection into separate categories and put those categories in a specific order, but that doesn't seem to be what Christopher wants.</p>
+</blockquote>
+</aside>
+<p>If both trigger at the same time, it's entirely up to the players to determine the order. And, in fact both can trigger. If a villian is dealing 2 damage to the hero with the highest HP and that hero is Fanatic, Smoke bombs can easily redirect it to her, reduce it by one, and cancel it out entirely.</p>
+<p>Unless I'm misunderstanding your question?</p></div>
+</div>
+<div class="post" id="post-31">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-26 22:29 UTC</div></div>
+    <div class="postnum">#31</div>
+  </div>
+  <div class="post-body"><p>I was thinking of the situation where Fanatic is *lowest*, and is getting hit by 1 point of damage.&nbsp; Whichever of Undaunted/Smoke Bombs triggers first, the other won't then be able to.</p></div>
+</div>
+<div class="post" id="post-32">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-26 22:33 UTC</div></div>
+    <div class="postnum">#32</div>
+  </div>
+  <div class="post-body"><p>Essentially the same choice between Iso and LftF. Only one works.</p></div>
+</div>
+<div class="post" id="post-33">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-26 22:33 UTC</div></div>
+    <div class="postnum">#33</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p>step 0: &nbsp;can damage be dealt by the damage dealer?</p>
+</blockquote>
+</aside>
+<p>Added to my list, thanks.</p></div>
+</div>
+<div class="post" id="post-34">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-26 22:34 UTC</div></div>
+    <div class="postnum">#34</div>
+  </div>
+  <div class="post-body"><p>Actually, if you want EVERY step it is a bit more complicated than that. Will type it up once I can get to a computer.</p></div>
+</div>
+<div class="post" id="post-35">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(24 45% 42%)">RA</div>
+    <div><div class="who">Rabk</div><div class="when">2014-11-26 23:11 UTC</div></div>
+    <div class="postnum">#35</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>Actually, if you want EVERY step it is a bit more complicated than that. Will type it up once I can get to a computer.</p>
+</blockquote>
+</aside>
+<p><img src="../../../../other-games/uploads/uploads__default__original__2X__0__0a8b499b2f2d13ee2ae77f9b5f03cc85c4ed9547.gif" alt="" data-base62-sha1="1vhccGyUulIvGukkno1crSvWsMn" role="presentation" width="350" height="191" class="animated"></p></div>
+</div>
+<div class="post" id="post-36">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2014-11-26 23:53 UTC</div></div>
+    <div class="postnum">#36</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="AlexxKay">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png" class="avatar"> AlexxKay:</div>
+<blockquote>
+<p>I was thinking of the situation where Fanatic is <em>lowest</em>, and is getting hit by 1 point of damage.&nbsp; Whichever of Undaunted/Smoke Bombs triggers first, the other won't then be able to.</p>
+</blockquote>
+</aside>
+<p>Whichever happens, the resulting damage will still be zero, so… How does it matter?</p></div>
+</div>
+<div class="post" id="post-37">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-11-27 00:08 UTC</div></div>
+    <div class="postnum">#37</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Nataraja">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/n/7feea3/48.png" class="avatar"> Nataraja:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>AlexxKay wrote:</b><br><blockquote>I was thinking of the situation where Fanatic is *lowest*, and is getting hit by 1 point of damage.&nbsp; Whichever of Undaunted/Smoke Bombs triggers first, the other won't then be able to.
+&nbsp;
+</blockquote></div>
+Whichever happens, the resulting damage will still be zero, so... How does it matter?
+</blockquote>
+</aside>
+<p>Because the highest HP could have nemesis bonus, Bloody Knuckles, Glass Jaw or any number of other damage increasing effects on them, redirection via Smoke Bombs would be painful.</p>
+<p>&nbsp;</p>
+<p>The answer matters, but I don't know what it is.</p></div>
+</div>
+<div class="post" id="post-38">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-27 00:09 UTC</div></div>
+    <div class="postnum">#38</div>
+  </div>
+  <div class="post-body"><p>At first, I was going to take this really seriously, but then it got to 20 steps. :) So, I am leaving it up to everyone here. Edit this spreadsheet and see how far we can go.</p><p>EDIT: Thanks to the great Matchstickman!</p></div>
+</div>
+<div class="post" id="post-39">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-11-27 00:22 UTC</div></div>
+    <div class="postnum">#39</div>
+  </div>
+  <div class="post-body"><p>The editable spreadsheet is at this link.</p><p>https://docs.google.com/spreadsheets/d/tZfiNqJyV3rK-QAsuSFG33w/edit#gid=0</p></div>
+</div>
+<div class="post" id="post-40">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2014-11-27 01:54 UTC</div></div>
+    <div class="postnum">#40</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Matchstickman">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png" class="avatar"> Matchstickman:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Nataraja wrote:</b><br><blockquote>&nbsp;AlexxKay wrote:<br><blockquote>I was thinking of the situation where Fanatic is *lowest*, and is getting hit by 1 point of damage.&nbsp; Whichever of Undaunted/Smoke Bombs triggers first, the other won't then be able to.&nbsp;
+&nbsp;
+</blockquote>
+Whichever happens, the resulting damage will still be zero, so... How does it matter?
+</blockquote></div>
+Because the highest HP could have nemesis bonus, Bloody Knuckles, Glass Jaw or any number of other damage increasing effects on them, redirection via Smoke Bombs would be painful.&nbsp;The answer matters, but I don't know what it is.
+</blockquote>
+</aside>
+<p>Fair enough</p>
+<p>Well according to the first post and that spreadsheet, seems like damage redirection happens after modifiers and/or damage nullification</p>
+<p>So you would use Undaunted to reduce damage to 0 before Smoke Bombs triggered in my opinion</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-41">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-27 03:31 UTC</div></div>
+    <div class="postnum">#41</div>
+  </div>
+  <div class="post-body"><p>I'm making comments here, rather than directly editing the doc, because I prefer discussion to over-writing.</p><p>Steps 2 and 18 seem badly worded to me.</p><p>Current wording:</p><p>
+
+
+<span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;Determine the number of attacks.&quot;]">2. Determine the number of attacks.</span></p><p><span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;Determine the number of attacks.&quot;]">
+
+
+<span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;Determine if the total number of designated defenders is less than the total number of attacks. If it is, go to step 3.&quot;]">18. Determine if the total number of designated defenders is less than the total number of attacks. If it is, go to step 3.</span></span></p><p>&nbsp;</p><p>"Number of attacks" is variable and can actually change mid-stream.&nbsp; I can think of at least two such sccenarios:</p><p>A) the well-documented End Of Days/Forced Deployment interaction</p><p>B) Tachyon uses Sonic Vortex.&nbsp; As one of her damage instances she kills an Illusory Demon.&nbsp; The Illusory Demon puts one of Tachy's Synaptic Interruption's in the trash, thus increasing the number of burst cards, thus increasing the number of attacks Sonic Vortex will do.</p><p>&nbsp;</p><p>I would rephrase these as:</p><p>2. Ensure that at least one attack should be made. (For example, a Sonic Vortex with no burst cards in the trash will do zero attacks.)</p><p>18. Determine if another attack still needs to be made.&nbsp; If so, go to step 3.</p><p>&nbsp;</p><p>=====</p><p>New step between the current 2 and 3.&nbsp; Or maybe add to 2.</p><p>* If the source of the damage says "may damage", or "damage up to (some number) targets", decide whether to do damage at all.&nbsp; If not, this damage effect is over.</p><p>&nbsp;</p><p>=====</p><p>I'm not sure step 4 (currently "
+
+
+<span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;Determine the actual defender. This may be different than the designated defender.&quot;]">Determine the actual defender. This may be different than the designated defender.</span>") makes any sense.&nbsp; Is there anything that can cause the defender to be different that *isn't* redirection?&nbsp; If so, what do you actually do in this step?</p><p>&nbsp;</p><p>=====</p><p>14.
+
+
+<span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;If the effect redirected the damage, go to step 5, and choose a different actual defender.&quot;]">If the effect redirected the damage, go to step 5, and choose a different actual defender.</span></p><p>&nbsp;</p><p><span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;If the effect redirected the damage, go to step 5, and choose a different actual defender.&quot;]">I suggest:</span></p><p><span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;If the effect redirected the damage, go to step 5, and choose a different actual defender.&quot;]">14.
+
+
+<span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;If the effect redirected the damage, go to step 5, and choose a different actual defender.&quot;]">If the effect redirected the damage, determine the new defender, then go to step 5.</span></span></p><p><span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;If the effect redirected the damage, go to step 5, and choose a different actual defender.&quot;]"><span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;If the effect redirected the damage, go to step 5, and choose a different actual defender.&quot;]"><span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;If the effect redirected the damage, go to step 5, and choose a different actual defender.&quot;]">Subtle difference, but I like making it clear that the defender selection is part of the redirection step</span></span>.&nbsp;</span></p><p><span data-sheets-userformat="[null,null,769,[null,0],null,null,null,null,null,null,null,1,0]" data-sheets-value="[null,2,&quot;If the effect redirected the damage, go to step 5, and choose a different actual defender.&quot;]">Also, I'm not 100% sure that the new defender actually has to be *different*!&nbsp; What happens when The Wraith is the only Active Hero, Smoke Bombs is out, and she takes damage?&nbsp; Seems to me that the damage must be redirected from her, *to* her.&nbsp; Unless I'm wrong about something...</span></p></div>
+</div>
+<div class="post" id="post-42">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2014-11-27 03:53 UTC</div></div>
+    <div class="postnum">#42</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="AlexxKay">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png" class="avatar"> AlexxKay:</div>
+<blockquote>
+<p>&nbsp;</p>
+<p>The example that leaps to mind is that if Undaunted is trying to prevent 1 damage, and Smoke Bombs is trying to redirect that damage, players choose what order they happen in.</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>If Fanatic has Undaunted in play then Fanatic cannot take an instance of one damage, so there is no choice, the damage cannot be redirected because she cannot take that damage.</p></div>
+</div>
+<div class="post" id="post-43">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-27 04:12 UTC</div></div>
+    <div class="postnum">#43</div>
+  </div>
+  <div class="post-body"><p>@AlexxKay</p><p>A lot of what you brought up I actually considered, but that was when I decided to open it up instead of going back. Partly a little lazy, partly I had to go to work. :) There were some other things I was also going to add that you didn't mention, like "on destruction" effects.</p><p>I agree that step isn't worded in the best possible way, and that the only time it really matters is when you redirect. However, the step is needed and is essential. You have to initially designate something you are attacking, and, regardless of whether it takes the final damage, it is still considered targeted for future attack purposes. When you redirect, you can assign a new actual defender, but it doesn't take away the original designation of the original target.</p><p>For example, If you use your Assault Rifle and hit NightMist, then NightMist redirects that to a new target, NightMist is still considered the original target, and can't be targetted again by the Assault Rifle.</p></div>
+</div>
+<div class="post" id="post-44">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2014-11-27 14:43 UTC</div></div>
+    <div class="postnum">#44</div>
+  </div>
+  <div class="post-body"><blockquote><p><span>For example, If you use your Assault Rifle and hit NightMist, then NightMist redirects that to a new target, NightMist is still considered the original target, and can't be targetted again by the Assault Rifle.</span></p></blockquote><p>Which is actually really aweome considering it allows the "unintentional" target to be hit more than once through redirects.</p></div>
+</div>
+<div class="post" id="post-45">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-27 17:10 UTC</div></div>
+    <div class="postnum">#45</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<div><b>AlexxKay wrote:</b><br><blockquote>&nbsp; The example that leaps to mind is that if Undaunted is trying to prevent 1 damage, and Smoke Bombs is trying to redirect that damage, players choose what order they happen in.
+&nbsp;
+</blockquote></div>
+&nbsp;If Fanatic has Undaunted in play then Fanatic cannot take an instance of one damage, so there is no choice, the damage cannot be redirected because she cannot take that damage.
+</blockquote>
+</aside>
+<p>I believe you are mistaken.&nbsp; According to my best understanding of the damage timing, prevention and redirection share a sub-phase, and so the timing is ambiguous.&nbsp; If Undaunted was <em>reducing</em> the instance of 1 damage, it would come much earlier in the damage timing, and would definitely win.&nbsp; But it isn't reduction, it's prevention, so the players have to determine the timing.</p></div>
+</div>
+<div class="post" id="post-46">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2014-11-27 17:41 UTC</div></div>
+    <div class="postnum">#46</div>
+  </div>
+  <div class="post-body"><p>Personally, as a fan I’d be much more open to more opportunities for the players to decide the order. For me recently, rulings have boiled down to figuring out which subphase or substep or clause or phrase an action would take place in. And to me, that’s not fun and is comparable to strict and complex rulings that trading card games share. I realize it’s a structure that we can rely on to solve problems, but if we can give the same power to the players, that to me would make things go smoother, the way Sentinels was intended to be played to begin with.</p></div>
+</div>
+<div class="post" id="post-47">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2014-11-27 17:59 UTC</div></div>
+    <div class="postnum">#47</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="xThe Killswitch">
+<div class="title">
+<div class="quote-controls"></div>
+ xThe Killswitch:</div>
+<blockquote>
+<p>Personally, as a fan I'd be much more open to more opportunities for the players to decide the order. For me recently, rulings have boiled down to figuring out which subphase or substep or clause or phrase an action would take place in. And to me, that's not fun and is comparable to strict and complex rulings that trading card games share. I realize it's a structure that we can rely on to solve problems, but if we can give the same power to the players, that to me would make things go smoother, the way Sentinels was intended to be played to begin with.</p>
+</blockquote>
+</aside>
+<p>Well much of what was ruled in this thread is for when things don't go too smooth, even by letting players decide</p>
+<p>Most of it can be reached by appkying rule of common sense but it's stil niceto have official backing and a guideline to fall back on</p></div>
+</div>
+<div class="post" id="post-48">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2014-11-27 19:53 UTC</div></div>
+    <div class="postnum">#48</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="AlexxKay">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png" class="avatar"> AlexxKay:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>phantaskippy wrote:</b><br><blockquote>AlexxKay wrote:<br><blockquote>&nbsp; The example that leaps to mind is that if Undaunted is trying to prevent 1 damage, and Smoke Bombs is trying to redirect that damage, players choose what order they happen in.&nbsp;
+&nbsp;
+</blockquote>
+&nbsp;If Fanatic has Undaunted in play then Fanatic cannot take an instance of one damage, so there is no choice, the damage cannot be redirected because she cannot take that damage.
+</blockquote></div>
+I believe you are mistaken.&nbsp; According to my best understanding of the damage timing, prevention and redirection share a sub-phase, and so the timing is ambiguous.&nbsp; If Undaunted was *reducing* the instance of 1 damage, it would come much earlier in the damage timing, and would definitely win.&nbsp; But it isn't reduction, it's prevention, so the players have to determine the timing.
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>All of this "Timing" is fan created. &nbsp;It is not official. &nbsp;What is official is that you cannot redirect damage unless that damage can actually be dealt. &nbsp;1 damage to Fanatic with Undaunted in play cannot be taken, so it can't be redirected, the damage is prevented.</p></div>
+</div>
+<div class="post" id="post-49">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2014-11-28 00:01 UTC</div></div>
+    <div class="postnum">#49</div>
+  </div>
+  <div class="post-body"><p>Damage isn’t dealt until a target is determined, though. If Fanatic would be the ONLY target, then no redirection would occur.</p>
+<p>In any case, unless this is purely a hypothetical question for the sake of redirecting damage to a villian somehow I’m confused as to why you WOULDN’T just prevent it and be done with it.</p></div>
+</div>
+<div class="post" id="post-50">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-28 00:08 UTC</div></div>
+    <div class="postnum">#50</div>
+  </div>
+  <div class="post-body"><p>I can think of a few reasons: Want to hit Tachy to get a better Supersonic Response or hit a target so that they are no longer highest...</p></div>
+</div>
+<div class="post" id="post-51">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-28 00:56 UTC</div></div>
+    <div class="postnum">#51</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="xThe Killswitch">
+<div class="title">
+<div class="quote-controls"></div>
+ xThe Killswitch:</div>
+<blockquote>
+<p>Personally, as a fan I'd be much more open to more opportunities for the players to decide the order. For me recently, rulings have boiled down to figuring out which subphase or substep or clause or phrase an action would take place in. And to me, that's not fun and is comparable to strict and complex rulings that trading card games share. I realize it's a structure that we can rely on to solve problems, but if we can give the same power to the players, that to me would make things go smoother, the way Sentinels was intended to be played to begin with.</p>
+</blockquote>
+</aside>
+<p>I have no objecttion to people playing games the way they want to play them, with whatever house rules (or lack thereof) gives them pleasure.</p>
+<p>I, myself, get a lot of pleasure out of figuring out the most elegant/correct way things could possibly work.&nbsp; And I'm here to discuss approaches to that goal with like-minded people.</p>
+<p>I know that not everyone enjoys this process as much as I do.&nbsp; In an ideal world, all the cards and rulebooks would be clear and concise and unambiguous.&nbsp; We're not in that world.&nbsp; But I do hope that our collective efforts to sort things out will help make things clearer in future editions of the game, or in future expansions.</p></div>
+</div>
+<div class="post" id="post-52">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-28 02:05 UTC</div></div>
+    <div class="postnum">#52</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p>&nbsp;All of this "Timing" is fan created. &nbsp;It is not official. &nbsp;</p>
+</blockquote>
+</aside>
+<p>Not quite. My first post is "official". Christopher read it and approved it before I posted it. MigrantP's order is also official.</p></div>
+</div>
+<div class="post" id="post-53">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-28 02:22 UTC</div></div>
+    <div class="postnum">#53</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>A lot of what you brought up I actually considered, but that was when I decided to open it up instead of going back. Partly a little lazy, partly I had to go to work. <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p>
+</blockquote>
+</aside>
+<p>OK, I've made some fairly extensive edits.&nbsp; In addition to the above-mentioned stuff:</p>
+<ul><li>Standardzed terminology and wording in many places.</li><li>Added new columns for "notes", and moved relevant text into them.&nbsp; The idea was to keep the main list as clean as possible, with the complications in the other columns.</li><li>Covered the case of non-complete Prevention.*</li></ul>
+* The only instances of non-complete damge Prevention are (pre-Enhanced Edition) Stealth and one of Bunker's incapacitated powers.&nbsp; Interestingly, the App changed the relevant Bunker incap power to be "reduce" rather than "prevent".&nbsp; Presumably, a newer-yet print edition would also feature this corrected version of Bunker.</div>
+</div>
+<div class="post" id="post-54">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-28 02:36 UTC</div></div>
+    <div class="postnum">#54</div>
+  </div>
+  <div class="post-body"><p>Couple of things:</p><p>1) I purposely had that first step there, because sometimes a card indicates taht another card deals damage. If that initial card leaves play, even if the attacker is still there, the attack is over.</p><p>2) If a card has a "on destruction" effect, it is not first destroyed, but rather the effect happens first, then the card is destroyed.</p><p>3) I think partial prevention has been removed from the game. Now it just reduces, and goes with the other modifiers.</p></div>
+</div>
+<div class="post" id="post-55">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2014-11-28 02:38 UTC</div></div>
+    <div class="postnum">#55</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>phantaskippy wrote:</b><br><blockquote>&nbsp;All of this "Timing" is fan created. &nbsp;It is not official. &nbsp;
+&nbsp;
+</blockquote></div>
+Not quite. My first post is "official". Christopher read it and approved it before I posted it. MigrantP's order is also official.
+</blockquote>
+</aside>
+<p>Do you mean this?</p>
+<div><ol><li>
+Determine damage type
+</li><li>
+Identify and apply all modifiers to dealing
+</li><li>
+Determine if damaged is dealt, and reduce hp
+</li><li>
+Apply effects based on damage being dealt
+</li></ol>
+Because this is the only order in this thread, and MigrantP didn't post in this thread.
+<p>The post I was responding to was using a timing list in this thread to argue that you could redirect damage that could not be dealt. &nbsp;Which we know is wrong.</p>
+</div>
+&nbsp;</div>
+</div>
+<div class="post" id="post-56">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-11-28 02:39 UTC</div></div>
+    <div class="postnum">#56</div>
+  </div>
+  <div class="post-body"><p>Honestly, I assumed that was what you meant, but you did say all timing, so I just wanted to make sure.</p></div>
+</div>
+<div class="post" id="post-57">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-28 05:19 UTC</div></div>
+    <div class="postnum">#57</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<ol>
+<li>I purposely had that first step there, because sometimes a card indicates taht another card deals damage. If that initial card leaves play, even if the attacker is still there, the attack is over.</li>
+</ol>
+</blockquote>
+</aside>
+<p>Good catch; added a new note/example to that effect.</p>
+<aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<ol start="2">
+<li>If a card has a "on destruction" effect, it is not first destroyed, but rather the effect happens first, then the card is destroyed.</li>
+</ol>
+</blockquote>
+</aside>
+<p>I've changed the wording to reflect this, but I'm not sure it's universally true.&nbsp; I know it's true when a card has effects on its <em>own</em> destruction (Explosives Wagon), but is it also true for exterior effects (e.g. Ammo Drop, The Operative's revenge, etc.).&nbsp; I'm not sure it <em>matters</em> in any current examples, but I'm also not sure it doesn't…</p>
+<aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<ol start="3">
+<li>I think partial prevention has been removed from the game. Now it just reduces, and goes with the other modifiers.</li>
+</ol>
+</blockquote>
+</aside>
+<p>I'd guess that the <em>intent</em> is to have it removed from the game, but there are a lot of physical cards out there that have "prevent the next 2 damage" printed on them.&nbsp; No Errata cards have been printed for them, nor can I find any reference to a ruling saying that the existing cards are errata-ed (though I certainly might have missed one).&nbsp; The closest I did find to such a ruling was Spiff's FAQ, which mentions "prevent the next 2 damage" as a legitimate thing that can happen.</p></div>
+</div>
+<div class="post" id="post-58">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-11-28 05:29 UTC</div></div>
+    <div class="postnum">#58</div>
+  </div>
+  <div class="post-body"><p><span>There are 4 hero cards&nbsp;</span><span>(Flak Jacket, Undaunted, Resilient Hide and Hippocratic Oath)&nbsp;</span><span>and 4 villain cards (Sewer Fiend, Speedy Sidestep, Uncatchable and La Capitan on her advanced Split Across Time side) which currently "prevent" damage (and 1 villain card that prevents destruction, Lady Luck), none of which prevent partial damage. I think what you are reading from Spiff's FAQ is the original edition's base power for The Wraith, at present this rule does not apply as no cards function that way.</span></p><p><span>EDIT: I am wrong! Bunker's incap is "Prevent the next 2 damage", I would argue that is hardly "lots", one out of a thousand</span></p></div>
+</div>
+<div class="post" id="post-59">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-28 05:47 UTC</div></div>
+    <div class="postnum">#59</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="AlexxKay">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png" class="avatar"> AlexxKay:</div>
+<blockquote>
+<div><b>Pydro wrote:</b><br><blockquote>2) If a card has a "on destruction" effect, it is not first destroyed, but rather the effect happens first, then the card is destroyed.
+&nbsp;
+</blockquote></div>
+I've changed the wording to reflect this, but I'm not sure it's universally true.&nbsp; I know it's true when a card has effects on its *own* destruction (Explosives Wagon), but is it also true for exterior effects (e.g. Ammo Drop, The Operative's revenge, etc.).&nbsp; I'm not sure it *matters* in any current examples, but I'm also not sure it doesn't...
+</blockquote>
+</aside>
+<p>I've bitten the bullet and added several steps to handle this more completely.</p>
+<p>I'm not 100% sure that steps 17 and 18 are, in fact, separate.&nbsp; If they're <em>not</em>, then it leads to a somewhat counter-intuitive situation with the Dreamer, where (after she flips), you could avoid the negative effects of killing Illusory Demon and Treacherous Ape by chooing to put them under the Dreamer before their own "on destruction" took place.</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-60">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-28 05:57 UTC</div></div>
+    <div class="postnum">#60</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Matchstickman">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png" class="avatar"> Matchstickman:</div>
+<blockquote>
+<p>EDIT: I am wrong! Bunker's incap is "Prevent the next 2 damage", I would argue that is hardly "lots", one out of a thousand</p>
+</blockquote>
+</aside>
+<p>I'm thinking in raw numbers, not percentages.&nbsp; <em>Every</em> copy of the game printed to date has a copy of that card.&nbsp; I don't know how many that is, but unless people pre-ordering the new expansion perversely don't own the base game, there's a lower bound of 4,498.&nbsp; I think that counts as "lots".</p></div>
+</div>
+<div class="post" id="post-61">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-11-28 07:49 UTC</div></div>
+    <div class="postnum">#61</div>
+  </div>
+  <div class="post-body"><p>I just did some edit that I'm kinda unsure about, so discussing them here.&nbsp; The concensus in (https://greaterthangames.com/forum/topic/rules-answers-from-christopher-at-pax-4082) seemed to be that, except for effects on the card being destroyed, a destroyed card would immediately go to the trash.&nbsp;</p><p>But some cards (e.g. Savage Mana, La Capitan) put destroyed cards underneath themselves.&nbsp; Do they actually move the destroyed card out of the trash after it goes in?&nbsp; Or do they trigger before the card goes into the trash at all?&nbsp; I'm not real happy with either answer...</p></div>
+</div>
+<div class="post" id="post-62">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2014-11-29 03:32 UTC</div></div>
+    <div class="postnum">#62</div>
+  </div>
+  <div class="post-body"><p>I would read the "When a card is destroyed it is removed from play and put in the appropriate trash" as having an unwritten "Unless otherwise stated" in there. &nbsp;Because that is how it works.</p></div>
+</div>
+<div class="post" id="post-63">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2014-12-16 18:41 UTC</div></div>
+    <div class="postnum">#63</div>
+  </div>
+  <div class="post-body"><p>Bringing this thread back because I just discovered it, and there are a few thoughts I had about the spreadsheet that I don't want to implement without a second opinion.</p><p>&nbsp;</p><p>1) &nbsp;Damage converted to healing (e.g. Null-point calibration): does that go with redirection and prevention in step 12? &nbsp;Also, healing follows the same timing rules (minus the typing rules), right?</p><p>2) &nbsp;Step 20 (effects that trigger when damage is dealt to the defender) actually does have a case that would trigger if the defender is destroyed: Prickly Cactus. &nbsp;(this one I did add to the spreadsheet, since it seems fairly unambigous)</p><p>3) Step 20 should probably also include effects that trigger when damage is dealt by the attacker. &nbsp;It's slightly redundant, but also slightly less ambiguous.</p><p>4) Big can of worms, but it should be mentioned: &nbsp;Infinite redirection. &nbsp;Is there any consensus on how it's handled? &nbsp;We might be able to get away with skipping it, since it's a rule about whether the redirection is allowed, rather than when it's applied, but I feel that the rules for how damage reduction that is tied to redirection (e.g. smoke bombs) works should be included.</p><p>5) Another can of worms: Dual Crowbars.</p></div>
+</div>
+<div class="post" id="post-64">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-12-16 23:46 UTC</div></div>
+    <div class="postnum">#64</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="jsz2">
+<div class="title">
+<div class="quote-controls"></div>
+ jsz2:</div>
+<blockquote>
+<p>Bringing this thread back because I just discovered it, and there are a few thoughts I had about the spreadsheet that I don't want to implement without a second opinion.&nbsp;1) &nbsp;Damage converted to healing (e.g. Null-point calibration): does that go with redirection and prevention in step 12? &nbsp;Also, healing follows the same timing rules (minus the typing rules), right?</p>
+</blockquote>
+</aside>
+<p>Yes, it's prevention, and I've added a note to that effect.&nbsp; Not sure about healing timing, but it seems like "the same" would be at least a good starting assmption, until/unless we find edge cases.</p>
+<aside class="quote no-group" data-username="jsz2">
+<div class="title">
+<div class="quote-controls"></div>
+ jsz2:</div>
+<blockquote>
+<ol start="2">
+<li>&nbsp;Step 20 (effects that trigger when damage is dealt to the defender) actually does have a case that would trigger if the defender is destroyed: Prickly Cactus. &nbsp;(this one I did add to the spreadsheet, since it seems fairly unambigous)</li>
+</ol>
+</blockquote>
+</aside>
+<p>Thematically, it makes sense that it would, but our current model says damage triggers don't happen until <em>after</em> destruction caused by that damage.&nbsp; I'm willing to hear arguments to the contrary, but if PC is in the trash by the time it would trigger, then I don't think it does trigger.</p>
+<aside class="quote no-group" data-username="jsz2">
+<div class="title">
+<div class="quote-controls"></div>
+ jsz2:</div>
+<blockquote>
+<ol start="3">
+<li>Step 20 should probably also include effects that trigger when damage is dealt by the attacker. &nbsp;It's slightly redundant, but also slightly less ambiguous.</li>
+</ol>
+</blockquote>
+</aside>
+<p>Added.</p>
+<aside class="quote no-group" data-username="jsz2">
+<div class="title">
+<div class="quote-controls"></div>
+ jsz2:</div>
+<blockquote>
+<ol start="4">
+<li>Big can of worms, but it should be mentioned: &nbsp;Infinite redirection. &nbsp;Is there any consensus on how it's handled? &nbsp;We might be able to get away with skipping it, since it's a rule about whether the redirection is allowed, rather than when it's applied, but I feel that the rules for how damage reduction that is tied to redirection (e.g. smoke bombs) works should be included.</li>
+</ol>
+</blockquote>
+</aside>
+<p>Fair enough.&nbsp; Added a note to step 12.</p>
+<aside class="quote no-group" data-username="jsz2">
+<div class="title">
+<div class="quote-controls"></div>
+ jsz2:</div>
+<blockquote>
+<ol start="5">
+<li>Another can of worms: Dual Crowbars.</li>
+</ol>
+</blockquote>
+</aside>
+<p>The timing isn't problematic, though I did add a new note to step 4 to hopefully clarify <em>why</em> it isn't a problem.</p>
+<p>For the amount, I've added a note to step 21, and edited step 6 a bit.&nbsp; Better?</p>
+<p>Though, in looking at Dual Crowbars, I do note a new (to me) issue.&nbsp; I'm pretty sure I usnderstand the intent of the card, but it's poorly worded.&nbsp; It really should say "</p>
+
+
+<p><span>Whenever Mr. Fixer deals Damage (<strong>EXCEPT WITH THIS CARD</strong>), he may deal that Damage to 1 other Target as well." &nbsp; As is, I could argue that it triggers off itself, allowing Mr. Fixer to hit as many targets as he felt like, "1 other" at at time!</span></p></div>
+</div>
+<div class="post" id="post-65">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2014-12-17 00:20 UTC</div></div>
+    <div class="postnum">#65</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="AlexxKay">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png" class="avatar"> AlexxKay:</div>
+<blockquote>
+<div><b>jsz2 wrote:</b><br><blockquote>2) &nbsp;Step 20 (effects that trigger when damage is dealt to the defender) actually does have a case that would trigger if the defender is destroyed: Prickly Cactus. &nbsp;(this one I did add to the spreadsheet, since it seems fairly unambigous)
+&nbsp;
+</blockquote></div>
+Thematically, it makes sense that it would, but our current model says damage triggers don't happen until *after* destruction caused by that damage.&nbsp; I'm willing to hear arguments to the contrary, but if PC is in the trash by the time it would trigger, then I don't think it does trigger.
+</blockquote>
+</aside>
+<p>For itself, yes. &nbsp;But Prickly Cactus triggers when any evironment target is damaged by a non-environment target. &nbsp;So if you shoot the sheriff with PC in play, and the sheriff dies, PC will still trigger.</p></div>
+</div>
+<div class="post" id="post-66">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2014-12-17 06:05 UTC</div></div>
+    <div class="postnum">#66</div>
+  </div>
+  <div class="post-body"><p>What if you didn’t shoot the deputy?</p></div>
+</div>
+<div class="post" id="post-67">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">DO</div>
+    <div><div class="who">Donner</div><div class="when">2014-12-17 06:10 UTC</div></div>
+    <div class="postnum">#67</div>
+  </div>
+  <div class="post-body"><p>You get to write a song about it.</p></div>
+</div>
+<div class="post" id="post-68">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-12-17 08:00 UTC</div></div>
+    <div class="postnum">#68</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="jsz2">
+<div class="title">
+<div class="quote-controls"></div>
+ jsz2:</div>
+<blockquote>
+<div><b>AlexxKay wrote:</b><br><blockquote>jsz2 wrote:<br><blockquote>2) &nbsp;Step 20 (effects that trigger when damage is dealt to the defender) actually does have a case that would trigger if the defender is destroyed: Prickly Cactus. &nbsp;(this one I did add to the spreadsheet, since it seems fairly unambigous)&nbsp;
+&nbsp;
+</blockquote>
+Thematically, it makes sense that it would, but our current model says damage triggers don't happen until *after* destruction caused by that damage.&nbsp; I'm willing to hear arguments to the contrary, but if PC is in the trash by the time it would trigger, then I don't think it does trigger.
+</blockquote></div>
+For itself, yes. &nbsp;But Prickly Cactus triggers when any evironment target is damaged by a non-environment target. &nbsp;So if you shoot the sheriff with PC in play, and the sheriff dies, PC will still trigger.
+</blockquote>
+</aside>
+<p>That makes sense.&nbsp; I've added a note to clarify.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

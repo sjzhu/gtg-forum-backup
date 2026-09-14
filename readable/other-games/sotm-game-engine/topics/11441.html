@@ -1,0 +1,107 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Damage effects timing meta-question</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Damage effects timing meta-question</div>
+<h1>Damage effects timing meta-question</h1>
+<div class="desc">12 posts &middot; 466 views &middot; started 2014-10-21 17:01 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-10-21 17:01 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>I've been playing a lot of the new Sentinels app from Handelabra, and discussing issues on their forums.&nbsp; An issue just came up where they cited Christopher as their source, so I'm coming here for clarification as to whether or not this particular timing mechanism is intended to apply to the tabletop game as well.<br><br>In my Handelabra post, I said (edited to clarify examples):</p><blockquote><p>In my latest game, I ran into two annoying situations that I suspect are the same underlying bug. As near as I can tell, when evaluating modifiers to damage, the game always executes things that change damage &lt;strong&gt;type&lt;/strong&gt; first, then things that change damage &lt;strong&gt;amount&lt;/strong&gt;, then things that redirect the damage's &lt;strong&gt;target&lt;/strong&gt;. And I can't find any support in the rules for doing things in that order. As near as I can tell, the order for those different effects is ambiguous, and should therefore be player choice.<br><br>My actual cases:<br><br>1) The Wraith has built up 8 points worth of Stealth damage reduction. Legacy has Lead From The Front and Fortitude in play. A small amount of damage targets The Wraith. The game automatically triggers the Stealth damage reduction, reducing the damage to 0.&nbsp; Since there is no more damage, Lead From The Front has nothing to redirect.&nbsp; I would much rather have had Legacy take a tiny hit than have Wraith waste all that Stealth. But I was not offered the choice.<br><br>2) Wraith has Micro-Targeting Computer and uses Razor Ordnance. Cramped Quarters Combat is in Play. I would have liked to trigger MTC first (while it was still appropriate), and only then have CQC change teh damage to Melee. But, again, I wasn't offered that option.</p></blockquote><p>Handelabra's reply (in part) was:</p><blockquote><p>We discussed this at length with Christopher during development, and he asserted that damage dealing must be done in the order of: type change, amount modifiers, redirect. If a redirect does occur, then modifiers before the redirect are re-evaluated from the start of that sequence until damage is actually dealt.<br><br>Therefore, you correctly deduced the order in which things are occurring, but that is intentional by design.<br><br>[...]<br><br>The full order is: Make Irreducible (if applicable), Change Damage Type, Check If Immune, Increase or Reduce Amount, Redirect or Prevent Damage.</p></blockquote><p>So, Christopher, is it intended that that order of effects be applied to the tabletop game?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-10-21 17:34 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Yes. There are various and posts scattered around here that confirm that. For simplicity,  I wrote a post about how dealing damage works here: <a href="https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047">https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047</a></p>
+<p>Christopher reviewed the post before I put it up.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2014-10-21 18:12 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Any chance of getting that info added to a future edition of the rulebook?</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2014-10-21 18:58 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>The biggest thing in the example given was that Wraith was not going to take the damage. &nbsp;You do not redirect damage that will not deal damage.</p><p>&nbsp;</p><p>The reason we don't have a clearly spelled out order of timing for damage is that there are so many effects in the game that can complicate it that the fringe cases would take a huge amount of work to cover.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2014-10-21 19:34 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>I'll add that info to the FAQ. &nbsp;Seems important.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(250 45% 42%)">LI</div>
+    <div><div class="who">livingintruefreedom</div><div class="when">2014-11-12 07:33 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Ok, simplist answer I have. Lets use RA's Imbue Fire card for a perfect example of why this order of "type change, amount modifiers, redirect" is so important. RA's imbue has it listed in text order: +1 to Fire Damage, Change all hero damage to Fire, Power: Destroy this card. As you can see if you followed the cards text in order the damage bonus would only apply to damage that was already Fire type. Now using the order of "type change, amount modifiers, redirect" it now boosts that damage of all heros by 1, because their damage type is changed before the damage modifier is done.</p><p>&nbsp;</p><p>Now here is there sucky part of Damage Type Change. Say your playing RA, and play Imbue Fire. But your in Megaoplis and <strong>after</strong> you played Imbue Fire, the environment flips Closed Quarter Combat. You have two different damage type changes. So you now follow the rule of Order of Play. Since CQC was played Last, it is the type of damage done, which means it is melee damage.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(273 45% 42%)">PW</div>
+    <div><div class="who">pwatson1974</div><div class="when">2014-11-12 07:44 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>No, you don't. As they're not start of turn/end of turn effects, the players choose the order, and would likely choose CQC first so they get both damage bosts. That's certainly how it works in the video game.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(183 45% 42%)">HK</div>
+    <div><div class="who">Humble-Knight</div><div class="when">2014-11-12 13:27 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>But you can't get both boosts, the type of damage determines the boost</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(68 45% 42%)">GR</div>
+    <div><div class="who">grysqrl</div><div class="when">2014-11-12 13:36 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Not for Cramped Quarters Combat. That boosts all damage and changes all damage to melee. Even if you switch from melee, you still get the damage boost. So if you apply CQC and then Imbued Fire, you end up with +2 fire damage.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(183 45% 42%)">HK</div>
+    <div><div class="who">Humble-Knight</div><div class="when">2014-11-12 13:42 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Oh that's right. Forgot it was a straight boost, not a conditional one</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2014-11-12 20:47 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>It's Imbued Fire and Micro-Targeting computer that don't stack, since the latter will only kick in if Wraith is dealing projectile damage.</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(121 45% 42%)">GR</div>
+    <div><div class="who">Greywind</div><div class="when">2014-11-12 20:53 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Well, if Ra would quit burning up her projectiles...</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

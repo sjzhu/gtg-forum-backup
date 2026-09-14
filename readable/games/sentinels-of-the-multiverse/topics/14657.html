@@ -1,0 +1,485 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Combinatorics of the Multiverse - The Final Chapter</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sentinels-of-the-multiverse/index.html">Sentinels of the Multiverse</a> &rsaquo; Combinatorics of the Multiverse - The Final Chapter</div>
+<h1>Combinatorics of the Multiverse - The Final Chapter</h1>
+<div class="desc">32 posts &middot; 1181 views &middot; started 2016-03-01 01:00 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2016-03-01 01:00 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Well.</p><p>With the one million dollar stretch goal smashed, we have knowledge of everything Sentinels that will ever exist, supposedly. Which is what I've been waiting for, so that I can, for the final time, calculate how many possible games of Sentinels can be played. I've done this before (my post-Villains attempt is <a href="https://greaterthangames.com/forum/topic/statistics-of-the-multiverse-6779" rel="noopener nofollow ugc">here</a>), but now we have&nbsp;<em>everything.</em></p><p>The rules of the game are as would be expected: games can be against any villian with any combination of 3-5 heroes. Hero order doesn't matter, but swapping out any hero for another hero, or for a different promo of that hero, does count as different.</p><p>&nbsp;</p><p>We start with out heroes. We have:</p><ul>
+<li>21 heroes with 2 character cards: Expatriette, Mr Fixer, Nightmist, Omnitron-X, Chrono-Ranger, Setback, The Naturalist, Parse, K.N.Y.F.E.,&nbsp;<span>Sky-Scraper*, Luminary, The Harpy, Akash'Thriya, La Comodora, Lifeline, Stuntman, Benchmark, Dr Medico, Mainstay, The Idealist, Writhe</span>
+</li>
+<li><span>2 heroes with 3 character cards: Ra, The Visionary</span></li>
+<li>8 heroes with 4 character cards: Tachyon, The Wraith, Absolute Zero, Fanatic, Haka, Tempest, Argent Adept, Captain Cosmic</li>
+<li>2 heroes with 5 character cards: Legacy**, Bunker</li>
+<li>1 hero with 16 character cards: The Sentinels*</li>
+</ul><p>&nbsp;</p><p>*Christopher has said that the Sky-Scraper promos are really meant to be used together, so I'm treating them as one promo; on the other hand, the Sentinels can be freely mixed and matched, so they effectively have 2^4 = 16 possible character cards.</p><p>**I count Cleverest Legacy. He's official if not physically existant.</p><p>&nbsp;</p><p>My previous method of calculation (to start with non-promo versions and then counting the changes we can add with promos) is not going to work very well with this many promos floating around. I could modify it, but (because why not) I'd like to try something else. So, let's look at three groups of heroes - those with 2 character cards, those with 4, and the rest) and figure out how many teams of various sizes we can make using just them.</p><p><strong>2 cards:</strong></p><ul>
+<li>1 hero: <b>42&nbsp;</b>(21 heroes, 2 cards each)</li>
+<li>2 heroes: <strong>840</strong>&nbsp;((21 x 20 / 2) x 2^2, or 21C2 x 4)</li>
+<li>3 heroes:&nbsp;<strong>10640</strong>
+</li>
+<li>4 heroes:&nbsp;<strong>95760</strong>
+</li>
+<li>5 heroes:&nbsp;<strong>651168</strong>
+</li>
+</ul><p><strong>4 cards:</strong></p><ul>
+<li>1 hero:&nbsp;<strong>32</strong>
+</li>
+<li>2 heroes:&nbsp;<strong>448</strong>
+</li>
+<li>3 heroes:&nbsp;<strong>3584</strong>
+</li>
+<li>4 heroes:&nbsp;<strong>17920</strong>
+</li>
+<li>5 heroes:&nbsp;<strong>57344</strong>
+</li>
+</ul><p><strong>Other:</strong></p><ul>
+<li>1 hero: <strong>32</strong>&nbsp;(16 + 2 x 5 + 2 x 3)</li>
+<li>2 heroes: &nbsp;<strong>126</strong>
+</li>
+<li>3 heroes:&nbsp;<strong>1744</strong>
+</li>
+<li>4 heroes:&nbsp;<strong>4015</strong>
+</li>
+<li>5 heroes:&nbsp;<strong>2800</strong>
+</li>
+</ul><p>And now we use these as building blocks to build up to our full numbers:</p><p><strong>2 or 4 cards:</strong></p><ul>
+<li>1 hero:&nbsp;<strong>74</strong>
+</li>
+<li>2 heroes:&nbsp;<strong>2632</strong> (840 + 42 x 32 + 448)</li>
+<li>3 heroes: <strong>59920</strong>&nbsp;(10640 + 840 x 32 + 42 x 448 + 3584)</li>
+<li>4 heroes:&nbsp;<strong>981008</strong>
+</li>
+<li>5 heroes:&nbsp;<strong>11462752</strong>
+</li>
+</ul><p><strong>All heroes:</strong></p><ul>
+<li>1 hero: <strong>106</strong>
+</li>
+<li>2 heroes: <strong>5126</strong>&nbsp;(126 + 32 x 74 + 2632)</li>
+<li>3 heroes: <strong>155212</strong>&nbsp;(1744 + 126 x 74 + 32 x 2632 + 59920)</li>
+<li>4 heroes:&nbsp;<strong>3363151</strong>
+</li>
+<li>5 heroes:&nbsp;<strong>55295046</strong>
+</li>
+</ul><p>Phew! That's a lot of heroes! (And the hairiest of the maths over with.) Except... it isn't. Because, genius that I am, I forgot to list the mini-expansion heroes, so that's how mant games you can play without Unity, The Scholar and Guise. Right, so, fine, let's fix this.</p><p><strong>Mini-Expansions:</strong></p><ul>
+<li>1 hero:&nbsp;<strong>8</strong>
+</li>
+<li>2 heroes:&nbsp;<strong>21</strong>
+</li>
+<li>3 heroes:&nbsp;<strong>18</strong>
+</li>
+</ul><p><strong>No seriously, all heroes:</strong></p><ul>
+<li>3 heroes:&nbsp;<strong>198464</strong>
+</li>
+<li>4 heroes:&nbsp;<strong>4714401</strong>
+</li>
+<li>5 heroes:&nbsp;<strong>85551974</strong>
+</li>
+<li>3-5 heroes:&nbsp;<strong>90464839</strong>
+</li>
+</ul><p>Right.&nbsp;<em>Grand</em>. Moving on.</p><p><span>Let's look at regular villains yet. With villain promos, we have 30 regular villains, each of which can be played on Advanced or not and on Challenge mode or not (except that GloomSpite and Skinwalker Gloomy are a single Challenge mode battle, but with the Advanced text on each being independent the numbers work out the same), so that's 120 villain configurations. Combine that with 24 environments, we get 2880; combine that with out hero teams, and we have&nbsp;</span><strong><span>260538736320&nbsp;</span></strong><span>normal games that are possible.</span></p><p><span>Now, Vengeance! We have 15 Vengeance villains, which is 455 trios, 1365 quartets and 3003 quintets. For whom you can presumably switch Advanced and Challenge modes on and off independently, so... 29120 trios, 348440 quartets and 3075072 quintets. Add in heroes, and you get&nbsp;</span><span>5779271680 sextets, about&nbsp;</span><span>1642685900000 (Google is now giving me answers in standard form, our numbers are so large) octets and&nbsp;</span><span>263078480000000 dectets. Sum those up, multiply by 24 environments, and we get...&nbsp;</span><span><strong>6353446300000000 </strong>or so Vengeance games.</span></p><p><span>Finally, barely large enough to be worth mentioning, OblivAeon. One villain, four possible modes, two environments for which order matters. That gives 2208 ways to OblivAeon, so with heroes that's&nbsp;</span><strong><span>199746364512.</span></strong></p><p><span>Sum these three, and we get approximately&nbsp;</span><strong><span>6,353,906,500,000,000</span></strong><span>. That is a ridiculous number.&nbsp;<strong>Six quadrillion&nbsp;</strong>is just large. So large.</span></p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-01 01:14 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>I guess I'll be playing for quite a while  <img src="https://forums.greaterthangames.com/images/emoji/apple/grin.png?v=9" title=":grin:" class="emoji" alt=":grin:"></p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(345 45% 42%)">DA</div>
+    <div><div class="who">Dandolo</div><div class="when">2016-03-01 01:34 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Let's compare this to just the Base Game alone.... 10 Heroes, 4 Villains, 4 Environments, 0 Promos.</p><p>That means 120 sets of 3 Heroes, 210 sets of 4 Heroes, and 252 sets of 5 Heroes for 582 total. Multiply by 16 unique Villain-Environment combinations for 9312 total games. &nbsp;Congradulations the expansions and promos have made Sentinels 682 Billion times more replayable.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(25 45% 42%)">C1</div>
+    <div><div class="who">ChronoRanger_101</div><div class="when">2016-03-01 02:24 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).&nbsp;</p><p>&nbsp;</p><p>Also oblivean isn't four possible modes, but rather four phases you have to play through.&nbsp;</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">MR</div>
+    <div><div class="who">MrLeRobot</div><div class="when">2016-03-01 02:38 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>So you're telling me I don't really need this Cauldron stuff, right? :)</p><p>&nbsp;</p><p>(And now, you actually want to know the numbers including The Cauldron...!)</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-01 02:46 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="ChronoRanger_101">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/chronoranger_101/48/2112_2.png" class="avatar"> ChronoRanger_101:</div>
+<blockquote>
+<p>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).</p>
+</blockquote>
+</aside>
+<p>We don't know how they will be implemented and Christopher said they will keep their names so we don't know fully yet whether they can be mixed and matched or not. &nbsp;</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(25 45% 42%)">C1</div>
+    <div><div class="who">ChronoRanger_101</div><div class="when">2016-03-01 02:49 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>ChronoRanger_101 wrote:</b><br><blockquote>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).
+&nbsp;
+</blockquote></div>
+We don't know how they will be implemented and Christopher said they will keep their names so we don't know fully yet whether they can be mixed and matched or not. &nbsp;
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>maybe, but the ones in the void guard will have higher hp than the ones in the sentinels. Plus the ones in the sentinels will have lower hp, so I think it's fair to say that while you could, it wouldn't be beneficial to do so. The lower hp ones work together, the higher hp more for stand alone play.&nbsp;</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(328 45% 42%)">DP</div>
+    <div><div class="who">dpt</div><div class="when">2016-03-01 02:51 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="ChronoRanger_101">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/chronoranger_101/48/2112_2.png" class="avatar"> ChronoRanger_101:</div>
+<blockquote>
+<p>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).</p>
+</blockquote>
+</aside>
+<p>He is counting "The Sentinels" as being one hero deck, with 16 possible variations coming from the Adamanat Sentinels:&nbsp;  <a href="https://greaterthangames.com/content/promos-and-oversized-cards-and-more" rel="noopener nofollow ugc">https://greaterthangames.com/content/promos-and-oversized-cards-and-more</a></p>
+<p>&nbsp;</p>
+<p>The Idealist, Writhe, Dr. Medico, and Mainstay are another four hero decks, each with two variations (orginal and post-OblivAeon promo).</p>
+<p>There's some question whether you could use (say) Dr. Medico in a game with The Sentinels deck. That would complicate the math.</p>
+<blockquote>
+<p>Also oblivean isn't four possible modes, but rather four phases you have to play through.&nbsp;<br>
+OblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.)</p>
+</blockquote>
+<p>I'm not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don't see all of them every game?</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(25 45% 42%)">C1</div>
+    <div><div class="who">ChronoRanger_101</div><div class="when">2016-03-01 03:05 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="dpt">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png" class="avatar"> dpt:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>ChronoRanger_101 wrote:</b><br><blockquote>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).
+&nbsp;
+</blockquote></div>
+He is counting "The Sentinels" as being one hero deck, with 16 possible variations coming from the Adamanat Sentinels:&nbsp;<a href="https://greaterthangames.com/content/promos-and-oversized-cards-and-more" rel="noopener nofollow ugc">https://greaterthangames.com/content/promos-and-oversized-cards-and-more</a>&nbsp;The Idealist, Writhe, Dr. Medico, and Mainstay are another four hero decks, each with two variations (orginal and post-OblivAeon promo).There's some question whether you could use (say) Dr. Medico in a game with The Sentinels deck. That would complicate the math.
+<div>Quote:<br><blockquote>Also oblivean isn't four possible modes, but rather four phases you have to play through.&nbsp;
+&nbsp;
+</blockquote></div>
+OblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.)I'm not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don't see all of them every game?ow
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>ooooh. I see. The 16 combination makes sense now. Yes there's five different shield cards and 10 scions. From my understand the scions vary and not all come out every time. But I'm pretty sure it's at random.&nbsp;</p>
+<p>Edit: does the alternate for the sentinels team also have an alternate setup card with alternate incap abilities?</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-01 03:13 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>We have no idea yet</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(25 45% 42%)">C1</div>
+    <div><div class="who">ChronoRanger_101</div><div class="when">2016-03-01 03:34 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>We have no idea yet</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>i meant the adamant sentinels.&nbsp;</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(68 45% 42%)">GR</div>
+    <div><div class="who">grysqrl</div><div class="when">2016-03-01 03:52 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="ChronoRanger_101">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/chronoranger_101/48/2112_2.png" class="avatar"> ChronoRanger_101:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Powerhound_2000 wrote:</b><br><blockquote>We have no idea yet
+&nbsp;
+</blockquote></div>
+&nbsp;i meant the adamant sentinels.&nbsp;
+</blockquote>
+</aside>
+<p>They use the same setup card.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2016-03-01 05:55 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="dpt">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png" class="avatar"> dpt:</div>
+<blockquote>
+<p>OblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.)I'm not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don't see all of them every game?</p>
+</blockquote>
+</aside>
+<p>My guess would be that the Scions act kind of like the Ennead in that they come out slowly and semirandomly. &nbsp;But there's no way to know for sure yet.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(25 45% 42%)">C1</div>
+    <div><div class="who">ChronoRanger_101</div><div class="when">2016-03-01 06:43 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>We have no idea yet</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>the only way I could see the void guard character cards working with the sentinels deck is if they were A) double sided with one side lower hp, or B) double cards for each hero. Otherwise the higher hp wouldn't work for the team style deck.&nbsp;</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2016-03-01 09:05 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>As mentioned above, the Void Guard are being treated seperately from the Sentinels, but the Adamant Sentinels can mix and match with the regular ones.</p><p>The four modes mentioned for OblivAeon are just switching on and off Advanced and Challenge modes; the Scions come from a deck, so are less of an issue. I could have counted the shields as different games, but we really don't know how major their effects will be, and honestly the difference it will make to the numbers is tiny.</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(25 45% 42%)">C1</div>
+    <div><div class="who">ChronoRanger_101</div><div class="when">2016-03-04 22:14 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>ChronoRanger_101 wrote:</b><br><blockquote>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).
+&nbsp;
+</blockquote></div>
+We don't know how they will be implemented and Christopher said they will keep their names so we don't know fully yet whether they can be mixed and matched or not. &nbsp;
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>we got official word today, the new void guard heroes are intended for stand alone use and not for mix and match with the sentinels. However house rules and adjustments are allowed (of course) if desired.&nbsp;</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(327 45% 42%)">BS</div>
+    <div><div class="who">Belle_Sorciere</div><div class="when">2016-03-04 22:57 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>I thought we had official word on that when they announced the Void Guard.</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-04 23:00 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>We did not. &nbsp;I don't find it surprising but there was always some off chance. &nbsp;</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(327 45% 42%)">BS</div>
+    <div><div class="who">Belle_Sorciere</div><div class="when">2016-03-04 23:07 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><p>The update literally said the Void Guard was four character cards each with their own deck:</p><p>
+&gt; <em><strong>Sentinels of the Multiverse: Void Guard</strong></em> is a box set of four hero characters, complete with their own hero character cards and decks. It will be sent to every Kickstarter backer that is backing a pledge level higher than $1.
+</p><p>I don't really see any wiggle room there.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-04 23:10 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><p>They still use the same hero names as the Sentinels deck. So there was some wiggle room based on the Sentinels setup card.&nbsp;</p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(327 45% 42%)">BS</div>
+    <div><div class="who">Belle_Sorciere</div><div class="when">2016-03-04 23:12 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><p>I don't see how that implies they could be used for the Sentinels deck, sorry. It's a reach to conclude that. They'd be designed around having their own character cards and decks, rather than designed around being used in the Sentinels deck. They'd have too much health, for one thing, and their powers wouldn't be designed around the Sentinels deck. I just don't see it.</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-04 23:14 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><p>I didn't think that they would but I also didn't expect that they keep the same hero names. &nbsp;</p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(119 45% 42%)">YG</div>
+    <div><div class="who">Yak_Guardian</div><div class="when">2016-03-05 01:55 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><p>In my head I've been calling them "Void Guard Dr Medico", "Void Guard Idealist", etc., because mixing them with their former selves didn't make sense to me. Plus, keeping the same names seems like it would cause trouble no matter how they were intended to be played. So I justput a wall up between SW Sentinels and Void Guard.</p><p>&nbsp;</p><p>That being said, I'm still planning the inevitable 5 player game with them all. &nbsp;:)</p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-05 02:00 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><p>Yeah I'm pretty curious how that one plays out. &nbsp;&nbsp;</p></div>
+</div>
+<div class="post" id="post-25">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(252 45% 42%)">IR</div>
+    <div><div class="who">Ironic</div><div class="when">2016-03-05 22:43 UTC</div></div>
+    <div class="postnum">#25</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>Yeah I'm pretty curious how that one plays out. &nbsp;</p>
+</blockquote>
+</aside>
+<p>Probably fine.</p>
+<p>The Sentinels is already possibly the best damage-dealer in the game, with decent tanking/healing.&nbsp; And we can be pretty certain that Medico and Mainstay as solo heroes will just pile on more healing and tanking (respectively), whilst virtually every hero brings some damage with them.&nbsp; So the only real question is, is either Writhe or the Idealist good at Ongoing/Environment destruction?&nbsp; If so, you're set.&nbsp; If not, you get the same issues as any team which lacks that capability.</p></div>
+</div>
+<div class="post" id="post-26">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-05 23:05 UTC</div></div>
+    <div class="postnum">#26</div>
+  </div>
+  <div class="post-body"><p>Not really what I meant. &nbsp; Since they are supposed to be keeping the same hero names I'm wondering what unique interactions they will have. &nbsp;</p></div>
+</div>
+<div class="post" id="post-27">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2016-03-05 23:10 UTC</div></div>
+    <div class="postnum">#27</div>
+  </div>
+  <div class="post-body"><p>I expect their official names will have something added to make it not work.</p></div>
+</div>
+<div class="post" id="post-28">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-05 23:24 UTC</div></div>
+    <div class="postnum">#28</div>
+  </div>
+  <div class="post-body"><p>I hope so but that wasn't the indication given during the livestream. &nbsp;</p></div>
+</div>
+<div class="post" id="post-29">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(25 45% 42%)">C1</div>
+    <div><div class="who">ChronoRanger_101</div><div class="when">2016-03-06 00:31 UTC</div></div>
+    <div class="postnum">#29</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>I hope so but that wasn't the indication given during the livestream. &nbsp;</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>I didn't get an impression of the interactions one way or the other. However, I imagine the sentinels decks to only be referring to its own heroes. I don't see it working well for if "writhe is active" to include the stand alone writhe. It wouldn't balance properly. Guess I might have t ask that Wednesday if Christopher is there and willing to answer it &nbsp;</p>
+<p>the five player game of using the four individual heroes and the team, would that work within the story? Would it represent the overlap of past, present and other realities?&nbsp;</p>
+<p>&nbsp;</p>
+<p>EDIT: after looking back over the cards it does seem like as long as any hero named writhe or etc. is active the effect would happen… Strange. May ask Christopher and see if he'll answer, but we'll probably have to wait I imagine&nbsp;</p></div>
+</div>
+<div class="post" id="post-30">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(252 45% 42%)">IR</div>
+    <div><div class="who">Ironic</div><div class="when">2016-03-06 01:01 UTC</div></div>
+    <div class="postnum">#30</div>
+  </div>
+  <div class="post-body"><p>THE NEW IDENTITIES OF THE SOUTHWEST SENTINELS!</p><ul>
+<li>Dr. Spanish!</li>
+<li>Ship-Rope!</li>
+<li>Thought-Haver!</li>
+<li>and... The Creepy One!</li>
+</ul><p>Definitely real canon.</p></div>
+</div>
+<div class="post" id="post-31">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-03-06 01:30 UTC</div></div>
+    <div class="postnum">#31</div>
+  </div>
+  <div class="post-body"><p>From the 2/12 chat</p><p>
+&gt; </p><p><span>sonvar</span><span>:</span><span>&nbsp;</span><span>@</span><span>gtgchristopher</span><span>&nbsp;Will the new Void Guard Sentinels have new hero names?</span></p><div><p><span>GTGChristopher</span><span>:</span><span>&nbsp;</span><span>@</span><span>Sonvar</span><span>&nbsp;No. They will be Doctor Medico, Mainstay, The Idealist, and Writhe</span></p></div><p><span>nosirragessej</span><span>:</span><span>&nbsp;</span><span>How are the Void Guard characters going to effect being on a team with The Sentinels? Are they getting new names to avoid weird interactions with each others' decks?</span></p><p><span>GTGChristopher</span><span>:</span><span>&nbsp;</span><span>@</span><span>Nosirragessej</span><span>&nbsp;There will be rules included in the Void Guard box explaining how to deal with precisely that!</span></p><p><span>
+</span></p><p>So there are some issues he expects that he will have to address with their hero pack. &nbsp;</p></div>
+</div>
+<div class="post" id="post-32">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(25 45% 42%)">C1</div>
+    <div><div class="who">ChronoRanger_101</div><div class="when">2016-03-06 01:52 UTC</div></div>
+    <div class="postnum">#32</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>From the 2/12 chat</p>
+<div>Quote:<br><blockquote>sonvar:&nbsp;@gtgchristopher&nbsp;Will the new Void Guard Sentinels have new hero names?GTGChristopher:&nbsp;@Sonvar&nbsp;No. They will be Doctor Medico, Mainstay, The Idealist, and Writhenosirragessej:&nbsp;How are the Void Guard characters going to effect being on a team with The Sentinels? Are they getting new names to avoid weird interactions with each others' decks?GTGChristopher:&nbsp;@Nosirragessej&nbsp;There will be rules included in the Void Guard box explaining how to deal with precisely that!
+&nbsp;
+</blockquote></div>
+So there are some issues he expects that he will have to address with their hero pack. &nbsp;
+</blockquote>
+</aside>
+<p>that makes sense. If I had to guess, it'd be something along the lines of the team sentinels is separate from the individual heroes even though they share the names. But at least we know that much. Can't wait to find out more.&nbsp;</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Challenge Mode Gloomweaver Cheese (bug)</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sotm-the-video-game/index.html">SotM: The Video Game</a> &rsaquo; Challenge Mode Gloomweaver Cheese (bug)</div>
+<h1>Challenge Mode Gloomweaver Cheese (bug)</h1>
+<div class="desc">1 posts &middot; 163 views &middot; started 2019-06-04 18:08 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2019-06-04 18:08 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>I already submitted a bug report, but I figured I might as well share this with you guys. You might enjoy this.</p>
+<p>Or everyone might already know this. I don't know.</p>
+<p>Anyway, I found a pretty major bug that allows you to de-spawn the Pouch of Bones during the transition from the Agent of Gloom Spite to Skinwalker Gloomweaver when playing in Challenge Mode.</p>
+<p>If Parse has Buffer Overflow in play when AoG Spite is destroyed, then you can use it to discard the Pouch as it enters play. This, of course, is expected and is not the problem.</p>
+<p>If you choose to do this and then rewind to the start of Gloomweaver's turn, however, it won't actually rewind to the beginning of his turn. (which is an annoyance I've noticed when playing against Gloom Spite; it won't let you change which drug you turn face-up at the start of his first turn, for instance) Instead it just goes to the beginning of his PLAY phase.</p>
+<p>However, it still assumes you got rid of the Pouch, so it doesn't search the deck for it, and the Pouch will be gone. But Buffer Overflow will still be there, and you can use it on the next card.</p>
+<p>You can't keep doing this to cherry-pick your favorite first card, though. It only works for the Pouch, specifically.</p>
+<p>Still, it's a pretty significant skip, and a bug I imagine they will want to fix ASAP.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

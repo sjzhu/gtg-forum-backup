@@ -1,0 +1,106 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mechanics Question: Friendly Fire + Jack Handle?</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Mechanics Question: Friendly Fire + Jack Handle?</div>
+<h1>Mechanics Question: Friendly Fire + Jack Handle?</h1>
+<div class="desc">12 posts &middot; 749 views &middot; started 2016-09-18 19:01 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(113 45% 42%)">AE</div>
+    <div><div class="who">Aevylmar</div><div class="when">2016-09-18 19:01 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p><span><span>Basically, does this go infinite?</span></span></p><p><font color="#272727" face="Arial"><span>Setback's Friendly Fire optionally triggers an attack against him whenever a villain target gets attacked. Mister Fixer's Jack Handle prevents all attacks against single targets, then uses that preventation to create an attack against all villain targets. You'd logically think that Setback could trigger Friendly Fire off this new attack, dealing infinite damage from a single use of Mister Fixer's "strike" power, so long as the initial blow did damage.</span></font></p><p><span><span>In the video game, it doesn't go infinite, instead petering out almost immediately. Is this correct, and if so, why/why not?</span></span></p><p>Thanks to anyone who can help with this.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-09-18 19:15 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>My understanding as an Alpha tester is that the hit due to Friendly Fire is one instance of damage. &nbsp; Jack Handle then stops that one instance of damage from hitting Setback and instead delivers that one hit to each non-hero target. &nbsp;So this is why you get only two hits. &nbsp; Once from his strike and once from trying to hit Setback due to Friendly Fire. &nbsp;</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2016-09-18 19:33 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Short answer: &nbsp;No, it doesn't go infinite, because infinite loops make the game too easy, and thus less fun*.</p><p>&nbsp;</p><p>If you want a non-meta reason that it doesn't go infinite then consider this: &nbsp;When Mr. Fixer deals damage and Jack Handle triggers, he the deals damage to every non-hero target. &nbsp;Those instances of damage do not trigger Jack Handle. &nbsp;They can't, because if they did Jack Handle would just continue triggering an infinite number of times, and never stop until everything is dead. &nbsp;Which is obviously not the intent. &nbsp;So Jack Handle damage must retain information that ties the new damage to the original damage. &nbsp;Thus Jack Handle knows that these instances of damage are part of an instance that already triggered Jack Handle, and don't retrigger it. &nbsp;You can see this when Jack Handle triggers Friendly Fire. &nbsp;In most cases of mass damage, Friendly Fire triggers after each target is hit. &nbsp;But after a Jack Handle hit Friendly Fire only triggers once, because the damage is still considered part of the original single hit. &nbsp;When Mr. Fixer targets Setback with Friendly Fire, Jack Handle converts the damage into mass non-hero damage. &nbsp;But it's still tied to the original hit towards Setback, which is a hero targeting a hero, and thus does not trigger Friendly Fire.</p><p>The logic is perhaps a bit shakey, I'll admit, but I think it works and is as good of a rationalization as any as to why Friendly Fire doesn't trigger again. &nbsp;You could test if this is consistent gamewide behavior by having Mr. Fixer target a hero before the damage is converted to Jack Handle damage, and that should not trigger Friendly Fire either. &nbsp;Of course, the video game converts the damage before letting you choose a target, so that's hard to test. &nbsp;But give me a bit, and I'll test it with the Mindbreaker title.</p><p>&nbsp;</p><p>EDIT: &nbsp;Also, this theory doesn't explain why Jack Handle + 2 Friendly Fires triggers 4 times total, rather than 2 like I would expect it to.</p><p>&nbsp;</p><p>* There is one known infinite loop in the game - Fixed Point + Isothermic Transducer + Twist the Ether/Imbued Fire**. &nbsp;They'd probably eliminate that one too, except that you'd have to fundementally change how one of those cards worked in order to do so, and the involvment of Fixed Point makes it much rarer than something like Jack Handle + Friendly Fire.</p><p>** In theory you could use Guise with Lemme See That and Uh Yeah, I'm that Guy copying Greased Monkey Fist instead. &nbsp;But why would you?</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2016-09-18 21:23 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>This will be in the next Fireside Chat update:</p><p><span><span>Suppose Mr. Fixer would deal 1 damage to a target. Due to Jack Handle, </span></span><span>Mr. Fixer deals the 1 damage to all non-hero targets, then Friendly Fire lets him deal 2 to Setback, which becomes 2 to all non-hero targets, and then stops. Setback does not get to add 2 tokens to his Unlucky Pool, as he was not damaged this way.</span></p><div>&nbsp;</div></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2016-09-18 22:56 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Will the chat also cover the case with 2 Friendly Fires?</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2016-09-19 01:07 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>When there are two copies of Friendly FIre in play,&nbsp;<span>they both can be activated (but not off each other's damage), which means Setback would get hit twice and get a total of 4 tokens. In the case of Jack Handle, this would generate two Jack Handle attacks, but zero tokens, as Setback was not hit.</span></p><div>&nbsp;</div></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2016-09-19 05:35 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>That may be the intention, but that's not what actually happens. &nbsp;Unfortuantely, I've already overwritten my log files, but when I had two Friendly Fires and Jack Handle, I got 4 triggers off of each Strike.</p><p>&nbsp;</p><p>EDIT: &nbsp;I've played it again, and here is the log file.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2016-09-19 06:11 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>If you're seeing incorrect behaviour please report a bug from in-game in the credits screen, or at http://handelabra.com/contact</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(222 45% 42%)">TR</div>
+    <div><div class="who">Trajector</div><div class="when">2016-09-19 13:42 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Seems like Jack Handle is a bit weird. It was probably always going to be so!</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(113 45% 42%)">AE</div>
+    <div><div class="who">Aevylmar</div><div class="when">2016-09-20 02:07 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Thanks for your help explaining it, everyone. I think Arcanist Lupus's explanation makes the most sense, that clarifies it for me, and I'm eager to hear what the answer given by the the next Fireside Chat.<br><br>Thanks.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(312 45% 42%)">TK</div>
+    <div><div class="who">thrawn.kol</div><div class="when">2016-09-25 22:46 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>To clarify a situation that came up in a game I played this afternoon, Xtreme Fanatic's Kill the Spirit should work the same way, correct? That is:</p><p>Fanatic deals damage while KtS' redirection is active.</p><p>Friendly Fire triggers and attempts to have Fanatic deal 2 to Setback.</p><p>KtS redirects the damage.</p><p>Loop ends here because Friendly Fire can't trigger off its own damage instance.</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-09-25 23:12 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Yes that should be how it works. &nbsp;</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

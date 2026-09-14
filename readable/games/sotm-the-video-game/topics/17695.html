@@ -1,0 +1,69 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>XPW Fanatic and Friendly Fire</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sotm-the-video-game/index.html">SotM: The Video Game</a> &rsaquo; XPW Fanatic and Friendly Fire</div>
+<h1>XPW Fanatic and Friendly Fire</h1>
+<div class="desc">6 posts &middot; 320 views &middot; started 2018-01-14 03:41 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(342 45% 42%)">HS</div>
+    <div><div class="who">hstein3</div><div class="when">2018-01-14 03:41 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Played a game with XPW Fanatic and Setback. Fanatic used her base power, so all damage would redirect to the villain.</p>
+<p>Next turn, Fanatic dealt some damage. Setback had two Friendly Fires in play, so there was a choice to deal him 2 melee damage, which was redirected to the villain.</p>
+<p>This has resulted in an infinite damage loop, where Friendly Fire triggers every time that 2 melee damage is directed to the villain.</p>
+<p>Is this intended? Unintended? Bug? Loophole?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(131 45% 42%)">BO</div>
+    <div><div class="who">bolnerap</div><div class="when">2018-01-14 04:30 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>It sounds similar to the Dual Crowbars / Friendly Fire interaction.</p><p>I tried reproducing this against Apostate with Tachyon / Setback / XPW Fanatic with only one Friendly Fire in play, but I did not reproduce what you're describing; Friendly Fire only triggered once per Fanatic damage instance, and did not re-trigger when damage bounced off of it to Apostate. I never saw a second copy of Friendly Fire, Apostate died too quickly. :p</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(131 45% 42%)">BO</div>
+    <div><div class="who">bolnerap</div><div class="when">2018-01-14 04:59 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>However, with two Friendly Fires out, I am seeing the infinite loop. Just did 100+ damage to Apostate while watching all his relics die.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2018-01-14 11:44 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>Friendly Fire should not trigger from damage caused directly by Friendly Fire.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2018-01-14 20:15 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="MigrantP">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png" class="avatar"> MigrantP:</div>
+<blockquote>
+<p>Friendly Fire should not trigger from damage caused directly by Friendly Fire.</p>
+</blockquote>
+</aside>
+<p>I think that the key here is that Friendly Fire is triggering off of damage caused by the <span class="bbcode-i">other</span> Friendly Fire.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2018-01-14 21:56 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>I understand that. My comment does not change. It's a bug.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

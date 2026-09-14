@@ -1,0 +1,316 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Using roll20 for SCRPG</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sentinel-comics-rpg/index.html">Sentinel Comics RPG</a> &rsaquo; Using roll20 for SCRPG</div>
+<h1>Using roll20 for SCRPG</h1>
+<div class="desc">20 posts &middot; 2897 views &middot; started 2020-03-27 13:36 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">RI</div>
+    <div><div class="who">rickjonzz</div><div class="when">2020-03-27 13:36 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Like many other groups, my regular tabletop group is moving to digital for the duration. I've tried a few of the free versions of different tabletops, like Adam, I'll be using roll20.net.&nbsp;</p>
+<p>Unlike Adam - I have no artistic ability (beyond Order of the Stick level doodles), but thankfully there are so many people drawing superheroes other than familiar Marvel and DC. One of the best places to look is the SuperheroOC board on deviantart.&nbsp;</p>
+<p>And since SCRPG doesn't need a battlemap, I just made a template and will drag tokens onto the board. And here's what I'm using to organize the tokens.&nbsp;</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(55 45% 42%)">ER</div>
+    <div><div class="who">ErekLich</div><div class="when">2020-03-27 19:31 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>We ran the Intro miniseries on Roll20 - it worked fairly well!</p>
+<p>Here's some Macros:</p>
+<p>Mid die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl2dl1</p>
+<p>Min die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl1</p>
+<p>Max die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}k1</p>
+<p>Min+Mid: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl2</p>
+<p>Mid+Max: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}dl1</p>
+<p>Min+Mid+Max: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}</p>
+<p>I wasn't able to figure out a way to get Min+Max using Roll20's stuff, but thankfully that one doesn't get used too often.</p>
+<p>Additionally, I was able to keep Minions in groups fairly easily; each token can have 3 hit point bars so I just had each one represent each minion's die size.&nbsp; Just make sure to set them all as visible to your players!</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(328 45% 42%)">GA</div>
+    <div><div class="who">gameguythinks</div><div class="when">2020-03-28 20:21 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>We are currentyly running the intro series on Roll20 and it's been great!</p>
+<p>I ended up creating an ability macro that would compensate for the basic roll not getting the correct status from the&nbsp;environment.</p>
+<pre>/roll {@{Tachyon|power_value}, @{Tachyon|quality_value}, ?{Status Die|Green, 1d6|Yellow, 1d6|Red, 1d8}}kh2dh1+?{Mods|0}</pre>
+<p>I created a custom token marker set so that I could assign dice to minions and lieutenants. In order to track multiple boosts and hinderances, we use B's and H's with the values. I haven't figured out a cool way to track a non-character specific boost or hindrance other than just using the text tool and typing it on the playing mat.</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(208 45% 42%)">DR</div>
+    <div><div class="who">drevilz4l</div><div class="when">2020-04-24 13:14 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="gameguythinks">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/gameguythinks/48/1985_2.png" class="avatar"> gameguythinks:</div>
+<blockquote>
+<p>We are currentyly running the intro series on Roll20 and it’s been great!</p>
+<p>I ended up creating an ability macro that would compensate for the basic roll not getting the correct status from the environment.</p>
+<p>/roll {@{Tachyon|power_value}, @{Tachyon|quality_value}, ?{Status Die|Green, 1d6|Yellow, 1d6|Red, 1d8}}kh2dh1+?{Mods|0}</p>
+<p>I created a custom token marker set so that I could assign dice to minions and lieutenants. In order to track multiple boosts and hinderances, we use B’s and H’s with the values. I haven’t figured out a cool way to track a non-character specific boost or hindrance other than just using the text tool and typing it on the playing mat.</p>
+</blockquote>
+</aside>
+<p>I just stole this idea. Fantastic idea!</p>
+<p>What does everyone do for marking Hinders and Boosts? Did you just put them in the Roll20 Bars and tell the player what they represent? or do you have some other more interesting way to to do it?</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(184 45% 42%)">TH</div>
+    <div><div class="who">theDissilent</div><div class="when">2020-04-26 20:13 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>I'm working on a new version of the character sheet, and started a discussion for it.</p>
+<p><a href="https://greaterthangames.com/forum/topic/new-roll20-character-sheet-22932" rel="noopener nofollow ugc">https://greaterthangames.com/forum/topic/new-roll20-character-sheet-22932</a></p>
+<p>If you have any suggestions, please comment there.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(184 45% 42%)">TH</div>
+    <div><div class="who">theDissilent</div><div class="when">2020-05-15 16:49 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>A Macro that a GM can use without having to fill out a character sheet:</p>
+<p>GM-Roll<br>
+&amp;{template:default} {{name=Custom Roll}} {{Power Die - d?{Power Die|6}=[[d?{Power Die}cs&gt;13cf&lt;0]]}} {{Quality Die - d?{Quality Die|6}=[[d?{Quality Die}cs&gt;13cf&lt;0]]}} {{Status Die - d?{Status Die|6}=[[d?{Status Die}cs&gt;13cf&lt;0]]}}</p>
+<p>It promts the user to type 3 numbers (defaut 6), then rolls the 3 dice of those sizes as Power/Quality/Status.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(184 45% 42%)">TH</div>
+    <div><div class="who">theDissilent</div><div class="when">2020-05-15 17:03 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><h2><strong>Downgradeable Minions:</strong></h2>
+<p>On the Macros/Decks/Rollable Tables Tab, create a Rollable table named Minions.</p>
+<p>Create 5 Table Items with images to represent die sizes (like those used on the minion tab of the character sheet).</p>
+<p>Once created, click Token to have one spawn on the table.</p>
+<p>Right-click &gt; Muti-Sided &gt; Choose Side will let you upgrade or downgrade each token.</p>
+<p>Spawn one to represent each Minion or Luitenant, and they can be quickly adjusted when they take damage or otherwise change size.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(275 45% 42%)">FY</div>
+    <div><div class="who">Fynikz</div><div class="when">2020-05-15 19:59 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>For minions, I took the dice images from the book (along with some other icons) and turned them into a token set. So this way the dice appears in the upper right of the portrait, and you can easily tell how many minions and what die sizes are on the board. Plus its easy to toggle.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">RI</div>
+    <div><div class="who">rickjonzz</div><div class="when">2020-05-20 14:02 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>So I've run SCRPG for my group twice now, and have made adjustments.&nbsp;</p>
+<p>Firstly, thank you so much to&nbsp;<a href="https://greaterthangames.com/users/thedissilent" title="View user profile." rel="noopener nofollow ugc">theDissilent</a>&nbsp;for updating the character sheets. They're so useful. I can even use the villain side for environments, minions &amp; lieutenants. For environments, I put their three dice in power, quality and status respectively. For minions and lieutenants, I leave powers and qualities empty and just give them a series of status checkboxes (10 minion, d8 minion, d6 minion, d4 minion, d10 lieutenant, ....) and only check the status box when I want them to roll. Side note, I was having a hard time keeping track of all of my windows (roll20, villains, lieutenants, minions, etc) until I learned this trick with Chrome. After you pop out their character sheet into a new window, right click on the bar at the top, and select "show as tab". Then pop out each other villain, select "show as tab" and drag all the villain tabs into one chrome window. So you've got one chome window for the board and one for the villains, and it's easy to switch tabs to the villain in question.&nbsp;</p>
+<p>Here's what I did to make session 2 ("Leave the Gundam, Take the Cannoli") of roll20 gameplay&nbsp;better than session 1.&nbsp;</p>
+<p>I don't really consider what I'm doing as a battlemap. I think of it as a game board.&nbsp;&nbsp;</p>
+<ul>
+	<li>I made the game table vertical rather than horizontal, so folks can use the scroll wheel to look over the board. I know there's a way to side scroll, but vertical is more intuitive.</li>
+	<li>I pulled the individual GYR turn markers out of the PDF and made individual tokens for each, so I can have custom scene trackers. Also, I can't believe until just this second I hadn't thought to use the token built in red "X" token icon to mark turn completion.</li>
+	<li>I uploaded a stopwatch token to use for Challenges. I put the description in the icon text and use the colored dot token icons&nbsp;to show the number of steps.&nbsp;</li>
+	<li>Rather than use the Fog of War to hide everything but the heroes until the fight starts (and then reveal the other parts as minions or whatever arrive), I put a big visible space for the board and fog out the rest of it. Then, I just drag the icons I need onto the board as needed.</li>
+</ul>
+<p>To Do:&nbsp;</p>
+<ul>
+	<li>I had just used the single "Flex" and "Snail" token icons for Boost and Hinder. I had a request to make custom tokens of:&nbsp;+1, -1, +2, -2, etc so folks could put the boosts and hinders on the tokens. So I'm going figure that out. If I get really clever, I will even use colors or something to denote if a mod is normal, exclusive or persistent.&nbsp;</li>
+</ul></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(208 45% 42%)">DR</div>
+    <div><div class="who">drevilz4l</div><div class="when">2020-05-20 16:59 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>How did you get the numbers on the Boost and Hinder markers on each character?</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">RI</div>
+    <div><div class="who">rickjonzz</div><div class="when">2020-05-20 21:39 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>I didn't put individual boost/hinder markers on character tokens. I just put a single icon that meant "Boosted" and another for "Hindered". However, due to player requests, today I added custom token icons for plus and minus one through five. You can't mark yourself as having mutliple boosts of the same ammount, but it's better than nothing. (So if Absolute Zero boosts himself for +2 and then Legacy boostsseveryone for another +2, Absolute Zero's player&nbsp;couldn't put 2 of the +2 icons on their token)&nbsp;</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(55 45% 42%)">ER</div>
+    <div><div class="who">ErekLich</div><div class="when">2020-05-20 23:56 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>If you hover over any of the toggleable icons and press a number key, it will pop up that icon with that number over it.&nbsp; So we just use the green circle with the appropriate number for boosts, and the red circle for hinders.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(354 45% 42%)">SH</div>
+    <div><div class="who">shadowopal</div><div class="when">2020-06-17 03:46 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>Hi all. I made a pretty background. I may alter the layout and see it the scroll wheell is more attractive to me. It didn't take very long in Gimp.</p>
+<p>&nbsp;</p>
+<p><a href="https://drive.google.com/file/d/10HDOLzE7xMc_aS2afBw1Bh1Qz35tK-e6/view?usp=sharing" rel="noopener nofollow ugc">https://drive.google.com/file/d/10HDOLzE7xMc_aS2afBw1Bh1Qz35tK-e6/view?usp=sharing</a></p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2020-06-17 16:39 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>Very shiny! :-D&nbsp;</p>
+<p>What font did you use for the headings?&nbsp;</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(90 45% 42%)">HA</div>
+    <div><div class="who">Harknail</div><div class="when">2020-07-03 22:25 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>Based on the advice here, I made custom status tokens today. I have 6 different colors of +1 thru +4 and -1 thu -4. This works out well since each color is one line in the status markers.</p>
+<p>Thought I would share these since there's quite a bit of work making that many.</p>
+<p>The red ones didn't come out well. The multiple remapings to make masked gifs resulted in inconsistent color.</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(354 45% 42%)">SH</div>
+    <div><div class="who">shadowopal</div><div class="when">2020-07-07 22:32 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p>Sorry I missed this for so long. I have been swamped. I uploaded the photoshop file, a pdf version and font to google drive if anyone wants to use it.</p>
+<p>https://drive.google.com/drive/folders/1i8Fwhv6ZPV1vkxncISbCckcAEqN0kVXZ?usp=sharing</p>
+<p>&nbsp;</p>
+<p>the font is badaboom_BB from&nbsp;www.blambot.com</p>
+<p>&nbsp;</p>
+<p>The comic sheet layout template is from medialoot</p>
+<p><a href="https://medialoot.com/blog/free-printable-comic-strip-templates/" rel="noopener nofollow ugc">https://medialoot.com/blog/free-printable-comic-strip-templates/</a></p>
+<p>&nbsp;</p>
+<p>I got the silouettes from Alexandra Petruk at dreamstime.com id 39456814 and 79660781</p>
+<p>Backgrounds for the comic cells from vectorstock.com 21811376</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(354 45% 42%)">SH</div>
+    <div><div class="who">shadowopal</div><div class="when">2020-07-07 22:45 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>Thanks for sharing!</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2020-07-08 18:19 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>Thanks, shadowopal! :-D&nbsp;</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(22 45% 42%)">GE</div>
+    <div><div class="who">GeorgeDubya</div><div class="when">2020-07-15 00:12 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><p>Hey all, I've been following along with this and using some of the tips and tricks people shared in my own Roll20 game. I figured I'd share some of the things I've done here with you all, along with some of the images I've compiled from here and other spots online to ease things for new people who may want to use them.</p>
+<p><a href="https://drive.google.com/file/d/1a-iTHEsyQqWkOHQxPz9-Cs3WD-fqLzLs/view?usp=sharing" rel="noopener nofollow ugc">Here's a player view of the main page I've been using for encounters.</a> In the bottom left, I have the charts for boost/hinder amounts and overcome results. Just above those are a token box I can copy/paste when challenges arise for the players to overcome (I'm being very open and transparent about the number and types of overcomes needed for everything, so I just type out what the challenge is in text and paste up the correct number of boxes). In the bottom right, there are tokens for boosts, hinders, minions, and lieutenants. All of which are Rollable tables as suggested by theDissilent above. This lets me copy/paste the appropriate token, swap it to the correct size, and be done with it. Players can freely move and choose sides for the boosts/hinders, so I can create them and let the players change them as necessary.</p>
+<p><a href="https://drive.google.com/file/d/11QIHQ-7FryKC4BzxTQe2W8VEB0mRCqts/view?usp=sharing" rel="noopener nofollow ugc">Here's what that map looks like on the GM side of things right now.</a> Since there's no villain in the scene, I have the potential Lieutenants that can appear in the Villain box. Similarly, I have all the minions that will be around when the scene starts prepped in their box ready to just change layers as needed. In the Environment section, I have the various potential twists visible to me so I don't have to flip back to a different page (It's a pretty basic bank heist with hostages scenario), and I have the environment dice sizes there as a reminder. The scene tracker is also separate images for each thing, so I can just X them out as the scene goes on, and I can add/subtract them as needed for different length trackers.</p>
+<p><a href="https://drive.google.com/drive/folders/1UDKHU9fFS1-jCRT8CWTVH6gL4A8xU2Aj?usp=sharing" rel="noopener nofollow ugc">Here's a link to the Google Docs folder with all the various images I've been using.</a></p>
+<p>In addition to giving the images and showing how I've implemented some of the ideas people have come up with, I'm also fully open to any suggestions or constructive criticism.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(184 45% 42%)">TH</div>
+    <div><div class="who">theDissilent</div><div class="when">2022-02-21 19:40 UTC <span class="when">(in reply to #7)</span></div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="theDissilent" data-post="7" data-topic="19814" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/thedissilent/48/1848_2.png" class="avatar"> theDissilent:</div>
+<blockquote>
+<h2><strong>Downgradeable Minions:</strong></h2>
+<p>On the Macros/Decks/Rollable Tables Tab, create a Rollable table named Minions.</p>
+<p>Create 5 Table Items with images to represent die sizes (like those used on the minion tab of the character sheet).</p>
+<p>Once created, click Token to have one spawn on the table.</p>
+<p>Right-click &gt; Muti-Sided &gt; Choose Side will let you upgrade or downgrade each token.</p>
+<p>Spawn one to represent each Minion or Luitenant, and they can be quickly adjusted when they take damage or otherwise change size.</p>
+</blockquote>
+</aside>
+<p>Hello again. People were asking about a tab for minions on the character sheet (currently only a tab for minion-maker), so I thought I would update you on how my group currently handles minions.</p>
+<p>I’ve gotten into writing API code, so this part only works if you have a “Pro” level account on Roll20. First you need to add the “TokenMod” script to your game, and turn on “Players can use --ids:”, then you create a new script, and put my code in:</p>
+<pre><code class="lang-auto">on('ready',function(){
+    "use strict";
+    var handleInput = function(msg) {
+        if ((msg.content.indexOf("!minion") !== -1 ) &amp;&amp; (msg.selected)) {
+            let speaker = 'player|'+msg.playerid,
+                rollcolor = '{{color-Green=1}} ',
+                numselected = msg.selected.length,
+                rollstr = '&amp;{template:scrpg} ';
+            if (numselected &gt; 1) {rollstr += '{{name=Minion Roll}} {{labelless=1}} '};
+            if (msg.content.indexOf("--gray") !== -1 ) {rollcolor = '';}
+            else if (msg.content.indexOf("--green") !== -1 ) {rollcolor = '{{color-Green=1}} ';}
+            else if (msg.content.indexOf("--yellow") !== -1 ) {rollcolor = '{{color-Yellow=1}} ';}
+            else if (msg.content.indexOf("--red") !== -1 ) {rollcolor = '{{color-Red=1}} ';};
+            for (let i = 0; i &lt; numselected; i++) {
+                let token_id = msg.selected[i]._id,
+                    token = getObj("graphic", msg.selected[i]._id),
+                    token_name = token.get('name') || 'Minion Roll',
+                    markers = token.get('statusmarkers').split(':'),
+                    diesize = (12-token.get('currentSide')*2),
+                    imgs = _.map(token.get('sides').split(/\|/),(i)=&gt;{return i;}).length;
+                if (imgs == 5) {
+                    if (msg.content.indexOf("--degrade") !== -1) {sendChat(speaker,"!token-mod --ignore-selected --ids "+token_id+" --set currentside|+")}
+                    else if (msg.content.indexOf("--upgrade") !== -1) {
+                        sendChat(speaker,"!token-mod --ignore-selected --ids "+token_id+" --set currentside|-");
+                    };
+                    let dievalue = Math.floor(Math.random() * diesize) + 1;
+                    if (numselected == 1) {rollstr += '{{name='+token_name+'}} {{suffix='+markers[0]+'}} ';};
+                    if ((i % 4 == 0) &amp;&amp; (i != 0)) {rollstr += '\n&amp;{template:scrpg} {{labelless=1}} ';};
+                    if (i % 4 == 0) {rollstr += '{{die1-d'+diesize+'=1}} {{roll1=[['+dievalue+']]}} {{r1name=d'+diesize+' = }} '+rollcolor;};
+                    if (i % 4 == 1) {rollstr += '{{die2-d'+diesize+'=1}} {{roll2=[['+dievalue+']]}} {{r2name=d'+diesize+' = }} ';};
+                    if (i % 4 == 2) {rollstr += '{{die3-d'+diesize+'=1}} {{roll3=[['+dievalue+']]}} {{r3name=d'+diesize+' = }} ';};
+                    if (i % 4 == 3) {rollstr += '{{die4-d'+diesize+'=1}} {{roll4=[['+dievalue+']]}} {{r4name=d'+diesize+' = }} ';};
+                };
+            };
+            if (msg.content.indexOf("--roll") !== -1) {sendChat(speaker,rollstr);};
+        };
+    };
+    on('chat:message', handleInput);
+});
+</code></pre>
+<p>Once you have done that, you can activate the code from any 5-sided token in your game. The 5 images can be anything you want, but I recommend being able to tell which die they represent, such as:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../../../games/uploads/uploads__default__original__2X__e__e4d0a2fcfbc9b6f527e8a8c51524957959788363.png" data-download-href="../../../../games/uploads/uploads__default__e4d0a2fcfbc9b6f527e8a8c51524957959788363" title="d12"><img src="../../../../games/uploads/uploads__default__original__2X__e__e4d0a2fcfbc9b6f527e8a8c51524957959788363.png" alt="d12" data-base62-sha1="wEbRE6zT0r4lbXEEAf8lN238pzl" width="100" height="100"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">d12</span><span class="informations">100×100 14.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../../../games/uploads/uploads__default__original__2X__6__68df3039890405489357e1a3af0f243c0fd4f111.png" data-download-href="../../../../games/uploads/uploads__default__68df3039890405489357e1a3af0f243c0fd4f111" title="d10"><img src="../../../../games/uploads/uploads__default__original__2X__6__68df3039890405489357e1a3af0f243c0fd4f111.png" alt="d10" data-base62-sha1="eXJPOTyIdItesIfBjdxt5EIetzj" width="100" height="100"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">d10</span><span class="informations">100×100 13.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../../../games/uploads/uploads__default__original__2X__1__122ba634ab13936fa368f06a0c13d3d7aa1cf41c.png" data-download-href="../../../../games/uploads/uploads__default__122ba634ab13936fa368f06a0c13d3d7aa1cf41c" title="d8"><img src="../../../../games/uploads/uploads__default__original__2X__1__122ba634ab13936fa368f06a0c13d3d7aa1cf41c.png" alt="d8" data-base62-sha1="2AK6YAt4QnSLfpJkzpoUCWThY4c" width="100" height="100"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">d8</span><span class="informations">100×100 10.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../../../games/uploads/uploads__default__original__2X__a__adf3e22beb0e3427e53070d367676a407b1ae55f.png" data-download-href="../../../../games/uploads/uploads__default__adf3e22beb0e3427e53070d367676a407b1ae55f" title="d6"><img src="../../../../games/uploads/uploads__default__original__2X__a__adf3e22beb0e3427e53070d367676a407b1ae55f.png" alt="d6" data-base62-sha1="oOR7sAfAa4dNTizItP64HEPYUuH" width="100" height="100"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">d6</span><span class="informations">100×100 10.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../../../games/uploads/uploads__default__original__2X__1__1abfd7a7f07c36843665b15c4d9d7ac517121fc2.png" data-download-href="../../../../games/uploads/uploads__default__1abfd7a7f07c36843665b15c4d9d7ac517121fc2" title="d4"><img src="../../../../games/uploads/uploads__default__original__2X__1__1abfd7a7f07c36843665b15c4d9d7ac517121fc2.png" alt="d4" data-base62-sha1="3ODqWXaHY956P7rILUDhqEBt0dQ" width="100" height="100"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">d4</span><span class="informations">100×100 8.67 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+With 1 or more of these tokens selected, type in chat (or a macro):</p>
+<blockquote>
+<p>!minion --roll --gray</p>
+</blockquote>
+<p>(It defaults to green, but you can change it to yellow, red, or in this example gray)</p>
+<p>If the token is on it’s 1st image, a d12 will be rolled… on it’s 5th image a d4 will be rolled. If your GM has 6 d6 minions (on their 4th image), but one of them has dropped to a d4 (on it’s 5th image), select the group, then use this text, and you’d get this in chat:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../../../games/uploads/uploads__default__original__2X__2__24ac1c77e1521514a7becf1bcdc8df7471719b9b.jpeg" data-download-href="../../../../games/uploads/uploads__default__24ac1c77e1521514a7becf1bcdc8df7471719b9b" title="d6minions"><img src="../../../../games/uploads/uploads__default__original__2X__2__24ac1c77e1521514a7becf1bcdc8df7471719b9b.jpeg" alt="d6minions" data-base62-sha1="5epW01B7MFT88lDB2WD9uFK9NCH" width="239" height="165"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">d6minions</span><span class="informations">239×165 12.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+If multiple tokens are selected it defaults to “Minion Roll”, or if you only select 1 token, it will put that token’s name, and current status marker into the chat. (We use custom status markers to differentiate Attack minions from Boost minions, and so on)</p>
+<p>The code also allows for:</p>
+<blockquote>
+<p>!minion --degrade</p>
+</blockquote>
+<p>to change a token to it’s next image, or:</p>
+<blockquote>
+<p>!minion --upgrade</p>
+</blockquote>
+<p>to change the token back to it’s previous image.<br>
+I recommend setting these 3 lines as Token actions for your minions, so there will be 3 buttons on the top of the screen any time you select 1 or more of your 5-sided tokens.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

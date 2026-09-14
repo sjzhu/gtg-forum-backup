@@ -1,0 +1,164 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Number of Hero/Villain/Environment Configurations</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../general-gtg/index.html">General GTG</a> &rsaquo; <a href="../../../general-gtg/general-discussion/index.html">General Discussion</a> &rsaquo; Number of Hero/Villain/Environment Configurations</div>
+<h1>Number of Hero/Villain/Environment Configurations</h1>
+<div class="desc">18 posts &middot; 1621 views &middot; started 2013-02-12 18:24 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2013-02-12 18:24 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Okay, so I got rather bored and decided to calculate the number of possible game configurations playable with the current sets, up to and including Shattered Timelines. So, we're working with 18 heroes (plus 13 promos [including two alternate Legacies and two alternate Wraiths]), 20 villains (18 normals and alternate villain cards for Baron Blade and Omnitron) and 12 environments. We'll assume that we can have any number of players, Normal or Advanced mode, and no duplicate heroes, even if the promos represent different individuals.</p><p>Environments are easy: there are 12. Villains are only slightly harder; 20 villians x 2 difficulty settings = 40 configurations. Multiply that by 12, and you get 480 - the number of villain-environment combos.</p><p>Heroes are somewhat more difficult. I'll start with five-hero games, so that I can get the most difficult part done first. Assuming no promo heroes, there are 18C5 combinations, which = 18 x 17 x 16 x 15 x 14/5 x 4 x 3 x 2 x 1 = 8568. With one promo, you have 13 x 17C4 combinations, which = 30940. Two promos is 13C2 x 16C3 = 43680, three promos is 13C3 x 15C2 = 30030, four promos is 13C4 x 14 = 10010 and five promos is 13C5 = 1287.</p><p>The problem with these figures is that they will include setups with both promo Legacies or both promo Wraiths. So we need to subtract the following number of setups: 2 x 16C3 = 1120 (two promos), 2 x 11 x 15C2 = 2310 (three promos), 2 x 11C2 x 14 = 1540 (four promos), 2 x 11C3 = 330 (five promos). And we're still not done, because with that we'll have removed any setups that contain both Legacies AND both Wraiths twice... So, add back on 14 and 9. Total those figures and you get... 119238.</p><p>Okay, so now for the four-hero setup: 18C4 + 13 x 17C3 + 13C2 x 16C2 + 13C3 x 15 + 13C4 - 2 x 16C2 - 2 x 11 x 15 - 2 x 11C2 + 1 = 25586, and three heroes: 18C3 + 13 x 17<span>C2 + 13C2 x 16 + 13C3 - 2 x 16 - 2 x 11 = 4064. So, 480(119238 + 25586 +4064) = 71,466,240 possible configurations.</span></p><p><span>That's a lot of setups.</span></p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-02-12 19:48 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>*mind blown at that math* dur.... i donnae comprehend mate. :P</p><p>&nbsp;</p><p>Yep. 71.5 million combinations. - and that doesnt take into account Shattered Timelines yet does it? or Vegenace obviously - and add +1 to that total when you do (if you havent already) do the shattered timelines for the Freedom /six/ vrs Iron legacy :p</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2013-02-12 20:07 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Yeah, I added Shattered Timelines and Greatest Legacy, but no Vengeance since we have no clue how that works. Ah, yeah, I forgot about the Freedom Six. So that'll be another 24 setups (environment and basic/advanced) :D</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(66 45% 42%)">TH</div>
+    <div><div class="who">TheSoundOfTrees</div><div class="when">2013-02-12 20:54 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>And there is the question of heroes order of play - it can change the dynamics of a given hero team. If we take order into account, we have permutations rather than combinations, for 5!=120 times more set ups for 5 heroes...</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2013-02-12 21:13 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>So... 480(119238 x 120 + 25586 x 24 + 4064 x 6) + 24 x 720 = 7,174,581,120. Shikes, so a permutation for everyone in the world...</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(48 45% 42%)">KO</div>
+    <div><div class="who">Koey</div><div class="when">2013-02-13 00:03 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Great computation. Yea permutations included would mean tons of combination. Wonder if all that playtesting even could cover all the cases.</p><p>&nbsp;</p><p>I remmber someone mentioned that Iron Legacy could actually be played with six player. Or was that a house rule can't remember.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">RE</div>
+    <div><div class="who">Reckless</div><div class="when">2013-02-13 07:55 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>I honestly think the whole "playtest Iron Legacy with six heroes" thing that was popular on the playtesting forum somewhat screwed up his difficulty curve, but that's just me.&nbsp; The game is still intended for no more than five heroes, to my knowledge.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(17 45% 42%)">KE</div>
+    <div><div class="who">ketigid</div><div class="when">2013-02-14 01:54 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>71.5 million combinations! I'd have to say I have no faith in the playtesting now. In *one* of those combinations, there may exist a combo that will break the game! :P</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(48 45% 42%)">UX</div>
+    <div><div class="who">UXM266</div><div class="when">2013-02-27 20:06 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Maybe we should add these into the stats data. See how long it could take us to finish them all! A team, effort.</p><p>&nbsp;</p><p>What say you?</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2013-02-28 18:22 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Are you suggesting that we, as a community, should attempt to play every possible permutation this game has to offer? Because that sounds like insanity, and also awesomeness.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-02-28 21:30 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Hmm... So to play every possible game combination to see what kind of effects woud take place you would need to stack every deck. Have to play countless games with the decks stacked in that order, the only difference is that each play would have to play a different card each time the game is played... Or actually some cards give options so you'll have to do that card multiple times, such as impromptu inventions. Not only playing cards but using powers. You'll have to play 2 identical games other than 1 turn a player chose to use x power instead of y power... Or even choosing a different target for various things!!!</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(48 45% 42%)">UX</div>
+    <div><div class="who">UXM266</div><div class="when">2013-02-28 21:37 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Listen. Either we are awesome and crazy, or awesome and boring.</p><p>&nbsp;</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(98 45% 42%)">FB</div>
+    <div><div class="who">fba827</div><div class="when">2013-02-28 21:59 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="UXM266">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/uxm266/48/1966_2.png" class="avatar"> UXM266:</div>
+<blockquote>
+<p>Listen. Either we are awesome and crazy, or awesome and boring.&nbsp;&nbsp;</p>
+</blockquote>
+</aside>
+<p>While that is an amusing statement in of itself, it is even more ausing when your (current) signature is read along side of it. <img src="https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12" title=":wink:" class="emoji" alt=":wink:" loading="lazy" width="20" height="20"></p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2013-02-28 22:56 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>Well we're definitely not boring. The only question (whether playing possible combinations, possible permututions or possible games) is how to keep track of which have been done and which haven't...</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(59 45% 42%)">LY</div>
+    <div><div class="who">lynkfox</div><div class="when">2013-03-01 15:07 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>I am NOT making that spreadsheet</p>
+<p><img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=9" title=":slight_smile:" class="emoji only-emoji" alt=":slight_smile:"></p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2013-03-01 16:48 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p>I think we're just going to need a lot of spreadsheets. A looot... Maybe 7200 would do?</p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(98 45% 42%)">FB</div>
+    <div><div class="who">fba827</div><div class="when">2013-03-02 02:29 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>and does hero order count in these permutations? or is that even more?</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">BL</div>
+    <div><div class="who">BlueHairedMeerkat</div><div class="when">2013-03-02 14:48 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>If we want permutations, then we're most definitely going to need more spreadsheets, and it's going to be more difficult to organise them too. Maybe let's not count permutations&nbsp; <img src="https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=9" title=":stuck_out_tongue:" class="emoji" alt=":stuck_out_tongue:"></p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

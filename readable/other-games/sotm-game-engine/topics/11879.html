@@ -1,0 +1,530 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kaargra Warfang timing question</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Kaargra Warfang timing question</div>
+<h1>Kaargra Warfang timing question</h1>
+<div class="desc">44 posts &middot; 2120 views &middot; started 2015-01-10 02:48 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-01-10 02:48 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>KW's flip side reads, in part: "At the end of the villain turn, Kaagra Warfang deals the hero target with the highest hp H melee damage and the hero target with the second highest hp H minus 1 melee damage."</p><p>Consider a 3H game, with heroes A, B, and C.&nbsp; A has 23 HP, B has 21 HP, and C has 18 HP.&nbsp; KW does her thing, starting by dealing 3 HP to A, reducing him to 20.&nbsp; She then deals 2 HP to "the hero target with the second highest hp" -- but there's argument about who that is.&nbsp; I claim that A is now second highest, so he should take the damage.&nbsp; Some people in my group argue that, since both damaging directives are part of the same sentence, they happen simultaneously, and thus B should get the 2 damage.</p><p>Opinions?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(205 45% 42%)">MT</div>
+    <div><div class="who">Medic-Tank</div><div class="when">2015-01-10 03:00 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>A</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-01-10 03:14 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>They are seperate damage calculations.</p><p>If it was Deal the 2 highest HP targets then it would not recalculate, but with this wording it will recalculate after the first damage.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-01-10 06:17 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p>If it was Deal the 2 highest HP targets then it would not recalculate</p>
+</blockquote>
+</aside>
+<p>?!?&nbsp; That seems inconsistent.&nbsp; Everything I've learned about timing in this game suggests that each instance of damage is unique, and calculates everything afresh.&nbsp; Normally, the recalculation wouldn't matter for that sort of text, but sometimes it would.&nbsp; Here's a (slightly vague) hypothetical, broken down:</p>
+<ul>
+<li>
+<p>Some effect says "Deal 3 damage to the 2 hero targets with the highest HP."</p>
+</li>
+<li>
+<p>Determine who the two highest HP targets are.&nbsp; Call them A and B.</p>
+</li>
+<li>
+<p>Players choose which one gets damaged first.&nbsp; Let's say they choose A.</p>
+</li>
+<li>
+<p>A gets damaged for 3.&nbsp; Some weird situation reacts to A taking damage and does a lot of side-efffect stuff, part of which causes B to take 4 damage.&nbsp; Eventually we resolve all the side effects and come back to this calculation.</p>
+</li>
+<li>
+<p>Have two targets been damaged?&nbsp; No.&nbsp; So we need to damage another.</p>
+</li>
+<li>
+<p>Determine who the two highest HP targets are.&nbsp; They are now C and D.</p>
+</li>
+<li>
+<p>Players choose which target to damage.&nbsp; They choose D.&nbsp; (If A had still been one of the highest 2, he would have been ineligible as a target due to already having been picked, so the "choice" would be forced.)</p>
+</li>
+<li>
+<p>D takes 3 damage.</p>
+</li>
+<li>
+<p>Have two targets been damaged?&nbsp; Yes.&nbsp; We're done.</p>
+</li>
+</ul></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-01-10 16:37 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Even with all that it couldn't hit the same target a second time without redirectiong involved.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-01-10 18:41 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Good point.&nbsp;</p><p>Slightly different example.&nbsp; A starts with 20 HP, B with 19, C with 18.&nbsp; Some people would claim that A and B should be damaged.&nbsp; But after A takes 3 damage, then *C* is the second-highest.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(23 45% 42%)">HT</div>
+    <div><div class="who">Happy_Thoughts</div><div class="when">2015-01-10 21:29 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="AlexxKay">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png" class="avatar"> AlexxKay:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>phantaskippy wrote:</b><br><blockquote>If it was Deal the 2 highest HP targets then it would not recalculate
+&nbsp;
+</blockquote></div>
+?!?&nbsp; That seems inconsistent.&nbsp; Everything I've learned about timing in this game suggests that each instance of damage is unique, and calculates everything afresh.
+</blockquote>
+</aside>
+<p>Recalculate is an accurate term, but perhaps not the clearest since (I'm pretty sure) he meant "recalculate hit point order" rather than "recalculate damage." To rephrase, it would not redetermine targets.</p>
+<p>If the card read "Deal the 2 highest HP targets" then the damaging card would determine the two targets prior to dealing damage, and those two cards would take damage regardless of how that damage changed the hit point order.</p>
+<p>If, however, a card reads as in your original post, the first target would be determined and damaged, and then the second target would be determined and damaged. The second target in this case could very well be the same as the first target, depending on how the damage affected its place in hit point order. So in your original example, I agree with you that hero A should be damaged twice.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-01-11 01:39 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>The app resolves it exactly that way.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-01-11 03:30 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Happy Thoughts">
+<div class="title">
+<div class="quote-controls"></div>
+ Happy Thoughts:</div>
+<blockquote>
+<p>To rephrase, it would not redetermine targets.If the card read "Deal the 2 highest HP targets" then the damaging card would determine the two targets prior to dealing damage, and those two cards would take damage regardless of how that damage changed the hit point order.</p>
+</blockquote>
+</aside>
+<p>I disagree.&nbsp; Cards do not determine all their targets at once, they just determine their <em>next</em> target, and whether or not they are done yet.&nbsp; The most obvious example is the interaction of End of Days with Forced Deployment.&nbsp; EoD destroys "all" cards, but "all" is not evaluated once, at the start of the effect – it is checked against each time an instance of the effect takes place to see if it is yet comlpete.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(121 45% 42%)">GR</div>
+    <div><div class="who">Greywind</div><div class="when">2015-01-11 05:20 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>End of Days really only evaluates whether or not it is the last valid card it can destroy. If it isn't, it's like the Energizer Bunny.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-01-11 05:36 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>All and Variables like X are not set amounts of targets. &nbsp;If something deals damage to all targets and new targets enter play they are added to the list.</p><p>In the app, when 2 targets are dealt 3 damage it picks the two targets then asks you which one you want to take damage first, the second one takes it automatically.</p><p>If there is a tie for second highest you choose which one is the second highest, then choose the order of damage the 2 highest will be damaged in, and then the damage is dealt.</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-01-11 17:27 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p>All and Variables like X are not set amounts of targets. &nbsp;If something deals damage to all targets and new targets enter play they are added to the list.</p>
+</blockquote>
+</aside>
+<p>So far, we agree.</p>
+<aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p>In the app, when 2 targets are dealt 3 damage it picks the two targets then asks you which one you want to take damage first, the second one takes it automatically.If there is a tie for second highest you choose which one is the second highest, then choose the order of damage the 2 highest will be damaged in, and then the damage is dealt.&nbsp;</p>
+</blockquote>
+</aside>
+<p>This is true, but I think that, at least in edge cases, incorrect.&nbsp; I think the sequence should be:</p>
+<ul>
+<li>
+<p>Choose 2 from the set of eligible targets.&nbsp; (May be automatic if there ARE only two.)</p>
+</li>
+<li>
+<p>Choose which one takes damage first.</p>
+</li>
+<li>
+<p>Deal the damage to that first one.</p>
+</li>
+</ul>
+<p>** Check if the set of eligible targets has changed.&nbsp; (Aside from the standard removal of the first target.)</p>
+<p>** If it HAS changed, choose the remaining target from the new set.</p>
+<ul>
+<li>Damage the second target.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Note that these new steps would only happen in rare cases.&nbsp; Have we actually tested such a case in the app?&nbsp; They might already be doing this, after all.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-01-11 17:48 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>I will work to check that in the app, since Tachyon and synaptic can can change HP mid-attack, setup might be hard though. &nbsp;Don't have the Mega Computer.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2015-01-11 19:46 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>What I really want to see checked (since I don't have the app) is what happens when a new target enters mid-attack. &nbsp;But I can't figure out how to make that happen with the base game.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(243 45% 42%)">BL</div>
+    <div><div class="who">bluedarky</div><div class="when">2015-01-11 21:16 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="jsz2">
+<div class="title">
+<div class="quote-controls"></div>
+ jsz2:</div>
+<blockquote>
+<p>What I really want to see checked (since I don't have the app) is what happens when a new target enters mid-attack. &nbsp;But I can't figure out how to make that happen with the base game.</p>
+</blockquote>
+</aside>
+<p>We can do it at the end of the month when Unity comes out, play Voss, hit Bee Bot with attack one, use Bee Bot to destroy forced deployment.</p>
+<p>No way I can think of to do it with just the core set though.</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-01-11 21:26 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p><a href="https://greaterthangames.com/forum/topic/answers-to-debated-questions-3871">Why do we need the App?</a>&nbsp;(<span>It's also in Spiff's FAQ.)</span></p><blockquote><p><strong>8.When doing damage with a card that says “up to x targets” do you choose all targets you wish to hit before you deal damage?</strong></p><p>If you are swinging a Taiaha to do a killing blow to a Cultist, bringing out a Zombie, you can choose the second attack to be that zombie.</p></blockquote></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2015-01-11 22:34 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>Hm...</p><p>&nbsp;</p><p>When you designate a target for a multi-hit attack like that, you check first to see if it's been designated as a target before. &nbsp;What if you also check the 'ranking' of the target so that the ranking hasn't been designated before?</p><p>&nbsp;</p><p>For example: &nbsp;Three targets - A [20] B [19] C [18], are being hit with an attack which specifies "Deal 2 sonic damage to the two targets with the highest health". &nbsp;For the first hit, you designate B, which is the 2nd highest (and therefore valid). &nbsp;Now you have A [20] C [18] B [17]. &nbsp;You can't designate C because it's the 2nd highest health, and you've already designated the 2nd highest health, so you choose A instead. &nbsp;A and B have taken damage, which is what you would expect, but a full target recalculation was allowed like usual.</p><p>&nbsp;</p><p>The only caveat is that sometimes you could end up with a situation where there are no valid targets. &nbsp;For example: A [20] B [19], same attack. &nbsp;This time, you hit A first, leaving you with B [19] A [18]. &nbsp;You can't choose A because it's already been chosen, and you can't choose B because the 1st target has already been chosen. &nbsp;In this case, the "can't choose a target twice" rule would trump the "can't choose a ranking twice" rule, and you'd choose B as your second target.</p><p>&nbsp;</p><p>You could still end up with some weird situations when response damage gets involved, though. &nbsp;If you have A B C and D (in order), and A getting hit triggers response damage which hits B so that after the first attack the order is now C D A B, this solution would dictate that you now have to hit D (and that you can't hit C), which is a little bit weird. &nbsp;But other than that, it still works.</p><p>&nbsp;</p><p>EDIT: &nbsp;On second thought, it seems like the 2nd target should be the highest (or lowest, or whatever ranking you're using) health target that hasn't already been chosen, regardless of whether the first target was the 1st or 2nd highest health. &nbsp;But I'm not sure how you would apply that to 3 or more targets while still preserving the ability to hit the targets in any order.</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(317 45% 42%)">SI</div>
+    <div><div class="who">Silverleaf</div><div class="when">2015-01-13 16:54 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>I've always thought that if the effect says to hit the X things with Y condition, you determine the X targets before you do the actual damage. Then you choose what order to process them in. Otherwise, it would say something like "Deal 2 damage to the target with the highest HP. Then deal 2 damage to the target with the second highest HP."</p><p>It's different when you damage all targets, or multiple targets where it's free choice rather than the two highest or whatever. Then you can totally hit one thing and apply the damage before you decide on the next target.</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2015-02-10 15:09 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p><a href="https://greaterthangames.com/forum/topic/answers-to-debated-questions-3871" rel="noopener nofollow ugc">Why do we need the App?</a>&nbsp;(It's also in Spiff's FAQ.)</p>
+<blockquote><strong>8.When doing damage with a card that says “up to x targets” do you choose all targets you wish to hit before you deal damage?</strong>If you are swinging a Taiaha to do a killing blow to a Cultist, bringing out a Zombie, you can choose the second attack to be that zombie.
+&nbsp;
+</blockquote>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>That is not applicable to the situation at hand at all. "Up to X" lets players choose targets at their whim, while Kaargra (and Citizen Dawn and Grand Warlord Voss and others that elude me at the moment) choose multiple target according to specific criteria.</p>
+<p>So far I've played it so that those cards, and cards with similar effects, determine targets before resolving damage one instance at a time. Seems like the saner way. I suppose everyone'd love to hear Christopher weighing in on this though.</p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-10 15:27 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><p>I'm all for re-assessing HP ranks after each attack. Like anything else damage-related, each instance is calculated separately. When you factor in retaliation damage and redirection, it seems like a consistent way to handle it. So I would say one hero could potentially take both hits.</p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-10 15:44 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><p>If you are dealing the two targets with the highest HP damage, you can't deal both to the same target. &nbsp;Even "up to # Targets" can't hit the same target twice without redirection.</p><p>Each damage instance is calculated and resolved seperately, but that doesn't make:</p><p>Deal the 2 targets with the highest HP damage</p><p>=</p><p>Deal the target with the highest HP damage</p><p>Deal the target with the highest HP damage</p><p>&nbsp;</p><p>You don't account for the damage just dealt to reassess the 2 targets with the highest HP mid attack.</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-10 15:50 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><p>Warfang's card doesn't say "deal the 2 targets with the highest HP damage." They are separate instances with separate conditions.</p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2015-02-10 16:01 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><p>It doesn't say "Deal the target with the highest HP damage THEN deal the target with the second highest HP damage."</p><p>The use of "and" implies some sort of simultaneity. We know damage never happens simultaneously in this game, but the choosing of targets could. Wether it does or not is what's up to debate.</p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2015-02-10 16:04 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Nataraja">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/n/7feea3/48.png" class="avatar"> Nataraja:</div>
+<blockquote>
+<p>We know damage never happens simultaneously in this game, but the choosing of targets could. Wether it does or not is what's up to debate.</p>
+</blockquote>
+</aside>
+<p>It does.</p>
+<p>I think folks get the "simultaneously" thing confused in SotM. Just because things do not resolve simultaneously does not follow that nothing is simultaneous. Multiple effects that share the same trigger clause are considered to trigger simultaneously for instance (though we resolve them in the order of our choosing). Choosing targets can also happen simultaneously.</p>
+<p>&nbsp;</p>
+<blockquote>
+ At the end of the villain turn, Kaagra Warfang deals the hero target with the highest hp H melee damage and the hero target with the second highest hp H minus 1 melee damage. 
+</blockquote>
+ Let's also take a moment to just reflect on the fact that a single target can not both be the highest HP target and the second highest HP target at the same time. The game does not work that way.</div>
+</div>
+<div class="post" id="post-25">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2015-02-10 16:13 UTC</div></div>
+    <div class="postnum">#25</div>
+  </div>
+  <div class="post-body"><p>This can easily be solved in the video game. As Grand Warlord Voss doess damage to the highest and lowest.</p><p>http://steamcommunity.com/sharedfiles/filedetails/?id=390316665</p><p>http://steamcommunity.com/sharedfiles/filedetails/?id=390316693</p><p>&nbsp;</p><p>It's possible to hit the same target twice.</p></div>
+</div>
+<div class="post" id="post-26">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-10 16:29 UTC</div></div>
+    <div class="postnum">#26</div>
+  </div>
+  <div class="post-body"><p>Yeah, Voss's attack and Warfang's do not specify that it hits 2 targets, they are seperate calculations. &nbsp;Find the highest HP hero target, smack it, then find the 2nd highest HP hero target and smack it.</p><p>Those can be the same target.</p><p>On the other hand, an attack that specifies a number of targets will not target the same target multiple times without redirection.</p><p>&nbsp;</p><p>What would happen if a hero target entered play mid calculation, say a villain hits the X targets with lowest HP damage, and one of those hits a dynamic syphon which lets Cosmic put another target in play that is the lowest not to already have been hit, that is a good question.</p></div>
+</div>
+<div class="post" id="post-27">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2015-02-10 16:34 UTC</div></div>
+    <div class="postnum">#27</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p>What would happen if a hero target entered play mid calculation, say a villain hits the X targets with lowest HP damage, and one of those hits a dynamic syphon which lets Cosmic put another target in play that is the lowest not to already have been hit, that is a good question.</p>
+</blockquote>
+</aside>
+<p>Per the App, if there are any ties of who is the x highest/lowest you would select the targets you wish to hit. Then you determine the order those targets are hit. Based on this, another target entering play after who is being dealt damage would not impact anything.</p></div>
+</div>
+<div class="post" id="post-28">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-10 16:40 UTC</div></div>
+    <div class="postnum">#28</div>
+  </div>
+  <div class="post-body"><p>So it's settled, Kaargra works the same way, and CAN hit the same guy twice, because ranking is re-assessed?</p></div>
+</div>
+<div class="post" id="post-29">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2015-02-10 16:50 UTC</div></div>
+    <div class="postnum">#29</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Ronway">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png" class="avatar"> Ronway:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>phantaskippy wrote:</b><br><blockquote>What would happen if a hero target entered play mid calculation, say a villain hits the X targets with lowest HP damage, and one of those hits a dynamic syphon which lets Cosmic put another target in play that is the lowest not to already have been hit, that is a good question.
+&nbsp;
+</blockquote></div>
+Per the App, if there are any ties of who is the x highest/lowest you would select the targets you wish to hit. Then you determine the order those targets are hit. Based on this, another target entering play after who is being dealt damage would not impact anything.
+</blockquote>
+</aside>
+<p>But why would Voss' damage be able to affect the same target then? That's an inconsistency. They both work the same way - choose a number of targets based on whichever criterion, assessing the target chosen every time you deal damage. It also runs counter to Christopher's ruling on Taiaha, where you can target somethign that entered play during resolution.</p>
+<p>I think it would be safe/consistent/sane (your pick) to assume that a single event/card/trigger choosing multiple targets can't choose the same target twice. It would be even more safe/consistent/sane to assume you pick targets before resolving, but Christopher's Taiaha example directly contraddicts that.</p>
+<p>The fact the Steam app does that differently is not proof enough, to me, that this ruling is incorrect.</p></div>
+</div>
+<div class="post" id="post-30">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-10 17:05 UTC</div></div>
+    <div class="postnum">#30</div>
+  </div>
+  <div class="post-body"><p>Voss doesn't set a number of targets, neither does Kaargra. &nbsp;They only require that a target meet the HP requirement to receive the damage.</p><p>They deal two instances of damage and do not require 2 targets be hit.</p><p>Siege Breaker hits the 2 targets with the highest HP, it cannot hit the same target twice. &nbsp;</p><p>Whether or not the way the app currently looks like it works is the right way, or if it just doesn't matter yet because nothing can add a hero target mid villain damage right now, is to be seen.</p><p>It also could be programmed to account for new targets if they come into play and we just haven't seen that part work, it will never be such a common event that normal play should predicate it being resolved.</p><p>The main thing with the app right now is that it is important that the app determines the targets before dealing damage, because in a case like Siege Breaker, you can resolve damage against the second highest first, and then resolve damage against the highest. &nbsp;So it must determine all valid targets before asking you which order to resolve in.</p><p>Even if a new target were added mid-damage, it would need to establish the current 2 highest hp targets before the first damage can be dealt</p><p>&nbsp;</p><p>EDIT:</p><p>Actually there is a way to test this. &nbsp;Cyrus Hayes, Bee Bot, forced deployment. &nbsp;Have no other 3 or fewer hp targets in play.</p><p>You should have to choose either Bee Bot or a 4+hp target to deal first damage to, choose Bee Bot, destroy forced Deployment, see if you get the option.</p><p>Again this might reveal the official ruling, or something the app isn't prepared to handle yet.</p></div>
+</div>
+<div class="post" id="post-31">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-10 17:27 UTC</div></div>
+    <div class="postnum">#31</div>
+  </div>
+  <div class="post-body"><p>Checked in the app:</p><p>Gave the option to have Cyrus deal damage to Tempest [8] or Bee Bot[1], destroyed Bee Bot, destroyed forced Deployment, putting 6 3hp minions in play.</p><p>Dealt 4 damage to Tempest.</p><p>&nbsp;</p><p>So as of right now the App does not recheck when Forced Deployment send out a bunch of targets that are lower than the one that was originally a valid target.</p><p>Don't know if that is intended, or just an oversight, but that is how the app handles it, so the interim official ruling is you select the two targets and it doesn't change.</p></div>
+</div>
+<div class="post" id="post-32">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2015-02-10 17:28 UTC</div></div>
+    <div class="postnum">#32</div>
+  </div>
+  <div class="post-body"><p>I agree that Siege Breaker (for instance) works that way. What I don't understand is why Kaargra works differently.</p><p>Both assign multiple targets and deal them damage. What changes is that Siege Breaker chooses according to a single criterion and Kaargra uses two different criteria.</p><p>But I don't understand why Kaargra chooses and resolves one instance of amage at a time while Siege Breaker chooses both targets then resolves both targets. That's the inconsistency to me. And saying this is understandable and correct based on the fact the criteria for targeting change is counterintuitive to me.</p></div>
+</div>
+<div class="post" id="post-33">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2015-02-10 17:36 UTC</div></div>
+    <div class="postnum">#33</div>
+  </div>
+  <div class="post-body"><p>Because Siege Breaker says "this card deals the 2 hero targets with the highest hp ___." It specifically tells you that two heroes are taking damage, where Warfang/Voss do not. They only deal damage to whoever fits the critera. For Siege, once one target takes damage they're finished being dealt with.</p></div>
+</div>
+<div class="post" id="post-34">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-10 17:39 UTC</div></div>
+    <div class="postnum">#34</div>
+  </div>
+  <div class="post-body"><p>The text resolves in the order it is on the card.</p><p>Siege breaker deals 2 targets. . .</p><p>Warfang deals the target with the highest. . .</p><p>The second one does not try to deal the damage simultaneously, you read and resolve the first instruction.</p><p>Then you get to "and the second highest" and you resolve that.</p><p>Even though they are one line of text, it doesn't resolve simultaneously because it tells you to deal the damage to the highest, and then to the second highest. &nbsp;It also doesn't specify they have to be seperate targets.</p><p>For example, compare Crono Ranger's terrible tech strike with AZ's Hoarfire.</p><p>One forces you to choose a different target, one does not.</p></div>
+</div>
+<div class="post" id="post-35">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">NA</div>
+    <div><div class="who">Nataraja</div><div class="when">2015-02-10 17:44 UTC</div></div>
+    <div class="postnum">#35</div>
+  </div>
+  <div class="post-body"><p>What i'm hung up on is the use of "and" instead of "then" in those villain character's wording. That's what makes me think there's simultaneity in the choosing of targets.</p><p>I'll leave it to careless wording and drop the argument.</p></div>
+</div>
+<div class="post" id="post-36">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-10 18:27 UTC</div></div>
+    <div class="postnum">#36</div>
+  </div>
+  <div class="post-body"><p>Any use of "and" will happen sequentially.</p><p>From search for a card and put it into play, to deal each target 2 fire and 2 projectile damage.</p><p>Even Fanatic's Exorcism, you can't choose to deal the melee first, then the Radiant.</p><p>Even Kaargra's target side, when she would be destroyed you destroy her titles and flip her cards.</p><p>All uses of "and" in situations where timing is relevant are intended to be sequential.</p><p>It may not be obvious, but it is at least consistent.</p></div>
+</div>
+<div class="post" id="post-37">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2015-02-11 15:18 UTC</div></div>
+    <div class="postnum">#37</div>
+  </div>
+  <div class="post-body"><p>The app does not consider this situation because it's new with Bee Bot and we didn't think of it at the time. We'll talk to Christopher about it.</p></div>
+</div>
+<div class="post" id="post-38">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2015-02-11 17:34 UTC</div></div>
+    <div class="postnum">#38</div>
+  </div>
+  <div class="post-body"><p>Result of our discussion: If you are selecting a specific number of targets in this way, you do not re-target in the middle if new targets appear. The initial target selections remain.</p><p>So in the Cyrus Hayes example above, the app is working the correct way.</p></div>
+</div>
+<div class="post" id="post-39">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2015-02-11 19:49 UTC</div></div>
+    <div class="postnum">#39</div>
+  </div>
+  <div class="post-body"><p>What if the originally selected targets go away in the middle? &nbsp;What if Cyrus targets Bee bot and a 2 HP villain target, and Bee bot takes out the villain target?</p></div>
+</div>
+<div class="post" id="post-40">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2015-02-11 20:51 UTC</div></div>
+    <div class="postnum">#40</div>
+  </div>
+  <div class="post-body"><p>Not sure, but I'll find out.</p></div>
+</div>
+<div class="post" id="post-41">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-02-11 21:10 UTC</div></div>
+    <div class="postnum">#41</div>
+  </div>
+  <div class="post-body"><p>There are already lots of cases where targets can end up being removed from play before the damage (or other effect) finishes resolving.&nbsp; So far, the answer to all such situations (IIRC) has been "since the target is gone, nothing happens".&nbsp; Seems like the same would happen here.&nbsp; Cyrus picked his targets; it's not his fault if one of them is gone before the bullets reach it.</p></div>
+</div>
+<div class="post" id="post-42">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-02-12 15:56 UTC</div></div>
+    <div class="postnum">#42</div>
+  </div>
+  <div class="post-body"><p>So the way Taiaha works vs. the way Cyrus Hayes works:</p><p>Would it be "up to # targets" that makes the difference and allows variant targetting?</p><p>-or-</p><p>Would it be the designation of the targets to start? &nbsp;By saying the 2 with the highest, does that cause the snapshotting?</p><p>&nbsp;</p><p>I guess it could be either without mattering until we get a card that says "deal up to # targets with the highest HP # damage".</p></div>
+</div>
+<div class="post" id="post-43">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2015-02-18 20:16 UTC</div></div>
+    <div class="postnum">#43</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Arcanist Lupus">
+<div class="title">
+<div class="quote-controls"></div>
+ Arcanist Lupus:</div>
+<blockquote>
+<p>What if the originally selected targets go away in the middle? &nbsp;What if Cyrus targets Bee bot and a 2 HP villain target, and Bee bot takes out the villain target?</p>
+</blockquote>
+</aside>
+<p>Confirmed: the damage fizzles since its target (which was pre-selected) is now gone.</p></div>
+</div>
+<div class="post" id="post-44">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2015-02-18 20:17 UTC</div></div>
+    <div class="postnum">#44</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p>So the way Taiaha works vs. the way Cyrus Hayes works:Would it be "up to # targets" that makes the difference and allows variant targetting?-or-Would it be the designation of the targets to start? &nbsp;By saying the 2 with the highest, does that cause the snapshotting?&nbsp;I guess it could be either without mattering until we get a card that says "deal up to # targets with the highest HP # damage".</p>
+</blockquote>
+</aside>
+<p>It's the "n targets with the highest" type wording that does it.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

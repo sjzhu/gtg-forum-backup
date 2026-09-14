@@ -1,0 +1,133 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Temple of Zhu Long - Apprentice Poisoner/Hoist Chain</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sotm-the-video-game/index.html">SotM: The Video Game</a> &rsaquo; Temple of Zhu Long - Apprentice Poisoner/Hoist Chain</div>
+<h1>Temple of Zhu Long - Apprentice Poisoner/Hoist Chain</h1>
+<div class="desc">14 posts &middot; 510 views &middot; started 2016-11-29 19:21 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(285 45% 42%)">RO</div>
+    <div><div class="who">robb8888</div><div class="when">2016-11-29 19:21 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Another TZL question:</p><p>&nbsp;</p><p>I was playing a practice round in the Temple, getting ready for the weekly one-shot. &nbsp;One of the Apprentice Poisoners was out, and Fixer hit her with the Hoist Chain, killing her. &nbsp;On the card, her damage is not irreducible, so the Hoist Chain should have reduced the 1 HP damage she did on her death ...but it didn't. &nbsp;She did the full 1 HP of damage to everyone. &nbsp;Is this a bug, or is there something weird about the way the Poisoner works?</p><p>&nbsp;</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(112 45% 42%)">JS</div>
+    <div><div class="who">just.a.smith</div><div class="when">2016-11-29 22:31 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>I suspect what's happening is that Fixer hits Posioner -&gt; Poisoner is destroyed -&gt; Posioner triggers, dealing one to each non-environment target -&gt; Debuff from Hoist Chain gets applied. &nbsp;Whether or not this is intended behavior I'm uncertain.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2016-11-29 22:37 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Actually that might be, if it is an “on destruction” effect, then the “when it takes damage” effect might not apply first (if at all).</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2016-11-30 00:02 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>It definitely shouldn’t. With similar targets (Ambuscade’s Mine) and effects (Throat Jab, Stun Bolts, etc.) it applies before it’s destroyed. Damage has to happen before destruction, because the damage CAUSED the destruction.</p>
+<p>Has to be a bug.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2016-11-30 00:11 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Hmmm…it doesn’t seem to be consistent.</p>
+<aside class="quote group-playtesters" data-username="McBehrer">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mcbehrer/48/1850_2.png" class="avatar"> McBehrer:</div>
+<blockquote>
+<p>Damage has to happen before destruction, because the damage CAUSED the destruction.</p>
+<p>Has to be a bug.</p>
+</blockquote>
+</aside>
+<p>Except that we know that this isn’t true, if it were, Cryo Bot would be able to hit things before being destroyed.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2016-11-30 00:15 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>And Cryo Bot would be able to infinitely loop. (several other things would too, including AZ)</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(37 45% 42%)">JO</div>
+    <div><div class="who">jorgenp</div><div class="when">2016-11-30 00:27 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>There is a difference in wording between Sonic Mine and Apprentice Poisoner.</p><p>Sonic Mine: When this card is destroyed, it deals each hero target 2 Sonic damage.</p><p>Apprentice Poisoner: When this card is destroyed, it first deals each non-environment target 1 Toxic damage.</p><p>&nbsp;</p><p>I don't see how the inclusion of the word 'first' would change the order of events so that damage reduction works on one but not the other, though.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(334 45% 42%)">KI</div>
+    <div><div class="who">Killswitch</div><div class="when">2016-11-30 00:51 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>This interaction seems like it should be consistent with Hypersonic Assault and Sonic Mine. The mine fizzles after Tachyon nulls the damage.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2016-11-30 01:58 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Stun Bolt works, although Hoist Chain doesn't.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(37 45% 42%)">JO</div>
+    <div><div class="who">jorgenp</div><div class="when">2016-11-30 02:00 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Yeah, it seems to be a Hoist Chain problem.&nbsp; Hypersonic Assault also works, which should have the same timing as Hoist Chain from the wording.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(13 45% 42%)">AL</div>
+    <div><div class="who">Arcanist_Lupus</div><div class="when">2016-11-30 03:00 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Had anyone tried Hoist Chain with Sonic Mine?</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2016-11-30 03:06 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Just did, it doesn't do anything.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2016-12-01 01:09 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>That is a really pedantic correction. The fact of the matter is, it has to take damage before it is destroyed, so any outside "when it takes damage" effects must trigger before ITS "when it's destroyed" text goes off. We aren't talking about Cryo Bot type effects here. Those are completely irrelevant.</p><p>The point is, Hypersonic has the EXACT same wording as Hoist chain. If Hypersonic works, then so should it.</p><p>I still say that it's a bug, or at least an error.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2016-12-04 19:03 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>Just wanted to add that I submitted this as a bug report already, so nobody else has to.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

@@ -1,0 +1,461 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cards dealing X damage to multiple targets</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Cards dealing X damage to multiple targets</div>
+<h1>Cards dealing X damage to multiple targets</h1>
+<div class="desc">36 posts &middot; 1291 views &middot; started 2014-09-05 17:24 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-05 17:24 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>When a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-09-05 17:32 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>It is reset for each target. For example, if Visionary puts Wrest the Mind of the Electro Pusle Explosive it will look like this:</p><p>Target first hero target with 15 damage, redirect to another target. EPE and Visionary take 3 damage.</p><p><span>Target second hero target with 12 damage, redirect to another target. EPE and Visionary take 3 damage.</span></p><p><span>Target third hero target with 9 damage, redirect to another target. EPE and Visionary take 3 damage.</span></p><p>Since EPE's hp, and therefore damage, changes between targets, a different amount of damage will be dealt.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2014-09-05 17:35 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="rick.mogstad">
+<div class="title">
+<div class="quote-controls"></div>
+ rick.mogstad:</div>
+<blockquote>
+<p>When a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?</p>
+</blockquote>
+</aside>
+<p>Can you give a specific example? There might be fringe cases where a blanket answer wont work for such a general question.</p>
+<p>Damage is applied in order of player choice, and there could be any number of factors that change the damage dealt in-between targets (like DR and such)</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-05 19:20 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>It is reset for each target. For example, if Visionary puts Wrest the Mind of the Electro Pusle Explosive it will look like this:Target first hero target with 15 damage, redirect to another target. EPE and Visionary take 3 damage.Target second hero target with 12 damage, redirect to another target. EPE and Visionary take 3 damage.Target third hero target with 9 damage, redirect to another target. EPE and Visionary take 3 damage.Since EPE's hp, and therefore damage, changes between targets, a different amount of damage will be dealt.</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Is there any specific rules/rulings that would indicate that X gets reset? &nbsp;In many games X is only assigned once, even if it is used for multiple steps later. &nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-05 19:22 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>rick.mogstad wrote:</b><br><blockquote>When a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?
+&nbsp;
+</blockquote></div>
+Can you give a specific example? There might be fringe cases where a blanket answer wont work for such a general question.Damage is applied in order of player choice, and there could be any number of factors that change the damage dealt in-between targets (like DR and such)
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>It really shouldn't matter the situation. &nbsp;If a card says "Do X &lt;something&gt; to all &lt;some target type&gt; where X = &lt;some condition&gt;", then either X is set once at the beginning, then applied to all applicable targets, or it is evaluated real-time for each target. &nbsp;If there are different rules for different situations, it seems like it will be difficult to make a judgement call when playing the game.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2014-09-05 19:29 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="rick.mogstad">
+<div class="title">
+<div class="quote-controls"></div>
+ rick.mogstad:</div>
+<blockquote>
+<p>&nbsp;It really shouldn't matter the situation. &nbsp;</p>
+</blockquote>
+</aside>
+<p>Whelp. Idk what to tell you. Sometimes it does. But generally, there is no "snapshotting", if you are familiar with that term. Triggers or amounts that are determined off of the current gamestate (like the EPE example) will change as the gamestate changes.</p>
+<p>Do you have a specific example you can use to illustrate your question?</p>
+<p>Also, the EPE example Pydro used is an officially confirmed interaction.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-05 19:35 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>rick.mogstad wrote:</b><br><blockquote>&nbsp;It really shouldn't matter the situation. &nbsp;
+&nbsp;
+</blockquote></div>
+Whelp. Idk what to tell you. Sometimes it does. But generally, there is no "snapshotting", if you are familiar with that term. Triggers or amounts that are determined off of the current gamestate (like the EPE example) will change as the gamestate changes.Do you have a specific example you can use to illustrate your question?Also, the EPE example Pydro used is an officially confirmed interaction.
+</blockquote>
+</aside>
+<p>Since I bought the game yesterday, don't have the cards in front of me, and can't find any comprehensive listing of the cards anywhere, no, I don't have a specific example.</p>
+<p>Are you saying that there are certain times when "snapshotting" does occur?</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2014-09-05 19:39 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>I can't think of any off the top of my head honestly, but this game can be so situational at times that weird fringe cases can, and do, come up.</p><p>OH! And Welcome to the forums!!</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2014-09-05 19:39 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>Here is a list of cards to help&nbsp;https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ1RFBlSXlJV1p0SVE&amp;usp=sharing#gid=0</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-05 19:53 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>I get that this is not a competitive game, but it seems like one should be able to figure out what do to in a given situation by following the rules of the game. &nbsp;It seems like this snapshotting is not covered in the rules, but someone, somewhere has made an official ruling about it. &nbsp;I am fine either way, I just like to know all of the mechanics/rules and how to apply them :)</p><p>&nbsp;</p><p>I'm sure I will be asking more as I get more time to play.</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2014-09-05 19:56 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Another example of AE damage changing would be Ra using Scorched Earth when there are multiple environment targets out - say there are four of them currently in play. Scorched Earth will do four points of damage (assuming Ra has no buffs of any kind) to all non-hero targets. When this is applied to the first of the environment targets (the order is player choice), if that's enough to destroy it then there will now be three environment targets reamining, so Scorched Earth's damage will now be three. If that's enough to kill the next target, then the damage will reduce again, and so on.</p><p>So in a case like this, it's a good idea to attack all the villain targets first (assuming you do want them all destroyed at this point - sometimes you might want to leave someting in play for various reasons) so that they take maximum damage, then attack the environment targets in the order that seems most useful if the damage is enough to destroy any of them.</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-05 20:03 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Powerhound_2000">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png" class="avatar"> Powerhound_2000:</div>
+<blockquote>
+<p>Here is a list of cards to help&nbsp;<a href="https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ1RFBlSXlJV1p0SVE&amp;usp=sharing#gid=0" rel="noopener nofollow ugc">https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ…</a></p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Haha. &nbsp;Now I just need a list with all of the acronyms <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p>
+<p>Thanks though, this will be quite helpful.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Off topic: Is there a way to change the display name in the forum from the auto-generated account name they gave me? &nbsp;Also, is there some way to subscribe to forums/topics that I'm not seeing?</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2014-09-05 20:07 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="rick.mogstad">
+<div class="title">
+<div class="quote-controls"></div>
+ rick.mogstad:</div>
+<blockquote>
+<p>I just like to know all of the mechanics/rules and how to apply them :)&nbsp;I'm sure I will be asking more as I get more time to play.</p>
+</blockquote>
+</aside>
+<p>Me too! Ask all the questions! If theres one thing we love around here its talking about rules interactions. You'll fit right in.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(144 45% 42%)">SP</div>
+    <div><div class="who">Spiff</div><div class="when">2014-09-05 20:43 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p><a href="http://www.spiffworld.com/sotm/" rel="noopener nofollow ugc">I've got a card list too</a>, no acronym knowledge required.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2014-09-05 20:50 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="rick.mogstad">
+<div class="title">
+<div class="quote-controls"></div>
+ rick.mogstad:</div>
+<blockquote>
+<p>Is there a way to change the display name in the forum from the auto-generated account name they gave me?</p>
+</blockquote>
+</aside>
+<p>What alias do you want? Ask and we shall make it happen (assuming it isn't already claimed).</p>
+<p>And welcome to the community - glad to have you!  <img src="https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=12" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:" loading="lazy" width="20" height="20"></p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2014-09-05 21:06 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><p><a href="https://greaterthangames.com/forum/topic/sotm-glossary-or-what-on-earth-are-these-people-talking-about-4300">Abbreviations</a></p></div>
+</div>
+<div class="post" id="post-17">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(121 45% 42%)">GR</div>
+    <div><div class="who">Greywind</div><div class="when">2014-09-05 21:30 UTC</div></div>
+    <div class="postnum">#17</div>
+  </div>
+  <div class="post-body"><p>The only forums you shouldn't have access to are the Playtester forums.</p></div>
+</div>
+<div class="post" id="post-18">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-09-05 21:45 UTC</div></div>
+    <div class="postnum">#18</div>
+  </div>
+  <div class="post-body"><p>That's not what was being asked.</p><p>No, there is no hidden option you are not seeing where you can subscribe to a topic/forum, you just have to rely on the update notices next to each forum when you check back.</p><p>&nbsp;</p><p>Welcome to the forums!</p></div>
+</div>
+<div class="post" id="post-19">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-06 00:02 UTC</div></div>
+    <div class="postnum">#19</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Rabit">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabit/48/5774_2.png" class="avatar"> Rabit:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>rick.mogstad wrote:</b><br><blockquote>Is there a way to change the display name in the forum from the auto-generated account name they gave me?
+&nbsp;
+</blockquote></div>
+What alias do you want? Ask and we shall make it happen (assuming it isn't already claimed).And welcome to the community - glad to have you!  :slightly_smiling_face: 
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Zondebok, please. <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p></div>
+</div>
+<div class="post" id="post-20">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-06 00:04 UTC</div></div>
+    <div class="postnum">#20</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p><a href="https://greaterthangames.com/forum/topic/sotm-glossary-or-what-on-earth-are-these-people-talking-about-4300" rel="noopener nofollow ugc">Abbreviations</a></p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Thanks!</p></div>
+</div>
+<div class="post" id="post-21">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(108 45% 42%)">ZO</div>
+    <div><div class="who">Zondebok</div><div class="when">2014-09-06 00:16 UTC</div></div>
+    <div class="postnum">#21</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Spiff">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/spiff/48/1865_2.png" class="avatar"> Spiff:</div>
+<blockquote>
+<p><a href="http://www.spiffworld.com/sotm/" rel="noopener nofollow ugc">I've got a card list too</a>, no acronym knowledge required.</p>
+</blockquote>
+</aside>
+<p>The acronym knowledge is for the forums, not the card list <img src="https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p>
+<p>Your card list will be exactly what I'm looking for soon, but first I have to learn the card text of all the cards.</p></div>
+</div>
+<div class="post" id="post-22">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(138 45% 42%)">RA</div>
+    <div><div class="who">Rabit</div><div class="when">2014-09-06 01:35 UTC</div></div>
+    <div class="postnum">#22</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Zondebok">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/z/e480ec/48.png" class="avatar"> Zondebok:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Rabit wrote:&nbsp;</b><br><blockquote>&nbsp;rick.mogstad wrote:<br><blockquote>Is there a way to change the display name in the forum from the auto-generated account name they gave me?&nbsp;
+&nbsp;
+</blockquote>
+What alias do you want? Ask and we shall make it happen (assuming it isn't already claimed).And welcome to the community - glad to have you!  :slightly_smiling_face: 
+</blockquote></div>
+&nbsp;Zondebok, please. :)
+</blockquote>
+</aside>
+<p>Done!</p></div>
+</div>
+<div class="post" id="post-23">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(328 45% 42%)">DP</div>
+    <div><div class="who">dpt</div><div class="when">2014-09-07 03:35 UTC</div></div>
+    <div class="postnum">#23</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Zondebok">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/z/e480ec/48.png" class="avatar"> Zondebok:</div>
+<blockquote>
+<p>I get that this is not a competitive game, but it seems like one should be able to figure out what do to in a given situation by following the rules of the game. &nbsp;It seems like this snapshotting is not covered in the rules, but someone, somewhere has made an official ruling about it. &nbsp;I am fine either way, I just like to know all of the mechanics/rules and how to apply them :)&nbsp;</p>
+</blockquote>
+</aside>
+<p>I'm surprised no one answered this sooner: The basic answer is that there is never any "snapshotting", and all modifiers are always re-evaluated. There are definitely sticky situations, but they have to do in what order you evaluate various modifiers.</p></div>
+</div>
+<div class="post" id="post-24">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(6 45% 42%)">SE</div>
+    <div><div class="who">Sefirit</div><div class="when">2014-09-08 18:51 UTC</div></div>
+    <div class="postnum">#24</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>I can't think of any off the top of my head honestly, but this game can be so situational at times that weird fringe cases can, and do, come up.OH! And Welcome to the forums!!</p>
+</blockquote>
+</aside>
+<p>Doesn't Scholar have a couple of cards that might apply?&nbsp; Like do X damage where X is the number of non-hero targets out.&nbsp; I think the question is, on a card like that if there are six targets out when you start, but you kill some along the way does X stay six or does it decrease.&nbsp; I believe it stays six, but I'm not basing that off of anything.</p></div>
+</div>
+<div class="post" id="post-25">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2014-09-08 19:04 UTC</div></div>
+    <div class="postnum">#25</div>
+  </div>
+  <div class="post-body"><p>The Scholar's cards wouldn't have to do a recheck for X because of how they work. &nbsp; The one I believe you are thinking of is Grace Under Fire. &nbsp; It deals X damage to one target where X is the number of non hero targets in play. &nbsp;He would only need to check once before dealing the damage. &nbsp;He has two other cards with an X value to calculate from "Get Out of the Way" and Know when to turn Loose. &nbsp; The first heals him X for every target he damaged and the second is based on how many cards he discarded. &nbsp; So for all of his cards with X on it there should only be a need to calculate once. &nbsp;</p></div>
+</div>
+<div class="post" id="post-26">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2014-09-09 16:30 UTC</div></div>
+    <div class="postnum">#26</div>
+  </div>
+  <div class="post-body"><p>Yeah, I'm just going to pop in and <span class="bbcode-s">agree</span> DISAGREE that there is no snapshotting. All actions are adjusted as they occur, as needed.</p></div>
+</div>
+<div class="post" id="post-27">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-09-09 21:31 UTC</div></div>
+    <div class="postnum">#27</div>
+  </div>
+  <div class="post-body"><p>Huzzah for massive, increasing waves of Checmical Explosion damage!</p></div>
+</div>
+<div class="post" id="post-28">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(183 45% 42%)">HK</div>
+    <div><div class="who">Humble-Knight</div><div class="when">2014-09-09 23:23 UTC</div></div>
+    <div class="postnum">#28</div>
+  </div>
+  <div class="post-body"><p>Is that how we decided it worked?</p></div>
+</div>
+<div class="post" id="post-29">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-09-09 23:41 UTC</div></div>
+    <div class="postnum">#29</div>
+  </div>
+  <div class="post-body"><p>If people are concurring there's no "snapshotting", that's (inadvertenly) how people are saying Checmical Explosion works.</p><p>Far be it for me to disagree with the masses. (also, it's an awesome visual, the heroes look on in horror at the rising tide, scrambling to get high enough to escape the destructive wave. The Matriarch, unaware of the impending danger, sends her fowl in to attack the heroes, only for them to fall prey to the acid sea fast approaching, their twisted bodies fuel the surf, propelling it to an even greater height, one no one is safe from...)</p></div>
+</div>
+<div class="post" id="post-30">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(328 45% 42%)">DP</div>
+    <div><div class="who">dpt</div><div class="when">2014-09-10 13:45 UTC</div></div>
+    <div class="postnum">#30</div>
+  </div>
+  <div class="post-body"><p>Wow, I hadn't paid enough attention to the wording of the Checmical Explosion. I think that's a wording error on the part of &gt;G, but I do like the visual.</p></div>
+</div>
+<div class="post" id="post-31">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2014-09-10 14:51 UTC</div></div>
+    <div class="postnum">#31</div>
+  </div>
+  <div class="post-body"><p>I thought it was the number it cards destroyed this way, meaning the vats.</p></div>
+</div>
+<div class="post" id="post-32">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(83 45% 42%)">CH</div>
+    <div><div class="who">Christopher</div><div class="when">2014-09-10 15:11 UTC</div></div>
+    <div class="postnum">#32</div>
+  </div>
+  <div class="post-body"><p>Er, yes,&nbsp;<strong>Official Ruling</strong> time. Che(c)mical Explosion deals damage equal to the number of Vat cards destroyed.</p></div>
+</div>
+<div class="post" id="post-33">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2014-09-10 15:54 UTC</div></div>
+    <div class="postnum">#33</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Matchstickman">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png" class="avatar"> Matchstickman:</div>
+<blockquote>
+<p>If people are concurring there's no "snapshotting", that's (inadvertenly) how people are saying Checmical Explosion works.Far be it for me to disagree with the masses.&nbsp;</p>
+</blockquote>
+</aside>
+<p>Chemical explosion still "snapshot" (meaning a fixed number independent of future game states). It's X is dependant upon how many Vats it destroys in its destruction sequence, and it only destroys Vats once, so any future game state won't be able to change it in the first place (unless more vats get played/destroyed during the destruction sequence obviously).&nbsp;</p></div>
+</div>
+<div class="post" id="post-34">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2014-09-10 21:13 UTC</div></div>
+    <div class="postnum">#34</div>
+  </div>
+  <div class="post-body"><p>It's X was never dependant on vat destruction, read the cards literally, not for intent has been the rule&nbsp;for Sentinels in almost every discussion here, but now Checmicals is errataed so it no longer works that way, huzzzah for me getting something changed!</p></div>
+</div>
+<div class="post" id="post-35">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2014-09-10 23:01 UTC</div></div>
+    <div class="postnum">#35</div>
+  </div>
+  <div class="post-body"><p>Yeah! &nbsp;Cards now work the way I always played them!</p><p>I couldn't believe that it didnt' say "this way" on the card, I would have sworn it was there.</p></div>
+</div>
+<div class="post" id="post-36">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(246 45% 42%)">TH</div>
+    <div><div class="who">TheEternallyUndyingO</div><div class="when">2014-09-28 20:45 UTC</div></div>
+    <div class="postnum">#36</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Christopher">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/christopher/48/1851_2.png" class="avatar"> Christopher:</div>
+<blockquote>
+<p>Er, yes,&nbsp;<strong>Official Ruling</strong> time. Che(c)mical Explosion deals damage equal to the number of Vat cards destroyed.</p>
+</blockquote>
+</aside>
+<p>You mean "+3" of course.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

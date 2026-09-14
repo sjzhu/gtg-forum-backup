@@ -1,0 +1,153 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sentinels Randomizer?</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sotm-the-video-game/index.html">SotM: The Video Game</a> &rsaquo; Sentinels Randomizer?</div>
+<h1>Sentinels Randomizer?</h1>
+<div class="desc">15 posts &middot; 558 views &middot; started 2016-12-09 20:35 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(285 45% 42%)">RO</div>
+    <div><div class="who">robb8888</div><div class="when">2016-12-09 20:35 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Does anyone else use the Sentinels Randomizer for iOS (or Android, if it exists on that platform). &nbsp;If so, do you know where the program gets its stats to compute difficulty levels? &nbsp;I ask because I've been trying to pull up some random games at the "normal" difficulty level -- the program estimates that these games should be won about 70%-75% of the time. &nbsp;However, look at some of the doozies it's brought up:</p><p>&nbsp;</p><p>-- Haka, Bunker: EOW, and Fanatic against Advanced Ambuscade in Omnitron IV. &nbsp; Randomizer gives this a 75% chance of victory; I played it about 10X, and only managed to win once. &nbsp;Among the heroes, no deck control, little damage reduction, little/no ongoing or environment destruction, against one of the nastiest environments out there. &nbsp;Bunker: EOW's power is virtually useless, because of the relatively few Ongoings in either deck. &nbsp;Advanced Ambuscade starts with a -1 DR; and by the time he pulls out a Reactive Plating (which he did by Round 3 in every single game I played), that's a -2. &nbsp;Plus, the environment loves to (a) not damage Ambuscade's "devices," and (b) pull all of his devices and equipment out of the trash as soon as you destroy them. &nbsp;There's nothing more disheartening than finally destroying a 10 HP Reactive Plating with -2 DR...only to have the environment pull it right back out of the trash, fully healed. &nbsp;</p><p>&nbsp;</p><p>--Chrono Ranger, Wraith and Unity against Advanced Progeny in the Block. &nbsp;Randomizer gives this a 76% chance of victory; after four quick defeats, I gave it up. &nbsp;Three heroes that all take time to build up, with no damage reduction, against a villain that specializes in dealing out lots of damage right from the get go. &nbsp;Plus, Progeny is about one of the worst foes for Unity to face -- the fact that just about every round he deals damage to all hero targets mean that her golems don't stick around long enough to do any damage. &nbsp;Advanced Progeny makes the scions indestructable; in one of my losses, he had two of the "Progeny heals 2 HP the first time he's damaged" scions, one of the "the heroes discard a card the first time Progeny is damaged," and one of the "+2 to Progeny damage" scions, and the "Progeny damage is irreducible" ongoing, all out by Round 2. &nbsp;Unity couldn't get a golem out without Progeny simply killing it in a round or two; none of the heroes could crank out the 4+ damage every turn needed to make a dent, and no amount of Stun Bolts could stop the irreducible damage.</p><p>&nbsp;</p><p>--Unity, GI: Bunker and Nightmist against Advanced Akashbuta in The Final Wasteland. &nbsp;Randomizer gives this a 74% chance of victory. &nbsp;By what calculation is this an easy victory? &nbsp;Akashbuta gets to play a new card *every time* an environment target is played, and the Final Wasteland is just about *all* targets, plus she gets a -1 DR to her and all of her limbs. &nbsp; With this massive card draw, in every game, by the end of her second turn, AdvAka had out at least six limbs; usually multiple Brambles (preventing my heroes from doing any damage), and one of the limbs that hits the hero with the highest HP, plus at least one of the "damage all hero targets for 3 HP," i.e. the "kill all of Unity's golems the second they emerge" card, or one or more of the Carapaces, turning her -1 DR in to -2 DR or -3 DR. In one particularly nasty scenario that repeated itself over and over, a Bramble would hit the hero with the lowest HP, preventing him/her from doing damage, then a limb would hit, making a different hero have the lowest HP, then the next Bramble would hit *THAT* hero, preventing him/her from doing any damage. &nbsp;</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2016-12-09 22:05 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>It bases its difficulty on <a href="http://x.gray.org/sentinels-of-the-multiverse-difficulty-scores.html" rel="noopener nofollow ugc">this</a>. &nbsp;The problem with that is that it's a naive Bayes system--it doesn't take interactions between specific elements into account. &nbsp;For instance, The Dreamer is easier with fewer heroes, but it scores battles against her as easier with more heroes, because that's true in general.</p><p>I've been tempted to update my own randomizer to account for such interactions, but not only would that be mathematically super-intensive (accounting for teams of up to 5, of nearly 100 heroes and variants, with each villain in one of four different modes, and each environment, and that's not counting Vengeance games), but it's not likely to be meaningful given the small sample sizes for each specific combination.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(285 45% 42%)">RO</div>
+    <div><div class="who">robb8888</div><div class="when">2016-12-09 23:34 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Yet another flaw in the math:</p><p>&nbsp;</p><p>--EOW: Bunker (man, does the randomizer seem to love this guy), Fanatic, Nightmist, and Fixer against Progeny in the Temple of Anubis. &nbsp;</p><p>&nbsp;</p><p>Played this one over 5X, and the lowest I've ever been able to get Progeny is 50HP. &nbsp; You just can't beat Progeny (I don't think) without either (a) some serious early damage (i.e., waiting for 3-4 rounds like Bunker and Fixer is no good), or (b) serious damage reduction (i.e., Scholar, Legacy, Wraith with twin Stun Bolts). &nbsp;</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2016-12-10 00:52 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>My own randomizer (linked in my sig) does provide lower probabilities for most of those: 78.90%, 42.44%, 54.20%, and 53.68% respectively. &nbsp;You may find it more accurate for your purposes.</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-12-10 01:26 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>I tried your Progeny matchup and beat it the second time. &nbsp;&nbsp;https://www.dropbox.com/s/h411pjs4snhwzky/progeny-defeat-120916.png?dl=0</p><p>I might have won the first game with only Nightmist standing if I had been more patient staying in Mistform. &nbsp; The main issue in this for the team is Scion of Frost since there isn't any regular large amounts of damage more like regular hits of 2 to 3. &nbsp;In the match I won I abused Aegis of Resurrection because Fixer with his incap power could keep putting it back into play. &nbsp;</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(345 45% 42%)">DA</div>
+    <div><div class="who">Dandolo</div><div class="when">2016-12-10 01:48 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>I actually tried that match as well...</p><p>I won on the first try but it was a nail biter. &nbsp;NightMist was the last hero standing at 6 HP.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(2 45% 42%)">ME</div>
+    <div><div class="who">Melkhor</div><div class="when">2016-12-10 11:49 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>I thought the last one sounded like a fun one as well, so I had a go at it too. Beat it in the first try with no heroes incapped (Fanatic was at 7, everyone else was at double digits). Turns out the cosmic harbinger of destruction from beyond the stars is a LOT less scary when he spends the entire fight thoroughly wrapped up in a hoist chain!</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-12-10 13:04 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>Yeah I got a hHoist Chain my second game but Progeny proceeded to pull out an Obvious Futility which along with the two Scion of Flame cards out made the Hoist Chain moot unfortunately. &nbsp;</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(285 45% 42%)">RO</div>
+    <div><div class="who">robb8888</div><div class="when">2016-12-13 01:08 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="Melkhor">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/m/ad7895/48.png" class="avatar"> Melkhor:</div>
+<blockquote>
+<p>I thought the last one sounded like a fun one as well, so I had a go at it too. Beat it in the first try with no heroes incapped (Fanatic was at 7, everyone else was at double digits). Turns out the cosmic harbinger of destruction from beyond the stars is a LOT less scary when he spends the entire fight thoroughly wrapped up in a hoist chain!</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>How did the Hoist Chain help you against the double Scion of Flames (+1 dmg each)? &nbsp;Since none of the Scions go away (Advanced Progeny), by about Round 2-3, Progeny usually has about five Scions out, so by that point, the heroes are (ex:) taking +2 damage each time, having to discard a card the first time they hit Progeny every round, and having Progeny heal himself 4 HP the first time he's hit every round. &nbsp;&nbsp;</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-12-13 01:12 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>It sounds like Melkhor didn't run into Scion of Flame which is possible and Hoist Chain would nullify a lot of damage. &nbsp; Also, this is the first you mentioned playing on advanced. &nbsp; &nbsp;While those Scion cards don't go away on his front side they do when he flips they do which is likely to happen if he did have multiple Scion of Flame cards in play. &nbsp;</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(285 45% 42%)">RO</div>
+    <div><div class="who">robb8888</div><div class="when">2016-12-13 01:38 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>I just don't see how you guys are doing it. &nbsp;I just tried playing again. &nbsp;On Progeny's first turn, he pulled Scion of Flame (+1 Dmg), Time of Tribulations (allowing him to pull *another* Scion card), Scion of the Storm (additional card play for Progeny), and Hour of Reckoning (heroes can't play cards). &nbsp;Before my heroes could even do a thing, they were each down 6 HP, and were forced to sit there doing nothing for a turn (no Modes in Bunker's hand for him to destroy the ongoing). &nbsp;Then Progeny got to go again, whacking the heroes for 3 HP more apiece. &nbsp;So, before they ever got to play a single card, the heroes were down 9 HP. &nbsp;</p><p>&nbsp;</p><p>On Round 2, I played a few cards (Flak Cannon, Absolution, Jack Handle, Mistbound), and knocked Progeny down 10 HP...but the environment pulled Swinging Blades -- 3 more damage to each hero, and then Progeny got to go again, 3 more damage to each hero. &nbsp;</p><p>&nbsp;</p><p>By the beginning of Round 3, each hero had played exactly one card, and the hit points were: &nbsp;Progeny: &nbsp;80 HP / Bunker: &nbsp;9 HP &nbsp;Fanatic: 11 HP &nbsp;Nightmist: &nbsp;7 HP &nbsp;Fixer: &nbsp;10 HP (total of 47), which meant that Progeny was just going to pound Nightmist and then Bunker to jelly round after round until they were dead. &nbsp; Between the environment and Progeny, the heroes had taken a total of 60 points of damage, while dealing a puny 10. &nbsp; They had only 47 HP between them, and needed to deal 80 (not counting any healing coming up from the Scions of Frost left in Progeny's deck); at the pace they were going, they would take 480 more total points of damage before being able to do the remaining 80 to Progeny, which would kill them 10X over. &nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2016-12-13 02:06 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>That's a brutal start but that won't happen every game. &nbsp; He's a rough battle but this team is capable on normal. &nbsp;On advanced it would require a better start for the heroes. &nbsp;</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(2 45% 42%)">ME</div>
+    <div><div class="who">Melkhor</div><div class="when">2016-12-13 12:38 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="robb8888">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/r/dec6dc/48.png" class="avatar"> robb8888:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>Melkhor wrote:</b><br><blockquote>I thought the last one sounded like a fun one as well, so I had a go at it too. Beat it in the first try with no heroes incapped (Fanatic was at 7, everyone else was at double digits). Turns out the cosmic harbinger of destruction from beyond the stars is a LOT less scary when he spends the entire fight thoroughly wrapped up in a hoist chain!
+&nbsp;
+</blockquote></div>
+&nbsp;How did the Hoist Chain help you against the double Scion of Flames (+1 dmg each)? &nbsp;Since none of the Scions go away (Advanced Progeny), by about Round 2-3, Progeny usually has about five Scions out, so by that point, the heroes are (ex:) taking +2 damage each time, having to discard a card the first time they hit Progeny every round, and having Progeny heal himself 4 HP the first time he's hit every round. &nbsp;&nbsp;
+</blockquote>
+</aside>
+<p>Well, first of all, I did it on normal, since nothing was mentioned about Advanced mode and there's a wonderful counter to Scion of Flame in the form of Overdrive + Hoist Chain, or in case of two Scions of Flame, Overdrive + Rod of Anubis + Hoist Chain. If no Overdrive is readily available then Rod of Anubis + Embolden on Fixer also works wonders for his humble Hoist Chain.</p>
+<p>Also, Progeny is generally fairly susceptible to deck control, so Astral Premonition is probably the most important card in Nightmist's deck to get out.</p>
+<p>I think it should be doable as well on Advanced, though obviously considerably harder, and would probably take multiple attempts until you get really good starting hands for everyone.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(148 45% 42%)">OG</div>
+    <div><div class="who">ogseamus</div><div class="when">2016-12-13 13:18 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>Another good strategy for the Advanced Progeny is getting NightMist to be the lowest (under 10 HP) and then Mist Form. As long as you have other ongoings that can be destroyed if need be, then you have an ultimate damage soak and the scions are not indestructible. I am not saying that it will be a cake walk but is do able.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(56 45% 42%)">MC</div>
+    <div><div class="who">McBehrer</div><div class="when">2016-12-13 19:30 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>Or just Amulet, and wonder why he won’t Stop Hitting Himself ™</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

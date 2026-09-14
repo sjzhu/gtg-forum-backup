@@ -1,0 +1,163 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Timing on shuffling trash when the deck runs out</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Timing on shuffling trash when the deck runs out</div>
+<h1>Timing on shuffling trash when the deck runs out</h1>
+<div class="desc">16 posts &middot; 2436 views &middot; started 2013-03-26 04:59 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(301 45% 42%)">BE</div>
+    <div><div class="who">Benhimself</div><div class="when">2013-03-26 04:59 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Just a quick question: I know when the deck empties out you shuffle the trash into a new deck, but do you do that immediately when it runs out, or when you need to draw a card from it? And say an effect tells you to move, say, five cards from your deck to your trash when you only have 3 cards there, would you move 3, shuffle, and then move 2 more to the trash, or move them all, figure that you can't move any more, and then shuffle?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(266 45% 42%)">DY</div>
+    <div><div class="who">dypaca</div><div class="when">2013-03-26 05:05 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Shuffle the trash the moment you draw, discard, or play a card from an empty deck.&nbsp; The deck can stay empty for awhile so long as you aren't required to do one of those things.</p><p>If you&nbsp;need to discard 5 cards from a deck with 3 cards in it, discard 3 then shuffle and discard 2 more.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(301 45% 42%)">BE</div>
+    <div><div class="who">Benhimself</div><div class="when">2013-03-26 05:53 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Okay, semi-related: if a card says "reveal cards until you reveal (blah blah)" and you get through the deck without reveal any of whatever, do you shuffle and keep revealing? Or cancel the effect?</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(266 45% 42%)">DY</div>
+    <div><div class="who">dypaca</div><div class="when">2013-03-26 06:01 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>Well you don't cancel the effect entirely.&nbsp; If you reveal some but not all of the cards it was searching for, you do apply the effect to them.&nbsp; But just revealing cards does not cause you to shuffle the discard.</p><p>Basically when you are told to reveal cards (either a certain number or until you reveal something), you should act like it also says "or until you reveal the entire deck".</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(301 45% 42%)">BE</div>
+    <div><div class="who">Benhimself</div><div class="when">2013-03-26 06:21 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Interesting. So trashing cards from your deck invokes shuffling if you can't finish, but revealing doesn't? I suppose it would be easy to get stuck in a situation where you're revealing until you find something and it's not actually in the deck or trash (because it's in play or hand or whatnot.)</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(223 45% 42%)">AM</div>
+    <div><div class="who">Ameena</div><div class="when">2013-03-26 22:00 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>Yeah…but you get to know how many of those kind of cards are in each deck - for example, Ra has four Staves, the Chairman has five Underbosses, Rat has five Infections, etc. Once you know they're all accounted for (ie not in the deck) you technically don't need to search or shuffle unless something has been done to the deck beforehand (eg Visionary has controlled which card is on top) - then you'd have to shuffle because if you played the search card "properly" you'd have to shuffle anyway. Mind you, Ra and Rat just <span class="bbcode-i">search</span> for those cards rather than reveal for them. A better example is the Adept with his Arcane Cadence - with that, you reveal the top five cards of his deck. If he only had, say, two cards left you'd be mostly wasting the Cadence because you'd only have two cards to reveal and would lose out on the other three.</p>
+<p>Basically, I think the only time you don't shuffle your deck is when you're revealing. IF you need to draw or discard or whatever, you shuffle…but not until the moment you need to do so, as Dypaca said :).</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(184 45% 42%)">PU</div>
+    <div><div class="who">Putts</div><div class="when">2013-06-26 16:06 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>I'm guessing that the ruling is the same, but what happens when a card tells you to reveal cards from a deck, and that deck is empty? &nbsp;Is nothing revealed, or is the trash shuffled into the deck? &nbsp;Specifically, our case was with The Block environment. &nbsp;The very last card in the environment deck was "Prison Riot", which states:</p><p><span>"When this card enters play, reveal cards from the top of the environment deck until H minus 1 inmates are revealed. &nbsp;Put them into play. &nbsp;Discard the other revealed cards."</span></p><p>After some debate, we decided that nothing happened because the environment deck was empty. &nbsp;<span>Were we correct?</span></p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(273 45% 42%)">PW</div>
+    <div><div class="who">pwatson1974</div><div class="when">2013-06-26 16:10 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>Yes, you were correct. Reveal only reveals cards that are there to reveal. If it said play, or draw, or discard it would force a reshuffle but reveal doesn't.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(184 45% 42%)">PU</div>
+    <div><div class="who">Putts</div><div class="when">2013-06-26 18:55 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="pwatson1974">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pwatson1974/48/1925_2.png" class="avatar"> pwatson1974:</div>
+<blockquote>
+<p>Yes, you were correct. Reveal only reveals cards that are there to reveal. If it said play, or draw, or discard it would force a reshuffle but reveal doesn't.</p>
+</blockquote>
+</aside>
+<p>Thanks!</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(298 45% 42%)">SO</div>
+    <div><div class="who">sol4gratia</div><div class="when">2013-07-08 17:14 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>I must be dumb because I can't find anything in the rules that state that the trash is shuffled into the draw pile. Is it in the rulebook or was this something that has been added to the rules?</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2013-07-08 22:43 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Some unfortunate oversight meant it was cut out of the Enhanced Edition rulebook, but it is meant to happen that way.</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(193 45% 42%)">EV</div>
+    <div><div class="who">everlastingtilt</div><div class="when">2013-07-29 23:55 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Is there at least a place in the errata that says this? &nbsp;I had the same question and found no mention in the rules. &nbsp;Going strictly by the rule book that came in the box of cards, Akash Buta would never flip (not that i'm complaining about that). &nbsp;This was about the only spot I found that flat out says "this is what you do..."</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(98 45% 42%)">FB</div>
+    <div><div class="who">fba827</div><div class="when">2013-07-30 02:19 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="everlastingtilt">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/e36b37/48.png" class="avatar"> everlastingtilt:</div>
+<blockquote>
+<p>Is there at least a place in the errata that says this? &nbsp;I had the same question and found no mention in the rules. &nbsp;Going strictly by the rule book that came in the box of cards, Akash Buta would never flip (not that i'm complaining about that). &nbsp;This was about the only spot I found that flat out says "this is what you do…"</p>
+</blockquote>
+</aside>
+<p>For the totally 'basic' mentioning of it, it can be seen at the online gameplay info at <a href="http://sentinelsofthemultiverse.com/gameplay" rel="noopener nofollow ugc">http://sentinelsofthemultiverse.com/gameplay</a> , and go to 'slide' number 8 where it talks about reshuffling trash back in to an empty deck when it runs out.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(193 45% 42%)">EV</div>
+    <div><div class="who">everlastingtilt</div><div class="when">2013-08-02 01:19 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>thanks.&nbsp; i doubt anybody i play with will nitpick that much, but having something to site is better than nothing.</p></div>
+</div>
+<div class="post" id="post-15">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(122 45% 42%)">KN</div>
+    <div><div class="who">KnobleSavage</div><div class="when">2013-08-04 03:32 UTC</div></div>
+    <div class="postnum">#15</div>
+  </div>
+  <div class="post-body"><p>Does this mean that in the unlikely even that Barron Blade gets flipped, and then runs his deck out, those three mobil defence platforms can (potentially) come back into play?</p><p>&nbsp;</p><p>(Granted this is a highly unlikely scenario.)</p></div>
+</div>
+<div class="post" id="post-16">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(280 45% 42%)">RO</div>
+    <div><div class="who">Ronway</div><div class="when">2013-08-04 03:34 UTC</div></div>
+    <div class="postnum">#16</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="KnobleSavage">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/k/ea666f/48.png" class="avatar"> KnobleSavage:</div>
+<blockquote>
+<p>Does this mean that in the unlikely even that Barron Blade gets flipped, and then runs his deck out, those three mobil defence platforms can (potentially) come back into play?&nbsp;(Granted this is a highly unlikely scenario.)</p>
+</blockquote>
+</aside>
+<p>That is indeed what would happen.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

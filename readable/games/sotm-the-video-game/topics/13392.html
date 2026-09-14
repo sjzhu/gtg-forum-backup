@@ -1,0 +1,196 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Weird edge case with Variant Spite -- possible bug?</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sotm-the-video-game/index.html">SotM: The Video Game</a> &rsaquo; Weird edge case with Variant Spite -- possible bug?</div>
+<h1>Weird edge case with Variant Spite -- possible bug?</h1>
+<div class="desc">14 posts &middot; 416 views &middot; started 2015-08-09 03:18 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-08-09 03:18 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Playing against Variant Spite.&nbsp; He is flipped.&nbsp; A Lost Child is in play.</p><p>Start of Wraith's turn.&nbsp;</p><p>Wraith elects to remove a victim from the Safehouse.</p><p>Because of removing the victim, W is given the chance to play a card.&nbsp; She plays Throat Jab.</p><p>Throat Jab does its damage, and I then get the message that Spite can't do damage.</p><p>The <strong>very next message</strong> I get is "Removing effect: Spite Agent of Gloom cannot do damage."</p><p>Start of turn effects continue, and I am given the option to have Spite damage me to save the Lost Child.</p><p>&nbsp;</p><p>OK, so after thinking about it, it makes sense that if I play Throat Jab during Start of Turn phase, then it shouldn't last very long.&nbsp; But should it really stop working *immediately*?&nbsp; I can see 3 ways of interpreting this:</p><p>A) Any "until time X" effects continuously check for "time X", and fail as soon as they detect it.&nbsp; This seems to be what the App is doing now.</p><p>B) Start of Turn effects happen in the order they entered play.&nbsp; Under this model, Throat Jab would last until the end of the Start of Turn phase, and would prevent me from saving the Lost Child.&nbsp; This is what I <em>expected</em> from the current rulings.</p><p>C) "Until phase X" effects check only at the beginning of a phase, so my Throat Jab would last until my *next* Start of Turn phase.&nbsp; I don't actually support this one, but it occured to me as I was thinking about the issue.</p><p>&nbsp;</p><p>It's a super-rare edge case for this even to be possible, and I haven't yet come up with an example where I think it <em>matters</em>, but there could yet be one...</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-08-09 03:39 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><aside class="quote no-group" data-username="AlexxKay">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png" class="avatar"> AlexxKay:</div>
+<blockquote>
+<p><span>B) Start of Turn effects happen in the order they entered play.&nbsp; Under this model, Throat Jab would last until the end of the Start of Turn phase, and would prevent me from saving the Lost Child.&nbsp; This is what I&nbsp; <em>expected</em><span>&nbsp;from the current rulings.</span></span></p>
+<span>
+</span></blockquote>
+</aside>
+<p><span>"Start of turn effects" and "until the start of your next turn" are not the same thing. "Until the start of your next turn" happens before all other "start of turn" effects. Once your turn "starts" the effect wears off. This is why Next Evolution cannot prevent damage from Legacy hitting himself while being Infected. Next Evolution will wear off before Legacy hits himself.</span></p>
+<p><span>EDIT: Did some testing. Any "Until the start of your next turn" effect will end immediately and other "start of turn" effects in play will happen after, while playing a new "start of turn" effect will happen at the end of you "start turn" phase, after all the other "start of turn" effects".</span></p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2015-08-09 03:42 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Some cards clarify the start of your next turn. &nbsp;If not Start of turn effects happen in order of going into play. &nbsp;As soon as the card effect of lost child is done it will move to the next start of turn effect which would be the expiration of Throat Jab's effect.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-08-09 03:48 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>Throat Jab says "until the start of your next turn".</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-08-09 04:57 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>"Start of turn effects" and "until the start of your next turn" are not the same thing. "Until the start of your next turn" happens before all other "start of turn" effects. Once your turn "starts" the effect wears off. This is why Next Evolution cannot prevent damage from Legacy hitting himself while being Infected. Next Evolution will wear off before Legacy hits himself.</p>
+</blockquote>
+</aside>
+<p>This is all news to me.&nbsp; (Goes off and searches…)</p>
+<p>OK, I see two previous threads on Infection + Next Evolution:</p>
+<p><a href="https://greaterthangames.com/forum/topic/timing-of-start-of-turn-effects-until-vs-at-4345" class="onebox" target="_blank" rel="noopener nofollow ugc">https://greaterthangames.com/forum/topic/timing-of-start-of-turn-effects-until-vs-at-4345</a></p>
+<p><a href="https://greaterthangames.com/forum/topic/interaction-between-next-evolution-and-infection" class="onebox" target="_blank" rel="noopener nofollow ugc">https://greaterthangames.com/forum/topic/interaction-between-next-evolution-and-infection</a></p>
+<p>Neither of those threads have a post from Christopher, and the most recent one doesn't reach anything like consensus.&nbsp; All three models I listed seem to be strongly believed by at least one other person.</p>
+<p>If Christopher <strong>were</strong> to rule on Infection/NextEv in the way you say, that would be fairly strong evidence for option C.&nbsp; But I don't see that he has.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-08-09 05:02 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>This is currently how the video game works. All "until start of turn effects" cancel before any "start of turn effects". It is possible this isn't correct, but I use the cideo game to solve this sorts of problems a lot. So until I hear otherwise, I will go with that.</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2015-08-09 12:56 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>We'll talk to Christopher about this. IMO it's a bug (and should be "option C") but we'll make sure. Primarily because it's until the start of your&nbsp;<strong>next</strong> turn, and it's already your turn.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(82 45% 42%)">MI</div>
+    <div><div class="who">MigrantP</div><div class="when">2015-08-10 16:22 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>It's option C: Playing Throat Jab at the start of your turn will cause the effect to last until the start of your&nbsp;<strong>next</strong> turn, as the card says. There's a bug in the video game (specific to Throat Jab) causing it to expire too soon.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-08-10 17:27 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>OK, that definitively settles the edge case that I first brought up.&nbsp; The rationale seems reasonable to me.&nbsp;</p><p>I note, however, that at least two other cases remain, rules-wise, somewhat ambiguous (see links above for discussion):</p><p>Next Evolution/Infection</p><p>Mistbound/Pillars of Hercules</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-08-10 18:11 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>The video game is correct here:</p>
+<ol>
+<li>New phase phase begins</li>
+<li>All effects ending at that phase end</li>
+<li>All effect that happen at that phase happen</li>
+</ol></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-08-10 21:39 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>The video game is correct here:</p>
+</blockquote>
+</aside>
+<p>Maybe it's just me, but I find it aggravating when you phrase such things as clearly and definitively true, without citing any authority.&nbsp; I'm much more comfortable with things like, to quote your earlier comment:</p>
+<aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>It is possible this isn't correct, but I use the cideo game to solve this sorts of problems a lot. So until I hear otherwise, I will go with that.</p>
+</blockquote>
+</aside></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(166 45% 42%)">PY</div>
+    <div><div class="who">Pydro</div><div class="when">2015-08-10 21:43 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><p>Since then, I confirmed it with MigrantP. However, my source (the game) didn't change. Even intially I held that you follow the game, especially something so big as this. There would be many situations that would change, regardless of any practical effect. You just assumed that the game might not be right, without any support. I initially worded it that way to be none confrontational, and only worded differently to express my point later as you still weren't sure. The source has yet to be changed.</p><p>EDIT: That came out harsher than I intended. I apologize.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(254 45% 42%)">DO</div>
+    <div><div class="who">Donner</div><div class="when">2015-08-10 22:14 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><p>The video game makes a great source for resolving various issues. &nbsp;It gets double and triple confirmation between Handelabra and Christopher. &nbsp;It gets fast responses to issues. &nbsp;And it has to deal with everything in an orderly fashion to work properly in the first place.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(87 45% 42%)">AL</div>
+    <div><div class="who">AlexxKay</div><div class="when">2015-08-11 02:45 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>Since then, I confirmed it with MigrantP.</p>
+</blockquote>
+</aside>
+<p>And it wouldn't have bothered me if you had said so, instead of just asserting.</p>
+<aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>However, my source (the game) didn't change. Even intially I held that you follow the game, especially something so big as this. There would be many situations that would change, regardless of any practical effect. You just assumed that the game might not be right, without any support. I initially worded it that way to be none confrontational, and only worded differently to express my point later as you still weren't sure. The source has yet to be changed.</p>
+</blockquote>
+</aside>
+<p>I will try and explain more clearly where I am coming from.&nbsp; There a number of possible sources for interpreting how the game should work, including, but not limited to:</p>
+<ol><li>Printed rulebooks and cards</li><li>Statements from Christopher</li><li>Statements from MigrantP, based on official discussions with Christopher</li><li>Observations of how the videogame is currently handling things.</li><li>Spiff's FAQ</li><li>Third-hand reports of what Christopher or MigrantP said</li><li>Opinions of experienced players</li><li>House rules</li></ol>
+ALL of these sources are fallible, and have been corrected from time to time.&nbsp; Yes, ALL.&nbsp; Even if you count Christopher's word as final (which is, I think, reasonable), he has on rare occasions been known to change his mind about a prior ruling, or issue an official erratum to something he wrote.
+<p>Which sources one regards as definitive are a matter of personal choice.&nbsp; Personally, I take 1-3 above to be definitive, and regard all others as useful data to inform my own opinion, but not actually as definitive.&nbsp; I don't begrudge anyone else their ability to draw their lines differently.</p>
+<p>Given that there's no such thing as an infallible source, it's good to know what the source <em>is</em>. When you make an unsourced assertion, then I am left with the impression that that is simply your opinion, which I (personally) do not regard as definitive.[/quote]</p>
+<aside class="quote group-playtesters" data-username="Pydro">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png" class="avatar"> Pydro:</div>
+<blockquote>
+<p>EDIT: That came out harsher than I intended. I apologize.</p>
+</blockquote>
+</aside>
+<p>No offense taken!&nbsp; It's hard to improve communication without sometimes sounding harsh, something I struggle with myself.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

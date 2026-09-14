@@ -1,0 +1,159 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Benchmark bug?</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../games/index.html">Games</a> &rsaquo; <a href="../../../games/sotm-the-video-game/index.html">SotM: The Video Game</a> &rsaquo; Benchmark bug?</div>
+<h1>Benchmark bug?</h1>
+<div class="desc">14 posts &middot; 671 views &middot; started 2018-07-20 15:20 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(71 45% 42%)">RA</div>
+    <div><div class="who">Roger_the_Alien</div><div class="when">2018-07-20 15:20 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>Hello, the following situation happened:</p><p>Benchmark has 2 software cards in play and 1 hardware card:&nbsp;<a href="https://imgur.com/a/QjA9sXv" rel="noopener nofollow ugc">https://imgur.com/a/QjA9sXv</a></p><p>Each software card says: „At the start of your turn, if you have more software than hardware in play, draw a card and destroy 2 software card.“ Therefore a card was drawn:&nbsp;<a href="https://imgur.com/a/d3YLE06" rel="noopener nofollow ugc">https://imgur.com/a/d3YLE06</a></p><p>Now both software cards have to be destroyed:&nbsp;<a href="https://imgur.com/a/pGZzOKc" rel="noopener nofollow ugc">https://imgur.com/a/pGZzOKc</a></p><p>Ally Matrix was chosen:&nbsp;<a href="https://imgur.com/a/mJFf5I5" rel="noopener nofollow ugc">https://imgur.com/a/mJFf5I5</a></p><p>Now the bug occured, a least I think it is a bug. Instead of destroying the other software card (Load On Initialization), its start of turn effect resolves:&nbsp;<a href="https://imgur.com/a/Fhcl6dR" rel="noopener nofollow ugc">https://imgur.com/a/Fhcl6dR</a></p><p>I drew a card:&nbsp;<a href="https://imgur.com/a/OVPJZUm" rel="noopener nofollow ugc">https://imgur.com/a/OVPJZUm</a></p><p>No second software card was destroyed and it‘s my play phase:&nbsp;<a href="https://imgur.com/a/6P6BwPB" rel="noopener nofollow ugc">https://imgur.com/a/6P6BwPB</a></p><p>&nbsp;</p><p>I think both software cards should‘ve been destroyed without Load On Initialization interrupting. After the effect of Load On Interruption the card checks again if the criteria software cards &lt;= hardware cards is fulfilled which applied and no second software card (the card itself) was destroyed.&nbsp;</p><p>Am I wrong?</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(273 45% 42%)">PW</div>
+    <div><div class="who">pwatson1974</div><div class="when">2018-07-20 15:49 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>This is not a bug but a feature of how things work in Sentinels.</p><p>The instructions to destroy software is on Ally Matrix.</p><p>The card checks. Yup. More Software than hardware. Destroy Software. you destroy Ally Matrix. The destruction immediately stops because the card that was causing the destruction is no longer in play, much as when you Bee Bot an ongoing End of Days.</p><p>Load on Initialisation now does its start of turn, so draw or play. Then checks. Nope, Software and hardware in balance. Carry on Benchmark. The New Standard (TM)</p><p>&nbsp;</p><p>Believe me, this was discussed to death and possibly more in the playtest.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(71 45% 42%)">RA</div>
+    <div><div class="who">Roger_the_Alien</div><div class="when">2018-07-20 15:58 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Thank you, no mail will be send to handelabra^^</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(271 45% 42%)">MA</div>
+    <div><div class="who">Matchstickman</div><div class="when">2018-07-20 16:09 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="pwatson1974">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pwatson1974/48/1925_2.png" class="avatar"> pwatson1974:</div>
+<blockquote>
+<p>Believe me, this was discussed to death and possibly more in the playtest.</p>
+</blockquote>
+</aside>
+<p>And apparently resurrected (in this thread)!</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2018-07-20 18:17 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>It's extremely unintuitive, seeming to defy the card's intent, so I expect it will come up a lot.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2018-07-20 18:38 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>I don’t agree since that’s exactly what playtesters did during testing and Christopher was fine with it when asked. &nbsp;</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2018-07-20 19:43 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><p>The playtesters are expert players, though. They understand the rules and the weird interactions really well.&nbsp; Like Explosive Wagon, you wouldn't see questions about the timing on something like that from the playtesters anymore, but a lot of players will still get it wrong.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(276 45% 42%)">P2</div>
+    <div><div class="who">Powerhound_2000</div><div class="when">2018-07-20 20:14 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><p>Benchmark is a mini expansion and a complexity 3 hero so I still find your point a bit moot as he isn’t for new players. &nbsp;People can ask for clarifcation and it likely will come up from time to time but that doesn’t necessarily mean it’s&nbsp;<span>unintuitive</span>&nbsp;for someone who has played the game for a while and has cracked open a complex character. &nbsp;</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(174 45% 42%)">DE</div>
+    <div><div class="who">Dr_Kaylo_Epsilon</div><div class="when">2018-07-26 03:36 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><p>For what it’s worth, I’m not a playtester and my reactions when I stumbled upon this during play were:</p>
+<ol>
+<li>Oh, right. I only lost one software because I destroyed the source of the destruction effect before it could knock out more software. Of course.</li>
+<li>Hmm, and that works thematically, too. If you shut down processes overloading your system ASAP, you can keep the system running near peak capacity. If you defer maintenance, thing always blow up worse.</li>
+<li>Now, what order should I redeploy software in to maximize the benefit I get from carefully ordered shutdown of processes.</li>
+<li>Muahahaha Benchmark draws so many cards under a Fixed Point!!!</li>
+</ol>
+<p>So, not a playtester, but also not fazed by the behavior.<br>
+(Though I can totally see it puzzling a new player; I’m not denying that point.)</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(63 45% 42%)">FE</div>
+    <div><div class="who">FearLord</div><div class="when">2018-07-26 16:59 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><p>Hmmm... I’m not sure that is working right - I certainly had a situation where destroying a single card would have made the soft wear = hard wear and it destroyed both - it looks like it’s because the particular card you had has an effect that goes off before the check so it looked like doing that ‘interrupted’ the destroying of the 2 cards and then never went back to it...</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2018-07-26 17:36 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>Yes, that's exactly right:</p><ul>
+<li>If the first software card destroys itself first, it's done.</li>
+<li>If the first software card destroys another software first, it'll have to destroy a second.</li>
+<li>If the second destroyed card is the first software card, it's done.</li>
+<li>If the second destroyed card is another software, you draw a card.</li>
+</ul></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(63 45% 42%)">FE</div>
+    <div><div class="who">FearLord</div><div class="when">2018-07-26 21:59 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="MindWanderer">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png" class="avatar"> MindWanderer:</div>
+<blockquote>
+<p>Yes, that's exactly right:If the first software card destroys itself first, it's done.If the first software card destroys another software first, it'll have to destroy a second.If the second destroyed card is the first software card, it's done.If the second destroyed card is another software, you draw a card.</p>
+</blockquote>
+</aside>
+<p>Ah, right - if it destroys itself, it stops resolving - got it!</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(8 45% 42%)">KR</div>
+    <div><div class="who">Kratos13</div><div class="when">2018-07-27 04:43 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="MindWanderer">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png" class="avatar"> MindWanderer:</div>
+<blockquote>
+<p>Yes, that's exactly right:If the first software card destroys itself first, it's done.If the first software card destroys another software first, it'll have to destroy a second.If the second destroyed card is the first software card, it's done.If the second destroyed card is another software, you draw a card.</p>
+</blockquote>
+</aside>
+<p>Drawing a card should happen before all of that and not contingent on what was destroyed, no?</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(136 45% 42%)">MI</div>
+    <div><div class="who">MindWanderer</div><div class="when">2018-07-27 05:20 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>Oh, you’re right, I got the order wrong. I never let it happen, but that actually makes a big difference.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

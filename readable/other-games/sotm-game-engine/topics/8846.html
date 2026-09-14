@@ -1,0 +1,188 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resolving multiple End of Turn events</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Resolving multiple End of Turn events</div>
+<h1>Resolving multiple End of Turn events</h1>
+<div class="desc">14 posts &middot; 1275 views &middot; started 2013-10-15 16:42 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(62 45% 42%)">HU</div>
+    <div><div class="who">Hummingbird</div><div class="when">2013-10-15 16:42 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>I'm using this example that can potentially explain countless other examples.</p><p>It's the villain Omnitron's end of turn on Rampaging Robot side. It has one S-84 Automaton Drone in play which deals X (current HP of itself, for example let's say this one has only 1 HP) energy damage to the highest HP hero at the end of the villain turn, but Omnitron plays the top card of the villain deck at the end of the turn.</p><p>Which one do I resolve first? The S-84 Automaton Drone dealing damage to my highest HP hero or drawing the top card of the villain deck? The card drawn from Rampaging Robot's end of turn ability could be another S-84 Automaton Drone (this time with full HP), therefore doing more damage to my highest HP hero. Which one I resolve first could change the outcome of who gets damaged and by how much.</p><p>Thanks for helping.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(14 45% 42%)">TS</div>
+    <div><div class="who">Theta_Sigma</div><div class="when">2013-10-15 17:05 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Omnitron's end of turn ability happens first, because he was in play first. Then each other effect happens in order they came out. If the highest HP hero gets hit by the first drone and is no longer has the highest HP, the second would attack the new hero with the highest HP.</p></div>
+</div>
+<div class="post" id="post-3">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2013-10-15 17:09 UTC</div></div>
+    <div class="postnum">#3</div>
+  </div>
+  <div class="post-body"><p>Yeah, with end of turn or start of turn effects they go by the order the cards came into play.</p><p>The best guide we have right now is:</p><p>If a single event would cause multiple card effects to activate, they activate in the order they entered play, if multiple effects on one card activate, do them in the order on the card.</p><p>If a single card effect causes multiple things to happen (Destroy a bunch of cards, everyone draw a card or deal multiple targets damage) the players decide the order it happens in.</p></div>
+</div>
+<div class="post" id="post-4">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-10-15 17:28 UTC</div></div>
+    <div class="postnum">#4</div>
+  </div>
+  <div class="post-body"><p>Simultaneous effects (like multiple end of turn effects) are always handled by order of play. It's in the rulebook. Omnitrons character card was in play first so he would go first.&nbsp;</p><p>Consecutive effects happen with newest resolving first. I think that's what skippy was getting at. I just kinda parroted it with less words.&nbsp;</p></div>
+</div>
+<div class="post" id="post-5">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(62 45% 42%)">HU</div>
+    <div><div class="who">Hummingbird</div><div class="when">2013-10-15 18:06 UTC</div></div>
+    <div class="postnum">#5</div>
+  </div>
+  <div class="post-body"><p>Yeah I just noticed that card effects "occured in the order in which the cards entered play" in the rule book shortly after I posted. Thanks though.</p><p>Another question...Omnitron has several cards that say "Destroy this card when Omnitron is dealt 7 or more damage in one round". If Omnitron has multiple of those type of cards in play and is dealt the needed amount of damage, are those cards destroyed one-by-one in the order they came into play or are all of them destroyed at once? Would I have to deal Omnitron ANOTHER 7 damage to destroy the other one(s)?</p><p>Right now my guess is that once 7 damage is dealt to Omnitron, then those cards are all destroyed...but I just want to make sure.</p></div>
+</div>
+<div class="post" id="post-6">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-10-15 18:20 UTC</div></div>
+    <div class="postnum">#6</div>
+  </div>
+  <div class="post-body"><p>All at once</p></div>
+</div>
+<div class="post" id="post-7">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2013-10-15 18:36 UTC</div></div>
+    <div class="postnum">#7</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="Foote">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png" class="avatar"> Foote:</div>
+<blockquote>
+<p>All at once</p>
+</blockquote>
+</aside>
+<p>and by all at once he means in the order the heroes choose, but all destroyed once 7 damage is reached.</p></div>
+</div>
+<div class="post" id="post-8">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(328 45% 42%)">DP</div>
+    <div><div class="who">dpt</div><div class="when">2013-10-15 18:44 UTC</div></div>
+    <div class="postnum">#8</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="phantaskippy">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png" class="avatar"> phantaskippy:</div>
+<blockquote>
+<p><b>Foote wrote:</b></p>
+<div><blockquote>All at once</blockquote></div>
+and by all at once he means in the order the heroes choose, but all destroyed once 7 damage is reached. 
+</blockquote>
+</aside>
+<p>I doubt it would ever matter, but I think the components would actually be destroyed in the order they came into play. There is a triggering event (dealing at least 7 damage), and the cards respond to that event in the usual order, which is as the cards were played.</p></div>
+</div>
+<div class="post" id="post-9">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(149 45% 42%)">FO</div>
+    <div><div class="who">Foote</div><div class="when">2013-10-15 18:48 UTC</div></div>
+    <div class="postnum">#9</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="dpt">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png" class="avatar"> dpt:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>phantaskippy wrote:</b><br><blockquote>Foote wrote:<br><blockquote>All at once
+&nbsp;
+</blockquote>
+and by all at once he means in the order the heroes choose, but all destroyed once 7 damage is reached.
+</blockquote></div>
+I doubt it would ever matter, but I think the components would actually be destroyed in the order they came into play. There is a triggering event (dealing at least 7 damage), and the cards respond to that event in the usual order, which is as the cards were played.
+</blockquote>
+</aside>
+<p>At that point it's kinda&nbsp;a "6 of one, half dozen of the other" sort of thing. But technically you are correct. They would get destroyed in order. Why? Because they are simultaneaous triggers! And we have come full circle.</p></div>
+</div>
+<div class="post" id="post-10">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(95 45% 42%)">AR</div>
+    <div><div class="who">arenson9</div><div class="when">2013-10-15 21:35 UTC</div></div>
+    <div class="postnum">#10</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="dpt">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png" class="avatar"> dpt:</div>
+<blockquote>
+<p>I doubt it would ever matter, but I think the components would actually be destroyed in the order they came into play. There is a triggering event (dealing at least 7 damage), and the cards respond to that event in the usual order, which is as the cards were played.</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>I don't have Omnitron's deck in front of me. If you're playing in the Realm of Discord and Imbued Vitality is out, such that the components are targets, such that Chronoranger could put bounties on them, are there any components that would have an effect based on Chronoranger doing something, like drawing a card?</p></div>
+</div>
+<div class="post" id="post-11">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(266 45% 42%)">DY</div>
+    <div><div class="who">dypaca</div><div class="when">2013-10-15 21:55 UTC</div></div>
+    <div class="postnum">#11</div>
+  </div>
+  <div class="post-body"><p>There are certainly cases where it can matter.&nbsp; If Bunker has down Ammo Drop he will draw a card as each one is destroyed.&nbsp; And if one of the components is Interpolation Beam, each of those card draws will make Omnitron deal damage until the Beam is destroyed.</p></div>
+</div>
+<div class="post" id="post-12">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(228 45% 42%)">PH</div>
+    <div><div class="who">phantaskippy</div><div class="when">2013-10-16 01:23 UTC</div></div>
+    <div class="postnum">#12</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="dpt">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png" class="avatar"> dpt:</div>
+<blockquote>
+<p>&nbsp;</p>
+<div><b>phantaskippy wrote:</b><br><blockquote>Foote wrote:<br><blockquote>All at once
+&nbsp;
+</blockquote>
+and by all at once he means in the order the heroes choose, but all destroyed once 7 damage is reached.
+</blockquote></div>
+I doubt it would ever matter, but I think the components would actually be destroyed in the order they came into play. There is a triggering event (dealing at least 7 damage), and the cards respond to that event in the usual order, which is as the cards were played.
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Gah, I agree, I spoke before thinking it out. &nbsp;I always think the component destruction rule in on Omni's card, when it is on each component card.</p></div>
+</div>
+<div class="post" id="post-13">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(62 45% 42%)">HU</div>
+    <div><div class="who">Hummingbird</div><div class="when">2013-10-16 04:33 UTC</div></div>
+    <div class="postnum">#13</div>
+  </div>
+  <div class="post-body"><aside class="quote group-playtesters" data-username="dypaca">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dypaca/48/2079_2.png" class="avatar"> dypaca:</div>
+<blockquote>
+<p>There are certainly cases where it can matter.&nbsp; If Bunker has down Ammo Drop he will draw a card as each one is destroyed.&nbsp; And if one of the components is Interpolation Beam, each of those card draws will make Omnitron deal damage until the Beam is destroyed.</p>
+</blockquote>
+</aside>
+<p>&nbsp;</p>
+<p>Thanks, I will keep what you said about Bunker in mind, as I plan to play a game with him soon against Omnitron.</p>
+<p>Also, thanks everyone else.</p></div>
+</div>
+<div class="post" id="post-14">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(338 45% 42%)">EN</div>
+    <div><div class="who">Envisioner</div><div class="when">2013-10-16 04:42 UTC</div></div>
+    <div class="postnum">#14</div>
+  </div>
+  <div class="post-body"><p>Of course, Ammo Drop draws are optional.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Argent Adept Six-Instrument Orchestration</title>
+<link rel="stylesheet" href="../../../style.css">
+</head><body><div class="wrap">
+<div class="crumbs"><a href="../../../index.html">All Categories</a> &rsaquo; <a href="../../../other-games/index.html">Other Games</a> &rsaquo; <a href="../../../other-games/sotm-game-engine/index.html">SotM Game Engine</a> &rsaquo; Argent Adept Six-Instrument Orchestration</div>
+<h1>Argent Adept Six-Instrument Orchestration</h1>
+<div class="desc">2 posts &middot; 84 views &middot; started 2025-10-21 02:28 UTC</div>
+<div class="post" id="post-1">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-10-21 02:28 UTC</div></div>
+    <div class="postnum">#1</div>
+  </div>
+  <div class="post-body"><p>It’s been a while since I did this fun little puzzle.  How to play all six instruments in a single turn?  For ease of reference, I’m going to give the involved cards shorter names as follows:</p>
+<ul>
+<li>“Super” is Inspiring Supertonic.</li>
+<li>“Sub” is Alacritous Subdominant.</li>
+<li>All Instruments are referred to only by the instrument name (Harp, Lyra, Drum, Bell, Horn and Pipes).</li>
+</ul>
+<p>Step 1:  During your play phase, play Polyphoric Flare to gain your first Power of the turn by taking 2 damage.  Activate one Instrument that isn’t relevant to the rest of this sequence (the Pipes are a good choice, since they don’t do an Accompany).<br>
+Step 2:  With your normal power, use the Lyra.  Choose to Perform Super, regaining your power.<br>
+Step 3:  With the Lyra still waiting to Accompany, use your third power of the turn to activate the Bell.  Perform any Rhythm you like, then activate the Accompany of Sub.  You now gain your fourth power, at the expense of Sub being destroyed as soon as the Bell finishes resolving.  Choose to Perform Super again, regaining your power yet again.<br>
+Step 4:  The Bell and Lyra are still pending; with this activate your fifth Power and play the Harp.  Have the Harp use the Perform of Super again, and regain your power yet again.<br>
+Step 5:  The Lyra, then Bell, and then Harp all have Accompanies pending, but first you must fully resolve one more Power; use this to play the Drum or Pipes.  For ease of reference we’ll say it’s the Pipes; you Perform two Melodies and that power fully resolves.<br>
+Step 6:  With the pending Harp accompany, activate a Harmony <em>other</em> than Sub.  The Harp effect now fully resolves.<br>
+Step 7:  The Bell activates the Accompany of Sub, which will be destroyed when it fully resolves.  Use the resulting Power to activate the Horn, Perform one of your Melodies a second time, and then re-activate the Accompany of Sub, giving you one more Power.  With this, you activate the Drum.<br>
+Step 8:  The Drum activates a Rhythm Accompany and then Performs a Melody, possibly for the third time this turn.</p>
+<p>Okay I think I did something wrong.  I need to test this in the program to see how it resolves the timing of Sub’s Accompany - is it destroyed the first time one of the pending Accompanies resolve, or only the last time?  If the latter, this is a much easier formula and doesn’t require Polyphoric Flare, unless you want to Vocalize on top of all six Instruments.</p></div>
+</div>
+<div class="post" id="post-2">
+  <div class="post-head">
+    <div class="avatar" style="background:hsl(191 45% 42%)">LO</div>
+    <div><div class="who">LonelyMan</div><div class="when">2025-10-21 03:50 UTC</div></div>
+    <div class="postnum">#2</div>
+  </div>
+  <div class="post-body"><p>Alright, I worked out how it was to have been done, and all the above is completely wrong.  Here’s the correct sequence, or one of them:</p>
+<p>1 - The Argent Adept uses the power on Xu’s Bell.<br>
+Created decision [ActivateAbility/ActivateAbility D542 The Argent Adept]<br>
+The Argent Adept activates the text on Inventive Preparation.<br>
+Created decision [SelectTurnTakers/None D543 The Argent Adept]<br>
+Created decision [SelectTurnTaker/None D544 The Argent Adept]<br>
+Revealed card: Mere  Location: Haka’s revealed cards<br>
+Created decision [YesNoCard/None D545 Haka]<br>
+Haka discards Mere.<br>
+Inventive Preparation moved Mere from Haka’s revealed cards to Haka’s trash.<br>
+Created decision [SelectTurnTaker/None D546 The Argent Adept]<br>
+Revealed card: Retcon  Location: Guise’s revealed cards<br>
+Created decision [YesNoCard/None D547 Guise]<br>
+Guise discards Retcon.<br>
+Inventive Preparation moved Retcon from Guise’s revealed cards to Guise’s trash.<br>
+Created decision [SelectTurnTaker/None D548 The Argent Adept]<br>
+Revealed card: Sarabande of Destruction  Location: The Argent Adept’s revealed cards<br>
+Created decision [YesNoCard/None D549 The Argent Adept]<br>
+The Argent Adept discards Sarabande of Destruction.<br>
+Inventive Preparation moved Sarabande of Destruction from The Argent Adept’s revealed cards to The Argent Adept’s trash.<br>
+Created decision [SelectTurnTaker/None D550 The Argent Adept]<br>
+Created decision [ActivateAbility/ActivateAbility D551 The Argent Adept]<br>
+The Argent Adept activates the text on Alacritous Subdominant.<br>
+Created decision [UsePower/UsePower D552 The Argent Adept]<br>
+2 - The Argent Adept uses the power on Telamon’s Lyra.<br>
+Created decision [ActivateAbility/ActivateAbility D553 The Argent Adept]<br>
+The Argent Adept activates the text on Inspiring Supertonic.<br>
+Created decision [SelectTurnTaker/None D554 The Argent Adept]<br>
+Created decision [UsePower/UsePower D555 The Argent Adept]<br>
+3 - The Argent Adept uses the power on Eydisar’s Horn.<br>
+Created decision [ActivateAbility/ActivateAbility D556 The Argent Adept]<br>
+The Argent Adept activates the text on Rhapsody of Vigor.<br>
+Created decision [SelectCards/None D557 The Argent Adept]<br>
+Created decision [SelectCard/None D557-1 The Argent Adept]<br>
+Rhapsody of Vigor caused Haka to regain 1 HP. HP is now 6.<br>
+Created decision [SelectCard/None D557-2 The Argent Adept]<br>
+Rhapsody of Vigor caused The Argent Adept to regain 1 HP. HP is now 21.<br>
+Created decision [SelectCard/None D557-3 The Argent Adept]<br>
+Rhapsody of Vigor caused Guise to regain 1 HP. HP is now 22.<br>
+Created decision [SelectCard/None D557-4 The Argent Adept]<br>
+Created decision [ActivateAbility/ActivateAbility D558 The Argent Adept]<br>
+The Argent Adept activates the text on Alacritous Subdominant.<br>
+Created decision [UsePower/UsePower D559 The Argent Adept]<br>
+4 - The Argent Adept uses the power on Musaragni’s Harp.<br>
+Created decision [ActivateAbility/ActivateAbility D560 The Argent Adept]<br>
+The Argent Adept activates the text on Inspiring Supertonic.<br>
+Created decision [SelectTurnTaker/None D561 The Argent Adept]<br>
+Created decision [UsePower/UsePower D562 The Argent Adept]<br>
+5 - The Argent Adept uses the power on Akpunku’s Drum.<br>
+Created decision [ActivateAbility/ActivateAbility D563 The Argent Adept]<br>
+The Argent Adept activates the text on Inventive Preparation.<br>
+Created decision [SelectTurnTaker/None D564 The Argent Adept]<br>
+Created decision [SelectCard/None D565 Guise]<br>
+Inventive Preparation plays Super Ultra Kawaii!!.<br>
+Created decision [ActivateAbility/ActivateAbility D566 The Argent Adept]<br>
+The Argent Adept activates the text on Rhapsody of Vigor.<br>
+Created decision [SelectCards/None D567 The Argent Adept]<br>
+Created decision [SelectCard/None D567-1 The Argent Adept]<br>
+Rhapsody of Vigor caused Haka to regain 1 HP. HP is now 7.<br>
+Created decision [SelectCard/None D567-2 The Argent Adept]<br>
+Rhapsody of Vigor caused The Argent Adept to regain 1 HP. HP is now 22.<br>
+Created decision [SelectCard/None D567-3 The Argent Adept]<br>
+Rhapsody of Vigor caused Guise to regain 1 HP. HP is now 23.<br>
+Created decision [SelectCard/None D567-4 The Argent Adept]<br>
+Created decision [ActivateAbility/ActivateAbility D568 The Argent Adept]<br>
+The Argent Adept activates the text on Alacritous Subdominant.<br>
+Created decision [UsePower/UsePower D569 The Argent Adept]<br>
+6 - The Argent Adept uses the power on Drake’s Pipes.</p>
+<p>The bell and the horn can probably be switched, and the Lyra could move to virtually any position in the sequence, but it’s absolutely crucial that you start with bell and horn BEFORE doing harp, and end with pipes and drum in either order after harp.  All this is of course assuming you have no additional powers from outside your deck, and no more than the bare minimum 8 cards in play (which would mean every Rhythm and Melody activation would go to waste, you need one each of those and preferably a second Melody to get the most out of this achievement, all the Instruments and 1 each of the two relevant Harmony cards is the minimum for the achievement itself).  Throwing in a Polyphoric Flare or a Silver Shadow somewhere in this process helps, but not as much as you’d think; the need to get the exact sequence of “horn/bell before harp before pipes/drum” is the crucial part.</p></div>
+</div>
+<footer>Offline archive of forums.greaterthangames.com &middot; generated from local backup</footer>
+</div></body></html>
