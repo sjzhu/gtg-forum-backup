@@ -1,0 +1,4215 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 188975,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-06-28T19:13:38.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Roger the Alien\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Roger the Alien:</div>\n<blockquote>\n<p>Slaughterhouse Six Ambuscades Pitfall card says \"Play this card in the Hero play area with the fewest Snare cards. Whenever that Hero's player draws a card, each target in this play area deals itself 2 melee damage. Then, destroy this card.\"I am not a native english speaker therefore others probably had no problem with the text but I had the impression that whenever is related to a sequence whereas the wording \"when\" would mean a single card draw. Mr. Fixer had his Crowbars on the field and I skipped his play and power phase to let him draw 2 cards because I thought he wold be able to deal him and another target 2 times damage.</p>\n</blockquote>\n</aside>\n<p>Well, yeah, by my reading it would trigger on each draw, but you'd need Fixed Point to test it because it'll get destroyed after the first one.</p>",
+        "post_number": 171,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:02.657Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188976,
+        "name": "XtremeGuardian",
+        "username": "XtremeGuardian",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/x/278dde/{size}.png",
+        "created_at": "2017-06-28T19:17:33.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Roger the Alien wrote:</b><br><blockquote>Slaughterhouse Six Ambuscades Pitfall card says \"Play this card in the Hero play area with the fewest Snare cards. Whenever that Hero's player draws a card, each target in this play area deals itself 2 melee damage. Then, destroy this card.\"I am not a native english speaker therefore others probably had no problem with the text but I had the impression that whenever is related to a sequence whereas the wording \"when\" would mean a single card draw. Mr. Fixer had his Crowbars on the field and I skipped his play and power phase to let him draw 2 cards because I thought he wold be able to deal him and another target 2 times damage.\n&nbsp;\n</blockquote></div>\nWell, yeah, by my reading it would trigger on each draw, but you'd need Fixed Point to test it because it'll get destroyed after the first one.\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>This ^. The card destroys itself after the first draw and thus the second draw would not trigger any damage. Fixed Point would be needed for what you are describing.</p>",
+        "post_number": 172,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:02.718Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "XtremeGuardian",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8371,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-06-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188977,
+        "name": "scifantasy",
+        "username": "scifantasy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/scifantasy/{size}/2070_2.png",
+        "created_at": "2017-06-28T19:29:39.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Blackfang108\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/b/74df32/48.png\" class=\"avatar\"> Blackfang108:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>carnilius wrote:</b><br><blockquote>I was surprised to find that Glamour triggers on every X, not just once per turn.\n&nbsp;\n</blockquote></div>\nSo was I.\n</blockquote>\n</aside>\n<p>It's once per turn <em>per Nemesis</em>, is the problem. So if you have (to pick a completely random, wasn't-at-all-encountered-by-a-lot-of-people example) Glamour and Ray Manta in play, the first attack against <em>each</em> of them will rebound. If you attacked Glam twice, the second attack would go through, but the first hit against Glam doesn't mean the first hit against Ray goes through.</p>",
+        "post_number": 173,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:02.781Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "scifantasy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15578,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-04-18",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188978,
+        "name": "The Burning Stickman",
+        "username": "The_Burning_Stickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/the_burning_stickman/{size}/2003_2.png",
+        "created_at": "2017-06-28T19:53:14.000Z",
+        "cooked": "<p>Glamour isn't so bad if you have someone capable of attacking multiple times in a round (Chrono Ranger, Ra, KNYFE) or anyone who can destroy without causing damage (AA, Fanatic, Naturalist). I think once I comboed one into another -- PW Fanatic used Smite the Transgressor to eat up the redirect, smacked her with Absolution, then used her base power to let Naturalist eat her.</p><p>She's a pain, but there's ways around her.</p>",
+        "post_number": 174,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:02.859Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "The Burning Stickman",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11920,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-02-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188979,
+        "name": "carnilius",
+        "username": "carnilius",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/d07c76/{size}.png",
+        "created_at": "2017-06-28T19:56:13.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"scifantasy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/scifantasy/48/2070_2.png\" class=\"avatar\"> scifantasy:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Blackfang108 wrote:</b><br><blockquote>&nbsp;carnilius wrote:<br><blockquote>I was surprised to find that Glamour triggers on every X, not just once per turn.&nbsp;\n&nbsp;\n</blockquote>\nSo was I.\n</blockquote></div>\nIt's once per turn <em>per Nemesis</em>, is the problem. So if you have (to pick a completely random, wasn't-at-all-encountered-by-a-lot-of-people example) Glamour and Ray Manta in play, the first attack against <em>each</em> of them will rebound. If you attacked Glam twice, the second attack would go through, but the first hit against Glam doesn't mean the first hit against Ray goes through.\n</blockquote>\n</aside>\n<p>Yes, this is what I meant by every X, whereas the same wording on other cards only applies to the first X. &nbsp;Which is why I was surprised it worked that way.</p>",
+        "post_number": 175,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:02.921Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 0.8,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "carnilius",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7855,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-02-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188980,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-06-28T20:01:20.000Z",
+        "cooked": "<p>It has similar wording to Wrong Time and Place so this interaction did not surprise me.&nbsp;</p>",
+        "post_number": 176,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:02.990Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 0.8,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188981,
+        "name": "carnilius",
+        "username": "carnilius",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/d07c76/{size}.png",
+        "created_at": "2017-06-28T20:21:17.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Glamour\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Glamour:</div>\n<blockquote>\n<p>The first time a Nemesis card would be dealt damage by a Hero target each turn, redirect that damage to the Hero target with the highest HP.</p>\n</blockquote>\n</aside>\n<aside class=\"quote no-group\" data-username=\"Chiquito\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Chiquito:</div>\n<blockquote>\n<p>The first time a player discards a card each turn, place it under this card.</p>\n</blockquote>\n</aside>\n<p>The way these are phrased is identical, whereas, as implemented, Glamour works for every Nemesis and yet Chiquito only works on the first player.</p>",
+        "post_number": 177,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.050Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "carnilius",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7855,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-02-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188982,
+        "name": "The Burning Stickman",
+        "username": "The_Burning_Stickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/the_burning_stickman/{size}/2003_2.png",
+        "created_at": "2017-06-28T20:44:10.000Z",
+        "cooked": "<p>The word \"each\" would clear&nbsp;<em>so</em>&nbsp;much up.</p>",
+        "post_number": 178,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.118Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "The Burning Stickman",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11920,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-02-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188983,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2017-06-28T21:03:36.000Z",
+        "cooked": "<p>Each vs Any would be a very simple, unambiguous, comprehensive solution.</p>",
+        "post_number": 179,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.184Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188984,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-06-28T21:48:21.000Z",
+        "cooked": "<p>Compare it also to something like Destructive Response. I want to be able to deal damage every time a Construct is blown up, darn it! :| Just without the option of bringing it back into play for a double-dip, you know, that one's already had its turn.</p>",
+        "post_number": 180,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.243Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188985,
+        "name": "Roger the Alien",
+        "username": "Roger_the_Alien",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/76d3ee/{size}.png",
+        "created_at": "2017-06-29T13:18:49.000Z",
+        "cooked": "<p>Hi</p><p>Thermobaric Mine of Greazer: \"<span>When this card enters play, put it in the play area of the player with the most cards in play. Then, this card deals each hero target in this play area 1 fire damage. Whenever a card enters this play area, this card deals each Hero target in this play area 1 fire damage.\"</span></p><p><font color=\"#252525\" face=\"sans-serif\"><span>\"Enters this play area\" doesn't include one-shots correct?</span></font></p><p><font color=\"#252525\" face=\"sans-serif\"><span>I thought EACH card enters the play area but the mine didn't activate, thematically it makes sense.&nbsp;</span></font></p><p><font color=\"#252525\" face=\"sans-serif\"><span>Does the mine also activates if ongoings and equipments are played beside targets, i. e. all cards which stay in the play area?</span></font></p><p>PS. The wiki is missing some text for Electroshackles, whoy should be contacted?</p><p>https://sentinelswiki.com/index.php?title=Greazer_Clutch</p>",
+        "post_number": 181,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.351Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Roger the Alien",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15656,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-05-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188986,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-06-29T13:23:32.000Z",
+        "cooked": "<p>One-shots do not enter a play area. &nbsp; There are very odd interations that can occur if one-shots were considered to be in a play area. &nbsp; Also, you might refresh the Greazer page. &nbsp;</p>",
+        "post_number": 182,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.419Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 0.8,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188987,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2017-06-29T13:34:44.000Z",
+        "cooked": "<p>You can edit the wiki yourself!</p>",
+        "post_number": 183,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.477Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 0.8,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188988,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-06-29T18:48:15.000Z",
+        "cooked": "<p>One shots do enter play, though.  Just not into a play area.  Right?</p>",
+        "post_number": 184,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.535Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 0.8,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188989,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-06-29T18:50:08.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p>One shots do enter play, though. Just not into a play area. Right?</p>\n</blockquote>\n</aside>\n<p>Unless I'm reading my prior post wrong that's what I wrote. &nbsp; One-shots can trigger a card like Surprise Shopping Trip but will not trigger Thermobaric Mine. &nbsp;</p>",
+        "post_number": 185,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.598Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 0.8,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188990,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-06-30T03:11:52.000Z",
+        "cooked": "<p>It amazed me when I first saw that happen. I beat Greazer a whole lot while triggering Mines via One-Shots!</p>",
+        "post_number": 186,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.659Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188991,
+        "name": "FrivYeti",
+        "username": "FrivYeti",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+        "created_at": "2017-06-30T17:37:50.000Z",
+        "cooked": "<p>I remember being real surprised to learn that, even though Ambuscade's Slaughterhouse Six stay in play when he's defeated, they aren't listed as villains that you need to beat to win, the way that Omnitron's devices are. You can wipe out the other villains, and then I guess the Slaughterhouse Six go home for the day?</p>",
+        "post_number": 187,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.717Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "FrivYeti",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13884,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188992,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2017-06-30T17:43:08.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"FrivYeti\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/frivyeti/48/1919_2.png\" class=\"avatar\"> FrivYeti:</div>\n<blockquote>\n<p>I remember being real surprised to learn that, even though Ambuscade's Slaughterhouse Six stay in play when he's defeated, they aren't listed as villains that you need to beat to win, the way that Omnitron's devices are. You can wipe out the other villains, and then I guess the Slaughterhouse Six go home for the day?<span></span></p>\n</blockquote>\n</aside>\n\n<p><span>If the heroes had beat all the big guns and it was just me left… I sure would!&nbsp; <img src=\"https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"> </span></p>",
+        "post_number": 188,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.781Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188993,
+        "name": "Blackfang108",
+        "username": "Blackfang108",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/74df32/{size}.png",
+        "created_at": "2017-06-30T18:10:17.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Rabit\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabit/48/5774_2.png\" class=\"avatar\"> Rabit:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>FrivYeti wrote:</b><br><blockquote>I remember being real surprised to learn that, even though Ambuscade's Slaughterhouse Six stay in play when he's defeated, they aren't listed as villains that you need to beat to win, the way that Omnitron's devices are. You can wipe out the other villains, and then I guess the Slaughterhouse Six go home for the day?\n&nbsp;\n</blockquote></div>\nIf the heroes had beat all the big guns and it was just me left... I sure would!&nbsp; :wink: \n</blockquote>\n</aside>\n<p>The better to come back another day when the odds are more favorable.</p>",
+        "post_number": 189,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.846Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Blackfang108",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14551,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-05-31",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188994,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-06-30T23:40:52.000Z",
+        "cooked": "<p>Glamour's sitting there like \"You better not hit us! Just you try it!\" and the heroes walk away, like, \"Okay, we won't.\"</p>",
+        "post_number": 190,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.917Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188995,
+        "name": "DMAN222",
+        "username": "DMAN222",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/fbc32d/{size}.png",
+        "created_at": "2017-07-01T02:43:08.000Z",
+        "cooked": "<p>Just found out that in the Realm of Discord, if a distortion comes into play, it will destroy Visionary's decoy projection, because it has a keyword of \"Distortion\". I would totally have screwed that up in the physical version.</p>",
+        "post_number": 191,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:03.983Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "DMAN222",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15680,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188996,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-07-01T12:35:06.000Z",
+        "cooked": "<p>I was so mad the first time I saw that happen. XD</p><p>I got one for you: Exploit Vulnerability + Surprise Shopping Trip</p><p>Watch those minions be taken out solely by the act of them entering play! :D</p>",
+        "post_number": 192,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.046Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188997,
+        "name": "carnilius",
+        "username": "carnilius",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/d07c76/{size}.png",
+        "created_at": "2017-07-03T18:21:04.000Z",
+        "cooked": "<p>Sergeant Steel in The Block was interesting, as all of his targets are Agents, so they are hurt by inmates and helped by other agents in the Block.</p>",
+        "post_number": 193,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.107Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "carnilius",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7855,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-02-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188998,
+        "name": "Trajector",
+        "username": "Trajector",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/trajector/{size}/1914_2.png",
+        "created_at": "2017-07-04T06:25:17.000Z",
+        "cooked": "<p>When playing against La Capitan, Freedom Six Tempest can use Sacrifice to get one of his stolen cards back!</p>",
+        "post_number": 194,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.167Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 5.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Trajector",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11097,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-13",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 188999,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-07-04T07:06:03.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Trajector\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/trajector/48/1914_2.png\" class=\"avatar\"> Trajector:</div>\n<blockquote>\n<p>When playing against La Capitan, Freedom Six Tempest can use Sacrifice to get one of his stolen cards back!</p>\n</blockquote>\n</aside>\n<p>Yep! &nbsp;Whoops, Sorry! works to, and Chokepoint can also be dealt with this way.</p>",
+        "post_number": 195,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.232Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189000,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-07-04T11:29:02.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Trajector wrote:</b><br><blockquote>When playing against La Capitan, Freedom Six Tempest can use Sacrifice to get one of his stolen cards back!\n&nbsp;\n</blockquote></div>\nYep! &nbsp;Whoops, Sorry! works to, and Chokepoint can also be dealt with this way.\n</blockquote>\n</aside>\n<p>Once flipped though for Chokepoint. &nbsp;It doesn't work on her intial side</p>",
+        "post_number": 196,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.302Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189001,
+        "name": "The Burning Stickman",
+        "username": "The_Burning_Stickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/the_burning_stickman/{size}/2003_2.png",
+        "created_at": "2017-07-11T19:18:56.000Z",
+        "cooked": "<p>If Greazer's contract goes on a character who has another Nemesis in play, Greazer also counts as that villain's nemesis -- so if he's after Setback, Plague Rat hits him even harder. It's in theory a neat way to get them to whack each other, but in practice it's meant Setback goes down&nbsp;<em>fast</em>.</p>",
+        "post_number": 197,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.367Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "The Burning Stickman",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11920,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-02-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189002,
+        "name": "bolnerap",
+        "username": "bolnerap",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/bolnerap/{size}/6056_2.png",
+        "created_at": "2017-07-13T19:19:11.000Z",
+        "cooked": "<p>hoo boy, every time I play in MMFFCC, I learn something new about Maze of Mirrors. I just had a fun matchup with a team that included FS Parse, Santa Guise, and Nightmist. Maze of Mirrors came out, and the shenanigans were flying.</p><p>Parse had Updated Intel in play, and Santa Guise kept copying it. Every time I played a card, I got to spy on two decks, which made Parse's base power, Santa Guise's power, and Nightmist's love of deck stacking very, very happy.</p><p>-</p><p>Also, in not necessarily \"unexpected\" combinations, but a fun one I ran across - Sky-Scraper loves seeing Mega Gunner get his ability activated twice so she can drop a net 12 damage (or more) Compulsion Canister.</p>",
+        "post_number": 198,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.426Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "bolnerap",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13579,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-12-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189003,
+        "name": "Donner",
+        "username": "Donner",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/donner/{size}/1903_2.png",
+        "created_at": "2017-07-21T18:42:01.000Z",
+        "cooked": "<p>Incidental Contact + Wrong Time and Place with enough tokens. &nbsp;Hit a target MANY times. &nbsp;Each redirect allows you to hit the new target twice. &nbsp;Used this on Gloomweaver to deal 36 damage to him in one go. (6 per hero and 6 for Gloomy himself, using Conduit Blade and Null Amplifier)</p>",
+        "post_number": 199,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.485Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Donner",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4238,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189004,
+        "name": "Natediggadoggity",
+        "username": "Natediggadoggity",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/f04885/{size}.png",
+        "created_at": "2017-08-06T21:41:03.000Z",
+        "cooked": "<p>I won a game in Madame Mittermeier's against Infinitor by abusing All-Seeing Alzrabar WHILE Nightmist was in mist form. SInce Alzrabar just reveals a card, and then puts it into play, It let Nightmist go from below 5 hp to almost full as she played one shot after one shot, finally taking out Infinitor. Young Legs, Ra, and Wraith took care of the rest of the environment and gave Nightmist enough card draw so she could discard almost every turn and stay in Mist Form.</p><p>&nbsp;</p><p>Story wise, I imagine Nightmist in mist form kinda floating around and investigating this weird fortune telling machine, kinda ignoring Infinitor, while he wrecks the place with manifestations and the carnival fights back.</p>",
+        "post_number": 200,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.544Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Natediggadoggity",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12286,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189005,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2017-08-06T23:10:20.000Z",
+        "cooked": "<p>Wait… How did you fill up on health? With Starshield? Because Master of Magic shouldn’t trigger from “put into play” effects.</p>",
+        "post_number": 201,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.607Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189006,
+        "name": "Reverend Pete",
+        "username": "Reverend_Pete",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/278dde/{size}.png",
+        "created_at": "2017-08-07T00:06:13.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"McBehrer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mcbehrer/48/1850_2.png\" class=\"avatar\"> McBehrer:</div>\n<blockquote>\n<p>Wait… How did you fill up on health? With Starshield? Because Master of Magic shouldn't trigger from \"put into play\" effects.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Mist-Fueled Recovery would work though, right?</p>",
+        "post_number": 202,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.675Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Reverend Pete",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11056,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189007,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-08-07T00:09:52.000Z",
+        "cooked": "<p>Yes. &nbsp;Although it wouldn't trigger Master of Magic either. &nbsp; <img src=\"//forums.greaterthangames.com/images/emoji/apple/wink.png?v=9\" title=\":wink:\" class=\"emoji\" alt=\":wink:\"></p>",
+        "post_number": 203,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.747Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189008,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-08-07T00:58:09.000Z",
+        "cooked": "<p>I would assume through Mist Fueled Recovery coming up as one of the revealed cards.&nbsp;</p>",
+        "post_number": 204,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.809Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189009,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2017-08-07T02:42:34.000Z",
+        "cooked": "<p>Yeah. Just making sure Master of Magic wasn’t acting up.</p>",
+        "post_number": 205,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.869Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189010,
+        "name": "hstein3",
+        "username": "hstein3",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/hstein3/{size}/2159_2.png",
+        "created_at": "2017-08-20T18:43:00.000Z",
+        "cooked": "<p>Another good one I found:</p>\n<p>Shooting Gallery (Madam Mittermeiers) and Hippocratic Oath. Make Dr. Medico the lowest HP hero and you get a nice round of healing out of it. Best part is that you can spread those heals out however you choose.</p>\n<p>Another good card for The Sentinels in that environment is the fortune teller. Since their deck is almost entirely one shots, you can almost play one every turn. Not too shabby.</p>",
+        "post_number": 206,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:04.985Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "hstein3",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12472,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189011,
+        "name": "Natediggadoggity",
+        "username": "Natediggadoggity",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/f04885/{size}.png",
+        "created_at": "2017-08-21T00:32:43.000Z",
+        "cooked": "<p>Yes, with Starshield, and with Mist-Fueled recovery.</p>",
+        "post_number": 207,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.051Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Natediggadoggity",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12286,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189012,
+        "name": "Natediggadoggity",
+        "username": "Natediggadoggity",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/f04885/{size}.png",
+        "created_at": "2017-09-06T18:05:02.000Z",
+        "cooked": "<p>I just realized today, that Prime Wardens Haka's power allows him to use Haka of Shielding to protect any target. So I can totally use him to protect the Dreamer so I can rampage the next turn.</p>",
+        "post_number": 208,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.105Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Natediggadoggity",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12286,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189013,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-09-06T19:19:43.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Natediggadoggity\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/n/f04885/48.png\" class=\"avatar\"> Natediggadoggity:</div>\n<blockquote>\n<p>I just realized today, that Prime Wardens Haka's power allows him to use Haka of Shielding to protect any target. So I can totally use him to protect the Dreamer so I can rampage the next turn.</p>\n</blockquote>\n</aside>\n<p>I've done that to help beat her on Challenge mode. &nbsp;I discarded… a lot. &nbsp;The only time I've really made use of Haka of Shielding.</p>",
+        "post_number": 209,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.161Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189014,
+        "name": "Phantom5613",
+        "username": "Phantom5613",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantom5613/{size}/1906_2.png",
+        "created_at": "2017-09-18T17:18:43.000Z",
+        "cooked": "<p>Not sure if it's been said, but if it has I'll say it again anyway:</p><p>XPW Captain Cosmic and Unity's Hasty Augmentation. That is all.</p>",
+        "post_number": 210,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.223Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Phantom5613",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-24",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189015,
+        "name": "LewdDolphin21",
+        "username": "LewdDolphin21",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lewddolphin21/{size}/1893_2.png",
+        "created_at": "2017-09-19T16:07:24.000Z",
+        "cooked": "<p>I don't know that it's unexpected, but Captain Cosmic's Augmented Ally (discard a card at the start of your turn to use a power) and Unflagging Animation (at the start of your turn you may put a Construct from your trash into play) combo really well, letting you discard a Construct to immediately put it into play... provided you play them in the right order!</p>",
+        "post_number": 211,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.285Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "LewdDolphin21",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12593,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-07-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189016,
+        "name": "darkroydante",
+        "username": "darkroydante",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/darkroydante/{size}/2044_2.png",
+        "created_at": "2017-09-20T02:06:54.000Z",
+        "cooked": "<p>Not sure if this has been brought up:&nbsp;</p><p>Requital Cosmic and XPW Haka. If Haka has Ta-Moko, the drawback of Requital is nullified, (assuming nothing else alters the damage.) &nbsp;In a similar way, XPW Argent and XPW Haka are great together. Haka shields anyone and Argent Yells at them. It's redirected to Haka. If he has Ta-Moko, he takes 1 damage, then regains 1 HP. So \"free\" play and power.&nbsp;</p>",
+        "post_number": 212,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.347Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "darkroydante",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11478,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-01-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189017,
+        "name": "hstein3",
+        "username": "hstein3",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/hstein3/{size}/2159_2.png",
+        "created_at": "2017-09-21T23:40:39.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"darkroydante\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/darkroydante/48/2044_2.png\" class=\"avatar\"> darkroydante:</div>\n<blockquote>\n<p>Not sure if this has been brought up: Requital Cosmic and XPW Haka. If Haka has Ta-Moko, the drawback of Requital is nullified, (assuming nothing else alters the damage.)  In a similar way, XPW Argent and XPW Haka are great together. Haka shields anyone and Argent Yells at them. It’s redirected to Haka. If he has Ta-Moko, he takes 1 damage, then regains 1 HP. So “free” play and power.</p>\n</blockquote>\n</aside>\n<p>Well, who gets the play and power use? You have to take damage that way to get it.</p>",
+        "post_number": 213,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.415Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "hstein3",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12472,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189018,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-09-22T00:20:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"hstein3\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/hstein3/48/2159_2.png\" class=\"avatar\"> hstein3:</div>\n<blockquote>\n<p><b>darkroydante wrote:</b></p>\n<div><blockquote>Not sure if this has been brought up:&nbsp;Requital Cosmic and XPW Haka. If Haka has Ta-Moko, the drawback of Requital is nullified, (assuming nothing else alters the damage.) &nbsp;In a similar way, XPW Argent and XPW Haka are great together. Haka shields anyone and Argent Yells at them. It's redirected to Haka. If he has Ta-Moko, he takes 1 damage, then regains 1 HP. So \"free\" play and power.&nbsp;</blockquote></div>\nWell, who gets the play and power use? You have to take damage that way to get it.\n</blockquote>\n</aside>\n<p>That raises an interesting question: what happens when you stack Haka's power?<br>&nbsp;<br>I f he stacks it on the same ally twice, only the first \"copy\" would redirect the damage, but would he be healed twice?&nbsp; I'd suspect not, inferring that \"whenever Haka is dealt damage this way\" applies only to the damage dealt as a result of that particular \"copy\" of the ability. <br> &nbsp;<br>But what if he used it on an ally and then used it on himself?&nbsp; Oddly, it doesn't seem illegal to do so.&nbsp; Per the ruling on Smoke Bombs (damage dealt to Wraith while she's the only hero target in play is reduced), it seems like he'd redirect the damage to himself, and since the damage was in fact redirected by both \"copies\" and he did take that damage, I'd think he'd be healed twice. <br> &nbsp;<br>Guess we'll find out in the next couple of weeks!</p>",
+        "post_number": 214,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.494Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189019,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2017-09-22T04:41:32.000Z",
+        "cooked": "<p>You cannot redirect damage being dealt to a target to itself. Using XPW Haka's power on himself doesn't do anything at all.</p>",
+        "post_number": 215,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.564Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189020,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-09-22T12:34:30.000Z",
+        "cooked": "<p>aw :(</p><p>I mean, they'll call ya Jerk Haka, but you basically get free DR that way!</p>",
+        "post_number": 216,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.623Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189021,
+        "name": "Dandolo",
+        "username": "Dandolo",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dandolo/{size}/1845_2.png",
+        "created_at": "2017-09-22T12:42:09.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"TakeWalker\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/takewalker/48/5677_2.png\" class=\"avatar\"> TakeWalker:</div>\n<blockquote>\n<p>aw :(I mean, they’ll call ya Jerk Haka, but you basically get free DR that way!</p>\n</blockquote>\n</aside>\n<p>Yeah, it’s too bad… it would have made Enduring Intercession a good play if Haka could target himself.</p>",
+        "post_number": 217,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.687Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Dandolo",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13339,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-11-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189022,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-09-22T13:05:16.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Dandolo\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dandolo/48/1845_2.png\" class=\"avatar\"> Dandolo:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>TakeWalker wrote:</b><br><blockquote>aw :(I mean, they'll call ya Jerk Haka, but you basically get free DR that way!\n&nbsp;\n</blockquote></div>\nYeah, it's too bad.... it would have made Enduring Intercession a good play if Haka could target himself.\n</blockquote>\n</aside>\n<p>I really wish this variant had been made so any damage dealt to Haka which was redirected to him caused the health gain so Enduring Intercessiom turned into a card you're more likely to play. &nbsp;</p>",
+        "post_number": 218,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.758Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189023,
+        "name": "Jeysie",
+        "username": "Jeysie",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/jeysie/{size}/1868_2.png",
+        "created_at": "2017-09-22T13:59:06.000Z",
+        "cooked": "<p>I feel like \"find a way to make Enduring Intercession useful\" is one of this fandom's Holy Grails.</p>",
+        "post_number": 219,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.823Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Jeysie",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15072,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-11-11",
+        "user_birthdate": "1904-03-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 189024,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-09-22T14:07:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Jeysie\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/jeysie/48/1868_2.png\" class=\"avatar\"> Jeysie:</div>\n<blockquote>\n<p>I feel like \"find a way to make Enduring Intercession useful\" is one of this fandom's Holy Grails.</p>\n</blockquote>\n</aside>\n<p>It can be useful but often isn't worth the trouble especially in the core game environments. &nbsp;So I agree it is a Holy Grail of sorts and I certainly had hoped XPW Haka might have lead to finding that. &nbsp;</p>",
+        "post_number": 220,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:15:05.880Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 16159,
+        "topic_slug": "unexpected-combinations",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 16159
+}

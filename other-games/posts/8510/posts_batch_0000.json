@@ -1,0 +1,512 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 70745,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T18:56:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Bunker has Ammo Drop in play and destroys Tome of the Unknowable. The card is destroyed but still in play. Bunker draws a card for destroying a villain card, which causes the top of the villain deck to be played. The villain deck plays Fallen Angel which does what? Is TotU now back to full health? Would you still search for Comdenation?</p>\n</blockquote>\n</aside>\n<p>Thanks Spiff for the quick clarification.</p>\n<p>Bunker with Ammo Drop destroying Tome of the Unknowable. Both of those cards have conditional triggers of a card being destroyed. These are now simultanious triggers, which means that the order of resolution will depend of what card was out first.</p>\n<p>If this was Advanced mode, Tome would act first since it must have been in play before Ammo Drop. Its trigger resolves first, searching for Condemnatiom, then will move to the trash since it now has completed its final effect. Bunker now draws his card safely.</p>\n<p>If it was the other way around, Bunker would draw his Ammo Drop card first, triggering Tome to play the top card of the deck (and newest consecutive triggers always go first). Fallen Angel would NOT heal the Tome, as the Tome has already been tagged for destruction. Then Tome would carry out its destruction effect, searching for the sword, and then move to the trash.</p>\n<p>Now I know your next point already. But Kismet can get healed after being destroyed with Lady Luck in play, why not the Tome in the above example? Well, this is where Ronways proposed wording change matters. Lady Luck triggers on the same wording that Ronway proposes, which is \"When X would be destroyed, instead do this\" sort of deal. What that actually does is postpone taging a card for destruction and keeps them as eligable targets for other effects.</p>\n<p>Now, I guess that Ronways proposed wording would makes the interaction much cleaner and less confusing, and if that change were to be made, I wouldn't hate it.&nbsp;</p>\n<p>&nbsp;</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:42.701Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8510,
+        "topic_slug": "multiple-destroy-effects-timing-vs-globals",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70746,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T04:18:00.000Z",
+        "cooked": "<p>I would approach the second question differently: &nbsp;Those are not simultaneous effects.</p><p>When a target hits 0hp and enters the destruction check, or when a dard is destroyed by a card effect (not HP) you enter the \"unless otherwise stated\" phase of the desrtuction check.</p><p>This is where Lady Luck, character cards flipping sides happen.</p><p>These are the \"When a card would be destroyed\" effects.</p><p>Next the card that is being destroyed must be dealt with, which includes its own text about when it is destroyed. &nbsp;It is still in play, it resolves it's effect then leaves play.</p><p>As it leaves play all other effects that occur when a card is destroyed trigger.</p><p>Bunker would not trigger tome of the unk<span>nowable. &nbsp;That would be wrong. &nbsp;An action that occurs because a card is destroyed preventing that destruction would prevent itself. &nbsp;Bunker can't draw a card because Tome wasn't destroyed. &nbsp;But then Paradox.</span></p><p><span>I'd put the order:</span></p><p><span>1: &nbsp;Destruction check is triggered.</span></p><p><span>2: &nbsp;Is card indestructible, if so stop.</span></p><p><span>3. &nbsp;Check for would be destroyed effects and resolve.</span></p><p><span>4. &nbsp;Check destruction target card for destruction effects and resolve.</span></p><p><span>5. &nbsp;Move card to trash, or other place if appropriate.</span></p><p><span>6. &nbsp;Trigger remaining \"when card is destroyed\" effects.</span></p><p>I honestly think we overuse the order of cards played rule, it doesn't work well here.</p><p>This issue reminds me of damage timing, \"would be\" rext can take place before damage is certain, and before a destruction is certain, while \"is dealt\" takes place after damage or destruction is certain. &nbsp;But even then there is timing differences. &nbsp;Legacy can reduce damage when he is dealt damage, and AZ can turn damage dealt into healing, or respond to it with Isothermic. &nbsp;That last example takes place after damage is dealt, not while it is being dealt. &nbsp;It is a response trigger. &nbsp;Bunker drawing a card is more AZ's Isothermic conductor timing than damage reduction reducing damage, it is a response trigger.</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:42.779Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8510,
+        "topic_slug": "multiple-destroy-effects-timing-vs-globals",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70747,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-08-13T04:31:47.000Z",
+        "cooked": "<p>In the past I'd just assumed that \"when this card is destroyed\" effects are exceptions to card effects being canceled when the card is destroyed.&nbsp; Similar to how Unity's Bots and Spite's Drugs have text which only applies when they are not in play.&nbsp; Basically if the text can't have an effect while the card is in play, then it is in effect when the card is not in play.</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:42.868Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8510,
+        "topic_slug": "multiple-destroy-effects-timing-vs-globals",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70748,
+        "name": "pppery",
+        "username": "pppery",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/p/3d9bf3/{size}.png",
+        "created_at": "2013-08-16T02:26:38.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Pydro wrote:</b><br><blockquote>Bunker has Ammo Drop in play and destroys Tome of the Unknowable. The card is destroyed but still in play. Bunker draws a card for destroying a villain card, which causes the top of the villain deck to be played. The villain deck plays Fallen Angel which does what? Is TotU now back to full health? Would you still search for Comdenation?\n&nbsp;\n</blockquote></div>\nThanks Spiff for the quick clarification.Bunker with Ammo Drop destroying Tome of the Unknowable. Both of those cards have conditional triggers of a card being destroyed. These are now simultanious triggers, which means that the order of resolution will depend of what card was out first. If this was Advanced mode, Tome would act first since it must have been in play before Ammo Drop. Its trigger resolves first, searching for Condemnatiom, then will move to the trash since it now has completed its final effect. Bunker now draws his card safely.If it was the other way around, Bunker would draw his Ammo Drop card first, triggering Tome to play the top card of the deck (and newest consecutive triggers always go first). Fallen Angel would NOT heal the Tome, as the Tome has already been tagged for destruction. Then Tome would carry out its destruction effect, searching for the sword, and then move to the trash.Now I know your next point already. But Kismet can get healed after being destroyed with Lady Luck in play, why not the Tome in the above example? Well, this is where Ronways proposed wording change matters. Lady Luck triggers on the same wording that Ronway proposes, which is \"When X would be destroyed, instead do this\" sort of deal. What that actually does is postpone taging a card for destruction and keeps them as eligable targets for other effects.Now, I guess that Ronways proposed wording would makes the interaction much cleaner and less confusing, and if that change were to be made, I wouldn't hate it.&nbsp;&nbsp;\n</blockquote>\n</aside>\n<p>Foote, this appears to contradict your view about fortunes smile + lady luck. Is your view that \"Would be destroyed\" can stop 0hp targets from being destroyed but \"is destroyed\" can't?</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:42.945Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8510,
+        "topic_slug": "multiple-destroy-effects-timing-vs-globals",
+        "display_username": "pppery",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1137,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70749,
+        "name": "tyquaius",
+        "username": "tyquaius",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/e95f7d/{size}.png",
+        "created_at": "2013-08-16T07:42:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>Here are my thoughs on the matter.I think cards that currently say \"when this card is destroyed\" should say \"when this card would be destroyed,&nbsp;do x and then destroy this card\" solely for the fact that most other destruction effects trigger when they actually reach the trash, however that changes with cards that say \"when this card\", because it obviously has to remain in play for it's effect to kick off, which causes more problems. Such as Pydro's example with Ammo Drop, really having the Tome regain HP after Bunker already drew a card when it was supposed to be destroyed is just redonkulous.Now I have to go through and see how many other cards in Vengenace had \"when this card\" is destroyed and stop this evil chain!</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Should we assume that this is the way to play it for all cards that currently have the text \"when this card is destroyed\"?</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:43.027Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8510,
+        "topic_slug": "multiple-destroy-effects-timing-vs-globals",
+        "display_username": "tyquaius",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5169,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70750,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2013-08-16T13:54:55.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"tyquaius\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/t/e95f7d/48.png\" class=\"avatar\"> tyquaius:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Ronway wrote:</b><br><blockquote>Here are my thoughs on the matter.I think cards that currently say \"when this card is destroyed\" should say \"when this card would be destroyed,&nbsp;do x and then destroy this card\" solely for the fact that most other destruction effects trigger when they actually reach the trash, however that changes with cards that say \"when this card\", because it obviously has to remain in play for it's effect to kick off, which causes more problems. Such as Pydro's example with Ammo Drop, really having the Tome regain HP after Bunker already drew a card when it was supposed to be destroyed is just redonkulous.Now I have to go through and see how many other cards in Vengenace had \"when this card\" is destroyed and stop this evil chain!\n&nbsp;\n</blockquote></div>\n&nbsp;Should we assume that this is the way to play it for all cards that currently have the text \"when this card is destroyed\"?\n</blockquote>\n</aside>\n<p>No, it is just the way I thing it should be changed to, but until there is anything official, the destroy effects should continue to be triggered by order of play.</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:43.108Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8510,
+        "topic_slug": "multiple-destroy-effects-timing-vs-globals",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 8510
+}

@@ -1,0 +1,1679 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 7264,
+        "name": "j1hopki1",
+        "username": "j1hopki1",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/58f4c7/{size}.png",
+        "created_at": "2013-03-01T04:41:34.000Z",
+        "cooked": "<p>Based on the Bloody Knuckles Combo thread I wanted to start a discussion on the order that damage is dealt. I think arenson9 did a similar step by step, but I can't seem to find it. This is my understanding of how each instance of damage is dealt.&nbsp;Repeat these steps for each instance of damage.</p><p>1. Source is declared. As of right now there is nothing in the game that changes damage sources.</p><p>2. Initial target is declared.</p><p>3. Initial damage is declared. This is the actual number on the card. If it's an X the number is computed now.</p><p>4. Initial damage type is declared.</p><p>5. Damage type changes happen in the order that they entered play. Damage type is now set and cannot be changed even if redirected.</p><p>6. Damage type modifiers (increases and decreases) happen.</p><p>7. Universal modifiers happen.</p><p>8. Source modifiers happen (damage dealt). This is the amount that will be redirected in step 10.</p><p>9. Target modifiers happen (damage taken) in the order they entered play. These inclue both static modifiers like Armored Plating and triggered modifiers like Shielding Winds.</p><p>10. Redirection eligibility is checked. If the attack is redirected the new target is declared now. The source and type remain the same. Return to just before step 9 and continue with the damage amount from step 8. This means that target modifiers and triggered modifiers are removed. These are recomputed for the new target. Repeat steps 9&nbsp;and 10&nbsp;each time the attack is redirected.</p><p>11. The final target is now set. If the target is immune to all types or that type or if the source can't deal damage the attack is cancelled. No damage is dealt and no effects are triggered.</p><p>12. If the current damage amount is 0 or less the attack is cancelled.</p><p>13. Damage happens. Physically remove the HP from the final target.</p><p>14. If the final target has 0 or less HP destroy/incapacitate it and then effects triggered by destruction/incapacitation happen.</p><p>15. Effects triggered by damage happen.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:37:30.139Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 10.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "j1hopki1",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Based on the Bloody Knuckles Combo thread I wanted to start a discussion on the order that damage is dealt. I think arenson9 did a similar step by step, but I can&#39;t seem to find it. This is my understanding of how each instance of damage is dealt.&nbsp;Repeat these steps for each instance of damage.</p><p>1. Source is declared. As of right now there is nothing in the game that changes damage sources.</p><p>2. Initial target is declared.</p><p>3. Initial damage is declared. This is the actual number on the card. If it&#39;s an X the number is computed now.</p><p>4. Initial damage type is declared.</p><p>5. Damage type changes happen in the order that they entered play. Damage type is now set and cannot be changed even if redirected.</p><p>6. Damage type modifiers (increases and decreases) happen.</p><p>7. Universal modifiers happen.</p><p>8. Source modifiers happen (damage dealt). This is the amount that will be redirected in step 10.</p><p>9. Target modifiers happen (damage taken) in the order they entered play. These inclue both static modifiers like Armored Plating and triggered modifiers like Shielding Winds.</p><p>10. Redirection eligibility is checked. If the attack is redirected the new target is declared now. The source and type remain the same. Return to just before step 9 and continue with the damage amount from step 8. This means that target modifiers and triggered modifiers are removed. These are recomputed for the new target. Repeat steps 9&nbsp;and 10&nbsp;each time the attack is redirected.</p><p>11. The final target is now set. If the target is immune to all types or that type or if the source can&#39;t deal damage the attack is cancelled. No damage is dealt and no effects are triggered.</p><p>12. If the current damage amount is 0 or less the attack is cancelled.</p><p>13. Damage happens. Physically remove the HP from the final target.</p><p>14. If the final target has 0 or less HP destroy/incapacitate it and then effects triggered by destruction/incapacitation happen.</p><p>15. Effects triggered by damage happen.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 992,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53506,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-03-01T07:02:00.000Z",
+        "cooked": "<p>I think the other thread like this you were thinking of is the one by theJayMann here: <a href=\"https://greaterthangames.com/forum/topic/operation-order-2679\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/operation-order-2679</a></p><p>The designers have said that order of play does matter for 'static' modifiers vs triggered modifiers here: <a href=\"https://greaterthangames.com/forum/topic/same-or-different\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/same-or-different</a>&nbsp;and here: <a href=\"http://www.boardgamegeek.com/article/10246144#10246144\" rel=\"noopener nofollow ugc\">http://www.boardgamegeek.com/article/10246144#10246144</a>, but I would encourage using the order you describe above as a house rule.</p><p>I would put the immunity check and the zero or less damage check after 13, as was discussed at length here: <a href=\"https://greaterthangames.com/forum/topic/condemnation-and-orb-of-delirium-2528\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/condemnation-and-orb-of-delirium-2528</a>&nbsp;and here: <a href=\"https://greaterthangames.com/forum/topic/amulet-of-the-elder-gods-in-mist-form-3004\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/amulet-of-the-elder-gods-in-mist-form-3004</a>.&nbsp; I don't think amulet of the elder gods + mistform is much more powerful than demoralization + telikinetic cocoon or several other hero card combos.</p><p>Another point on redirection, I only allow a card to redirect damage once.&nbsp; I don't know that this has ever been an officially endorsed ruling, but you have to somehow resolve the loop if Visionary and her Decoy Projection are highest and lowest respectively with Smoke Bombs out.&nbsp; There are several other such loops, but that seems to be the most common.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:42.600Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/forum/topic/operation-order-2679",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://greaterthangames.com/forum/topic/same-or-different",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "http://www.boardgamegeek.com/article/10246144#10246144",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://greaterthangames.com/forum/topic/condemnation-and-orb-of-delirium-2528",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://greaterthangames.com/forum/topic/amulet-of-the-elder-gods-in-mist-form-3004",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I think the other thread like this you were thinking of is the one by theJayMann here: <a href=\"https://greaterthangames.com/forum/topic/operation-order-2679\">https://greaterthangames.com/forum/topic/operation-order-2679</a></p><p>The designers have said that order of play does matter for &#39;static&#39; modifiers vs triggered modifiers here: <a href=\"https://greaterthangames.com/forum/topic/same-or-different\">https://greaterthangames.com/forum/topic/same-or-different</a>&nbsp;and here: <a href=\"http://www.boardgamegeek.com/article/10246144#10246144\">http://www.boardgamegeek.com/article/10246144#10246144</a>, but I would encourage using the order you describe above as a house rule.</p><p>I would put the immunity check and the zero or less damage check after 13, as was discussed at length here: <a href=\"https://greaterthangames.com/forum/topic/condemnation-and-orb-of-delirium-2528\">https://greaterthangames.com/forum/topic/condemnation-and-orb-of-delirium-2528</a>&nbsp;and here: <a href=\"https://greaterthangames.com/forum/topic/amulet-of-the-elder-gods-in-mist-form-3004\">https://greaterthangames.com/forum/topic/amulet-of-the-elder-gods-in-mist-form-3004</a>.&nbsp; I don&#39;t think amulet of the elder gods + mistform is much more powerful than demoralization + telikinetic cocoon or several other hero card combos.</p><p>Another point on redirection, I only allow a card to redirect damage once.&nbsp; I don&#39;t know that this has ever been an officially endorsed ruling, but you have to somehow resolve the loop if Visionary and her Decoy Projection are highest and lowest respectively with Smoke Bombs out.&nbsp; There are several other such loops, but that seems to be the most common.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53507,
+        "name": "TheSoundOfTrees",
+        "username": "TheSoundOfTrees",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/da6949/{size}.png",
+        "created_at": "2013-03-01T11:49:53.000Z",
+        "cooked": "<p>My own \"step by step\" process (undetailed) is as follow :</p><p>1 : determine damage type</p><p>2 : apply damage modifier linked to the attacker and type ( \"damage dealt <em>by</em> \" , \"deals damage\")</p><p>3 : choose target</p><p>4 : evaluate redirection / collateral targets (Fixer) / invulnerability</p><p>5 : damage modifiers applying to target ( \" damage dealt <em>to</em> \", \"is dealt damage\" )</p><p>6 : target actually loses HPs ( \" damage taken \" , \"takes damage\")</p><p>It works for me (and has some interesting effects) BUT it <em>is</em> a <em>houserule</em>.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:42.709Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "TheSoundOfTrees",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>My own &quot;step by step&quot; process (undetailed) is as follow :</p><p>1 : determine damage type</p><p>2 : apply damage modifier linked to the attacker and type ( &quot;damage dealt <em>by</em> &quot; , &quot;deals damage&quot;)</p><p>3 : choose target</p><p>4 : evaluate redirection / collateral targets (Fixer) / invulnerability</p><p>5 : damage modifiers applying to target ( &quot; damage dealt <em>to</em> &quot;, &quot;is dealt damage&quot; )</p><p>6 : target actually loses HPs ( &quot; damage taken &quot; , &quot;takes damage&quot;)</p><p>It works for me (and has some interesting effects) BUT it <em>is</em> a <em>houserule</em>.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 911,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-09-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53508,
+        "name": "j1hopki1",
+        "username": "j1hopki1",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/58f4c7/{size}.png",
+        "created_at": "2013-03-01T17:04:00.000Z",
+        "cooked": "<p>Thanks for pointing those out dypaca. I've editted my order of my steps.</p><p>For your redirect once ruling does that mean if Apostate hits Nightmist she can redirect to any target even though Orb of Delirium is in play? Or did you mean each card can only cause redirection once. I agree with that. That means in the Smoke Bomb/Decoy Projection if Visionary is targeted the decoy redirects to itself then Smoke Bombs redirects to Visionary. Visionary then takes the damage since the Decoy can't redirect the same damage instance twice. What are the other loops? Are they fixed by ruling each card can only redirect a damage once?</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:42.809Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "j1hopki1",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Thanks for pointing those out dypaca. I&#39;ve editted my order of my steps.</p><p>For your redirect once ruling does that mean if Apostate hits Nightmist she can redirect to any target even though Orb of Delirium is in play? Or did you mean each card can only cause redirection once. I agree with that. That means in the Smoke Bomb/Decoy Projection if Visionary is targeted the decoy redirects to itself then Smoke Bombs redirects to Visionary. Visionary then takes the damage since the Decoy can&#39;t redirect the same damage instance twice. What are the other loops? Are they fixed by ruling each card can only redirect a damage once?</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 992,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53509,
+        "name": "j1hopki1",
+        "username": "j1hopki1",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/58f4c7/{size}.png",
+        "created_at": "2013-03-01T17:08:04.000Z",
+        "cooked": "<p>So this doesn't answer&nbsp;how Dual Crowbars works since it is not clear if \"same amount\" means the initial damage is the same or the final damage is the same.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:42.867Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "j1hopki1",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>So this doesn&#39;t answer&nbsp;how Dual Crowbars works since it is not clear if &quot;same amount&quot; means the initial damage is the same or the final damage is the same.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 992,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53510,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-03-01T18:51:17.000Z",
+        "cooked": "<p>Yes, I just meant that each card can only redirect damage once.&nbsp; This guarantees that you can't have loops of continual redirection when there are conflicting non-optional redirections.&nbsp; The others I can think of off hand are Haka's Enduring Intercesion and Fanatics Divine Sacrifice (I don't have the card here, but I think that's the name).&nbsp; Also I think there might be another example in the mail...</p><p>My one hesitation about a general ruling of 'each card can redirect once' is that it means optional redirects can override non-optional.&nbsp; For example environment damage is aimed at Stealth Bot and must be redirected to Haka.&nbsp; Stealth Bot has the option of redirecting to itself (herself?) and if Enduring Intercession only works once Stealth Bot wins.&nbsp; But this loop could have been broken just by the player choosing not to use Stealth Bot.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:42.923Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Yes, I just meant that each card can only redirect damage once.&nbsp; This guarantees that you can&#39;t have loops of continual redirection when there are conflicting non-optional redirections.&nbsp; The others I can think of off hand are Haka&#39;s Enduring Intercesion and Fanatics Divine Sacrifice (I don&#39;t have the card here, but I think that&#39;s the name).&nbsp; Also I think there might be another example in the mail...</p><p>My one hesitation about a general ruling of &#39;each card can redirect once&#39; is that it means optional redirects can override non-optional.&nbsp; For example environment damage is aimed at Stealth Bot and must be redirected to Haka.&nbsp; Stealth Bot has the option of redirecting to itself (herself?) and if Enduring Intercession only works once Stealth Bot wins.&nbsp; But this loop could have been broken just by the player choosing not to use Stealth Bot.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53511,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-03-01T19:01:23.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"j1hopki1\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/j/58f4c7/48.png\" class=\"avatar\"> j1hopki1:</div>\n<blockquote>\n<p>So this doesn't answer&nbsp;how Dual Crowbars works since it is not clear if \"same amount\" means the initial damage is the same or the final damage is the same.</p>\n</blockquote>\n</aside>\n<p>I don't feel like analyzing Dual Crowbars in relation to other cards will lead to an answer.&nbsp; Generally if a triggered action resulted in it being triggered again I would allow that.&nbsp; For example if one of Ambuscade's devices is destroyed and this causes him to damage all targets which destroys another device I would have him damage all targets again.</p>\n<p>But when Fixer damages a target and Dual Crowbars allows him to damage another, clearly the intention is not that he gets to then use Dual Crowbars again to then damage another.&nbsp; I really feel that the intention of Dual Crowbars is to just add an additional target.&nbsp; So Strike with Dual Crowbars should work just like a power that says 'Mr Fixer deals&nbsp;one to two targets one melee damage'.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:42.996Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"j1hopki1\"]\n\nSo this doesn&#39;t answer&nbsp;how Dual Crowbars works since it is not clear if &quot;same amount&quot; means the initial damage is the same or the final damage is the same.\n\n[/quote]\n\nI don&#39;t feel like analyzing Dual Crowbars in relation to other cards will lead to an answer.&nbsp; Generally if a triggered action resulted in it being triggered again I would allow that.&nbsp; For example if one of Ambuscade&#39;s devices is destroyed and this causes him to damage all targets which destroys another device I would have him damage all targets again.\n\nBut when Fixer damages a target and Dual Crowbars allows him to damage another, clearly the intention is not that he gets to then use Dual Crowbars again to then damage another.&nbsp; I really feel that the intention of Dual Crowbars is to just add an additional target.&nbsp; So Strike with Dual Crowbars should work just like a power that says &#39;Mr Fixer deals&nbsp;one to two targets one melee damage&#39;.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53512,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2013-03-01T19:46:57.000Z",
+        "cooked": "<p>FWIW, here is my latest thinking on this:</p><p>&nbsp;</p><p>Given the source of an attack, the destination of an attack (target), the type of an attack, and the amount of an attack:<br><br>1) Apply all cards that affect the type of the attack in card played order.<br><br>2) Apply all other cards in card played order. If a card changes the destination of the attack (target), reset the amount of the attack to the original amount and return to the beginning of this step, but don't consider that card again.<br><br>Other relevant rules:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * An attack that has been reduced to zero or less can still be<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; redirected.<br>&nbsp;</p><p>--------------------------</p><p>I recognize that what I have above doesn't incorporate dealing w/ immunity. That would be step #3, I think.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:43.060Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>FWIW, here is my latest thinking on this:</p><p>&nbsp;</p><p>Given the source of an attack, the destination of an attack (target), the type of an attack, and the amount of an attack:<br /><br />1) Apply all cards that affect the type of the attack in card played order.<br /><br />2) Apply all other cards in card played order. If a card changes the destination of the attack (target), reset the amount of the attack to the original amount and return to the beginning of this step, but don&#39;t consider that card again.<br /><br />Other relevant rules:<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * An attack that has been reduced to zero or less can still be<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; redirected.<br />&nbsp;</p><p>--------------------------</p><p>I recognize that what I have above doesn&#39;t incorporate dealing w/ immunity. That would be step #3, I think.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53513,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2013-03-01T20:05:12.000Z",
+        "cooked": "<p>To be clear, the only reason there are two steps instead of just one is because there are no cards in which the type of an attack is affected by either the amount of the attack or the destination (target) of the attack. If there were, than I would use the more general version of the above:</p><p>Apply all cards in card played order. If a card changes the type or destination of the attack (target), reset the amount of the attack to the original amount and return to the beginning of this step, but don't consider that card again.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:43.133Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>To be clear, the only reason there are two steps instead of just one is because there are no cards in which the type of an attack is affected by either the amount of the attack or the destination (target) of the attack. If there were, than I would use the more general version of the above:</p><p>Apply all cards in card played order. If a card changes the type or destination of the attack (target), reset the amount of the attack to the original amount and return to the beginning of this step, but don&#39;t consider that card again.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53514,
+        "name": "Wendell",
+        "username": "Wendell",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/w/e9bcb4/{size}.png",
+        "created_at": "2013-03-02T19:59:21.000Z",
+        "cooked": "<p>&nbsp;@&nbsp;<a href=\"https://greaterthangames.com/users/j1hopki1\" title=\"View user profile.\" rel=\"noopener nofollow ugc\">j1hopki1</a>: Can step 9 have an impact in step 10? If no, why don't you just change the order of 9 and 10? it seems pointless to me to do all the calculations in 9 if later you have to discard them.</p><p>&nbsp;</p><p>I am really interested in this thread.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:43.200Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "Wendell",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/users/j1hopki1",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>&nbsp;@&nbsp;<a about=\"/users/j1hopki1\" class=\"username\" href=\"https://greaterthangames.com/users/j1hopki1\" property=\"foaf:name\" style=\"color: rgb(0, 0, 0); font-family: 'PT Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; line-height: 14px; background-color: rgb(237, 245, 250);\" title=\"View user profile.\" typeof=\"sioc:UserAccount\" xml:lang=\"\">j1hopki1</a>: Can step 9 have an impact in step 10? If no, why don&#39;t you just change the order of 9 and 10? it seems pointless to me to do all the calculations in 9 if later you have to discard them.</p><p>&nbsp;</p><p>I am really interested in this thread.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3058,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-12-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53515,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-03-02T20:50:38.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Wendell\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/w/e9bcb4/48.png\" class=\"avatar\"> Wendell:</div>\n<blockquote>\n<p>&nbsp;@&nbsp;<a href=\"https://greaterthangames.com/users/j1hopki1\" rel=\"noopener nofollow ugc\" title=\"View user profile.\">j1hopki1</a>: Can step 9 have an impact in step 10? If no, why don't you just change the order of 9 and 10? it seems pointless to me to do all the calculations in 9 if later you have to discard them.</p>\n</blockquote>\n</aside>\n<p>Step 9 can matter for cards like Tachyon's Synaptic Interruption or Fixer's Driving Mantis which redirect based on the amount of the damage.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:43.285Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Wendell\"]\n\n&nbsp;@&nbsp;<a about=\"/users/j1hopki1\" class=\"username\" href=\"https://greaterthangames.com/users/j1hopki1\" lang=\"\" property=\"name\" rel=\"nofollow\" title=\"View user profile.\" typeof=\"UserAccount\" xml:lang=\"\">j1hopki1</a>: Can step 9 have an impact in step 10? If no, why don&#39;t you just change the order of 9 and 10? it seems pointless to me to do all the calculations in 9 if later you have to discard them.\n\n[/quote]\n\nStep 9 can matter for cards like Tachyon&#39;s Synaptic Interruption or Fixer&#39;s Driving Mantis which redirect based on the amount of the damage.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53516,
+        "name": "j1hopki1",
+        "username": "j1hopki1",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/58f4c7/{size}.png",
+        "created_at": "2013-03-03T05:13:10.000Z",
+        "cooked": "<p>dypaca is right, Steps 9 and 10 do have to be separate. If a target modifier bumps the damage amount down below 3 then when redirection is checked in step 10 Synaptic Interruption would not be triggered so Tachyon would have to take the damage. It sucks for Mr. Fixer because his Bloody Knuckles automatically pushes all damage he would take out of range of Driving Mantis's 2 or less redirection.</p><p>That being said there are a number of steps that can be combined. Steps 1-4 can be counted as one. Steps 11 and 12 are really just the same. Steps 5-9 also happen as one step in the order the cards entered play. Oh crap. That means I've been playing wrong.&nbsp;</p><p>I don't know if this goes in a new thread or not. All the threads that I've seen talk about timing of triggered modifiers like Shielding Winds and static modifiers like Armored Plating. Those are both damage reduction cards. What I didn't read between the lines on are damage increase cards.</p><p>If Shielding Winds is out first and then Obsidian Field enters play and then a hero is attacked for a base attack of 4 then I've been resolving it wrong. I've been applying all the increases first and then doing all the decreases. It just makes the math easier, but Shielding Winds has to be checked first before the Field has a chance to boost it to 5. Agreed?</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:43.363Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "j1hopki1",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>dypaca is right, Steps 9 and 10 do have to be separate. If a target modifier bumps the damage amount down below 3 then when redirection is checked in step 10 Synaptic Interruption would not be triggered so Tachyon would have to take the damage. It sucks for Mr. Fixer because his Bloody Knuckles automatically pushes all damage he would take out of range of Driving Mantis&#39;s 2 or less redirection.</p><p>That being said there are a number of steps that can be combined. Steps 1-4 can be counted as one. Steps 11 and 12 are really just the same. Steps 5-9 also happen as one step in the order the cards entered play. Oh crap. That means I&#39;ve been playing wrong.&nbsp;</p><p>I don&#39;t know if this goes in a new thread or not. All the threads that I&#39;ve seen talk about timing of triggered modifiers like Shielding Winds and static modifiers like Armored Plating. Those are both damage reduction cards. What I didn&#39;t read between the lines on are damage increase cards.</p><p>If Shielding Winds is out first and then Obsidian Field enters play and then a hero is attacked for a base attack of 4 then I&#39;ve been resolving it wrong. I&#39;ve been applying all the increases first and then doing all the decreases. It just makes the math easier, but Shielding Winds has to be checked first before the Field has a chance to boost it to 5. Agreed?</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 992,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 53517,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-03-03T06:08:34.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"j1hopki1\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/j/58f4c7/48.png\" class=\"avatar\"> j1hopki1:</div>\n<blockquote>\n<p>Shielding Winds has to be checked first before the Field has a chance to boost it to 5. Agreed?</p>\n</blockquote>\n</aside>\n<p>I agree that is the official ruling.&nbsp; But as I said in the first post, I would encourage applying all 'static' modifiers before conditional modifiers for the sake of simplicity.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:27:43.448Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7263,
+        "topic_slug": "damage-steps",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"j1hopki1\"]\n\nShielding Winds has to be checked first before the Field has a chance to boost it to 5. Agreed?\n\n[/quote]\n\nI agree that is the official ruling.&nbsp; But as I said in the first post, I would encourage applying all &#39;static&#39; modifiers before conditional modifiers for the sake of simplicity.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      7264,
+      53506,
+      53507,
+      53508,
+      53509,
+      53510,
+      53511,
+      53512,
+      53513,
+      53514,
+      53515,
+      53516,
+      53517
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      4943
+    ],
+    [
+      10,
+      4942
+    ],
+    [
+      12,
+      4941
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 12,
+      "reply_count": 1,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-12T14:09:24.588Z",
+      "bumped": true,
+      "bumped_at": "2026-09-12T14:09:24.588Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 21,
+      "views": 92,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31872,
+      "title": "Argent Adept Six-Instrument Orchestration",
+      "fancy_title": "Argent Adept Six-Instrument Orchestration",
+      "slug": "argent-adept-six-instrument-orchestration",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-10-21T02:28:56.949Z",
+      "last_posted_at": "2025-10-21T03:50:57.042Z",
+      "bumped": true,
+      "bumped_at": "2025-10-21T03:50:57.042Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 84,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 32017,
+      "title": "Text for a future rulebook",
+      "fancy_title": "Text for a future rulebook",
+      "slug": "text-for-a-future-rulebook",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2025-10-29T18:32:19.434Z",
+      "last_posted_at": "2025-10-31T21:15:02.195Z",
+      "bumped": true,
+      "bumped_at": "2025-10-31T21:15:02.195Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 114,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13161,
+            "username": "MindWanderer",
+            "name": "MindWanderer",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32029,
+      "title": "OblivAeon weird card interaction",
+      "fancy_title": "OblivAeon weird card interaction",
+      "slug": "oblivaeon-weird-card-interaction",
+      "posts_count": 14,
+      "reply_count": 9,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2025-11-04T23:13:14.702Z",
+      "last_posted_at": "2025-11-17T13:06:56.375Z",
+      "bumped": true,
+      "bumped_at": "2025-11-17T16:35:26.816Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 158,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32580,
+      "title": "Episode 328 of the Letters Page: Writers’ Room: Freedom Five #194 “Silver Age Time-Travel Team-Up”",
+      "fancy_title": "Episode 328 of the Letters Page: Writers’ Room: Freedom Five #194 “Silver Age Time-Travel Team-Up”",
+      "slug": "episode-328-of-the-letters-page-writers-room-freedom-five-194-silver-age-time-travel-team-up",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/optimized/2X/6/6467fe8aa59d201577baf447336d07bddc66fa51_2_666x1024.jpeg",
+      "created_at": "2026-09-08T16:50:57.449Z",
+      "last_posted_at": "2026-09-08T21:34:27.464Z",
+      "bumped": true,
+      "bumped_at": "2026-09-08T21:34:27.464Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 42,
+      "category_id": 25,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 14005,
+            "username": "TakeWalker",
+            "name": "KateWalker",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 7263,
+  "title": "Damage Steps",
+  "fancy_title": "Damage Steps",
+  "posts_count": 13,
+  "created_at": "2013-03-01T04:41:34.000Z",
+  "views": 994,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2013-03-03T06:08:34.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "damage-steps",
+  "category_id": 12,
+  "word_count": 2138,
+  "deleted_at": null,
+  "user_id": 992,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_7263",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 13,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 5,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 466,
+        "username": "dypaca",
+        "name": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "post_count": 5,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 992,
+        "username": "j1hopki1",
+        "name": "j1hopki1",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/58f4c7/{size}.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 18,
+        "username": "arenson9",
+        "name": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "moderator": true,
+        "trust_level": 4
+      },
+      {
+        "id": 911,
+        "username": "TheSoundOfTrees",
+        "name": "TheSoundOfTrees",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/da6949/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 3058,
+        "username": "Wendell",
+        "name": "Wendell",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/w/e9bcb4/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 992,
+      "username": "j1hopki1",
+      "name": "j1hopki1",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/j/58f4c7/{size}.png"
+    },
+    "last_poster": {
+      "id": 466,
+      "username": "dypaca",
+      "name": "dypaca",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png"
+    }
+  },
+  "bookmarks": []
+}

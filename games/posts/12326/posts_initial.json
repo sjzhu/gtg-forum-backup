@@ -1,0 +1,599 @@
+{
+  "posts": [
+    {
+      "id": 12327,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2015-02-18T22:22:30.000Z",
+      "cooked": "<p>Hello, Meerkat here, procrastinating doing useful things by solving problems no-one cares about! Specifically, how many different ways can you play Sentinels? How many different combinations of decks are there?</p><p>First of all, let's look at our variables (all accurate up to Villains of the Multiverse): 26 heroes, 22 of whom have promos and 8 of whom have two promos. 24 non-Vengeance villains, plus six villain promos for a total of 30 possible villans. 15 interchangeable Vengeance-style villains. 20 environments. If you think those numbers are large, you ain't seen nothing yet.</p><p>Okay, now how many hero teams can we form? Let's ignore the Sentinels for now (grumble grumble sixteen possible permutations grumble grumble) and pretend we have 25 heroes; for a five-hero team, that's 25C5* = <strong>53130&nbsp;</strong>possible teams... without promos. Add a promo, and it's 30 x 24C4 =&nbsp;<strong>318780</strong>. Add two promos, and it's 30C2 x 23C3 =&nbsp;<strong>770385</strong>. Three promos and it's 30C3 x 22C2 =&nbsp;<strong>937860</strong>. Four promos? 30C4 x 21 =&nbsp;<strong>575505</strong>. Five? 30C5 =&nbsp;<strong>142506</strong>. Sum them to get<strong>&nbsp;2798166&nbsp;</strong>possible teams of five. Yeesh.</p><blockquote><p>*Combinatorics for the uninitiated: <em>a</em>C<em>b</em>, where <em>a </em>and <em>b </em>are numbers, is notation for the number of possible selections of <em>b </em>items from a set of <em>a</em>. This is calculated as&nbsp;<em>a</em>!/<em>b</em>!(<em>a&nbsp;</em>-&nbsp;<em>b</em>)! [<em>a</em>! =&nbsp;<em>a&nbsp;</em>x (<em>a</em> - 1) x (<em>a</em> - 2) x ... x 2 x 1]. This can get large very quickly; 100C10 = 1.73 x 10^13.</p></blockquote><p>There is, however, one small problem with this: those eight pesky dual-promo heroes. Some of the teams we have counted have, say, GI Bunker and Engine of War fighting alongside each other, which works thematically, but not mechanically. So we need to count how much we've overcounted by, and subtract that from our total. So that's 8 x (23C3 + 28 x 22C2 + 28C2 x 21 + 28C3) =&nbsp;<strong>155624</strong>. Subtract that from 2798166 and you get <strong>2642542</strong>.</p><p>Still not done. You see, we've now knocked off all of the teams with pairs of the same hero, but we've knocked off teams with&nbsp;<em>two&nbsp;</em>pairs of the same hero twice. So we add back on 8C2 x (21 + 26) =&nbsp;<strong>1316</strong>, which added back on gives&nbsp;<strong>2643858</strong>. Wowza.</p><p>Still with me? Still happy? Great. Now we get to do it again twice more, for three- and four-hero teams. For four, we need 25C4 + 30 x 24C3 + 30C2 x 23C2 + 30C3 x 22 + 30C4 - 8 x (23C2 + 28 x 22 + 28C2) + 8C2 = <strong>290202</strong>; for three, we have 25C3 + 30 x 24C2 + 30C2 x 23 + 30C3 - 8 x (23 + 28) = <strong>24237</strong>. And, while we're here, if you're playing a two-hero game you have 25C2 + 30 x 24 + 30C2 - 8 =&nbsp;<strong>1447</strong>.</p><p>AND WE'RE STILL NOT DONE. Because The Sentinels are getting a promo, and that's great, but it means that there are effectively sixteen (2^4) different ways to play the Sentinels. So the actual total number of five-hero teams is 2643858 + 16 x 290202 =&nbsp;<strong>7287090&nbsp;</strong>(And The Sentinels are on over 60% of those teams). For four-member teams, it's 290202 + 16 x 24237 =&nbsp;<strong>677994</strong>, and for three heroes it's 24237 + 16 x 1447 =&nbsp;<strong>47389</strong>. And now we are done with heroes.</p><p>*party popper*</p><p>*expletive deleted*</p><p>It is at this point that I realise I have colossally screwed up. I have been using 25 heroes, since I took The Sentinels out, but I still counted their promo as in the general supply. Blight...</p><p>Fortunately, this is not actually too hard to fix. Not by going back through and fixing all the numbers, but by quantifying my error and subtracting it from my results. So (again forgetting the Sentinels) the actual number for two heroes is&nbsp;<span>25C2 + 29 x 24 + 29C2 - 8 + &nbsp;=&nbsp;</span><strong><span>1394</span></strong><span>. And now - and this is cool - I name my mythical thirtieth promo 'No Hero', and thus my actual number for three-hero teams is my original one minus 1394, I.E. <strong>22843</strong>. Then repeat to get a number for four heroes,&nbsp;<strong>267359</strong>, and for five,&nbsp;<strong>2376499</strong>. Add the Sentinels back in...&nbsp;<strong>45147, 632847, 6654243.</strong> Simple.</span></p><p><span>[I could have gone back through and just fixed up all of my numbers, but this way was quicker, and also I thought it was a cool trick and wanted to share it. Just because your data is wrong, doesn't make it useless.]</span></p><p><span>Next, let's do Vengeance villains, because they'll be fun. This is just combinatorics again, but without all of the promo-based faff. So a five-person Vengeance team offers 15C5 =&nbsp;</span><strong>3003&nbsp;</strong><span>choices, a team of four 15C4 =&nbsp;</span><strong>1365</strong><span>, and a team of three 15C3 =&nbsp;</span><strong>455</strong><span>. Now we just multiply the hero combinations and the villain combinations together, and get...&nbsp;</span><strong>22830155075</strong><span>. Now we sum up all hero teams of any size (</span><strong>7332237</strong><span>), multiply by the number of solo villains (</span><strong><span>219967110</span></strong><span>) and add that to our running total (</span><strong><span>23050122185</span></strong><span>), then multiply by 80 (20 environments, advanced mode, challenge mode) to get us a total:</span></p><p><strong>1844009774800.</strong></p><p><strong>1,844,009,774,800.</strong></p><p><strong>One trillion, eight hundred and forty-four billion, nine million, seven hundred and seventy-four thousand, eight hundred.</strong></p><p>That is a lot of games of Sentinels of the Multiverse.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>But why stop there? Why not make this number bigger?</p><p>There are two obvious ways I can think of for upping our figure. The first is hero order; swapping positions can be important sometimes. So our hero team numbers go up to&nbsp;<strong>270882,&nbsp;<span>15188328,&nbsp;</span></strong><span><strong>798509160</strong>.</span></p><p><span>My second idea is this: if we're battling the Vengeful Five, there's no reason they all have to be on advanced or challenge mode. If we allow ourselves to alter these conditions for each villain independently, the numbers of villain teams we can make go up to&nbsp;</span><strong><span>29240,&nbsp;</span><span>349560,&nbsp;</span></strong><span><strong>3075192</strong>**. Multiply each by the number of hero teams, sum them up, and we get&nbsp;</span><strong><span>2460886133284080</span></strong><span>. Multiply by 20 environments and we have...</span></p><p><strong><span>49,217,722,665,681,600.</span></strong></p><p><strong><span>Forty-nine quadrillion, two hundred and seventeen trillion, seven hundred and twenty-two billion, six hundred and sixty-five million, six hundred and eighty-one thousand, six hundred games.</span></strong></p><blockquote><p><span>**I added 120 to each of these numbers to account for the non-Vengeance villains (though at this point Vengeance is dominating so much that they hardly matter anyway).</span></p></blockquote><p><span>So that means if we get every human on Earth a copy of Sentinels, and they each play a game an hour, sixteen hours a day, every day of the year... we can play nearly every combination by the year 3200.</span></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:43:50.064Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 2,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 10.0,
+      "yours": false,
+      "topic_id": 12326,
+      "topic_slug": "statistics-of-the-multiverse",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Hello, Meerkat here, procrastinating doing useful things by solving problems no-one cares about! Specifically, how many different ways can you play Sentinels? How many different combinations of decks are there?</p><p>First of all, let&#39;s look at our variables (all accurate up to Villains of the Multiverse): 26 heroes, 22 of whom have promos and 8 of whom have two promos. 24 non-Vengeance villains, plus six villain promos for a total of 30 possible villans. 15 interchangeable Vengeance-style villains. 20 environments. If you think those numbers are large, you ain&#39;t seen nothing yet.</p><p>Okay, now how many hero teams can we form? Let&#39;s ignore the Sentinels for now (grumble grumble sixteen possible permutations grumble grumble) and pretend we have 25 heroes; for a five-hero team, that&#39;s 25C5* = <strong>53130&nbsp;</strong>possible teams... without promos. Add a promo, and it&#39;s 30 x 24C4 =&nbsp;<strong>318780</strong>. Add two promos, and it&#39;s 30C2 x 23C3 =&nbsp;<strong>770385</strong>. Three promos and it&#39;s 30C3 x 22C2 =&nbsp;<strong>937860</strong>. Four promos? 30C4 x 21 =&nbsp;<strong>575505</strong>. Five? 30C5 =&nbsp;<strong>142506</strong>. Sum them to get<strong>&nbsp;2798166&nbsp;</strong>possible teams of five. Yeesh.</p><blockquote><p>*Combinatorics for the uninitiated: <em>a</em>C<em>b</em>, where <em>a </em>and <em>b </em>are numbers, is notation for the number of possible selections of <em>b </em>items from a set of <em>a</em>. This is calculated as&nbsp;<em>a</em>!/<em>b</em>!(<em>a&nbsp;</em>-&nbsp;<em>b</em>)! [<em>a</em>! =&nbsp;<em>a&nbsp;</em>x (<em>a</em> - 1) x (<em>a</em> - 2) x ... x 2 x 1]. This can get large very quickly; 100C10 = 1.73 x 10^13.</p></blockquote><p>There is, however, one small problem with this: those eight pesky dual-promo heroes. Some of the teams we have counted have, say, GI Bunker and Engine of War fighting alongside each other, which works thematically, but not mechanically. So we need to count how much we&#39;ve overcounted by, and subtract that from our total. So that&#39;s 8 x (23C3 + 28 x 22C2 + 28C2 x 21 + 28C3) =&nbsp;<strong>155624</strong>. Subtract that from 2798166 and you get <strong>2642542</strong>.</p><p>Still not done. You see, we&#39;ve now knocked off all of the teams with pairs of the same hero, but we&#39;ve knocked off teams with&nbsp;<em>two&nbsp;</em>pairs of the same hero twice. So we add back on 8C2 x (21 + 26) =&nbsp;<strong>1316</strong>, which added back on gives&nbsp;<strong>2643858</strong>. Wowza.</p><p>Still with me? Still happy? Great. Now we get to do it again twice more, for three- and four-hero teams. For four, we need 25C4 + 30 x 24C3 + 30C2 x 23C2 + 30C3 x 22 + 30C4 - 8 x (23C2 + 28 x 22 + 28C2) + 8C2 = <strong>290202</strong>; for three, we have 25C3 + 30 x 24C2 + 30C2 x 23 + 30C3 - 8 x (23 + 28) = <strong>24237</strong>. And, while we&#39;re here, if you&#39;re playing a two-hero game you have 25C2 + 30 x 24 + 30C2 - 8 =&nbsp;<strong>1447</strong>.</p><p>AND WE&#39;RE STILL NOT DONE. Because The Sentinels are getting a promo, and that&#39;s great, but it means that there are effectively sixteen (2^4) different ways to play the Sentinels. So the actual total number of five-hero teams is 2643858 + 16 x 290202 =&nbsp;<strong>7287090&nbsp;</strong>(And The Sentinels are on over 60% of those teams). For four-member teams, it&#39;s 290202 + 16 x 24237 =&nbsp;<strong>677994</strong>, and for three heroes it&#39;s 24237 + 16 x 1447 =&nbsp;<strong>47389</strong>. And now we are done with heroes.</p><p>*party popper*</p><p>*expletive deleted*</p><p>It is at this point that I realise I have colossally screwed up. I have been using 25 heroes, since I took The Sentinels out, but I still counted their promo as in the general supply. Blight...</p><p>Fortunately, this is not actually too hard to fix. Not by going back through and fixing all the numbers, but by quantifying my error and subtracting it from my results. So (again forgetting the Sentinels) the actual number for two heroes is&nbsp;<span style=\"font-size: 13px; line-height: 20px;\">25C2 + 29 x 24 + 29C2 - 8 + &nbsp;=&nbsp;</span><strong><span style=\"font-size: 13px; line-height: 20px;\">1394</span></strong><span style=\"font-size: 13px; line-height: 20px;\">. And now - and this is cool - I name my mythical thirtieth promo &#39;No Hero&#39;, and thus my actual number for three-hero teams is my original one minus 1394, I.E. <strong>22843</strong>. Then repeat to get a number for four heroes,&nbsp;<strong>267359</strong>, and for five,&nbsp;<strong>2376499</strong>. Add the Sentinels back in...&nbsp;<strong>45147, 632847, 6654243.</strong> Simple.</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">[I could have gone back through and just fixed up all of my numbers, but this way was quicker, and also I thought it was a cool trick and wanted to share it. Just because your data is wrong, doesn&#39;t make it useless.]</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">Next, let&#39;s do Vengeance villains, because they&#39;ll be fun. This is just combinatorics again, but without all of the promo-based faff. So a five-person Vengeance team offers 15C5 =&nbsp;</span><strong style=\"font-size: 13px; line-height: 20px;\">3003&nbsp;</strong><span style=\"font-size: 13px; line-height: 20px;\">choices, a team of four 15C4 =&nbsp;</span><strong style=\"font-size: 13px; line-height: 20px;\">1365</strong><span style=\"font-size: 13px; line-height: 20px;\">, and a team of three 15C3 =&nbsp;</span><strong style=\"font-size: 13px; line-height: 20px;\">455</strong><span style=\"font-size: 13px; line-height: 20px;\">. Now we just multiply the hero combinations and the villain combinations together, and get...&nbsp;</span><strong style=\"font-size: 13px; line-height: 20px;\">22830155075</strong><span style=\"font-size: 13px; line-height: 20px;\">. Now we sum up all hero teams of any size (</span><strong>7332237</strong><span style=\"font-size: 13px; line-height: 20px;\">), multiply by the number of solo villains (</span><strong><span style=\"font-size: 13px; line-height: 20px;\">219967110</span></strong><span style=\"font-size: 13px; line-height: 20px;\">) and add that to our running total (</span><strong><span style=\"font-size: 13px; line-height: 20px;\">23050122185</span></strong><span style=\"font-size: 13px; line-height: 20px;\">), then multiply by 80 (20 environments, advanced mode, challenge mode) to get us a total:</span></p><p><strong>1844009774800.</strong></p><p><strong style=\"font-size: 13px; line-height: 20px;\">1,844,009,774,800.</strong></p><p><strong style=\"font-size: 13px; line-height: 20px;\">One trillion, eight hundred and forty-four billion, nine million, seven hundred and seventy-four thousand, eight hundred.</strong></p><p>That is a lot of games of Sentinels of the Multiverse.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>But why stop there? Why not make this number bigger?</p><p>There are two obvious ways I can think of for upping our figure. The first is hero order; swapping positions can be important sometimes. So our hero team numbers go up to&nbsp;<strong>270882,&nbsp;<span style=\"font-size: 13px; line-height: 20px;\">15188328,&nbsp;</span></strong><span style=\"font-size: 13px; line-height: 20px;\"><strong>798509160</strong>.</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">My second idea is this: if we&#39;re battling the Vengeful Five, there&#39;s no reason they all have to be on advanced or challenge mode. If we allow ourselves to alter these conditions for each villain independently, the numbers of villain teams we can make go up to&nbsp;</span><strong><span style=\"font-size: 13px; line-height: 20px;\">29240,&nbsp;</span><span style=\"font-size: 13px; line-height: 20px;\">349560,&nbsp;</span></strong><span style=\"font-size: 13px; line-height: 20px;\"><strong>3075192</strong>**. Multiply each by the number of hero teams, sum them up, and we get&nbsp;</span><strong><span style=\"font-size: 13px; line-height: 20px;\">2460886133284080</span></strong><span style=\"font-size: 13px; line-height: 20px;\">. Multiply by 20 environments and we have...</span></p><p><strong><span style=\"font-size: 13px; line-height: 20px;\">49,217,722,665,681,600.</span></strong></p><p><strong><span style=\"font-size: 13px; line-height: 20px;\">Forty-nine quadrillion, two hundred and seventeen trillion, seven hundred and twenty-two billion, six hundred and sixty-five million, six hundred and eighty-one thousand, six hundred games.</span></strong></p><blockquote><p><span style=\"font-size: 13px; line-height: 20px;\">**I added 120 to each of these numbers to account for the non-Vengeance villains (though at this point Vengeance is dominating so much that they hardly matter anyway).</span></p></blockquote><p><span style=\"font-size: 13px; line-height: 20px;\">So that means if we get every human on Earth a copy of Sentinels, and they each play a game an hour, sixteen hours a day, every day of the year... we can play nearly every combination by the year 3200.</span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 132373,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2015-02-18T23:06:55.000Z",
+      "cooked": "<p>So how about once the Vengeance Roster is increased to 15 and 2 environments are added?</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:07:50.715Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12326,
+      "topic_slug": "statistics-of-the-multiverse",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>So how about once the Vengeance Roster is increased to 15 and 2 environments are added?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 132374,
+      "name": "VisforYoshi",
+      "username": "VisforYoshi",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/visforyoshi/{size}/2185_2.png",
+      "created_at": "2015-02-18T23:22:20.000Z",
+      "cooked": "<p>I hd trouble reading this in some parts. Did you include environments and regular villians?</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:07:50.786Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12326,
+      "topic_slug": "statistics-of-the-multiverse",
+      "display_username": "VisforYoshi",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I hd trouble reading this in some parts. Did you include environments and regular villians?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 9377,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 132375,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2015-02-18T23:23:29.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>So how about once the Vengeance Roster is increased to 15 and 2 environments are added?</p>\n</blockquote>\n</aside>\n<aside class=\"quote group-playtesters\" data-username=\"BlueHairedMeerkat\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/48/1967_2.png\" class=\"avatar\"> BlueHairedMeerkat:</div>\n<blockquote>\n<p>Hello, Meerkat here, procrastinating doing useful things by solving problems no-one cares about! Specifically, how many different ways can you play Sentinels?</p>\n<p>How many different combinations of decks are there?</p>\n<p>First of all, let's look at our variables (all accurate up to Villains of the Multiverse): 26 heroes, 22 of whom have promos and 8 of whom have two promos. 24 non-Vengeance villains, plus six villain promos for a total of 30 possible villans. <strong>15 interchangeable Vengeance-style villains</strong>. 20 environments.</p>\n</blockquote>\n</aside>\n<p>Too late!</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:07:50.884Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12326,
+      "topic_slug": "statistics-of-the-multiverse",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"phantaskippy\"]\n\nSo how about once the Vengeance Roster is increased to 15 and 2 environments are added?\n\n \n[/quote]\n \n\n[quote=\"BlueHairedMeerkat\"]\n\nHello, Meerkat here, procrastinating doing useful things by solving problems no-one cares about! Specifically, how many different ways can you play Sentinels?\n\nHow many different combinations of decks are there?\n\nFirst of all, let&#39;s look at our variables (all accurate up to Villains of the Multiverse): 26 heroes, 22 of whom have promos and 8 of whom have two promos. 24 non-Vengeance villains, plus six villain promos for a total of 30 possible villans. <strong>15 interchangeable Vengeance-style villains</strong>. 20 environments.\n\n[/quote]\n\nToo late!\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 132376,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2015-02-18T23:25:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>So how about once the Vengeance Roster is increased to 15 and 2 environments are added?</p>\n</blockquote>\n</aside>\n<p>This is then, yes.</p>\n<aside class=\"quote no-group\" data-username=\"eddie.cardenas\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n eddie.cardenas:</div>\n<blockquote>\n<p>I hd trouble reading this in some parts. Did you include environments and regular villians?</p>\n</blockquote>\n</aside>\n<p>Yup. This is every possible match that can be played.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:07:50.956Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12326,
+      "topic_slug": "statistics-of-the-multiverse",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"phantaskippy\"]\n\nSo how about once the Vengeance Roster is increased to 15 and 2 environments are added?\n\n \n[/quote]\n \n\nThis is then, yes.\n\n[quote=\"eddie.cardenas\"]\n\nI hd trouble reading this in some parts. Did you include environments and regular villians?\n\n[/quote]\n\nYup. This is every possible match that can be played.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 132377,
+      "name": "MigrantP",
+      "username": "MigrantP",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+      "created_at": "2015-02-20T02:30:02.000Z",
+      "cooked": "<p>Combinatorics, not statistics. Sounds more impressive too =)</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:07:51.021Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12326,
+      "topic_slug": "statistics-of-the-multiverse",
+      "display_username": "MigrantP",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Combinatorics, not statistics. Sounds more impressive too =)</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 442,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-22",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 132378,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2015-02-24T03:55:47.000Z",
+      "cooked": "<p>I haven't checked your arithmentic, but the method looks sound.</p><p>&nbsp;</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:07:51.086Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12326,
+      "topic_slug": "statistics-of-the-multiverse",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I haven&#39;t checked your arithmentic, but the method looks sound.</p><p>&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

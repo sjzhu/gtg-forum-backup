@@ -1,0 +1,2382 @@
+{
+  "posts": [
+    {
+      "id": 12219,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2015-02-09T13:44:46.000Z",
+      "cooked": "<p>Here's what happens.</p><p>1. &nbsp;Ambuscade tries to shoot someone for 3 damage.</p><p>2. &nbsp;All heroes are equal health, Stealth Bot and Smoke Bombs are in play, SB is the lowest HP hero target.</p><p>3. &nbsp;So I have to choose the highest HP hero target, I choose Unity. &nbsp;</p><p>4. &nbsp;I<span>t asks if I want to redirect the damage from Unity to Stealth Bot. &nbsp;</span><span>I say Yes.</span></p><p><span>5. &nbsp;Stealth Bot is dealt 2 damage.</span></p><p>&nbsp;</p><p>Step 5 apparently has Stealth Bot redirecting from Unity, but Smoke Bombs should make it impossible for SB to take the damage, except that the highest HP target is Unity, and I had already told Stealth Bot to take that damage for Unity.</p><p>So first I think the option to redirect to stealth Bot should be available as an option, or maybe Smoke Bombs isn't programmed to work if the damage gets bounced around multiple times?</p><p>&nbsp;</p><p>Secondly, as a general rules question:</p><p>Should the highest/lowest hp target be able to be rechosen when damage gets redirected? &nbsp;Just wondering if it is a per instance resolution or is it even more fluid than that.</p><p>*side note* great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It's cool how few interactions go wrong in a game this complex.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:43:41.511Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Here&#39;s what happens.</p><p>1. &nbsp;Ambuscade tries to shoot someone for 3 damage.</p><p>2. &nbsp;All heroes are equal health, Stealth Bot and Smoke Bombs are in play, SB is the lowest HP hero target.</p><p>3. &nbsp;So I have to choose the highest HP hero target, I choose Unity. &nbsp;</p><p>4. &nbsp;I<span style=\"font-size: 13px;\">t asks if I want to redirect the damage from Unity to Stealth Bot. &nbsp;</span><span style=\"font-size: 13px;\">I say Yes.</span></p><p><span style=\"font-size: 13px;\">5. &nbsp;Stealth Bot is dealt 2 damage.</span></p><p>&nbsp;</p><p>Step 5 apparently has Stealth Bot redirecting from Unity, but Smoke Bombs should make it impossible for SB to take the damage, except that the highest HP target is Unity, and I had already told Stealth Bot to take that damage for Unity.</p><p>So first I think the option to redirect to stealth Bot should be available as an option, or maybe Smoke Bombs isn&#39;t programmed to work if the damage gets bounced around multiple times?</p><p>&nbsp;</p><p>Secondly, as a general rules question:</p><p>Should the highest/lowest hp target be able to be rechosen when damage gets redirected? &nbsp;Just wondering if it is a per instance resolution or is it even more fluid than that.</p><p>*side note* great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It&#39;s cool how few interactions go wrong in a game this complex.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130934,
+      "name": "MigrantP",
+      "username": "MigrantP",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+      "created_at": "2015-02-09T13:57:44.000Z",
+      "cooked": "<p>We'll take a look, I think Smoke Bombs should have triggered.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:08.899Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "MigrantP",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>We&#39;ll take a look, I think Smoke Bombs should have triggered.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 442,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-22",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130935,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2015-02-09T14:46:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>We'll take a look, I think Smoke Bombs should have triggered.</p>\n</blockquote>\n</aside>\n<p>Sadly I tapped the text box while skimming it, so I don't know what it said, other than Stealth Bot reduced the damage.</p>\n<p>I can verift that there wasn't a lower health hero target, SB was the only golem in play and all three heroes were tied at 20hp.</p>\n<p>Although thinking about it it ended up dealing 2 damage, which means Smoke Bombs couldn't have triggered.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:08.967Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"MigrantP\"]\n\nWe&#39;ll take a look, I think Smoke Bombs should have triggered.\n\n[/quote]\n\nSadly I tapped the text box while skimming it, so I don&#39;t know what it said, other than Stealth Bot reduced the damage.\n\nI can verift that there wasn&#39;t a lower health hero target, SB was the only golem in play and all three heroes were tied at 20hp.\n\nAlthough thinking about it it ended up dealing 2 damage, which means Smoke Bombs couldn&#39;t have triggered.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130936,
+      "name": "Rabk",
+      "username": "Rabk",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabk/{size}/1978_2.png",
+      "created_at": "2015-02-09T15:03:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p><em>side note</em> great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It's cool how few interactions go wrong in a game this complex.</p>\n</blockquote>\n</aside>\n<p>I may be mistaken, but doesn't the Wagon damage come directly from the environment? From the spoiler sheet:</p>\n<aside class=\"quote no-group\" data-username=\"Explosives Wagon\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Explosives Wagon:</div>\n<blockquote>\n<p>When this card is destroyed, deal each Target 2 Fire Damage and 2 Projectile Damage.</p>\n</blockquote>\n</aside>\n<p>If the Wagon itself was dealing the damage it would say something like \"…this card deals each target…\" instead. As I understand it, an Explosives Wagon can be neither Chastised nor stopped by Hypersonic Assaults, etc. Or did I miss yet another ruling?</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.043Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Rabk",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"phantaskippy\"]\n *side note* great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It&#39;s cool how few interactions go wrong in a game this complex. \n\n[/quote]\n\nI may be mistaken, but doesn&#39;t the Wagon damage come directly from the environment? From the spoiler sheet:\n\n \n[quote=\"Explosives Wagon\"]\n \n\n When this card is destroyed, deal each Target 2 Fire Damage and 2 Projectile Damage.  \n[/quote]\n \n\nIf the Wagon itself was dealing the damage it would say something like &quot;...this card deals each target...&quot; instead. As I understand it, an Explosives Wagon can be neither Chastised nor stopped by Hypersonic Assaults, etc. Or did I miss yet another ruling?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5962,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130937,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2015-02-09T15:16:01.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Rabk\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabk/48/1978_2.png\" class=\"avatar\"> Rabk:</div>\n<blockquote>\n<div><b>phantaskippy wrote:</b><br><blockquote>*side note* great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It's cool how few interactions go wrong in a game this complex.\n&nbsp;\n</blockquote></div>\nI may be mistaken, but doesn't the Wagon damage come directly from the environment? From the spoiler sheet:\n<div><b>Explosives Wagon wrote:</b><br><blockquote>When this card is destroyed, deal each Target 2 Fire Damage and 2 Projectile Damage.\n&nbsp;\n</blockquote></div>\nIf the Wagon itself was dealing the damage it would say something like \"...this card deals each target...\" instead. As I understand it, an Explosives Wagon can be neither Chastised nor stopped by Hypersonic Assaults, etc. Or did I miss yet another ruling?\n</blockquote>\n</aside>\n<p>Ummm…well first off I think you bring up a good point.</p>\n<p>For the record, I have always assumed the damage came from Explosive Wagon. Since that card is creating the effect of the damage, the damage is coming from that card.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.152Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Rabk\"]\n\n<div class=\"bb-quote\"><b>phantaskippy wrote:</b><br /><blockquote class=\"bb-quote-body\">*side note* great job with Chastise and Wagon, I thought witht he way wagon looks like it leaves play then deals damage that it would get around chastise, but Final Dive with Chastise on the Wagon worked perfectly. &nbsp;It&#39;s cool how few interactions go wrong in a game this complex.\n&nbsp;\n</blockquote></div>\nI may be mistaken, but doesn&#39;t the Wagon damage come directly from the environment? From the spoiler sheet:\n<div class=\"bb-quote\"><b>Explosives Wagon wrote:</b><br /><blockquote class=\"bb-quote-body\">When this card is destroyed, deal each Target 2 Fire Damage and 2 Projectile Damage.\n&nbsp;\n</blockquote></div>\nIf the Wagon itself was dealing the damage it would say something like &quot;...this card deals each target...&quot; instead. As I understand it, an Explosives Wagon can be neither Chastised nor stopped by Hypersonic Assaults, etc. Or did I miss yet another ruling?\n\n[/quote]\n\nUmmm...well first off I think you bring up a good point.\n\nFor the record, I have always assumed the damage came from Explosive Wagon. Since that card is creating the effect of the damage, the damage is coming from that card.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130938,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2015-02-09T15:20:45.000Z",
+      "cooked": "<p>The damage is coming from the Explosive Wagon and stays in play until it finishes dealing damage.&nbsp;</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.225Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>The damage is coming from the Explosive Wagon and stays in play until it finishes dealing damage.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130939,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2015-02-09T15:24:32.000Z",
+      "cooked": "<p>It may need some errata, the text specifying it as the source may of mistakenly been left off.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.294Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It may need some errata, the text specifying it as the source may of mistakenly been left off.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130940,
+      "name": "Rabk",
+      "username": "Rabk",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabk/{size}/1978_2.png",
+      "created_at": "2015-02-09T15:26:00.000Z",
+      "cooked": "<p>[quote=Spiff's FAQ]</p>\n<p><strong>Source of Damage</strong>&nbsp;<br>Not all environment cards specify who/what is dealing damage. Instead of the text “this card deals xyz damage”, some just say “deal xyz damage”. In cases like this, you should assume the damage is being dealt by the environment itself, or if it’s important, from the card itself.<br>[/quote]</p>\n<p>I knew I had read that non-sourced damage came from the environment itself, but apparently I missed the phrase, \" <em>or if it’s important, from the card itself</em>.\" I guess this is a case where it is, in fact, important. Spiff doesn't provide a link for that particular ruling; it's one I would be interested in.</p>\n<p><br>&nbsp;</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.367Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Rabk",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": " [quote=Spiff&#39;s FAQ] \n\n<u><strong>Source of Damage</strong>&nbsp;</u><br />Not all environment cards specify who/what is dealing damage. Instead of the text &ldquo;this card deals xyz damage&rdquo;, some just say &ldquo;deal xyz damage&rdquo;. In cases like this, you should assume the damage is being dealt by the environment itself, or if it&rsquo;s important, from the card itself.<br />[/quote]\n\nI knew I had read that non-sourced damage came from the environment itself, but apparently I missed the phrase, &quot; <em>or if it&rsquo;s important, from the card itself</em>.&quot; I guess this is a case where it is, in fact, important. Spiff doesn&#39;t provide a link for that particular ruling; it&#39;s one I would be interested in. \n\n<br />&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5962,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130941,
+      "name": "Rabk",
+      "username": "Rabk",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabk/{size}/1978_2.png",
+      "created_at": "2015-02-09T15:32:50.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>It may need some errata, the text specifying it as the source may of mistakenly been left off.</p>\n</blockquote>\n</aside>\n<p>Aye, I'm pretty sure the Wagon is the only environment  <em>target </em> that deals damage without specifying the source. All of the Volcanoes, Primordial Plants, Police, Checmicals, etc. that do the same are non-target cards.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.452Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Rabk",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Ronway\"]\n\nIt may need some errata, the text specifying it as the source may of mistakenly been left off.\n\n[/quote]\n\n Aye, I&#39;m pretty sure the Wagon is the only environment  <em>target </em> that deals damage without specifying the source. All of the Volcanoes, Primordial Plants, Police, Checmicals, etc. that do the same are non-target cards. \n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5962,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130942,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2015-02-09T15:36:23.000Z",
+      "cooked": "<p>Spiffs FAQ actually does talk about that card. It explains why it deals three fire and three projectile damage not sure if that answers you on this fully or not. &nbsp;</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.521Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>Spiffs FAQ actually does talk about that card. It explains why it deals three fire and three projectile damage not sure if that answers you on this fully or not. &nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130943,
+      "name": "Rabk",
+      "username": "Rabk",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabk/{size}/1978_2.png",
+      "created_at": "2015-02-09T15:50:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>Spiffs FAQ actually does talk about that card. It explains why it deals three fire and three projectile damage not sure if that answers you on this fully or not. &nbsp;</p>\n</blockquote>\n</aside>\n<p>No, the staying in play part I understand just fine - that's not at issue. It's the wording that doesn't specify the wagon actually dealing the damage. If an environment card just says, \"deal <i>X&nbsp;</i>target&nbsp;<em>Y</em> damage,\" you usually assume it's coming from the environment itself rather than the card. The wagon doesn't say, \"This card deals each target 2…,\" so it shouldn't technically be able to be stopped by Chastise <em>et al.</em></p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.586Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Rabk",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Powerhound_2000\"]\n\nSpiffs FAQ actually does talk about that card. It explains why it deals three fire and three projectile damage not sure if that answers you on this fully or not. &nbsp;\n\n[/quote]\n\nNo, the staying in play part I understand just fine - that&#39;s not at issue. It&#39;s the wording that doesn&#39;t specify the wagon actually dealing the damage. If an environment card just says, &quot;deal <i>X&nbsp;</i>target&nbsp;<em>Y</em> damage,&quot; you usually assume it&#39;s coming from the environment itself rather than the card. The wagon doesn&#39;t say, &quot;<u>This card</u> deals each target 2...,&quot; so it shouldn&#39;t technically be able to be stopped by Chastise <em>et al.</em>\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5962,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130944,
+      "name": "Killswitch",
+      "username": "Killswitch",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/killswitch/{size}/2116_2.png",
+      "created_at": "2015-02-09T16:11:22.000Z",
+      "cooked": "<p>It definitely comes from the environment. My triple Mega Computer neutered all environment damage in a game I played last night.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.653Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Killswitch",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "It definitely comes from the environment. My triple Mega Computer neutered all environment damage in a game I played last night.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8636,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130945,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2015-02-09T16:14:24.000Z",
+      "cooked": "<p>The same sentence states, when this card is destroyed, which implies to me that the Wagon which just blew up is dealing the damage. &nbsp;</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.729Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>The same sentence states, when this card is destroyed, which implies to me that the Wagon which just blew up is dealing the damage. &nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130946,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2015-02-09T16:15:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"xThe Killswitch\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n xThe Killswitch:</div>\n<blockquote>\n<p>It definitely comes from the environment. My triple Mega Computer neutered all environment damage in a game I played last night.</p>\n</blockquote>\n</aside>\n<p>That would neuter the damage regardless of whether Explosive Wagon or the environment itself dealt the damage so long as the source occurred because of an environment card. &nbsp;</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.805Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "[quote=\"xThe Killswitch\"]\n\nIt definitely comes from the environment. My triple Mega Computer neutered all environment damage in a game I played last night.\n\n[/quote]\n\nThat would neuter the damage regardless of whether Explosive Wagon or the environment itself dealt the damage so long as the source occurred because of an environment card. &nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130947,
+      "name": "Silverleaf",
+      "username": "Silverleaf",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+      "created_at": "2015-02-09T16:23:20.000Z",
+      "cooked": "<p>I've always thought it was the Wagon dealing the damage even if it doesn't specify that. Thematically it makes sense that the explody damage comes from the explody target...</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.893Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Silverleaf",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I&#39;ve always thought it was the Wagon dealing the damage even if it doesn&#39;t specify that. Thematically it makes sense that the explody damage comes from the explody target...</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4341,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130948,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2015-02-09T16:26:36.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Rabk\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabk/48/1978_2.png\" class=\"avatar\"> Rabk:</div>\n<blockquote>\n<p><b>Spiff's FAQ wrote:</b></p>\n<div><blockquote><strong>Source of Damage</strong>&nbsp;Not all environment cards specify who/what is dealing damage. Instead of the text “this card deals xyz damage”, some just say “deal xyz damage”. In cases like this, you should assume the damage is being dealt by the environment itself, <em><strong>or if it’s important, from the card itself.</strong></em>\n&nbsp;\n</blockquote></div>\nI knew I had read that non-sourced damage came from the environment itself, but apparently I missed the phrase, \"<em>or if it’s important, from the card itself</em>.\" I guess this is a case where it is, in fact, important. Spiff doesn't provide a link for that particular ruling; it's one I would be interested in.&nbsp;\n</blockquote>\n</aside>\n<p>I highlighted the important part of Spiffs FAQ. The damage still is coming from the card Explosive Wagon.</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:09.995Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Rabk\"]\n\n<b>Spiff&#39;s FAQ wrote:</b>\n<div class=\"bb-quote\"><blockquote class=\"bb-quote-body\"><strong>Source of Damage</strong>&nbsp;Not all environment cards specify who/what is dealing damage. Instead of the text &ldquo;this card deals xyz damage&rdquo;, some just say &ldquo;deal xyz damage&rdquo;. In cases like this, you should assume the damage is being dealt by the environment itself, <em><u><strong>or if it&rsquo;s important, from the card itself.</strong></u></em>\n&nbsp;\n</blockquote></div>\nI knew I had read that non-sourced damage came from the environment itself, but apparently I missed the phrase, &quot;<em>or if it&rsquo;s important, from the card itself</em>.&quot; I guess this is a case where it is, in fact, important. Spiff doesn&#39;t provide a link for that particular ruling; it&#39;s one I would be interested in.&nbsp;\n\n[/quote]\n\nI highlighted the important part of Spiffs FAQ. The damage still is coming from the card Explosive Wagon.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130949,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2015-02-09T16:36:00.000Z",
+      "cooked": "<p>According to some old rulings any villain card that doesn't specify the dealer of the damage it is assumed to be dealt by the villain character card.</p><p>Also The Environment, per the rule book, can be the source of damage, as seen on PW Tempest's card, wagon, and all over Insula Primalis.</p><p>However, when an environment card causes damage to be dealt without specifying a source, that environment card is causing the damage to be dealt, so it would be reducable by Mega Computer, or redirectable by Infiltrate and Obfuscate, even though the damage is being dealt by \"The Environment.\"</p><p>Look at Insula Primalis, that environment deals a lot of damage, but the damage is treated as being dealt by the cards for the purposes of reduction and redirection.</p><p>That's why Spiff's FAQ says:</p><blockquote><p><span>&nbsp;In cases like this, you should assume the damage is being dealt by the environment itself, or if it’s important, from the card itself.</span></p></blockquote><p><span>Because when it makes a difference you treat is as if the card is dealing the damage, since the card is the environment.</span></p><p>&nbsp;</p><p><span>It also means that PW Tempest's power causes damage to be dealt from the Environment, but not from an Environment card, so it is not dealt by an environment card, just from the environment, which means your only reduction/redirection options are ones that focus on a hero taking damage, and not cards that react or modify damage from Environment cards.</span></p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.125Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>According to some old rulings any villain card that doesn&#39;t specify the dealer of the damage it is assumed to be dealt by the villain character card.</p><p>Also The Environment, per the rule book, can be the source of damage, as seen on PW Tempest&#39;s card, wagon, and all over Insula Primalis.</p><p>However, when an environment card causes damage to be dealt without specifying a source, that environment card is causing the damage to be dealt, so it would be reducable by Mega Computer, or redirectable by Infiltrate and Obfuscate, even though the damage is being dealt by &quot;The Environment.&quot;</p><p>Look at Insula Primalis, that environment deals a lot of damage, but the damage is treated as being dealt by the cards for the purposes of reduction and redirection.</p><p>That&#39;s why Spiff&#39;s FAQ says:</p><blockquote><p><span style=\"color: rgb(68, 68, 68); font-family: 'PT Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(235, 233, 234);\">&nbsp;In cases like this, you should assume the damage is being dealt by the environment itself, or if it&rsquo;s important, from the card itself.</span></p></blockquote><p><span style=\"color: rgb(68, 68, 68); font-family: 'PT Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(235, 233, 234);\">Because when it makes a difference you treat is as if the card is dealing the damage, since the card is the environment.</span></p><p>&nbsp;</p><p><span style=\"color: rgb(68, 68, 68); font-family: 'PT Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(235, 233, 234);\">It also means that PW Tempest&#39;s power causes damage to be dealt from the Environment, but not from an Environment card, so it is not dealt by an environment card, just from the environment, which means your only reduction/redirection options are ones that focus on a hero taking damage, and not cards that react or modify damage from Environment cards.</span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130950,
+      "name": "Killswitch",
+      "username": "Killswitch",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/killswitch/{size}/2116_2.png",
+      "created_at": "2015-02-09T16:42:24.000Z",
+      "cooked": "<p>In any case, I agree how Chastise works (as that is also something I tried myself in the app), and it seems as though Wagon is indeed the source of damage.</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.233Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Killswitch",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>In any case, I agree how Chastise works (as that is also something I tried myself in the app), and it seems as though Wagon is indeed the source of damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8636,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130951,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-02-09T16:47:27.000Z",
+      "cooked": "<p>That was a very unfun argument to read. Everybody agreed.</p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.363Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "That was a very unfun argument to read. Everybody agreed.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130952,
+      "name": "Killswitch",
+      "username": "Killswitch",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/killswitch/{size}/2116_2.png",
+      "created_at": "2015-02-09T16:57:58.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>That was a very unfun argument to read. Everybody agreed.</p>\n</blockquote>\n</aside>\n<p>No, we didn't!</p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.457Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Killswitch",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\nThat was a very unfun argument to read. Everybody agreed.\n\n[/quote]\n\nNo, we didn&#39;t!\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8636,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130953,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2015-02-09T17:19:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>That was a very unfun argument to read. Everybody agreed.</p>\n</blockquote>\n</aside>\n<p>I know, and it has such potential, the trouble was all the old arguments over this topic were resolved quickly with official responses.</p>\n<p>It's not everyday Christopher goes on a cruise and we can sew chaos and discord in the forums.</p>",
+      "post_number": 21,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.539Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130954,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2015-02-09T18:23:58.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>It's not everyday Christopher goes on a cruise and we can sew chaos and discord in the forums.</p>\n</blockquote>\n</aside>\n<p>I think I can speak for the rest of the staff in saying that we really <em><strong>love </strong></em>that this is your definition of \"chaos and discord\".  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/grin.png?v=12\" title=\":grin:\" class=\"emoji\" alt=\":grin:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>Please continue.  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/sunglasses.png?v=12\" title=\":sunglasses:\" class=\"emoji\" alt=\":sunglasses:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "post_number": 22,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.695Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130955,
+      "name": "Killswitch",
+      "username": "Killswitch",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/killswitch/{size}/2116_2.png",
+      "created_at": "2015-02-09T18:42:42.000Z",
+      "cooked": "<p>You're all stupid heads!</p><p>-leaves and lets chaos and discord unfold-</p>",
+      "post_number": 23,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.766Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Killswitch",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8636,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130956,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2015-02-09T18:43:56.000Z",
+      "cooked": "<p>Oh yeah!?!?! &nbsp;Well, you're a towel!</p>",
+      "post_number": 24,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.830Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130957,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2015-02-09T18:53:09.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>Oh yeah!?!?!  Well, you’re a towel!</p>\n</blockquote>\n</aside>\n<p>I know where MY towel is.  Do you know where yours is?</p>",
+      "post_number": 25,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.893Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130958,
+      "name": "Killswitch",
+      "username": "Killswitch",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/killswitch/{size}/2116_2.png",
+      "created_at": "2015-02-09T19:01:02.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>Oh yeah!?!?! &nbsp;Well, you're a towel!</p>\n</blockquote>\n</aside>\n<p>The most useful asset to have while hitchhiking through the galaxy? Yeah, I know.</p>",
+      "post_number": 26,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:10.966Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "Killswitch",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8636,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130959,
+      "name": "eugeneruss",
+      "username": "eugeneruss",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/a183cd/{size}.png",
+      "created_at": "2015-02-09T19:44:14.000Z",
+      "cooked": "<p>Respectfully, I'd like to disagree with the conclusions drawn in this argument.</p><p>&nbsp;</p><p>But I can't.</p>",
+      "post_number": 27,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:11.030Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "eugeneruss",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8475,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 130960,
+      "name": "DrScott",
+      "username": "DrScott",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/97f17d/{size}.png",
+      "created_at": "2015-02-12T03:58:37.000Z",
+      "cooked": "<p>You are all without a doubt hoopy froods.</p>",
+      "post_number": 28,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:06:11.091Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 12217,
+      "topic_slug": "stealth-bot-vs-smoke-bombs-issue-app-interaction-and-question",
+      "display_username": "DrScott",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4232,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

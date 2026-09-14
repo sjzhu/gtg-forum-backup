@@ -1,0 +1,3980 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 133130,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T15:19:20.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>As soon as the effect is resolve, it too would immediatly be sent to the trash.</p>\n</blockquote>\n</aside>\n<p>I wish this was true.</p>\n<p>&nbsp;</p>\n<p>I had the following situation come up in the App, and I reported it as a bug. However, I was told everything was working correctly.</p>\n<p>Key players: Volatile Parts, Stealth Bot, Sonic Mine (see where this is going?).</p>\n<p>Something kills Stealth Bot, and she blows up destroying Sonic Mine, When Sonic Mine asks for targets, Stealth Bot is still there. However, she wasn't redirecting and damage.</p>\n<p>Apparently, in this case, Stealth Bot still hangs around as being a target, however, since she was destroyed the rest of the text disappears (poof!), so no redirecting.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:45.778Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133131,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-02-23T15:26:26.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<div><b>Foote wrote:</b><br><blockquote>As soon as the effect is resolve, it too would immediatly be sent to the trash.\n&nbsp;\n</blockquote></div>\nI wish this was true.&nbsp;I had the following situation come up in the App, and I reported it as a bug. However, I was told everything was working correctly.Key players: Volatile Parts, Stealth Bot, Sonic Mine (see where this is going?).Something kills Stealth Bot, and she blows up destroying Sonic Mine, When Sonic Mine asks for targets, Stealth Bot is still there. However, she wasn't redirecting and damage.Apparently, in this case, Stealth Bot still hangs around as being a target, however, since she was destroyed the rest of the text disappears (poof!), so no redirecting.\n</blockquote>\n</aside>\n<p>And you can 100% rule this out as <em>not</em> a bug?</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:45.844Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133132,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T15:27:02.000Z",
+        "cooked": "<p>Yes.</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:45.901Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133133,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-02-23T15:31:42.000Z",
+        "cooked": "<p>That doesn't make sense to me at all</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:45.963Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133134,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T17:23:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>I thought we had an official ruling that the \"When a target is destroyed\" card effects happen after the card leaves play, while \"When this card is destroyed\" happen while it is in play.I may be wrong about that though, I can't find it.If that order is reversed then this is not at all simple and is ridiculously confusing.</p>\n</blockquote>\n</aside>\n<p>I believe your memory is correct, but that the situation has evolved since then.&nbsp; The current ruling, as referrenced in the initial post on this thread, is: \"<strong>targets remain in play during their own destruction</strong>\" (bold in the original).&nbsp;</p>\n<p>This ruling may or may not be intuitive to you, but it's at least objectively <em>simpler</em> than the previous ruling.</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.018Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133135,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T17:27:00.000Z",
+        "cooked": "<p>Pydro, could you IM me a link to that bug report on the Trello board?&nbsp; I read it obsessively, and I don't recall seeing anything that exactly matches that, nor can my search-fu turn one up.&nbsp; (Also, what's your name on Trello, so I can search better.)</p><p>This business about \"being in play, but without ts text\" sounds super-wrong to me.</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.086Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133136,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T17:33:00.000Z",
+        "cooked": "<p>Wasn’t sure what to do with it, so I posted it on the Mega Computer board, which isn’t public. Everything above is correct as of right now (I triple checked it).</p>\n<p>I can upload the screenshot later, but not now.</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.149Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133137,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T17:44:58.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>If Sonic Mine still has 0 or fewer HP when Fixed Point leaves play, Sonic Mine also leaves play. It would <em>not</em> resolve its destruction effect twice.</p>\n</blockquote>\n</aside>\n<p>Really?!&nbsp; That second sentence seems wrong to me.&nbsp; Well, unintuitive at any rate; I don't recall having seen a ruling on it one way or another.</p>\n<p>Would Dominion also not trigger in this scenario?</p>\n<p>My intuition would be that when Fixed Point leave play, any &lt;=0HP cards would be destroyed \"from scratch\" – that is, they would trigger all effects that cared about their destruction, even if (most of) those effects had already triggred earlier.</p>\n<p>Actually, it's more than just intuition.&nbsp; In my other <a href=\"https://greaterthangames.com/forum/topic/fixed-point-and-healing-for-non-hero-character-cards-6834\" rel=\"noopener nofollow ugc\">recent thread</a>, opinion seems unamnimous that healing above 0HP will prevent a card from leaving play when Fixed Point leaves.&nbsp; That implies that the card retains no memory/state of \"I am really destroyed, even though I am in play\".&nbsp; And lacking such a memory/state, I would argue that all the \"on destruction\" effects have to happen when FP leaves play.</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.219Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/forum/topic/fixed-point-and-healing-for-non-hero-character-cards-6834",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133138,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T17:49:59.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Wasn't sure what to do with it, so I posted it on the Mega Computer board, which isn't public.</p>\n</blockquote>\n</aside>\n<p>I've been meaning to ask for a while now – is the \"Mega Computer board\" just a nickname for the Trello board for beta testers, or is it something else entirely?</p>\n<p>I know the Trello board isn't public, but I am a beta teter, so I can look at it.&nbsp; That's why I asked for an IM, rather than a public link.</p>",
+        "post_number": 29,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.291Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133139,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T17:55:34.000Z",
+        "cooked": "<p>The Mega Computer is something separate. It’s a text based system that is used to test the rules of the game. Beta Testers test the actual app to make sure things are working.</p>",
+        "post_number": 30,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.395Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133140,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2015-02-23T18:14:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>The Mega Computer is something separate. It's a text based system that is used to test the rules of the game. Beta Testers test the actual app to make sure things are working.</p>\n</blockquote>\n</aside>\n<p>Basically, the Mega Computer is used to test the rules before the graphical aspects are applied and it goes out to the beta testers.</p>",
+        "post_number": 31,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.454Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133141,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T18:15:45.000Z",
+        "cooked": "<p>Thanks for the help!</p>",
+        "post_number": 32,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.529Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133142,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-02-23T20:04:29.000Z",
+        "cooked": "<p>There are 4 main stages that changes to the app move through (and not necessarily in a linear way - we iterate at each stage quite a bit).</p><ol>\n<li>Internal development &amp; testing - completely private between Handelabra Games and GTG</li>\n<li>Alpha testing - this uses the text-based Mega Computer system, and has a small group of external testers.</li>\n<li>Beta testing - this is a version of the real game on iOS, Android &amp; Steam, and has a larger group of external testers</li>\n<li>Public release</li>\n</ol><p>Each stage in fact has its own Trello boards =). We have quite a few for different parts of the project for internal use, and there's one each for Alpha and Beta. The only public board is <a href=\"https://trello.com/b/SiK61v7p/sotm-known-issues\" rel=\"noopener nofollow ugc\">SotM Known Issues</a>, which we use to communicate info about major issues in released versions.</p><p>&nbsp;</p>",
+        "post_number": 33,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.599Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://trello.com/b/SiK61v7p/sotm-known-issues",
+            "internal": false,
+            "reflection": false,
+            "title": "Trello",
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133143,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-02-23T20:07:24.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>There are 4 main stages that changes to the app move through (and not necessarily in a linear way - we iterate at each stage quite a bit).Internal development &amp; testing - completely private between Handelabra Games and GTGAlpha testing - this uses the text-based Mega Computer system, and has a small group of external testers.Beta testing - this is a version of the real game on iOS, Android &amp; Steam, and has a larger group of external testersPublic releaseEach stage in fact has its own Trello boards =). We have quite a few for different parts of the project for internal use, and there's one each for Alpha and Beta. The only public board is <a href=\"https://trello.com/b/SiK61v7p/sotm-known-issues\" rel=\"noopener nofollow ugc\">SotM Known Issues</a>, which we use to communicate info about major issues in released versions.&nbsp;</p>\n</blockquote>\n</aside>\n<p>Any insight as to why Stealth Bot would still be a selectable target for damage after it has been destroyed?</p>",
+        "post_number": 34,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.682Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133144,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-02-23T20:13:28.000Z",
+        "cooked": "<p>Because the situation discussed is not after Stealth Bot's destruction, it's during Stealth Bot's destruction.</p>",
+        "post_number": 35,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.756Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133145,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T20:18:00.000Z",
+        "cooked": "<p>Even though Volatile Parts in on a separate card, it is still part of its destruction effect, so Stealth Bot is still in play until that damage is done and resolved.</p>",
+        "post_number": 36,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.819Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133146,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-02-23T20:22:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>Because the situation discussed is not after Stealth Bot's destruction, it's during Stealth Bot's destruction.</p>\n</blockquote>\n</aside>\n<p>But theres the thing. Volitile Parts is a reactionary trigger to Stealth Bots destruction and doesn't nessesarily require Stealth Bot to stay in play to resolve (in the same way that Explosive Wagon needs to stay in play to resolve its own on destruction effect).&nbsp;</p>\n<p>Why isn't it the case that Stealth Bot leaves play as part of its destruction, then subsequently have Volitile Parts trigger as a reaction to the resolution of Stealth Bots destruction?</p>\n<p>Isnt leaving play an intigral part of the destruction proccess?</p>",
+        "post_number": 37,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.887Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133147,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T20:31:44.000Z",
+        "cooked": "<p>Keep in kind that while the target stays in play, the text does not unless it has an on destruction effect. This prevents Interpolation Beam from hitting Bunker who drew a card for the destruction of Interpolation Beam.</p>",
+        "post_number": 38,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:46.948Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133148,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-02-23T20:34:39.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Keep in kind that while the target stays in play, the text does not unless it has an on destruction effect. This prevents Interpolation Beam from hitting Bunker who drew a card for the destruction of Interpolation Beam.</p>\n</blockquote>\n</aside>\n<p>But why does it stay in play instead of being trashed immediatly?&nbsp;</p>",
+        "post_number": 39,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.014Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133149,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T20:37:27.000Z",
+        "cooked": "<p><em>shrug</em></p>",
+        "post_number": 40,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.080Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133150,
+        "name": "Donner",
+        "username": "Donner",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/donner/{size}/1903_2.png",
+        "created_at": "2015-02-23T20:38:13.000Z",
+        "cooked": "<p>For one, programming-wise, they'd have to have a different destruction step for cards with on-destruction text and cards without. &nbsp;And that would mean each card would have to be flagged as \"having destruction text\" or not. &nbsp;And that status could change depending on if they were under Savage Mana when it was used, etc. &nbsp;It would end up with a LOT more complications, I think.</p>",
+        "post_number": 41,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.148Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Donner",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4238,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133151,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-02-23T20:39:31.000Z",
+        "cooked": "<p>Because that's what Christopher decided should happen. If the decision goes the other way, it causes other weird things to happen.</p><p>As we get deeper into the expansions, a lot of weird interactions are continue to come up where sometimes the answer is just going to be the above. The app has to do *something* consistent, but that doesn't mean you have to play it exactly like that on the tabletop.</p>",
+        "post_number": 42,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.219Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133152,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-02-23T20:41:07.000Z",
+        "cooked": "<p>Yes. It. Does.</p>",
+        "post_number": 43,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.273Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133153,
+        "name": "Donner",
+        "username": "Donner",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/donner/{size}/1903_2.png",
+        "created_at": "2015-02-23T20:41:50.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Yes. It. Does.</p>\n</blockquote>\n</aside>\n<p>Lol! &nbsp;I know what you mean, Pydro. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/smiley.png?v=12\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 44,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.332Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Donner",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4238,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133154,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-02-23T20:44:38.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>The app has to do <em>something</em> consistent, but that doesn't mean you have to play it exactly like that on the tabletop.</p>\n</blockquote>\n</aside>\n<p>Lmao. Yeah, thats not gonna happen. Official way or the highway!</p>\n<p>I'm just trying to wrap my head around it.</p>",
+        "post_number": 45,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.391Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133155,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-02-23T21:38:00.000Z",
+        "cooked": "<p>If the card is still in play then Fixed point would stop it from leaving play.</p><p>A card cannot leave play if it is indestructible.</p><p>So if Sonic Mine-stealth bot interaction caused RC Wraith to use Dynamic Syphon and she put fixed Pint into play you would have:</p><p>A Stealth-Bot with no text that is in play, destroyed and unable to leave play.</p><p>A sonic-mine mid destruction that cannot be destroyed or leave play.</p><p>Does a resolution make sense to anyone on this?</p><p>&nbsp;</p><p>Also if Kismet has a card destroyed, and it is player's choice order you could draw a card for Bunker, put it under savage Mana and then prevent the destruction via Lady Luck.</p><p>How does that resolve?</p>",
+        "post_number": 46,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.460Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133156,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T22:29:45.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Keep in kind that while the target stays in play, the text does not unless it has an on destruction effect. This prevents Interpolation Beam from hitting Bunker who drew a card for the destruction of Interpolation Beam.</p>\n</blockquote>\n</aside>\n<p>What? Really?&nbsp; That strikes me as super-weird.&nbsp; Of course, we're down the rabbithole into a region where there are no possible answers that don't appear super-weird in some cases.</p>",
+        "post_number": 47,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.532Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133157,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T22:32:45.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>If the card is still in play then Fixed point would stop it from leaving play.</p>\n<p>A card cannot leave play if it is indestructible.</p>\n<p>So if Sonic Mine-stealth bot interaction caused RC Wraith to use Dynamic Syphon and she put fixed Pint into play you would have:</p>\n<p>A Stealth-Bot with no text that is in play, destroyed and unable to leave play.</p>\n<p>A sonic-mine mid destruction that cannot be destroyed or leave play.</p>\n</blockquote>\n</aside>\n<p>I believe that, under the current rulings, those are both correct interpretations.</p>\n<p>The Sonic Mine part seems sensible to me.</p>\n<p>The Stealth-Bot one bothers me a lot.&nbsp; I really don't like the idea of a face-up card with no text.</p>",
+        "post_number": 48,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.592Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133158,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-02-23T22:34:21.000Z",
+        "cooked": "<p>And follow up, would Sonic Mine finish dealing damage, and if it did would it lose its text afterwards?</p>",
+        "post_number": 49,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.662Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133159,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T22:35:58.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Also if Kismet has a card destroyed, and it is player's choice order you could draw a card for Bunker, put it under savage Mana and then prevent the destruction via Lady Luck.</p>\n<p>How does that resolve?</p>\n</blockquote>\n</aside>\n<p>Referring to the current state of the <a href=\"https://docs.google.com/a/funnybusinessponybetter.org/spreadsheets/d/tZfiNqJyV3rK-QAsuSFG33w/edit#gid=0\" rel=\"noopener nofollow ugc\">Damage Dealing Timing</a> doc, Lady Luck would resolve during step 17.&nbsp; After that, if the destruction was not prevented, the players would choose the order of resolution for Ammo Drop and Savage Mana in step 18.</p>",
+        "post_number": 50,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.764Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://docs.google.com/a/funnybusinessponybetter.org/spreadsheets/d/tZfiNqJyV3rK-QAsuSFG33w/edit#gid=0",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133160,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T22:39:03.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>And follow up, would Sonic Mine finish dealing damage, and if it did would it lose its text afterwards?</p>\n</blockquote>\n</aside>\n<p>Since Sonic Mine <em>has</em> an \"on destruction\" effect, its text would not leave play, so it would finish dealing damage.</p>\n<p>Nothing said so far makes it clear whether or not it would lose its card text afterwards.&nbsp; I would assume not, but I wouldn't be surprised to be overruled.</p>",
+        "post_number": 51,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.836Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133161,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-02-23T22:51:41.000Z",
+        "cooked": "<p>But the Mine was Being destroyed, it cannot be destroyed once Fixed Point comes into play.</p><p>So if something is in the process of happening and then cannot happen. . . what happens?</p><p>The Mine is not destroyed, but it was in the process of being destroyed.</p>",
+        "post_number": 52,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.902Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133162,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-23T23:03:51.000Z",
+        "cooked": "<p>As you yourself alluded to earlier, the definition of \"indestructible\" is \"cannot leave play\".&nbsp; It is NOT \"cannot undertake ANY of the many steps of the destruction process\".&nbsp; So the Sonic Mine keeps doing what it was doing until something tells it it can't (at the point it attempts to leave play).</p><p>At least, that's my take on it.</p><p>...If I'm right, it would have the ufonrtunate side-effect that even if Fixed Point was already in play when Sonic Mine took damage, the Mine would still \"explode\".</p>",
+        "post_number": 53,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:47.960Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133163,
+        "name": "eugeneruss",
+        "username": "eugeneruss",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/a183cd/{size}.png",
+        "created_at": "2015-02-23T23:20:00.000Z",
+        "cooked": "<p>Personally, I think the baggage associated with keeping a destroyed target in play (NOT the same as not letting it be destroyed due to Fixed Point) is more than anyone should pack for a trip. The oddities with being the lowest hit point target are bad enough, letting it potentially soak up other destruction effects just starts to get silly. And someday we'll have a heal-on-damage effect that means that you can destroy a target, start processing its destruction, heal it, then destroy it again.</p><p>&nbsp;</p><p>I'm much more comfortable with \"has been destroyed\" being a one-way ticket out of play, even as you still resolve all the effects contigent on that destruction. A limbo/meta state like \"revealed\" creates seems more appropriate.</p>",
+        "post_number": 54,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.022Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "eugeneruss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8475,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133164,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-02-23T23:24:47.000Z",
+        "cooked": "<p>Indestructible means cannot be destroyed or leave play.</p><p>Otherwise heroes would incap through Fixed Point.</p>",
+        "post_number": 55,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.095Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133165,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-02-23T23:25:33.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"eugeneruss\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/a183cd/48.png\" class=\"avatar\"> eugeneruss:</div>\n<blockquote>\n<p>Personally, I think the baggage associated with keeping a destroyed target in play (NOT the same as not letting it be destroyed due to Fix Point) is more than anyone should pack for a trip.</p>\n</blockquote>\n</aside>\n<p>Possibly, but I don't know of a good way to structure it otherwise without changing how Mountainous Carapace and Explosives Wagon work, and it's been confirmed that they work as intended.</p>",
+        "post_number": 56,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.159Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133166,
+        "name": "eugeneruss",
+        "username": "eugeneruss",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/a183cd/{size}.png",
+        "created_at": "2015-02-23T23:48:59.000Z",
+        "cooked": "<p>I'm thinking with Captain Cosmic and Doctor Medico, I could construct a situation where a target got destroyed, then got healed above it's destruction threshold. That's one of the bits of baggage I find troubling. It's one thing to pull that off with Fixed Point, another to pull it off without it. And I find it very troubling that Fixed Point could undo an in-progress destruction, that's an ugly mechanical artifact. That's distinct from *preventing* destruction, I'm talking resolution already in progress. Couple that with the situation where we're now talking about re-destroying an in-destroyed target with other effects (such as bee bot), and what the heck happens to the trigger then. Maybe all we need is language that a target in the process of being destroyed can no longer be targeted. Since it remains a target, that leaves existing effects in play during resolution. Though I'd also like to make destruction a commited step in the resolution process (that is to say, once you've destroyed a target, it cannot be undestroyed prior to completing its destruction). This still allows the myriad effects that prevent destruction.</p>",
+        "post_number": 57,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.220Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "eugeneruss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8475,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133167,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-24T00:00:03.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Indestructible means cannot be destroyed or leave play.Otherwise heroes would incap through Fixed Point.</p>\n</blockquote>\n</aside>\n<p>Oops, you're right.&nbsp; The definition of indestructible does not address what happens when the indestructible state comes about in mid-destruction, so the rules are ambiguous.&nbsp; I still like my interpretation, but I'm far less confident in it.</p>",
+        "post_number": 58,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.281Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133168,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-24T00:06:47.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<div><b>eugeneruss wrote:</b><br><blockquote>Personally, I think the baggage associated with keeping a destroyed target in play (NOT the same as not letting it be destroyed due to Fix Point) is more than anyone should pack for a trip.</blockquote></div>\nPossibly, but I don't know of a good way to structure it otherwise without changing how Mountainous Carapace and Explosives Wagon work, and it's been confirmed that they work as intended.\n</blockquote>\n</aside>\n<p>Well, maybe it's time that we (and by we, I mostly mean Christopher) should start re-assessing the importance of having MC and EW work that way.&nbsp; If simplifying the overall rules structure comes at the cost of what is, in the grand scheme of things, a rather small change to 2 specific cards, that might be the lesser of two evils.</p>\n<p>Heck, you could even issue errata for the cards to fix the functionality to be as originally intended.&nbsp; And maybe should, since a lot of people (who don't read the forums) play them \"wrong\" as is.</p>",
+        "post_number": 59,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.346Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133169,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-02-24T00:10:21.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"eugeneruss\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/a183cd/48.png\" class=\"avatar\"> eugeneruss:</div>\n<blockquote>\n<p>I'm thinking with Captain Cosmic and Doctor Medico, I could construct a situation where a target got destroyed, then got healed above it's destruction threshold. That's one of the bits of baggage I find troubling. It's one thing to pull that off with Fixed Point, another to pull it off without it. And I find it very troubling that Fixed Point could undo an in-progress destruction, that's an ugly mechanical artifact. That's distinct from <em>preventing</em> destruction, I'm talking resolution already in progress. Couple that with the situation where we're now talking about re-destroying an in-destroyed target with other effects (such as bee bot), and what the heck happens to the trigger then. Maybe all we need is language that a target in the process of being destroyed can no longer be targeted. Since it remains a target, that leaves existing effects in play during resolution. Though I'd also like to make destruction a commited step in the resolution process (that is to say, once you've destroyed a target, it cannot be undestroyed prior to completing its destruction). This still allows the myriad effects that prevent destruction.</p>\n</blockquote>\n</aside>\n<p>It's definately not possible to save a target from destruction without Fixed Point. &nbsp;Just like a destroyed target can't be destroyed a second time, it can't be saved by healing. &nbsp;</p>\n<p>Of course, Fixed Point makes all these rules weird and confusing, but that's Fixed Point for you.</p>",
+        "post_number": 60,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.422Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133170,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-24T00:25:20.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"eugeneruss\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/a183cd/48.png\" class=\"avatar\"> eugeneruss:</div>\n<blockquote>\n<p>I'm thinking with Captain Cosmic and Doctor Medico, I could construct a situation where a target got destroyed, then got healed above it's destruction threshold.</p>\n</blockquote>\n</aside>\n<p>If you could, that would certainly be disturbing, but I don't see how you could manage it.&nbsp; Oh wait…</p>\n<p>Bee Bot destroys Explosives Wagon while various effects* are making EW do between 1-3 damage to Hero targets; EW hits Dynamic Siphon on Dr. Medico; Doctor Medico then heals Bee Bot.</p>\n<ul>\n<li>For example, Mass Levitation plus The Contract</li>\n</ul>\n<p>Yes, it can be done.&nbsp; Disturbing.</p>\n<aside class=\"quote no-group\" data-username=\"eugeneruss\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/a183cd/48.png\" class=\"avatar\"> eugeneruss:</div>\n<blockquote>\n<p>Maybe all we need is language that a target in the process of being destroyed can no longer be targeted. Since it remains a target, that leaves existing effects in play during resolution.</p>\n<p>Though I'd also like to make destruction a commited step in the resolution process (that is to say, once you've destroyed a target, it cannot be undestroyed prior to completing its destruction). This still allows the myriad effects that prevent destruction.</p>\n</blockquote>\n</aside>\n<p>I would be happy with either or both of those changes.</p>",
+        "post_number": 61,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.485Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133171,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-24T00:28:01.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p>It's definately not possible to save a target from destruction without Fixed Point. &nbsp;Just like a destroyed target can't be destroyed a second time, it can't be saved by healing. &nbsp;Of course, Fixed Point makes all these rules weird and confusing, but that's Fixed Point for you.</p>\n</blockquote>\n</aside>\n<p>D'oh!&nbsp; I kew that.&nbsp; Where by \"knew\" I mean \"knew that at one time, but forgot it in the interim\".&nbsp; It is clearly laid out in a comment to step 19 of the Damage doc.</p>",
+        "post_number": 62,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.547Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133172,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-02-24T00:44:54.000Z",
+        "cooked": "<p>It worked beautifully when I thought that on-destruct text on a card delayed the destruction until it resolved, and then other responses triggered when the card actually left play.</p><p>Kind of like effects that react to a power being used trigger after the power resolves.</p><p>Unless that is getting changed as well.</p>",
+        "post_number": 63,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.605Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133173,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2015-02-24T01:06:28.000Z",
+        "cooked": "<p>I really wish they said</p><p>\"If this card enters the trash from play...\"</p><p>it would save a lot of confusion.</p>",
+        "post_number": 64,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.686Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133174,
+        "name": "eugeneruss",
+        "username": "eugeneruss",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/a183cd/{size}.png",
+        "created_at": "2015-02-24T01:29:11.000Z",
+        "cooked": "<p>Good to know undestructing by healing is covered (and disallowed). Some of the earlier conversation in this thread had me confused, I obviously need to review the damage doc some more. I still dislike the case of lowest-hit point effects hitting the already destroyed target :)</p>",
+        "post_number": 65,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.750Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "eugeneruss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8475,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133175,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-02-24T02:43:00.000Z",
+        "cooked": "<p>Once a target has begun the process of being destroyed, it cannot be saved by healing (even if it gets above 0 HP, it still goes away). It's on our list to talk to Christopher about what happens if a target becomes indestructible while it's in the process of being destroyed.</p><p>This isn't an urgent matter for the video game until Fixed Point arrives. Unless you can come up with a way to have The Matriarch shuffle her trash into her deck during the destruction of a Cohort, with the cards available in the video game up to Rook City... =)</p><p>Discussions pertaining to Rook City stuff are still underway and I'll post them when they are more settled. But at the moment, we're looking at making things that go after \"the target with the lowest HP\" only consider non-destroyed targets.</p>",
+        "post_number": 66,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.818Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 133176,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-02-24T04:26:49.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>Unless you can come up with a way to have The Matriarch shuffle her trash into her deck during the destruction of a Cohort, with the cards available in the video game up to Rook City… =)</p>\n</blockquote>\n</aside>\n<p>I tried, but the only thing I could find that triggers off of Villain target destruction was Ammo Drop, and nothing triggered off of Hero draws.</p>",
+        "post_number": 67,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:08:48.881Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12407,
+        "topic_slug": "double-destruction-question-obscure-timing-edge-cases",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 12407
+}

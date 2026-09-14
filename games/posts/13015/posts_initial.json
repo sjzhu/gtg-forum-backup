@@ -1,0 +1,344 @@
+{
+  "posts": [
+    {
+      "id": 13017,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-05-14T23:14:20.000Z",
+      "cooked": "<p>As has been much observed lately, Matriarch can be super-annoying to deal with in the App, due to the vast number of clicks resulting from her retaliation damage.&nbsp; I've given the matter some thought, and have a possible way of addressing the issue.&nbsp; Of course, the App devs have likely given it more thought than I have, but perhaps we can collectively come up with some useful improvements.</p><p>Here's my first cut:</p><p>Any binary choice menu (mostly Yes/No, but also Matriarch's retaliation and Twist the Ether's damage) comes with a checkbox \"Always make this choice the same way\". &nbsp;<br><br>Having made some choices automatic, you need a way for the player to override that choice at will.&nbsp; The simplest way I can think of is to put an \"toggle auto-choice\" button somewhere (perhaps the lower right corner, which doesn't see much use, but is easy to click on).&nbsp; This button should toggle between letting auto-choices proceed or not.&nbsp; Thus, when a player sees an exceptional situation coming up (or has just rewound to before one), she can click that button to resume manual control (and, if desired, uncheck the relevant auto-choice box).&nbsp; Tapping it again should reinstate any auto-choices that have been set.<br><br>Ideally (though perhaps not on first implementation), this auto-choice should apply to all cards of matching name.&nbsp; If I've decided that I like Obsidian Field, or that I'm never going to put Good Samaritan in the Safehouse, that is unlikely to vary between instances of the card.&nbsp; -- Oh wait, that doesn't work for Hero cards, as 2 copies of Twist the Ether may well want to act differently...<br><br>I think auto-choice decisions should NOT persist between games, however, as these matters are often highly situational.&nbsp; Also, one of the *good* things about seeing semi-frequent prompts is that it reminds you that there *is* a choice here, which is sometimes valid to make in a non-default way.&nbsp; For that purpose, however, once per *game* should more than suffice, as opposed to the once per *turn* we have now.<br><br>Once you have the concept of auto-choices that can be overriden at will, the idea could be extended to make more complex types of choice automatic (e.g. TtE's Damage Type).</p><p>&nbsp;</p><p>Thoughts?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:44:42.514Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13015,
+      "topic_slug": "designs-for-auto-choosing",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>As has been much observed lately, Matriarch can be super-annoying to deal with in the App, due to the vast number of clicks resulting from her retaliation damage.&nbsp; I&#39;ve given the matter some thought, and have a possible way of addressing the issue.&nbsp; Of course, the App devs have likely given it more thought than I have, but perhaps we can collectively come up with some useful improvements.</p><p>Here&#39;s my first cut:</p><p>Any binary choice menu (mostly Yes/No, but also Matriarch&#39;s retaliation and Twist the Ether&#39;s damage) comes with a checkbox &quot;Always make this choice the same way&quot;. &nbsp;<br /><br />Having made some choices automatic, you need a way for the player to override that choice at will.&nbsp; The simplest way I can think of is to put an &quot;toggle auto-choice&quot; button somewhere (perhaps the lower right corner, which doesn&#39;t see much use, but is easy to click on).&nbsp; This button should toggle between letting auto-choices proceed or not.&nbsp; Thus, when a player sees an exceptional situation coming up (or has just rewound to before one), she can click that button to resume manual control (and, if desired, uncheck the relevant auto-choice box).&nbsp; Tapping it again should reinstate any auto-choices that have been set.<br /><br />Ideally (though perhaps not on first implementation), this auto-choice should apply to all cards of matching name.&nbsp; If I&#39;ve decided that I like Obsidian Field, or that I&#39;m never going to put Good Samaritan in the Safehouse, that is unlikely to vary between instances of the card.&nbsp; -- Oh wait, that doesn&#39;t work for Hero cards, as 2 copies of Twist the Ether may well want to act differently...<br /><br />I think auto-choice decisions should NOT persist between games, however, as these matters are often highly situational.&nbsp; Also, one of the *good* things about seeing semi-frequent prompts is that it reminds you that there *is* a choice here, which is sometimes valid to make in a non-default way.&nbsp; For that purpose, however, once per *game* should more than suffice, as opposed to the once per *turn* we have now.<br /><br />Once you have the concept of auto-choices that can be overriden at will, the idea could be extended to make more complex types of choice automatic (e.g. TtE&#39;s Damage Type).</p><p>&nbsp;</p><p>Thoughts?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 141656,
+      "name": "lfbn",
+      "username": "lfbn",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/l/ba8739/{size}.png",
+      "created_at": "2015-05-27T04:02:00.000Z",
+      "cooked": "<p>In my head, I could see a simple check box that could apply the choices for the play that is currently being resolved to all the choices in the stack. That would minimize the amount of fiddling with the UI and create no more burden than resolving anY other action.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:18:47.548Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13015,
+      "topic_slug": "designs-for-auto-choosing",
+      "display_username": "lfbn",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>In my head, I could see a simple check box that could apply the choices for the play that is currently being resolved to all the choices in the stack. That would minimize the amount of fiddling with the UI and create no more burden than resolving anY other action.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12283,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-03-28",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 141657,
+      "name": "aeinhorn",
+      "username": "aeinhorn",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/90ced4/{size}.png",
+      "created_at": "2015-05-27T12:36:02.000Z",
+      "cooked": "<p>I'd think that even a \"Repeat this choice through the end of this turn\" checkbox would be enough. It would certainly help when there are, say, a dozen fowl cards in play who are all being destroyed after playing Hypersonic Assault while there are two Carrion Fields out.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:18:47.610Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13015,
+      "topic_slug": "designs-for-auto-choosing",
+      "display_username": "aeinhorn",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I&#39;d think that even a &quot;Repeat this choice through the end of this turn&quot; checkbox would be enough. It would certainly help when there are, say, a dozen fowl cards in play who are all being destroyed after playing Hypersonic Assault while there are two Carrion Fields out.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5511,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 141658,
+      "name": "Silverleaf",
+      "username": "Silverleaf",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+      "created_at": "2015-05-27T17:04:22.000Z",
+      "cooked": "<p>I'm still hoping for a \"I don't care what order you hit the minions in but hit Voss last\" option.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:18:47.676Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13015,
+      "topic_slug": "designs-for-auto-choosing",
+      "display_username": "Silverleaf",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I&#39;m still hoping for a &quot;I don&#39;t care what order you hit the minions in but hit Voss last&quot; option.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4341,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

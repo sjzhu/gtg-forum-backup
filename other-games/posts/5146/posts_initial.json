@@ -1,0 +1,854 @@
+{
+  "posts": [
+    {
+      "id": 5149,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2011-08-28T16:33:25.000Z",
+      "cooked": "<p>I think the following analysis of damage done to/by Absolute Zero is correct. Please, though, correct me if I’m wrong.</p>\n<p>The order that Absolute Zero plays cards can have a big effect.</p>\n<p>If AZ plays Cryo Chamber, then plays Isothermic Transducer, and then uses the Thermodynamics power, the result would be:</p>\n<ul>\n<li>AZ deals 1 fire damage to self, which is reduced by 1 by Cryo Chamber, causing no damage</li>\n<li>AZ deals 1 cold damage to self, which is increased by 1 by Cryo Chamber, causing 2 damage to self</li>\n</ul>\n<p>If, though, AZ plays Isothermic Transducer, then plays Cryo Chamber (same cards as before, but different order), and then uses the thermodynamics power, the result would be:</p>\n<ul>\n<li>AZ deals 1 fire damage to self. Due to Isothermic Transducer, AZ deals 1 target 1 cold damage. Cryo Chamber than reduces the fire damage to self by one, causing no damage</li>\n<li> (unchanged from above) AZ deals 1 cold damage to self, which is increased by 1 by Cryo Chamber, causing 2 damage to self</li>\n</ul>\n<p>Another reasonable interpretation, though, would be that the Isothermic Transducer can not have any effect until after the damage is actually taken by AZ, so the order of the cards played doesn’t matter in this case and the result is always the first of the two above.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:34:43.447Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 20.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I think the following analysis of damage done to/by Absolute Zero is correct. Please, though, correct me if I'm wrong.\n\nThe order that Absolute Zero plays cards can have a big effect.\n\nIf AZ plays Cryo Chamber, then plays Isothermic Transducer, and then uses the Thermodynamics power, the result would be:\n\n[list type=decimal]\n[*]AZ deals 1 fire damage to self, which is reduced by 1 by Cryo Chamber, causing no damage\n[*]AZ deals 1 cold damage to self, which is increased by 1 by Cryo Chamber, causing 2 damage to self\n[/list]\n\nIf, though, AZ plays Isothermic Transducer, then plays Cryo Chamber (same cards as before, but different order), and then uses the thermodynamics power, the result would be:\n\n[list type=decimal]\n[*]AZ deals 1 fire damage to self. Due to Isothermic Transducer, AZ deals 1 target 1 cold damage. Cryo Chamber than reduces the fire damage to self by one, causing no damage\n[*] (unchanged from above) AZ deals 1 cold damage to self, which is increased by 1 by Cryo Chamber, causing 2 damage to self\n[/list]\n\nAnother reasonable interpretation, though, would be that the Isothermic Transducer can not have any effect until after the damage is actually taken by AZ, so the order of the cards played doesn't matter in this case and the result is always the first of the two above.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22016,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-28T16:54:11.000Z",
+      "cooked": "<p>One problem with that logic.  Cryo Chamber modifies damage dealt to Absolute Zero, and thus occurs before the damage is actually dealt.  Isothermic Transducer triggers when fire damage is dealt (notice present perfect tense here).  This implies that it is affected after the damage occurs.  Thus, Cryo Chamber is in effect before the damage, Isothermic Transducer is in effect after the damage, so Isothermic Transducer will always follow Cryo Chamber, reguardless of play order.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:04.757Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "One problem with that logic.  Cryo Chamber modifies damage dealt to Absolute Zero, and thus occurs before the damage is actually dealt.  Isothermic Transducer triggers when fire damage is dealt (notice present perfect tense here).  This implies that it is affected after the damage occurs.  Thus, Cryo Chamber is in effect before the damage, Isothermic Transducer is in effect after the damage, so Isothermic Transducer will always follow Cryo Chamber, reguardless of play order.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22017,
+      "name": "Christopher",
+      "username": "Christopher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+      "created_at": "2011-08-30T14:41:14.000Z",
+      "cooked": "<p>Also, not sure if I just read your post wrong, but it looks like you’re trying to use Absolute Zero’s innate power to deal himself 1 fire <span class=\"bbcode-b\">and</span> 1 cold damage. However, it either does one or the other.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:04.818Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "Christopher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Also, not sure if I just read your post wrong, but it looks like you're trying to use Absolute Zero's innate power to deal himself 1 fire [b]and[/b] 1 cold damage. However, it either does one or the other.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": true,
+      "staff": true,
+      "user_id": 5,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22018,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2011-08-30T16:36:57.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Christopher&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Christopher\"\":</div>\n<blockquote>\n<p>Also, not sure if I just read your post wrong, but it looks like you’re trying to use Absolute Zero’s innate power to deal himself 1 fire <span class=\"bbcode-b\">and</span> 1 cold damage. However, it either does one or the other.</p>\n</blockquote>\n</aside>\n<p>Ha ha ha ha ha ha ha ha! Can’t believe I read that wrong … will have to think about whether that makes AZ more or less effective.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:04.890Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"Christopher\"\"]\n\nAlso, not sure if I just read your post wrong, but it looks like you're trying to use Absolute Zero's innate power to deal himself 1 fire [b]and[/b] 1 cold damage. However, it either does one or the other.\n\n[/quote]\n\n\nHa ha ha ha ha ha ha ha! Can't believe I read that wrong ... will have to think about whether that makes AZ more or less effective.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22020,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-30T17:04:52.000Z",
+      "cooked": "<p>I believe it’s Hoarfire or soemthing where Absolute Zero deals himself one fire and one cold damage (after dealing one target 2 cold, then one other target 2 fire).</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:04.959Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I believe it's Hoarfire or soemthing where Absolute Zero deals himself one fire and one cold damage (after dealing one target 2 cold, then one other target 2 fire).",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22022,
+      "name": "grouik",
+      "username": "grouik",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/4af34b/{size}.png",
+      "created_at": "2011-12-23T09:26:55.000Z",
+      "cooked": "<p>Something weird happened with absolute zeo yesterday and we were a little lost.  :o<br>\nAZ had quite a few items : 9 in total.<br>\nAnd to be frank between the card he played and his power we did not know what could happen anymore…<br>\nFor example (simple) if he redirects damage done to himself will it be before or after damage is reduced?<br>\nI will try to find all the cards but at the end of the game we did not know anymore what would happen if AZ tried to user his power… (He could redirect, heal himself, suffer damage…)  :-[</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:05.028Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "grouik",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Something weird happened with absolute zeo yesterday and we were a little lost.  :o\nAZ had quite a few items : 9 in total.\nAnd to be frank between the card he played and his power we did not know what could happen anymore...\nFor example (simple) if he redirects damage done to himself will it be before or after damage is reduced?\nI will try to find all the cards but at the end of the game we did not know anymore what would happen if AZ tried to user his power... (He could redirect, heal himself, suffer damage...)  :-[",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 268,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-12-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22024,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-12-23T12:55:29.000Z",
+      "cooked": "<p>He is simpler than you think.  First, he never redirects damage.  His card states that when he is dealt fire damage he then deals the same amount of cold damage.  The way the card is phrased means this effect does not occur until you finalize the damage dealt to him (which includes reducing his HP based on the damage he recieves).  Focused Apeture increases his cold damage.  It’s been stated before that damage count modifires are constantly in effect, and conditional damage count modifires are in effect when the condition is true.  Due to the “leader of the last lap wins the race” it’s easiest to simply apply conditional damage count modifires immediately before dealing damage.  His Null Point card allows him to heal instead of taking damage. This occurs at the point of damage reduction (cancelling and increasing instead).  Cryo Chamber is another conditional damage count modifier, and because damage count modifiers are commutative, order does not matter between them.  Given this, no matter which order the cards are played, they will always follow the same order (Focused Apeture and Cryo Chamber just prior to damage, Null Point at the point of damage, Isothermic Transducer after damage).</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:05.105Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "He is simpler than you think.  First, he never redirects damage.  His card states that when he is dealt fire damage he then deals the same amount of cold damage.  The way the card is phrased means this effect does not occur until you finalize the damage dealt to him (which includes reducing his HP based on the damage he recieves).  Focused Apeture increases his cold damage.  It's been stated before that damage count modifires are constantly in effect, and conditional damage count modifires are in effect when the condition is true.  Due to the \"leader of the last lap wins the race\" it's easiest to simply apply conditional damage count modifires immediately before dealing damage.  His Null Point card allows him to heal instead of taking damage. This occurs at the point of damage reduction (cancelling and increasing instead).  Cryo Chamber is another conditional damage count modifier, and because damage count modifiers are commutative, order does not matter between them.  Given this, no matter which order the cards are played, they will always follow the same order (Focused Apeture and Cryo Chamber just prior to damage, Null Point at the point of damage, Isothermic Transducer after damage).",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22025,
+      "name": "grouik",
+      "username": "grouik",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/4af34b/{size}.png",
+      "created_at": "2011-12-23T12:59:23.000Z",
+      "cooked": "<p>Okay I will check that! <img src=\"//forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=9\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\"> I remember AZ also had a card stating that he received as much damage as cold damage he had done during the turn or something like that… And another telling he dealt as much damage as fire damage he had received before his turn…<br>\nI have to reread the cards (I wasn’t the player) but it seemed a lot to manage! <img src=\"//forums.greaterthangames.com/images/emoji/apple/smiley.png?v=9\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\"></p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:05.196Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "grouik",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Okay I will check that! :) I remember AZ also had a card stating that he received as much damage as cold damage he had done during the turn or something like that... And another telling he dealt as much damage as fire damage he had received before his turn...\nI have to reread the cards (I wasn't the player) but it seemed a lot to manage! :D",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 268,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-12-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22026,
+      "name": "Christopher",
+      "username": "Christopher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+      "created_at": "2011-12-23T13:37:39.000Z",
+      "cooked": "<p>He is certainly the most complicated Hero, and intentionally at that.  We wanted to provide a hero for those players who were interested in a more complex play style.</p>\n<p>That said, he’s one of my favorites to play.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:05.278Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "Christopher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "He is certainly the most complicated Hero, and intentionally at that.  We wanted to provide a hero for those players who were interested in a more complex play style.\n\nThat said, he's one of my favorites to play.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": true,
+      "staff": true,
+      "user_id": 5,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22028,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-12-23T15:08:59.000Z",
+      "cooked": "<p>Whether it’s me playing, or someone else playing, I always like having Absolute Zero playing in the game.  (It’s actually more fun for me when someone else is playing, as I typically get to play off of him.)</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:05.355Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5146,
+      "topic_slug": "absolute-zero-order-of-cards-played",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Whether it's me playing, or someone else playing, I always like having Absolute Zero playing in the game.  (It's actually more fun for me when someone else is playing, as I typically get to play off of him.)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

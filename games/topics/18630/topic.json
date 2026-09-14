@@ -1,0 +1,1930 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 18632,
+        "name": "ornithopter",
+        "username": "ornithopter",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/o/e19b73/{size}.png",
+        "created_at": "2018-10-12T05:33:47.000Z",
+        "cooked": "<p>Okay, this has&nbsp;<em>definitely</em> been covered before, and probably many times, but I didn't see the details I was looking for in the clarifications, and I wasn't able to search it up here or on the BGG forums, so I'm gonna ask.</p>\n<p>I'm having trouble figuring out exactly what it means for damage to be \"dealt\". I came up with a somewhat complicated scenario that I think covers all my questions, and my understanding of how it would all work out. Please let me know if I've gone wrong anywhere. (Other than in my strategy. I am well aware this sequence of actions would make no sense to actually perform.)</p>\n<p>AZ has both modules, Focused Aperatures, Cryo Chamber, and Thermal Shockwave. He has dealt no cold damage prior to this this turn. He uses Thermal Shockwave on:</p>\n<ol>\n\t<li>\n\t\t<strong>Himself</strong> - He deals 1 damage. Focused Apertures increase that to 2 damage dealt. Cryo Chamber increases damage dealt to him, that makes 3 damage dealt. Null-point Calibrations Unit says instead of&nbsp;<em>taking</em> damage, he heals, but it says nothing about the amount of damage <em>dealt</em>, so that's still 3.</li>\n\t<li>\n\t\t<strong>Baron Blade</strong> - Again, he deals 1, plus one for the Apertures makes 2. Baron Blade has a Mobile Defense Platform, so he's immune. Glossary says imunity means his HP can't be reduced, but he can still be targetted, which I take to mean 2 damage is still dealt.</li>\n\t<li>\n\t\t<strong>Mister Fixer</strong> - As before, 1+1=2 is dealt. Fixer has Pipe Wrench and Driving Mantis. Pipe Wrench says \"reduce damage dealt to,\" but Mantis addresses damage that \"would be dealt.\" I read this as Mantis kicking in before Pipe Wrench can do anything. Redirected damage, as I understand it, changes target but not origin, meaning the damage is not being dealt by Fixer, and thus Pipe Wrench won't increase it. This is AZ dealing 2 damage to a target of Fixer's choosing. Fixer chooses Legacy, who has Fortitude. Fortitude reduces damage dealt, so in the end AZ deals 1 damage to Legacy.</li>\n</ol>\n<ul>\n\t<li>\n\t\tBonus hypothetical: AZ instead deals Fixer 3 damage. This is not 2 or less damage that would be dealt to Fixer, so Pipe Wrench kicks in, reducing it to 2. This is&nbsp;<em>now</em> 2 or less damage that would be dealt, so it can be redirected.</li>\n</ul>\n<p>That's all three targets. Assuming I was correct before, Thermal Shockwave now deals 3+2+1=6 fire damage to AZ. Cryo Chamber reduces this by 1, so if we were tracking this damage (e.g., toward a Coolant Blast somehow), it would count as 5 damage dealt by AZ to AZ. Thanks to the Isothermic Transducer, AZ then deals 5 cold damage plus 1 from the Apertures to the Mobile Defense Platform, which only has 1 hp. I believe this is still 6 damage dealt, and not just 1.</p>\n<ul>\n\t<li>\n\t\tBonus hypothetical from the mirror universe: The Scholar is 1 hp shy of his max. He has Solid to Liquid and Mortal Form to Energy, and uses his inate power. My understanding is that unike the situation where a target goes below 0 hp, his hp max stops him from gaining the second hp from Solid to Liquid, and so he can only deal 1 damage via Mortal Form to Energy.</li>\n</ul>\n<p>So how'd I do?</p>\n<p>Oh! Additional question, because I am unending: Setback is dealt 2 damage from Friendly Fire. Through two different \"reduce damage dealt to ___ by 1\" effects that I don't know what they are because I only just came up with this and haven't had time to plan it out in great detail like the other thing, this is reduced to 0 damage dealt. Friendly Fire says \"Whenever Setback is dealt damage this way,\" which I take to mean that being dealt 0 damage counts, in contrast to, e.g., KNYFE's For The Greater Good, which says \"If she takes damage this way.\" I am aware that several cards were errata'ed from (approximately) the first wording to (approximately) the second, but I have not found any record of that change being made to Friendly Fire.&nbsp;</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:52:03.137Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 61,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 300.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "ornithopter",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Okay, this has&nbsp;<em>definitely</em> been covered before, and probably many times, but I didn't see the details I was looking for in the clarifications, and I wasn't able to search it up here or on the BGG forums, so I'm gonna ask.</p>\r\n<p>I'm having trouble figuring out exactly what it means for damage to be \"dealt\". I came up with a somewhat complicated scenario that I think covers all my questions, and my understanding of how it would all work out. Please let me know if I've gone wrong anywhere. (Other than in my strategy. I am well aware this sequence of actions would make no sense to actually perform.)</p>\r\n<p class=\"rteindent1\">AZ has both modules, Focused Aperatures, Cryo Chamber, and Thermal Shockwave. He has dealt no cold damage prior to this this turn. He uses Thermal Shockwave on:</p>\r\n<ol>\r\n\t<li class=\"rteindent1\">\r\n\t\t<strong>Himself</strong> - He deals 1 damage. Focused Apertures increase that to 2 damage dealt. Cryo Chamber increases damage dealt to him, that makes 3 damage dealt. Null-point Calibrations Unit says instead of&nbsp;<em>taking</em> damage, he heals, but it says nothing about the amount of damage <em>dealt</em>, so that's still 3.</li>\r\n\t<li class=\"rteindent1\">\r\n\t\t<strong>Baron Blade</strong> - Again, he deals 1, plus one for the Apertures makes 2. Baron Blade has a Mobile Defense Platform, so he's immune. Glossary says imunity means his HP can't be reduced, but he can still be targetted, which I take to mean 2 damage is still dealt.</li>\r\n\t<li class=\"rteindent1\">\r\n\t\t<strong>Mister Fixer</strong> - As before, 1+1=2 is dealt. Fixer has Pipe Wrench and Driving Mantis. Pipe Wrench says \"reduce damage dealt to,\" but Mantis addresses damage that \"would be dealt.\" I read this as Mantis kicking in before Pipe Wrench can do anything. Redirected damage, as I understand it, changes target but not origin, meaning the damage is not being dealt by Fixer, and thus Pipe Wrench won't increase it. This is AZ dealing 2 damage to a target of Fixer's choosing. Fixer chooses Legacy, who has Fortitude. Fortitude reduces damage dealt, so in the end AZ deals 1 damage to Legacy.</li>\r\n</ol>\r\n<ul class=\"rteindent1\">\r\n\t<li class=\"rteindent1\">\r\n\t\tBonus hypothetical: AZ instead deals Fixer 3 damage. This is not 2 or less damage that would be dealt to Fixer, so Pipe Wrench kicks in, reducing it to 2. This is&nbsp;<em>now</em> 2 or less damage that would be dealt, so it can be redirected.</li>\r\n</ul>\r\n<p class=\"rteindent1\">That's all three targets. Assuming I was correct before, Thermal Shockwave now deals 3+2+1=6 fire damage to AZ. Cryo Chamber reduces this by 1, so if we were tracking this damage (e.g., toward a Coolant Blast somehow), it would count as 5 damage dealt by AZ to AZ. Thanks to the Isothermic Transducer, AZ then deals 5 cold damage plus 1 from the Apertures to the Mobile Defense Platform, which only has 1 hp. I believe this is still 6 damage dealt, and not just 1.</p>\r\n<ul>\r\n\t<li class=\"rteindent1\">\r\n\t\tBonus hypothetical from the mirror universe: The Scholar is 1 hp shy of his max. He has Solid to Liquid and Mortal Form to Energy, and uses his inate power. My understanding is that unike the situation where a target goes below 0 hp, his hp max stops him from gaining the second hp from Solid to Liquid, and so he can only deal 1 damage via Mortal Form to Energy.</li>\r\n</ul>\r\n<p>So how'd I do?</p>\r\n<p>Oh! Additional question, because I am unending: Setback is dealt 2 damage from Friendly Fire. Through two different \"reduce damage dealt to ___ by 1\" effects that I don't know what they are because I only just came up with this and haven't had time to plan it out in great detail like the other thing, this is reduced to 0 damage dealt. Friendly Fire says \"Whenever Setback is dealt damage this way,\" which I take to mean that being dealt 0 damage counts, in contrast to, e.g., KNYFE's For The Greater Good, which says \"If she takes damage this way.\" I am aware that several cards were errata'ed from (approximately) the first wording to (approximately) the second, but I have not found any record of that change being made to Friendly Fire.&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17041,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2018-10-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223099,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2018-10-12T08:17:00.000Z",
+        "cooked": "<p>Sorry, but you fell at the first hurdle.</p>\n<ol>\n\t<li>\n\t\t<strong>AZ-</strong> Damage dealt means the amount of HP a target loses, so having Null Point in play turns all damage into healing, meaning you deal 0 damage there.</li>\n\t<li>\n\t\t<strong>Blade-</strong>&nbsp;Damage dealt means the amount of HP a target loses, so having an MDP in play stops all damage to Blade, meaning you also deal 0 damage there.</li>\n\t<li>\n\t\t<strong>Fixer-&nbsp;</strong>Kind of right. The amount dealt is correct but Damage Reduction kicks in before Redirection, so the Pipe Wrench will reduce the damage to 1 first, then it can be redirected. When the damage is redirected all bonuses and reduction are recalculated for the new target so the Pipe Wrench DR would \"go away\" and 2 damage would be aimed at Legacy, who then reduces it by 1 thanks to fortitude.</li>\n</ol>\n<p>The end result for Thermal Shockwave is 1 cold damage has been deal, which would mean 1-1(due to Cryo Chamber) so no fire damage is dealt to AZ, and Isothermic Transducer would NOT kick in, because no fire damage was dealt.</p>\n<p>Your bonus Mr Fixer question is as you suspect, but again DR before Redirection so it only checks once.</p>\n<p>Your bonus Setback question is covered under the other explanations, you need to reduce HP to deal damage so the 2DR would prevent Setback from gaining tokens.</p>\n<p>&nbsp;</p>\n<p>On the plus side, your The Scholar theory is absolutely correct, you would only heal 1 and thus only deal 1.</p>\n<p>&nbsp;</p>\n<p>Also, welcome to the forum! I hope I have not discouraged you from posting again with my pretty blunt rules lawyering.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:10.478Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Sorry, but you fell at the first hurdle.</p>\r\n<ol>\r\n\t<li>\r\n\t\t<strong>AZ-</strong> Damage dealt means the amount of HP a target loses, so having Null Point in play turns all damage into healing, meaning you deal 0 damage there.</li>\r\n\t<li>\r\n\t\t<strong>Blade-</strong>&nbsp;Damage dealt means the amount of HP a target loses, so having an MDP in play stops all damage to Blade, meaning you also deal 0 damage there.</li>\r\n\t<li>\r\n\t\t<strong>Fixer-&nbsp;</strong>Kind of right. The amount dealt is correct but Damage Reduction kicks in before Redirection, so the Pipe Wrench will reduce the damage to 1 first, then it can be redirected. When the damage is redirected all bonuses and reduction are recalculated for the new target so the Pipe Wrench DR would \"go away\" and 2 damage would be aimed at Legacy, who then reduces it by 1 thanks to fortitude.</li>\r\n</ol>\r\n<p>The end result for Thermal Shockwave is 1 cold damage has been deal, which would mean 1-1(due to Cryo Chamber) so no fire damage is dealt to AZ, and Isothermic Transducer would NOT kick in, because no fire damage was dealt.</p>\r\n<p>Your bonus Mr Fixer question is as you suspect, but again DR before Redirection so it only checks once.</p>\r\n<p>Your bonus Setback question is covered under the other explanations, you need to reduce HP to deal damage so the 2DR would prevent Setback from gaining tokens.</p>\r\n<p>&nbsp;</p>\r\n<p>On the plus side, your The Scholar theory is absolutely correct, you would only heal 1 and thus only deal 1.</p>\r\n<p>&nbsp;</p>\r\n<p>Also, welcome to the forum! I hope I have not discouraged you from posting again with my pretty blunt rules lawyering.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223100,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2018-10-12T10:39:28.000Z",
+        "cooked": "<p>Welcome to the forums!</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:10.560Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Welcome to the forums!",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223101,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2018-10-12T14:38:26.000Z",
+        "cooked": "<p>Hey, welcome to the forum :). Easy way to remember the whole \"was damage dealt?\" thing - if no hp was lost, no damage was dealt :D.</p>\n<p>Note also that if damage is redirected it is recalculated which can make a difference if, say a Nemesis bonus is involved, for example if the Chairman tries to hit, say, Nightmist for three points of damage but she has her Amult out and discards to redirect it to the Operative, the Chairman now deals her <em>four</em> points of damage because he's now hitting a target who shares his Nemesis symbol (same for the Ennead/Anubis if you can get any of those to hit each other). But targets never gain a Nemesis bonus for hitting <em>themselves</em>, because that would be silly (and somewhat unfair on those heroes who tend to hit themselves a lot) ;).</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:10.637Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Hey, welcome to the forum :). Easy way to remember the whole \"was damage dealt?\" thing - if no hp was lost, no damage was dealt :D.</p>\r\n<p>Note also that if damage is redirected it is recalculated which can make a difference if, say a Nemesis bonus is involved, for example if the Chairman tries to hit, say, Nightmist for three points of damage but she has her Amult out and discards to redirect it to the Operative, the Chairman now deals her <em>four</em> points of damage because he's now hitting a target who shares his Nemesis symbol (same for the Ennead/Anubis if you can get any of those to hit each other). But targets never gain a Nemesis bonus for hitting <em>themselves</em>, because that would be silly (and somewhat unfair on those heroes who tend to hit themselves a lot) ;).</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223102,
+        "name": "ornithopter",
+        "username": "ornithopter",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/o/e19b73/{size}.png",
+        "created_at": "2018-10-12T15:07:56.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>I hope I have not discouraged you from posting again with my pretty blunt rules lawyering.</p>\n</blockquote>\n</aside>\n<p>Nah, that’s exactly what I wanted. I’m not interested in having shown up with the right answers as long as I leave with them.</p>\n<p>“Damage dealt is HP lost” is certainly <em>much</em> simpler than what I was doing, so that’s nice. It’s also less versatile, but win some/lose some.</p>\n<p>My error kept one of my questions off the table: I deal 5 damage to something with 1 hit point. Is that 1 or 5 damage dealt? Several references to “0 or fewer hp” imply the later, but as we’ve seen, my sense of what the rules mean is not always right.</p>\n<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>Your bonus Setback question is covered under the other explanations, you need to reduce HP to deal damage so the 2DR would prevent Setback from gaining tokens.</p>\n</blockquote>\n</aside>\n<p>No distinction between not dealing damage and “0 damage dealt,” then. Dang. Again, simpler, but less versatile.</p>\n<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>Damage Reduction kicks in before Redirection, so the Pipe Wrench will reduce the damage to 1 first, then it can be redirected. When the damage is redirected all bonuses and reduction are recalculated for the new target so the Pipe Wrench DR would “go away” and 2 damage would be aimed at Legacy</p>\n</blockquote>\n</aside>\n<div>\n\tWow. Okay, this is actually <em>more</em> complicated than what I was doing, and it seems worse? Does this mean that a \"reduce next damage dealt\" is spent when damage is redirected, or does it get restored as part of the DR \"going away\"? And if the Pipe Wrench DR \"goes away,\" when the damage is redirected, does that mean Driving Mantis effectively redirects up to 2+(amount of DR), since DR lowers that damage to 2 and then \"goes away\" raising it back to 2+DR?</div>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:10.713Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "ornithopter",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Matchstickman\"]\n\nI hope I have not discouraged you from posting again with my pretty blunt rules lawyering.\n\n[/quote]\n\nNah, that's exactly what I wanted. I'm not interested in having shown up with the right answers as long as I leave with them.\n\n\"Damage dealt is HP lost\" is certainly <em>much</em> simpler than what I was doing, so that's nice. It's also less versatile, but win some/lose some.\n\nMy error kept one of my questions off the table: I deal 5 damage to something with 1 hit point. Is that 1 or 5 damage dealt? Several references to \"0 or fewer hp\" imply the later, but as we've seen, my sense of what the rules mean is not always right.\n\n[quote=\"Matchstickman\"]\n\nYour bonus Setback question is covered under the other explanations, you need to reduce HP to deal damage so the 2DR would prevent Setback from gaining tokens.\n\n[/quote]\n\nNo distinction between not dealing damage and \"0 damage dealt,\" then. Dang. Again, simpler, but less versatile.\n\n[quote=\"Matchstickman\"]\n\nDamage Reduction kicks in before Redirection, so the Pipe Wrench will reduce the damage to 1 first, then it can be redirected. When the damage is redirected all bonuses and reduction are recalculated for the new target so the Pipe Wrench DR would \"go away\" and 2 damage would be aimed at Legacy\n\n[/quote]\n\n<div>\n\tWow. Okay, this is actually <em>more</em> complicated than what I was doing, and it seems worse? Does this mean that a \"reduce next damage dealt\" is spent when damage is redirected, or does it get restored as part of the DR \"going away\"? And if the Pipe Wrench DR \"goes away,\" when the damage is redirected, does that mean Driving Mantis effectively redirects up to 2+(amount of DR), since DR lowers that damage to 2 and then \"goes away\" raising it back to 2+DR?</div>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17041,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2018-10-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223103,
+        "name": "ornithopter",
+        "username": "ornithopter",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/o/e19b73/{size}.png",
+        "created_at": "2018-10-12T15:25:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ameena\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ameena/48/1907_2.png\" class=\"avatar\"> Ameena:</div>\n<blockquote>\n<p>the Chairman now deals [the Operative]&nbsp;<em>four</em> points of damage because he’s now hitting a target who shares his Nemesis symbol (same for the Ennead/Anubis if you can get any of those to hit each other).&nbsp;</p>\n</blockquote>\n</aside>\n<p>I saw that nemesis clarification, and I’m having trouble making sense of it on a story level. Like, maybe the Ennead are a bunch of in-fighting jerks, but Chairman/Operative makes no sense to me.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:10.792Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "ornithopter",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Ameena\"]\n\nthe Chairman now deals [the Operative]&nbsp;<em>four</em> points of damage because he's now hitting a target who shares his Nemesis symbol (same for the Ennead/Anubis if you can get any of those to hit each other).&nbsp;\n\n[/quote]\n\nI saw that nemesis clarification, and I'm having trouble making sense of it on a story level. Like, maybe the Ennead are a bunch of in-fighting jerks, but Chairman/Operative makes no sense to me.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17041,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2018-10-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223104,
+        "name": "jffdougan",
+        "username": "jffdougan",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/jffdougan/{size}/1882_2.png",
+        "created_at": "2018-10-12T15:35:32.000Z",
+        "cooked": "<p>The operative has ambitions of taking over someday....</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:10.852Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "jffdougan",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>The operative has ambitions of taking over someday....</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5845,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-10-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223105,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2018-10-12T15:38:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"ornithopter\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/o/e19b73/48.png\" class=\"avatar\"> ornithopter:</div>\n<blockquote>\n<p>Nah, that’s exactly what I wanted. I’m not interested in having shown up with the right answers as long as I leave with them.</p>\n</blockquote>\n</aside>\n<p>Huzzahs!</p>\n<aside class=\"quote no-group\" data-username=\"ornithopter\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/o/e19b73/48.png\" class=\"avatar\"> ornithopter:</div>\n<blockquote>\n<p>Wow. Okay, this is actually <em>more</em> complicated than what I was doing, and it seems worse? Does this mean that a “reduce next damage dealt” is spent when damage is redirected, or does it get restored as part of the DR “going away”? And if the Pipe Wrench DR “goes away,” when the damage is redirected, does that mean Driving Mantis effectively redirects up to 2+(amount of DR), since DR lowers that damage to 2 and then “goes away” raising it back to 2+DR?</p>\n</blockquote>\n</aside>\n<p>The Pipe Wrench/Driving Mantis combo does exactly what you think it does, potentially redirecting 3 damage with those 2 cards alone, more if you have more DR from somewhere else!</p>\n<p>“Reduce next damage” is used up if any damage hits the target, even if it is redirected afterwards (especially if we’re talking about Driving Mantis style redirection where the damage has to be below a certain threshold to be redirected- the temporary DR being needed to get below that threshold).</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:10.926Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"ornithopter\"]\nNah, that's exactly what I wanted. I'm not interested in having shown up with the right answers as long as I leave with them.\n[/quote]\n\nHuzzahs!\n\n[quote=\"ornithopter\"]\nWow. Okay, this is actually <em>more</em> complicated than what I was doing, and it seems worse? Does this mean that a \"reduce next damage dealt\" is spent when damage is redirected, or does it get restored as part of the DR \"going away\"? And if the Pipe Wrench DR \"goes away,\" when the damage is redirected, does that mean Driving Mantis effectively redirects up to 2+(amount of DR), since DR lowers that damage to 2 and then \"goes away\" raising it back to 2+DR?\n\n[/quote]\n\nThe Pipe Wrench/Driving Mantis combo does exactly what you think it does, potentially redirecting 3 damage with those 2 cards alone, more if you have more DR from somewhere else!\n\n\"Reduce next damage\" is used up if any damage hits the target, even if it is redirected afterwards (especially if we're talking about Driving Mantis style redirection where the damage has to be below a certain threshold to be redirected- the temporary DR being needed to get below that threshold).\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223106,
+        "name": "ornithopter",
+        "username": "ornithopter",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/o/e19b73/{size}.png",
+        "created_at": "2018-10-12T16:27:27.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>The Pipe Wrench/Driving Mantis combo does exactly what you think it does, potentially redirecting 3 damage with those 2 cards alone, more if you have more DR from somewhere else!</p>\n</blockquote>\n</aside>\n<p>Oooh. Fun!</p>\n<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>“Reduce next damage” is used up if any damage hits the target, even if it is redirected afterwards (especially if we’re talking about Driving Mantis style redirection where the damage has to be below a certain threshold to be redirected- the temporary DR being needed to get below that threshold).</p>\n</blockquote>\n</aside>\n<p>Just to make sure I’m understanding this right: You hit me for 3. I have 2 nextDR and can redirect damage dealt to me regaredless of amount. The order of operations is that I reduce the damage to 1, redirect it to a new target, and then the damage is recalculated, meaning it’s back up to 3 (plus or minus whatever effects on the new target), but my nextDR is still gone.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:10.990Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "ornithopter",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Matchstickman\"]\n\nThe Pipe Wrench/Driving Mantis combo does exactly what you think it does, potentially redirecting 3 damage with those 2 cards alone, more if you have more DR from somewhere else!\n\n[/quote]\n\nOooh. Fun!\n\n[quote=\"Matchstickman\"]\n\n\"Reduce next damage\" is used up if any damage hits the target, even if it is redirected afterwards (especially if we're talking about Driving Mantis style redirection where the damage has to be below a certain threshold to be redirected- the temporary DR being needed to get below that threshold).\n\n[/quote]\n\nJust to make sure I'm understanding this right: You hit me for 3. I have 2 nextDR and can redirect damage dealt to me regaredless of amount. The order of operations is that I reduce the damage to 1, redirect it to a new target, and then the damage is recalculated, meaning it's back up to 3 (plus or minus whatever effects on the new target), but my nextDR is still gone.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17041,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2018-10-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223107,
+        "name": "carnilius",
+        "username": "carnilius",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/d07c76/{size}.png",
+        "created_at": "2018-10-12T16:58:16.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"ornithopter\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/o/e19b73/48.png\" class=\"avatar\"> ornithopter:</div>\n<blockquote>\n<p>My error kept one of my questions off the table: I deal 5 damage to something with 1 hit point. Is that 1 or 5 damage dealt? Several references to “0 or fewer hp” imply the later, but as we’ve seen, my sense of what the rules mean is not always right.</p>\n</blockquote>\n</aside>\n<p>5 damage is dealt. &nbsp;Since it is a single instance of damage, the target is reduced to -4 HP before being destroyed. &nbsp;This is particularly relevant if the target is indestructible such as with Fixed Point, but also for things that care about amount of damage dealt.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:11.113Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "carnilius",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"ornithopter\"]\n\nMy error kept one of my questions off the table: I deal 5 damage to something with 1 hit point. Is that 1 or 5 damage dealt? Several references to \"0 or fewer hp\" imply the later, but as we've seen, my sense of what the rules mean is not always right.\n\n[/quote]\n\n5 damage is dealt. &nbsp;Since it is a single instance of damage, the target is reduced to -4 HP before being destroyed. &nbsp;This is particularly relevant if the target is indestructible such as with Fixed Point, but also for things that care about amount of damage dealt.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7855,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-02-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223108,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2018-10-13T08:44:53.000Z",
+        "cooked": "<p>It's also why some targets have effects that trigger when they are \"reduced to 0hp or fewer\", a phrase which wouldn't be necessary if you had to stop at zero ;). Note that you can get around these if you have an insta-kill effect such as Sucker Punch or Cornered Beast, because then you're outright destroying the target, not reducing its hp &gt;:).</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:11.184Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>It's also why some targets have effects that trigger when they are \"reduced to 0hp or fewer\", a phrase which wouldn't be necessary if you had to stop at zero ;). Note that you can get around these if you have an insta-kill effect such as Sucker Punch or Cornered Beast, because then you're outright destroying the target, not reducing its hp &gt;:).</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223109,
+        "name": "Ensign53",
+        "username": "Ensign53",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ensign53/{size}/1904_2.png",
+        "created_at": "2018-10-14T15:02:38.000Z",
+        "cooked": "<p>As for the nemesis bonus on team mates, it's easier to think of it as a \"I can't believe you hit me!\" Kind of instance.&nbsp; The sentinels get the damage increase if they hit each other, and story-wise it would make sense for them to take more damage because they weren't expecting a sneak attack from Medico, for example.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:11.248Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Ensign53",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>As for the nemesis bonus on team mates, it's easier to think of it as a \"I can't believe you hit me!\" Kind of instance.&nbsp; The sentinels get the damage increase if they hit each other, and story-wise it would make sense for them to take more damage because they weren't expecting a sneak attack from Medico, for example.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14644,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-07-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223110,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2018-10-15T14:15:00.000Z",
+        "cooked": "<p>It also means you can have Medico put out Hippocratic Oath and then try to deal damage to one of the other Sentinels which will instead heal them for &lt;damage+1&gt; hp :D.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:11.315Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>It also means you can have Medico put out Hippocratic Oath and then try to deal damage to one of the other Sentinels which will instead heal them for &lt;damage+1&gt; hp :D.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223111,
+        "name": "Blackfang108",
+        "username": "Blackfang108",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/74df32/{size}.png",
+        "created_at": "2018-10-15T15:02:48.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ameena\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ameena/48/1907_2.png\" class=\"avatar\"> Ameena:</div>\n<blockquote>\n<p>It also means you can have Medico put out Hippocratic Oath and then try to deal damage to one of the other Sentinels which will instead heal them for &lt;damage+1&gt; hp :D.</p>\n</blockquote>\n</aside>\n<p>Note: you don’t have to heal the target you attack.</p>\n<p>So, let’s say you play Horrifying Dichotomy.</p>\n<p>&nbsp;</p>\n<p>Dr Medico is going to deal 1 target 3 damage.&nbsp; You select one of the Setinels.&nbsp; So Now he’s dealing 3+1+4 damage to Writhe.&nbsp; Now, Hippocratic Oath triggers, and now you choose one target to heal for 4 hp.&nbsp; Any target.&nbsp; How’s Heroic Infinitor’s HP looking?</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:11.379Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Blackfang108",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Ameena\"]\n\nIt also means you can have Medico put out Hippocratic Oath and then try to deal damage to one of the other Sentinels which will instead heal them for &lt;damage+1&gt; hp :D.\n\n[/quote]\n\nNote: you don't have to heal the target you attack.\n\nSo, let's say you play Horrifying Dichotomy.\n\n&nbsp;\n\nDr Medico is going to deal 1 target 3 damage.&nbsp; You select one of the Setinels.&nbsp; So Now he's dealing 3+1+4 damage to Writhe.&nbsp; Now, Hippocratic Oath triggers, and now you choose one target to heal for 4 hp.&nbsp; Any target.&nbsp; How's Heroic Infinitor's HP looking?\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14551,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-05-31",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223112,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2018-10-16T14:10:32.000Z",
+        "cooked": "<p>Ooh yeah, good point &gt;:).</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:11.458Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Ooh yeah, good point &gt;:).</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 223113,
+        "name": "Blackfang108",
+        "username": "Blackfang108",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/74df32/{size}.png",
+        "created_at": "2018-10-16T14:14:25.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ameena\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ameena/48/1907_2.png\" class=\"avatar\"> Ameena:</div>\n<blockquote>\n<p>Ooh yeah, good point &gt;:).</p>\n</blockquote>\n</aside>\n<p>You could target Dr Medico with Parse’s Critical Multiplier, and that would raise the healing.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:56:11.519Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18630,
+        "topic_slug": "how-much-damage-is-dealt",
+        "display_username": "Blackfang108",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Ameena\"]\n\nOoh yeah, good point &gt;:).\n\n[/quote]\n\nYou could target Dr Medico with Parse's Critical Multiplier, and that would raise the healing.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14551,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-05-31",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      18632,
+      223099,
+      223100,
+      223101,
+      223102,
+      223103,
+      223104,
+      223105,
+      223106,
+      223107,
+      223108,
+      223109,
+      223110,
+      223111,
+      223112,
+      223113
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2892
+    ],
+    [
+      4,
+      2891
+    ],
+    [
+      12,
+      2889
+    ],
+    [
+      13,
+      2888
+    ],
+    [
+      15,
+      2887
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T20:08:26.107Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T20:08:26.107Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 66,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32030,
+      "title": "Two-player OblivAeon?",
+      "fancy_title": "Two-player OblivAeon?",
+      "slug": "two-player-oblivaeon",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-11-07T13:14:17.358Z",
+      "last_posted_at": "2025-11-07T13:14:17.471Z",
+      "bumped": true,
+      "bumped_at": "2025-11-07T13:14:17.471Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 58,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 31821,
+      "title": "Neat card interaction for Akash'Thriya",
+      "fancy_title": "Neat card interaction for Akash&rsquo;Thriya",
+      "slug": "neat-card-interaction-for-akashthriya",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-09-22T23:51:00.052Z",
+      "last_posted_at": "2025-09-23T01:42:49.714Z",
+      "bumped": true,
+      "bumped_at": "2025-09-23T01:42:49.714Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 128,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32165,
+      "title": "Improving Oblivaeon",
+      "fancy_title": "Improving Oblivaeon",
+      "slug": "improving-oblivaeon",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-02-04T20:38:41.840Z",
+      "last_posted_at": "2026-02-05T22:55:19.416Z",
+      "bumped": true,
+      "bumped_at": "2026-02-05T22:55:19.416Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 120,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18465,
+            "username": "Dustin_the_Wind",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/d/f1d935/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 32334,
+      "title": "Back ad from Dispiration (plans changed)",
+      "fancy_title": "Back ad from Dispiration (plans changed)",
+      "slug": "back-ad-from-dispiration-plans-changed",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/optimized/2X/f/fdd34c51a017339f0e1947ee77e175f614a32a0e_2_663x1024.jpeg",
+      "created_at": "2026-06-01T05:36:57.360Z",
+      "last_posted_at": "2026-06-02T10:56:40.506Z",
+      "bumped": true,
+      "bumped_at": "2026-06-02T10:56:40.506Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 77,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 16875,
+            "username": "Sea-Envy",
+            "name": "Sea-Envy",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/sea-envy/{size}/1849_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 18630,
+  "title": "How much damage is dealt?",
+  "fancy_title": "How much damage is dealt?",
+  "posts_count": 16,
+  "created_at": "2018-10-12T05:33:47.000Z",
+  "views": 610,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2018-10-16T14:14:25.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "how-much-damage-is-dealt",
+  "category_id": 11,
+  "word_count": 2509,
+  "deleted_at": null,
+  "user_id": 17041,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_18630",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 16,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 8,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 1117,
+        "username": "Ameena",
+        "name": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "post_count": 4,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 17041,
+        "username": "ornithopter",
+        "name": "ornithopter",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/o/e19b73/{size}.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 326,
+        "username": "Matchstickman",
+        "name": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 14551,
+        "username": "Blackfang108",
+        "name": "Blackfang108",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/74df32/{size}.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 7855,
+        "username": "carnilius",
+        "name": "carnilius",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/d07c76/{size}.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 436,
+        "username": "Pydro",
+        "name": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "moderator": true,
+        "trust_level": 4
+      },
+      {
+        "id": 14644,
+        "username": "Ensign53",
+        "name": "Ensign53",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ensign53/{size}/1904_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 5845,
+        "username": "jffdougan",
+        "name": "jffdougan",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/jffdougan/{size}/1882_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 17041,
+      "username": "ornithopter",
+      "name": "ornithopter",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/o/e19b73/{size}.png"
+    },
+    "last_poster": {
+      "id": 14551,
+      "username": "Blackfang108",
+      "name": "Blackfang108",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/b/74df32/{size}.png"
+    }
+  },
+  "bookmarks": []
+}

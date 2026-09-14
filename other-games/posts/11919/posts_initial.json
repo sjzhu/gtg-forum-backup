@@ -1,0 +1,1376 @@
+{
+  "posts": [
+    {
+      "id": 11920,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-01-12T23:24:54.000Z",
+      "cooked": "<p>So I started a <a href=\"https://greaterthangames.com/forum/topic/kaargra-warfang-timing-question-6469\" rel=\"noopener nofollow ugc\">thread</a> earlier, whose initial question was quickly resolved, but which brought up another issue that seems thorny.</p><p>How, <em>precisely</em>, should we evaluate \"&lt;do some effect&gt; to the 2* targets with &lt;some condition&gt;.\"</p><p>* Could be more than 2, as long as it is some specific number more than 1 and less than \"all\".</p><p>This seems obvious, but isn't, because of some well-established meta-rules.&nbsp; There are two very different ways of interpreting this:</p><p>A) <em>This is how the App currently works, and is the simple english interpretation.</em></p><ul>\n<li>Determine the 2 targets who fit the condition.&nbsp; If there are ties, players choose.&nbsp; Call these targets X and Y.</li>\n<li>Players choose whether X or Y gets affected first.&nbsp; Let's say it's X.</li>\n<li>X gets affected, and any appropriate side effects happen.</li>\n<li>Have 2 targets been effected?&nbsp; No.&nbsp; So we need to process another.</li>\n<li>Y gets affected, and any appropriate side effects happen.</li>\n<li>Have two targets been damaged?&nbsp; Yes.&nbsp; We're done.</li>\n</ul><p>B) <em>Based on rulings involving End of Days and Forced Deployment, and the like.</em></p><ul>\n<li>Determine the 2 targets who fit the condition.&nbsp; If there are ties, players choose.&nbsp; Call these targets X and Y.</li>\n<li>Players choose whether X or Y gets affected first.&nbsp; Let's say it's X.</li>\n<li>X gets affected, and any appropriate side effects happen.</li>\n<li>Have 2 targets been effected?&nbsp; No.&nbsp; So we need to process another.</li>\n<li><strong>Determine the 2 targets who fit the condition.&nbsp; If there are ties, players choose.&nbsp; One (or sometimes both!) of these targets will be different from the original pair, so let's call them Y and Z.</strong></li>\n<li><strong>Players choose which target to damage.&nbsp; Let's say they choose Z.&nbsp; (If X had still been one of the 2, he would have been ineligible as a target due to already having been picked, so the \"choice\" would be forced.)</strong></li>\n<li>Z gets affected, and any appropriate side effects happen.</li>\n<li>Have two targets been damaged?&nbsp; Yes.&nbsp; We're done.</li>\n</ul><p>(So, interpetation B would routinely allow players to react to situations such as \"Damage the 2 targets with the highest HP\", by damaging the (originally) 1st and <strong>3rd</strong> highest!)</p><p>&nbsp;</p><p>The argument for B is that each instance of damage is completely unique, and any variables involved are recalculated each time.&nbsp; The question is, does that recalculation include target selection in the general case of \"&lt;do effect E&gt; to the 2* targets with &lt;some condition&gt;.\"</p><p>Interpreatation B *is* a bit counter-intuitive, but it seems to me to be most correct, in the absence of an official ruling.&nbsp;&nbsp;&nbsp; I hereby request a ruling along the lines of:</p><p>\"When an card effects multiple (but not all) targets, those targets {ARE/ARE NOT} all determined before the actual effects start.&nbsp; The targets {ARE NOT/ARE} recalculated after each intance of the effect.\"</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:43:19.730Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 2,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 10.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/kaargra-warfang-timing-question-6469",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>So I started a <a href=\"https://greaterthangames.com/forum/topic/kaargra-warfang-timing-question-6469\">thread</a> earlier, whose initial question was quickly resolved, but which brought up another issue that seems thorny.</p><p>How, <em>precisely</em>, should we evaluate &quot;&lt;do some effect&gt; to the 2* targets with &lt;some condition&gt;.&quot;</p><p>* Could be more than 2, as long as it is some specific number more than 1 and less than &quot;all&quot;.</p><p>This seems obvious, but isn&#39;t, because of some well-established meta-rules.&nbsp; There are two very different ways of interpreting this:</p><p>A) <em>This is how the App currently works, and is the simple english interpretation.</em></p><ul><li>Determine the 2 targets who fit the condition.&nbsp; If there are ties, players choose.&nbsp; Call these targets X and Y.</li><li>Players choose whether X or Y gets affected first.&nbsp; Let&#39;s say it&#39;s X.</li><li>X gets affected, and any appropriate side effects happen.</li><li>Have 2 targets been effected?&nbsp; No.&nbsp; So we need to process another.</li><li>Y gets affected, and any appropriate side effects happen.</li><li>Have two targets been damaged?&nbsp; Yes.&nbsp; We&#39;re done.</li></ul><p>B) <em>Based on rulings involving End of Days and Forced Deployment, and the like.</em></p><ul><li>Determine the 2 targets who fit the condition.&nbsp; If there are ties, players choose.&nbsp; Call these targets X and Y.</li><li>Players choose whether X or Y gets affected first.&nbsp; Let&#39;s say it&#39;s X.</li><li>X gets affected, and any appropriate side effects happen.</li><li>Have 2 targets been effected?&nbsp; No.&nbsp; So we need to process another.</li><li><strong>Determine the 2 targets who fit the condition.&nbsp; If there are ties, players choose.&nbsp; One (or sometimes both!) of these targets will be different from the original pair, so let&#39;s call them Y and Z.</strong></li><li><strong>Players choose which target to damage.&nbsp; Let&#39;s say they choose Z.&nbsp; (If X had still been one of the 2, he would have been ineligible as a target due to already having been picked, so the &quot;choice&quot; would be forced.)</strong></li><li>Z gets affected, and any appropriate side effects happen.</li><li>Have two targets been damaged?&nbsp; Yes.&nbsp; We&#39;re done.</li></ul><p>(So, interpetation B would routinely allow players to react to situations such as &quot;Damage the 2 targets with the highest HP&quot;, by damaging the (originally) 1st and <strong>3rd</strong> highest!)</p><p>&nbsp;</p><p>The argument for B is that each instance of damage is completely unique, and any variables involved are recalculated each time.&nbsp; The question is, does that recalculation include target selection in the general case of &quot;&lt;do effect E&gt; to the 2* targets with &lt;some condition&gt;.&quot;</p><p>Interpreatation B *is* a bit counter-intuitive, but it seems to me to be most correct, in the absence of an official ruling.&nbsp;&nbsp;&nbsp; I hereby request a ruling along the lines of:</p><p>&quot;When an card effects multiple (but not all) targets, those targets {ARE/ARE NOT} all determined before the actual effects start.&nbsp; The targets {ARE NOT/ARE} recalculated after each intance of the effect.&quot;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126973,
+      "name": "eugeneruss",
+      "username": "eugeneruss",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/a183cd/{size}.png",
+      "created_at": "2015-01-12T23:36:19.000Z",
+      "cooked": "<p>Add to the potential murkiness effects such as Bee Bot destruction and Synaptic Interruption that could literally change which target has the highest/lowest hit points during damage resolution.</p><p>My gut feeling is that the app does it right, and if we're required to pick a number of targets based on a condition, that selection can't be altered once they are picked. But once we've picked them, we decide order of resolution. That avoids the to me intuitively wrong result of damaging the targets with the 2nd and 3rd highest hit points, instead of 1st and 2nd.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:30.665Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "eugeneruss",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Add to the potential murkiness effects such as Bee Bot destruction and Synaptic Interruption that could literally change which target has the highest/lowest hit points during damage resolution.</p><p>My gut feeling is that the app does it right, and if we&#39;re required to pick a number of targets based on a condition, that selection can&#39;t be altered once they are picked. But once we&#39;ve picked them, we decide order of resolution. That avoids the to me intuitively wrong result of damaging the targets with the 2nd and 3rd highest hit points, instead of 1st and 2nd.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8475,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126974,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2015-01-12T23:39:37.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"eugeneruss\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/a183cd/48.png\" class=\"avatar\"> eugeneruss:</div>\n<blockquote>\n<p>Add to the potential murkiness effects such as Bee Bot destruction and Synaptic Interruption that could literally change which target has the highest/lowest hit points during damage resolution.My gut feeling is that the app does it right, and if we're required to pick a number of targets based on a condition, that selection can't be altered once they are picked. But once we've picked them, we decide order of resolution. That avoids the to me intuitively wrong result of damaging the targets with the 2nd and 3rd highest hit points, instead of 1st and 2nd.</p>\n</blockquote>\n</aside>\n<p>I agree with you! (Yay!)</p>\n<p>Chances are very high that if it works that way in the App, that is the official correct way to do it.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:30.731Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"eugeneruss\"]\n\nAdd to the potential murkiness effects such as Bee Bot destruction and Synaptic Interruption that could literally change which target has the highest/lowest hit points during damage resolution.My gut feeling is that the app does it right, and if we&#39;re required to pick a number of targets based on a condition, that selection can&#39;t be altered once they are picked. But once we&#39;ve picked them, we decide order of resolution. That avoids the to me intuitively wrong result of damaging the targets with the 2nd and 3rd highest hit points, instead of 1st and 2nd.\n\n[/quote]\n\nI agree with you! (Yay!)\n\nChances are very high that if it works that way in the App, that is the official correct way to do it.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126975,
+      "name": "eugeneruss",
+      "username": "eugeneruss",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/a183cd/{size}.png",
+      "created_at": "2015-01-12T23:41:05.000Z",
+      "cooked": "<p>:) I'm ornery, not contrary, despite evidence :)</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:30.800Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "eugeneruss",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>:) I&#39;m ornery, not contrary, despite evidence :)</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8475,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126976,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2015-01-13T00:18:00.000Z",
+      "cooked": "<p>A is incomplete - it doesn't cover what you do if reaction damage from the first attack kills target Y.</p><p>&nbsp;</p><p>Also, I've come up with an option C. &nbsp;It is most similar to option B, but I think it creates results closer to option A.</p><p>&nbsp;</p><p>In order to explain it, I shall use the attack \"Deal N damage to the 3 targets with the highest HP\"</p><ul>\n<li>Determine the 3 highest HP targets</li>\n<li>Choose one target (X) amongst these 3 to take the damage.</li>\n<li>Calculate damage for the attack on X</li>\n<li>&lt;3 attacks have been made, so continue</li>\n<li>Determine the 2 highest HP eligible (i.e. not X) targets</li>\n<li>Choose one target (Y) amongst these 2 to take the damage</li>\n<li>Calculate the damage for the attack on Y</li>\n<li>&lt;3 attacks have been made, so continue</li>\n<li>Determine the 1 highest HP eligible (not X or Y) target</li>\n<li>Calculate the attack on this target</li>\n<li>3 attacks have been made - you're done</li>\n</ul><p>&nbsp;</p><p>What do you think?</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:30.861Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>A is incomplete - it doesn&#39;t cover what you do if reaction damage from the first attack kills target Y.</p><p>&nbsp;</p><p>Also, I&#39;ve come up with an option C. &nbsp;It is most similar to option B, but I think it creates results closer to option A.</p><p>&nbsp;</p><p>In order to explain it, I shall use the attack &quot;Deal N damage to the 3 targets with the highest HP&quot;</p><ul><li>Determine the 3 highest HP targets</li><li>Choose one target (X) amongst these 3 to take the damage.</li><li>Calculate damage for the attack on X</li><li>&lt;3 attacks have been made, so continue</li><li>Determine the 2 highest HP eligible (i.e. not X) targets</li><li>Choose one target (Y) amongst these 2 to take the damage</li><li>Calculate the damage for the attack on Y</li><li>&lt;3 attacks have been made, so continue</li><li>Determine the 1 highest HP eligible (not X or Y) target</li><li>Calculate the attack on this target</li><li>3 attacks have been made - you&#39;re done</li></ul><p>&nbsp;</p><p>What do you think?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126977,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2015-01-13T00:18:06.000Z",
+      "cooked": "<p>The official word is that the app does it right. &nbsp;Christopher reads every thread and if the app is doing it wrong we will find out. &nbsp;Otherwise the App is considered to do things the officially correct way.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:30.939Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The official word is that the app does it right. &nbsp;Christopher reads every thread and if the app is doing it wrong we will find out. &nbsp;Otherwise the App is considered to do things the officially correct way.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126978,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-01-13T00:24:55.000Z",
+      "cooked": "<p>I actually also, on further thought, prefer A.&nbsp; But, being an ornery rules-lawyer myself, I'd like to have a solid argument in case I run up against someone arguing B :-)&nbsp; Because preference (even concensus) is not the same as clarity.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.010Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I actually also, on further thought, prefer A.&nbsp; But, being an ornery rules-lawyer myself, I&#39;d like to have a solid argument in case I run up against someone arguing B :-)&nbsp; Because preference (even concensus) is not the same as clarity.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126979,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2015-01-13T00:48:00.000Z",
+      "cooked": "<p><span class=\"bbcode-s\">Someone tell me a set-up they want me to play out in the App/Mega Computer and i'll my best to get it there and reveal the results.</span></p>\n<p>Edit: Oh, now that I have read it a bit more thoroughly, I have seen that that App has already been tested, so… Nevermind.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.069Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[s]Someone tell me a set-up they want me to play out in the App/Mega Computer and i&#39;ll my best to get it there and reveal the results.[/s]\n\nEdit: Oh, now that I have read it a bit more thoroughly, I have seen that that App has already been tested, so... Nevermind.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126980,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-01-13T00:52:18.000Z",
+      "cooked": "<p>Ok, try this: Siege-breaker destroying Cursed Acolyte.&nbsp;</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.133Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Ok, try this: Siege-breaker destroying Cursed Acolyte.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126981,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2015-01-13T00:53:30.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Ok, try this: Siege-breaker destroying Cursed Acolyte.&nbsp;</p>\n</blockquote>\n</aside>\n<p>Stop rubbing it in that Siege-breaker is superior to Cursed Acolyte now!</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.209Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\nOk, try this: Siege-breaker destroying Cursed Acolyte.&nbsp;\n\n[/quote]\n\nStop rubbing it in that Siege-breaker is superior to Cursed Acolyte now!\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126982,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2015-01-13T00:59:00.000Z",
+      "cooked": "<p>I have something for you to test. &nbsp;Interpretation A (as currently described) does not explain how to handle this case:</p><p>&nbsp;</p><p>Omnitron uses the Electro-Magnetic Railgun when one of the two highest health heroes is Legacy at H-1 health with Lead from the Front (with a third hero in play). &nbsp;The two target possiblities should be Legacy and the other hero. &nbsp;Deal the damage to other hero, and redirect it to Legacy with Lead from the Front to kill him.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.267Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I have something for you to test. &nbsp;Interpretation A (as currently described) does not explain how to handle this case:</p><p>&nbsp;</p><p>Omnitron uses the Electro-Magnetic Railgun when one of the two highest health heroes is Legacy at H-1 health with Lead from the Front (with a third hero in play). &nbsp;The two target possiblities should be Legacy and the other hero. &nbsp;Deal the damage to other hero, and redirect it to Legacy with Lead from the Front to kill him.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126983,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2015-01-13T01:06:23.000Z",
+      "cooked": "<p>Oh joy...</p><p>Well, if anyone has an interest in seeing me attempt this and have a steam account, they can watch it here:&nbsp;http://steamcommunity.com/broadcast/watch/76561198033497175</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.326Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Oh joy...</p><p>Well, if anyone has an interest in seeing me attempt this and have a steam account, they can watch it here:&nbsp;http://steamcommunity.com/broadcast/watch/76561198033497175</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126984,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-01-13T01:08:23.000Z",
+      "cooked": "<p>Cooooooooooooooooooooooooooool!</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.392Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Cooooooooooooooooooooooooooool!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126985,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2015-01-13T01:37:50.000Z",
+      "cooked": "<p>Alright! I did it, but in an awkward way.</p><p>Legacy at 1, The Wraith at 3, and THe Visionary at 3. I selected The Wraith to take the damage, it was then redirected to Legacy, thanks to smoke bombs it was redirected to The Visionary for the kill. That was the end of the Electro-Magnetic Railgun having Omnitron deal damage.</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.471Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Alright! I did it, but in an awkward way.</p><p>Legacy at 1, The Wraith at 3, and THe Visionary at 3. I selected The Wraith to take the damage, it was then redirected to Legacy, thanks to smoke bombs it was redirected to The Visionary for the kill. That was the end of the Electro-Magnetic Railgun having Omnitron deal damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126986,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-01-13T01:39:24.000Z",
+      "cooked": "<p>...and I saw it happen!</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.525Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>...and I saw it happen!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 126987,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-01-13T01:51:22.000Z",
+      "cooked": "<p>That makes sense.&nbsp; We have lots of examples already that if a card leaves play while other cards are about to effect it, those effects just fizzle.</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:01:31.582Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11919,
+      "topic_slug": "request-for-official-ruling-on-deal-the-2-targets",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>That makes sense.&nbsp; We have lots of examples already that if a card leaves play while other cards are about to effect it, those effects just fizzle.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

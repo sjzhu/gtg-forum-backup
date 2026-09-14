@@ -1,0 +1,1562 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 13832,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2015-11-02T04:23:28.000Z",
+        "cooked": "<p>I was playing Scholar and three other heroes tonight. (Eternal Haka, Redeemer Fanatic, AZ in the Final Wasteland vs Miss Information, though those decks aren't relevant to my story.)</p><p>&nbsp;</p><p>The other heroes were all incapacitated and could collectively give The Scholar two out of turn card plays and one out of turn power use.</p><p>&nbsp;</p><p>Scholar had one Iron, two Energies, and one Water form in play, as well as Bring What You Need, which gives Scholar the power to reveal three cards and put two in his hand.</p><p>&nbsp;</p><p>So, in a given round, Scholar wanted to discard four cards to keep his four form cards in play and ALSO wanted to play three more cards -- one each on his turn and two incapacitated heroes' turns. To keep that up, Scholar needed to be able to draw, on average, at least seven cards a turn.</p><p>&nbsp;</p><p>On Scholar's turn, he could draw two cards from Bring What You Need and draw a third card during the Draw phase. Scholar could also draw a fourth and fifth card via on off-turn use of Bring What You Need. That left Scholar just two draws a round short, on average.</p><p>&nbsp;</p><p>So, over five rounds, on average, Scholar would be ten cards short. Scholar has a card, though, that gives five card draws, so I found myself wondering what are the odds that he would be able to play just that card enough times to get all the card draws needed.&nbsp;</p><p>&nbsp;</p><p>Assuming Scholar succeeded in drawing seven cards a round, then over five rounds Scholar would draw thirty-five cards. Since there are forty cards in a deck and in this Scenario Scholar has five cards in play (Four forms and Bring What You Need), it seems like Scholar will see every other card in the deck. Since the deck includes at least two copies of the card that gives five card draws, this seems doable. Once you get this engine going, if it's not disturbed from the outside (by something like Miss Information forcing Scholar to either destroy all cards in play or discard all cards in hand), it seems like it would go indefinitely.</p><p>&nbsp;</p><p>Even if it _is_ disturbed, in a lot of cases if Scholar is planning for such a situation, the engine can likely get going again in a round or two.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:45:45.167Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 9,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 45.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I was playing Scholar and three other heroes tonight. (Eternal Haka, Redeemer Fanatic, AZ in the Final Wasteland vs Miss Information, though those decks aren&#39;t relevant to my story.)</p><p>&nbsp;</p><p>The other heroes were all incapacitated and could collectively give The Scholar two out of turn card plays and one out of turn power use.</p><p>&nbsp;</p><p>Scholar had one Iron, two Energies, and one Water form in play, as well as Bring What You Need, which gives Scholar the power to reveal three cards and put two in his hand.</p><p>&nbsp;</p><p>So, in a given round, Scholar wanted to discard four cards to keep his four form cards in play and ALSO wanted to play three more cards -- one each on his turn and two incapacitated heroes&#39; turns. To keep that up, Scholar needed to be able to draw, on average, at least seven cards a turn.</p><p>&nbsp;</p><p>On Scholar&#39;s turn, he could draw two cards from Bring What You Need and draw a third card during the Draw phase. Scholar could also draw a fourth and fifth card via on off-turn use of Bring What You Need. That left Scholar just two draws a round short, on average.</p><p>&nbsp;</p><p>So, over five rounds, on average, Scholar would be ten cards short. Scholar has a card, though, that gives five card draws, so I found myself wondering what are the odds that he would be able to play just that card enough times to get all the card draws needed.&nbsp;</p><p>&nbsp;</p><p>Assuming Scholar succeeded in drawing seven cards a round, then over five rounds Scholar would draw thirty-five cards. Since there are forty cards in a deck and in this Scenario Scholar has five cards in play (Four forms and Bring What You Need), it seems like Scholar will see every other card in the deck. Since the deck includes at least two copies of the card that gives five card draws, this seems doable. Once you get this engine going, if it&#39;s not disturbed from the outside (by something like Miss Information forcing Scholar to either destroy all cards in play or discard all cards in hand), it seems like it would go indefinitely.</p><p>&nbsp;</p><p>Even if it _is_ disturbed, in a lot of cases if Scholar is planning for such a situation, the engine can likely get going again in a round or two.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150050,
+        "name": "Apo",
+        "username": "Apo",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/aeb1de/{size}.png",
+        "created_at": "2015-11-16T17:23:21.000Z",
+        "cooked": "<p>It is this thread and immense boredom that made me finally register in the forum. So...hi guys!</p><p>I didn't crunch any numbers, because I had the feeling this problem would be rather involved to solve on paper. Instead, I wrote a mathematica script to simulate the scholar card draw engine. The results are kind of nice, so I decided to share them. I didn't have my cards at hand, but I remembered that when you use the card that lets you draw 5 (Know when to hold fast), you immediately have to end your turn. I hope this is correct. :D</p><p>As far as I understood the original problem, the optimal hero turns would look like this:</p><p>1) Scholar discards 4 cards; never discard Know when to hold fast (KWTHF) except when forced to do so.</p><p>2) Scholar plays a card; if possible, Scholar does <strong>not </strong>play KWTHF, because it forces him to skip both the power and draw phase. If Scholar only has KWTHF on his hand, play KWHTF.</p><p>3) Use Bring what you need (BWYN), if 2) permits it. Discard a card that is not KWTHF.</p><p>4) Draw a card if 2) permits</p><p>5-7) The incapped heroes allow Scholar to play two more cards and use BWYN. OP didn't specify the order of these events. This results in three possible scenarios (Play,Play,BWYN), (Play,BWYN,Play), (BWYN,Play,Play)&nbsp; (scenario 1 to 3). Following the logic behind Scholar's card play in-turn, he'll want to play KWTHF here. Do so if possible. If not, play another one. Same as in 3): never discard KWTHF due to BWYN's effect.</p><p>I considered the engine to fail whenever Scholar wasn't able to either pay the upkeep cost for his elemental cards or whenever he wasn't able to play a card when he could legally do so. This is a rather strict requirement, but you sounded like that was what you wanted. Among other things, this means that whenever Scholar started his turn with less than five cards in hand, the engine had failed.</p><p>The only remaining input parameter is Scholar's starting hand. I created histograms for a starting hand of 5 (the absolut minimum), 6, 7 cards in scenario 1, 2, 3,&nbsp; for a total of nine histograms. I simulated 10k games and took note of how many turns Scholar could keep his engine going. Number of rounds is what you see in the x-axis. Y-axis is the estimated probability. Moreover, I collected some bins for clarity.</p><p>Bin 1 :: 0, 1 Round</p><p>Bin 2 :: 2,..,5 Rounds</p><p>Bin 3 :: 6,..10 Rounds</p><p>Bin 4 :: 11,.., 40 Rounds</p><p>Bin 5 :: 41,..,99 Rounds</p><p>Bin 6 :: 100+ Rounds; <strong>see below</strong></p><p>Since the histograms look similar, I'll only attach the scenario 3 ones, and otherwise describe my findings.</p><p>What can we see? Usually, the engine either fails quickly within a few turns, or reaches the overflow bin at very very right. This is what I like to call the equilibrium bin. All multiversial Scholars that reached this result were in an equilibrium state (cosmic harmony and stuff I guess); they had their whole deck on hand with a few exceptions that were in the trash. Because of a KWTHF on their hand and their powers they were always able to completely draw their reshuffled trash into their hands and end up in the exact same situation as the previous turn.</p><p>The higher the starting hand, the higher the chance that this happened. For scenario 3, the probabilities for reaching an equilibrium state with starting hand 5/6/7 are about 25%, 53%, 81%. This behaviour is expected.</p><p>Also expected: scenario 1 has the lowest probability for equilibrium for a given starting hand size (12%, 37%, 60%). Unexpected finding: scenario 2 always has the highest probability for equilibrium (~3% higher than scenario 3). I did not look into this, and probably won't. But it seems unintuitive to me.</p><p>Well...I hope to have answered your question. :) All in all, you have pretty good chances to get his engine fired for all eternity, even with the strict fail condition I imposed.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:37.993Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Apo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>It is this thread and immense boredom that made me finally register in the forum. So...hi guys!</p><p>I didn&#39;t crunch any numbers, because I had the feeling this problem would be rather involved to solve on paper. Instead, I wrote a mathematica script to simulate the scholar card draw engine. The results are kind of nice, so I decided to share them. I didn&#39;t have my cards at hand, but I remembered that when you use the card that lets you draw 5 (Know when to hold fast), you immediately have to end your turn. I hope this is correct. :D</p><p>As far as I understood the original problem, the optimal hero turns would look like this:</p><p>1) Scholar discards 4 cards; never discard Know when to hold fast (KWTHF) except when forced to do so.</p><p>2) Scholar plays a card; if possible, Scholar does <strong>not </strong>play KWTHF, because it forces him to skip both the power and draw phase. If Scholar only has KWTHF on his hand, play KWHTF.</p><p>3) Use Bring what you need (BWYN), if 2) permits it. Discard a card that is not KWTHF.</p><p>4) Draw a card if 2) permits</p><p>5-7) The incapped heroes allow Scholar to play two more cards and use BWYN. OP didn&#39;t specify the order of these events. This results in three possible scenarios (Play,Play,BWYN), (Play,BWYN,Play), (BWYN,Play,Play)&nbsp; (scenario 1 to 3). Following the logic behind Scholar&#39;s card play in-turn, he&#39;ll want to play KWTHF here. Do so if possible. If not, play another one. Same as in 3): never discard KWTHF due to BWYN&#39;s effect.</p><p>I considered the engine to fail whenever Scholar wasn&#39;t able to either pay the upkeep cost for his elemental cards or whenever he wasn&#39;t able to play a card when he could legally do so. This is a rather strict requirement, but you sounded like that was what you wanted. Among other things, this means that whenever Scholar started his turn with less than five cards in hand, the engine had failed.</p><p>The only remaining input parameter is Scholar&#39;s starting hand. I created histograms for a starting hand of 5 (the absolut minimum), 6, 7 cards in scenario 1, 2, 3,&nbsp; for a total of nine histograms. I simulated 10k games and took note of how many turns Scholar could keep his engine going. Number of rounds is what you see in the x-axis. Y-axis is the estimated probability. Moreover, I collected some bins for clarity.</p><p>Bin 1 :: 0, 1 Round</p><p>Bin 2 :: 2,..,5 Rounds</p><p>Bin 3 :: 6,..10 Rounds</p><p>Bin 4 :: 11,.., 40 Rounds</p><p>Bin 5 :: 41,..,99 Rounds</p><p>Bin 6 :: 100+ Rounds; <strong>see below</strong></p><p>Since the histograms look similar, I&#39;ll only attach the scenario 3 ones, and otherwise describe my findings.</p><p>What can we see? Usually, the engine either fails quickly within a few turns, or reaches the overflow bin at very very right. This is what I like to call the equilibrium bin. All multiversial Scholars that reached this result were in an equilibrium state (cosmic harmony and stuff I guess); they had their whole deck on hand with a few exceptions that were in the trash. Because of a KWTHF on their hand and their powers they were always able to completely draw their reshuffled trash into their hands and end up in the exact same situation as the previous turn.</p><p>The higher the starting hand, the higher the chance that this happened. For scenario 3, the probabilities for reaching an equilibrium state with starting hand 5/6/7 are about 25%, 53%, 81%. This behaviour is expected.</p><p>Also expected: scenario 1 has the lowest probability for equilibrium for a given starting hand size (12%, 37%, 60%). Unexpected finding: scenario 2 always has the highest probability for equilibrium (~3% higher than scenario 3). I did not look into this, and probably won&#39;t. But it seems unintuitive to me.</p><p>Well...I hope to have answered your question. :) All in all, you have pretty good chances to get his engine fired for all eternity, even with the strict fail condition I imposed.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13200,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-11-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150051,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-11-16T17:47:31.000Z",
+        "cooked": "<p>Wow!</p>\n<p>Welcome to the forums!</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:38.088Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Wow!\r\n\r\nWelcome to the forums!",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150052,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2015-11-16T20:01:08.000Z",
+        "cooked": "<p>AWESOME! So glad you did this work and posted it. Welcome to the forums. Yes, the assumption is correct.</p><p>&nbsp;</p><p>I think the chances are even a touch better then your simulations, because some of the other cards also lead to card draw. Add that to the fact that one wouldn't have far to recover if just one or two elements had to be let go, and I feel rather affirmed that this setup would most of the time be quite resilient.</p><p>&nbsp;</p><p>Well, assuming outside factos aren't destroying your stuff and/or forcing discards.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:38.152Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>AWESOME! So glad you did this work and posted it. Welcome to the forums. Yes, the assumption is correct.</p><p>&nbsp;</p><p>I think the chances are even a touch better then your simulations, because some of the other cards also lead to card draw. Add that to the fact that one wouldn&#39;t have far to recover if just one or two elements had to be let go, and I feel rather affirmed that this setup would most of the time be quite resilient.</p><p>&nbsp;</p><p>Well, assuming outside factos aren&#39;t destroying your stuff and/or forcing discards.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150053,
+        "name": "Apo",
+        "username": "Apo",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/aeb1de/{size}.png",
+        "created_at": "2015-11-17T10:28:09.000Z",
+        "cooked": "<p>You are right that the chances are a touch (much!) better. To get things going properly you can opt not to play a card everytime you could (or rather, only play cards that give draw) and the whole start-up process is a lot more robust. Or to put it differently, I think Scholar could handle two \"perturbative\" discards a round if he doesn't play any cards but KWTHF and would end up with almost the same chances as above.</p><p>Even if there are significant outside sources of perturbation, once you've hit equilibrium you're almost untouchable. An effect that discards your hand...yes, that could bring you down. Anything else? I doubt it.</p><p>Personally I don't like Scholar very much. I've yet to see a game in which he gets incapacitated. :)</p><p>I'll go back to lurking now, until my services are needed again. There really should be an animated smokebomb emoji. A lot of dramatic potential lost this way. :D</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:38.219Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Apo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>You are right that the chances are a touch (much!) better. To get things going properly you can opt not to play a card everytime you could (or rather, only play cards that give draw) and the whole start-up process is a lot more robust. Or to put it differently, I think Scholar could handle two &quot;perturbative&quot; discards a round if he doesn&#39;t play any cards but KWTHF and would end up with almost the same chances as above.</p><p>Even if there are significant outside sources of perturbation, once you&#39;ve hit equilibrium you&#39;re almost untouchable. An effect that discards your hand...yes, that could bring you down. Anything else? I doubt it.</p><p>Personally I don&#39;t like Scholar very much. I&#39;ve yet to see a game in which he gets incapacitated. :)</p><p>I&#39;ll go back to lurking now, until my services are needed again. There really should be an animated smokebomb emoji. A lot of dramatic potential lost this way. :D</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13200,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-11-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150054,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2015-11-17T12:43:04.000Z",
+        "cooked": "<p>I've seen Scholar incapped and it mostly seems to occur with an ill fated play of Alchemical Redirection. &nbsp; &nbsp;</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:38.281Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>I&#39;ve seen Scholar incapped and it mostly seems to occur with an ill fated play of Alchemical Redirection. &nbsp; &nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150055,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-11-17T13:24:06.000Z",
+        "cooked": "<p>Don’t just lurk!</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:38.346Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Don't just lurk!",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150056,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2015-11-17T13:38:25.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Don't just lurk!</p>\n</blockquote>\n</aside>\n<p>It makes you… well, see my sig.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:38.406Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Pydro\"]\n\nDon&#39;t just lurk!\n\n[/quote]\n\n It makes you... well, see my sig. \n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150057,
+        "name": "Apo",
+        "username": "Apo",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/aeb1de/{size}.png",
+        "created_at": "2015-11-19T09:35:49.000Z",
+        "cooked": "<p>Convinced. Instead of a target, I'd rather be an ongiong (ba dum tss).</p><p>&nbsp;</p><p>I can see how Alchemical Redirection can go awry, but usual losing games with Scholar on the team (in my gang at least) ended with the agreement that Scholar alone -- the last man standing -- couldn't possible win the game anymore.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:38.492Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Apo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Convinced. Instead of a target, I&#39;d rather be an ongiong (ba dum tss).</p><p>&nbsp;</p><p>I can see how Alchemical Redirection can go awry, but usual losing games with Scholar on the team (in my gang at least) ended with the agreement that Scholar alone -- the last man standing -- couldn&#39;t possible win the game anymore.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13200,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-11-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150058,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2015-11-19T12:16:31.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Apo\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/aeb1de/48.png\" class=\"avatar\"> Apo:</div>\n<blockquote>\n<p>Convinced. Instead of a target, I'd rather be an ongiong (ba dum tss).</p>\n</blockquote>\n</aside>\n<p>Woohoo! <img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/b/bf77086fa1313d7564909f16ab424f5b8365e650.gif\" alt=\"\" data-base62-sha1=\"rjMdSdxIa10TYxPrDX1chAlqPCg\" role=\"presentation\" width=\"25\" height=\"27\" class=\"animated\"></p>\n<p>One of us! One of us!</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-13T21:54:17.906Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Apo\"]\n\nConvinced. Instead of a target, I&#39;d rather be an ongiong (ba dum tss). \n[/quote]\n\nWoohoo! ![](upload://rjMdSdxIa10TYxPrDX1chAlqPCg.gif)\n\nOne of us! One of us!",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "downloaded local copies of images",
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 150059,
+        "name": "Yak Guardian",
+        "username": "Yak_Guardian",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/yak_guardian/{size}/1884_2.png",
+        "created_at": "2015-12-09T15:26:43.000Z",
+        "cooked": "<p>Welcome Apo!</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:28:38.632Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 13831,
+        "topic_slug": "scholar-card-math",
+        "display_username": "Yak Guardian",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Welcome Apo!</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2173,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      13832,
+      150050,
+      150051,
+      150052,
+      150053,
+      150054,
+      150055,
+      150056,
+      150057,
+      150058,
+      150059
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      3967
+    ],
+    [
+      2,
+      3952
+    ],
+    [
+      6,
+      3951
+    ],
+    [
+      9,
+      3950
+    ],
+    [
+      10,
+      3949
+    ],
+    [
+      11,
+      3929
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T20:08:26.107Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T20:08:26.107Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 66,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31775,
+      "title": "Origin of the Animalverse (theory)",
+      "fancy_title": "Origin of the Animalverse (theory)",
+      "slug": "origin-of-the-animalverse-theory",
+      "posts_count": 10,
+      "reply_count": 6,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2025-09-12T13:50:44.574Z",
+      "last_posted_at": "2025-09-16T12:31:52.066Z",
+      "bumped": true,
+      "bumped_at": "2025-09-16T12:31:52.066Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 8,
+      "views": 170,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13161,
+            "username": "MindWanderer",
+            "name": "MindWanderer",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17935,
+            "username": "Thunderbird",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/ba8739/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32278,
+      "title": "Unwinnable / Unlosable SotM team game",
+      "fancy_title": "Unwinnable / Unlosable SotM team game",
+      "slug": "unwinnable-unlosable-sotm-team-game",
+      "posts_count": 10,
+      "reply_count": 5,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2026-04-23T15:38:06.331Z",
+      "last_posted_at": "2026-07-03T19:04:45.562Z",
+      "bumped": true,
+      "bumped_at": "2026-07-03T19:11:09.242Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 23,
+      "views": 172,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 16735,
+            "username": "Griff_s_Dad",
+            "name": "Griff's Dad",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/g/e0b2c6/{size}.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19126,
+            "username": "gater",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/gater/{size}/7318_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4975,
+            "username": "Escher",
+            "name": "Escher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/escher/{size}/4865_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32334,
+      "title": "Back ad from Dispiration (plans changed)",
+      "fancy_title": "Back ad from Dispiration (plans changed)",
+      "slug": "back-ad-from-dispiration-plans-changed",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/optimized/2X/f/fdd34c51a017339f0e1947ee77e175f614a32a0e_2_663x1024.jpeg",
+      "created_at": "2026-06-01T05:36:57.360Z",
+      "last_posted_at": "2026-06-02T10:56:40.506Z",
+      "bumped": true,
+      "bumped_at": "2026-06-02T10:56:40.506Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 77,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 16875,
+            "username": "Sea-Envy",
+            "name": "Sea-Envy",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/sea-envy/{size}/1849_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 31821,
+      "title": "Neat card interaction for Akash'Thriya",
+      "fancy_title": "Neat card interaction for Akash&rsquo;Thriya",
+      "slug": "neat-card-interaction-for-akashthriya",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-09-22T23:51:00.052Z",
+      "last_posted_at": "2025-09-23T01:42:49.714Z",
+      "bumped": true,
+      "bumped_at": "2025-09-23T01:42:49.714Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 128,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 13831,
+  "title": "Scholar card math",
+  "fancy_title": "Scholar card math",
+  "posts_count": 11,
+  "created_at": "2015-11-02T04:23:28.000Z",
+  "views": 850,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2015-12-09T15:26:43.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "scholar-card-math",
+  "category_id": 11,
+  "word_count": 1648,
+  "deleted_at": null,
+  "user_id": 18,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_13831",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 11,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 7,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 13200,
+        "username": "Apo",
+        "name": "Apo",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/aeb1de/{size}.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 436,
+        "username": "Pydro",
+        "name": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "moderator": true,
+        "trust_level": 4
+      },
+      {
+        "id": 18,
+        "username": "arenson9",
+        "name": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "moderator": true,
+        "trust_level": 4
+      },
+      {
+        "id": 20,
+        "username": "Rabit",
+        "name": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 2173,
+        "username": "Yak_Guardian",
+        "name": "Yak Guardian",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/yak_guardian/{size}/1884_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 5464,
+        "username": "Powerhound_2000",
+        "name": "Sonvar",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 326,
+        "username": "Matchstickman",
+        "name": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 18,
+      "username": "arenson9",
+      "name": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png"
+    },
+    "last_poster": {
+      "id": 2173,
+      "username": "Yak_Guardian",
+      "name": "Yak Guardian",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/yak_guardian/{size}/1884_2.png"
+    }
+  },
+  "bookmarks": []
+}

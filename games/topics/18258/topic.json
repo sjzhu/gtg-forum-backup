@@ -1,0 +1,1751 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 18260,
+        "name": "Roger the Alien",
+        "username": "Roger_the_Alien",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/76d3ee/{size}.png",
+        "created_at": "2018-07-20T15:20:17.000Z",
+        "cooked": "<p>Hello, the following situation happened:</p><p>Benchmark has 2 software cards in play and 1 hardware card:&nbsp;<a href=\"https://imgur.com/a/QjA9sXv\" rel=\"noopener nofollow ugc\">https://imgur.com/a/QjA9sXv</a></p><p>Each software card says: „At the start of your turn, if you have more software than hardware in play, draw a card and destroy 2 software card.“ Therefore a card was drawn:&nbsp;<a href=\"https://imgur.com/a/d3YLE06\" rel=\"noopener nofollow ugc\">https://imgur.com/a/d3YLE06</a></p><p>Now both software cards have to be destroyed:&nbsp;<a href=\"https://imgur.com/a/pGZzOKc\" rel=\"noopener nofollow ugc\">https://imgur.com/a/pGZzOKc</a></p><p>Ally Matrix was chosen:&nbsp;<a href=\"https://imgur.com/a/mJFf5I5\" rel=\"noopener nofollow ugc\">https://imgur.com/a/mJFf5I5</a></p><p>Now the bug occured, a least I think it is a bug. Instead of destroying the other software card (Load On Initialization), its start of turn effect resolves:&nbsp;<a href=\"https://imgur.com/a/Fhcl6dR\" rel=\"noopener nofollow ugc\">https://imgur.com/a/Fhcl6dR</a></p><p>I drew a card:&nbsp;<a href=\"https://imgur.com/a/OVPJZUm\" rel=\"noopener nofollow ugc\">https://imgur.com/a/OVPJZUm</a></p><p>No second software card was destroyed and it‘s my play phase:&nbsp;<a href=\"https://imgur.com/a/6P6BwPB\" rel=\"noopener nofollow ugc\">https://imgur.com/a/6P6BwPB</a></p><p>&nbsp;</p><p>I think both software cards should‘ve been destroyed without Load On Initialization interrupting. After the effect of Load On Interruption the card checks again if the criteria software cards &lt;= hardware cards is fulfilled which applied and no second software card (the card itself) was destroyed.&nbsp;</p><p>Am I wrong?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:51:32.963Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "Roger the Alien",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://imgur.com/a/QjA9sXv",
+            "internal": false,
+            "reflection": false,
+            "title": "Imgur: The magic of the Internet",
+            "clicks": 0
+          },
+          {
+            "url": "https://imgur.com/a/d3YLE06",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://imgur.com/a/pGZzOKc",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://imgur.com/a/mJFf5I5",
+            "internal": false,
+            "reflection": false,
+            "title": "Imgur: The magic of the Internet",
+            "clicks": 0
+          },
+          {
+            "url": "https://imgur.com/a/Fhcl6dR",
+            "internal": false,
+            "reflection": false,
+            "title": "Imgur: The magic of the Internet",
+            "clicks": 0
+          },
+          {
+            "url": "https://imgur.com/a/OVPJZUm",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://imgur.com/a/6P6BwPB",
+            "internal": false,
+            "reflection": false,
+            "title": "Imgur: The magic of the Internet",
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Hello, the following situation happened:</p><p>Benchmark has 2 software cards in play and 1 hardware card:&nbsp;<a href=\"https://imgur.com/a/QjA9sXv\" style=\"font-size: 13px;\">https://imgur.com/a/QjA9sXv</a></p><p>Each software card says: &bdquo;At the start of your turn, if you have more software than hardware in play, draw a card and destroy 2 software card.&ldquo; Therefore a card was drawn:&nbsp;<a href=\"https://imgur.com/a/d3YLE06\" style=\"font-size: 13px;\">https://imgur.com/a/d3YLE06</a></p><p>Now both software cards have to be destroyed:&nbsp;<a href=\"https://imgur.com/a/pGZzOKc\" style=\"font-size: 13px;\">https://imgur.com/a/pGZzOKc</a></p><p>Ally Matrix was chosen:&nbsp;<a href=\"https://imgur.com/a/mJFf5I5\" style=\"font-size: 13px;\">https://imgur.com/a/mJFf5I5</a></p><p>Now the bug occured, a least I think it is a bug. Instead of destroying the other software card (Load On Initialization), its start of turn effect resolves:&nbsp;<a href=\"https://imgur.com/a/Fhcl6dR\" style=\"font-size: 13px;\">https://imgur.com/a/Fhcl6dR</a></p><p>I drew a card:&nbsp;<a href=\"https://imgur.com/a/OVPJZUm\" style=\"font-size: 13px;\">https://imgur.com/a/OVPJZUm</a></p><p>No second software card was destroyed and it&lsquo;s my play phase:&nbsp;<a href=\"https://imgur.com/a/6P6BwPB\" style=\"font-size: 13px;\">https://imgur.com/a/6P6BwPB</a></p><p>&nbsp;</p><p>I think both software cards should&lsquo;ve been destroyed without Load On Initialization interrupting. After the effect of Load On Interruption the card checks again if the criteria software cards &lt;= hardware cards is fulfilled which applied and no second software card (the card itself) was destroyed.&nbsp;</p><p>Am I wrong?</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15656,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-05-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220323,
+        "name": "pwatson1974",
+        "username": "pwatson1974",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pwatson1974/{size}/1925_2.png",
+        "created_at": "2018-07-20T15:49:00.000Z",
+        "cooked": "<p>This is not a bug but a feature of how things work in Sentinels.</p><p>The instructions to destroy software is on Ally Matrix.</p><p>The card checks. Yup. More Software than hardware. Destroy Software. you destroy Ally Matrix. The destruction immediately stops because the card that was causing the destruction is no longer in play, much as when you Bee Bot an ongoing End of Days.</p><p>Load on Initialisation now does its start of turn, so draw or play. Then checks. Nope, Software and hardware in balance. Carry on Benchmark. The New Standard (TM)</p><p>&nbsp;</p><p>Believe me, this was discussed to death and possibly more in the playtest.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.105Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "pwatson1974",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>This is not a bug but a feature of how things work in Sentinels.</p><p>The instructions to destroy software is on Ally Matrix.</p><p>The card checks. Yup. More Software than hardware. Destroy Software. you destroy Ally Matrix. The destruction immediately stops because the card that was causing the destruction is no longer in play, much as when you Bee Bot an ongoing End of Days.</p><p>Load on Initialisation now does its start of turn, so draw or play. Then checks. Nope, Software and hardware in balance. Carry on Benchmark. The New Standard (TM)</p><p>&nbsp;</p><p>Believe me, this was discussed to death and possibly more in the playtest.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 293,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-02-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220324,
+        "name": "Roger the Alien",
+        "username": "Roger_the_Alien",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/76d3ee/{size}.png",
+        "created_at": "2018-07-20T15:58:51.000Z",
+        "cooked": "<p>Thank you, no mail will be send to handelabra^^</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.174Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "Roger the Alien",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Thank you, no mail will be send to handelabra^^</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15656,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-05-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220325,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2018-07-20T16:09:45.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"pwatson1974\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pwatson1974/48/1925_2.png\" class=\"avatar\"> pwatson1974:</div>\n<blockquote>\n<p>Believe me, this was discussed to death and possibly more in the playtest.</p>\n</blockquote>\n</aside>\n<p>And apparently resurrected (in this thread)!</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.234Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"pwatson1974\"]\n Believe me, this was discussed to death and possibly more in the playtest.  \n[/quote]\n \n\n And apparently resurrected (in this thread)! \n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220326,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2018-07-20T18:17:33.000Z",
+        "cooked": "<p>It's extremely unintuitive, seeming to defy the card's intent, so I expect it will come up a lot.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.299Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>It&#39;s extremely unintuitive, seeming to defy the card&#39;s intent, so I expect it will come up a lot.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220327,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2018-07-20T18:38:40.000Z",
+        "cooked": "<p>I don’t agree since that’s exactly what playtesters did during testing and Christopher was fine with it when asked. &nbsp;</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.364Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>I don&rsquo;t agree since that&rsquo;s exactly what playtesters did during testing and Christopher was fine with it when asked. &nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220328,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2018-07-20T19:43:14.000Z",
+        "cooked": "<p>The playtesters are expert players, though. They understand the rules and the weird interactions really well.&nbsp; Like Explosive Wagon, you wouldn't see questions about the timing on something like that from the playtesters anymore, but a lot of players will still get it wrong.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.426Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>The playtesters are expert players, though. They understand the rules and the weird interactions really well.&nbsp; Like Explosive Wagon, you wouldn&#39;t see questions about the timing on something like that from the playtesters anymore, but a lot of players will still get it wrong.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220329,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2018-07-20T20:14:03.000Z",
+        "cooked": "<p>Benchmark is a mini expansion and a complexity 3 hero so I still find your point a bit moot as he isn’t for new players. &nbsp;People can ask for clarifcation and it likely will come up from time to time but that doesn’t necessarily mean it’s&nbsp;<span>unintuitive</span>&nbsp;for someone who has played the game for a while and has cracked open a complex character. &nbsp;</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.484Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>Benchmark is a mini expansion and a complexity 3 hero so I still find your point a bit moot as he isn&rsquo;t for new players. &nbsp;People can ask for clarifcation and it likely will come up from time to time but that doesn&rsquo;t necessarily mean it&rsquo;s&nbsp;<span style=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, HelveticaNeue, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14.399999618530273px; -webkit-text-size-adjust: auto; background-color: rgb(255, 255, 255);\">unintuitive</span>&nbsp;for someone who has played the game for a while and has cracked open a complex character. &nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220330,
+        "name": "Dr. Kaylo Epsilon",
+        "username": "Dr_Kaylo_Epsilon",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dr_kaylo_epsilon/{size}/2024_2.png",
+        "created_at": "2018-07-26T03:36:24.000Z",
+        "cooked": "<p>For what it’s worth, I’m not a playtester and my reactions when I stumbled upon this during play were:</p>\n<ol>\n<li>Oh, right. I only lost one software because I destroyed the source of the destruction effect before it could knock out more software. Of course.</li>\n<li>Hmm, and that works thematically, too. If you shut down processes overloading your system ASAP, you can keep the system running near peak capacity. If you defer maintenance, thing always blow up worse.</li>\n<li>Now, what order should I redeploy software in to maximize the benefit I get from carefully ordered shutdown of processes.</li>\n<li>Muahahaha Benchmark draws so many cards under a Fixed Point!!!</li>\n</ol>\n<p>So, not a playtester, but also not fazed by the behavior.<br>\n(Though I can totally see it puzzling a new player; I’m not denying that point.)</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.602Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "Dr. Kaylo Epsilon",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "For what it's worth, I'm not a playtester and my reactions when I stumbled upon this during play were:\r\n\r\n<ol><li>Oh, right. I only lost one software because I destroyed the source of the destruction effect before it could knock out more software. Of course.</li>\r\n<li>Hmm, and that works thematically, too. If you shut down processes overloading your system ASAP, you can keep the system running near peak capacity. If you defer maintenance, thing always blow up worse.</li>\r\n<li>Now, what order should I redeploy software in to maximize the benefit I get from carefully ordered shutdown of processes.</li>\r\n<li>Muahahaha Benchmark draws so many cards under a Fixed Point!!!</li>\r\n</ol>\r\n\r\nSo, not a playtester, but also not fazed by the behavior. \r\n(Though I can totally see it puzzling a new player; I'm not denying that point.)",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11689,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-02-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220331,
+        "name": "FearLord",
+        "username": "FearLord",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/f/5f8ce5/{size}.png",
+        "created_at": "2018-07-26T16:59:13.000Z",
+        "cooked": "<p>Hmmm... I’m not sure that is working right - I certainly had a situation where destroying a single card would have made the soft wear = hard wear and it destroyed both - it looks like it’s because the particular card you had has an effect that goes off before the check so it looked like doing that ‘interrupted’ the destroying of the 2 cards and then never went back to it...</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.675Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "FearLord",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Hmmm... I&rsquo;m not sure that is working right - I certainly had a situation where destroying a single card would have made the soft wear = hard wear and it destroyed both - it looks like it&rsquo;s because the particular card you had has an effect that goes off before the check so it looked like doing that &lsquo;interrupted&rsquo; the destroying of the 2 cards and then never went back to it...</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16625,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-12-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220332,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2018-07-26T17:36:23.000Z",
+        "cooked": "<p>Yes, that's exactly right:</p><ul>\n<li>If the first software card destroys itself first, it's done.</li>\n<li>If the first software card destroys another software first, it'll have to destroy a second.</li>\n<li>If the second destroyed card is the first software card, it's done.</li>\n<li>If the second destroyed card is another software, you draw a card.</li>\n</ul>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.742Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>Yes, that&#39;s exactly right:</p><ul><li>If the first software card destroys itself first, it&#39;s done.</li><li>If the first software card destroys another software first, it&#39;ll have to destroy a second.</li><li>If the second destroyed card is the first software card, it&#39;s done.</li><li>If the second destroyed card is another software, you draw a card.</li></ul>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220333,
+        "name": "FearLord",
+        "username": "FearLord",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/f/5f8ce5/{size}.png",
+        "created_at": "2018-07-26T21:59:54.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p>Yes, that's exactly right:If the first software card destroys itself first, it's done.If the first software card destroys another software first, it'll have to destroy a second.If the second destroyed card is the first software card, it's done.If the second destroyed card is another software, you draw a card.</p>\n</blockquote>\n</aside>\n<p>Ah, right - if it destroys itself, it stops resolving - got it!</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.812Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "FearLord",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"MindWanderer\"]\n\nYes, that&#39;s exactly right:If the first software card destroys itself first, it&#39;s done.If the first software card destroys another software first, it&#39;ll have to destroy a second.If the second destroyed card is the first software card, it&#39;s done.If the second destroyed card is another software, you draw a card.\n\n[/quote]\n\nAh, right - if it destroys itself, it stops resolving - got it!\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16625,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-12-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220334,
+        "name": "Kratos13",
+        "username": "Kratos13",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/k/65b543/{size}.png",
+        "created_at": "2018-07-27T04:43:13.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p>Yes, that's exactly right:If the first software card destroys itself first, it's done.If the first software card destroys another software first, it'll have to destroy a second.If the second destroyed card is the first software card, it's done.If the second destroyed card is another software, you draw a card.</p>\n</blockquote>\n</aside>\n<p>Drawing a card should happen before all of that and not contingent on what was destroyed, no?</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.888Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "Kratos13",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"MindWanderer\"]\n\nYes, that&#39;s exactly right:If the first software card destroys itself first, it&#39;s done.If the first software card destroys another software first, it&#39;ll have to destroy a second.If the second destroyed card is the first software card, it&#39;s done.If the second destroyed card is another software, you draw a card.\n\n[/quote]\n\nDrawing a card should happen before all of that and not contingent on what was destroyed, no?\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12563,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-06-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 220335,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2018-07-27T05:20:35.000Z",
+        "cooked": "<p>Oh, you’re right, I got the order wrong. I never let it happen, but that actually makes a big difference.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:52:48.962Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18258,
+        "topic_slug": "benchmark-bug",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "Oh, you're right, I got the order wrong. I never let it happen, but that actually makes a big difference.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      18260,
+      220323,
+      220324,
+      220325,
+      220326,
+      220327,
+      220328,
+      220329,
+      220330,
+      220331,
+      220332,
+      220333,
+      220334,
+      220335
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2975
+    ],
+    [
+      9,
+      2970
+    ],
+    [
+      10,
+      2969
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T20:08:26.107Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T20:08:26.107Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 66,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31833,
+      "title": "Please help! Video game logs!",
+      "fancy_title": "Please help! Video game logs!",
+      "slug": "please-help-video-game-logs",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2025-10-01T21:27:10.411Z",
+      "last_posted_at": "2025-10-04T01:17:03.037Z",
+      "bumped": true,
+      "bumped_at": "2025-10-04T01:17:03.037Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 57,
+      "category_id": 32,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 17935,
+            "username": "Thunderbird",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/ba8739/{size}.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31844,
+      "title": "Game Log: Quantum Setback Vs Madame Luminatron",
+      "fancy_title": "Game Log: Quantum Setback Vs Madame Luminatron",
+      "slug": "game-log-quantum-setback-vs-madame-luminatron",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-10-03T12:26:00.070Z",
+      "last_posted_at": "2025-10-04T01:14:51.426Z",
+      "bumped": true,
+      "bumped_at": "2025-10-04T01:14:51.426Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 53,
+      "category_id": 32,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 31913,
+      "title": "Captain's DAT, Stardate Today",
+      "fancy_title": "Captain&rsquo;s DAT, Stardate Today",
+      "slug": "captains-dat-stardate-today",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-10-27T23:44:33.090Z",
+      "last_posted_at": "2025-10-27T23:44:33.200Z",
+      "bumped": true,
+      "bumped_at": "2025-10-27T23:44:33.200Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 52,
+      "category_id": 32,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 32070,
+      "title": "About this forum!?",
+      "fancy_title": "About this forum!?",
+      "slug": "about-this-forum",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-12-03T00:30:32.417Z",
+      "last_posted_at": "2025-12-03T00:30:32.501Z",
+      "bumped": true,
+      "bumped_at": "2025-12-03T00:30:32.501Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 34,
+      "category_id": 78,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 18258,
+  "title": "Benchmark bug?",
+  "fancy_title": "Benchmark bug?",
+  "posts_count": 14,
+  "created_at": "2018-07-20T15:20:17.000Z",
+  "views": 671,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2018-07-27T05:20:35.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "benchmark-bug",
+  "category_id": 32,
+  "word_count": 1190,
+  "deleted_at": null,
+  "user_id": 15656,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_18258",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 14,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 8,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 13161,
+        "username": "MindWanderer",
+        "name": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "post_count": 4,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 5464,
+        "username": "Powerhound_2000",
+        "name": "Sonvar",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 15656,
+        "username": "Roger_the_Alien",
+        "name": "Roger the Alien",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/76d3ee/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 16625,
+        "username": "FearLord",
+        "name": "FearLord",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/f/5f8ce5/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 12563,
+        "username": "Kratos13",
+        "name": "Kratos13",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/k/65b543/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 326,
+        "username": "Matchstickman",
+        "name": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 11689,
+        "username": "Dr_Kaylo_Epsilon",
+        "name": "Dr. Kaylo Epsilon",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dr_kaylo_epsilon/{size}/2024_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 293,
+        "username": "pwatson1974",
+        "name": "pwatson1974",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pwatson1974/{size}/1925_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 15656,
+      "username": "Roger_the_Alien",
+      "name": "Roger the Alien",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/r/76d3ee/{size}.png"
+    },
+    "last_poster": {
+      "id": 13161,
+      "username": "MindWanderer",
+      "name": "MindWanderer",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png"
+    }
+  },
+  "bookmarks": []
+}

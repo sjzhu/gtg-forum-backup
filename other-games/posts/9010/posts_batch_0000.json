@@ -1,0 +1,1015 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 81796,
+        "name": "pwatson1974",
+        "username": "pwatson1974",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pwatson1974/{size}/1925_2.png",
+        "created_at": "2013-11-14T18:58:00.000Z",
+        "cooked": "<p>3) Yes, I believe scenario 3 is correct. It also allows you to control redierctions to determine who gets the final effect, i.e. if Lead from the Front and Smoke Bombs are in play you could hold off on redirecting to Legacy until after Smoke Bombs has kicked in.</p><p>I'm mostly objecting to interefering with damage while it's still being calculated. I do not agree that redirection or prevention are simultaneous with modify damage totals. Without that, the question becomes moot.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.049Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "pwatson1974",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 293,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-02-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81797,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-11-14T20:33:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"pwatson1974\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pwatson1974/48/1925_2.png\" class=\"avatar\"> pwatson1974:</div>\n<blockquote>\n<p>I'm mostly objecting to interefering with damage while it's still being calculated.&nbsp; I do not agree that redirection or prevention are simultaneous with modify damage totals. Without that, the question becomes moot.</p>\n</blockquote>\n</aside>\n<p>What is it that makes SHD/Fort simultaneous? Is it because they have a similar effect (trigger not assessed)? Or is it because Fort might have an implicit trigger of \"whenever you would be dealt damage\" similar to SHD (trigger assessed)?&nbsp;</p>\n<p>If we can boil down what exactly gives SHD/Fort its simultaneous status, we can extend that to other interactions like redirection and prevention. But as Phantaskippy pointed out, there may not be a right/wrong way anymore to how these things resolve, which is the single most infuriating/beautiful thing about the ruling.&nbsp;</p>\n<hr>\n<p>I'd like to attempt to distill a methodology for navigating the new official order of operations. But to do that, I need a set of premises that I need to assume are true.&nbsp; Here I have 3 premises that I fully believe to be 100% correct that will guide this new method:</p>\n<ol>\n<li>\n<p>The Order of Operations ruling contains two truths, that&nbsp; A) SHD and Fort. are simultaneous effects and that B) simultaneous effects are resolved in the order of the players choice</p>\n</li>\n<li>\n<p>For two or more effects to be \"simultaneous\", they must occur at the same time.&nbsp;</p>\n</li>\n<li>\n<p>The timing of any particular Effect can only be conveyed through its associated Trigger</p>\n</li>\n</ol>\n<p>(If anyone disagree's with any of the above premises, I would be interested in hearing so)</p>\n<p>&nbsp;</p>\n<p>If [1A] is correct, than it follows that SHD and Fort, then they must occur at the same time, as stated by [2]. Timing of effects are the exclusive property of said effect's Trigger clause as stated by [3]. Having said that, the conclusion I am reaching here is that SHD and Fort must have similar triggers.</p>\n<p>SHD has an explicit \"when you would be dealt\" trigger. Fort, on the other hand, as is the case with the vast majority of damage modifying effects, does not contain an explicit trigger clause. Since we have already deduced that Fort/SHD must have similar triggers to be given simultaneous status, we can infer that Fort. has an implicit trigger of \"when you would be dealt\".</p>\n<p>Here is where the dangerous part comes in. If we are now saying that Fort. has a defined implicit trigger, might we extend that implicit trigger to all damage modification effects that otherwise have no explicit trigger? That would seem to be the logical leap here. If the implicit trigger on Fort. reads \"when you would be dealt\", I imagine effects that increase damage would have an implicit trigger of \"when you would deal\".&nbsp;</p>\n<p>If those type of effects share a \"would deal/be dealt\" trigger wording and are simultaneous with eachother, then we can go ahead and say that other \"would deal/be dealt\" triggers would fall simultaneous with those as well. This would include redirection effects, such as Driving Mantis, and the prevention mechanic as it is worded on Undaunted.</p>\n<p>&nbsp;</p>\n<p>If all of those things are truely simultaneous, maybe these is a way to boil down the whole damage dealing proccess into a neat little package.</p>\n<p>I propose splitting the whole resolution proccess into <em>two distinct parts</em>, Pre-Damage and Post-Damage.</p>\n<p>Pre-Damage occurs anytime an instance of damage is declared. Determin the initial target, type, and amount for the damage. Then, in the order of the players choosing, may start resolving any \"Pre-Damage\" effect, which include any and all effects dealing with damage that are<i>&nbsp;not</i> dependant on HP being reduced. This would include damage type modifiers, amount modifiers (+/- or prevention), and target modifiers (redirection). <em>(It should be brought up that having damage Immunity is a bit of a special situation. To keep in line with the official ruling that a damage immune Nightmist can not redirect damage with her Amulet, I will be working on the assumption that immunity does not prevent you from being targeted with an instance of damage, but it would in effect prevent \"would be dealt\" triggers from triggering on her).</em></p>\n<p>Post-Damage occurs the moment HP starts being actually reduced, and would include damage effects that are specifically dependant on HP being reduced in some capacity, like Hypersonic Assault from Tachyons deck or Omni-X's Reactive Plating Subroutine.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Id like to hear any thoughts you guys have on this methodology or anything about the new Order of Operations in general.</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.128Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81798,
+        "name": "pwatson1974",
+        "username": "pwatson1974",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pwatson1974/{size}/1925_2.png",
+        "created_at": "2013-11-14T21:53:38.000Z",
+        "cooked": "<p>I tend to order the rpocess of damage as:</p><p>1) Select target</p><p>2) Determine damage type. Anything that modifes type is simltneous with everything else that does.</p><p>3) Determine immnity. If immune, stop.</p><p>4) Apply modifiers to the damage total. These are simltaneous, so can be applied in any order. I tend to break on initator and on target modifiers separtely and do the former first. If damage is 0, stop.</p><p>5) Redirect and return to step 1 if is a change of target. All redirections are simltaneous.</p><p>6) Apply any prevent damage features, or convert damage to healing.</p><p>7) Reduce targets hit points by damage total.</p><p>8) If target has hit points left, continue with any effect that applies after damage is dealt, such as the Chairman's retributive damage or Isothermic Transducer's second strike.</p><p>This is in no way backed up by the rules, just how I conceptualise the damage process.</p><p>&nbsp;</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.223Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "pwatson1974",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 293,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-02-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81799,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-11-14T21:59:30.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"pwatson1974\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pwatson1974/48/1925_2.png\" class=\"avatar\"> pwatson1974:</div>\n<blockquote>\n<p>I tend to order the rpocess of damage as:1) Select target2) Determine damage type. Anything that modifes type is simltneous with everything else that does.3) Determine immnity. If immune, stop.4) Apply modifiers to the damage total. These are simltaneous, so can be applied in any order. I tend to break on initator and on target modifiers separtely and do the former first. If damage is 0, stop.5) Redirect and return to step 1 if is a change of target. All redirections are simltaneous.6) Apply any prevent damage features, or convert damage to healing.7) Reduce targets hit points by damage total.8) If target has hit points left, continue with any effect that applies after damage is dealt, such as the Chairman's retributive damage or Isothermic Transducer's second strike.</p>\n<p>This is in no way backed up by the rules, just how I conceptualise the damage process.&nbsp;</p>\n</blockquote>\n</aside>\n<p>Theres the thing though, it actually&nbsp;<em>is</em> backed up by the rules, at least it is if I am seeing things right. That is not an incorrect way to resolve it.</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.311Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81800,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-11-14T22:07:00.000Z",
+        "cooked": "<p><span>I do not like the idea of implicit triggers, as Static effects seem officially to not have them (not expressly stated, but the static effects don't have timing definitely leads that way).</span></p><p>&nbsp;I have tried to reconcile the idea that Fortitude and SHD can be simultaneous effects, and Fortitude not have timing.</p><p>That is how I came to my current operating stance on timing static and triggered effects:</p><p>Static effects never have timing issues with other static effects, you don't need to time them or resolve them as such, you just need to do he math. &nbsp;This is largely because static effects do not oppose each other, a +1 and -1 don't fight to see who gets applied, they both apply for a change of 0. &nbsp;Conditional triggers like SHD and redirection triggered by amount of damage can conflict, and in those circumstances the application of a static effect and the triggering of a triggered effect can have simultaneous timing.</p><p>This is important because unlike conditional static eff<span>ects, conditional triggered effects do not recheck. &nbsp;Imbued Fire's bonus to fire damage and Micro Targetting Computer can apply their effects, then unaply them, no conditional trigger does that. &nbsp;If Super Human rechecked once it reduced damage it would just endlessly loop on damage of 5 or 6, constantly reducing then unreducing than reducing again.</span></p><p>An interesting test of conditional triggers, and the timing of different effects would be the following progression:</p><p>Fanatic has Divine Focus ans Sacrosanct Martyr in play, and the&nbsp;<span>twist the&nbsp;</span><span>ether on her, Baron Blade has elemental redistributor and a Mobile Defense Platform out.</span></p><p><span>1. &nbsp;Fanatic discards at the start of her turn to deal Baron Blade 2 radiant damage.</span></p><p><span>2. &nbsp;That damage is Fire and increased to 3 due to IF.</span></p><p><span>3. &nbsp;Because that damage is fire Baron Blade redirects it (to Fanatic for our purposes)</span></p><p><span>4. &nbsp;Visionary uses Twist the Ether to change the damage to Radiant, which reduces it to 2 (losing IF bonus), then increases it one to hit Fanatic for 3 radiant damage. &nbsp;Lets divine focus go away.</span></p><p><span>5. &nbsp;Fanatic sacrosanct Martyr's, dealing herself 5+1 radiant damage through TtE.</span></p><p><span>6. &nbsp;Fanatic deals the Mobile Defense Platform 10 damage, destroying it.</span></p><p>Is this a legal turn under the current rules?</p><p>Could Visionary wait till the damage is redirected to use Twist the Ether? (I don't see any reason she couldn't, since it is still Fanatic's damage)</p><p>If Visionary changed the damage would it then not be redirected by the Baron's Elemental redistributor and do nothing to the immune to damage Baron Blade. &nbsp;(this would only be the case if conditional triggered effects can recheck their requirements and untrigger, which I would say no to)</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.387Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81801,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-11-15T00:08:19.000Z",
+        "cooked": "<p>I see what you are getting at, but have you considered that Barron blades immunity granted by the MDP could alter your step 3?</p><p>consider that Nightmist can't redirect an instance of damage with amulet while she's immune to damage. I do not believe the order of operations trumps that ruling, so I consider it valid. If that's the case, I do not believe you would be able to redirect to Fanatic. I'd be interested on your thoughts on immunity.&nbsp;</p><p>But yes I think you might be able to wait on Twist the Ether. And no I think the redirection wouldn't be retroactively canceled. The trigger for the redirect is conditional sure, but the effect is not conditional (like MTC is a conditional effect).&nbsp;</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.470Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81802,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-11-15T01:44:03.000Z",
+        "cooked": "<p>you are right about the immunity, didn't think of that at the time.</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.541Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81803,
+        "name": "Envisioner",
+        "username": "Envisioner",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+        "created_at": "2013-11-24T05:17:31.000Z",
+        "cooked": "<p>Here's a question that puzzled me today - under the OoO ruling, if Absolute Zero has the lowest HP and a Null-Point Calibration Unit in play, and Wraith has out Smoke Bombs, and a Gene-Bound Frost Hound deals cold damage to everything, can Absolute Zero choose to gain HP by taking the cold damage, instead of redirecting the damage away from himself to the highest-HP hero?</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.611Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "Envisioner",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5332,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81804,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-11-24T05:48:57.000Z",
+        "cooked": "<p>Smoke bomb redirect is optional.&nbsp;</p>",
+        "post_number": 29,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.678Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81805,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2013-11-24T06:01:47.000Z",
+        "cooked": "<p>There is no may in Smoke Bombs</p>",
+        "post_number": 30,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.738Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81806,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-11-24T06:21:00.000Z",
+        "cooked": "<p>Smoke Bombs is not optional, but the timing of Smoke Bombs and the conversion from cold to healing should be simultaneous, and that would mean hero choice.</p><p>I would say that since we have no reason to treat them as anything but simultaneous that the order would be your choice, so yes, AZ could heal before the redirection would trigger, causing the redirection to not trigger. &nbsp;</p>",
+        "post_number": 31,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.807Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 81807,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2013-11-24T19:24:13.000Z",
+        "cooked": "<p>Yeah, the specific wording on both cards are \"Whenever (X target) would be dealt (Cold damage/damage from a villain target), (Y effect),\" so they are undoubtedly simultaneous. I second this ruling.</p>",
+        "post_number": 32,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:04:21.871Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 9010,
+        "topic_slug": "testing-the-limits-of-the-new-order-of-operations-ruling",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 9010
+}

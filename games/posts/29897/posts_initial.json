@@ -1,0 +1,620 @@
+{
+  "posts": [
+    {
+      "id": 250865,
+      "name": "Escher",
+      "username": "Escher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/escher/{size}/4865_2.png",
+      "created_at": "2023-02-20T17:36:25.240Z",
+      "cooked": "<p>I should probably know this by now, but: If a power says to do several things in a row and the card is destroyed halfway through, does the power terminate at that point or does the power finish resolving?</p>\n<p>Example: Argent Adept has Cedistic Dissonant and Musaragni’s Harp in play. Normally the Harp would let me use  Harmony’s Perform text, and then use a Harmony’s Accompany text. If I Perform Cedistic Dissonant, it destroys an instrument card. Musaragni’s Harp is destroyed, so at that point do I finish the power by playing an Accompany, or does the power stop halfway through because the card is gone?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2023-02-20T17:36:25.240Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 102,
+      "reads": 36,
+      "readers_count": 35,
+      "score": 517.2,
+      "yours": false,
+      "topic_id": 29897,
+      "topic_slug": "power-destroyed-half-way-through-resolution",
+      "display_username": "Escher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I should probably know this by now, but: If a power says to do several things in a row and the card is destroyed halfway through, does the power terminate at that point or does the power finish resolving?\n\nExample: Argent Adept has Cedistic Dissonant and Musaragni's Harp in play. Normally the Harp would let me use  Harmony's Perform text, and then use a Harmony's Accompany text. If I Perform Cedistic Dissonant, it destroys an instrument card. Musaragni's Harp is destroyed, so at that point do I finish the power by playing an Accompany, or does the power stop halfway through because the card is gone?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4975,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-07-13",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 250866,
+      "name": "",
+      "username": "skywhale",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/skywhale/{size}/5248_2.png",
+      "created_at": "2023-02-20T17:39:39.326Z",
+      "cooked": "<p>Is this Definitive Edition?</p>\n<p>I believe it is the same answer either way, but for sure in Definitive Edition you would no longer trigger any effects from the power, as it is no longer in play. And in Definitive Edition, card effects not in play cannot affect play.</p>\n<p>Edit: Just tested this out for EE with VG Writhe (Umbral Siphon power deals 2 separate instances of damage), Mister Fixer (can destroy Umbral Siphon with his power), and Captain Cosmic (can give Fixer Dynamic Siphon, which allows him to use his power between the two instances of damage from Umbral Siphon). Umbral Siphon dealt the first instance of damage to Dynamic Siphon, which allowed Fixer to destroy Umbral Siphon, and then the second instance of damage was not dealt (lots of siphoning going on).</p>\n<p>So in both editions, the power would end when the card that contains the power is destroyed.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2023-02-20T17:54:48.229Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 36,
+      "readers_count": 35,
+      "score": 47.2,
+      "yours": false,
+      "topic_id": 29897,
+      "topic_slug": "power-destroyed-half-way-through-resolution",
+      "display_username": "",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 2,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Is this Definitive Edition?\n\nI believe it is the same answer either way, but for sure in Definitive Edition you would no longer trigger any effects from the power, as it is no longer in play. And in Definitive Edition, card effects not in play cannot affect play.\n\n\nEdit: Just tested this out for EE with VG Writhe (Umbral Siphon power deals 2 separate instances of damage), Mister Fixer (can destroy Umbral Siphon with his power), and Captain Cosmic (can give Fixer Dynamic Siphon, which allows him to use his power between the two instances of damage from Umbral Siphon). Umbral Siphon dealt the first instance of damage to Dynamic Siphon, which allowed Fixer to destroy Umbral Siphon, and then the second instance of damage was not dealt (lots of siphoning going on).\n\nSo in both editions, the power would end when the card that contains the power is destroyed.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 18108,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2022-02-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 250867,
+      "name": "Escher",
+      "username": "Escher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/escher/{size}/4865_2.png",
+      "created_at": "2023-02-20T18:24:36.976Z",
+      "cooked": "<p>It is DE, and yeah that’s what I figured, but thought I’d ask to be sure.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2023-02-20T18:24:36.976Z",
+      "reply_count": 0,
+      "reply_to_post_number": 2,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 33,
+      "readers_count": 32,
+      "score": 26.6,
+      "yours": false,
+      "topic_id": 29897,
+      "topic_slug": "power-destroyed-half-way-through-resolution",
+      "display_username": "Escher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "reply_to_user": {
+        "username": "skywhale",
+        "name": "",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/skywhale/{size}/5248_2.png"
+      },
+      "bookmarked": false,
+      "raw": "It is DE, and yeah that's what I figured, but thought I'd ask to be sure.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4975,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-07-13",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 250874,
+      "name": "",
+      "username": "The_Justifier",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/the_justifier/{size}/4954_2.png",
+      "created_at": "2023-02-20T22:04:14.309Z",
+      "cooked": "<p>The non definitive edition example also works that way in that specific situation, but there are some niggles about cards which destroy themselves in the course of doing their thing, such as Unity’s Bee Bot, or the selfsame Adept with the Accompany on Alacritous Subdominant.  DE tends to clear up these issues through the use of the words “first” or “after”, I believe, so it would be like “if Bee Bot would be destroyed, first Unity deals 2 projectile damage to any target, and you may destroy one Ongoing or Environment card”, or “Accompany: You may use a power; after that power has fully resolved, destroy this card”.  Early printings of original and EE cards tended to be more interested in writing the abilities in plain English, on the assumption that players would decide on a table by table basis how to interpret instructions for maximum player fun. Only when they needed to code the game into an app did they really start to think about wording abilities very precisely so their effects could be unambiguous, and DE seems to embrace that ideal from the ground up (which is roughly <span class=\"hashtag\">#4</span> on the list of reasons why I haven’t played DE, and <span class=\"hashtag\">#7</span> why I haven’t purchased it).</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2023-02-20T22:04:14.309Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 30,
+      "readers_count": 29,
+      "score": 11.0,
+      "yours": false,
+      "topic_id": 29897,
+      "topic_slug": "power-destroyed-half-way-through-resolution",
+      "display_username": "",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "The non definitive edition example also works that way in that specific situation, but there are some niggles about cards which destroy themselves in the course of doing their thing, such as Unity's Bee Bot, or the selfsame Adept with the Accompany on Alacritous Subdominant.  DE tends to clear up these issues through the use of the words \"first\" or \"after\", I believe, so it would be like \"if Bee Bot would be destroyed, first Unity deals 2 projectile damage to any target, and you may destroy one Ongoing or Environment card\", or \"Accompany: You may use a power; after that power has fully resolved, destroy this card\".  Early printings of original and EE cards tended to be more interested in writing the abilities in plain English, on the assumption that players would decide on a table by table basis how to interpret instructions for maximum player fun. Only when they needed to code the game into an app did they really start to think about wording abilities very precisely so their effects could be unambiguous, and DE seems to embrace that ideal from the ground up (which is roughly #4 on the list of reasons why I haven't played DE, and #7 why I haven't purchased it).",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17950,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2021-05-14",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 250876,
+      "name": "Trajector",
+      "username": "Trajector",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/trajector/{size}/1914_2.png",
+      "created_at": "2023-02-21T01:59:15.347Z",
+      "cooked": "<p>I thought both editions were clear that cards remain in play while resolving <em>their own</em> destruction, which is why, for instance, Mountainous Carapace still grants Akash’Bhuta -1 damage or why Bee Bot works the way it does. But if those kinds of effects are not happening then something destroying the card interrupts whatever else it was doing. (Famous example: End of Days/Bee Bot)</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2023-02-21T01:59:15.347Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 25,
+      "readers_count": 24,
+      "score": 25.0,
+      "yours": false,
+      "topic_id": 29897,
+      "topic_slug": "power-destroyed-half-way-through-resolution",
+      "display_username": "Trajector",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "I thought both editions were clear that cards remain in play while resolving *their own* destruction, which is why, for instance, Mountainous Carapace still grants Akash'Bhuta -1 damage or why Bee Bot works the way it does. But if those kinds of effects are not happening then something destroying the card interrupts whatever else it was doing. (Famous example: End of Days/Bee Bot)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 11097,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-12-13",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 250877,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2023-02-21T02:01:55.840Z",
+      "cooked": "<p>In EE there are certainly some cases where if a card leaves play it could have a lingering affect.  Like if Legacy gets incapped his Galvanize power is still in effect until the start of his next turn.  Still regarding EE, if Mr Fixer hits a target with Hoist Chain and it leaves play the -1 damage is still in effect until Mr Fixer’s next turn.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2023-02-21T02:01:55.840Z",
+      "reply_count": 0,
+      "reply_to_post_number": 5,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 25,
+      "readers_count": 24,
+      "score": 35.0,
+      "yours": false,
+      "topic_id": 29897,
+      "topic_slug": "power-destroyed-half-way-through-resolution",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "reply_to_user": {
+        "username": "Trajector",
+        "name": "Trajector",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/trajector/{size}/1914_2.png"
+      },
+      "bookmarked": false,
+      "raw": "In EE there are certainly some cases where if a card leaves play it could have a lingering affect.  Like if Legacy gets incapped his Galvanize power is still in effect until the start of his next turn.  Still regarding EE, if Mr Fixer hits a target with Hoist Chain and it leaves play the -1 damage is still in effect until Mr Fixer's next turn.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 250900,
+      "name": "Escher",
+      "username": "Escher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/escher/{size}/4865_2.png",
+      "created_at": "2023-02-22T04:13:44.983Z",
+      "cooked": "<p>The Cedistic example is in DE so it’s not exactly all cleared up.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2023-02-22T04:13:44.983Z",
+      "reply_count": 0,
+      "reply_to_post_number": 4,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 22,
+      "readers_count": 21,
+      "score": 19.4,
+      "yours": false,
+      "topic_id": 29897,
+      "topic_slug": "power-destroyed-half-way-through-resolution",
+      "display_username": "Escher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "reply_to_user": {
+        "username": "The_Justifier",
+        "name": "",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/the_justifier/{size}/4954_2.png"
+      },
+      "bookmarked": false,
+      "raw": "The Cedistic example is in DE so it's not exactly all cleared up.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4975,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-07-13",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

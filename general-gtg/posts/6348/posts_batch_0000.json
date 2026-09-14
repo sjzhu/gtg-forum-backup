@@ -1,0 +1,343 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 39312,
+        "name": "broccoli",
+        "username": "broccoli",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/broccoli/{size}/1861_2.png",
+        "created_at": "2012-10-13T03:53:00.000Z",
+        "cooked": "<p>I'm WAY too out of it right now to do the computations myself, but it probably has something to do with using Syncopated Onslaught on yourself a few times and sacrificing Alacritous Subdominant to get extra power uses, and then some combination of Scherzo and the accompaniment on Onslaught.</p><p>&nbsp;</p><p>Edit: Pondered it a bit, and here you go.</p><p>Polyphonic Flare -&gt; Vocalize -&gt; Syncopated Onslaught (P)</p><p>Xu's Bell -&gt; Syncopated Onslaught (P) -&gt; Alacritous Subdominant (A) - sacrificing Alacritous Subdominant</p><p>Telamon's Lyre -&gt; Inspiring Supertonic (P) (on yourself) -&gt; Syncopated Onslaught (A) - dealing 3 damage</p><p>Eydisar's Horn -&gt; Scherzo of Frost and Flame -&gt; Alacritous Subdominant (A) - sacrificing your second copy, dealing 6 damage total</p><p>Drake's Pipes -&gt; 2 copies of Scherzo of Frost and Flame -&gt; 12 damage total</p><p>3 + 6 + 12 = 21.</p><p>I did need 5 instruments and a one-shot as described, but I ended up needing 6 ongoings (Onslaught, Alacritous x 2, Inspiring, Scherzo x 2), so maybe there's an easier way.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:13:02.765Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6348,
+        "topic_slug": "power-creep-or-just-better-refined",
+        "display_username": "broccoli",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 233,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-10-21",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 39313,
+        "name": "LCinn",
+        "username": "LCinn",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lcinn/{size}/2659_2.png",
+        "created_at": "2012-10-13T08:49:23.000Z",
+        "cooked": "<p>I didn't realize you could actually use Scherzo of Frost and Flame twice with the pipes if you had two copies of it! In that case the max damage should be 24, actually! Let me try.. for this you'd still need 5 instruments (you actually used 4), but one more ongoing (end with the pipes and two scherzos, instead of the drums and 1 scherzo and the accompany from the onslaught).</p><p>&nbsp;</p><p><span>Polyphonic Flare -&gt; Vocalize -&gt; Syncopated Onslaught (P) (+1 damage)</span></p><p><span>Musaragni's Harp -&gt; Inspiring Supertonic (P) (+1 power*) -&gt;&nbsp;</span><span>Alacritous Subdominant (A) (+1 power**) (sacrifice&nbsp;</span><span>Alacritous Subdominant)</span></p><p><span>*Telamon's Lyra -&gt;&nbsp;</span><span>Inspiring Supertonic (P) (+1 power***) -&gt;&nbsp;</span><span>Syncopated Onslaught (A) (1 sonic damage)</span></p><p><span>***Xu's Bell -&gt;&nbsp;</span><span>Syncopated Onslaught (P) (+1 damage) -&gt;&nbsp;</span><span>Syncopated Onslaught (A) (1 sonic damage)</span></p><p><span>**Eydisar's Horn -&gt; Scherzo of Frost and Flame (P) (1 cold and 1 fire damage) -&gt;&nbsp;</span><span>Alacritous Subdominant (A) (+1 power****) (sacrifice&nbsp;</span><span>Alacritous Subdominant)</span></p><p><span>****Drake's Pipes -&gt; 2x&nbsp;</span><span>Scherzo of Frost and Flame (P) (1 cold and 1 fire damage)</span></p><p><span>for a total of +2 damage before the first damage effect takes place, and 8 instances of 1 damage: 8x3=24 damage!</span></p><p><span>In case 'different' on the pipes actually means 'with a different name', the max is 21, using the drums instead of the pipes at the last step. Note that you need the harp to prevent wasting a bell accompany on using an extra power, instead of the 1 sonic damage.</span></p><p><span>Convoluted, but technically it's possible :D Looking at the AA this way has given me a clearer picture of which instruments are the most useful though. For example, the harp, the pipes and the horn aren't that great usually. Melody performs don't benefit that much from using two of them, and harmony accompanies aren't that great either.&nbsp;</span></p><p>&nbsp;</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:13:02.838Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6348,
+        "topic_slug": "power-creep-or-just-better-refined",
+        "display_username": "LCinn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 401,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 39314,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2012-10-13T14:57:58.000Z",
+        "cooked": "<p>While I didn't go all the way through your play there, you might be shorting yourself with that play, specifically with the \"Alacritous Subdominant.\"&nbsp;The accompany states to use a power now, and if you do, to destroy that card.&nbsp; However, you don't destroy the card until you've finished using your power. So, if you use the accompany&nbsp;of Alacritous Subdominant to activate a power which will allow the use of an accompany of a Harmony card, the former Alacritous Subdominant is still in play (it doesn't get destroyed until you've finished using your power), and can be used as many times as you can untl you've run out of powers to use (at which point it gets destroyed).&nbsp; I'm not really sure if having some more instruments in play will actually allow Alacritous Subdominant to actually be used more than the two times you've mentioned, or if it will even allow further damage, but I just wanted to bring that point up (also, in your case, you can get away with only sacrificing one of your Alacritous Subdominant).</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:13:02.925Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6348,
+        "topic_slug": "power-creep-or-just-better-refined",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 39315,
+        "name": "LCinn",
+        "username": "LCinn",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lcinn/{size}/2659_2.png",
+        "created_at": "2012-10-13T15:48:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"TheJayMann\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/thejaymann/48/2261_2.png\" class=\"avatar\"> TheJayMann:</div>\n<blockquote>\n<p>While I didn't go all the way through your play there, you might be shorting yourself with that play, specifically with the \"Alacritous Subdominant.\"&nbsp;The accompany states to use a power now, and if you do, to destroy that card.&nbsp; However, you don't destroy the card until you've finished using your power. So, if you use the accompany&nbsp;of Alacritous Subdominant to activate a power which will allow the use of an accompany of a Harmony card, the former Alacritous Subdominant is still in play (it doesn't get destroyed until you've finished using your power), and can be used as many times as you can untl you've run out of powers to use (at which point it gets destroyed).&nbsp; I'm not really sure if having some more instruments in play will actually allow Alacritous Subdominant to actually be used more than the two times you've mentioned, or if it will even allow further damage, but I just wanted to bring that point up (also, in your case, you can get away with only sacrificing one of your Alacritous Subdominant).</p>\n</blockquote>\n</aside>\n<p>Wow… really? If I recall correctly, that should change things. Let me just get my cards and notes… &lt;disappears in a fort built of Argent Adept diagrams, graphs and flowcharts&gt;</p>\n<p>EDIT: OK, we're getting off topic here, and I really should start an AA thread, but that means the max damage is 30, actually! You need all 6 instruments, but as long as you put all uses of&nbsp; Alacritous Subdominant in the same `tree', you only need one of those, so you wouldn't even need more cards total <img src=\"https://forums.greaterthangames.com/images/emoji/apple/smiley.png?v=12\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:13:03.009Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6348,
+        "topic_slug": "power-creep-or-just-better-refined",
+        "display_username": "LCinn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 401,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 6348
+}

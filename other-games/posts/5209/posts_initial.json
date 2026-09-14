@@ -1,0 +1,259 @@
+{
+  "posts": [
+    {
+      "id": 5211,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2011-09-22T17:33:37.000Z",
+      "cooked": "<p>There are some cards that say to play an effect on the hero with the highest number of Ongoing cards in play, or the highest hp, etc.  What do you do when it’s a tie, as in multiple players all have the same number of Ongoing cards, or they have the exact same hp?  We’ve been splitting the damage among all the players who are tied, but it occurs to me that that’s an exploitable thing – if you know some devastating effect happens to the person with the most Ongoing cards on the table but the effect will be shared amongst players in the case of a tie, then the players can conspire to make sure they’ve always got the same number of Ongoing cards out so as to share the damage to lessen the devastation.</p>\n<p>In a related case, I’m assuming that if a card says its effect happens to the hero with the most number of Ongoing cards in play and no one has any Ongoing cards in play, then the effect doesn’t happen at all.  Can you confirm this?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:34:47.921Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5209,
+      "topic_slug": "how-to-handle-ties",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "There are some cards that say to play an effect on the hero with the highest number of Ongoing cards in play, or the highest hp, etc.  What do you do when it's a tie, as in multiple players all have the same number of Ongoing cards, or they have the exact same hp?  We've been splitting the damage among all the players who are tied, but it occurs to me that that's an exploitable thing -- if you know some devastating effect happens to the person with the most Ongoing cards on the table but the effect will be shared amongst players in the case of a tie, then the players can conspire to make sure they've always got the same number of Ongoing cards out so as to share the damage to lessen the devastation.\n\nIn a related case, I'm assuming that if a card says its effect happens to the hero with the most number of Ongoing cards in play and no one has any Ongoing cards in play, then the effect doesn't happen at all.  Can you confirm this?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22863,
+      "name": "The Conscience",
+      "username": "The_Conscience",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/58956e/{size}.png",
+      "created_at": "2011-09-22T17:59:35.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Spiff&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Spiff\"\":</div>\n<blockquote>\n<p>There are some cards that say to play an effect on the hero with the highest number of Ongoing cards in play, or the highest hp, etc.  What do you do when it’s a tie, as in multiple players all have the same number of Ongoing cards, or they have the exact same hp?  We’ve been splitting the damage among all the players who are tied, but it occurs to me that that’s an exploitable thing – if you know some devastating effect happens to the person with the most Ongoing cards on the table but the effect will be shared amongst players in the case of a tie, then the players can conspire to make sure they’ve always got the same number of Ongoing cards out so as to share the damage to lessen the devastation.</p>\n<p>In a related case, I’m assuming that if a card says its effect happens to the hero with the most number of Ongoing cards in play and no one has any Ongoing cards in play, then the effect doesn’t happen at all.  Can you confirm this?</p>\n</blockquote>\n</aside>\n<p>In the case of a tie it should go to the card that was played first or in this case to the Hero that was played first. For example if you had 2 heroes with the same number of Items and the most Items in play and an effect targeted the hero with the most Items in play you would target the Hero that was first in the play order.</p>\n<p>Regarding your second issue, if you cannot fully resolve an effect then the effect does not resolve. So if an effect removes all Items from play and no hero had any Items in play the card would have no effect.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:53.895Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5209,
+      "topic_slug": "how-to-handle-ties",
+      "display_username": "The Conscience",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"Spiff\"\"]\n\nThere are some cards that say to play an effect on the hero with the highest number of Ongoing cards in play, or the highest hp, etc.  What do you do when it's a tie, as in multiple players all have the same number of Ongoing cards, or they have the exact same hp?  We've been splitting the damage among all the players who are tied, but it occurs to me that that's an exploitable thing -- if you know some devastating effect happens to the person with the most Ongoing cards on the table but the effect will be shared amongst players in the case of a tie, then the players can conspire to make sure they've always got the same number of Ongoing cards out so as to share the damage to lessen the devastation.\n\nIn a related case, I'm assuming that if a card says its effect happens to the hero with the most number of Ongoing cards in play and no one has any Ongoing cards in play, then the effect doesn't happen at all.  Can you confirm this?\n\n[/quote]\n\n\nIn the case of a tie it should go to the card that was played first or in this case to the Hero that was played first. For example if you had 2 heroes with the same number of Items and the most Items in play and an effect targeted the hero with the most Items in play you would target the Hero that was first in the play order.\n\nRegarding your second issue, if you cannot fully resolve an effect then the effect does not resolve. So if an effect removes all Items from play and no hero had any Items in play the card would have no effect.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 45,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 22864,
+      "name": "WriterRyan",
+      "username": "WriterRyan",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/writerryan/{size}/2710_2.png",
+      "created_at": "2011-09-22T18:04:07.000Z",
+      "cooked": "<p>[quote=““The Conscience””]</p>\n<aside class=\"quote group-playtesters\" data-username=\"Spiff\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/spiff/48/1865_2.png\" class=\"avatar\"> Spiff:</div>\n<blockquote>\n<p>There are some cards that say to play an effect on the hero with the highest number of Ongoing cards in play, or the highest hp, etc.  What do you do when it’s a tie, as in multiple players all have the same number of Ongoing cards, or they have the exact same hp?  We’ve been splitting the damage among all the players who are tied, but it occurs to me that that’s an exploitable thing – if you know some devastating effect happens to the person with the most Ongoing cards on the table but the effect will be shared amongst players in the case of a tie, then the players can conspire to make sure they’ve always got the same number of Ongoing cards out so as to share the damage to lessen the devastation.</p>\n<p>In a related case, I’m assuming that if a card says its effect happens to the hero with the most number of Ongoing cards in play and no one has any Ongoing cards in play, then the effect doesn’t happen at all.  Can you confirm this?</p>\n</blockquote>\n</aside>\n<p>In the case of a tie it should go to the card that was played first or in this case to the Hero that was played first. For example if you had 2 heroes with the same number of Items and the most Items in play and an effect targeted the hero with the most Items in play you would target the Hero that was first in the play order.</p>\n<p>[/quote]</p>\n<p>Actually, in the case of a tie, it is the players’ choice. Note that damage cannot be split, so the players must choose a single target.</p>\n<p>[quote=““The Conscience””]</p>\n<p>Regarding your second issue, if you cannot fully resolve an effect then the effect does not resolve. So if an effect removes all Items from play and no hero had any Items in play the card would have no effect.</p>\n<p>[/quote]</p>\n<p>Regarding the second issue, it depends on what the effect is. If, say, a card destroys all equipment and ongoing cards in play and there are none actually in play, then nothing actually happens. However, if an attack targets the hero with the most ongoing cards and none are in play, it is considered a tie as well. As with ties regarding hit points, this would then be the players’ choice.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:56:53.988Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5209,
+      "topic_slug": "how-to-handle-ties",
+      "display_username": "WriterRyan",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"The Conscience\"\"]\n\n[quote=\"Spiff\"]\nThere are some cards that say to play an effect on the hero with the highest number of Ongoing cards in play, or the highest hp, etc.  What do you do when it's a tie, as in multiple players all have the same number of Ongoing cards, or they have the exact same hp?  We've been splitting the damage among all the players who are tied, but it occurs to me that that's an exploitable thing -- if you know some devastating effect happens to the person with the most Ongoing cards on the table but the effect will be shared amongst players in the case of a tie, then the players can conspire to make sure they've always got the same number of Ongoing cards out so as to share the damage to lessen the devastation.\n\nIn a related case, I'm assuming that if a card says its effect happens to the hero with the most number of Ongoing cards in play and no one has any Ongoing cards in play, then the effect doesn't happen at all.  Can you confirm this?\n\n[/quote]\n\n\nIn the case of a tie it should go to the card that was played first or in this case to the Hero that was played first. For example if you had 2 heroes with the same number of Items and the most Items in play and an effect targeted the hero with the most Items in play you would target the Hero that was first in the play order.\n\n[/quote]\n\nActually, in the case of a tie, it is the players' choice. Note that damage cannot be split, so the players must choose a single target.\n\n\n[quote=\"\"The Conscience\"\"]\n\nRegarding your second issue, if you cannot fully resolve an effect then the effect does not resolve. So if an effect removes all Items from play and no hero had any Items in play the card would have no effect.\n\n[/quote]\n\n\nRegarding the second issue, it depends on what the effect is. If, say, a card destroys all equipment and ongoing cards in play and there are none actually in play, then nothing actually happens. However, if an attack targets the hero with the most ongoing cards and none are in play, it is considered a tie as well. As with ties regarding hit points, this would then be the players' choice.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-07-31",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

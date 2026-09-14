@@ -1,0 +1,1279 @@
+{
+  "posts": [
+    {
+      "id": 10350,
+      "name": "LevelUpLeo",
+      "username": "LevelUpLeo",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/levelupleo/{size}/2394_2.png",
+      "created_at": "2014-05-19T04:27:32.000Z",
+      "cooked": "<p>A question came up while testing out cards from Shattered Timeline. I was playing as Omnitron-X and the envrionement was The Block. Char was out and had taken 12-13 damage. I had \"Elemental Excochassis\" and \"Reactive Plating Subroutine\" out, so whenever Omnitron-X was dealt fire damage (reduced by 2), he could deal 1 target 2 damage of that type.</p><p>Char reads \"At the start of the environment turn, this card deals each non-inmate target 2 fire damage and 2 toxic damage\"</p><p>(From another forum, I've been told that 0 is still a numerical amount of damage dealt so \"Reactive Plating Subroutine\" still activates even though it reduces Char's fire damage to 0, but if I'm wrong, feel free to let me know).</p><p>As Char deals the fire damage, I have the option of of dealing him back 2 fire damage. Would this reactive damage take place before the \"and 2 toxic damage\", meaning Char would be KO'd and unable to deliver it, or do both the 2 fire damage and 2 toxic damage occure simultaniously?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:41:22.627Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 20.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "LevelUpLeo",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>A question came up while testing out cards from Shattered Timeline. I was playing as Omnitron-X and the envrionement was The Block. Char was out and had taken 12-13 damage. I had &quot;Elemental Excochassis&quot; and &quot;Reactive Plating Subroutine&quot; out, so whenever Omnitron-X was dealt fire damage (reduced by 2), he could deal 1 target 2 damage of that type.</p><p>Char reads &quot;At the start of the environment turn, this card deals each non-inmate target 2 fire damage and 2 toxic damage&quot;</p><p>(From another forum, I&#39;ve been told that 0 is still a numerical amount of damage dealt so &quot;Reactive Plating Subroutine&quot; still activates even though it reduces Char&#39;s fire damage to 0, but if I&#39;m wrong, feel free to let me know).</p><p>As Char deals the fire damage, I have the option of of dealing him back 2 fire damage. Would this reactive damage take place before the &quot;and 2 toxic damage&quot;, meaning Char would be KO&#39;d and unable to deliver it, or do both the 2 fire damage and 2 toxic damage occure simultaniously?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8178,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-04-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103986,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-05-19T04:31:00.000Z",
+      "cooked": "<p>Damage dealt means lose of hp. If no hp is lost, no damage was dealt. Therefore, if the damage was reduced to 0, no damage was dealt, and the card wouldn’t activate.</p>\n<p>Yes, Char would be KOed and not deal the other damage. Nothing in SotM is simultaneous. After the initial damage, retaliation damage kicks in before the second instance of damage.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:15.451Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Damage dealt means lose of hp. If no hp is lost, no damage was dealt. Therefore, if the damage was reduced to 0, no damage was dealt, and the card wouldn't activate.\r\n\r\nYes, Char would be KOed and not deal the other damage. Nothing in SotM is simultaneous. After the initial damage, retaliation damage kicks in before the second instance of damage.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103987,
+      "name": "LevelUpLeo",
+      "username": "LevelUpLeo",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/levelupleo/{size}/2394_2.png",
+      "created_at": "2014-05-19T04:36:38.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Damage dealt means lose of hp. If no hp is lost, no damage was dealt. Therefore, if the damage was reduced to 0, no damage was dealt, and the card wouldn't activate.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Man, that's even in Spiff's rules and clarifictions now that I look it up. How did I miss that?</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:15.529Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "LevelUpLeo",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\nDamage dealt means lose of hp. If no hp is lost, no damage was dealt. Therefore, if the damage was reduced to 0, no damage was dealt, and the card wouldn&#39;t activate.\n\n[/quote]\n\n&nbsp;\n\nMan, that&#39;s even in Spiff&#39;s rules and clarifictions now that I look it up. How did I miss that?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8178,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-04-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103988,
+      "name": "Theta_Sigma",
+      "username": "Theta_Sigma",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/theta_sigma/{size}/1929_2.png",
+      "created_at": "2014-05-19T08:15:15.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>&nbsp;</p>\n<p>Yes, Char would be KOed and not deal the other damage. Nothing in SotM is simultaneous. After the initial damage, retaliation damage kicks in before the second instance of damage.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Because nothing is simulatenous, you can also choose the order targets are hit. If there is one who can retaliate, they can be hit first, the retaliation KOing Char and all of the damage stops there, so the rest of the heroes are not hit by even the first instance of damage.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:15.599Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "Theta_Sigma",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\n&nbsp;\n\nYes, Char would be KOed and not deal the other damage. Nothing in SotM is simultaneous. After the initial damage, retaliation damage kicks in before the second instance of damage.\n\n[/quote]\n\n&nbsp;\n\nBecause nothing is simulatenous, you can also choose the order targets are hit. If there is one who can retaliate, they can be hit first, the retaliation KOing Char and all of the damage stops there, so the rest of the heroes are not hit by even the first instance of damage.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4792,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-06-16",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103989,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2014-05-19T10:51:45.000Z",
+      "cooked": "<p>But…it's Char. He deals two fire and two toxic. So say he attacks Omni-10 first - that's two fire damage, blocked by the Plating so no retaliation. Then two toxic, which is neither blocked nor activates the RPS because toxic damage isn't covered by the Elemental Exochassis - for that, you'd need the Ablative Coating. If Char was buffed, however (Imprisoned Rogues do this), then the fire damage <span class=\"bbcode-i\">would</span> be enough as now a point would be getting through to Omni-10, allowing the RPS to go off and kill him before he has a chance to deal his toxic damage.</p>\n<p>As noted, damage only counts as \"dealt\" if someone's hp went down. If Char attacks Omni-10 but all of it is blocked, Omni-10's hp hasn't gone down so he hasn't taken any damage.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:15.672Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "But...it&#39;s Char. He deals two fire and two toxic. So say he attacks Omni-10 first - that&#39;s two fire damage, blocked by the Plating so no retaliation. Then two toxic, which is neither blocked nor activates the RPS because toxic damage isn&#39;t covered by the Elemental Exochassis - for that, you&#39;d need the Ablative Coating. If Char was buffed, however (Imprisoned Rogues do this), then the fire damage [i]would[/i] be enough as now a point would be getting through to Omni-10, allowing the RPS to go off and kill him before he has a chance to deal his toxic damage.\n\nAs noted, damage only counts as &quot;dealt&quot; if someone&#39;s hp went down. If Char attacks Omni-10 but all of it is blocked, Omni-10&#39;s hp hasn&#39;t gone down so he hasn&#39;t taken any damage.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103990,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2014-05-19T11:20:19.000Z",
+      "cooked": "<p>But put, say, an Imprisoned Rogue in play to boost Char's damage, and then 1 fire damage gets through the plating, OX retaliates, Char goes down, everyone is happy :D</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:15.748Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>But put, say, an Imprisoned Rogue in play to boost Char&#39;s damage, and then 1 fire damage gets through the plating, OX retaliates, Char goes down, everyone is happy :D</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103991,
+      "name": "LevelUpLeo",
+      "username": "LevelUpLeo",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/levelupleo/{size}/2394_2.png",
+      "created_at": "2014-05-19T11:33:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Theta_Sigma\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/theta_sigma/48/1929_2.png\" class=\"avatar\"> Theta_Sigma:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Pydro wrote:</b><br><blockquote>&nbsp;Yes, Char would be KOed and not deal the other damage. Nothing in SotM is simultaneous. After the initial damage, retaliation damage kicks in before the second instance of damage.\n&nbsp;\n</blockquote></div>\n&nbsp;Because nothing is simulatenous, you can also choose the order targets are hit. If there is one who can retaliate, they can be hit first, the retaliation KOing Char and all of the damage stops there, so the rest of the heroes are not hit by even the first instance of damage.\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>I always assumed that, like how everything needs to be resolved by the order that it came in, damage is dealt to whichever card was placed first/turn order for heroes.</p>\n<p>&nbsp;</p>\n<p>Does this also work for heroes powers? Like, if I use Tempest's Squall to destroy Baron Blade's Mobile Defense Platform, he could then deal 1 damage to Baron Blade next as he is no longer immune to damage?</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:15.820Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "LevelUpLeo",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Theta_Sigma\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>Pydro wrote:</b><br /><blockquote class=\"bb-quote-body\">&nbsp;Yes, Char would be KOed and not deal the other damage. Nothing in SotM is simultaneous. After the initial damage, retaliation damage kicks in before the second instance of damage.\n&nbsp;\n</blockquote></div>\n&nbsp;Because nothing is simulatenous, you can also choose the order targets are hit. If there is one who can retaliate, they can be hit first, the retaliation KOing Char and all of the damage stops there, so the rest of the heroes are not hit by even the first instance of damage.\n\n[/quote]\n\n&nbsp;\n\nI always assumed that, like how everything needs to be resolved by the order that it came in, damage is dealt to whichever card was placed first/turn order for heroes.\n\n&nbsp;\n\nDoes this also work for heroes powers? Like, if I use Tempest&#39;s Squall to destroy Baron Blade&#39;s Mobile Defense Platform, he could then deal 1 damage to Baron Blade next as he is no longer immune to damage?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8178,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-04-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103992,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2014-05-19T11:50:16.000Z",
+      "cooked": "<p>Indeed! Baron Blade will fall foul of your Squall</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:15.893Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Indeed! Baron Blade will fall foul of your Squall</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103993,
+      "name": "LevelUpLeo",
+      "username": "LevelUpLeo",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/levelupleo/{size}/2394_2.png",
+      "created_at": "2014-05-19T11:51:46.000Z",
+      "cooked": "<p>Actually, on this note, can we chose when BOTH of Char's damages are dealt? For example, if I instead had Ablative Coating as my plating )which reduces toxic damage), could (a beefed up) Char deal both the Fire damage then the Toxic damage to Omni-X in order to be able to deal him back 2 damage and kill him before he can attach the others, or does every instant of Char dealing fire damage need to be resolved before I can move on to the Toxic damage?</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:15.971Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "LevelUpLeo",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Actually, on this note, can we chose when BOTH of Char&#39;s damages are dealt? For example, if I instead had Ablative Coating as my plating )which reduces toxic damage), could (a beefed up) Char deal both the Fire damage then the Toxic damage to Omni-X in order to be able to deal him back 2 damage and kill him before he can attach the others, or does every instant of Char dealing fire damage need to be resolved before I can move on to the Toxic damage?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8178,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-04-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103994,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2014-05-19T12:13:59.000Z",
+      "cooked": "<p>When dealing multiple damage from a single source do this</p><ol>\n<li>Pick a target</li>\n<li>Inflict the first instance of damage</li>\n<li>Check for triggers (incap, reactive plating, things coming back from the trash etc)</li>\n<li>Repeat steps 2&amp;3 for each instance of damage</li>\n<li>Pick the next target</li>\n<li>Repeat steps 2 through 5 for each target the card/power says you can hit*</li>\n<li>Smile as all your foes fall before you.</li>\n</ol><p>&nbsp;</p><p>*If something says hit \"all targets\" (or variations thereof) and new targets enter play as a result of your damage (e.g. zombies coming back from killing Cultists) those targets are part of 'all' even though they weren't there when you started dealing damage.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:16.031Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>When dealing multiple damage from a single source do this</p><ol><li>Pick a target</li><li>Inflict the first instance of damage</li><li>Check for triggers (incap, reactive plating, things coming back from the trash etc)</li><li>Repeat steps 2&amp;3 for each instance of damage</li><li>Pick the next target</li><li style=\"font-size: 13px;\">Repeat steps 2 through 5 for each target the card/power says you can hit*</li><li style=\"font-size: 13px;\">Smile as all your foes fall before you.</li></ol><p style=\"font-size: 13px;\">&nbsp;</p><p style=\"font-size: 13px;\">*If something says hit &quot;all targets&quot; (or variations thereof) and new targets enter play as a result of your damage (e.g. zombies coming back from killing Cultists) those targets are part of &#39;all&#39; even though they weren&#39;t there when you started dealing damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103995,
+      "name": "LevelUpLeo",
+      "username": "LevelUpLeo",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/levelupleo/{size}/2394_2.png",
+      "created_at": "2014-05-19T12:41:00.000Z",
+      "cooked": "<p>So just want to confirm that I understand correctly:</p><p>&nbsp;</p><p>Environment turn (the Block) and Char is in play with 13 damage and an Imprisoned Rogue is increasing his damage. Omnitron-X is in play with Ablative Coating and Reactive Plating Subroutine.</p><p>At the start of the environment turn, we choose which target gets hit first. We choose Omnitron-X.</p><p>Omnitron-X gets 3 fire damage. No triggers.</p><p>Omnitron-X gets 1 toxic damage. R.P.S. activates and Omnitron-X deals Char 2 damage.</p><p>Char is KO'd and does not deal damage to any other target in play.</p><p>&nbsp;</p><p>Is this a correct scenario?</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:16.101Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "LevelUpLeo",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>So just want to confirm that I understand correctly:</p><p>&nbsp;</p><p>Environment turn (the Block) and Char is in play with 13 damage and an Imprisoned Rogue is increasing his damage. Omnitron-X is in play with Ablative Coating and Reactive Plating Subroutine.</p><p>At the start of the environment turn, we choose which target gets hit first. We choose Omnitron-X.</p><p>Omnitron-X gets 3 fire damage. No triggers.</p><p>Omnitron-X gets 1 toxic damage. R.P.S. activates and Omnitron-X deals Char 2 damage.</p><p>Char is KO&#39;d and does not deal damage to any other target in play.</p><p>&nbsp;</p><p>Is this a correct scenario?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8178,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-04-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103996,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2014-05-19T12:42:36.000Z",
+      "cooked": "<p>With regard to stuff happening in order, this only applies to stuff which occurs at a specified time (start/end of turn). So all of Omni-10's components will activate in the order in which you played them because they all activate at the start of his turn. Villains and environments obviously have many more start/end-of-turn actions to perform than heroes, so this will come up more for those decks. If a card from one deck affects another, you still go in play order. So say Apostate plays an Apocalypse, activates at start of the environment turn, when that point comes you first check any environment cards which have a start-of-turn action because they'll have entered play before the Apocalypse did. So you activate those, <span class=\"bbcode-i\">then</span> the Apocalypse nukes everything.</p>\n<p>With regard to applying effects to multiple targets, the order doesn't matter. You don't have to attack stuff in the order it entered play. This is worth noting against someone like Voss - say he has a Gene-Bound Guard out (gives all villain targets one point of soak) as well as a one other minions and you're Tempest and you play Chain Lightning. This hits three targets - the first for four damage, the second for three, and the third for two. So you hit the Guard first, and the four points is enough to get through the soak and kill it, meaning the other minion now has no soak. So you choose it as your second target (assuming it isn't a lightning minion), hitting it for three and killing it. Then you choose Voss as your third target, who's now lost all his soak (his last minion just got killed) <span class=\"bbcode-i\">and</span> gets hit for an extra point thanks to the Nemesis bonus, so takes three points instead of two (or five if you have your Shackles) ;). And then you still have your Power phase in which to hit him so more if you so wish.</p>\n<p>As mentioned, multi-hit stuff works well against Gloomy too, as you can kill both a Cultist and the resultant Zombie during the same attack if it's a multi-target one, because a target entering play during a multi-hit attack isn't automatically exempt from that attack.</p>\n<p>Anything which attacks stuff twice (eg Char, the Cursed Acolyte) will attempt to deal <span class=\"bbcode-i\">all</span> its damage, in the order listed on the card, to one target before moving on to the next one.</p>\n<p>You can find plenty of ways to exploit the order in which stuff gets hit. We had a good game once against Gloomy which involved Ra and Expatriette (and <span class=\"bbcode-i\">possibly</span> Legacy). Expatriette was buffed from somewhere (either Ra had Imbued Fire out or Legacy was Galvanising) and had Hairtrigger Reflexes out. Ra had his Flame Barrier. A Cultist would enter play and immediately get damaged by Expatriette. Then the Cultist would attempt to attack someone - in the case of the Cursed Acolyte, he attacks all hero targets, so we had him attack Ra first. I think Ra had Flesh of the Sun God out so the fire damage did nothing, but then the infernal damage hit, causing Ra's Flame Barrier to go off, finishing off the Acolyte and bringing him back as a Zombie…who promptly got insta-killed by Expatriette. Yeah, Gloomy didn't do too well that game ;).</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:16.174Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "With regard to stuff happening in order, this only applies to stuff which occurs at a specified time (start/end of turn). So all of Omni-10&#39;s components will activate in the order in which you played them because they all activate at the start of his turn. Villains and environments obviously have many more start/end-of-turn actions to perform than heroes, so this will come up more for those decks. If a card from one deck affects another, you still go in play order. So say Apostate plays an Apocalypse, activates at start of the environment turn, when that point comes you first check any environment cards which have a start-of-turn action because they&#39;ll have entered play before the Apocalypse did. So you activate those, [i]then[/i] the Apocalypse nukes everything.\n\nWith regard to applying effects to multiple targets, the order doesn&#39;t matter. You don&#39;t have to attack stuff in the order it entered play. This is worth noting against someone like Voss - say he has a Gene-Bound Guard out (gives all villain targets one point of soak) as well as a one other minions and you&#39;re Tempest and you play Chain Lightning. This hits three targets - the first for four damage, the second for three, and the third for two. So you hit the Guard first, and the four points is enough to get through the soak and kill it, meaning the other minion now has no soak. So you choose it as your second target (assuming it isn&#39;t a lightning minion), hitting it for three and killing it. Then you choose Voss as your third target, who&#39;s now lost all his soak (his last minion just got killed) [i]and[/i] gets hit for an extra point thanks to the Nemesis bonus, so takes three points instead of two (or five if you have your Shackles) ;). And then you still have your Power phase in which to hit him so more if you so wish.\n\nAs mentioned, multi-hit stuff works well against Gloomy too, as you can kill both a Cultist and the resultant Zombie during the same attack if it&#39;s a multi-target one, because a target entering play during a multi-hit attack isn&#39;t automatically exempt from that attack.\n\nAnything which attacks stuff twice (eg Char, the Cursed Acolyte) will attempt to deal [i]all[/i] its damage, in the order listed on the card, to one target before moving on to the next one.\n\nYou can find plenty of ways to exploit the order in which stuff gets hit. We had a good game once against Gloomy which involved Ra and Expatriette (and [i]possibly[/i] Legacy). Expatriette was buffed from somewhere (either Ra had Imbued Fire out or Legacy was Galvanising) and had Hairtrigger Reflexes out. Ra had his Flame Barrier. A Cultist would enter play and immediately get damaged by Expatriette. Then the Cultist would attempt to attack someone - in the case of the Cursed Acolyte, he attacks all hero targets, so we had him attack Ra first. I think Ra had Flesh of the Sun God out so the fire damage did nothing, but then the infernal damage hit, causing Ra&#39;s Flame Barrier to go off, finishing off the Acolyte and bringing him back as a Zombie...who promptly got insta-killed by Expatriette. Yeah, Gloomy didn&#39;t do too well that game ;).\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103997,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2014-05-19T12:47:00.000Z",
+      "cooked": "<p>Ooh I see we simul-posted. Let me answer that one then - yes, basically, that is correct :). Note that after that has resolved, Omni-10 has taken a total of four damage that turn. If he takes any more before the environment turn is over, any components he has out will be destroyed. But unless he is either the highest or the lowest in hp, that shouldn't happen because I don't think there are any other targets in the Block who go for everyone.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:16.244Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Ooh I see we simul-posted. Let me answer that one then - yes, basically, that is correct :). Note that after that has resolved, Omni-10 has taken a total of four damage that turn. If he takes any more before the environment turn is over, any components he has out will be destroyed. But unless he is either the highest or the lowest in hp, that shouldn&#39;t happen because I don&#39;t think there are any other targets in the Block who go for everyone.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103998,
+      "name": "LevelUpLeo",
+      "username": "LevelUpLeo",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/levelupleo/{size}/2394_2.png",
+      "created_at": "2014-05-19T12:52:09.000Z",
+      "cooked": "<p>Awesome, I think I have most of my questions about this situation that popped up yesterday answered!</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:16.299Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "LevelUpLeo",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Awesome, I think I have most of my questions about this situation that popped up yesterday answered!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8178,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-04-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 103999,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2014-05-19T12:56:56.000Z",
+      "cooked": "<p>Cool :). Let us know if you have any more!</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:33:16.375Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10348,
+      "topic_slug": "multiple-damage-type-and-timing",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Cool :). Let us know if you have any more!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

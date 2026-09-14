@@ -1,0 +1,779 @@
+{
+  "posts": [
+    {
+      "id": 5596,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2012-04-10T23:35:20.000Z",
+      "cooked": "<p>Not the infinite loop combo alluded to in other questions but a pretty devastating one all the same.</p>\n<p>As I understand it (and I’m perfectly happy to be proved very wrong) the Demoralization/Darken the Sky combo doesn’t work because Demoralization isn’t a triggered effect, it is evaluated at the end of each action.<br>\nHairtrigger Reflexes has a trigger and is thus constantly evaluated, twigging off as soon as the trigger condition is met (a villain card entering play).<br>\nDarken the Sky doesn’t pull all fowl cards out of the trash first and then play then one at a time from the villains (temporary, entirely fictional) ‘hand’, it pulls and plays the fowls cards one at a time until the trash is empty of fowl cards.</p>\n<p>So if Darken the Sky is played with Hairtrigger Reflexes in play does this kill all the heroes? (or, more accurately, everyone who has less HP than Expatriette, and herself)</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:35:17.622Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 5,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 25.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Not the infinite loop combo alluded to in other questions but a pretty devastating one all the same.\n\nAs I understand it (and I'm perfectly happy to be proved very wrong) the Demoralization/Darken the Sky combo doesn't work because Demoralization isn't a triggered effect, it is evaluated at the end of each action.\nHairtrigger Reflexes has a trigger and is thus constantly evaluated, twigging off as soon as the trigger condition is met (a villain card entering play).\nDarken the Sky doesn't pull all fowl cards out of the trash first and then play then one at a time from the villains (temporary, entirely fictional) 'hand', it pulls and plays the fowls cards one at a time until the trash is empty of fowl cards.\n\nSo if Darken the Sky is played with Hairtrigger Reflexes in play does this kill all the heroes? (or, more accurately, everyone who has less HP than Expatriette, and herself)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 27132,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2012-04-11T00:31:37.000Z",
+      "cooked": "<p>Really, this should have a similar effect to Demoralization.  The fowl not coming back a second time with to Demoralization would still apply to the fowl not coming back a second time with Hairtrigger Reflexes.</p>\n<p>Basically, the element present preventing the first case is also existant to prevent the second.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:01:05.990Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Really, this should have a similar effect to Demoralization.  The fowl not coming back a second time with to Demoralization would still apply to the fowl not coming back a second time with Hairtrigger Reflexes.\n\nBasically, the element present preventing the first case is also existant to prevent the second.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 27135,
+      "name": "broccoli",
+      "username": "broccoli",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/broccoli/{size}/1861_2.png",
+      "created_at": "2012-04-11T03:21:06.000Z",
+      "cooked": "<p>I agree with TheJayMann.  Despite how the card is actually written, the previous clarification regarding the Demoralization infinite loop seems to indicate that the intent is “Remove all Fowl from the Trash.  Put all the removed Fowl into play.” or something similar to avoid just such a situation.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:01:06.130Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "broccoli",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I agree with TheJayMann.  Despite how the card is actually written, the previous clarification regarding the Demoralization infinite loop seems to indicate that the intent is \"Remove all Fowl from the Trash.  Put all the removed Fowl into play.\" or something similar to avoid just such a situation.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 233,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 27136,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2012-04-11T07:31:18.000Z",
+      "cooked": "<p>That interpretation makes a lot of sense.<br>\nI only asked because the collected clarifications at <a href=\"http://www.spiffworld.com/\" rel=\"noopener nofollow ugc\">http://www.spiffworld.com/</a> talk about Demoralization not triggering, not the ‘correct way’ of reading Darken the Sky. Expatriette will now not be mocked for killing off half the team!</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:01:06.219Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.spiffworld.com/",
+          "internal": false,
+          "reflection": false,
+          "title": "Spiffworld",
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "That interpretation makes a lot of sense.\nI only asked because the collected clarifications at http://www.spiffworld.com/ talk about Demoralization not triggering, not the 'correct way' of reading Darken the Sky. Expatriette will now not be mocked for killing off half the team!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 27137,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2012-04-11T16:39:14.000Z",
+      "cooked": "<p>If we get an official confirmation here, or some kind of official overarching rules clarification for these types of situations, I’ll happily update the PDF.  I tend not to add clarifications when a question gets answered by non-SotM people, since that’s really just expressing an opinion, not issuing an actual clarification.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:01:06.293Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "If we get an official confirmation here, or some kind of official overarching rules clarification for these types of situations, I'll happily update the PDF.  I tend not to add clarifications when a question gets answered by non-SotM people, since that's really just expressing an opinion, not issuing an actual clarification.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 27139,
+      "name": "ketigid",
+      "username": "ketigid",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/k/9fc29f/{size}.png",
+      "created_at": "2012-04-21T06:01:22.000Z",
+      "cooked": "<p>A related question.</p>\n<p>How does Hair Trigger Reflex interact with normal Fowl cards during the villain Play a Card phase?</p>\n<p>For example, a Fowl card enters play. Going by order of cards rule, HTR was in play before the Fowl card, so it triggers first, dealing 1 dmg to that Fowl card. Fowl card gets destroyed. That Fowl card never triggered to play another villain card. Correct?</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:01:06.377Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "ketigid",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "A related question.\n\nHow does Hair Trigger Reflex interact with normal Fowl cards during the villain Play a Card phase?\n\nFor example, a Fowl card enters play. Going by order of cards rule, HTR was in play before the Fowl card, so it triggers first, dealing 1 dmg to that Fowl card. Fowl card gets destroyed. That Fowl card never triggered to play another villain card. Correct?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 227,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-10-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 27140,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2012-04-21T06:08:57.000Z",
+      "cooked": "<p>I personally have always played it to where the Fowl card will still cause another card to be drawn. But that is because I never thought of it the other way which does make sense as well, but I think it is my original way of thinking.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:01:06.463Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I personally have always played it to where the Fowl card will still cause another card to be drawn. But that is because I never thought of it the other way which does make sense as well, but I think it is my original way of thinking.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 27142,
+      "name": "foxtrot2620",
+      "username": "foxtrot2620",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/f/d9b06d/{size}.png",
+      "created_at": "2012-04-21T16:31:16.000Z",
+      "cooked": "<p>I believe Hairtrigger Reflexes is intended to react with Darken the Sky the same way Demoralize does. The way I see it, you completely resolve Darken the Sky first then you go through the stacked queue of instances for Hairtrigger Reflexes. Alternatively, the damage could be placed on the birds as the come into play but the actual “place defeated villain card in discard pile” phase doesn’t resolve until after Darken the Sky has finished.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:01:06.543Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "foxtrot2620",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I believe Hairtrigger Reflexes is intended to react with Darken the Sky the same way Demoralize does. The way I see it, you completely resolve Darken the Sky first then you go through the stacked queue of instances for Hairtrigger Reflexes. Alternatively, the damage could be placed on the birds as the come into play but the actual \"place defeated villain card in discard pile\" phase doesn't resolve until after Darken the Sky has finished.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 253,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-11-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 27143,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2013-04-10T19:46:55.000Z",
+      "cooked": "<p>I'm exhuming this thread to ask -- is there still an open question in regards to how Hairtrigger Reflexes reacts with Darken The Skies?</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:01:06.623Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5594,
+      "topic_slug": "hairtrigger-reflexes-and-darken-the-sky",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I&#39;m exhuming this thread to ask -- is there still an open question in regards to how Hairtrigger Reflexes reacts with Darken The Skies?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

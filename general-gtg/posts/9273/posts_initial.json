@@ -1,0 +1,1457 @@
+{
+  "posts": [
+    {
+      "id": 9275,
+      "name": "Envisioner",
+      "username": "Envisioner",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+      "created_at": "2014-01-17T05:11:36.000Z",
+      "cooked": "<p>I know there are some people on this forum who have a proficiency with MSPaint, so I thought I'd see if any of them could help me with a problem that's been driving me batty for a very long time.&nbsp; At least ten years and several operating systems ago, I was heavily involved in creating little pieces of largely geometric \"art\" in MSPaint, laboriously built from mathematically precise arrangements of individual pixels, copy-pasted and occasionally stretched to double or quadruple their original size, all in fashions tailored to the capabilities of the program.</p><p>Well, as far as I can tell, Paint as a program hasn't changed at all in the intervening decade-plus, but modern computers have transitioned in large to the use of JPG, GIF, TIFF, and PNG files.&nbsp; Today, for the first time in quite some while, I felt compelled to create one of my bitmaps (Paint files)...it has NOT been ten years, however, because at least once, not more than a couple years ago, I remember trying to recapture these past glories of mine, and made a disastrous discovery.&nbsp; It seemed that all my old files had become somehow corrupted, so that what was previously a razor-straight black line, one pixel wide, across a field of virgin whiteness, was now actually a black line surrounded by a murky gray fog of increasingly pale shades of off-white, pixels of these various tinctures being scattered about randomly.&nbsp; Similar corruption afflicted everything I'd drawn, and eventually I was able to develop a vague sense that somehow, the advance of technology had caused this data destruction.&nbsp; That was as far as I could figure any of it out.</p><p>Well today, as I went to save my new file, I noticed a box that I generally ignore in the Save File dialog, and realized that it might play a role in my issues.&nbsp; It allowed me to save my bitmap as \"16-bit color\", \"256 color\", \"24-bit color\", or other various options...and it also offered the option to save as JPG, GIF, TIFF or PNG.&nbsp; Remembering the issues I've had before, and wanting to try and preserve at least one version of the file intact this time, I decided to try saving <em>all</em> of the versions (except for Monochrome, since there wouldn't be much point to that one, as the work included colors).&nbsp; But when I tried out .JPG, <em>the moment I hit save</em>, my picture went all blurry.&nbsp; I quickly hit \"undo\", and the damage was reversed - <em>but this did NOT undo the save</em>, it instead undid the final edit I made to the file <em>before</em> saving.&nbsp; I then tried .GIF, and again, the moment I saved, the image changed, this time by adding a \"dotted line\" effect to the part of the picture which was colored light gray or silver (every second pixel in either direction changed to a darker gray).&nbsp; Again, I hit Undo, and the image went back the way it was, as a coincidental side effect of my Undoing the previous edit, without affecting the save file I'd created.&nbsp; I have now verified that the files are thusly affected.</p><p>So, my conclusion/conjecture is this: the old files of mine are corrupted because, in the course of some version \"upgrade\", the computer decided they were more sophisticated than they were, and applied some sort of \"filter\" to them of the sort that it applies to JPEGs, even though they hadn't actually become JPEGs.&nbsp; I would dearly love to be able to reverse this, putting them back to the pixel-perfect condition they were created in, but I suspect this is impossible (save by absurdly laborious every-single-pixel-by-hand correction, which far outstripped the ambition of even my younger, less having-things-to-do self, let alone his old and tired descendant called me).&nbsp; Once entropy creeps in, it generally can't be ondone, I assume.&nbsp; Even so, I would like to understand the problem, whether or not I can fix it.&nbsp; So, can someone provide me with more information on what exactly I fell victim to here?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:40:00.906Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 20.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Envisioner",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I know there are some people on this forum who have a proficiency with MSPaint, so I thought I&#39;d see if any of them could help me with a problem that&#39;s been driving me batty for a very long time.&nbsp; At least ten years and several operating systems ago, I was heavily involved in creating little pieces of largely geometric &quot;art&quot; in MSPaint, laboriously built from mathematically precise arrangements of individual pixels, copy-pasted and occasionally stretched to double or quadruple their original size, all in fashions tailored to the capabilities of the program.</p><p>Well, as far as I can tell, Paint as a program hasn&#39;t changed at all in the intervening decade-plus, but modern computers have transitioned in large to the use of JPG, GIF, TIFF, and PNG files.&nbsp; Today, for the first time in quite some while, I felt compelled to create one of my bitmaps (Paint files)...it has NOT been ten years, however, because at least once, not more than a couple years ago, I remember trying to recapture these past glories of mine, and made a disastrous discovery.&nbsp; It seemed that all my old files had become somehow corrupted, so that what was previously a razor-straight black line, one pixel wide, across a field of virgin whiteness, was now actually a black line surrounded by a murky gray fog of increasingly pale shades of off-white, pixels of these various tinctures being scattered about randomly.&nbsp; Similar corruption afflicted everything I&#39;d drawn, and eventually I was able to develop a vague sense that somehow, the advance of technology had caused this data destruction.&nbsp; That was as far as I could figure any of it out.</p><p>Well today, as I went to save my new file, I noticed a box that I generally ignore in the Save File dialog, and realized that it might play a role in my issues.&nbsp; It allowed me to save my bitmap as &quot;16-bit color&quot;, &quot;256 color&quot;, &quot;24-bit color&quot;, or other various options...and it also offered the option to save as JPG, GIF, TIFF or PNG.&nbsp; Remembering the issues I&#39;ve had before, and wanting to try and preserve at least one version of the file intact this time, I decided to try saving <em>all</em> of the versions (except for Monochrome, since there wouldn&#39;t be much point to that one, as the work included colors).&nbsp; But when I tried out .JPG, <em>the moment I hit save</em>, my picture went all blurry.&nbsp; I quickly hit &quot;undo&quot;, and the damage was reversed - <em>but this did NOT undo the save</em>, it instead undid the final edit I made to the file <em>before</em> saving.&nbsp; I then tried .GIF, and again, the moment I saved, the image changed, this time by adding a &quot;dotted line&quot; effect to the part of the picture which was colored light gray or silver (every second pixel in either direction changed to a darker gray).&nbsp; Again, I hit Undo, and the image went back the way it was, as a coincidental side effect of my Undoing the previous edit, without affecting the save file I&#39;d created.&nbsp; I have now verified that the files are thusly affected.</p><p>So, my conclusion/conjecture is this: the old files of mine are corrupted because, in the course of some version &quot;upgrade&quot;, the computer decided they were more sophisticated than they were, and applied some sort of &quot;filter&quot; to them of the sort that it applies to JPEGs, even though they hadn&#39;t actually become JPEGs.&nbsp; I would dearly love to be able to reverse this, putting them back to the pixel-perfect condition they were created in, but I suspect this is impossible (save by absurdly laborious every-single-pixel-by-hand correction, which far outstripped the ambition of even my younger, less having-things-to-do self, let alone his old and tired descendant called me).&nbsp; Once entropy creeps in, it generally can&#39;t be ondone, I assume.&nbsp; Even so, I would like to understand the problem, whether or not I can fix it.&nbsp; So, can someone provide me with more information on what exactly I fell victim to here?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5332,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86954,
+      "name": "Koga",
+      "username": "Koga",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/koga/{size}/2058_2.png",
+      "created_at": "2014-01-17T05:24:10.000Z",
+      "cooked": "<p>I've always had trouble with MS Paint when trying to save&nbsp;JPG and&nbsp;GIF files, for some reason it blurs them, it's the reason&nbsp;I always saved as BMP. When PNG came along that was the better option, it keeps the picture as I had made it and allowed for transparency, which BMP did not. Now I use Paint.NET, it's a free program that's also been recommended for many things, including making minecraft textures.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:05.635Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Koga",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I&#39;ve always had trouble with MS Paint when trying to save&nbsp;JPG and&nbsp;GIF files, for some reason it blurs them, it&#39;s the reason&nbsp;I always saved as BMP. When PNG came along that was the better option, it keeps the picture as I had made it and allowed for transparency, which BMP did not. Now I use Paint.NET, it&#39;s a free program that&#39;s also been recommended for many things, including making minecraft textures.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 101,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86955,
+      "name": "Theta_Sigma",
+      "username": "Theta_Sigma",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/theta_sigma/{size}/1929_2.png",
+      "created_at": "2014-01-17T17:04:05.000Z",
+      "cooked": "<p>It's an effect of the compression of JPGs.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:05.704Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Theta_Sigma",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It&#39;s an effect of the compression of JPGs.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4792,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-06-16",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86956,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2014-01-17T17:40:50.000Z",
+      "cooked": "<p>Yeah, you need to save your files in one of the <a href=\"http://en.wikipedia.org/wiki/Image_file_formats\" rel=\"noopener nofollow ugc\">lossless image formats </a>for it to save exactly the way you see it.&nbsp; Otherwise it will be compressed, either a lot or a little, and there will some change.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:05.781Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://en.wikipedia.org/wiki/Image_file_formats",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Yeah, you need to save your files in one of the <a href=\"http://en.wikipedia.org/wiki/Image_file_formats\">lossless image formats </a>for it to save exactly the way you see it.&nbsp; Otherwise it will be compressed, either a lot or a little, and there will some change.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86957,
+      "name": "Envisioner",
+      "username": "Envisioner",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+      "created_at": "2014-01-18T00:53:45.000Z",
+      "cooked": "<p>Well, that's a typically annoying example of the modern school of computing thought.&nbsp; Let's just compress everyone's files without asking them!&nbsp; It's not like they'd ever want to exercise veto power over the exact details of how their data works.&nbsp; Just like how everything on the Internet is constantly being 'streamlined' and 'upgraded' for the benefit of today's most profitable consumer bases (largely those on mobile phones - the best/worst example being how Hotmail was gutted into Outlook Live or whatever they call it).&nbsp; I am turning into a cranky old man at the age of 33, because we live in an age when last year's technology is obsolete and there's a gold rush to hop on every new bandwagon.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:05.865Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Envisioner",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Well, that&#39;s a typically annoying example of the modern school of computing thought.&nbsp; Let&#39;s just compress everyone&#39;s files without asking them!&nbsp; It&#39;s not like they&#39;d ever want to exercise veto power over the exact details of how their data works.&nbsp; Just like how everything on the Internet is constantly being &#39;streamlined&#39; and &#39;upgraded&#39; for the benefit of today&#39;s most profitable consumer bases (largely those on mobile phones - the best/worst example being how Hotmail was gutted into Outlook Live or whatever they call it).&nbsp; I am turning into a cranky old man at the age of 33, because we live in an age when last year&#39;s technology is obsolete and there&#39;s a gold rush to hop on every new bandwagon.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5332,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86958,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2014-01-18T01:18:07.000Z",
+      "cooked": "<p>I think it's just that that's the way those file types work - JPG is a compressed file type so you lose quality - if you want a better-quality image, use PNG or whatever.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:05.932Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I think it&#39;s just that that&#39;s the way those file types work - JPG is a compressed file type so you lose quality - if you want a better-quality image, use PNG or whatever.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86959,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2014-01-18T01:41:17.000Z",
+      "cooked": "<p>Good lord, man. &nbsp;You'll complain about anything! ;)</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.002Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Good lord, man. &nbsp;You&#39;ll complain about anything! ;)</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86960,
+      "name": "Envisioner",
+      "username": "Envisioner",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+      "created_at": "2014-01-18T09:03:14.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Spiff\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/spiff/48/1865_2.png\" class=\"avatar\"> Spiff:</div>\n<blockquote>\n<p>Good lord, man. &nbsp;You'll complain about anything! <img src=\"https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n</blockquote>\n</aside>\n<p>I don't complain about things which absolutely nothing is wrong with.&nbsp; Unfortunately they are exceedingly rare.&nbsp; I will freely admit, I am not big on shrugging and accepting that certain shortcomings are inevitable.&nbsp; I believe that everything can be made right, if only someone cares enough to make it happen.&nbsp; And if there's one thing I'm good about, it is so caring.&nbsp; Everything else, I don't have the time or energy to do, but by gum I can care enough to complain, in the vain hope of motivating someone who does have those resources to fix the problem.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.063Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Envisioner",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Spiff\"]\nGood lord, man. &nbsp;You&#39;ll complain about anything! ;)\n[/quote]\n\nI don&#39;t complain about things which absolutely nothing is wrong with.&nbsp; Unfortunately they are exceedingly rare.&nbsp; I will freely admit, I am not big on shrugging and accepting that certain shortcomings are inevitable.&nbsp; I believe that everything can be made right, if only someone cares enough to make it happen.&nbsp; And if there&#39;s one thing I&#39;m good about, it is so caring.&nbsp; Everything else, I don&#39;t have the time or energy to do, but by gum I can care enough to complain, in the vain hope of motivating someone who does have those resources to fix the problem.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5332,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86961,
+      "name": "Greywind",
+      "username": "Greywind",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+      "created_at": "2014-01-18T16:19:03.000Z",
+      "cooked": "<p>What you see as a shortcoming may not be so in the eyes of the creator of whatever you're complaining about.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.127Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Greywind",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>What you see as a shortcoming may not be so in the eyes of the creator of whatever you&#39;re complaining about.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3795,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-02-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86962,
+      "name": "jagarciao",
+      "username": "jagarciao",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/jagarciao/{size}/2010_2.png",
+      "created_at": "2014-01-18T19:28:34.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Envisioner\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/9de053/48.png\" class=\"avatar\"> Envisioner:</div>\n<blockquote>\n<p>&nbsp;I believe that everything can be made right, if only someone cares enough to make it happen…</p>\n<p>&nbsp;I can care enough to complain…</p>\n</blockquote>\n</aside>\n<p>well, if even you, who by your own assertion are really good at caring, can only care enough to complain… what hope do mere mortals have?</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.202Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "jagarciao",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Envisioner\"]\n\n &nbsp;I believe that everything can be made right, if only someone cares enough to make it happen... \n\n &nbsp;I can care enough to complain... \n\n[/quote]\n\nwell, if even you, who by your own assertion are really good at caring, can only care enough to complain... what hope do mere mortals have?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 872,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-09-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86963,
+      "name": "Envisioner",
+      "username": "Envisioner",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+      "created_at": "2014-01-19T05:21:35.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"jagarciao\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/jagarciao/48/2010_2.png\" class=\"avatar\"> jagarciao:</div>\n<blockquote>\n<p>well, if even you, who by your own assertion are really good at caring, can only care enough to complain… what hope do mere mortals have?</p>\n</blockquote>\n</aside>\n<p>Well, I know this is pretty insane of me, but I seriously believe that if everyone would just do what I say for a little while, we could make things better in a lot of ways.&nbsp; I really think I would be the exception to the rule about power corrupting; I am such a die-hard idealist that if I could magically order people around, I really would only do so in the name of my notions of social justice and evolutionary progress and so forth, and not ever for any self-servingly nefarious reason.&nbsp; And I wouldn't even force people to do stuff they really didn't want to do; it's just sort of nudge people who were uncommitted into behaving constructively rather than otherwise, disabuse them of notions that are making them spin their wheels in stubborn inefectiveness.&nbsp; A patronizing attitude, perhaps, but hardly a sinister one.&nbsp; Do you really prefer the devil you know, given how fond he is of bloodshed and misery, and the worst you'll get from me is a condescending attitude?</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.273Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Envisioner",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"jagarciao\"]\nwell, if even you, who by your own assertion are really good at caring, can only care enough to complain... what hope do mere mortals have?\n[/quote]\n\nWell, I know this is pretty insane of me, but I seriously believe that if everyone would just do what I say for a little while, we could make things better in a lot of ways.&nbsp; I really think I would be the exception to the rule about power corrupting; I am such a die-hard idealist that if I could magically order people around, I really would only do so in the name of my notions of social justice and evolutionary progress and so forth, and not ever for any self-servingly nefarious reason.&nbsp; And I wouldn&#39;t even force people to do stuff they really didn&#39;t want to do; it&#39;s just sort of nudge people who were uncommitted into behaving constructively rather than otherwise, disabuse them of notions that are making them spin their wheels in stubborn inefectiveness.&nbsp; A patronizing attitude, perhaps, but hardly a sinister one.&nbsp; Do you really prefer the devil you know, given how fond he is of bloodshed and misery, and the worst you&#39;ll get from me is a condescending attitude?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5332,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86964,
+      "name": "jagarciao",
+      "username": "jagarciao",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/jagarciao/{size}/2010_2.png",
+      "created_at": "2014-01-19T06:24:16.000Z",
+      "cooked": "<p>I don't know man... even Legacy couldn't stay away from the dark side. I am not sure I can ever believe in a benevolent dictatorship.&nbsp;</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.343Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "jagarciao",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I don&#39;t know man... even Legacy couldn&#39;t stay away from the dark side. I am not sure I can ever believe in a benevolent dictatorship.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 872,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-09-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86965,
+      "name": "Silverleaf",
+      "username": "Silverleaf",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+      "created_at": "2014-01-19T06:35:45.000Z",
+      "cooked": "<p>Evolution's doing its thing without anyone's input. And I don't trust anyone who thinks they know what's best for me, or anyone else.&nbsp;</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.409Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Silverleaf",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Evolution&#39;s doing its thing without anyone&#39;s input. And I don&#39;t trust anyone who thinks they know what&#39;s best for me, or anyone else.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4341,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86966,
+      "name": "Envisioner",
+      "username": "Envisioner",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+      "created_at": "2014-01-20T04:38:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"jagarciao\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/jagarciao/48/2010_2.png\" class=\"avatar\"> jagarciao:</div>\n<blockquote>\n<p>I don't know man… even Legacy couldn't stay away from the dark side. I am not sure I can ever believe in a benevolent dictatorship.</p>\n</blockquote>\n</aside>\n<p>It depends on how the dictator reacts to challenges against their power.&nbsp; If they seized power by force, then they'll invariably live in fear of someone doing the same to them.&nbsp; But if they were able to win their position through reason and social appeal, they'd have every reason to have confidence that they can continue to succeed through gentler, more just methods.&nbsp; The legendary King Solomon and similar largely-benevolent monarchs, while probably largely mythical, can serve as excellent examples.&nbsp; If the leader's response to attempted insurrections is to gently thwart them, admonish the rebel kindly for his misdeeds, forgive him and directly address his concerns in a way that leaves him humbled by the display of mercy, he can turn into one of the leader's staunchest supporters thereafter.&nbsp; It's tricky to say the least, and far from infallible, but I believe it doesn't get tried often enough; people are too damn cynical, and their paranoid prophecies of doom and betrayal are often self-fulfilling.</p>\n<p>(And really, aside from beating up his fellow superheroes and killing one of them, there isn't a lot of evidence of how awful Iron Legacy's regime supposedly is.&nbsp; It's sort of an Informed Attribute; we really only have one card that documents how he treats with anyone who isn't engaged in a physical battle with him.&nbsp; Describing him as \"tyrant\" might be as much propaganda as actuality; it's possible that if nobody argued with him, he might just be able to impose world peace effectively and there wouldn't really be a problem.&nbsp; Sure he'd turn Blade into a grease spot, but you can't really claim the guy didn't sorta deserve it, and after that, everything I see is him being really angry and <em>nobody making any effort to calm him down</em>, so of course things just get worse from there.&nbsp; If anybody had thought of trying to de-escalate the situation, it's likely Paul would have come to his senses eventually.)</p>\n<aside class=\"quote group-playtesters\" data-username=\"Silverleaf\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/silverleaf/48/2332_2.png\" class=\"avatar\"> Silverleaf:</div>\n<blockquote>\n<p>Evolution's doing its thing without anyone's input. And I don't trust anyone who thinks they know what's best for me, or anyone else.&nbsp;</p>\n</blockquote>\n</aside>\n<p>Your second point is fair, but as for evolution…it's a trial and error process in which billions of organisms are born foredoomed for extinction, because they're part of a counterproductive branch of the bloodline which takes millenia to demonstrate how unviable it was all along, so all of those organisms' lives were a complete waste of time.&nbsp; I vastly prefer that it be quashed entirely, in favor of a planned system where nobody is ever irrelevant.</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.486Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Envisioner",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"jagarciao\"]\nI don&#39;t know man... even Legacy couldn&#39;t stay away from the dark side. I am not sure I can ever believe in a benevolent dictatorship.\n[/quote]\n\nIt depends on how the dictator reacts to challenges against their power.&nbsp; If they seized power by force, then they&#39;ll invariably live in fear of someone doing the same to them.&nbsp; But if they were able to win their position through reason and social appeal, they&#39;d have every reason to have confidence that they can continue to succeed through gentler, more just methods.&nbsp; The legendary King Solomon and similar largely-benevolent monarchs, while probably largely mythical, can serve as excellent examples.&nbsp; If the leader&#39;s response to attempted insurrections is to gently thwart them, admonish the rebel kindly for his misdeeds, forgive him and directly address his concerns in a way that leaves him humbled by the display of mercy, he can turn into one of the leader&#39;s staunchest supporters thereafter.&nbsp; It&#39;s tricky to say the least, and far from infallible, but I believe it doesn&#39;t get tried often enough; people are too damn cynical, and their paranoid prophecies of doom and betrayal are often self-fulfilling.\n\n(And really, aside from beating up his fellow superheroes and killing one of them, there isn&#39;t a lot of evidence of how awful Iron Legacy&#39;s regime supposedly is.&nbsp; It&#39;s sort of an Informed Attribute; we really only have one card that documents how he treats with anyone who isn&#39;t engaged in a physical battle with him.&nbsp; Describing him as &quot;tyrant&quot; might be as much propaganda as actuality; it&#39;s possible that if nobody argued with him, he might just be able to impose world peace effectively and there wouldn&#39;t really be a problem.&nbsp; Sure he&#39;d turn Blade into a grease spot, but you can&#39;t really claim the guy didn&#39;t sorta deserve it, and after that, everything I see is him being really angry and <em>nobody making any effort to calm him down</em>, so of course things just get worse from there.&nbsp; If anybody had thought of trying to de-escalate the situation, it&#39;s likely Paul would have come to his senses eventually.)\n\n[quote=\"Silverleaf\"]\n\nEvolution&#39;s doing its thing without anyone&#39;s input. And I don&#39;t trust anyone who thinks they know what&#39;s best for me, or anyone else.&nbsp;\n\n[/quote]\n\nYour second point is fair, but as for evolution...it&#39;s a trial and error process in which billions of organisms are born foredoomed for extinction, because they&#39;re part of a counterproductive branch of the bloodline which takes millenia to demonstrate how unviable it was all along, so all of those organisms&#39; lives were a complete waste of time.&nbsp; I vastly prefer that it be quashed entirely, in favor of a planned system where nobody is ever irrelevant.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5332,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86967,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2014-01-20T14:44:30.000Z",
+      "cooked": "<p>Isn't that called eugenics or something?</p><p>Iron Legacy is shown to be feared and violent and stuff in pretty much every card in his deck and fluff text, if I remember rightly, from his beating up of various heroes, to his fluff text comment at the bottom of Former Allies (the one with the smashed barbecue photo), to the image of scared citizens hiding as he flies past in Vigilance, to his apparently enslaving a bunch of heroes/villains in Demoralising Presence. Yeah, not a nice guy in that future :P.</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.557Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Isn&#39;t that called eugenics or something?</p><p>Iron Legacy is shown to be feared and violent and stuff in pretty much every card in his deck and fluff text, if I remember rightly, from his beating up of various heroes, to his fluff text comment at the bottom of Former Allies (the one with the smashed barbecue photo), to the image of scared citizens hiding as he flies past in Vigilance, to his apparently enslaving a bunch of heroes/villains in Demoralising Presence. Yeah, not a nice guy in that future :P.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86968,
+      "name": "Envisioner",
+      "username": "Envisioner",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+      "created_at": "2014-01-20T22:08:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ameena\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ameena/48/1907_2.png\" class=\"avatar\"> Ameena:</div>\n<blockquote>\n<p>Isn't that called eugenics or something?</p>\n</blockquote>\n</aside>\n<p>A lot of people mistakenly believe that \"eugenics\" is inherently a bad word.&nbsp; It is in fact content-neutral in the abstract.&nbsp; Most applications of eugenics to date have been done for bad reasons, but there's no reason that a reasonably enlightened society could not perform genetic splicing on test-tube embryos for no more sinister purpose than improving their resistance to disease, or the like.&nbsp; As long as the people running the program aren't evil, then the eugenics won't be.&nbsp; Nobody sane and reasonable is going to try to ethnically cleanse anybody, or demand forcible matings between strangers for eugenic purposes.&nbsp; To say we shouldn't exercise any control over the process of our breeding, just because a few people in the past have advocated it for racist and fascist reasons, is like saying we shouldn't ever eat vegetables because occasionally they arrive in grocery stores infected with salmonella.</p>\n<blockquote>\n<p>Iron Legacy is shown to be feared</p>\n</blockquote>\n<p>But feared why?&nbsp; Vigilance doesn't give us much context.&nbsp; \"He patrols the skies\" - uh, okay, so does the Federal Aviation Administration.&nbsp; \"The world is not safe\"…was it before, with terrorists and mafias and so forth running unchecked?&nbsp; I don't believe we've ever heard anything about Legacy attacking a person who had done <em>nothing</em> to deserve it.&nbsp; He's overly harsh, but at least his actions seem to be grounded in well-meaning up to a point.&nbsp; What exactly has he done to make people fear him?&nbsp; Is it anything more than the fear people always have toward authority figures and people with powers they don't understand?</p>\n<blockquote>\n<p>and violent and stuff in pretty much every card in his deck and fluff text, if I remember rightly, from his beating up of various heroes</p>\n</blockquote>\n<p>He's beating up the other heroes because <em>it's a fight</em>.&nbsp; We generally assume that soldiers in combat have a right to attack the enemy, and by virtue of his self-appointed status as the world's protector, anyone who tries to stop him from protecting the world is an enemy combatant.&nbsp; While attacking on sight when they hadn't yet identified him as a hostile is tactically unsound, it doesn't prove that he's evil, only that he's a bit overzealous with pre-emptive strikes.&nbsp; The conflict was still likely to happen if he continued about his plan to exterminate crime with a degree of vehemence that the naive heroes around him would object to; he simply chose to begin the battle on his own terms.&nbsp; It's the sort of thing The Punisher might do, and The Punisher is generally not called a superhero, but not a super-villain either.</p>\n<blockquote>\n<p>to his fluff text comment at the bottom of Former Allies (the one with the smashed barbecue photo)</p>\n</blockquote>\n<p>I completely get where he's coming from on that one, and I don't regard hermitage as an especially damning character trait.&nbsp; If he's completely isolated from humanity, then he certainly has a hard time empathizing with our imperfect and fallible nature, but what exactly would he do if you just politely pointed this out to him, and asked him to please reconsider his actions?&nbsp; We don't know.&nbsp; <em>We never see how he acts when calm</em>.&nbsp; All his cards depict him in the midst of furious combat.&nbsp; If he never stops pushing himself, then he'd be constantly at the brink of exhaustion and his judgment would be impaired; that would certainly go a long way to explaining his misbehavior.&nbsp; But what exactly <em>would</em> happen if he just sat down, took a few deep breaths, and thought about what he was doing?&nbsp; We don't know.&nbsp; I don't believe it's right to just assume that he'd always do the wrong thing because he's evil.</p>\n<blockquote>\n<p>to his apparently enslaving a bunch of heroes/villains in Demoralising Presence.</p>\n</blockquote>\n<p>That is probably the most sinister image we have of him, but it's still not clear whether any of the \"victims\" there are heroes…one of them kinda looks like Haka but we can't be sure.&nbsp; Another one is very definitely a villain, the same one that the Haka of Battle is aimed at, and who is shown hanging out with Char, Friction and Proletariat on Scum and Villainy.&nbsp; Again, the question is whether IL's actions are justified, and it remains conceivable that they are, at least in part.</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.641Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "Envisioner",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Ameena\"]\nIsn&#39;t that called eugenics or something?\n[/quote]\n\nA lot of people mistakenly believe that &quot;eugenics&quot; is inherently a bad word.&nbsp; It is in fact content-neutral in the abstract.&nbsp; Most applications of eugenics to date have been done for bad reasons, but there&#39;s no reason that a reasonably enlightened society could not perform genetic splicing on test-tube embryos for no more sinister purpose than improving their resistance to disease, or the like.&nbsp; As long as the people running the program aren&#39;t evil, then the eugenics won&#39;t be.&nbsp; Nobody sane and reasonable is going to try to ethnically cleanse anybody, or demand forcible matings between strangers for eugenic purposes.&nbsp; To say we shouldn&#39;t exercise any control over the process of our breeding, just because a few people in the past have advocated it for racist and fascist reasons, is like saying we shouldn&#39;t ever eat vegetables because occasionally they arrive in grocery stores infected with salmonella.\n\n> Iron Legacy is shown to be feared\n\nBut feared why?&nbsp; Vigilance doesn&#39;t give us much context.&nbsp; &quot;He patrols the skies&quot; - uh, okay, so does the Federal Aviation Administration.&nbsp; &quot;The world is not safe&quot;...was it before, with terrorists and mafias and so forth running unchecked?&nbsp; I don&#39;t believe we&#39;ve ever heard anything about Legacy attacking a person who had done <em>nothing</em> to deserve it.&nbsp; He&#39;s overly harsh, but at least his actions seem to be grounded in well-meaning up to a point.&nbsp; What exactly has he done to make people fear him?&nbsp; Is it anything more than the fear people always have toward authority figures and people with powers they don&#39;t understand?\n\n> and violent and stuff in pretty much every card in his deck and fluff text, if I remember rightly, from his beating up of various heroes\n\nHe&#39;s beating up the other heroes because <em>it&#39;s a fight</em>.&nbsp; We generally assume that soldiers in combat have a right to attack the enemy, and by virtue of his self-appointed status as the world&#39;s protector, anyone who tries to stop him from protecting the world is an enemy combatant.&nbsp; While attacking on sight when they hadn&#39;t yet identified him as a hostile is tactically unsound, it doesn&#39;t prove that he&#39;s evil, only that he&#39;s a bit overzealous with pre-emptive strikes.&nbsp; The conflict was still likely to happen if he continued about his plan to exterminate crime with a degree of vehemence that the naive heroes around him would object to; he simply chose to begin the battle on his own terms.&nbsp; It&#39;s the sort of thing The Punisher might do, and The Punisher is generally not called a superhero, but not a super-villain either.\n\n> to his fluff text comment at the bottom of Former Allies (the one with the smashed barbecue photo)\n\nI completely get where he&#39;s coming from on that one, and I don&#39;t regard hermitage as an especially damning character trait.&nbsp; If he&#39;s completely isolated from humanity, then he certainly has a hard time empathizing with our imperfect and fallible nature, but what exactly would he do if you just politely pointed this out to him, and asked him to please reconsider his actions?&nbsp; We don&#39;t know.&nbsp; <em>We never see how he acts when calm</em>.&nbsp; All his cards depict him in the midst of furious combat.&nbsp; If he never stops pushing himself, then he&#39;d be constantly at the brink of exhaustion and his judgment would be impaired; that would certainly go a long way to explaining his misbehavior.&nbsp; But what exactly <em>would</em> happen if he just sat down, took a few deep breaths, and thought about what he was doing?&nbsp; We don&#39;t know.&nbsp; I don&#39;t believe it&#39;s right to just assume that he&#39;d always do the wrong thing because he&#39;s evil.\n\n> to his apparently enslaving a bunch of heroes/villains in Demoralising Presence.\n\nThat is probably the most sinister image we have of him, but it&#39;s still not clear whether any of the &quot;victims&quot; there are heroes...one of them kinda looks like Haka but we can&#39;t be sure.&nbsp; Another one is very definitely a villain, the same one that the Haka of Battle is aimed at, and who is shown hanging out with Char, Friction and Proletariat on Scum and Villainy.&nbsp; Again, the question is whether IL&#39;s actions are justified, and it remains conceivable that they are, at least in part.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5332,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 86969,
+      "name": "jagarciao",
+      "username": "jagarciao",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/jagarciao/{size}/2010_2.png",
+      "created_at": "2014-01-20T22:28:02.000Z",
+      "cooked": "<p>...Then I thought \"man, I should have just said 'yeah'.\"</p><p>- Mitch Hedberg</p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:11:06.732Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9273,
+      "topic_slug": "ms-paint-issues",
+      "display_username": "jagarciao",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>...Then I thought &quot;man, I should have just said &#39;yeah&#39;.&quot;</p><p>- Mitch Hedberg</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 872,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-09-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

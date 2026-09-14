@@ -1,0 +1,1208 @@
+{
+  "posts": [
+    {
+      "id": 13393,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-08-09T03:18:18.000Z",
+      "cooked": "<p>Playing against Variant Spite.&nbsp; He is flipped.&nbsp; A Lost Child is in play.</p><p>Start of Wraith's turn.&nbsp;</p><p>Wraith elects to remove a victim from the Safehouse.</p><p>Because of removing the victim, W is given the chance to play a card.&nbsp; She plays Throat Jab.</p><p>Throat Jab does its damage, and I then get the message that Spite can't do damage.</p><p>The <strong>very next message</strong> I get is \"Removing effect: Spite Agent of Gloom cannot do damage.\"</p><p>Start of turn effects continue, and I am given the option to have Spite damage me to save the Lost Child.</p><p>&nbsp;</p><p>OK, so after thinking about it, it makes sense that if I play Throat Jab during Start of Turn phase, then it shouldn't last very long.&nbsp; But should it really stop working *immediately*?&nbsp; I can see 3 ways of interpreting this:</p><p>A) Any \"until time X\" effects continuously check for \"time X\", and fail as soon as they detect it.&nbsp; This seems to be what the App is doing now.</p><p>B) Start of Turn effects happen in the order they entered play.&nbsp; Under this model, Throat Jab would last until the end of the Start of Turn phase, and would prevent me from saving the Lost Child.&nbsp; This is what I <em>expected</em> from the current rulings.</p><p>C) \"Until phase X\" effects check only at the beginning of a phase, so my Throat Jab would last until my *next* Start of Turn phase.&nbsp; I don't actually support this one, but it occured to me as I was thinking about the issue.</p><p>&nbsp;</p><p>It's a super-rare edge case for this even to be possible, and I haven't yet come up with an example where I think it <em>matters</em>, but there could yet be one...</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:45:10.933Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Playing against Variant Spite.&nbsp; He is flipped.&nbsp; A Lost Child is in play.</p><p>Start of Wraith&#39;s turn.&nbsp;</p><p>Wraith elects to remove a victim from the Safehouse.</p><p>Because of removing the victim, W is given the chance to play a card.&nbsp; She plays Throat Jab.</p><p>Throat Jab does its damage, and I then get the message that Spite can&#39;t do damage.</p><p>The <strong>very next message</strong> I get is &quot;Removing effect: Spite Agent of Gloom cannot do damage.&quot;</p><p>Start of turn effects continue, and I am given the option to have Spite damage me to save the Lost Child.</p><p>&nbsp;</p><p>OK, so after thinking about it, it makes sense that if I play Throat Jab during Start of Turn phase, then it shouldn&#39;t last very long.&nbsp; But should it really stop working *immediately*?&nbsp; I can see 3 ways of interpreting this:</p><p>A) Any &quot;until time X&quot; effects continuously check for &quot;time X&quot;, and fail as soon as they detect it.&nbsp; This seems to be what the App is doing now.</p><p>B) Start of Turn effects happen in the order they entered play.&nbsp; Under this model, Throat Jab would last until the end of the Start of Turn phase, and would prevent me from saving the Lost Child.&nbsp; This is what I <em>expected</em> from the current rulings.</p><p>C) &quot;Until phase X&quot; effects check only at the beginning of a phase, so my Throat Jab would last until my *next* Start of Turn phase.&nbsp; I don&#39;t actually support this one, but it occured to me as I was thinking about the issue.</p><p>&nbsp;</p><p>It&#39;s a super-rare edge case for this even to be possible, and I haven&#39;t yet come up with an example where I think it <em>matters</em>, but there could yet be one...</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145853,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-08-09T03:39:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"AlexxKay\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png\" class=\"avatar\"> AlexxKay:</div>\n<blockquote>\n<p><span>B) Start of Turn effects happen in the order they entered play.&nbsp; Under this model, Throat Jab would last until the end of the Start of Turn phase, and would prevent me from saving the Lost Child.&nbsp; This is what I&nbsp; <em>expected</em><span>&nbsp;from the current rulings.</span></span></p>\n<span>\n</span></blockquote>\n</aside>\n<p><span>\"Start of turn effects\" and \"until the start of your next turn\" are not the same thing. \"Until the start of your next turn\" happens before all other \"start of turn\" effects. Once your turn \"starts\" the effect wears off. This is why Next Evolution cannot prevent damage from Legacy hitting himself while being Infected. Next Evolution will wear off before Legacy hits himself.</span></p>\n<p><span>EDIT: Did some testing. Any \"Until the start of your next turn\" effect will end immediately and other \"start of turn\" effects in play will happen after, while playing a new \"start of turn\" effect will happen at the end of you \"start turn\" phase, after all the other \"start of turn\" effects\".</span></p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.195Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"AlexxKay\"]\n\n<span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14.3999996185303px; line-height: 21.5999984741211px; background-color: rgb(255, 255, 255);\">B) Start of Turn effects happen in the order they entered play.&nbsp; Under this model, Throat Jab would last until the end of the Start of Turn phase, and would prevent me from saving the Lost Child.&nbsp; This is what I&nbsp; <em style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14.3999996185303px; line-height: 21.5999984741211px; background-color: rgb(255, 255, 255);\">expected</em><span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14.3999996185303px; line-height: 21.5999984741211px; background-color: rgb(255, 255, 255);\">&nbsp;from the current rulings. \n\n<span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14.3999996185303px; line-height: 21.5999984741211px; background-color: rgb(255, 255, 255);\">\n[/quote]\n \n\n<span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14.3999996185303px; line-height: 21.5999984741211px; background-color: rgb(255, 255, 255);\">&quot;Start of turn effects&quot; and &quot;until the start of your next turn&quot; are not the same thing. &quot;Until the start of your next turn&quot; happens before all other &quot;start of turn&quot; effects. Once your turn &quot;starts&quot; the effect wears off. This is why Next Evolution cannot prevent damage from Legacy hitting himself while being Infected. Next Evolution will wear off before Legacy hits himself. \n\n<span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14.3999996185303px; line-height: 21.5999984741211px; background-color: rgb(255, 255, 255);\">EDIT: Did some testing. Any &quot;Until the start of your next turn&quot; effect will end immediately and other &quot;start of turn&quot; effects in play will happen after, while playing a new &quot;start of turn&quot; effect will happen at the end of you &quot;start turn&quot; phase, after all the other &quot;start of turn&quot; effects&quot;. \n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145854,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2015-08-09T03:42:04.000Z",
+      "cooked": "<p>Some cards clarify the start of your next turn. &nbsp;If not Start of turn effects happen in order of going into play. &nbsp;As soon as the card effect of lost child is done it will move to the next start of turn effect which would be the expiration of Throat Jab's effect.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.277Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Some cards clarify the start of your next turn. &nbsp;If not Start of turn effects happen in order of going into play. &nbsp;As soon as the card effect of lost child is done it will move to the next start of turn effect which would be the expiration of Throat Jab&#39;s effect.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145855,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-08-09T03:48:38.000Z",
+      "cooked": "<p>Throat Jab says \"until the start of your next turn\".</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.342Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Throat Jab says &quot;until the start of your next turn&quot;.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145856,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-08-09T04:57:21.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>\"Start of turn effects\" and \"until the start of your next turn\" are not the same thing. \"Until the start of your next turn\" happens before all other \"start of turn\" effects. Once your turn \"starts\" the effect wears off. This is why Next Evolution cannot prevent damage from Legacy hitting himself while being Infected. Next Evolution will wear off before Legacy hits himself.</p>\n</blockquote>\n</aside>\n<p>This is all news to me.&nbsp; (Goes off and searches…)</p>\n<p>OK, I see two previous threads on Infection + Next Evolution:</p>\n<p><a href=\"https://greaterthangames.com/forum/topic/timing-of-start-of-turn-effects-until-vs-at-4345\" class=\"onebox\" target=\"_blank\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/timing-of-start-of-turn-effects-until-vs-at-4345</a></p>\n<p><a href=\"https://greaterthangames.com/forum/topic/interaction-between-next-evolution-and-infection\" class=\"onebox\" target=\"_blank\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/interaction-between-next-evolution-and-infection</a></p>\n<p>Neither of those threads have a post from Christopher, and the most recent one doesn't reach anything like consensus.&nbsp; All three models I listed seem to be strongly believed by at least one other person.</p>\n<p>If Christopher <strong>were</strong> to rule on Infection/NextEv in the way you say, that would be fairly strong evidence for option C.&nbsp; But I don't see that he has.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.401Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/timing-of-start-of-turn-effects-until-vs-at-4345",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/forum/topic/interaction-between-next-evolution-and-infection",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n&quot;Start of turn effects&quot; and &quot;until the start of your next turn&quot; are not the same thing. &quot;Until the start of your next turn&quot; happens before all other &quot;start of turn&quot; effects. Once your turn &quot;starts&quot; the effect wears off. This is why Next Evolution cannot prevent damage from Legacy hitting himself while being Infected. Next Evolution will wear off before Legacy hits himself.\n[/quote]\n\nThis is all news to me.&nbsp; (Goes off and searches...)\n\nOK, I see two previous threads on Infection + Next Evolution:\n\nhttps://greaterthangames.com/forum/topic/timing-of-start-of-turn-effects-until-vs-at-4345\n\nhttps://greaterthangames.com/forum/topic/interaction-between-next-evolution-and-infection\n\nNeither of those threads have a post from Christopher, and the most recent one doesn&#39;t reach anything like consensus.&nbsp; All three models I listed seem to be strongly believed by at least one other person.\n\nIf Christopher <strong>were</strong> to rule on Infection/NextEv in the way you say, that would be fairly strong evidence for option C.&nbsp; But I don&#39;t see that he has.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145857,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-08-09T05:02:51.000Z",
+      "cooked": "<p>This is currently how the video game works. All \"until start of turn effects\" cancel before any \"start of turn effects\". It is possible this isn't correct, but I use the cideo game to solve this sorts of problems a lot. So until I hear otherwise, I will go with that.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.463Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>This is currently how the video game works. All &quot;until start of turn effects&quot; cancel before any &quot;start of turn effects&quot;. It is possible this isn&#39;t correct, but I use the cideo game to solve this sorts of problems a lot. So until I hear otherwise, I will go with that.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145858,
+      "name": "MigrantP",
+      "username": "MigrantP",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+      "created_at": "2015-08-09T12:56:00.000Z",
+      "cooked": "<p>We'll talk to Christopher about this. IMO it's a bug (and should be \"option C\") but we'll make sure. Primarily because it's until the start of your&nbsp;<strong>next</strong> turn, and it's already your turn.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.522Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "MigrantP",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>We&#39;ll talk to Christopher about this. IMO it&#39;s a bug (and should be &quot;option C&quot;) but we&#39;ll make sure. Primarily because it&#39;s until the start of your&nbsp;<strong>next</strong> turn, and it&#39;s already your turn.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 442,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-22",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145859,
+      "name": "MigrantP",
+      "username": "MigrantP",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+      "created_at": "2015-08-10T16:22:00.000Z",
+      "cooked": "<p>It's option C: Playing Throat Jab at the start of your turn will cause the effect to last until the start of your&nbsp;<strong>next</strong> turn, as the card says. There's a bug in the video game (specific to Throat Jab) causing it to expire too soon.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.590Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "MigrantP",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It&#39;s option C: Playing Throat Jab at the start of your turn will cause the effect to last until the start of your&nbsp;<strong>next</strong> turn, as the card says. There&#39;s a bug in the video game (specific to Throat Jab) causing it to expire too soon.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 442,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-22",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145860,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-08-10T17:27:06.000Z",
+      "cooked": "<p>OK, that definitively settles the edge case that I first brought up.&nbsp; The rationale seems reasonable to me.&nbsp;</p><p>I note, however, that at least two other cases remain, rules-wise, somewhat ambiguous (see links above for discussion):</p><p>Next Evolution/Infection</p><p>Mistbound/Pillars of Hercules</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.678Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>OK, that definitively settles the edge case that I first brought up.&nbsp; The rationale seems reasonable to me.&nbsp;</p><p>I note, however, that at least two other cases remain, rules-wise, somewhat ambiguous (see links above for discussion):</p><p>Next Evolution/Infection</p><p>Mistbound/Pillars of Hercules</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145861,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-08-10T18:11:39.000Z",
+      "cooked": "<p>The video game is correct here:</p>\n<ol>\n<li>New phase phase begins</li>\n<li>All effects ending at that phase end</li>\n<li>All effect that happen at that phase happen</li>\n</ol>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.738Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "The video game is correct here:\r\n\r\n1) New phase phase begins\r\n2) All effects ending at that phase end\r\n3) All effect that happen at that phase happen",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145862,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-08-10T21:39:53.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>The video game is correct here:</p>\n</blockquote>\n</aside>\n<p>Maybe it's just me, but I find it aggravating when you phrase such things as clearly and definitively true, without citing any authority.&nbsp; I'm much more comfortable with things like, to quote your earlier comment:</p>\n<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>It is possible this isn't correct, but I use the cideo game to solve this sorts of problems a lot. So until I hear otherwise, I will go with that.</p>\n</blockquote>\n</aside>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.797Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\nThe video game is correct here:\n[/quote]\n\nMaybe it&#39;s just me, but I find it aggravating when you phrase such things as clearly and definitively true, without citing any authority.&nbsp; I&#39;m much more comfortable with things like, to quote your earlier comment:\n\n[quote=\"Pydro\"]\nIt is possible this isn&#39;t correct, but I use the cideo game to solve this sorts of problems a lot. So until I hear otherwise, I will go with that.\n[/quote]\n\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145863,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2015-08-10T21:43:00.000Z",
+      "cooked": "<p>Since then, I confirmed it with MigrantP. However, my source (the game) didn't change. Even intially I held that you follow the game, especially something so big as this. There would be many situations that would change, regardless of any practical effect. You just assumed that the game might not be right, without any support. I initially worded it that way to be none confrontational, and only worded differently to express my point later as you still weren't sure. The source has yet to be changed.</p><p>EDIT: That came out harsher than I intended. I apologize.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.856Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Since then, I confirmed it with MigrantP. However, my source (the game) didn&#39;t change. Even intially I held that you follow the game, especially something so big as this. There would be many situations that would change, regardless of any practical effect. You just assumed that the game might not be right, without any support. I initially worded it that way to be none confrontational, and only worded differently to express my point later as you still weren&#39;t sure. The source has yet to be changed.</p><p>EDIT: That came out harsher than I intended. I apologize.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145864,
+      "name": "Donner",
+      "username": "Donner",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/donner/{size}/1903_2.png",
+      "created_at": "2015-08-10T22:14:52.000Z",
+      "cooked": "<p>The video game makes a great source for resolving various issues. &nbsp;It gets double and triple confirmation between Handelabra and Christopher. &nbsp;It gets fast responses to issues. &nbsp;And it has to deal with everything in an orderly fashion to work properly in the first place.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.922Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "Donner",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The video game makes a great source for resolving various issues. &nbsp;It gets double and triple confirmation between Handelabra and Christopher. &nbsp;It gets fast responses to issues. &nbsp;And it has to deal with everything in an orderly fashion to work properly in the first place.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4238,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 145865,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2015-08-11T02:45:03.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Since then, I confirmed it with MigrantP.</p>\n</blockquote>\n</aside>\n<p>And it wouldn't have bothered me if you had said so, instead of just asserting.</p>\n<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>However, my source (the game) didn't change. Even intially I held that you follow the game, especially something so big as this. There would be many situations that would change, regardless of any practical effect. You just assumed that the game might not be right, without any support. I initially worded it that way to be none confrontational, and only worded differently to express my point later as you still weren't sure. The source has yet to be changed.</p>\n</blockquote>\n</aside>\n<p>I will try and explain more clearly where I am coming from.&nbsp; There a number of possible sources for interpreting how the game should work, including, but not limited to:</p>\n<ol><li>Printed rulebooks and cards</li><li>Statements from Christopher</li><li>Statements from MigrantP, based on official discussions with Christopher</li><li>Observations of how the videogame is currently handling things.</li><li>Spiff's FAQ</li><li>Third-hand reports of what Christopher or MigrantP said</li><li>Opinions of experienced players</li><li>House rules</li></ol>\nALL of these sources are fallible, and have been corrected from time to time.&nbsp; Yes, ALL.&nbsp; Even if you count Christopher's word as final (which is, I think, reasonable), he has on rare occasions been known to change his mind about a prior ruling, or issue an official erratum to something he wrote.\n<p>Which sources one regards as definitive are a matter of personal choice.&nbsp; Personally, I take 1-3 above to be definitive, and regard all others as useful data to inform my own opinion, but not actually as definitive.&nbsp; I don't begrudge anyone else their ability to draw their lines differently.</p>\n<p>Given that there's no such thing as an infallible source, it's good to know what the source <em>is</em>. When you make an unsourced assertion, then I am left with the impression that that is simply your opinion, which I (personally) do not regard as definitive.[/quote]</p>\n<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>EDIT: That came out harsher than I intended. I apologize.</p>\n</blockquote>\n</aside>\n<p>No offense taken!&nbsp; It's hard to improve communication without sometimes sounding harsh, something I struggle with myself.</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:23:41.997Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13392,
+      "topic_slug": "weird-edge-case-with-variant-spite-possible-bug",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\nSince then, I confirmed it with MigrantP.\n[/quote]\n\nAnd it wouldn&#39;t have bothered me if you had said so, instead of just asserting.\n\n[quote=\"Pydro\"]\nHowever, my source (the game) didn&#39;t change. Even intially I held that you follow the game, especially something so big as this. There would be many situations that would change, regardless of any practical effect. You just assumed that the game might not be right, without any support. I initially worded it that way to be none confrontational, and only worded differently to express my point later as you still weren&#39;t sure. The source has yet to be changed.\n[/quote]\n\nI will try and explain more clearly where I am coming from.&nbsp; There a number of possible sources for interpreting how the game should work, including, but not limited to:\n<ol><li>Printed rulebooks and cards</li><li>Statements from Christopher</li><li>Statements from MigrantP, based on official discussions with Christopher</li><li>Observations of how the videogame is currently handling things.</li><li>Spiff&#39;s FAQ</li><li>Third-hand reports of what Christopher or MigrantP said</li><li>Opinions of experienced players</li><li>House rules</li></ol>\nALL of these sources are fallible, and have been corrected from time to time.&nbsp; Yes, ALL.&nbsp; Even if you count Christopher&#39;s word as final (which is, I think, reasonable), he has on rare occasions been known to change his mind about a prior ruling, or issue an official erratum to something he wrote.\n\nWhich sources one regards as definitive are a matter of personal choice.&nbsp; Personally, I take 1-3 above to be definitive, and regard all others as useful data to inform my own opinion, but not actually as definitive.&nbsp; I don&#39;t begrudge anyone else their ability to draw their lines differently.\n\nGiven that there&#39;s no such thing as an infallible source, it&#39;s good to know what the source *is*. When you make an unsourced assertion, then I am left with the impression that that is simply your opinion, which I (personally) do not regard as definitive.[/quote]\n\n[quote=\"Pydro\"]\nEDIT: That came out harsher than I intended. I apologize.\n[/quote]\n\nNo offense taken!&nbsp; It&#39;s hard to improve communication without sometimes sounding harsh, something I struggle with myself.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

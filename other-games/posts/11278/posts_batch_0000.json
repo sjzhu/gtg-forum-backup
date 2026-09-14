@@ -1,0 +1,4219 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 117921,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2014-09-14T16:34:42.000Z",
+        "cooked": "<p>Your FAQ is wrong.</p><p>As I said, directly from Christopher was Jack Handle is automatic, you read the cards that have Mr. Fixer deal damage to a target as dealing damage to all non-hero targets instead.</p><p>The reason you would deal 3 damage to all non-hero targets with Bloody Knuckles and Jack Handle in play is not because you first declare a target then all non-hero targets take the damage instead, preventing the first target from taking the inital selection. You deal all non-hero targets 3 damage because you read Strike as dealing all non-hero targets 1 melee damage, then when you are dealing damage to them all, you add the plus 2 for BLoody Knuckles. This is why you cannot select Mr. Fixer as the target, thus dealing 5 damage to all non-hero targets instead.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.140Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117922,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-14T16:35:00.000Z",
+        "cooked": "<p><span><span>Let me approach this from a different perspective that might make it easier to understand. Before we even start talking about jack handle, let’s go through the basic order of operations when you deal damage:</span></span></p><p>&nbsp;</p><p><span><span>1) Determine attack type type (not relevant to this conversation.</span></span></p><p><span><span>2) Determine base attack (the number listed on the card that is dealing the damage).</span></span></p><p><span><span>3) Determine all modifiers, you can choose the order.</span></span></p><p><span><span>4) If the number is greater than 0, reduce hp by that amount (obviously, not if they are immune).</span></span></p><p>&nbsp;</p><p><span><span>Let’s focus on step #3. In this step you take all modifiers into account: plus/minus of the attacker, and plus/minus of the defender. You can choose the order that all of these modifiers come into effect. For example, if the target has -1 damage reduction, and the attacker has +1 damage, you can either do +1 - 1 or -1 + 1. There will be many times will it simply will not matter, but sometimes it can. The point is that </span><span>all</span><span> modifiers are assessed at the same time.</span></span></p><p>&nbsp;</p><p><span><span>Using this basic order of operations that is used in every situation in SotM, we can understand how Jack Handles work. There are essentially three options:</span></span></p><p>&nbsp;</p><p><span><span>A) Only taking some modifiers into account:</span></span></p><p>&nbsp;</p><p><span><span>1) Determine attack type.</span></span></p><p><span><span>2) Determine base damage.</span></span></p><p><span><span>3) Determine all modifiers that only apply to the attacker.</span></span></p><p><span><span>4) Calculate this damage and apply it to all non-villain targets</span></span></p><p><span><span>5) For each target, determine their modifiers (it makes no sense to ignore these modifiers and actually deal damage based on step #4).</span></span></p><p><span><span>6) If the number is greater than 0, reduce hp (if not immune).</span></span></p><p>&nbsp;</p><p><span><span>I really don’t see how the card can drastically affect the order of operations, there is nothing in the card itself that says you only take certain modifiers into account first, then others later. To say this would be a big stretch.</span></span></p><p>&nbsp;</p><p><span><span>B) Determine all modifiers, then change source:</span></span></p><p>&nbsp;</p><p><span><span>1) Determine attack type type.</span></span></p><p><span><span>2) Determine base attack (the number listed on the card that is dealing the damage).</span></span></p><p><span><span>3) Determine all modifiers, you can choose the order.</span></span></p><p><span><span>4) If the number is greater than 0, ignore this attack, and deal that same hp that would be loss to all non-villain targets, modified for the individual targets.</span></span></p><p>&nbsp;</p><p><span><span>In theory, this might be a good interpretation, except that we have a ruling that says it isn’t. If this was the way everything was handled, then Fixer could hit himself with Bloody Knuckles to deal everyone else 5 damage, but we know that he can’t. So, this one is out too.</span></span></p><p>&nbsp;</p><p><span><span>C) Determine only base damage:</span></span></p><p>&nbsp;</p><p><span><span>1) Determine attack type.</span></span></p><p><span><span>2) Determine base damage.</span></span></p><p><span><span>3) Calculate base damage and apply it to all non-villain targets.</span></span></p><p><span><span>4) Determine all modifiers for each target, you can choose the order.</span></span></p><p><span><span>5) If the number is greater than 0, reduce hp by that amount for each target (obviously, not if they are immune).</span></span></p><p>&nbsp;</p><p><span><span>Essentially, by necessity, this is the only interpretation that fits. If so, only the first target would get the bonus damage.</span></span></p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.217Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117923,
+        "name": "abredon",
+        "username": "abredon",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/c57346/{size}.png",
+        "created_at": "2014-09-14T16:39:33.000Z",
+        "cooked": "<p>It seems pretty clear to me. Here are the stages of dealing damage:</p><p>1. Decide to attack a target.</p><p>2. You now would deal damage - Jack Handle triggers and changes the target at this stage.</p><p>3. You now Deal damage. Parse's Critical Multiplier, Haka of Battle, and other buffs trigger at this stage.</p><p>Note that in all current cases, you cannot change the damage being dealt before Jack Handle activates, since 'would deal damage' must always come before 'actually deal damage'.</p><p>&nbsp;</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.319Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "abredon",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 989,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117924,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-14T16:44:36.000Z",
+        "cooked": "<p>There has been a lot of talk about \"would deal damage\" triggering before \"deal damage\", but we know that isn't true, based on the old Superhuman Durability and Fortitude ruling. The original ruling said that card play mattered, but it shouldn't have if \"would be dealt\" triggered first.</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.392Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117925,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2014-09-14T16:45:45.000Z",
+        "cooked": "<p>If the info I have on Jack Handles is wrong, I'd love to update it. &nbsp;I hate to completely reverse a previous ruling without something official I can link to though. &nbsp;Maybe Christopher could chime in with something quotable?</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.460Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117926,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2014-09-14T16:49:50.000Z",
+        "cooked": "<p>What I find interesting is that there's no \"instead\" -- and on other cards, if there's no \"instead\" it should not be implied. For example, Police Backup (\"Whenever a villain card would make a player discard a card, destroy this card\") does not prevent the discard.&nbsp;</p><p>I play Jack Handles as I read it - do the initial damage as normal. Take the actual damage dealt, and deal it to all non-hero targets as a new attack.</p><p>In any case though, I'm sure I'll be talking to Christopher about this soon enough =)</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.530Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117927,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-14T17:10:24.000Z",
+        "cooked": "<p>We have a <a href=\"https://greaterthangames.com/comment/4040#comment-4040\">ruling</a> that the original damage is canceled.</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.603Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/comment/4040#comment-4040",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117928,
+        "name": "LeperKhan",
+        "username": "LeperKhan",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/leperkhan/{size}/1894_2.png",
+        "created_at": "2014-09-14T18:22:06.000Z",
+        "cooked": "<p>There are plenty of cards that say to deal all other targets a set amount of damage after an initial attack, so why wouldn't Mr. Fixer's? His says to do \"that\" damage to all non-hero targets. It could have been that he does \"1\" damage to all non-hero targets (which would still be buffed from styles and whatnot)...but that is obviously not intended, as written. It's akin to AZ doing \"that much\" cold damage to a target; he makes an attack (against himself), it may get modified to be more, then he does \"that much\" damage back out, modified again, if possible. I'm surprised there is confusion here when these are such similar situations.</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.679Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "LeperKhan",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8247,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117929,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-14T18:33:12.000Z",
+        "cooked": "<p>As I mentioned above, that would be a good theory, except that we know it isn't true. In AZ's case, and seemingly what should be in ours, all modifiers are taken into account (both of the attacker and target, which would both be AZ), and then he deals \"that much damage.\" However, we know that Fixer can't hit himself with Bloody knuckles in order to deal all other targets 5 damage. If it was similar to AZ, that would have worked.</p>",
+        "post_number": 29,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.750Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117930,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2014-09-14T18:43:00.000Z",
+        "cooked": "<p>Jack Handle is not an X damage card. &nbsp;The initial damage isn't dealt, the process alters it to instead hit all non-hero targets.</p><p>That step comes first, before you calculate modifiers to damage.</p><p>For example Twist the Ether affects Jack handle by each individual instance of damage, not treating it as one instance. &nbsp;In the same way Galvanize will increase each instance individually, and Critical Multiplier will work the same, treating each instance as a seperate instance of damage, and thus only affecting the first instance.</p><p>It works the same as Crowbars, turning the initial deal 1 target 1 damage into deal 2 targets 1 damage. &nbsp;It then increases both by 1.</p><p>&nbsp;</p><p>Absolute Zero works differently because he takes damage, and then responds with X damage.</p><p>&nbsp;</p><p>For Jack Handle to work the way people are saying it does it would be worded: &nbsp;</p><blockquote><p>When Mr. Fixer deals damage, deal each other non-hero target X damage of the same type, where X is the amount of damage Mr. Fixer dealt.</p></blockquote>",
+        "post_number": 30,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.814Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117931,
+        "name": "Silverleaf",
+        "username": "Silverleaf",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+        "created_at": "2014-09-14T19:31:27.000Z",
+        "cooked": "<p>Gah. Can we have a sensible thread title here please, so people know what this thread's actually about?&nbsp;</p><p>I suggest something like \"Jack Handle/Dual Crowbars and increased damage\"</p><p>Vague titles like this one aren't at all helpful for people looking for answers. Mods?</p>",
+        "post_number": 31,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.892Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Silverleaf",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4341,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117932,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-14T19:47:40.000Z",
+        "cooked": "<p>Gah?</p>",
+        "post_number": 32,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:43.973Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117933,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2014-09-14T20:01:15.000Z",
+        "cooked": "<p>Quack.</p><p>&nbsp;</p><p>I am of the opinion (with no real way to back it up) that it is only the first target who takes the increased damage.</p>",
+        "post_number": 33,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.074Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117934,
+        "name": "Silverleaf",
+        "username": "Silverleaf",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+        "created_at": "2014-09-14T20:43:18.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Gah?</p>\n</blockquote>\n</aside>\n<p>Expression of mild annoyance and frustration.</p>",
+        "post_number": 34,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.136Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Silverleaf",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4341,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117935,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-14T20:44:38.000Z",
+        "cooked": "<p>OK, so that is mild. What is the next expression going towards full annoyance and frustration?</p>",
+        "post_number": 35,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.194Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117936,
+        "name": "Silverleaf",
+        "username": "Silverleaf",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+        "created_at": "2014-09-14T20:56:53.000Z",
+        "cooked": "<p>Damn it, Ronway!</p>",
+        "post_number": 36,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.252Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Silverleaf",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4341,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117937,
+        "name": "enden",
+        "username": "enden",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/49beb7/{size}.png",
+        "created_at": "2014-09-15T06:38:19.000Z",
+        "cooked": "<p>It seems to me that the problem is with the word \"that\" on the Jack Handle. \"That damage\" could refer to either (a) the <em><strong>unmoddified&nbsp;</strong></em>damage being dealt by Mr. Fixer, or (b) the&nbsp;<em><strong>total&nbsp;</strong></em>damage being dealt by Mr. Fixer.</p><p>If (a), then only the first damage dealt gets the boost.</p><p>If (b), than the damage dealt to all of the targets gets the boost.</p><p>As a professional in language and logic, I think interpretation (a) makes the most sense of the English language as written on the card, but as someone familiar with the way this game usually works, I'm willing to bet that (b) is the intended interpretation.</p><p>If (b) is the intended interpretation, I suggest the following change to the wording on the card:&nbsp;</p><p>\"Whenever Mr. Fixer would deal damage to a (non-hero) target, he deals damage to all non-hero targets instead.\"</p><p>The \"(non-hero)\" is in there because I'm not too sure about whether or not the intent is just to make the jack handle work against non-heroes.</p>",
+        "post_number": 37,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.322Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "enden",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 9718,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117938,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-15T16:00:00.000Z",
+        "cooked": "<p>Hey, Silverleaf! You’re “Gah” worked!</p>",
+        "post_number": 38,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.402Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117939,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-15T16:03:16.000Z",
+        "cooked": "<p>Just wanted to point out that if the combo does work, PW Haka and Mr. Fixer are very good friends. Hmmmm…is taking out all of the Ennead at full health with one Strike too powerful?</p>",
+        "post_number": 39,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.463Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117940,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2014-09-15T16:10:49.000Z",
+        "cooked": "<p>Considering the buildup needed for that to happen it seems fine. &nbsp;</p>",
+        "post_number": 40,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.520Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117941,
+        "name": "Silverleaf",
+        "username": "Silverleaf",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+        "created_at": "2014-09-15T18:41:32.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Hey, Silverleaf! You're \"Gah\" worked!</p>\n</blockquote>\n</aside>\n<p>Yay! Thank you lovely moderator person. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 41,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.589Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Silverleaf",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4341,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117942,
+        "name": "Sefirit",
+        "username": "Sefirit",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/e68b1a/{size}.png",
+        "created_at": "2014-09-15T18:50:55.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>Then how that work with a charge then? &nbsp;Shouldn't that deal 2 damage to each non hero target. &nbsp;It's not using the strike so it should not be dealing a base of one melee damage.&nbsp;What about the Dual Crowbars? &nbsp;I don't see that question answered.&nbsp;</p>\n</blockquote>\n</aside>\n<p>Jackhandle is more like \"When Fixer would make an attack, before applying any bonuses or reductions, decided the value of that attack.&nbsp;&nbsp; Then attack each non-hero target for that amount adding in bonuses or reductions on a target by target basis.\"</p>\n<p>&nbsp;</p>\n<p>Obviously this is very wordy and they were trying to keep the card from being wordy and instead made it somewhat ambiguous.&nbsp; However it is meant to make strike hit everything for 1 (with individual bonuses) and Charge hit everything for 2 (with individual bonuses).</p>\n<p>&nbsp;</p>\n<p>Crowbars work the same except you only pick one extra target.&nbsp; Bonuses and redcutions are still target to target.</p>",
+        "post_number": 42,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.658Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Sefirit",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3727,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117943,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2014-09-15T19:09:00.000Z",
+        "cooked": "<p>I understand the ruling better at this point it just doesn't sit well with me based on how I interpret the text. &nbsp;&nbsp;</p>",
+        "post_number": 43,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.732Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117944,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-15T20:00:00.000Z",
+        "cooked": "<p>Welcome to the Rule <span class=\"hashtag\">#15</span> Club.</p>",
+        "post_number": 44,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.805Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117945,
+        "name": "Sefirit",
+        "username": "Sefirit",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/e68b1a/{size}.png",
+        "created_at": "2014-09-16T14:34:31.000Z",
+        "cooked": "<p>You said it, I was so disappointed in Rule 15.&nbsp; All those combos I thought I was being clever with gone.</p>",
+        "post_number": 45,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.887Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Sefirit",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3727,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117946,
+        "name": "Sefirit",
+        "username": "Sefirit",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/e68b1a/{size}.png",
+        "created_at": "2014-09-16T14:37:40.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>I understand the ruling better at this point it just doesn't sit well with me based on how I interpret the text. &nbsp;&nbsp;</p>\n</blockquote>\n</aside>\n<p>I understand how you feel about this, but luckily I think this was more common in the earlier sets. Maybe its from all the questions they got leading to practice but, at least to me, it seems like there are fewer of these issues in the newer stuff.</p>",
+        "post_number": 46,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:44.953Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Sefirit",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3727,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117947,
+        "name": "c_s_williams1978",
+        "username": "c_s_williams1978",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/58956e/{size}.png",
+        "created_at": "2014-09-17T11:38:06.000Z",
+        "cooked": "<p>What is rule #15?</p>",
+        "post_number": 47,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.022Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "c_s_williams1978",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8404,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-07-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117948,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2014-09-17T13:04:47.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"c_s_williams1978\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/c/58956e/48.png\" class=\"avatar\"> c_s_williams1978:</div>\n<blockquote>\n<p>What is rule <span class=\"hashtag-raw\">#15</span>?</p>\n</blockquote>\n</aside>\n<p>The ruling that cards like Solar Flare and Pushing the Limits would destroy itself if the hero does not take at least 1 point of damage from the \"Deal yourself damage or destroy this card\" effect.</p>",
+        "post_number": 48,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.094Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117949,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2014-09-17T13:09:54.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<div><b>c_s_williams1978 wrote:</b><br><blockquote>What is rule #15?\n&nbsp;\n</blockquote></div>\nThe ruling that cards like Solar Flare and Pushing the Limits would destroy itself if the hero does not take at least 1 point of damage from the \"Deal yourself damage or destroy this card\" effect.\n</blockquote>\n</aside>\n<p>Which I believe the latest version printed /&nbsp;errata&nbsp;removed the need for, right?</p>",
+        "post_number": 49,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.162Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117950,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-09-17T13:12:14.000Z",
+        "cooked": "<p>No, the lasted errata just changed the wording to fit that description. You still need to take at least one damage.</p>",
+        "post_number": 50,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.240Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117951,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2014-09-17T13:21:41.000Z",
+        "cooked": "<p>Ah - right!  <img src=\"//forums.greaterthangames.com/images/emoji/apple/blush.png?v=9\" title=\":blush:\" class=\"emoji\" alt=\":blush:\"></p>",
+        "post_number": 51,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.306Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117952,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2014-09-17T13:26:58.000Z",
+        "cooked": "<p>It was devastating to fans of the Solar Flare, Imbued Fire, Flesh of the Sun God combo. (change the self damage to fire, which you are immune to so no self-damage)</p><p>And Tachyon with boosted damage redirecting her Pushing the Limits damage with Synaptic Interuption.</p><p>&nbsp;</p>",
+        "post_number": 52,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.404Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117953,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2014-09-28T18:48:30.000Z",
+        "cooked": "<p>I can't tell if it's been resolved here, but the way I interpret it is as follows:</p><p>It doesn't work by calculating the final damage (including first-time damage buffs, like Multiplier) and then applying that to each other target; instead, it takes the initial value (usually 1 or 2, but can be more under certain circumstances) and applies that as a Squall effect.</p><p>&nbsp;</p><p>So, maybe, it could work like this:</p><p>\"Whenever Mr. Fixer would deal damage to only 1 target, he instead deals that damage to all non-hero targets, before you apply any increases or decreases to the amount dealt.\"</p>",
+        "post_number": 53,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.473Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117954,
+        "name": "Greywind",
+        "username": "Greywind",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+        "created_at": "2014-09-28T22:10:37.000Z",
+        "cooked": "<p>But if he's already dealt it, kind of hard to retroactively apply the increases or decreases.</p>",
+        "post_number": 54,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.547Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Greywind",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3795,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117955,
+        "name": "Sefirit",
+        "username": "Sefirit",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/e68b1a/{size}.png",
+        "created_at": "2014-10-02T16:14:07.000Z",
+        "cooked": "<p>I think introducing a term like base damage or initial damage amout would be very helpful. &nbsp;It could be defined as the damage value of an attack before any modifiers are applies so you could see something like this:</p><p>\"Whenever Mr. Fixer would deal a target damage, instead he deals all non-hero targets the same base damage.\"</p><p><span>But of course there are no such terms in the game so it would have to be a new terminology to introduce.</span></p>",
+        "post_number": 55,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.627Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Sefirit",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3727,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117956,
+        "name": "eric.d.m.miller",
+        "username": "eric.d.m.miller",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/48db29/{size}.png",
+        "created_at": "2014-10-03T17:45:08.000Z",
+        "cooked": "<p>This is the worst ruling ever.</p>",
+        "post_number": 56,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.693Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "eric.d.m.miller",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6469,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117957,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2014-10-03T18:00:38.000Z",
+        "cooked": "<p>I don't know that it's the worst but I do know it is not one I'll go by while I'm playing with my group</p>",
+        "post_number": 57,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.768Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117958,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2014-10-03T21:26:51.000Z",
+        "cooked": "<p>Meh, Mr. Fixer doesn't need to get silly damage to be awesome.</p>",
+        "post_number": 58,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.824Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117959,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-10-03T21:37:27.000Z",
+        "cooked": "<p>With Grease Monkey Fist he can do Silly Damage.</p>",
+        "post_number": 59,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.887Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117960,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2014-10-04T19:59:37.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"eric.d.m.miller\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/48db29/48.png\" class=\"avatar\"> eric.d.m.miller:</div>\n<blockquote>\n<p>This is the worst ruling ever.</p>\n</blockquote>\n</aside>\n<p>Until I see something official, I'm choosing to believe that Ronway hallucinated the entire thing.</p>",
+        "post_number": 60,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:45.949Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117961,
+        "name": "Reckless",
+        "username": "Reckless",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/reckless/{size}/2467_2.png",
+        "created_at": "2014-10-04T21:59:28.000Z",
+        "cooked": "<p>The more rulings I hear on Mister Fixer and his Tools, the more I'm convinced that his mechanics don't actually work in Sentinels of the Multiverse.&nbsp; This forum could almost have an \"Except Mister Fixer\" trope.</p>",
+        "post_number": 61,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.014Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Reckless",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 422,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-17",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117962,
+        "name": "Silverleaf",
+        "username": "Silverleaf",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+        "created_at": "2014-10-04T22:34:42.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Spiff\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/spiff/48/1865_2.png\" class=\"avatar\"> Spiff:</div>\n<blockquote>\n<div><b>eric.d.m.miller wrote:</b><br><blockquote>This is the worst ruling ever.</blockquote></div>\nUntil I see something official, I'm choosing to believe that Ronway hallucinated the entire thing. \n</blockquote>\n</aside>\n<p>We're all part of Ronway's hallucination? That makes complete sense.</p>",
+        "post_number": 62,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.084Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Silverleaf",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4341,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117963,
+        "name": "Nataraja",
+        "username": "Nataraja",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/7feea3/{size}.png",
+        "created_at": "2014-11-25T13:50:29.000Z",
+        "cooked": "<p>I think the sane way to treat Duel Crowbars / Jack Handle is as \"redirection effects\" that instead of redirecting the original damage, add another attack on top of them</p><p>https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047</p><p>From thios thread, and the latter part of the discussion, it becomes apparent that when you apply redirection effects you start with the base damage and add modifiers target from target all over again without considering modifiers to the first attack</p><p>This is different from, for example, Isothermic Transducer and Sacrosant Martyr work because those consider damage taken to create new attacks to which modifiers are applied, creating situations where modifiers \"get applied twice\" (AZ deals himself 1+1 due to Galvanize, results in 2 damage taken, attacks for 2+1)</p><p>It was stated that this was not the intent of Dual Crowbar and, from comments, neither of Jack Handle I suppose</p><p>Also, I don't have the card right on me now, but does Jack Handle state \"to all non-Hero targets\" or \"to all OTHER non-Hero targets\"? Because I think it's the former, and as written it means that if you targeted a non-Hero first you would hit them with Jack Handle again</p>",
+        "post_number": 63,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.150Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Nataraja",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11015,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-11-24",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117964,
+        "name": "Nataraja",
+        "username": "Nataraja",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/7feea3/{size}.png",
+        "created_at": "2014-11-25T13:56:04.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Nataraja\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/n/7feea3/48.png\" class=\"avatar\"> Nataraja:</div>\n<blockquote>\n<p>Also, I don't have the card right on me now, but does Jack Handle state \"to all non-Hero targets\" or \"to all OTHER non-Hero targets\"? Because I think it's the former, and as written it means that if you targeted a non-Hero first you would hit them with Jack Handle again</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Okay, sorry about this, I missedthe card saying \"would\", so apparently it's a substitution… adding \"instead\" at the end of the sentence would make it clearer</p>",
+        "post_number": 64,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.228Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Nataraja",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11015,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-11-24",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117965,
+        "name": "eric.d.m.miller",
+        "username": "eric.d.m.miller",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/48db29/{size}.png",
+        "created_at": "2014-11-25T16:22:07.000Z",
+        "cooked": "<p>If they want to change it, they need to issue a reprint for the card.</p><p><br>There is no ambiguity in it whatsoever. Their attempt to rewrite it in the errata to fit their intention is foolish.</p>",
+        "post_number": 65,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.294Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "eric.d.m.miller",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6469,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117966,
+        "name": "Killswitch",
+        "username": "Killswitch",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/killswitch/{size}/2116_2.png",
+        "created_at": "2014-11-25T16:28:00.000Z",
+        "cooked": "<p>Sorry if I'm just repeating something that's already been said/discussed, but the way I see it, there's one of two ways this combo works.</p><p>1) Mr. Fixer is about to deal damage to a target. Jack Handle then says \"This is actually going to happen to everyone.\" So no damage is dealt before a single target instance turns into an AoE. This means you would apply the first instance in order, from target to target. So if you're about to damage a Gene-Bound target, Jack Handle kicks in. Then for each instance of damage, you apply the modifiers. For the first instance, you deal 1+x, where X = \"additional modifiers the first time you deal damage.\"&nbsp; Because damage is never simultaneous, you would break the combat down into instances.</p><p>2) You take the card more literally, and determine the first instance of damage, and then go on to apply the same amount of damage for everything else. This more closely follows the damage dealing order of operations. So first you apply the modifiers to his initial \"strike\" power. Let's say he does +3 damage for a total of 4. Next we confirm that he is in fact dealing damage; Jack Handle kicks in. Jack Handle then says \"okay, we're doing this damage to everything now.\" So everything takes 4.</p><p>I'm leaning toward #2. The way Jack Handle is worded, it copies the first damage instance (which would still technically be the first target being hit) and applies it to all targets. Or does the game remove modifiers after moving on to check if damage is being dealt somehow?</p>",
+        "post_number": 66,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.366Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Killswitch",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8636,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117967,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-11-25T16:44:05.000Z",
+        "cooked": "<p>Here’s the thing, we know <span class=\"hashtag\">#2</span> is wrong, because Mr. Fixer cannot target hinself with Bloody Knuckles to deal all non-hero targets 5 damage (ruling from Christopher).</p>",
+        "post_number": 67,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.444Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117968,
+        "name": "Killswitch",
+        "username": "Killswitch",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/killswitch/{size}/2116_2.png",
+        "created_at": "2014-11-25T16:57:00.000Z",
+        "cooked": "<p>That appears to be more due to the fact that Jack Handle is meant to apply among only non-hero targets. Since Fixer is a hero target, there would be a mismatch when you add villians and/or environments to the equation, because then you're dealing damage to \"all non-hero targets and a good guy.\"</p>",
+        "post_number": 68,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.515Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Killswitch",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8636,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117969,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-11-25T17:11:49.000Z",
+        "cooked": "<p>Not entirely sure what you mean, but I don't think who you targeted should matter. Mr. Fixer is great against The Rat, because all of that self damage and damage to other heroes gets redirected to The Rat (cancel that first attack, then hit all non-hero targets). If it mattered who you hit, that would never work. If you say that the \"next damage\" buff should apply to every target, then so should Bloody Knuckles. Mr. Fixer hits himself with Bloody Knuckles in play, base attack 1 damage, +2 for Bloody Knuckles, then another +2 for Bloody Knuckles. Now, that same damge should then apply to all other targets as the final damage modifications, but it isn't.</p><p>Let's go through how it would work if the \"next damage\" buff would work.</p><p>1) Mr. Fixer targets something.</p><p>2) Add in all modifications from the attacker and defender.</p><p>3) Determine if hp was reduced.</p><p>4) If no hp was reduced, then no damage would have been dealt, and it doesn't then hit all non-hero targets. If an hp was reduced, then we can hit all non-hero targets.</p><p>We have this strange word of \"that\" and there are two methods to go to from here:</p><p>A) We reevaluate all modifications, and start fresh with new targets (just like redirections). In this case, only the first one hit will get the buff.</p><p>B) We only take <em>some</em> of the modifications. Because of the Bloody Knuckles ruling, we know that damage modifications from the defender do not matter. So, even though we needed to calculate the modifications to see if any hp was reduced in order to see if we can hit other targets, we are now going to ignore those modifications, but keep others. Honestly, this is a stretch, and if true, the word \"that\" is one amazing word. It doesn't actually mean \"that whole damage,\" but only \"some of that damage.\"</p>",
+        "post_number": 69,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.575Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 117970,
+        "name": "Nataraja",
+        "username": "Nataraja",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/7feea3/{size}.png",
+        "created_at": "2014-11-25T18:10:07.000Z",
+        "cooked": "<p>I'd leanb towards A) myself, but that just brought to mind anotehr question:</p><p>If base damage is reapplied and re-evaluated entirely like redirections, and I have Grease Monkey Fist in play, can I change damage type for each Jack Handle attack?</p>",
+        "post_number": 70,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:50:46.667Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 11278,
+        "topic_slug": "fixers-jack-handle-dual-crowbars-and-increased-damage-again",
+        "display_username": "Nataraja",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11015,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-11-24",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 11278
+}

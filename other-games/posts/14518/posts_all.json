@@ -1,0 +1,855 @@
+{
+  "posts": [
+    {
+      "id": 14521,
+      "name": "Ironic",
+      "username": "Ironic",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ironic/{size}/2171_2.png",
+      "created_at": "2016-02-14T04:32:02.000Z",
+      "cooked": "<p>It all began innocuously enough last night, as I was brushing up on the flip sides for the Termi-Nation promos.&nbsp; I noticed that Bunker has the rather unique ability to move an entire deck into its trash - that seemed exotic and strange, and I immediately wondered whether anyone else could do something like that.&nbsp; To spare you all the suspense, they can't really, but in the process of thinking about, one thing led to another, and I ended up with a full list of Incapacitated abilities in order of how often they appear:</p><ul>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One Player May Draw A Card Now (30)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One Hero may use a power now. (25)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One player may play a card now. (22)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Destroy 1 ongoing card. (17)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Destroy 1 Environment Card (6)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Destroy a target with 1 HP (5)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One Hero regains 2 HP. (5)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One Hero Target Regains 1 HP (4)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Select a Hero. Increase the next damage dealt by that hero by 2. (3)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Select a Hero. Reduce the next damage dealt to that hero by 2. (3)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Discard the Top Card of Each Deck. (3)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One player may take a card from their trash into their hand. (2)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><span><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><span><span>Select an Equipment card in a Hero trash. Put it into play. (2)</span></span></span></font></font></span></font></p></li>\n</ul><p><font color=\"#000000\"><span><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><span><span>(I have lumped together abilities which heal any target 1-2 HP with those which specify a \"Hero,\" on the logic that cases where that matters are quite uncommon.)</span></span></span></font></font></span></font></p><p><font color=\"#000000\"><span><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><span><span>Then, of course, there are the 45 abilities which show up only once:</span></span></span></font></font></span></font></p><ul>\n<li><p><font color=\"#000000\"><span><font face=\"Arial\"><font size=\"2\"><span><span><span>Environment Cards cannot be played until the start of your next turn (Elemental Wrath AZ)</span></span></span></font></font></span></font></p></li>\n<li><p><font color=\"#000000\"><span><font face=\"Arial\"><font size=\"2\"><span><span><span>Reduce all non-cold damage by 1 until the start of your next turn. (Termi-Nation AZ)</span></span></span></font></font></span></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One Target deals itself 1 Cold Damage (Iron AZ)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Put a deck in its trash. (Termi-Nation Bunker)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One player discards 2 cards and draws 2 cards. (Termi-Nation Bunker)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Destroy 1 hero ongoing or equipment card. Play the top 2 cards of that hero's deck. (Termi-Nation Bunker)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One Player puts 1 card from their trash on top of their deck now. (Freedom Six Bunker)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Each Hero regains 1 HP. (Redeemer Fanatic)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Reduce all damage dealt by 2 until the start of your next turn (Eternal Haka)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Reduce damage dealt by Environment Cards by 2 until the start of your next turn. (Base Legacy)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Discard the top card of 1 Deck. (WWII Legacy)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Until the start of your next turn, increase damage dealt by Heroes by 1. (Young Legacy)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><span><font face=\"Arial\"><font size=\"2\"><span><span><span>Put an Environment Card in play on the bottom of the Environment deck. (Base Ra)</span></span></span></font></font></span></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Move a Villain Card from the Villain trash to the top of the Villain Deck. (Horus Ra)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Move the bottom card of a deck to the top of that deck now. (Science Tachyon)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Shuffle a trash into its associated deck. (Team Leader Tachyon)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Heroes are Immune to a damage type of your choice until the start of your next turn. (Base Tempest)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>One player may take an Ongoing card from their trash into their hand. (Base Tempest)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Move one Card from the Villain or Environment Trash into Play. (Prime Tempest)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Move 1 Environment card from the Environment Trash to the top of the Environment Deck (Dark Visionary)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>Put 1 Ongoing Card on top of its Associated Deck. (Freedom Wraith)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>The next time that hero uses a power, that hero also deals 1 target 1 projectile damage. (Base ExPat)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><font face=\"Arial\"><font size=\"2\">Reduce the next damage dealt to a hero target by 1. (Dark Watch ExPat)</font></font></span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>Put a Card in a Trash pile under its associated deck. (Dark Watch Fixer)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>Select a damage type. Until the start of your next turn, increase all damage of that type dealt by Hero targets by 1. (Base Adept)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>Redirect the next Damage Dealt to a Hero Target to Another Target (Prime Adept)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>Destroy a target with 2 or fewer HP. (Kvothe)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>Move the top card of a Trash Pile to the top of its associated deck. (Dark Watch Nightmist)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>One Hero may deal 1 Target 1 Projectile Damage Now (Base Ranger)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span>Until the start of your next turn, at the start of each player's turn, they may discard 1 card to play 1 card. (Best Of Ranger)</span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Select a Target. Reduce Damage dealt to that target by 1 until the start of your next turn. (Omnitron-X)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Each Target Regains 1 HP Now. (Rogue KNYFE)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Reveal the Top Card of a Deck. Put it into Play or Discard it. (Rogue KNYFE)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Hero Targets are immune to damage from Environment Targets until the start of your Turn. (Base Naturalist)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">The Environment Target with the highest HP deals each Non-Hero Target 2 Melee damage. (Hunted Naturalist)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">One Player may Shuffle their Trash into their Deck now. (Parse)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Reveal the Top card of the Villain Deck, then Replace it. (Parse)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Reveal the top card of a deck. Discard it or put it on the bottom of that deck. (Dark Watch Setback)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Reduce Damage dealt by 1 until the Start of your next Turn. (Base Cosmic)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">One Player may Discard 1 Card. If they do, they may Draw 3 Cards (Prime Cosmic)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Until the Start of your Next Turn, Treat this card as a 1 HP Indestructible Target. (Base Sky-Scraper: Giant)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><span>The hero Target with the lowest HP</span></span></font></font></font><font color=\"#5555aa\"><span><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><span> </span></span></font></font></span></font><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><span>regains 2 hp (Base Unity)</span></span></font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Reduce Damage Dealt to non-character cards by 2 until the start of your next turn. (Termi-Nation Unity)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\">Destroy a Non-Character Card Device Card (Golem Unity)</font></font></font></p></li>\n<li><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><span>Up to 2 Hero Targets regain 1 HP each. (Scholar)</span></span></font></font></font></p></li>\n</ul><p>&nbsp;</p><p><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\"><span><span>There's some really interesting things there, from the utterly game-defining (Dark Watch Nightmist locking down a villain who only plays 1 card per turn) to the inscrutably cornercase (how often do you REALLY want Dark Watch Fixer to put things on the <em>bottom</em> of a deck?), but here are the biggest ones which jumped out at me:</span></span></font></font></font></p><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>Has anyone ever used “discard the top card of each deck”? Why? I can't come up with a situation where that's good for the heroes – they're the ones who sometimes stack decks in their favor, not Villains/Environments. Yet it's shown up three times.</span></font></font></font></p><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>You gotta feel bad for Freedom Six Bunker – stuck with an Incap which is strictly worse than normal Bunker's incap (move a card from a Hero's Trash to their Hand/top of deck). Granted, the normal one (which Base Tachyon has, too) is totally absurd, but still.</span></font></font></font></p><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>All Legacies share ⅔ of their abilities: use a Power and draw a Card. The third ability is always unique. Cleverest Legacy fans, take note!</span></font></font></font></p><p><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\"><span>The Tachyons ALMOST duplicate this pattern with Draw a Card - Play a Card - Trash manipulation of some kind, but Super Science Tachyon gets Ongoing destruction instead of card draw. This irks me beyond all reason.</span></font></font></font></p><p><font color=\"#000000\"><span><font face=\"Arial\"><font size=\"2\"><span><span><span>All of regular Visionary's incaps break things (as Dark Visionary cuts loose), and all of Dark Visionary's fix things (as the regular one fights back). That's really cool.</span></span></span></font></font></span></font></p><p><font color=\"#000000\"><span><font face=\"Arial\"><font size=\"2\"><span><span><span>People aren't kidding about Parse's incap abilities – two unique ones, both awful, plus “Draw a card”.</span></span></span></font></font></span></font></p><p><font color=\"#000000\"><span><font face=\"Arial\"><font size=\"2\"><span><span><span>Sky-Scraper is strange. It didn't occur to me until doing this that if she's about to die, she might change form specifically to have the right Incap – probably Large Form, for that lowest-HP tanking. On the other hand, maybe you think it's funnier to go with Normal Form, so that you can boast the one and only Incap side which follows turn sequence: Play, Power, Draw.</span></span></span></font></font></span></font></p><p><font color=\"#000000\"><span><font face=\"Arial\"><font size=\"2\"><span><span><span>Why do two Unitys have an Incaps custom made to protect Golems? Don't they die when she does?</span></span></span></font></font></span></font></p><p><font color=\"#000000\"><span><font face=\"Arial\"><font size=\"2\"><span><span><span>Guise's Incaps are written to be wordy, but are amazingly powerful. I did not include any of them in list (no risk of anyone else having those), but it bears mentioning.</span></span></span></font></font></span></font></p><p>Finally, I'll note that Incap abilities as a concept still strike an odd note with me.&nbsp; I totally respect the desire to let a player keep doing <em>something</em> should she be taken out of the game early, but ever since an early experiment where my friends and I tried to tive a three hero team an extra \"half hero\" by starting them with Incapacitated Visionary, I've been cautious - there are some Incaps which can totally change the nature of a game as they reliably happen every turn (literally nothing can prevent them outright), and though I've always abstained for flavor reasons, I do somethimes feel the wholly unthematic call to focus fire on one of the heroes in order to unlock a power Incap early on before riding it to victory.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:46:38.179Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 78,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 390.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "Ironic",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It all began innocuously enough last night, as I was brushing up on the flip sides for the Termi-Nation promos.&nbsp; I noticed that Bunker has the rather unique ability to move an entire deck into its trash - that seemed exotic and strange, and I immediately wondered whether anyone else could do something like that.&nbsp; To spare you all the suspense, they can&#39;t really, but in the process of thinking about, one thing led to another, and I ended up with a full list of Incapacitated abilities in order of how often they appear:</p><ul><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One Player May Draw A Card Now (30)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One Hero may use a power now. (25)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One player may play a card now. (22)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Destroy 1 ongoing card. (17)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Destroy 1 Environment Card (6)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Destroy a target with 1 HP (5)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One Hero regains 2 HP. (5)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One Hero Target Regains 1 HP (4)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Select a Hero. Increase the next damage dealt by that hero by 2. (3)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Select a Hero. Reduce the next damage dealt to that hero by 2. (3)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Discard the Top Card of Each Deck. (3)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One player may take a card from their trash into their hand. (2)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">Select an Equipment card in a Hero trash. Put it into play. (2)</span></span></span></font></font></span></font></p></li></ul><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">(I have lumped together abilities which heal any target 1-2 HP with those which specify a &quot;Hero,&quot; on the logic that cases where that matters are quite uncommon.)</span></span></span></font></font></span></font></p><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">Then, of course, there are the 45 abilities which show up only once:</span></span></span></font></font></span></font></p><ul><li><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%; page-break-before: always\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">Environment Cards cannot be played until the start of your next turn (Elemental Wrath AZ)</span></span></span></font></font></span></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">Reduce all non-cold damage by 1 until the start of your next turn. (Termi-Nation AZ)</span></span></span></font></font></span></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One Target deals itself 1 Cold Damage (Iron AZ)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Put a deck in its trash. (Termi-Nation Bunker)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One player discards 2 cards and draws 2 cards. (Termi-Nation Bunker)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Destroy 1 hero ongoing or equipment card. Play the top 2 cards of that hero&#39;s deck. (Termi-Nation Bunker)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One Player puts 1 card from their trash on top of their deck now. (Freedom Six Bunker)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Each Hero regains 1 HP. (Redeemer Fanatic)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Reduce all damage dealt by 2 until the start of your next turn (Eternal Haka)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Reduce damage dealt by Environment Cards by 2 until the start of your next turn. (Base Legacy)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Discard the top card of 1 Deck. (WWII Legacy)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Until the start of your next turn, increase damage dealt by Heroes by 1. (Young Legacy)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">Put an Environment Card in play on the bottom of the Environment deck. (Base Ra)</span></span></span></font></font></span></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Move a Villain Card from the Villain trash to the top of the Villain Deck. (Horus Ra)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Move the bottom card of a deck to the top of that deck now. (Science Tachyon)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Shuffle a trash into its associated deck. (Team Leader Tachyon)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Heroes are Immune to a damage type of your choice until the start of your next turn. (Base Tempest)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">One player may take an Ongoing card from their trash into their hand. (Base Tempest)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Move one Card from the Villain or Environment Trash into Play. (Prime Tempest)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Move 1 Environment card from the Environment Trash to the top of the Environment Deck (Dark Visionary)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">Put 1 Ongoing Card on top of its Associated Deck. (Freedom Wraith)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">The next time that hero uses a power, that hero also deals 1 target 1 projectile damage. (Base ExPat)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\">Reduce the next damage dealt to a hero target by 1. (Dark Watch ExPat)</font></font></span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">Put a Card in a Trash pile under its associated deck. (Dark Watch Fixer)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">Select a damage type. Until the start of your next turn, increase all damage of that type dealt by Hero targets by 1. (Base Adept)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">Redirect the next Damage Dealt to a Hero Target to Another Target (Prime Adept)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">Destroy a target with 2 or fewer HP. (Kvothe)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">Move the top card of a Trash Pile to the top of its associated deck. (Dark Watch Nightmist)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">One Hero may deal 1 Target 1 Projectile Damage Now (Base Ranger)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"background: transparent\">Until the start of your next turn, at the start of each player&#39;s turn, they may discard 1 card to play 1 card. (Best Of Ranger)</span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Select a Target. Reduce Damage dealt to that target by 1 until the start of your next turn. (Omnitron-X)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Each Target Regains 1 HP Now. (Rogue KNYFE)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Reveal the Top Card of a Deck. Put it into Play or Discard it. (Rogue KNYFE)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Hero Targets are immune to damage from Environment Targets until the start of your Turn. (Base Naturalist)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">The Environment Target with the highest HP deals each Non-Hero Target 2 Melee damage. (Hunted Naturalist)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">One Player may Shuffle their Trash into their Deck now. (Parse)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Reveal the Top card of the Villain Deck, then Replace it. (Parse)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Reveal the top card of a deck. Discard it or put it on the bottom of that deck. (Dark Watch Setback)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Reduce Damage dealt by 1 until the Start of your next Turn. (Base Cosmic)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">One Player may Discard 1 Card. If they do, they may Draw 3 Cards (Prime Cosmic)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Until the Start of your Next Turn, Treat this card as a 1 HP Indestructible Target. (Base Sky-Scraper: Giant)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\">The hero Target with the lowest HP</span></span></font></font></font><font color=\"#5555aa\"><span style=\"text-decoration: none\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"> </span></span></font></font></span></font><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\">regains 2 hp (Base Unity)</span></span></font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Reduce Damage Dealt to non-character cards by 2 until the start of your next turn. (Termi-Nation Unity)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; font-style: normal; font-weight: normal; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\">Destroy a Non-Character Card Device Card (Golem Unity)</font></font></font></p></li><li><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\">Up to 2 Hero Targets regain 1 HP each. (Scholar)</span></span></font></font></font></p></li></ul><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\">&nbsp;</p><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\"><font color=\"#000000\"><font face=\"verdana, arial, helvetica, sans-serif\"><font size=\"2\" style=\"font-size: 9pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\">There&#39;s some really interesting things there, from the utterly game-defining (Dark Watch Nightmist locking down a villain who only plays 1 card per turn) to the inscrutably cornercase (how often do you REALLY want Dark Watch Fixer to put things on the <em>bottom</em> of a deck?), but here are the biggest ones which jumped out at me:</span></span></font></font></font></p><p style=\"margin-bottom: 0in; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none; page-break-before: always\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">Has anyone ever used &ldquo;discard the top card of each deck&rdquo;? Why? I can&#39;t come up with a situation where that&#39;s good for the heroes &ndash; they&#39;re the ones who sometimes stack decks in their favor, not Villains/Environments. Yet it&#39;s shown up three times.</span></font></font></font></p><p style=\"margin-bottom: 0in; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">You gotta feel bad for Freedom Six Bunker &ndash; stuck with an Incap which is strictly worse than normal Bunker&#39;s incap (move a card from a Hero&#39;s Trash to their Hand/top of deck). Granted, the normal one (which Base Tachyon has, too) is totally absurd, but still.</span></font></font></font></p><p style=\"margin-bottom: 0in; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">All Legacies share ⅔ of their abilities: use a Power and draw a Card. The third ability is always unique. Cleverest Legacy fans, take note!</span></font></font></font></p><p style=\"margin-bottom: 0in; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none\"><font color=\"#000000\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"background: transparent\">The Tachyons ALMOST duplicate this pattern with Draw a Card - Play a Card - Trash manipulation of some kind, but Super Science Tachyon gets Ongoing destruction instead of card draw. This irks me beyond all reason.</span></font></font></font></p><p style=\"margin-bottom: 0in; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">All of regular Visionary&#39;s incaps break things (as Dark Visionary cuts loose), and all of Dark Visionary&#39;s fix things (as the regular one fights back). That&#39;s really cool.</span></span></span></font></font></span></font></p><p style=\"margin-bottom: 0in; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">People aren&#39;t kidding about Parse&#39;s incap abilities &ndash; two unique ones, both awful, plus &ldquo;Draw a card&rdquo;.</span></span></span></font></font></span></font></p><p style=\"margin-bottom: 0in; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">Sky-Scraper is strange. It didn&#39;t occur to me until doing this that if she&#39;s about to die, she might change form specifically to have the right Incap &ndash; probably Large Form, for that lowest-HP tanking. On the other hand, maybe you think it&#39;s funnier to go with Normal Form, so that you can boast the one and only Incap side which follows turn sequence: Play, Power, Draw.</span></span></span></font></font></span></font></p><p style=\"margin-bottom: 0in; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">Why do two Unitys have an Incaps custom made to protect Golems? Don&#39;t they die when she does?</span></span></span></font></font></span></font></p><p style=\"margin-bottom: 0in; line-height: 138%\"><font color=\"#000000\"><span style=\"text-decoration: none\"><font face=\"Arial\"><font size=\"2\" style=\"font-size: 10pt\"><span style=\"font-style: normal\"><span style=\"font-weight: normal\"><span style=\"background: transparent\">Guise&#39;s Incaps are written to be wordy, but are amazingly powerful. I did not include any of them in list (no risk of anyone else having those), but it bears mentioning.</span></span></span></font></font></span></font></p><p style=\"margin-bottom: 0in; background: transparent; line-height: 138%\">Finally, I&#39;ll note that Incap abilities as a concept still strike an odd note with me.&nbsp; I totally respect the desire to let a player keep doing <em>something</em> should she be taken out of the game early, but ever since an early experiment where my friends and I tried to tive a three hero team an extra &quot;half hero&quot; by starting them with Incapacitated Visionary, I&#39;ve been cautious - there are some Incaps which can totally change the nature of a game as they reliably happen every turn (literally nothing can prevent them outright), and though I&#39;ve always abstained for flavor reasons, I do somethimes feel the wholly unthematic call to focus fire on one of the heroes in order to unlock a power Incap early on before riding it to victory.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3474,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162132,
+      "name": "MigrantP",
+      "username": "MigrantP",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+      "created_at": "2016-02-14T12:23:06.000Z",
+      "cooked": "<p>\n&gt; <span>how often do you REALLY want Dark Watch Fixer to put things on the&nbsp;</span><em>bottom</em><span>&nbsp;of a deck?\n</span></p><p><span>Against villains who search their trash for dangerous cards. With The Super Scientific Tachyon or Prime Wardens Argent Adept. Among other situations..</span></p><p>\n&gt; <span>Has anyone ever used “discard the top card of each deck”? Why? I can't come up with a situation where that's good for the heroes – they're the ones who sometimes stack decks in their favor, not Villains/Environments. Yet it's shown up three times.\n</span></p><p>Several heroes like to have cards in their trash. Tachyon, of course. Bunker &amp; Absolute Zero have cards that specifically search their trash for equipment. Plus, you can sometimes stack a bad card on top of the villain/environment deck, then discard it (I use often that trick with Omnitron-X). That's just off the top of my head.</p><p>\n&gt; <span>Why do two Unitys have an Incaps custom made to protect Golems? Don't they die when she does?\n</span></p><p><span>None of the abilities reference golems, so I'm not sure what this question is about.</span></p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:53.874Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "MigrantP",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>\n> <span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">how often do you REALLY want Dark Watch Fixer to put things on the&nbsp;</span><em style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px;\">bottom</em><span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">&nbsp;of a deck?\n</span></p><p><span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Against villains who search their trash for dangerous cards. With The Super Scientific Tachyon or Prime Wardens Argent Adept. Among other situations..</span></p><p>\n> <span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Has anyone ever used &ldquo;discard the top card of each deck&rdquo;? Why? I can&#39;t come up with a situation where that&#39;s good for the heroes &ndash; they&#39;re the ones who sometimes stack decks in their favor, not Villains/Environments. Yet it&#39;s shown up three times.\n</span></p><p>Several heroes like to have cards in their trash. Tachyon, of course. Bunker &amp; Absolute Zero have cards that specifically search their trash for equipment. Plus, you can sometimes stack a bad card on top of the villain/environment deck, then discard it (I use often that trick with Omnitron-X). That&#39;s just off the top of my head.</p><p>\n> <span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Why do two Unitys have an Incaps custom made to protect Golems? Don&#39;t they die when she does?\n</span></p><p><span style=\"color: rgb(51, 51, 51); font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">None of the abilities reference golems, so I&#39;m not sure what this question is about.</span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 442,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-22",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162133,
+      "name": "The Burning Stickman",
+      "username": "The_Burning_Stickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/the_burning_stickman/{size}/2003_2.png",
+      "created_at": "2016-02-14T14:23:42.000Z",
+      "cooked": "<p>I believe he's referring to the healing of the lowest HP Hero target, and non-character cards getting DR.</p><p>Note, of course, that those things apply to Captain Cosmic's constructs and Visionary's Decoy Projection. I'm also reasonably sure that Luminary's and Akash'Thriya's decks will include targets.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:53.946Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "The Burning Stickman",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I believe he&#39;s referring to the healing of the lowest HP Hero target, and non-character cards getting DR.</p><p>Note, of course, that those things apply to Captain Cosmic&#39;s constructs and Visionary&#39;s Decoy Projection. I&#39;m also reasonably sure that Luminary&#39;s and Akash&#39;Thriya&#39;s decks will include targets.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 11920,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-02-28",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162134,
+      "name": "Ironic",
+      "username": "Ironic",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ironic/{size}/2171_2.png",
+      "created_at": "2016-02-14T15:52:39.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"mwc146\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n mwc146:</div>\n<blockquote>\n<p>I believe he's referring to the healing of the lowest HP Hero target, and non-character cards getting DR.</p>\n<p>Note, of course, that those things apply to Captain Cosmic's constructs and Visionary's Decoy Projection. I'm also reasonably sure that Luminary's and Akash'Thriya's decks will include targets.</p>\n</blockquote>\n</aside>\n<p>Technically true.&nbsp; Also, if there's a helpful Environment target you want to keep around, Tarmi-Nation Unity is there in a pinch.</p>\n<p>That's still amazingly narrow, though.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:54.009Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "Ironic",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"mwc146\"]\nI believe he&#39;s referring to the healing of the lowest HP Hero target, and non-character cards getting DR.\n\nNote, of course, that those things apply to Captain Cosmic&#39;s constructs and Visionary&#39;s Decoy Projection. I&#39;m also reasonably sure that Luminary&#39;s and Akash&#39;Thriya&#39;s decks will include targets.\n[/quote]\nTechnically true.&nbsp; Also, if there&#39;s a helpful Environment target you want to keep around, Tarmi-Nation Unity is there in a pinch.\n\nThat&#39;s still amazingly narrow, though.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3474,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162135,
+      "name": "Trajector",
+      "username": "Trajector",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/trajector/{size}/1914_2.png",
+      "created_at": "2016-02-14T16:57:53.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Ironic\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ironic/48/2171_2.png\" class=\"avatar\"> Ironic:</div>\n<blockquote>\n<p>One Target deals itself 1 Cold Damage (Iron AZ)</p>\n</blockquote>\n</aside>\n<p>Haroo? Iron Absolute Zero?</p>\n<blockquote>\n<p>Finally, I'll note that Incap abilities as a concept still strike an odd note with me.&nbsp; I totally respect the desire to let a player keep doing <em>something</em> should she be taken out of the game early, but ever since an early experiment where my friends and I tried to tive a three hero team an extra \"half hero\" by starting them with Incapacitated Visionary, I've been cautious - there are some Incaps which can totally change the nature of a game as they reliably happen every turn (literally nothing can prevent them outright), and though I've always abstained for flavor reasons, I do somethimes feel the wholly unthematic call to focus fire on one of the heroes in order to unlock a power Incap early on before riding it to victory.</p>\n</blockquote>\n<p>I always pictured it as the other heroes fighting harder to avenge the fallen hero. (As well as giving incapacitated players a reason to keep sitting there at the table - not a feature to underestimate!) You know, the \"HEY! THEY GOT CHARLIE! I'M GONNA SMASH THOSE SONS-OF-#$%&amp;@!!!\" situation.</p>\n<p>That said, I can see what you mean. One time we were playing against the Matriarch, and doing&nbsp;<em>horribly</em> until Tempest got incapacitated. Then, every turn, we laughed in the face of projectile damage. That game swung around pretty quickly.&nbsp; Then again, all of the few games I've won against Matriarch hinged on something weird and specific like that, so maybe I didn't experience any general principle…</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:54.070Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "Trajector",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "[quote=\"Ironic\"]\n\nOne Target deals itself 1 Cold Damage (Iron AZ)\n[/quote]\n\nHaroo? Iron Absolute Zero?\n\n> Finally, I&#39;ll note that Incap abilities as a concept still strike an odd note with me.&nbsp; I totally respect the desire to let a player keep doing <em>something</em> should she be taken out of the game early, but ever since an early experiment where my friends and I tried to tive a three hero team an extra &quot;half hero&quot; by starting them with Incapacitated Visionary, I&#39;ve been cautious - there are some Incaps which can totally change the nature of a game as they reliably happen every turn (literally nothing can prevent them outright), and though I&#39;ve always abstained for flavor reasons, I do somethimes feel the wholly unthematic call to focus fire on one of the heroes in order to unlock a power Incap early on before riding it to victory.\n\nI always pictured it as the other heroes fighting harder to avenge the fallen hero. (As well as giving incapacitated players a reason to keep sitting there at the table - not a feature to underestimate!) You know, the &quot;HEY! THEY GOT CHARLIE! I&#39;M GONNA SMASH THOSE SONS-OF-#$%&amp;@!!!!&quot; situation.\n\nThat said, I can see what you mean. One time we were playing against the Matriarch, and doing&nbsp;<em>horribly</em> until Tempest got incapacitated. Then, every turn, we laughed in the face of projectile damage. That game swung around pretty quickly.&nbsp; Then again, all of the few games I&#39;ve won against Matriarch hinged on something weird and specific like that, so maybe I didn&#39;t experience any general principle... \n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 11097,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-12-13",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162136,
+      "name": "Ironic",
+      "username": "Ironic",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ironic/{size}/2171_2.png",
+      "created_at": "2016-02-14T17:35:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Trajector\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/trajector/48/1914_2.png\" class=\"avatar\"> Trajector:</div>\n<blockquote>\n<p>Haroo? Iron Absolute Zero?</p>\n</blockquote>\n</aside>\n<p>Freedom Six Absolute Zero, or The Elemental Wrath, really.&nbsp; I tend to call all the Iron Timeline heroes \"Iron so-and-so,\" and sometimes forget to change that for the benefit of others.</p>\n<div>\n&gt; I always pictured it as the other heroes fighting harder to avenge the fallen hero. (As well as giving incapacitated players a reason to keep sitting there at the table - not a feature to underestimate!) You know, the \"HEY! THEY GOT CHARLIE! I'M GONNA SMASH THOSE SONS-OF-#$%&amp;@!!!!\" situation.\nThat's the concept, to be sure, but sometimes the implementation seems <em>too</em> strong.</div><div>I would almost always prefer an Incapacitated Bunker on my team to an active one, for example.</div>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:54.136Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "Ironic",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Trajector\"]\nHaroo? Iron Absolute Zero?\n[/quote]\n\nFreedom Six Absolute Zero, or The Elemental Wrath, really.&nbsp; I tend to call all the Iron Timeline heroes &quot;Iron so-and-so,&quot; and sometimes forget to change that for the benefit of others.\n<div class=\"bb-quote\">\n> I always pictured it as the other heroes fighting harder to avenge the fallen hero. (As well as giving incapacitated players a reason to keep sitting there at the table - not a feature to underestimate!) You know, the &quot;HEY! THEY GOT CHARLIE! I&#39;M GONNA SMASH THOSE SONS-OF-#$%&amp;@!!!!&quot; situation.\nThat&#39;s the concept, to be sure, but sometimes the implementation seems <em>too</em> strong.</div><div class=\"bb-quote\">I would almost always prefer an Incapacitated Bunker on my team to an active one, for example.</div>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3474,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162137,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2016-02-14T18:51:26.000Z",
+      "cooked": "<p>You can edit a comment and expand administration. &nbsp; On that choose Not Published</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:54.198Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>You can edit a comment and expand administration. &nbsp; On that choose Not Published</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162138,
+      "name": "XXVZ",
+      "username": "XXVZ",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/xxvz/{size}/2367_2.png",
+      "created_at": "2016-02-14T19:08:44.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Trajector\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/trajector/48/1914_2.png\" class=\"avatar\"> Trajector:</div>\n<blockquote>\n<p>One time we were playing against the Matriarch, and doing&nbsp; <em>horribly</em>  until Tempest got incapacitated. Then, every turn, we laughed in the face of projectile damage. That game swung around pretty quickly.&nbsp;Then again, all of the few games I've won against Matriarch hinged on something weird and specific like that, so maybe I didn't experience any general principle…</p>\n</blockquote>\n</aside>\n<p>Yeah, one time I played the Sentinels, Legacy and Tempest against Matriarch, with Mainstay and Tempest's base powers alone, she didn't stand a chance…</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:54.265Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "XXVZ",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Trajector\"]\n\n One time we were playing against the Matriarch, and doing&nbsp; <em style=\"font-size: 13px; background-color: rgb(235, 233, 234);\">horribly</em>  until Tempest got incapacitated. Then, every turn, we laughed in the face of projectile damage. That game swung around pretty quickly.&nbsp;Then again, all of the few games I&#39;ve won against Matriarch hinged on something weird and specific like that, so maybe I didn&#39;t experience any general principle... \n\n[/quote]\n\nYeah, one time I played the Sentinels, Legacy and Tempest against Matriarch, with Mainstay and Tempest&#39;s base powers alone, she didn&#39;t stand a chance...\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 7617,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-01-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162139,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2016-02-14T20:57:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>You can edit a comment and expand administration. &nbsp; On that choose Not Published</p>\n</blockquote>\n</aside>\n<p>And if you've updated to indicate it should be deleted, a Mod will often do so.</p>\n<p>Like this.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:54.333Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Powerhound_2000\"]\n\nYou can edit a comment and expand administration. &nbsp; On that choose Not Published\n[/quote]\n\nAnd if you&#39;ve updated to indicate it should be deleted, a Mod will often do so.\n\nLike this.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 162140,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2016-02-14T23:55:11.000Z",
+      "cooked": "<p>Another, rare but important case where you might want to \"discard the top card of every deck\": Your deck stacking wasn't good enough.&nbsp; I've certainly had games where Infrared Eyepiece revealed two horrible cards (eg: 2 copies of Forced Deployment/Prison Break/Devious Disruption/etc). You then know what's on top but you still want to get rid of it.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:42:54.399Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14518,
+      "topic_slug": "incapacitated-ability-breakdown",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Another, rare but important case where you might want to &quot;discard the top card of every deck&quot;: Your deck stacking wasn&#39;t good enough.&nbsp; I&#39;ve certainly had games where Infrared Eyepiece revealed two horrible cards (eg: 2 copies of Forced Deployment/Prison Break/Devious Disruption/etc). You then know what&#39;s on top but you still want to get rid of it.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

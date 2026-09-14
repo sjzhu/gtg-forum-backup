@@ -1,0 +1,1100 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 139522,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-04-15T20:37:55.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Trajector\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/trajector/48/1914_2.png\" class=\"avatar\"> Trajector:</div>\n<blockquote>\n<p>Also:</p>\n<blockquote>Shock Rounds text is adjusted to say “The first time that card’s power is used to damage a target, Expatriette deals each non-hero target 1 lightning damage. After that power is used, destroy this card.” This clarifies that the lightning damage only happens once.\n&nbsp;\n</blockquote>\nOkay, I know what you want, but that is still ambiguous. What if I read it that \"the first time that card's power is used to damage a target - on a&nbsp;<em>per target</em> basis, ...\" a la the way Combat Stance and Flame Barrier are supposed to work? It might be better to say \"the first time&nbsp;<em>each</em> target\" vs \"the first time&nbsp;<em>any</em> target,\" or some wording that adds disambiguity. Or even, \"The first time..., Expariette deals each non-hero target 1 lighting damage, then destroy this card.\"Shock Rounds have been in our house rules for a while, because while Expatriette is an awesomely reliable dealer of small amounts of damage, she doesn't really have any awesome game-changing slam-dunk moves. So we let her Shock Rounds re-trigger.\n</blockquote>\n</aside>\n<p>Personally I thought the original wording was fine and unambiguous (with the exact same interpretation, that the lightning damage only happens once). I'll bring this back to Christopher.</p>",
+        "post_number": 71,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:15.841Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139523,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-04-15T20:38:14.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>Hmmmmmmm. I don't know if it's a consequence of this</p>\n<div>Quote:<br><blockquote>When a card enters play, the following order of things occurs.&nbsp;Ongoing effects on the card become applicable.Cards that react to other cards entering play now act.One-time effects on the card happen.\n&nbsp;\n</blockquote></div>\nor not but the Mask of the Matriarch is triggering off itself entering play, I really don't think that's how it's meant to work.&nbsp;EDIT: Ronway tested this for me, seems like it's not rules ambiquity but a bug!<a href=\"http://steamcommunity.com/sharedfiles/filedetails/?id=425298440\" rel=\"noopener nofollow ugc\">pic1</a><a href=\"http://steamcommunity.com/sharedfiles/filedetails/?id=425300556\" rel=\"noopener nofollow ugc\">pic2</a><a href=\"http://steamcommunity.com/sharedfiles/filedetails/?id=425300609\" rel=\"noopener nofollow ugc\">pic3</a><a href=\"http://steamcommunity.com/sharedfiles/filedetails/?id=425300651\" rel=\"noopener nofollow ugc\">pic4</a>\n</blockquote>\n</aside>\n<p>That's a bug. Fixed in the next update.</p>",
+        "post_number": 72,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:15.911Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139524,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-04-15T20:43:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"AlexxKay\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png\" class=\"avatar\"> AlexxKay:</div>\n<blockquote>\n<blockquote>\nIf a card is damaging the X lowest HP targets, and in the middle of doing that a new lowest HP target appears, the targeting does not change. The originally chosen X targets are damaged. If one disappears in the middle, the damage fizzles and does not re-target.\n</blockquote>\nI would suggest rephrasing \"the damage fizzles\" to \"the damage to the missing target fizzles\".&nbsp; We're talking about (often) multiple targets here, and any that *don't* disappear do still take damage, right?&nbsp;\n</blockquote>\n</aside>\n<p>Yes, I can tweak the wording there.</p>\n<blockquote></blockquote>\n<blockquote>1.&nbsp;&nbsp;&nbsp; Ongoing effects on the card become applicable.2.&nbsp;&nbsp;&nbsp; Cards that react to other cards entering play now act.3.&nbsp;&nbsp;&nbsp; One-time effects on the card happen.\n&nbsp;\n</blockquote>\nThat strikes me as needlessly complex.&nbsp; It would be much simpler to just make step 1 be \"Text on the card takes effect.\" and have no step 3.&nbsp; While one can easily construct an edge case where this makes a different outcome, I don't see any cases where it would cause an outcome that seems (to my intuition) <strong>wrong</strong> enough to make the added complexity worthwhile.&nbsp;\n<p>It's complex, but has to be that way or some weird things happen. It may not happen in tabletop play which is fine. We've learned that in the video game, if something weird <strong>can</strong> happen, it&nbsp;<strong>will</strong> happen to someone.</p>\n<blockquote></blockquote>\n<blockquote>Expatriette’s Ammo cards can be played without a gun in play. If that happens, the Ammo card is destroyed.\n&nbsp;\n</blockquote>\nI thought it went directly to the Trash, having never really entered play, and thus not triggering either \"card enters play\" or \"card was destroyed\" effects.&nbsp; Has this changed?&nbsp;\n<p>I don't know if it has changed, I just know what it is.</p>\n<blockquote></blockquote>\n<blockquote>If an ammo card is next to a gun card and the gun card is destroyed, the ammo card remains in play.\n&nbsp;\n</blockquote>\nUh, why?&nbsp; Expatriette has enough trouble getting ammo cards out, so why make it so easy for one to end up in limbo?&nbsp; She has many means of getting ammo out of her trash, but *none* for recovering an ammo card that gets detached like this.&nbsp; It would make more sense to me to errata the ammo cards to say \"If the Gun card this is next to is destroyed, so is this card.\"Oh, wait.&nbsp; Is there actually a situation that can destroy a gun instead of an ammo card that isn't due to players being perverse and/or dumb about their choice of resolving ambiguities?&nbsp; I don't think there is.&nbsp; Nevermind...&nbsp;\n<p>Why = because Christopher said so.</p>\n<blockquote></blockquote>\n<blockquote>For the second instance of damage, Dual Crowbars is only restricted from selecting the target that was the final result of the first instance of damage (after all redirects).\n&nbsp;\n</blockquote>\nIs this a general change to how targeting multiple targets works? I was under the impression that you couldn't re-choose the *initial* target, but you *could* re-choose a target that ended up getting damaged earlier due to redirects.&nbsp; Is this still true in general, or not?&nbsp;\n<p>No, it's not a change, just a clarification of Dual Crowbars in case anyone didn't know. Most of the things in the post are re-iterating existing clarifications, not changes. They are answers to questions we asked Christopher.</p>",
+        "post_number": 73,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.007Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139525,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-04-15T20:43:56.000Z",
+        "cooked": "<p>If Jackhandle replaces crowbar's added attack, then wouldn't we get a ton of all target attacks with both?</p><p>I can't imagine crowbars only reacting to the first damage dealt by a multi-damage attack, that doesn't fit anything in the wording.</p>",
+        "post_number": 74,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.138Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139526,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-04-15T20:47:13.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Trajector\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/trajector/48/1914_2.png\" class=\"avatar\"> Trajector:</div>\n<blockquote>\n<p>'k.</p>\n<p>Seems like we are getting more and more card-specific rulings that might run against the overall general rulings. At least that phenomenon must be obvious to MigrantP… I wonder how big his if-else structures are getting!</p>\n</blockquote>\n</aside>\n<p>Not really. Almost always we are aiming to discern a rule that is consistent between many cards, and that's what comes out.</p>\n<p>And that's not how we program =)</p>",
+        "post_number": 75,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.203Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139527,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-04-15T20:48:37.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>If Jackhandle replaces crowbar's added attack, then wouldn't we get a ton of all target attacks with both?I can't imagine crowbars only reacting to the first damage dealt by a multi-damage attack, that doesn't fit anything in the wording.</p>\n</blockquote>\n</aside>\n<p>I don't know. I'm sure we'll have a lot of interesting questions to ask Christopher about Fixed Point!</p>",
+        "post_number": 76,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.272Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139528,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-04-15T20:54:01.000Z",
+        "cooked": "<p>I want to see the list of questions mini-expasion 3 creates.</p>",
+        "post_number": 77,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.333Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139529,
+        "name": "Trajector",
+        "username": "Trajector",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/trajector/{size}/1914_2.png",
+        "created_at": "2015-04-16T01:58:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<div><b>Trajector wrote:</b><br>\n<blockquote>Wooooaaaah.And this puts some arguments to rest, doesn't it?Quote:<br>\n<blockquote>Jack Handle effectively cancels the original damage, and causes a new set of damage dealing instance to all non-hero targets with the original damage amount/type/irreducibility. \n</blockquote>\n<p>…or does it? Can Fixer double-dip Grease Monkey’s +1?</p>\n</blockquote>\n</div>\n<p>I’m not sure what you’re asking here.</p>\n</blockquote>\n</aside>\n<p>I was trying to ask at what point does the Jack Handle cancel the original attack and determine how much “that much” damage is. Is it before or after damage modifiers apply?</p>\n<p>If it was after the modifiers, you could get some similar effects to the dual crowbar.</p>\n<p>Someone answered me above - at least, they answered what happens.</p>",
+        "post_number": 78,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.400Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "Trajector",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11097,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-13",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139530,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2015-04-16T02:06:44.000Z",
+        "cooked": "<p>Ronway was correct. It's before anything happens.</p>",
+        "post_number": 79,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.480Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139531,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-04-16T02:12:24.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>Ronway was correct.</p>\n</blockquote>\n</aside>\n<p>Great! Thanks a lot! That just encourages him!</p>",
+        "post_number": 80,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.547Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139532,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2015-04-16T02:28:37.000Z",
+        "cooked": "<p>Ronway, Ronway, he's our man; If he can't name it, no one can*!</p><p>*This excludes any affiliated with Greater Than Games, LLC.</p>",
+        "post_number": 81,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.620Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139533,
+        "name": "Silverleaf",
+        "username": "Silverleaf",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+        "created_at": "2015-04-16T03:41:42.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<div><b>Foote wrote:</b><br><blockquote>I don't want to see another thread bemoaning how Fixer is underpowered. Ever. Again.</blockquote></div>\n<a href=\"http://steamcommunity.com/app/337150/discussions/0/611703898448985874/Have\" rel=\"noopener nofollow ugc\">http://steamcommunity.com/app/337150/discussions/0/611703898448985874/Have</a> fun! \n</blockquote>\n</aside>\n<p>Gah. Don't encourage him with exposure.</p>",
+        "post_number": 82,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.693Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "Silverleaf",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4341,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 139534,
+        "name": "Belle Sorciere",
+        "username": "Belle_Sorciere",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/belle_sorciere/{size}/1982_2.png",
+        "created_at": "2015-04-16T04:26:57.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>I will update the wording on this to include the actual damage being dealt, etc. so it's more clear.</p>\n</blockquote>\n</aside>\n<p>Much appreciated!</p>",
+        "post_number": 83,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:16:16.771Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12850,
+        "topic_slug": "rook-city-updates-to-the-fireside-chats",
+        "display_username": "Belle Sorciere",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12259,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-03-21",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 12850
+}

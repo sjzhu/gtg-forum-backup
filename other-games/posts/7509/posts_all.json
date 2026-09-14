@@ -1,0 +1,1109 @@
+{
+  "posts": [
+    {
+      "id": 7511,
+      "name": "AceSin",
+      "username": "AceSin",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/958977/{size}.png",
+      "created_at": "2013-03-29T04:32:15.000Z",
+      "cooked": "<p>Quick clarification needed for Stealth Bot.<br><br>So situation came up where Legacy has his card that reduces damage by 1.<br><br>Now if a source deals 2 damage to Legacy, and I decided to use Stealth Bot to redirect, is that both damage negated (-1 from Legacy, -1 from Stealth Bot) or is the redirect before the damage modifers and Stealth Bot is dealt 1 damage?<br><br>And the other question:<br><br>Are damage dealt in the order of play?<br><br>So say an enivronment card deals damage to all target and Unity is the first hero in order.<br><br>I am assuming this means villain gets damaged first? Then Unity?<br><br>And if Unity has a Bee Bot played after another golem, the damage is continued to order of play? Or can Unity choose Bee Bot to be hit before all else and destroy the environment to prevent the damage. Alternatively, after playing Magic years ago, does the environment's effect already settled in the stack, so the damage occurs to all regardless of if Bee Bot destroys it or not?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:37:48.922Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 5.2,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "AceSin",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Quick clarification needed for Stealth Bot.<br /><br />So situation came up where Legacy has his card that reduces damage by 1.<br /><br />Now if a source deals 2 damage to Legacy, and I decided to use Stealth Bot to redirect, is that both damage negated (-1 from Legacy, -1 from Stealth Bot) or is the redirect before the damage modifers and Stealth Bot is dealt 1 damage?<br /><br />And the other question:<br /><br />Are damage dealt in the order of play?<br /><br />So say an enivronment card deals damage to all target and Unity is the first hero in order.<br /><br />I am assuming this means villain gets damaged first? Then Unity?<br /><br />And if Unity has a Bee Bot played after another golem, the damage is continued to order of play? Or can Unity choose Bee Bot to be hit before all else and destroy the environment to prevent the damage. Alternatively, after playing Magic years ago, does the environment&#39;s effect already settled in the stack, so the damage occurs to all regardless of if Bee Bot destroys it or not?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4118,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57006,
+      "name": "Reckless",
+      "username": "Reckless",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/reckless/{size}/2467_2.png",
+      "created_at": "2013-03-29T04:50:16.000Z",
+      "cooked": "<p>Damage is recalculated for the new target when it is redirected, so Stealth Bot would take 2 reduced by its 1 DR for a total of 1 damage.<br><br>You choose damage order.&nbsp; For instance, if Tempest uses Squall, you choose which order the damage is dealt to which targets.&nbsp; But all non-hero targets must be targeted by the attack.&nbsp; You can choose to have Bee Bot take damage first from an Environment card that deals damage to all Hero targets (or even hit the villains first with an \"all target\" attack and then Bee Bot), destroy it with Bee Bot's destruction effect, and prevent more damage being dealt to your team.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:12.993Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "Reckless",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Damage is recalculated for the new target when it is redirected, so Stealth Bot would take 2 reduced by its 1 DR for a total of 1 damage.<br /><br />You choose damage order.&nbsp; For instance, if Tempest uses Squall, you choose which order the damage is dealt to which targets.&nbsp; But all non-hero targets must be targeted by the attack.&nbsp; You can choose to have Bee Bot take damage first from an Environment card that deals damage to all Hero targets (or even hit the villains first with an &quot;all target&quot; attack and then Bee Bot), destroy it with Bee Bot&#39;s destruction effect, and prevent more damage being dealt to your team.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 422,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57007,
+      "name": "AceSin",
+      "username": "AceSin",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/958977/{size}.png",
+      "created_at": "2013-03-29T06:19:35.000Z",
+      "cooked": "<p>Thanks for the clarification.<br><br>Slightly confusing since there is an order of play, but being used to Magic, the idea that the effect is not longer in the stack once the card is gone is new to me.<br><br>I got another question now about Absolute Zero.</p><p><br>The card, Cryo Chamber, does several things. My concern is specifically the fire reduction by 1. If you use the power, it states to deal 5 fire damage to AZ and destroy the card. In that case, again issue with if effect stacking exist or not, does this mean overall CC deals 4 damage to him (due to the innate -1) or is the card \"technically\" destroyed at the same time as the damage and thus deal a full 5 fire damage?</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.059Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "AceSin",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Thanks for the clarification.<br /><br />Slightly confusing since there is an order of play, but being used to Magic, the idea that the effect is not longer in the stack once the card is gone is new to me.<br /><br />I got another question now about Absolute Zero.</p><p><br />The card, Cryo Chamber, does several things. My concern is specifically the fire reduction by 1. If you use the power, it states to deal 5 fire damage to AZ and destroy the card. In that case, again issue with if effect stacking exist or not, does this mean overall CC deals 4 damage to him (due to the innate -1) or is the card &quot;technically&quot; destroyed at the same time as the damage and thus deal a full 5 fire damage?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4118,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57008,
+      "name": "dypaca",
+      "username": "dypaca",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+      "created_at": "2013-03-29T07:06:23.000Z",
+      "cooked": "<p>Do each thing separately.&nbsp; So he first does the damage to himself&nbsp;and CryoChamber reduces the 5 fire damage to 4.&nbsp;&nbsp;&nbsp;Then,&nbsp;if he has Isothermic Transducer out, he deals 4 cold damage (and if he does it to himself CryoChamber increases it to 5 cold damage).&nbsp; Then you destroy CryoChamber.</p><p>And of course if anything else were out which affected his damage, they would be applied to both the fire damage and the cold damage&nbsp;as applicable.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.127Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "dypaca",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Do each thing separately.&nbsp; So he first does the damage to himself&nbsp;and CryoChamber reduces the 5 fire damage to 4.&nbsp;&nbsp;&nbsp;Then,&nbsp;if he has Isothermic Transducer out, he deals 4 cold damage (and if he does it to himself CryoChamber increases it to 5 cold damage).&nbsp; Then you destroy CryoChamber.</p><p>And of course if anything else were out which affected his damage, they would be applied to both the fire damage and the cold damage&nbsp;as applicable.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 466,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-06-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57009,
+      "name": "lynkfox",
+      "username": "lynkfox",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+      "created_at": "2013-03-29T13:11:30.000Z",
+      "cooked": "<p>The 'stack' is a bit of a misnomer in Sotm</p><p>&nbsp;</p><p>Better to use the following to help you with multiple cards being played</p><p>&nbsp;</p><p>\"resolve Each action on the card seperately and fully before moving on to the next.\"</p><p>&nbsp;</p><p>Therefor if an action tells you to play a card, play the card, resolve that card fully, then move on to the next action on the previous card (because resolving that play a card action fully would &nbsp;involve dealing with that cards actions)</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.201Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "lynkfox",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The &#39;stack&#39; is a bit of a misnomer in Sotm</p><p>&nbsp;</p><p>Better to use the following to help you with multiple cards being played</p><p>&nbsp;</p><p>&quot;resolve Each action on the card seperately and fully before moving on to the next.&quot;</p><p>&nbsp;</p><p>Therefor if an action tells you to play a card, play the card, resolve that card fully, then move on to the next action on the previous card (because resolving that play a card action fully would &nbsp;involve dealing with that cards actions)</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1390,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57010,
+      "name": "Reckless",
+      "username": "Reckless",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/reckless/{size}/2467_2.png",
+      "created_at": "2013-03-29T18:44:15.000Z",
+      "cooked": "<p>While useful, it makes for a rather complicated Akash'Bhuta turn if she gets multiple Primeval Eruptions out!&nbsp; Heaven forbid one chains into a Disrupt the Field...</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.283Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "Reckless",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>While useful, it makes for a rather complicated Akash&#39;Bhuta turn if she gets multiple Primeval Eruptions out!&nbsp; Heaven forbid one chains into a Disrupt the Field...</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 422,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57011,
+      "name": "AceSin",
+      "username": "AceSin",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/958977/{size}.png",
+      "created_at": "2013-03-29T19:50:04.000Z",
+      "cooked": "<p>I see. Will keep these tips in mind. I will probably get use to them as I play more.</p><p>&nbsp;</p><p>And just checking I did it correctly (or rather unluckily hit this chain):<br><br>Played Rook City and 1 Scum and Villainy played another, which in turn played the third. Is that done correctly - as I see it the End Turn for environment isn't over yet, thus each Scum and Villainy triggers.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.350Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "AceSin",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I see. Will keep these tips in mind. I will probably get use to them as I play more.</p><p>&nbsp;</p><p>And just checking I did it correctly (or rather unluckily hit this chain):<br /><br />Played Rook City and 1 Scum and Villainy played another, which in turn played the third. Is that done correctly - as I see it the End Turn for environment isn&#39;t over yet, thus each Scum and Villainy triggers.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4118,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57012,
+      "name": "Koey",
+      "username": "Koey",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/koey/{size}/2187_2.png",
+      "created_at": "2013-03-29T20:44:57.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"AceSin\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/958977/48.png\" class=\"avatar\"> AceSin:</div>\n<blockquote>\n<p>I see. Will keep these tips in mind. I will probably get use to them as I play more.&nbsp;And just checking I did it correctly (or rather unluckily hit this chain):Played Rook City and 1 Scum and Villainy played another, which in turn played the third. Is that done correctly - as I see it the End Turn for environment isn't over yet, thus each Scum and Villainy triggers.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Yes that sounds about right. Which sort of makes the organization quite formidable.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.421Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "Koey",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"AceSin\"]\n\nI see. Will keep these tips in mind. I will probably get use to them as I play more.&nbsp;And just checking I did it correctly (or rather unluckily hit this chain):Played Rook City and 1 Scum and Villainy played another, which in turn played the third. Is that done correctly - as I see it the End Turn for environment isn&#39;t over yet, thus each Scum and Villainy triggers.\n\n[/quote]\n\n&nbsp;\n\nYes that sounds about right. Which sort of makes the organization quite formidable.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1902,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-20",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57013,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2013-03-29T21:04:15.000Z",
+      "cooked": "<p>Tha Akash'Bhuta thing has happened to me - play Primeval Eruption. Often the result of the \"play the top card\" from the end of that is a second Primeval Eruption. And sometimes it's a Disrupt the Field. Or sometimes the other way round - Disrupt the Field brings out a Primeval Eruption. Sometimes Akash'Bhuta can get through a significant number of cards in a single turn, though fortunately she's not massively difficult unless she gets out a large number of Limbs and you don't manage to get rid of them before they mash you. And of course, sometimes the environment is the one that kicks your arse.</p><p>We've also had a Maintenance Level play a second Maintenance Level in the same turn.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.497Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Tha Akash&#39;Bhuta thing has happened to me - play Primeval Eruption. Often the result of the &quot;play the top card&quot; from the end of that is a second Primeval Eruption. And sometimes it&#39;s a Disrupt the Field. Or sometimes the other way round - Disrupt the Field brings out a Primeval Eruption. Sometimes Akash&#39;Bhuta can get through a significant number of cards in a single turn, though fortunately she&#39;s not massively difficult unless she gets out a large number of Limbs and you don&#39;t manage to get rid of them before they mash you. And of course, sometimes the environment is the one that kicks your arse.</p><p>We&#39;ve also had a Maintenance Level play a second Maintenance Level in the same turn.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57014,
+      "name": "flamethrower49",
+      "username": "flamethrower49",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/f/838e76/{size}.png",
+      "created_at": "2013-03-30T16:04:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"AceSin\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/958977/48.png\" class=\"avatar\"> AceSin:</div>\n<blockquote>\n<p>I see. Will keep these tips in mind. I will probably get use to them as I play more.&nbsp;And just checking I did it correctly (or rather unluckily hit this chain):Played Rook City and 1 Scum and Villainy played another, which in turn played the third. Is that done correctly - as I see it the End Turn for environment isn't over yet, thus each Scum and Villainy triggers.</p>\n</blockquote>\n</aside>\n<p>I don't have my cards handy, but I believe Scum and Villainy plays the top card of the villain deck, not the environment deck.&nbsp; They shouldn't chain into each other by themselves.</p>\n<p>Of course, having three of those on top of the environment deck is bad news anyway.&nbsp; Now, if they managed to play a villain card that plays the top card of the Environment deck (\"Rook City is Mine!\", maybe), then the Scum and Villainys can keep triggering, since it's still the end of the environment turn.&nbsp;</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.577Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "flamethrower49",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"AceSin\"]\nI see. Will keep these tips in mind. I will probably get use to them as I play more.&nbsp;And just checking I did it correctly (or rather unluckily hit this chain):Played Rook City and 1 Scum and Villainy played another, which in turn played the third. Is that done correctly - as I see it the End Turn for environment isn&#39;t over yet, thus each Scum and Villainy triggers.\n[/quote]\n\nI don&#39;t have my cards handy, but I believe Scum and Villainy plays the top card of the <u>villain</u> deck, not the environment deck.&nbsp; They shouldn&#39;t chain into each other by themselves.\n\nOf course, having three of those on top of the environment deck is bad news anyway.&nbsp; Now, if they managed to play a villain card that plays the top card of the Environment deck (&quot;Rook City is Mine!&quot;, maybe), then the Scum and Villainys can keep triggering, since it&#39;s still the end of the environment turn.&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 317,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57015,
+      "name": "Sefirit",
+      "username": "Sefirit",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/s/e68b1a/{size}.png",
+      "created_at": "2013-03-30T17:58:13.000Z",
+      "cooked": "<p>The thing that I try to remember about damage redirection is that when damage is specifically redirected you essentially start the attack over as if the original attacker had attacked the new defender and then recalculate damage modifiers from that set up.&nbsp; That is why the DR from Legacy doesn't apply, in a way he was never the target of the attack.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.649Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "Sefirit",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The thing that I try to remember about damage redirection is that when damage is specifically redirected you essentially start the attack over as if the original attacker had attacked the new defender and then recalculate damage modifiers from that set up.&nbsp; That is why the DR from Legacy doesn&#39;t apply, in a way he was never the target of the attack.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3727,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-02-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57016,
+      "name": "pppery",
+      "username": "pppery",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/p/3d9bf3/{size}.png",
+      "created_at": "2013-03-31T01:10:56.000Z",
+      "cooked": "<p>With perfect deck stacking, Akash'Bhuta can get as many as 20 cards played in one turn on the front, assuming a least 4 heroes:</p><p>villan deck:</p><p>primevial eruption</p><p>H limbs</p><p>primevial eruption</p><p>H limbs</p><p>primevial emruption</p><p>H limbs</p><p>disprupt the field</p><p>any card</p><p>disrupt the field</p><p>any card</p><p>any card</p><p>and the top two cards of the enviroment deck are are targets</p><p>and also 19 + the number of enviropnment targets initially in play on the back, requiring only the top environment to be a target, not the top 2</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.747Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "pppery",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>With perfect deck stacking, Akash&#39;Bhuta can get as many as 20 cards played in one turn on the front, assuming a least 4 heroes:</p><p>villan deck:</p><p>primevial eruption</p><p>H limbs</p><p>primevial eruption</p><p>H limbs</p><p>primevial emruption</p><p>H limbs</p><p>disprupt the field</p><p>any card</p><p>disrupt the field</p><p>any card</p><p>any card</p><p>and the top two cards of the enviroment deck are are targets</p><p>and also 19 + the number of enviropnment targets initially in play on the back, requiring only the top environment to be a target, not the top 2</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1137,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-16",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57017,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2013-03-31T20:58:34.000Z",
+      "cooked": "<p>Once had the entire Environment deck out versus the Matriarch once...and she also had pretty much all of her deck out. Well, she had everything out that was possible to remain in play - the Darken the Skies and Horrid Cacophonies obviously weren't out because they're one-shots. But everything else was. Because we were in the Tomb of Anubis - Akana lets the environment play a card when a villain target is destroyed. Mdjai hits every target for one point at the end of the villain turn. Matriarch kept playing Darken the Sky. Yeah, we didn't do too well in that game :P.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:13.830Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7509,
+      "topic_slug": "damage-reduction-by-stealth-bot-damage-order",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Once had the entire Environment deck out versus the Matriarch once...and she also had pretty much all of her deck out. Well, she had everything out that was possible to remain in play - the Darken the Skies and Horrid Cacophonies obviously weren&#39;t out because they&#39;re one-shots. But everything else was. Because we were in the Tomb of Anubis - Akana lets the environment play a card when a villain target is destroyed. Mdjai hits every target for one point at the end of the villain turn. Matriarch kept playing Darken the Sky. Yeah, we didn&#39;t do too well in that game :P.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": 19241,
+      "name": "McBehrer",
+      "username": "McBehrer",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+      "created_at": "2019-06-04T18:08:29.000Z",
+      "cooked": "<p>I already submitted a bug report, but I figured I might as well share this with you guys. You might enjoy this.</p>\n<p>Or everyone might already know this. I don't know.</p>\n<p>Anyway, I found a pretty major bug that allows you to de-spawn the Pouch of Bones during the transition from the Agent of Gloom Spite to Skinwalker Gloomweaver when playing in Challenge Mode.</p>\n<p>If Parse has Buffer Overflow in play when AoG Spite is destroyed, then you can use it to discard the Pouch as it enters play. This, of course, is expected and is not the problem.</p>\n<p>If you choose to do this and then rewind to the start of Gloomweaver's turn, however, it won't actually rewind to the beginning of his turn. (which is an annoyance I've noticed when playing against Gloom Spite; it won't let you change which drug you turn face-up at the start of his first turn, for instance) Instead it just goes to the beginning of his PLAY phase.</p>\n<p>However, it still assumes you got rid of the Pouch, so it doesn't search the deck for it, and the Pouch will be gone. But Buffer Overflow will still be there, and you can use it on the next card.</p>\n<p>You can't keep doing this to cherry-pick your favorite first card, though. It only works for the Pouch, specifically.</p>\n<p>Still, it's a pretty significant skip, and a bug I imagine they will want to fix ASAP.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:52:51.499Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 2,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 10.0,
+      "yours": false,
+      "topic_id": 19240,
+      "topic_slug": "challenge-mode-gloomweaver-cheese-bug",
+      "display_username": "McBehrer",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I already submitted a bug report, but I figured I might as well share this with you guys. You might enjoy this.</p>\r\n\r\n<p>Or everyone might already know this. I don't know.</p>\r\n\r\n<p>Anyway, I found a pretty major bug that allows you to de-spawn the Pouch of Bones during the transition from the Agent of Gloom Spite to Skinwalker Gloomweaver when playing in Challenge Mode.</p>\r\n\r\n<p>If Parse has Buffer Overflow in play when AoG Spite is destroyed, then you can use it to discard the Pouch as it enters play. This, of course, is expected and is not the problem.</p>\r\n\r\n<p>If you choose to do this and then rewind to the start of Gloomweaver's turn, however, it won't actually rewind to the beginning of his turn. (which is an annoyance I've noticed when playing against Gloom Spite; it won't let you change which drug you turn face-up at the start of his first turn, for instance) Instead it just goes to the beginning of his PLAY phase.</p>\r\n\r\n<p>However, it still assumes you got rid of the Pouch, so it doesn't search the deck for it, and the Pouch will be gone. But Buffer Overflow will still be there, and you can use it on the next card.</p>\r\n\r\n<p>You can't keep doing this to cherry-pick your favorite first card, though. It only works for the Pouch, specifically.</p>\r\n\r\n<p>Still, it's a pretty significant skip, and a bug I imagine they will want to fix ASAP.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 409,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-14",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

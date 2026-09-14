@@ -1,0 +1,613 @@
+{
+  "posts": [
+    {
+      "id": 10180,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2014-04-21T03:35:40.000Z",
+      "cooked": "<p>I had an extra long weekend this week and needed a project to keep me busy, so I decided to dust off something I've tried and failed at multiple times before -- making an online tool for tracking the state of a game of Sentinels. &nbsp;The result is the <a href=\"http://www.spiffworld.com/sotm/gameotron/\" rel=\"noopener nofollow ugc\">Gameotron</a>.</p><p>I discovered that the reason I'd failed so many times at this before is that I was trying to make the tool too smart, trying to embed too much game logic into the tool itself, making it too complex. &nbsp;Gameotron is different. &nbsp;Gameotron assumes that the humans using it are responsible for whether or not something <em>should</em> happen. &nbsp;All Gameotron cares about is tracking that it <em>did</em> happen.</p><p>If anyone is interested in seeing if the Gameotron can be used to enhance a play-by-forum game or any kind of a remote game of SotM, please feel free to give it a whirl. &nbsp;The game's state is saved in the URL, so after you've updated Gameotron with the events of your turn, you can copy/paste the url into a message to someone else, and they'll see the game exactly as you saw it.</p><p>Here's a <a href=\"http://www.spiffworld.com/sotm/gameotron/gameotron_instructions.pdf\" rel=\"noopener nofollow ugc\">quick-start doc</a> describing how to use Gameotron and what it can do.</p><p>I'm sure there are mispellings and other errors (hopefully none too critical), so please don't rely too heavily on Gameotron for your remote games until it's had some time to shake out the bugs.</p><p>If you do end up using Gameotron, I'd love to hear your feedback. &nbsp;I won't be terribly surprised to hear that it doesn't actually improve upon the experience of just typing out the game state in a forum posts like happens now. &nbsp;If that's the case, then it was a fun couple of days of coding with nothing really lost.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:41:09.513Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 15.0,
+      "yours": false,
+      "topic_id": 10178,
+      "topic_slug": "sotm-gameotron",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.spiffworld.com/sotm/gameotron/",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "http://www.spiffworld.com/sotm/gameotron/gameotron_instructions.pdf",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I had an extra long weekend this week and needed a project to keep me busy, so I decided to dust off something I&#39;ve tried and failed at multiple times before -- making an online tool for tracking the state of a game of Sentinels. &nbsp;The result is the <a href=\"http://www.spiffworld.com/sotm/gameotron/\">Gameotron</a>.</p><p>I discovered that the reason I&#39;d failed so many times at this before is that I was trying to make the tool too smart, trying to embed too much game logic into the tool itself, making it too complex. &nbsp;Gameotron is different. &nbsp;Gameotron assumes that the humans using it are responsible for whether or not something <em>should</em> happen. &nbsp;All Gameotron cares about is tracking that it <em>did</em> happen.</p><p>If anyone is interested in seeing if the Gameotron can be used to enhance a play-by-forum game or any kind of a remote game of SotM, please feel free to give it a whirl. &nbsp;The game&#39;s state is saved in the URL, so after you&#39;ve updated Gameotron with the events of your turn, you can copy/paste the url into a message to someone else, and they&#39;ll see the game exactly as you saw it.</p><p>Here&#39;s a <a href=\"http://www.spiffworld.com/sotm/gameotron/gameotron_instructions.pdf\">quick-start doc</a> describing how to use Gameotron and what it can do.</p><p>I&#39;m sure there are mispellings and other errors (hopefully none too critical), so please don&#39;t rely too heavily on Gameotron for your remote games until it&#39;s had some time to shake out the bugs.</p><p>If you do end up using Gameotron, I&#39;d love to hear your feedback. &nbsp;I won&#39;t be terribly surprised to hear that it doesn&#39;t actually improve upon the experience of just typing out the game state in a forum posts like happens now. &nbsp;If that&#39;s the case, then it was a fun couple of days of coding with nothing really lost.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 99777,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2014-04-21T03:47:34.000Z",
+      "cooked": "<p>At first glance, I like how responsive the interface is -- clicking the up/down arrows leads to immediate results, but I dislike that information scrolls off the bottom of the screen.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:27:51.710Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10178,
+      "topic_slug": "sotm-gameotron",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>At first glance, I like how responsive the interface is -- clicking the up/down arrows leads to immediate results, but I dislike that information scrolls off the bottom of the screen.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 99778,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2014-04-21T05:23:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"arenson9\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png\" class=\"avatar\"> arenson9:</div>\n<blockquote>\n<p>but I dislike that information scrolls off the bottom of the screen.</p>\n</blockquote>\n</aside>\n<p>I don't know how I could do anything about that. &nbsp;Since it's a web page, it could be viewed on a PC monitor or a tablet or a phone, and there could be dozens of cards in play at one time. &nbsp;That's not something that could be squooshed into a single phone screen, I think.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:27:51.791Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10178,
+      "topic_slug": "sotm-gameotron",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"arenson9\"]\n\nbut I dislike that information scrolls off the bottom of the screen.\n\n[/quote]\n\nI don&#39;t know how I could do anything about that. &nbsp;Since it&#39;s a web page, it could be viewed on a PC monitor or a tablet or a phone, and there could be dozens of cards in play at one time. &nbsp;That&#39;s not something that could be squooshed into a single phone screen, I think.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 99779,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2014-04-21T14:37:40.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Spiff\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/spiff/48/1865_2.png\" class=\"avatar\"> Spiff:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>arenson9 wrote:</b><br><blockquote>but I dislike that information scrolls off the bottom of the screen.\n&nbsp;\n</blockquote></div>\nI don't know how I could do anything about that. &nbsp;Since it's a web page, it could be viewed on a PC monitor or a tablet or a phone, and there could be dozens of cards in play at one time. &nbsp;That's not something that could be squooshed into a single phone screen, I think.\n</blockquote>\n</aside>\n<p>Perhaps a responsive design – Different layouts depending on the screen real estate.</p>\n<p>For a G+ hangout, what we've been doing is displaying Mezike's spreadsheet so all players can see it at all times. Love the spreadsheet and it displays everything we need, but it's very slow in many cases.</p>\n<p>&nbsp;</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:27:51.861Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10178,
+      "topic_slug": "sotm-gameotron",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Spiff\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>arenson9 wrote:</b><br /><blockquote class=\"bb-quote-body\">but I dislike that information scrolls off the bottom of the screen.\n&nbsp;\n</blockquote></div>\nI don&#39;t know how I could do anything about that. &nbsp;Since it&#39;s a web page, it could be viewed on a PC monitor or a tablet or a phone, and there could be dozens of cards in play at one time. &nbsp;That&#39;s not something that could be squooshed into a single phone screen, I think.\n\n[/quote]\n\nPerhaps a responsive design -- Different layouts depending on the screen real estate.\n\nFor a G+ hangout, what we&#39;ve been doing is displaying Mezike&#39;s spreadsheet so all players can see it at all times. Love the spreadsheet and it displays everything we need, but it&#39;s very slow in many cases.\n\n&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 99780,
+      "name": "grysqrl",
+      "username": "grysqrl",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/grysqrl/{size}/1909_2.png",
+      "created_at": "2014-04-21T16:50:48.000Z",
+      "cooked": "<p>Thanks for putting this together, Spiff. I think this will be great for PBF games. I need to play around with it more before I can give much feedback, but a little nitpicky first impression thing: I would love if the alt versions heroes and villains were listed under the name of the hero or villain rather than \"alt\". For instance, could Mad Bomber Blade be called \"Baron Blade (alt. Mad Bomber)\" or some similar thing that would put him in the drop-down menu just below the base Baron Blade? Having all of the alts together and at the top of the list is a little confusing.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:27:51.940Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10178,
+      "topic_slug": "sotm-gameotron",
+      "display_username": "grysqrl",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Thanks for putting this together, Spiff. I think this will be great for PBF games. I need to play around with it more before I can give much feedback, but a little nitpicky first impression thing: I would love if the alt versions heroes and villains were listed under the name of the hero or villain rather than &quot;alt&quot;. For instance, could Mad Bomber Blade be called &quot;Baron Blade (alt. Mad Bomber)&quot; or some similar thing that would put him in the drop-down menu just below the base Baron Blade? Having all of the alts together and at the top of the list is a little confusing.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 5390,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 99781,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2014-04-21T17:21:42.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"grysqrl\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/grysqrl/48/1909_2.png\" class=\"avatar\"> grysqrl:</div>\n<blockquote>\n<p>Thanks for putting this together, Spiff. I think this will be great for PBF games. I need to play around with it more before I can give much feedback, but a little nitpicky first impression thing: I would love if the alt versions heroes and villains were listed under the name of the hero or villain rather than \"alt\". For instance, could Mad Bomber Blade be called \"Baron Blade (alt. Mad Bomber)\" or some similar thing that would put him in the drop-down menu just below the base Baron Blade? Having all of the alts together and at the top of the list is a little confusing.</p>\n</blockquote>\n</aside>\n<p>It's a good point.&nbsp; The Gameotron uses the same list of decks as the Randomizer, which is in chronological order by when the decks came out.&nbsp; I originally had each alt sorted along with its base (Mad Bomber Blade was displayed directly after Baron Blade), but the bases were still sorted chronologically.&nbsp; I changed it last minute to simple alphabetical sorting, but I agree it's not great.&nbsp; I'll have to look at my options.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:27:52.021Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10178,
+      "topic_slug": "sotm-gameotron",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"grysqrl\"]\n\nThanks for putting this together, Spiff. I think this will be great for PBF games. I need to play around with it more before I can give much feedback, but a little nitpicky first impression thing: I would love if the alt versions heroes and villains were listed under the name of the hero or villain rather than &quot;alt&quot;. For instance, could Mad Bomber Blade be called &quot;Baron Blade (alt. Mad Bomber)&quot; or some similar thing that would put him in the drop-down menu just below the base Baron Blade? Having all of the alts together and at the top of the list is a little confusing.\n\n[/quote]\n\nIt&#39;s a good point.&nbsp; The Gameotron uses the same list of decks as the Randomizer, which is in chronological order by when the decks came out.&nbsp; I originally had each alt sorted along with its base (Mad Bomber Blade was displayed directly after Baron Blade), but the bases were still sorted chronologically.&nbsp; I changed it last minute to simple alphabetical sorting, but I agree it&#39;s not great.&nbsp; I&#39;ll have to look at my options.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 99782,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2014-04-22T03:17:40.000Z",
+      "cooked": "<p>Gameotron now features properly alphabetized hero and villain lists, with alts tucked properly alongside their base decks where you'd expect them.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:27:52.095Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 10178,
+      "topic_slug": "sotm-gameotron",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Gameotron now features properly alphabetized hero and villain lists, with alts tucked properly alongside their base decks where you&#39;d expect them.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

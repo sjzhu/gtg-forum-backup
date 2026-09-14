@@ -1,0 +1,1100 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 67685,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-09-15T20:16:12.000Z",
+        "cooked": "<p>Well it looks like Ronway covered most of this as I typed this, but I'll post anyway.&nbsp; If Visionary damaged herself first, she could not avoid the damage.&nbsp; However, the card says that 'Visionary deals this card's target and herself 3 psychic damage\".</p><p>Also,&nbsp;a card can be destroyed and interrupted even if there is no 'and' separation.&nbsp; For example when Gene-bound Frosthound 'deals each hero target 2 cold damage'.&nbsp; If the first target selected is Ra and his flame barrier deals damage back and destroys it, then it doesn't get to deal the damage to any other hero targets.&nbsp; An alternate way of playing where all that damage is treated as simultaneous might be interesting and more logical to some, but is not the way the this game is meant to work.&nbsp; The destruction of the Frosthound is the newer effect, so it takes precedence over the damage that was resolving, and once it is destroyed you stop resolving&nbsp;that effect.</p><p>In case 5, the effect on Wrest the Mind's redirection&nbsp;causes&nbsp;the destruction, so the destruction interrupts and takes precedence.&nbsp; In case 17, the destruction is causing Wrest the Mind's redirection, so the redirection takes precedence.&nbsp; It isn't that \"When this card is destroyed\" gets a special exception so much as it is just a reverse of the normal cause/effect relationship.</p><p>&nbsp;</p>",
+        "post_number": 121,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:46.652Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67686,
+        "name": "Envisioner",
+        "username": "Envisioner",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+        "created_at": "2013-09-15T21:17:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>Considering the text on the cards are also the rules, I would say the fact that a card has a destruction effect written on it already says it functions differently than a card that does not have one. If it functioned the same, than it wouldn't have a destruction effect.</p>\n</blockquote>\n</aside>\n<p>The rules aren't on the cards.&nbsp; The rules are in the rulebook; the cards can contradict the rules, but only do so where they specifically do so.&nbsp; If you want to suspend a rule on a card, you have to do so explicitly.&nbsp; In the case of Sonic Mine, you'd do that with something like \"If Sonic Mine would be destroyed, first it deals 2 damage to each non-hero target, then it is destroyed.\"&nbsp; (Technically you should also specify \"This ability does not replace itself\", but that much can generally be left implied, as it's pretty obvious.)</p>\n<blockquote>\n<p>Now Citizen Hammer will do all hero targets 3 fire damage, however you do the damage 1 at a time in game terms.</p>\n</blockquote>\n<p>That is certainly not how all games handle simultaneous multi-target damage, and it's an interpretation which leads to a lot of potential problems, which is probably why most games don't do it that way.&nbsp; I can think of no other examples where something that should hit the entire board at once instead pauses to resolve triggered events after every single target gets hit.</p>\n<blockquote>\n<p>It goes in order of the card, so Hammer will take the damage first.</p>\n</blockquote>\n<p>That should really have been written as \"Visionary deals that target 3 damage, then deals herself 3 damage\".&nbsp; Compressing it into a single clause makes it sound like it should all happen at once and be impossible to interrupt.</p>\n<blockquote>\n<p>Hammer recieves his 3 psychic damage, thus causes him to be reduced to 0. Since Hammer is now at 0 HP, he is effectively destroyed and is leaving play. Oh look, Wrest the Mind has a trigger for if the target it is attached to leaves play</p>\n</blockquote>\n<p>But why would it be triggered by \"effectively\" rather than \"actually\"?&nbsp; If all cards are put into the trash instantly upon receiving lethal damage, then Sonic Mine can't work.&nbsp; Therefore, if Sonic Mine does work, cards should not be put instantly into the trash, but should be destroyed whenever an effect isn't being resolved that requires them to still be in play to have an effect.&nbsp; (Magic the Gathering solves this very simply by saying a card <em>doesn't</em> have to be in play for its effect to resolve, if it was triggered under appropriate circumstances; the effect stays in motion, like an arrow in flight, even if the \"bow\" which launched it has disappeared, until the effect reaches the \"target\" and is done \"flying\".)</p>\n<aside class=\"quote group-playtesters\" data-username=\"dypaca\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dypaca/48/2079_2.png\" class=\"avatar\"> dypaca:</div>\n<blockquote>\n<p>In case 5, the effect on Wrest the Mind's redirection&nbsp;causes&nbsp;the destruction, so the destruction interrupts and takes precedence.&nbsp; In case 17, the destruction is causing Wrest the Mind's redirection, so the redirection takes precedence.&nbsp; It isn't that \"When this card is destroyed\" gets a special exception so much as it is just a reverse of the normal cause/effect relationship.</p>\n</blockquote>\n</aside>\n<p>That at least seems to make some sense.&nbsp; But I still think the two rulings are inconsistent with each other, and that ideally the wording should be changed.</p>",
+        "post_number": 122,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:46.732Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "Envisioner",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5332,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67687,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2013-09-15T21:31:35.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Envisioner\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/9de053/48.png\" class=\"avatar\"> Envisioner:</div>\n<blockquote>\n<p>In the case of Sonic Mine, you'd do that with something like \"If Sonic Mine would be destroyed, first it deals 2 damage to each non-hero target, then it is destroyed.\"&nbsp;</p>\n</blockquote>\n</aside>\n<div>\nI've already suggested the wording being changed previously, just to clear up any confusion that can be caused by it.\n<aside class=\"quote no-group\" data-username=\"Envisioner\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/9de053/48.png\" class=\"avatar\"> Envisioner:</div>\n<blockquote>\n</blockquote></aside></div>\nThat is certainly not how all games handle simultaneous multi-target damage, and it's an interpretation which leads to a lot of potential problems, which is probably why most games don't do it that way.&nbsp; I can think of no other examples where something that should hit the entire board at once instead pauses to resolve triggered events after every single target gets hit.\n\n\n<p>This isn't all other games however, this is Sentinels of the Multiverse: The Card Game.</p>\n<aside class=\"quote no-group\" data-username=\"Envisioner\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/9de053/48.png\" class=\"avatar\"> Envisioner:</div>\n<blockquote>\n<p>That should really have been written as \"Visionary deals that target 3 damage, then deals herself 3 damage\".&nbsp; Compressing it into a single clause makes it sound like it should all happen at once and be impossible to interrupt.</p>\n</blockquote>\n</aside>\n<p>Things don't truly happen at once when Sentinels of the Multiverse: The Card Game's mechanics are concerned.</p>\n<aside class=\"quote no-group\" data-username=\"Envisioner\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/9de053/48.png\" class=\"avatar\"> Envisioner:</div>\n<blockquote>\n<p>But why would it be triggered by \"effectively\" rather than \"actually\"?&nbsp;</p>\n</blockquote>\n</aside>\n<p>Word it however way you want.</p>\n<aside class=\"quote no-group\" data-username=\"Envisioner\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/9de053/48.png\" class=\"avatar\"> Envisioner:</div>\n<blockquote>\n<p>If all cards are put into the trash instantly upon receiving lethal damage, then Sonic Mine can't work.&nbsp; Therefore, if Sonic Mine does work, cards should not be put instantly into the trash, but should be destroyed whenever an effect isn't being resolved that requires them to still be in play to have an effect.&nbsp;</p>\n</blockquote>\n</aside>\n<p>Sonic Mine does work, simple and easy as that. Does it need al ittle adjusting to the wording? Sure it does, but until than we will have to know how it is intended to work and play that way.</p>\n<aside class=\"quote no-group\" data-username=\"Envisioner\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/e/9de053/48.png\" class=\"avatar\"> Envisioner:</div>\n<blockquote>\n<p>Magic the Gathering solves this very simply by saying a card <em>doesn't</em> have to be in play for its effect to resolve, if it was triggered under appropriate circumstances; the effect stays in motion, like an arrow in flight, even if the \"bow\" which launched it has disappeared, until the effect reaches the \"target\" and is done \"flying\".</p>\n</blockquote>\n</aside>\n<p>This is Sentinels of the Multiverse: The Card Game, not Magic the Gathering.</p>",
+        "post_number": 123,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:46.814Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67688,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2013-10-25T22:58:47.000Z",
+        "cooked": "<p>Indestrucible, cannot leave play be any means.</p><p>Returning to your hand is a means.</p>",
+        "post_number": 124,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:46.913Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67689,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-10-25T22:59:07.000Z",
+        "cooked": "<p>Indestructible cards cannot be destroyed or removed from play, so tools cannot go back to the hand, they have to stay in play.</p>",
+        "post_number": 125,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:46.984Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67690,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2013-10-26T00:09:23.000Z",
+        "cooked": "<p>Just to check - when Fixed Point wears off and your styles/tools suddenly go \"oops, there's two of us - one of us has to go!\", can you choose which one, or would the one that was out first be automatically \"butted out\" by the more recent arrival as though you'd only just played it (the newer card)?</p>",
+        "post_number": 126,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:47.060Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67691,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2013-10-26T00:17:00.000Z",
+        "cooked": "<p>Neither.</p><p>The tools don't 'check for target destruction after every action' like Bounties, they have an instruction on the card that triggers when they enter play, after that they no longer check. if you were to play another tool after Fixed Point goes away, then the new tool's card text would trigger and remove all the 'excess' ones.</p><p>Same with Styles.</p>",
+        "post_number": 127,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:47.145Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67692,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-10-26T02:06:10.000Z",
+        "cooked": "<p>Yes, with the right setup you can get a ton of his cards in play in one round or fixed point. &nbsp;Jackhandle/Hoistchain/Crowbars with Crane/Tiger/Monkey was the best I've pulled off. &nbsp;Absolutely insane how badly Akash got stomped after that.</p><p>Of course we set the game up to pull that off, and it involved Adept destroying that song to get him a lot of extra plays, and vernal set up Omni-X for the last one, Visionary was working the decks to set it all up.</p>",
+        "post_number": 128,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:47.233Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67693,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2013-10-26T10:55:29.000Z",
+        "cooked": "<p>Oh wow, that's cool :D. So to take full advantage of it, I suppose you would need someone who could let Fixer get out as much stuff as possible outside of his turn. Tiger Claw, Riveting Crane, and Jack Handle would be just epic against someone like Voss or Apostate &gt;:). Actually, I suppose if he had the Crowbars out as well, it'd be even more stupidly powerful, even if he has no damage buffs. I have to try this some time :D.</p>",
+        "post_number": 129,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:47.306Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67694,
+        "name": "Rabk",
+        "username": "Rabk",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabk/{size}/1978_2.png",
+        "created_at": "2013-10-26T14:10:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Spiff wrote:</b><br><blockquote>&nbsp;<br><blockquote><strong>16. How does Dual Crowbars and Jack Handle react to one another if they are both in play?</strong>You would essentially deal all non-hero targets the damage twice.&nbsp;\n&nbsp;\n</blockquote>\nI'm writing these up in the FAQ but got stuck on this one. &nbsp;How could you ever have both Dual Crowbars and Jack Handle in play at the same time? &nbsp;Whenever a Tool enters play, you have to return any other tools to your hand.\n</blockquote></div>\nFixed Point\n</blockquote>\n</aside>\n<p>Sorry in advance for for the necro.</p>\n<p>I don't think this one works. Fixed Point makes all other cards indestructible, while playing a tool only returns any other tools already in play to your hand. The old tool leaves play, but it does not go to the trash and is this not actually destroyed as per RAW. [<em>Statement retracted. Please see my edit below.</em>]</p>\n<p>Fixed Point therefore shouldn't allow multiple tools to be on the board simultaneously. (It can do multiple styles, yes. That's a very handy little trick, particularly if someone can give you an extra card play or two while Fixed Point is in play.)</p>\n<p>[Edit to save confusion for those digging this topic up in the future: I didn't follow due diligence and double check the glossary definition for \"<span class=\"bbcode-i\"><span class=\"bbcode-b\">indestructible:</span> If a card is indestructible, it cannot be destroyed <span class=\"bbcode-b\">or removed from play</span>. If a target is indestructible, it stays in play even if it is reduced to 0 or fewer HP.</span> My argument was based off of the erroneous assumption that \"indestructible\" meant simply \"cannot be destroyed\" (i.e., put in the trash). Fixed Point <span class=\"bbcode-i\">does</span> in fact prevent tools from being returned to the hand. <span class=\"bbcode-i\">Exits stage left, hat firmly in hand.</span></p>",
+        "post_number": 130,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:47.378Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "Rabk",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5962,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-10-21",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67695,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-10-26T19:15:52.000Z",
+        "cooked": "<p>Had Harmony out as well, so Fixer dealt 4 irreducible damage of any type to all Non-Hero targets, lowering their damage by one and making all damage to them irreducible. &nbsp;Then immediately did it again.</p><p>I got the chance to overdrive and it was barely even worth it, everything was dead after the first strike.</p>",
+        "post_number": 131,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:47.478Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67696,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2013-12-02T19:25:18.000Z",
+        "cooked": "<p>Sorry to re-necro the thread, but I have to ask... HOW exactly did you destroy Alacritous subdominant? It's INDESTRUCTIBLE!</p>",
+        "post_number": 132,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:47.576Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 67697,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-12-02T19:44:50.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"McBehrer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mcbehrer/48/1850_2.png\" class=\"avatar\"> McBehrer:</div>\n<blockquote>\n<p>Sorry to re-necro the thread, but I have to ask… HOW exactly did you destroy Alacritous subdominant? It's INDESTRUCTIBLE!</p>\n</blockquote>\n</aside>\n<p>More properly stated would be \"made use of its indestructibility.\"</p>",
+        "post_number": 133,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:45:47.691Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8315,
+        "topic_slug": "answers-to-debated-questions",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 8315
+}

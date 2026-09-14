@@ -1,0 +1,180 @@
+{
+  "posts": [
+    {
+      "id": 256279,
+      "name": "Questioning",
+      "username": "Questioning",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/q/c37758/{size}.png",
+      "created_at": "2024-01-07T02:31:57.155Z",
+      "cooked": "<p>This ended a game recently, and it doesn’t seem accurate, so I was curious on others interpretation of the final level of the power:</p>\n<blockquote>\n<p>In every land in the game: X Damage, where X is the number of Presence you have in and adjacent to that land.</p>\n</blockquote>\n<p>If I have one land with 7 Presence (and nothing adjacent) and target that land, does every land in the game take 7 damage? Or is the damage calculated per land based on its individual Presence and adjacencies?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2024-01-07T02:31:57.155Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 314,
+      "reads": 21,
+      "readers_count": 20,
+      "score": 1574.2,
+      "yours": false,
+      "topic_id": 30434,
+      "topic_slug": "rules-clarification-on-serpent-rouses-in-anger",
+      "display_username": "Questioning",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "This ended a game recently, and it doesn't seem accurate, so I was curious on others interpretation of the final level of the power:\n\n> In every land in the game: X Damage, where X is the number of Presence you have in and adjacent to that land.\n\nIf I have one land with 7 Presence (and nothing adjacent) and target that land, does every land in the game take 7 damage? Or is the damage calculated per land based on its individual Presence and adjacencies?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 18511,
+      "hidden": false,
+      "trust_level": 0,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "notice": {
+        "type": "new_user"
+      },
+      "user_cakedate": "2024-01-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 256281,
+      "name": "",
+      "username": "fjur",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+      "created_at": "2024-01-07T02:39:04.748Z",
+      "cooked": "<p>It’s the second thing. The damage is figured independently for every land. So if you had a land with 5 <img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/d/dcf579103cd83d8511edc1208e33ff4408dcb1f1.png?v=12\" title=\":presence:\" class=\"emoji emoji-custom\" alt=\":presence:\"> in / adjacent to it and another land with 3 <img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/d/dcf579103cd83d8511edc1208e33ff4408dcb1f1.png?v=12\" title=\":presence:\" class=\"emoji emoji-custom\" alt=\":presence:\"> in / adjacent to it, the first would take 5 damage and the second 3 damage. So you don’t deal any damage in lands that have none of your <img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/d/dcf579103cd83d8511edc1208e33ff4408dcb1f1.png?v=12\" title=\":presence:\" class=\"emoji emoji-custom\" alt=\":presence:\"> in / adjacent to them.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2024-01-07T02:39:04.748Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 9,
+      "reads": 21,
+      "readers_count": 20,
+      "score": 109.2,
+      "yours": false,
+      "topic_id": 30434,
+      "topic_slug": "rules-clarification-on-serpent-rouses-in-anger",
+      "display_username": "",
+      "primary_group_name": "playtesters",
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "Regular",
+      "title_is_group": false,
+      "bookmarked": false,
+      "raw": "It's the second thing. The damage is figured independently for every land. So if you had a land with 5 :presence: in / adjacent to it and another land with 3 :presence: in / adjacent to it, the first would take 5 damage and the second 3 damage. So you don't deal any damage in lands that have none of your :presence: in / adjacent to them.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 4,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17294,
+      "hidden": false,
+      "trust_level": 3,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2019-02-25",
+      "user_birthdate": "1904-10-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": true,
+      "topic_accepted_answer": true
+    }
+  ]
+}

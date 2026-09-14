@@ -1,0 +1,1604 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 135417,
+        "name": "bobbertoriley",
+        "username": "bobbertoriley",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/bobbertoriley/{size}/1910_2.png",
+        "created_at": "2016-02-18T23:25:09.000Z",
+        "cooked": "<p>Keep going, and at this rate, Absolute Zero is going to cause the heat death of the uni...erm, multiverse!</p>",
+        "post_number": 71,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.062Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "bobbertoriley",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12891,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-08-30",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135418,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-02-18T23:35:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>MarioFanaticXV wrote:</b><br><blockquote>I am curious as to what the numbers cap at in Sentinels; maybe 65535, two bytes of data? There's no reason any reasonable person should ever go that high, but now I'm tempted to...\n&nbsp;\n</blockquote></div>\nThere is little reason to use shorts in modern programming. Have fun getting to minus two billion hit points!\n</blockquote>\n</aside>\n<p>Hm…</p>\n<p>&nbsp;</p>\n<p>Doable, I think, but not until Captain Cosmic is out. &nbsp;</p>\n<p>&nbsp;</p>\n<p>The trick is that Coolant Blast will double the amount of fire damage AZ has taken this round. &nbsp;Coolant Blast isn't limited, and there's two of them. &nbsp;If you use Isothermic Transducer to hit yourself N times with each Coolant Blast, and you active Coolant Blast X times in a round, then the total damage AZ will take is on the order of N^X. &nbsp;Dynamic Syphon allows you to turn damage into power uses (since you don't have to worry about losing the Syphon while Fixed Point is out), which means that it's fairly easy to use both Coolant Blasts every turn. &nbsp;There are 7 turns in a round, which means a maximum of 14 power uses. &nbsp;5^14 is 6 billion, and would only require 70 or so instances of dealing damage. &nbsp;Even if you miss the environment or villain turn, 6^12 is 2 billion, and wouldn't take much longer.</p>\n<p>&nbsp;</p>\n<p>Doing it the old fashion way by incrementally hitting yourself with a growing Isothermal Transducer charge deals AZ aproximately X^2 * N / 2 damage, where X is the number of times you damage yourself, and N is your damage boost. &nbsp;Assuming a damage boost of 10 (hah!), it would take about 20,000 instances of damage to reach 2 billion. &nbsp;You could reduce that a fair amount by capping it with a Coolant Blast, but that would still take over a thousand instances of damage to get there.</p>",
+        "post_number": 72,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.131Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135419,
+        "name": "PeterCHayward",
+        "username": "PeterCHayward",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/peterchayward/{size}/2098_2.png",
+        "created_at": "2016-02-18T23:53:45.000Z",
+        "cooked": "<p>How are people keeping Fixed Point in play for multiple rounds?</p>",
+        "post_number": 73,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.204Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "PeterCHayward",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12388,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-04-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135420,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-02-19T00:01:10.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"PeterCHayward\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/peterchayward/48/2098_2.png\" class=\"avatar\"> PeterCHayward:</div>\n<blockquote>\n<p>How are people keeping Fixed Point in play for multiple rounds?</p>\n</blockquote>\n</aside>\n<p>We're not. &nbsp;You get one turn to pull it off, and heaven help you if you aren't set up properly when Fixed Point comes out. &nbsp;On the other hand, Coolant Blast only counts damage dealt in a single round anyways, so you'd have to start over every round anyways even if Fixed Point could be kept out longer.</p>",
+        "post_number": 74,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.270Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135421,
+        "name": "dpt",
+        "username": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "created_at": "2016-02-19T00:15:39.000Z",
+        "cooked": "<p>[quote=Arcanist Lupus]<span>If you use Isothermic Transducer to hit yourself N times with each Coolant Blast, ...[</span><span>/quote]I don't understand what you're suggesting here? Coolant Blast hits a non-hero target, so presumably you are somehow redirecting that damage back to Absolute Zero. But how are you getting numbers like N^X?</span></p>",
+        "post_number": 75,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.331Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "dpt",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5124,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135422,
+        "name": "Rabk",
+        "username": "Rabk",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabk/{size}/1978_2.png",
+        "created_at": "2016-02-19T01:52:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"PeterCHayward\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/peterchayward/48/2098_2.png\" class=\"avatar\"> PeterCHayward:</div>\n<blockquote>\n<p>How are people keeping Fixed Point in play for multiple rounds?</p>\n</blockquote>\n</aside>\n<p>We’re not, but there is a nice little trick using Excavation with a nearly empty deck if you want to see it repeatedly.  Just have to skip a round to pull it out of the trash each time. I had all my Solar Flares in play at one point that way. It was… ugly.</p>",
+        "post_number": 76,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.407Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Rabk",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5962,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-10-21",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135423,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-02-19T02:12:01.000Z",
+        "cooked": "<p>Imagine that AZ is hit with 5 fire damage. &nbsp;He then hits his Dynamic Syphon, allowing him to use a power. &nbsp;He uses Coolant Blast on Baron Blade, it is redirected back at AZ, so he takes 5. &nbsp;IT (Isothermic Transducer) activates, and is Twist the Ethered so AZ hits himself for 5 fire damage (well, 6 actually, but I'm going to ignore damage boosts). &nbsp;IT activates again, and AZ hits himself for 5 again. &nbsp;IT activates again, and AZ hits himself again. &nbsp;AZ has now taken a total of 20 fire damage, so when IT activates this time, he directs the damage at the Dynamic Syphon, allowing him to activate another power. &nbsp;He uses his second Coolant Blast to deal 20 damage to Blade, which is redirected back to AZ. &nbsp;IT activates, and AZ hits himself for 20. &nbsp;repeat twice more, and AZ has now hit himself with 80 fire damage in total.</p><p>&nbsp;</p><p>On the next turn, Ra shoots the Dynamic Syphon, allowing AZ to activate Coolant Blast for 80. &nbsp;He hits himself 3 times, then hits the Dynamic Syphon and activates his second Coolant Blast for 320. &nbsp;Hit himself 3 more times, and AZ has now taken 1,280 fire damage in total.</p><p>&nbsp;</p><p>Actually, the forumula is F * (N+1)^X, where F = initial fire damage, N = hits per Coolant Blast, and X = Power uses.</p><p>In this case, F was 5, N was 3, and X was 4. &nbsp;5*(3+1)^4 = 1,280. &nbsp;Of course, this ignores the damage boosts that will increase the amount of damage you deal each time.</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "post_number": 77,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.474Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135424,
+        "name": "Trajector",
+        "username": "Trajector",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/trajector/{size}/1914_2.png",
+        "created_at": "2016-02-19T14:05:35.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<div><b>MarioFanaticXV wrote:</b><br>\n<blockquote>I am curious as to what the numbers cap at in Sentinels; maybe 65535, two bytes of data? There's no reason any reasonable person should ever go that high, but now I'm tempted to...\n</blockquote>\n</div>\n<p>There is little reason to use shorts in modern programming. Have fun getting to minus two billion hit points!</p>\n</blockquote>\n</aside>\n<p>As a spacecraft engineer, statements about “modern programming” like this always make me laugh. In a sad, wistful, and self-deprecating kind of way.</p>",
+        "post_number": 78,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.542Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Trajector",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11097,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-13",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135425,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2016-02-20T08:48:04.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Trajector\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/trajector/48/1914_2.png\" class=\"avatar\"> Trajector:</div>\n<blockquote>\n<p>As a spacecraft engineer, statements about \"modern programming\" like this always make me laugh. In a sad, wistful, and self-deprecating kind of way.</p>\n</blockquote>\n</aside>\n<p>I mean \"modern programming on non-embedded systems\" of course =)</p>",
+        "post_number": 79,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.610Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135426,
+        "name": "riff.freelance",
+        "username": "riff.freelance",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/riff.freelance/{size}/2050_2.png",
+        "created_at": "2016-02-20T21:24:13.000Z",
+        "cooked": "<p>Okay I did my first Fixed Point shenanigans. Visionary,AA, Haka, AZ, and RC Wraith. with 2 Twist the Ethers a Savage Mana (loaded with 11 cards) and a set up AZ I gave Haka an out of turn Haka of Battle to get around 40 as my initial damage shot an bounced it back until AZ had taken 1k fire damage. Knocked out Ambuscade with 1020 cold damage.&nbsp;</p><p>As to how to end with AZ still active: Fanatic's card to give a second power use and Thermal Shockwave? Sounds like it will work, will test later.</p>",
+        "post_number": 80,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.671Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "riff.freelance",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-11-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135427,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-04-13T20:18:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>MarioFanaticXV wrote:</b><br><blockquote>I am curious as to what the numbers cap at in Sentinels; maybe 65535, two bytes of data? There's no reason any reasonable person should ever go that high, but now I'm tempted to...\n&nbsp;\n</blockquote></div>\nThere is little reason to use shorts in modern programming. Have fun getting to minus two billion hit points!\n</blockquote>\n</aside>\n<p>Promise made, promise kept.</p>\n<p>&nbsp;</p>\n<p>This ran pretty much exactly as I described earlier. &nbsp;Two Coolant Blasts, Dynamic Syphons on AZ and AA, Twist the Ether, and lots of damage. &nbsp;Syphons were triggered by a Marsquake, Hasten Doom, and then on AA, Greatest Legacy, and Visionary's turns. &nbsp;It was on Visionary's turn that I crossed the 2 billion threshold. &nbsp;I was unable to do any damage with Captain Cosmic, on account of all his constructs being indestructible. &nbsp;Took me about 2-3 hours in total.</p>\n<p>&nbsp;</p>\n<p>Things I learned:</p>\n<ol>\n<li>\n<p>&nbsp;When a hero is dealt too much damage, their health rolls over to positive. &nbsp;While at greater than max HP they cannot gain health, but lose health as normal. When Fixed Point was destroyed, it assumed that AZ was supposed to stay alive.</p>\n</li>\n<li>\n<p>&nbsp;When the fire damage AZ has been dealt since his last turn rolls over, Coolant Blast gets a little strange. &nbsp;I attached a screencap of what it does to the card. &nbsp;And when you try to use the power, it just skips doing anything and moves on. &nbsp;(Although the power is still considered used. &nbsp;If you come back later and try to use it, it will be greyed out.)</p>\n</li>\n<li>\n<p>&nbsp;Baron Blade's defeat image is not replaced by a smoldering pile of ash when he's been dealt over a billion damage.</p>\n</li>\n</ol>",
+        "post_number": 81,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.734Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135428,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2016-04-13T20:22:54.000Z",
+        "cooked": "<p>That's awesome.</p>",
+        "post_number": 82,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.800Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135429,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2016-04-13T20:27:52.000Z",
+        "cooked": "<p>I... wow.</p>",
+        "post_number": 83,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.856Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135430,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2016-04-13T22:27:32.000Z",
+        "cooked": "<p>HA HA HA HA HA HA HA!</p><p>&nbsp;</p><p>Go you!</p>",
+        "post_number": 84,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.924Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135431,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-04-14T03:03:00.000Z",
+        "cooked": "<p>Unfortunately, I didn't think to check if the Coolant Blast error went away after AZ's turn ended.</p><p>&nbsp;</p><p>Also, I forgot to grab the log file to see if there was anything interesting in it before I overwrote it.</p>",
+        "post_number": 85,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:29.990Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135432,
+        "name": "mackcrockett",
+        "username": "mackcrockett",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/m/53a042/{size}.png",
+        "created_at": "2016-04-14T14:41:00.000Z",
+        "cooked": "<p>Now they need different end games screens if you do a billion damage of a given type. In all cases, it should count as a hero loss, but just to have the world ends in&nbsp;different damage types&nbsp;illustrations (we wrecked this planet with rock and roll?)</p><p>A billion cold should usher in an ice age and destroy all plant life.</p><p>If you do a billion of each type in the same game, it just displays a drawing of Christopher looking sad.</p>",
+        "post_number": 86,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:30.047Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 10.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "mackcrockett",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7451,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135433,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2016-04-14T21:53:23.000Z",
+        "cooked": "<p>Looks like there was probably an exception somewhere when it tried to render the card. Too bad the log was lost or it might have helped us track it down, for all the times people will run into this =)</p><p>Fun stuff!</p>",
+        "post_number": 87,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:30.111Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135434,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-04-15T02:00:17.000Z",
+        "cooked": "<p>Yes, this is probably your least relevant bug in the entire game. &nbsp;Especially as it didn't actually effect gameplay.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Also, I've realized that there's a good chance that I've dealt more damage in SotM the Video Game than everybody else combined. &nbsp;</p>",
+        "post_number": 88,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:30.167Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 135435,
+        "name": "Trajector",
+        "username": "Trajector",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/trajector/{size}/1914_2.png",
+        "created_at": "2016-04-15T15:31:29.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>Looks like there was probably an exception somewhere when it tried to render the card. Too bad the log was lost or it might have helped us track it down, for all the times people will run into this =)Fun stuff!</p>\n</blockquote>\n</aside>\n<p>That’ll teach you guys not to build in MAX_INT protections in a game where just glancing at the cards you’d only think the largest number is 200!</p>\n<p><img src=\"https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12\" title=\":stuck_out_tongue:\" class=\"emoji only-emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>Arcanist, you are…ridiculous. In a good way.</p>",
+        "post_number": 89,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:11:30.261Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12538,
+        "topic_slug": "challenge-raw-damage",
+        "display_username": "Trajector",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11097,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-13",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 12538
+}

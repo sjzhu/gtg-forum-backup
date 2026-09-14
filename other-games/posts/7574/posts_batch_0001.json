@@ -1,0 +1,4216 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 57741,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T15:49:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>Okay, I think I understand what you're saying, but I'm not sure, so please tell me if I have it wrong.Instead of an instance of damage having the 4 properties (amount, type, source, target), you're saying that it only has the 2 properties (amount, type). &nbsp;And, that each target gains the property \"is a target of the current instance of damage\" when that damage is being dealt and then loses that property immediatly afterwards… so therefore a redirection affect doesn't change the value of the damage's \"target\" property, but changes the properties of the would have been target by removing the \"is a target…\" property and also affects the new target by adding the \"is a target…\" property?</p>\n</blockquote>\n</aside>\n<p>I think you can still look at damage having 4 properties if you want to view it that way. There is the base amount (the damage before modifiers), type, source (the thing that is actually dealing the damage), and the target (where the damage is being delt to).</p>\n<p>Of those 4, redirection effects act on the Target portion. Base damage, type, and source do not change and are uneffected. And again I will point out that Smoke Bombs has a separate clause that actually does modify the base damage during the redirect. [Redacted] also has a similar redirection ability that comes with a separate clause to modify the base damage.</p>\n<p>I make the distinction of base damage as a property because modifiers to that base damage are determined on a target by target basis. Imagine the table as a graphic user interface for a computer. You decide you want to deal damage. In my head I picture me taking my mouse and highlighting each legal target individually, seeing what the damage \"would be\" if I attacked them. That is the step where you assess modifiers (and possibly \"would be delt damage\" type trigger conditions take effect, like redirection). Redirecting changes the target, so I must \"deselect\" my old target, highlight my new target, use the base damage to re-calculate modifiers, and press the big red button that Tommy Lee Jones told me never to press.</p>",
+        "post_number": 71,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.198Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57742,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-12T18:02:48.000Z",
+        "cooked": "<p>Each instance of damage is only ever dealt to a single target. &nbsp;A card that says to deal damage to 3 targets actually creates 3 separate instances of damage. &nbsp;Each of those 3 instance of damages happens at a different time and triggers its own set of increase/decrease/redirect effects. &nbsp;Also, if one of those instances of damage destroys the source, any further instances of damage that the source would have dealt will never happen.</p>",
+        "post_number": 72,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.284Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57743,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T18:29:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>Each instance of damage is only ever dealt to a single target. &nbsp;A card that says to deal damage to 3 targets actually creates 3 separate instances of damage. &nbsp;Each of those 3 instance of damages happens at a different time and triggers its own set of increase/decrease/redirect effects. &nbsp;Also, if one of those instances of damage destroys the source, any further instances of damage that the source would have dealt will never happen.</p>\n</blockquote>\n</aside>\n<p>This is correct, but I am not seeing how this relates to what we were discussing. What correlation are you trying to point out here?</p>",
+        "post_number": 73,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.344Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57744,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-12T19:18:05.000Z",
+        "cooked": "<p>I was just trying to understand what you meant by this post:</p>\n<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>No because the target is not a function of the damage, where as the damage is very much dependant on the target.</p>\n<p>Redirection effects only change the target. The particular instance of damage is not being effected or altered (unless it is coming from Smoke Bombs which specifically alter the instance of damage in a separate clause). Because the instance of damage is independant from the redirection effect, it allows the damage modifiers to be reassesed for the new target.</p>\n<p>It really is a matter of what the effect is acting on. Redirection acts on the target, not the damage going to the target. It would be like picking up and moving a road to change the direction of a car instead of picking the car up itself if that analogy is helpful.</p>\n</blockquote>\n</aside>\n<p>But, I think I just got confused by your car/road example. &nbsp;If you mean for a car and a road to represent an instance of damage and its target, it's confusing because a target is a single, specific card, but a road is a path from one place to the next, i.e., from a starting point (the source) to a destination (the target), and a car travelling the path of that road travels from the starting point (the source) to the destination (the target). &nbsp;So, I'm not sure what you mean for them to represent.</p>\n<p>Although, now I think that I may have confused you with my wording in the post that you quoted in your post that confused me. &nbsp;I think we need to clearly distinguish between the target as a card, and the selection of that target as a property of the damage, which I guess is what you were trying to do with the user interface target selction example?</p>\n<p>I think we both agree that redirection effects change the target selection of the damage, but I don't think they affect the target, meaning a physical card with hp that was selected as the target for the damage and is not selected after the redirect effect selects a new target. &nbsp;In my mind, in order for something to be affected, that means something about it has to change. &nbsp;Since the physical card that damage gets redirected away from does not take any damage or trigger any effects of taking damage, or change in any other way that I'm aware of, I think that physical card target is not affected, which satisfies Isolated Hero's critera that it can't be affected.</p>",
+        "post_number": 74,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.409Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57745,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T19:24:00.000Z",
+        "cooked": "<p>Well see there is the thing. The target, in my mind, IS being affected by the Redirect. How? If there was no redirect, that target would have taken damage resulting in HP loss. Redirecting affected that target by allowing it to keep its HP at the expense of the HP of another target.&nbsp;</p><p>Sorry if the road/car example was confusing. I was thinking that the road is the path the damage travels from point A to point B and that the damage was a car. Redirection moves the road, so to speak, so that the road now points to Point C instead of point B.</p><p>My GUI example is just an illustration of how redirection is acting on the chosen target of the damage instead of acting on the other facets of the damage component, if the target is even a facet of damage to begin with, as I am not 100% sold on that point.</p><p>&nbsp;</p>",
+        "post_number": 75,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.489Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57746,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-12T19:33:15.000Z",
+        "cooked": "<p>I see, so because the game state in which the target would not take damage because of the redirect is different from the game state in which the target would take damage if the redirect were prevented, you consider it a change and therefore an effect. &nbsp;I would agree with you if the state in which the target would take damage were to actually occur, but in order for that to happen, Isolated Hero would have to prevent the redirect. &nbsp;So, in other words, in order to justify the view that Isolated Hero prevents the redirect, we have to assume that Isolated Hero would prevent the redirect in order for the state in which the target would take damage to occur, which is circular logic, and therefore invalid.</p>",
+        "post_number": 76,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.557Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57747,
+        "name": "brytehfryguy",
+        "username": "brytehfryguy",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/f0a364/{size}.png",
+        "created_at": "2013-08-12T19:55:00.000Z",
+        "cooked": "<p>\n[quote=\"dwetuski\"]\n</p><p>I see, so because the game state in which the target would not take damage because of the redirect is different from the game state in which the target would take damage if the redirect were prevented, you consider it a change and therefore an effect. \n[/quote]\n Yeah, makes sense.&nbsp;</p><p><span>\n[quote=\"dwetuski\"]\n</span><span>I would agree with you if the state in which the target would take damage were to actually occur\n[/quote]\n So you agree &nbsp;</span></p><p><span>\n[quote=\"dwetuski\"]\n</span><span>but in order for that to happen, Isolated Hero would have to prevent the redirect.\n[/quote]\n Isolated Hero has not been mentioned up to this point. Just that the redirect is an effect. It's an effect wether Isolated Hero exists or not. Entirely independantly.&nbsp;</span></p><p><span>\n[quote=\"dwetuski\"]\n</span><span>&nbsp;So, in other words, in order to justify the view that Isolated Hero prevents the redirect, we have to assume that Isolated Hero would prevent the redirect in order for the state in which the target would take damage to occur, which is circular logic, and therefore invalid.</span><span>\n[/quote]\n Nope, there's no circular logic in there. You just built a loop in your own head when there doesn't need to be one.</span></p><p>&nbsp;</p><p><span>Damage incoming to something #1 -&gt; Redirect -&gt; Damage goes somewhere else.</span></p><p>Step 2 is an effect. Now you seem to be arguing that it's an effect that doesn't actually effect something #1. We know this is not true because of the Amulet ruling. A character who can't take damage can't have the damage they wouldn't be taking in the first place redirected. The damage has to be happening to them, and then instead of physically putting the damage on them, it gets put on whatever it was redirected to.</p>",
+        "post_number": 77,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.623Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "brytehfryguy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4464,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57748,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T19:57:44.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>I see, so because the game state in which the target would not take damage because of the redirect is different from the game state in which the target would take damage if the redirect were prevented, you consider it a change and therefore an effect. &nbsp;</p>\n</blockquote>\n</aside>\n<p>Yes. That is what effects tend to do. They tend to alter the game states.</p>\n<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>I would agree with you if the state in which the target would take damage were to actually occur, but in order for that to happen, Isolated Hero would have to prevent the redirect.</p>\n</blockquote>\n</aside>\n<p>What? We were talking outside of Isolated Hero there and just about basic mechanics of Redirection.&nbsp;</p>\n<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>&nbsp;So, in other words, in order to justify the view that Isolated Hero prevents the redirect, we have to assume that Isolated Hero would prevent the redirect in order for the state in which the target would take damage to occur, which is circular logic, and therefore invalid.</p>\n</blockquote>\n</aside>\n<p>No, in order to justify that Isolated Hero can prevent redirection <em>you just read the text on the card</em>. Have we forgotten about that?</p>\n<p>Can we actually talk about real in game senarios here? Speaking in generalities does no one any good in a game with so many edge cases and complex interactions.&nbsp;</p>\n<p>Bunker is Isolated. Unity also on the field, not Isolated, with Stealth Bot on the field. Bunker gets targeted for an instance of 3 damage. Is Stealth Bot a hero card? Yes. Can Stealth Both redirect damage from a hero to itself? Yes. Is Stealth Bots redirection effect coming from a hero card? Yes. Can Stealth Bot choose Bunker to redirect damage from? NO. Bunker can't be targeted by Stealth Bot to benefit from its effect. Says so right in the text of Isolated Hero.</p>\n<p>Flip it. Unity is Isolated and Bunker is not. Bunker gets targeted for 3 damage. Again, Stealth Bot can not target Bunker as no effect coming from Unity or her deck can target other heros with their effects.&nbsp;</p>",
+        "post_number": 78,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.697Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57749,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T20:23:12.000Z",
+        "cooked": "<p>I think a question worth debating is how Smoke Bombs works when a Hero is Isolated.</p><p><em>Senario:</em></p><p>Bunker, Unity and Wraith are in play. Wraith is at full health. Unity has 15HP. Bunker is at 1HP and is Isolated. Wraith has Smoke Bombs in play. Horrid Skunk Ape starts to deal all targets 1 damage. Unity is chosen to be dealt damage first.</p><p><em>Question:</em></p><p>Bunker is the lowest HP hero, making it the target Smoke Bombs would usually help out. But Bunker can not be targeted by Smoke Bombs while he is Isolated. Does Unity, being the next lowest HP hero, become the eligable target for Smoke Bomb's to redirect from?</p><p>Or, does Smoke Bomb still recognize Bunker as the lowest HP hero and now rendered useless as it can not legaly resolve its effect?</p><p><em>Opinion:</em></p><p>I would say that, since Bunker is Isolated, it can not even be considered by Smoke Bombs when determining the lowest/highest HP targets. As far as the other Heros and their effects are concerned, it should be like Bunker is not even there with them at all.</p><p>But I find this question much more worthy of debate than whether or not you can sometimes use effects from another hero on an isolated hero even though the card expressly prohibits such a thing.&nbsp;</p>",
+        "post_number": 79,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.789Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57750,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-08-12T21:33:05.000Z",
+        "cooked": "<p>Well as I said above, I would resolve Smoke Bombs as though the isolated hero cards weren't even there.&nbsp; (or the other hero cards if Wraith is the&nbsp;isolated one).&nbsp; Otherwise it seems like they are affecting Smoke Bombs.</p><p>This falls under my general rule that when&nbsp;a card&nbsp;says 'target', I read it as though it added 'excluding the isolated hero's cards' or 'excluding other heros' cards' as appropriate.</p>",
+        "post_number": 80,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.854Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57751,
+        "name": "Krayden006",
+        "username": "Krayden006",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/krayden006/{size}/2414_2.png",
+        "created_at": "2013-08-12T21:33:51.000Z",
+        "cooked": "<p>In my personal opinion this is being way over thought.&nbsp; Isolated means isolated.&nbsp; The villain has a particular hero isolated from the others.&nbsp; In a corner, another room, other side of the planet.&nbsp; Nothing the other heroes can do to help the one that has been isolated.&nbsp; They are in fact isolated.&nbsp; Just my 1.5 cents.&nbsp; As long as you're having fun with it, play it how you like.</p>",
+        "post_number": 81,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.925Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Krayden006",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3797,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-24",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57752,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2013-08-12T21:36:34.000Z",
+        "cooked": "<p>Was there a definitive answer on what happens if, say, a hero under the effects of Twist the Ether becomes Isolated? Would Twist go to Visionary's trash as her target is now \"inivisble\" and from her PoV no longer exists? Or would it remain in play on that character but do nothing until they become un-Isolated?</p>",
+        "post_number": 82,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:08.998Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57753,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2013-08-12T21:40:43.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ameena\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ameena/48/1907_2.png\" class=\"avatar\"> Ameena:</div>\n<blockquote>\n<p>Was there a definitive answer on what happens if, say, a hero under the effects of Twist the Ether becomes Isolated? Would Twist go to Visionary's trash as her target is now \"inivisble\" and from her PoV no longer exists? Or would it remain in play on that character but do nothing until they become un-Isolated?</p>\n</blockquote>\n</aside>\n<p>Isolated Hero says nothing about destroying anything when it becomes attached to a hero. Twist the Ether would remain attached but would do nothing for the hero. You could even play Twist the Ether on a hero that is Isolated, but it still wouldn't do anything.</p>",
+        "post_number": 83,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.068Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57754,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T21:53:11.000Z",
+        "cooked": "<p>Could you play it on an isolated hero? I'm with you on everything else. I don't see any reason why TtE would get destroyed. But playing TtE on an isolated hero? I'm not so sure I'd play it that way.&nbsp;</p>",
+        "post_number": 84,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.143Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57755,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-12T22:02:10.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"brytehfryguy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/b/f0a364/48.png\" class=\"avatar\"> brytehfryguy:</div>\n<blockquote>\n<p>We know this is not true because of the Amulet ruling. A character who can't take damage can't have the damage they wouldn't be taking in the first place redirected. The damage has to be happening to them, and then instead of physically putting the damage on them, it gets put on whatever it was redirected to.</p>\n</blockquote>\n</aside>\n<p>You're referring to the fact that the Mist Form / Amulet of the Elder Gods ruling states that because Nightmist is immune to damage, she can't use the amulet to redirect it, right? &nbsp;That's actually a good point in that it shows a clear precedent for considering whether or not a target would take damage in determining whether or not a redirect effect is allowed, but you're wrong… it doesn't prove that that the redirect effect affects the target the damage gets redirected away from. &nbsp;Because the damage is redirected away from that target, that target never takes the damage, and therefore the state in which it took damage never actually occurred, so there is no change the target, which means that it was never affected. &nbsp;What it does prove is that you can't use an effect to prevent a situation that would never have happened if the effect was not used, but that's completely irrelevant to the question at hand.</p>",
+        "post_number": 85,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.210Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57756,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-12T22:07:03.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>Bunker is Isolated. Unity also on the field, not Isolated, with Stealth Bot on the field. Bunker gets targeted for an instance of 3 damage. Is Stealth Bot a hero card? Yes. Can Stealth Both redirect damage from a hero to itself? Yes. Is Stealth Bots redirection effect coming from a hero card? Yes.</p>\n</blockquote>\n</aside>\n<p>I agree up to this point.</p>\n<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>Can Stealth Bot choose Bunker to redirect damage from? NO. Bunker can't be targeted by Stealth Bot to benefit from its effect.</p>\n</blockquote>\n</aside>\n<p>The problem with this is that redirection effects never choose a target to redirect from… they respond to an instance of damage, and by the time that instance of damage has been declared, the target for the damage has already been chosen (typically by the source of that damage).</p>",
+        "post_number": 86,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.276Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57757,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T22:28:34.000Z",
+        "cooked": "<p>And who do you think choses the new target? What gives you the ability to do that? Does a new target magically get chosen?&nbsp;</p><p>No dude. The player/hero who's redirecting choses. Because it is their. And a player can't choose another hero who's isolated. If you agree stealth bits redirection is an effect from unitys deck, then you must agree that effect can't be used on isolated hero. It says so on the card!&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "post_number": 87,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.357Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57758,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-08-12T23:38:33.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>And who do you think choses the new target? What gives you the ability to do that? Does a new target magically get chosen?</p>\n<p>No dude. The player/hero who's redirecting choses. Because it is their. And a player can't choose another hero who's isolated. If you agree stealth bits redirection is an effect from unitys deck, then you must agree that effect can't be used on isolated hero. It says so on the card!&nbsp;&nbsp;&nbsp;</p>\n</blockquote>\n</aside>\n<p>Presumably the target was chosen by some villain or environment card text.&nbsp; I believe his argument is that Stealth Bot is only affecting damage from some non-hero source, and doesn't care that the intended target was isolated from Unity.</p>\n<p>That said, I agree with you Foote.&nbsp; Stealth Bot is restricted to damage aimed at Hero Targets, so if the target is isolated from Stealth Bot I don't think it can meet that trigger condition without counting as the cards affecting each other.</p>",
+        "post_number": 88,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.448Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57759,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-12T23:47:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>And who do you think choses the new target? What gives you the ability to do that? Does a new target magically get chosen?&nbsp;No dude. The player/hero who's redirecting choses.</p>\n</blockquote>\n</aside>\n<p>Obviously. &nbsp;That's why I can see it being the case that damage can't be redirected TO a target that's blocked by Isolated Hero, but so far, I don't see any justification for why it couldn't be redirected FROM a target that's blocked by Isolated Hero.</p>\n<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>No, in order to justify that Isolated Hero can prevent redirection&nbsp; <em>you just read the text on the card</em> . Have we forgotten about that?</p>\n<p>It says so on the card!</p>\n</blockquote>\n</aside>\n<p>I've been ignoring these comments because they don't conribute anything to the thread, but now I feel the need to explain something to you. &nbsp;There are two key concepts regarding any language: syntax, and semantics. &nbsp;Syntax is the exact wording that is used, and semantics is the meaning behind it. &nbsp;The problem with natural languages like, for example, English, is that a single syntax can potentially map to several different semantics. &nbsp;In practical terms, this means that just because two people read the same words, doesn't mean that they'll have the same idea about what those words mean.</p>\n<p>In case you still don't get it… I've read the card several times before even posting in this thread, and I've read it several times since. &nbsp;Just because we don't agree doesn't mean that I haven't read the card.</p>",
+        "post_number": 89,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.521Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57760,
+        "name": "brytehfryguy",
+        "username": "brytehfryguy",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/f0a364/{size}.png",
+        "created_at": "2013-08-13T03:38:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>brytehfryguy wrote:</b><br><blockquote>We know this is not true because of the Amulet ruling. A character who can't take damage can't have the damage they wouldn't be taking in the first place redirected. The damage has to be happening to them, and then instead of physically putting the damage on them, it gets put on whatever it was redirected to.\n&nbsp;\n</blockquote></div>\nYou're referring to the fact that the Mist Form / Amulet of the Elder Gods ruling states that because Nightmist is immune to damage, she can't use the amulet to redirect it, right? &nbsp;That's actually a good point in that it shows a clear precedent for considering whether or not a target would take damage in determining whether or not a redirect effect is allowed, but you're wrong... it doesn't prove that that the redirect effect affects the target the damage gets redirected away from. &nbsp;Because the damage is redirected away from that target, that target never takes the damage,\n</blockquote>\n</aside>\n<p>Except the target did, it was just moved before the damage was placed.&nbsp;</p>\n<p>&nbsp;</p>\n<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>and therefore the state in which it took damage never actually occurred,</p>\n</blockquote>\n</aside>\n<p>If the state never occurs, why does the game care if the target is immune or not?</p>\n<p>&nbsp;</p>\n<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>so there is no change the target, which means that it was never affected.</p>\n</blockquote>\n</aside>\n<p>Except when it was effected by the power up to the point the effect moves it to a different target.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>What it does prove is that you can't use an effect to prevent a situation that would never have happened if the effect was not used, but that's completely irrelevant to the question at hand.</p>\n<p>&nbsp;</p>\n</blockquote>\n</aside>\n<p>So you're saying the game is checking into the future state of the game to see if the damage is possible against it's target, but the redirect still happens before the damage is ever assigned?</p>",
+        "post_number": 90,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.597Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "brytehfryguy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4464,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57761,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-13T04:38:14.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"brytehfryguy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/b/f0a364/48.png\" class=\"avatar\"> brytehfryguy:</div>\n<blockquote>\n<p>Except the target did, it was just moved before the damage was placed.</p>\n<p>Except when it was effected by the power up to the point the effect moves it to a different target.</p>\n</blockquote>\n</aside>\n<p>Oh, you're thinking of it as damage is actually applied to the target, then gets removed by the redirect affect? &nbsp;That's interersting. &nbsp;If that were the case, then yes, I'd agree that damage could not be redirected from targets affected by Isolated Hero. &nbsp;However, this interpretation becomes murky when you consider that most redirect effects, and all redirect effects that I've found which describe redirecting damage away from a target, say when damage \"would be\" dealt, suggesting that the redirection occurs before the damage is actually dealt.</p>\n<aside class=\"quote no-group\" data-username=\"brytehfryguy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/b/f0a364/48.png\" class=\"avatar\"> brytehfryguy:</div>\n<blockquote>\n<p>If the state never occurs, why does the game care if the target is immune or not?</p>\n<p>So you're saying the game is checking into the future state of the game to see if the damage is possible against it's target, but the redirect still happens before the damage is ever assigned?</p>\n</blockquote>\n</aside>\n<p>Yes, you can think of it as a \"look ahead\" mechanic. &nbsp;When you see that something is about to happen, you get the chance to stop it from happening. &nbsp;If you do stop it, then that \"something\" that you stopped from happening doesn't actually happen. &nbsp;If that \"something\" is never about to happen, then the chance to stop it never gets triggered.</p>",
+        "post_number": 91,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.674Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57762,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T04:57:59.000Z",
+        "cooked": "<p>As for redirection, what is triggering the redirection?</p><p>If it is the isolated target being targetted for damage, then I would say no, you can't redirect damage away from that target, as you are responding to something happening to them.</p><p>WtM and Divine Sacrifice work differently. &nbsp;Divine Sacrifice is triggering based on the source of the damage, Fanatic hit them, now their damage is redirected to her. &nbsp;The target of the damage is irrelevant, that damage is being redirected without an optional trigger or a target needing to be specified. &nbsp;If Fanatic is the one isolated or it is an ally, either way it would still be redirected. &nbsp;WtM is the same way, it triggers on the source of the damage, not the target. &nbsp;If Isolated hero is the target of the attack, it doesn't matter, Visionary can still effect the one dealing damage, and that is her trigger for redirection. &nbsp;If the card is on an isolated hero it sits there and cannot be activated. &nbsp;I agree you can play cards on an isolated hero or their cards, but those cards have no effect as long as the hero remains isolated.</p><p>Smoke Bombs is trickier.</p><p>Smoke Bombs is a non-optional trigger that goes solely off HP. &nbsp;It doesn't care who the lowest HP hero is, or who the highest HP hero is, it is doing its thing whenever the lowest HP target is about to receive damage. &nbsp;On the other side it is affecting those heroes, and I think I would end up not allowing smoke bombs redirect to or away from the isolated hero. &nbsp;Wraith being isolated would make Smoke Bombs useless, just like Unity being isolated means Stealth bot could only work on Unity's cards.</p><p>I would go with Smoke bombs still triggering off the lowest HP hero, but if that hero is isolated it has no effect. &nbsp;Also the isolated hero being highest HP would stop the redirection, and the lowest would still take the damage.</p><p>Isolated Hero doesn't stop you from being targetted, but it does block the effect.</p>",
+        "post_number": 92,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.750Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57763,
+        "name": "Greywind",
+        "username": "Greywind",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+        "created_at": "2013-08-13T05:04:44.000Z",
+        "cooked": "<p>I'd go with cards already placed on the Isolated Hero remain, but may not be used. New cards can't be played there until Isolated Hero is removed.</p>",
+        "post_number": 93,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.830Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Greywind",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3795,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57764,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T05:08:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Greywind\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/greywind/48/2006_2.png\" class=\"avatar\"> Greywind:</div>\n<blockquote>\n<p>I'd go with cards already placed on the Isolated Hero remain, but may not be used. New cards can't be played there until Isolated Hero is removed.</p>\n</blockquote>\n</aside>\n<p>Isolated hero doesn't say they can't be targetted, or have cards played on them, just that they can't be effected. &nbsp;I don't see why you couldn't put a card on them.</p>",
+        "post_number": 94,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.909Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57765,
+        "name": "Greywind",
+        "username": "Greywind",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+        "created_at": "2013-08-13T05:10:43.000Z",
+        "cooked": "<p>Being a target is an effect.</p>",
+        "post_number": 95,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:09.977Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Greywind",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3795,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57766,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-13T05:13:45.000Z",
+        "cooked": "<p>Because you are selecting the isolated hero for something (in this case playing a card). I'd consider adding a card to their board as affecting them&nbsp;</p>",
+        "post_number": 96,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.043Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57767,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T05:35:18.000Z",
+        "cooked": "<p>It doesn't say affecting the space where their cards sit, it has to affect the hero or their cards, and being a target isn't affecting them, unless targetting them results in an effect.</p><p>An effect brings about a change, it has to actually do something. &nbsp;The only thing you affect by putting a card next to their hero is the space that the card occupies. &nbsp;There is potential for an effect, but not an effect yet.</p><p>As Isolated Hero does not prevent you from affecting the space they are playing in I don't see why you couldn't play a card there. &nbsp;That card would have no effect.</p>",
+        "post_number": 97,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.107Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57768,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-13T05:43:44.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>As for redirection, what is triggering the redirection?If it is the isolated target being targetted for damage, then I would say no, you can't redirect damage away from that target, as you are responding to something happening to them.WtM and Divine Sacrifice work differently. &nbsp;Divine Sacrifice is triggering based on the source of the damage, Fanatic hit them, now their damage is redirected to her. &nbsp;The target of the damage is irrelevant, that damage is being redirected without an optional trigger or a target needing to be specified. &nbsp;If Fanatic is the one isolated or it is an ally, either way it would still be redirected. &nbsp;WtM is the same way, it triggers on the source of the damage, not the target. &nbsp;If Isolated hero is the target of the attack, it doesn't matter, Visionary can still effect the one dealing damage, and that is her trigger for redirection.</p>\n</blockquote>\n</aside>\n<p>This is a good question. &nbsp;I was thinking it's the card that provides the redirection effect, but it could be that it's the target that's about to take damage that triggers the chance to redirect, and any cards that provide redirection effects then provide a chance to respond to that trigger. &nbsp;If that's the case, and if it's also the case that&nbsp;  responding to a trigger is considered to affect the triggering card, then I'd agree with this interpretation. &nbsp;Aside from redirection and responses to card destruction, what other trigger mechanics are there?</p>",
+        "post_number": 98,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.182Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57769,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-13T05:49:42.000Z",
+        "cooked": "<p>As far as I'm aware, there is no concept of a hero's board in the rules, nor is there anything that says that hero cards must be played near their corresponding hero character card. &nbsp;In theory, you could play all hero, villain, and environment cards in one long list to keep track of the order in which they were played, but I imagine that would make it hard to keep track of what options are available to the players.</p>",
+        "post_number": 99,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.250Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57770,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-08-13T06:53:54.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>As far as I'm aware, there is no concept of a hero's board in the rules, nor is there anything that says that hero cards must be played near their corresponding hero character card. &nbsp;In theory, you could play all hero, villain, and environment cards in one long list to keep track of the order in which they were played, but I imagine that would make it hard to keep track of what options are available to the players.</p>\n</blockquote>\n</aside>\n<p>The Tomb of Anubis does mention a player's play area, but there is no general rule about where cards go when they are in play.&nbsp; If you wanted to play 'Demoralization' and place&nbsp;it next to an isolated hero, I would be fine with that.</p>\n<p>However cards like Twist the Ether and Wrest the Mind say to play them next to a target.&nbsp; It is not valid to just put them next to nothing if you can avoid it, so I feel like when you play them next to an isolated target, then the card has affected them.&nbsp; In general I try to resolve text on hero cards as I would if the cards they are isolated from are not even there.</p>",
+        "post_number": 100,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.314Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57771,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-13T13:15:35.000Z",
+        "cooked": "<p>Wrest the mind must be played on a target. Or next to if you wish. That semantic difference means nothing within the context of the game system. Choosing a target for wrest the mind is part of that cards effect. And we all know from our reading comprehension skills that isolated heros can't be the target of other hero card effects.&nbsp;</p><p>Again, can we PLEASE stop using generalities and stick to actual tangible in game examples. Talking about the table space and where they go on the table like it actually matters is just showing how insaine this thread is.</p><p>&nbsp;</p>",
+        "post_number": 101,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.398Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57772,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-13T15:41:04.000Z",
+        "cooked": "<p>Isolated Hero doesn't say anything about preventing cards from targeting each other, it just says something about preventing them from affecting each other. &nbsp;Whether or not targeting something includes affecting it is unclear. &nbsp;Look at immunity for example. &nbsp;You could reasonably say that a target that is immune to fire damage cannot be affected by fire damage... but that doesn't mean that target can't be targeted by fire damage.</p>",
+        "post_number": 102,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.474Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57773,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-13T15:58:48.000Z",
+        "cooked": "<p>Back to Wrest the Mind.</p><p>The text on the card is the cards effect. Fact.&nbsp;</p><p>Part of that effect is chosing a target. Fact.&nbsp;</p><p>When you choose a target, that target is now having some kind of interaction with the effect from WtM.&nbsp;</p><p>If cards interact with each other in any way shape or form, you can reasonably say that they effected each other. Does that interaction result in what you consider \"change\"? It doesn't matter ultimately, and certainly not with your unease scarily narrow view of what \"affected\" means. The fact that they interacted at all is at odds with the intention and plain wording of the card within the context of the game system. &nbsp;</p><p>What about this is so hard? Drop the zealous grasp on silly semantics and see the card for what it's intended purpose is.&nbsp;</p>",
+        "post_number": 103,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.551Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57774,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-08-13T16:13:01.000Z",
+        "cooked": "<p>Immunity specifically says that&nbsp;the target's&nbsp;HP is not reduced by the damage, but that it is still a valid target.&nbsp; It would certainly be possible to define a list of things which qualify as 'affect a card', and then everything else would be fair game.&nbsp; However, without such a definition, I'm inclined to just say that if you cause something to resolve differently then you have affected it.</p>",
+        "post_number": 104,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.619Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57775,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2013-08-13T16:17:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>Drop the zealous grasp on silly semantics…</p>\n</blockquote>\n</aside>\n<p>Foote, while I <strong>completely </strong>agree with your thoughts and analysis, <strong>please do not continue with the insulting attitude</strong>. It is not helping the situation/discussion.</p>\n<p>Everyone, please feel free to continue this conversation, but remember the intention of the card is clear: Other heroes can't interact with the isolated hero.</p>\n<p>This isn't a game like Magic, where the rules and interactions are at a finite level of detail in order to handle all potential interactions. SotM does not have definitions for \"affect\" and such - and hopefully (in my opinion)&nbsp;it never will, because it's meant to be a fun, enjoyable game that can be played without picking apart the rules.</p>\n<p>If you are someone who enjoys picking at rules, you're welcome to do so! Just remember that it's not how the card/game was intended to be played.&nbsp; <img src=\"https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 105,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.696Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57776,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T16:58:32.000Z",
+        "cooked": "<p>The only reason play space was brought up was because I don't believe playing a card next to a target is affecting that target, the card's effect is triggered later, Twist the Ether can sit next to a target all game and have no effect, it has to be voluntarily triggered to have an effect. &nbsp;Unused it has absolutely no effect on the target. &nbsp;It isn't even treated as their card, it is still Visionaries card. &nbsp;The only effect the card is having is taking up space in the target heroes play area.</p><p>Isolated Hero does not say the hero can't be targetted, it says it can't be affected by the effects of the card. &nbsp;The only effect of the card that is triggering is that when you put it in play you put it next to a target instead of your own play area. &nbsp;I don't see setting a card next to a hero as affecting that hero.</p><p>Seriously there is absolutely no difference between the card being there or not if it isn't activated. &nbsp;It has no effect until triggered. &nbsp;It should be playable, just not able to take effect. &nbsp;Just like I would argue that target based redirection can target an isolated hero, but not actually redirect the damage. &nbsp;Isolated hero should cause the redirection to fail if it needs to target an isolated hero to take effect. &nbsp;It wouldn't skip them in targetting, it would target them and fail.</p><p>Isolated hero does not remove the hero and their cards from the fight, it makes them unable to be affected. &nbsp;They are still a valid target, Isolated hero just cancels or negates the effect.</p>",
+        "post_number": 106,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.786Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57777,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-13T17:13:04.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Rabit\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabit/48/5774_2.png\" class=\"avatar\"> Rabit:</div>\n<blockquote>\n<p>This isn't a game like Magic, where the rules and interactions are at a finite level of detail in order to handle all potential interactions. SotM does not have definitions for \"affect\" and such - and hopefully (in my opinion)&nbsp;it never will, because it's meant to be a fun, enjoyable game that can be played without picking apart the rules.</p>\n</blockquote>\n</aside>\n<p>I get what you're saying, and if that works for you, that's great… but without a clear understanding of the rules, there will always be cases that arise where it's unclear how they should be handled. &nbsp;I also get that there's an ambiguity rule that says the players get to choose, but there's a difference between choosing one of several equally valid targets for a villain's attack and making broad sweeping interpretations of the rules. &nbsp;One is a tactical decision that adds strategic options to the game and makes it more fun, and the other can drastically affect the game balance, potentially destroying the fun.</p>\n<p>Also, if an electronic version of the game is indeed being developed, as hinted by arerson9, then all of these questions will have to be answered in an official way if the cards these questions apply to are to be included in that version. &nbsp;Trying to build a software product without a clearly defined set of rules is a recipe for disaster. &nbsp;The earlier versions of MtG didn't have such well-defined formal rules either, but once people started trying to make computer game implementations, that level of formalilty became necessary.</p>",
+        "post_number": 107,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.869Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57778,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-08-13T17:18:27.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>I don't see setting a card next to a hero as affecting that hero.</p>\n</blockquote>\n</aside>\n<p>See, I'm looking at it as that hero affecting Twist the Ether.&nbsp; When played, Twist the Ether has to select the target which it will apply to for the duration that it is in play.&nbsp; If you select the isolated hero, then that hero (its presence and status as a target) has affected Twist the Ether.</p>\n<p>But that is based on my assumption that the cards should not even see each other.&nbsp; It seems like you are going more for a definition where the&nbsp;presence of cards and their status as targets can affect other decks, they just can't actively do things to each other.&nbsp; My concern is that there won't be a clear line of what qualifies as doing something <em>to</em> the card.&nbsp; I just find it easier to draw a hard line that the existence of that isolated card has no effect on how I resolve the text on mine.</p>",
+        "post_number": 108,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:10.937Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57779,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T17:43:57.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dypaca\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dypaca/48/2079_2.png\" class=\"avatar\"> dypaca:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>phantaskippy wrote:</b><br><blockquote>I don't see setting a card next to a hero as affecting that hero.\n&nbsp;\n</blockquote></div>\nSee, I'm looking at it as that hero affecting Twist the Ether.&nbsp; When played, Twist the Ether has to select the target which it will apply to for the duration that it is in play.&nbsp; If you select the isolated hero, then that hero (its presence and status as a target) has affected Twist the Ether.But that is based on my assumption that the cards should not even see each other.&nbsp; It seems like you are going more for a definition where the&nbsp;presence of cards and their status as targets can affect other decks, they just can't actively do things to each other.&nbsp; My concern is that there won't be a clear line of what qualifies as doing something <em>to</em> the card.&nbsp; I just find it easier to draw a hard line that the existence of that isolated card has no effect on how I resolve the text on mine.\n</blockquote>\n</aside>\n<p>I can see the argument, but I think that leads to bigger jumps gameplay wise. &nbsp;I don't think Isolated Hero is meant to effectively remove that hero, just prevent them from being helped. &nbsp;They aren't on opposite sides of the planet, two people on opposite sides of the planet can't melee damage the same target very easily. &nbsp;I don't like Smoke Bombs ignoring that hero as a target and assigning the second lowest HP hero as the lowest.</p>\n<p>This definitely could use an official ruling, but even without one it isn't like we can't all play our own way.</p>",
+        "post_number": 109,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.008Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57780,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-13T18:03:06.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Isolated Hero does not say the hero can't be targetted, it says it can't be affected by the effects of the card. &nbsp;The only effect of the card that is triggering is that when you put it in play you put it next to a target instead of your own play area. &nbsp;I don't see setting a card next to a hero as affecting that hero.</p>\n</blockquote>\n</aside>\n<p>What is telling you to play the card next to a target? A card effect you say? Can a card effect interact with an isolated hero?</p>\n<p>The argument that card/hero interactions are not predicated on card effects is baseless and wrong. Flat out wrong.&nbsp;</p>\n<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Isolated Hero does not say the hero can't be targetted, it says it can't be affected by the effects of the card.&nbsp;</p>\n</blockquote>\n</aside>\n<p>The targeting of the Isolated hero to place the card next to IS a card effect. Would you like to argue otherwise? You are not just placing it somewhere in the middle of the table randomly. It is being attached and associated with a specific target that YOU must name from the very start.&nbsp;</p>\n<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Seriously there is absolutely no difference between the card being there or not if it isn't activated. It has no effect until triggered.</p>\n</blockquote>\n</aside>\n<p>Really now? There are tons of differences. What if you need to destroy [H] hero cards? Sure makes a difference then if it is in play or not.</p>\n<p>No effect until triggered? You trigger the first effect the second you play it. That first effect would be the first sentence, you know, the one where it tells you to pick a target to play your card on.&nbsp;</p>\n<p>You keep saying that targeting is not an effect, but have nothing to back that claim up with. Because it certainly is an instruction on a card. And trying to make the case that a cards text is not also that cards effect is just not defensible&nbsp;</p>",
+        "post_number": 110,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.093Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57781,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-08-13T18:25:43.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>This definitely could use an official ruling, but even without one it isn't like we can't all play our own way.</p>\n</blockquote>\n</aside>\n<p>While an official statement would always be nice, I feel like we could fill an entire page of the official rulings thread with questions on how various different types of cards interract with Isolated Hero.&nbsp; (And what happens as it enters play, and leaves play).</p>\n<p>The promo decks seem to be where they stick effects which really screw with normal gameplay, and I think part of the idea is to hit you with some weird card interraction that you never anticipated.&nbsp; It's interesting to compare the various ways that people resolved those interactions, but everyone seems more or less satisfied with how the card works for them.</p>",
+        "post_number": 111,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.178Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57782,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T19:09:53.000Z",
+        "cooked": "<blockquote><p><span>What is telling you to play the card next to a target? A card effect you say? Can a card effect interact with an isolated hero?</span></p></blockquote><p>A card effect can't effect an isolated hero, the effect of playing it next to a hero affects the card being played and the way you play it, that is all.</p><blockquote><p>The argument that card/hero interactions are not predicated on card effects is baseless and wrong. Flat out wrong.&nbsp;</p></blockquote><p>There is no card that tells you you get to use a power each turn, yet you do. &nbsp;There is no card that tells you to play a card during your play phase, but you do. &nbsp;We do things in the game based on rules, and card effects. &nbsp;Not everything is a card effect. &nbsp;A card is not played by its own effect, it is played because that's what the rules state you do. &nbsp;Most Hero/card interaction is predicated on card effects, not all. &nbsp;That has nothing to do with this debate though.</p><blockquote><p><span>The targeting of the Isolated hero to place the card next to IS a card effect. Would you like to argue otherwise? You are not just placing it somewhere in the middle of the table randomly. It is being attached and associated with a specific target that YOU must name from the very start.</span></p></blockquote><p>Yes it is a card effect, and that effect is affecting the card Twist the Ether, and the person playing it. &nbsp;That is all. &nbsp;The rest of Twist the Ether's effect affects the targetted hero, but they are seperate effects. &nbsp;One of the effects is usable through isolated hero, one isn't. &nbsp;I'm not saying you can alter their damage, just that you can play the card. &nbsp;Just like Chrono Ranger could use Temporal grenade if he couldn't deal damage, two different effects.</p><blockquote><p><span>Really now? There are tons of differences. What if you need to destroy [H] hero cards? Sure makes a difference then if it is in play or not.</span></p></blockquote><p>If you have to destroy (H) cards that choice as to destroy Twist the Ether would be Visionaries choice, not the target the card is next to. &nbsp;So that still doesn't affect the target. &nbsp;If the Isolated Hero has to destroy cards they could not destroy Twist the Ether because it isn't theirs.</p><blockquote><p><span>No effect until triggered? You trigger the first effect the second you play it. That first effect would be the first sentence, you know, the one where it tells you to pick a target to play your card on.&nbsp;</span></p></blockquote><p>Again we are talking about effecting an isolated hero. &nbsp;Isolated Hero does not prevent effects that do not affect the isolated hero. &nbsp;The first effect does not effect the hero it is played next to. &nbsp;The second effect is the only effect that affects another hero, and that one would be stopped by Isolated Hero.</p><p>Also the card does not tell you to target someone. &nbsp;It says \"Play this card next to a target.\" &nbsp;That is not targetting them for some effect, it is an effect that alters where the card is played. &nbsp;The effect only affects the card being played and the player putting it into play.</p>",
+        "post_number": 112,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.251Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57783,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2013-08-13T19:18:35.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"dwetuski\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3e96dc/48.png\" class=\"avatar\"> dwetuski:</div>\n<blockquote>\n<p>if an electronic version of the game is indeed being developed, as hinted by arerson9 {sic}</p>\n</blockquote>\n</aside>\n<p>FYI, <a href=\"http://handelabra.com/blog/2013/7/15/handelabra-rebirth\" rel=\"noopener nofollow ugc\">not just a hint</a>.  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/sunglasses.png?v=12\" title=\":sunglasses:\" class=\"emoji\" alt=\":sunglasses:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 113,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.326Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "http://handelabra.com/blog/2013/7/15/handelabra-rebirth",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57784,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-13T20:03:13.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>The first effect does not effect the hero it is played next to. &nbsp;The second effect is the only effect that affects another hero, and that one would be stopped by Isolated Hero.Also the card does not tell you to target someone. &nbsp;It says \"Play this card next to a target.\" &nbsp;That is not targetting them for some effect, it is an effect that alters where the card is played. &nbsp;The effect only affects the card being played and the player putting it into play.</p>\n</blockquote>\n</aside>\n<p>So how exactly does a card effect can <em>involve</em> a target but not <em>affect</em> them? &nbsp;</p>\n<p><strong><em>You involved, and interacted with, an Isolated target in the resolution of another heros card effect</em></strong>.</p>\n<p>I am pretty sure this thread has run its course. As much as I enjoy discussing the finer semantic points of the words effect/affect, we gain no ground from it. As always, play however you want to and have fun.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+        "post_number": 114,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.419Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57785,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T21:24:37.000Z",
+        "cooked": "<p>I think you need to read the definitions of Involve and Effect. &nbsp;One is an inclusion, the other is the result of an action. &nbsp;Something can be included without being affected.</p><p>It has been good debating this, but as you say, it has run its course. &nbsp;Oh well.</p>",
+        "post_number": 115,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.496Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57786,
+        "name": "HeroComplex",
+        "username": "HeroComplex",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/h/bbce88/{size}.png",
+        "created_at": "2014-02-10T08:44:05.000Z",
+        "cooked": "<p>Was there ever any official word on the scope of Isolated Hero after this discussion?&nbsp; I saw another thread where the discussion seemed to briefly reoccur in November, but neither this thread nor the slightly more recent one actually reached a consensus or got an official answer.&nbsp; If any indication's been given from the top how broadly or narrowly to interpret this card, I'd be interested in hearing the outcome.</p><p>Since everyone seemed to agree that the discussion ran its course pretty thoroughly the first time around, I suppose I'm not asking to reopen the debate, don't worry.&nbsp; Just curious if there were any later insights or developments that can be shared.&nbsp; Thanks.</p>",
+        "post_number": 116,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.561Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "HeroComplex",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7685,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-01-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57787,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2014-02-10T13:45:50.000Z",
+        "cooked": "<p>Yeah, no concensus reached here. &nbsp;No official ruling either. &nbsp;Each of us does what is right in our own minds. &nbsp;Whatever your game group thinks is right go with it.</p>",
+        "post_number": 117,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.634Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57788,
+        "name": "Envisioner",
+        "username": "Envisioner",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+        "created_at": "2014-02-10T20:45:23.000Z",
+        "cooked": "<p>What's the question exactly?&nbsp; Is it \"Does Isolated Hero continue affecting a hero after they're incapacitated?\"&nbsp; If so, I vote \"no\" on the basis that it would mean that player was completely out of the game, and that would suck.&nbsp; Already it's possible in Final Wasteland, but there's no sense in making it happen even more often than that.</p>",
+        "post_number": 118,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.704Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Envisioner",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5332,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57789,
+        "name": "Greywind",
+        "username": "Greywind",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+        "created_at": "2014-02-10T20:56:18.000Z",
+        "cooked": "<p>When a hero is incapped, don't all cards in that hero's play area return to their respective decks?</p>",
+        "post_number": 119,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.792Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Greywind",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3795,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 57790,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2014-02-10T21:00:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Greywind\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/greywind/48/2006_2.png\" class=\"avatar\"> Greywind:</div>\n<blockquote>\n<p>When a hero is incapped, don't all cards in that hero's play area return to their respective decks?</p>\n</blockquote>\n</aside>\n<p>Yes</p>\n<p>Edit: Nah, Ronway below is right actually. Forgot about those</p>",
+        "post_number": 120,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:33:11.874Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7574,
+        "topic_slug": "isolated-hero-and-incapacitated-abilities",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 7574
+}

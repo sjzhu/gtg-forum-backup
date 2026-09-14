@@ -1,0 +1,863 @@
+{
+  "posts": [
+    {
+      "id": 6970,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2012-12-30T22:52:17.000Z",
+      "cooked": "<p>Suppose that there are three members of the Ennead in play, in the following order:</p>\n<aside class=\"quote no-group\" data-username=\"Set\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Set:</div>\n<blockquote>\n<ul><li>The first time a [red icon] card is put into the villain trash each turn, play the top card of the villain deck.</li><li>The first time a [green icon] card is put into the villain trash each turn, this card deals ...</li></ul>\n</blockquote>\n</aside>\n<aside class=\"quote no-group\" data-username=\"Nuit\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Nuit:</div>\n<blockquote>\n<p>The first time a [red icon] card is put into the villain trash each turn, Nuit regains 2HP.</p>\n</blockquote>\n</aside>\n<aside class=\"quote no-group\" data-username=\"Geb\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Geb:</div>\n<blockquote>\n<p>The first time a [green icon] card is put into the villain trash each turn, this card deals …</p>\n</blockquote>\n</aside>\n<p>If a [red icon] card is played and goes to the trash, because of the text on 'Set', another villain card is played. Suppose that that card is a [green icon] card, which then goes to the trash. What would the order of effects be?</p>\n<p>I can think of at least three reasonable choices:</p>\n<p><strong>Oldest First - new triggered actions are added to the end of the queue of things to resolve</strong></p>\n<ul><li>Nuit's [red icon] effect</li><li>Set's [green icon] effect</li><li>Geb's [green icon] effect</li></ul>\n<strong>Newest First - new triggered actions are added to the front of the queue of things to resolve</strong>\n<ul><li>Set's [green icon] effect</li><li>Geb's [green icon] effect</li><li>Nuit's [red icon] effect</li></ul>\n<strong>Card played order - new triggered actions are interleaved into the queue of things to resolve</strong>\n<ul><li>Set's [green icon] effect</li><li>Nuit's [red icon] effect</li><li>Geb's [green icon] effect</li></ul>\n&nbsp;\n<p>I thought of this question because I was thinking through the various ramifications of using card played order in other situations.</p>\n<p>I have always played that 'Newest First' is correct, vaguely recalling that it had been made clear during playtesting that such was the way to do it. I checked and, lo and behold, I asked this very same question during playtesting, and then answered it myself using the official ruling about Forced Deployment as evidence:&nbsp;<a href=\"http://sentinelsofthemultiverse.com/forum/topic/forced-deployment-end-days\">http://sentinelsofthemultiverse.com/forum/topic/forced-deployment-end-days</a></p>\n<p>The releveant text is:</p>\n<aside class=\"quote group-playtesters\" data-username=\"Paul\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/paul/48/5862_2.png\" class=\"avatar\"> Paul:</div>\n<blockquote>\n<p>\"Triggered effects\" from cards (e.g. \"when this card is destroyed\", \"whenever this card takes damage\", etc) are processed immediately upon the fulfillment of the trigger condition.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>I leave this here in case anyone else is interested in this scenario.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:37:06.535Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://sentinelsofthemultiverse.com/forum/topic/forced-deployment-end-days",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Suppose that there are three members of the Ennead in play, in the following order:\n\n[quote=\"Set\"]\n\n<ul><li>The first time a [red icon] card is put into the villain trash each turn, play the top card of the villain deck.</li><li>The first time a [green icon] card is put into the villain trash each turn, this card deals ...</li></ul>\n\n[/quote]\n\n[quote=\"Nuit\"]\nThe first time a [red icon] card is put into the villain trash each turn, Nuit regains 2HP.\n[/quote]\n\n[quote=\"Geb\"]\nThe first time a [green icon] card is put into the villain trash each turn, this card deals ...\n[/quote]\n\nIf a [red icon] card is played and goes to the trash, because of the text on &#39;Set&#39;, another villain card is played. Suppose that that card is a [green icon] card, which then goes to the trash. What would the order of effects be?\n\nI can think of at least three reasonable choices:\n\n<strong>Oldest First - new triggered actions are added to the end of the queue of things to resolve</strong>\n<ul><li>Nuit&#39;s [red icon] effect</li><li>Set&#39;s [green icon] effect</li><li>Geb&#39;s [green icon] effect</li></ul>\n<strong>Newest First - new triggered actions are added to the front of the queue of things to resolve</strong>\n<ul><li>Set&#39;s [green icon] effect</li><li>Geb&#39;s [green icon] effect</li><li>Nuit&#39;s [red icon] effect</li></ul>\n<strong>Card played order - new triggered actions are interleaved into the queue of things to resolve</strong>\n<ul><li>Set&#39;s [green icon] effect</li><li>Nuit&#39;s [red icon] effect</li><li>Geb&#39;s [green icon] effect</li></ul>\n&nbsp;\n\nI thought of this question because I was thinking through the various ramifications of using card played order in other situations.\n\nI have always played that &#39;Newest First&#39; is correct, vaguely recalling that it had been made clear during playtesting that such was the way to do it. I checked and, lo and behold, I asked this very same question during playtesting, and then answered it myself using the official ruling about Forced Deployment as evidence:&nbsp;http://sentinelsofthemultiverse.com/forum/topic/forced-deployment-end-days\n\nThe releveant text is:\n\n[quote=\"Paul\"]\n &quot;Triggered effects&quot; from cards (e.g. &quot;when this card is destroyed&quot;, &quot;whenever this card takes damage&quot;, etc) are processed immediately upon the fulfillment of the trigger condition.\n[/quote]\n \n\n&nbsp;\n\n I leave this here in case anyone else is interested in this scenario. \n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50845,
+      "name": "Reckless",
+      "username": "Reckless",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/reckless/{size}/2467_2.png",
+      "created_at": "2012-12-30T23:00:08.000Z",
+      "cooked": "<p>This is very helpful.&nbsp; I remember this ruling while playtesting, but I always second guess myself with The Ennead.</p><p>On the subject of the symbols, do we know if we are we allowed to disclose what they were referred to in playtesting?&nbsp; Because I think using the names would be very helpful to everyone.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.188Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "Reckless",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>This is very helpful.&nbsp; I remember this ruling while playtesting, but I always second guess myself with The Ennead.</p><p>On the subject of the symbols, do we know if we are we allowed to disclose what they were referred to in playtesting?&nbsp; Because I think using the names would be very helpful to everyone.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 422,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50846,
+      "name": "ketigid",
+      "username": "ketigid",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/k/9fc29f/{size}.png",
+      "created_at": "2012-12-30T23:17:33.000Z",
+      "cooked": "<p>i too always use newest first. programmer's habit.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.272Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "ketigid",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>i too always use newest first. programmer&#39;s habit.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 227,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-10-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50847,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2012-12-30T23:46:16.000Z",
+      "cooked": "<blockquote><p>On the subject of the symbols, do we know if we are we allowed to disclose what they were referred to in playtesting? &nbsp;Because I think using the names would be very helpful to everyone.</p></blockquote><p>I'd be interested in hearing about this.&nbsp;</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.357Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<blockquote><p>On the subject of the symbols, do we know if we are we allowed to disclose what they were referred to in playtesting? &nbsp;Because I think using the names would be very helpful to everyone.</p></blockquote><p>I&#39;d be interested in hearing about this.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50848,
+      "name": "Christopher",
+      "username": "Christopher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+      "created_at": "2012-12-31T00:41:57.000Z",
+      "cooked": "<p>They were just letters in playtesting. That said, you could call them \"The Sun\", \"The Hand\", and \"The Ankh\" if you wanted, as those are all accurate. The Sun icon represents the sun (obviously), but also fire.<br>The Hand represents magic and the supernatural.<br>The Ankh represents life and death.</p><p>Hope this helps.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.435Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "Christopher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>They were just letters in playtesting. That said, you could call them \"The Sun\", \"The Hand\", and \"The Ankh\" if you wanted, as those are all accurate. The Sun icon represents the sun (obviously), but also fire.<br />The Hand represents magic and the supernatural.<br />The Ankh represents life and death.</p><p>Hope this helps.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": true,
+      "staff": true,
+      "user_id": 5,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50849,
+      "name": "McBehrer",
+      "username": "McBehrer",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+      "created_at": "2012-12-31T01:08:02.000Z",
+      "cooked": "<p>I agree, it would be newest first.</p><p>&nbsp;</p><p>Set's Sun activates first, playing a hand.</p><p>Then Set's hand, followed by Geb's.</p><p>THEN Nuit's Sun.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.515Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "McBehrer",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I agree, it would be newest first.</p><p>&nbsp;</p><p>Set&#39;s Sun activates first, playing a hand.</p><p>Then Set&#39;s hand, followed by Geb&#39;s.</p><p>THEN Nuit&#39;s Sun.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 409,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-14",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50850,
+      "name": "Reckless",
+      "username": "Reckless",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/reckless/{size}/2467_2.png",
+      "created_at": "2012-12-31T01:48:21.000Z",
+      "cooked": "<p>Ah, then I suppose it would be safe to mention my interpretation?<br><br>The red symbols were an S, which I can only assume represents Sun (Sun's Fury, etc.)</p><p>The green symbols were an E, which I related to Element (Elemental Storm, for example)</p><p>The purple symbols were a D, which I believe is Death (Death's Grasp)</p><p>Hope this was ok to post!</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.593Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "Reckless",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Ah, then I suppose it would be safe to mention my interpretation?<br /><br />The red symbols were an S, which I can only assume represents Sun (Sun&#39;s Fury, etc.)</p><p>The green symbols were an E, which I related to Element (Elemental Storm, for example)</p><p>The purple symbols were a D, which I believe is Death (Death&#39;s Grasp)</p><p>Hope this was ok to post!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 422,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50851,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2012-12-31T13:43:13.000Z",
+      "cooked": "<p>Just so everyone knows what I call them, I refer to them as the High Five, Pretzel, and the Rod. The people that have played with me online where I run the Ennead probably realized that. That shows my knowledge of Egyptian stuff now doesn't it?</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.666Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Just so everyone knows what I call them, I refer to them as the High Five, Pretzel, and the Rod. The people that have played with me online where I run the Ennead probably realized that. That shows my knowledge of Egyptian stuff now doesn&#39;t it?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50852,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2012-12-31T18:24:11.000Z",
+      "cooked": "<p>Hehe, my names are \"red thingy\" or \"red symbol\", \"green hand\", and \"ankh\". I'd been trying to work out what the red thingy was, since it didn't look like anything I could recognise. the other two were at least pretty obvious :).</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.737Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Hehe, my names are &quot;red thingy&quot; or &quot;red symbol&quot;, &quot;green hand&quot;, and &quot;ankh&quot;. I&#39;d been trying to work out what the red thingy was, since it didn&#39;t look like anything I could recognise. the other two were at least pretty obvious :).</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 50853,
+      "name": "Cosmonaut Zero",
+      "username": "Cosmonaut_Zero",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/cosmonaut_zero/{size}/2520_2.png",
+      "created_at": "2012-12-31T20:57:13.000Z",
+      "cooked": "<p>I think we'd been calling it fire, since a lot of the cards are fire damage and burning your stuff. Which makes sense for the sun. :D</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:24:20.811Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6967,
+      "topic_slug": "ennead-order-of-play",
+      "display_username": "Cosmonaut Zero",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I think we&#39;d been calling it fire, since a lot of the cards are fire damage and burning your stuff. Which makes sense for the sun. :D</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 673,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

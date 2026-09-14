@@ -1,0 +1,599 @@
+{
+  "posts": [
+    {
+      "id": 6326,
+      "name": "Gorith",
+      "username": "Gorith",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/ac91a4/{size}.png",
+      "created_at": "2012-09-24T17:52:42.000Z",
+      "cooked": "<p>Perhaps my group is overthinking this but we played virtualy all night last night (About 9 hours) and ran into a problem with damage calculation mainly what order things happen in. so where do these fall in the the game steps \"Damage Dealt to x increase/decrease\" , \"Damage dealt by x increase/decrease\" , \"Change all damage\" , \"Convert Damage to\" &nbsp;, \"effects that cause you to do X instead of taking damage\"?</p><p>&nbsp;</p><p>The problem(s) we ran into.</p><p>We were fighting Omnitron (though the villian has nothing to do with the problem) on pike industrial complex Absolute Zero was using \"Focused Apertures\" , \"Cryo Chamber\" , \"Null-Point Calibration Unit\". when he used his basic power to deal cold damage to himself to try to heal would he get 1, 2, or 3 HP back? We figured he would get 2 because he damage dealt by him was getting increased as he was making his attack by focused aperatures but then negated before it hit therefore cryochamber could not increase it more. later on a enviorment changed all damage to toxic and we were not sure if it changed it before or after the damage was dealt.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:36:14.713Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 6324,
+      "topic_slug": "what-is-the-order-of-damage-calculations",
+      "display_username": "Gorith",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Perhaps my group is overthinking this but we played virtualy all night last night (About 9 hours) and ran into a problem with damage calculation mainly what order things happen in. so where do these fall in the the game steps &quot;Damage Dealt to x increase/decrease&quot; , &quot;Damage dealt by x increase/decrease&quot; , &quot;Change all damage&quot; , &quot;Convert Damage to&quot; &nbsp;, &quot;effects that cause you to do X instead of taking damage&quot;?</p><p>&nbsp;</p><p>The problem(s) we ran into.</p><p>We were fighting Omnitron (though the villian has nothing to do with the problem) on pike industrial complex Absolute Zero was using &quot;Focused Apertures&quot; , &quot;Cryo Chamber&quot; , &quot;Null-Point Calibration Unit&quot;. when he used his basic power to deal cold damage to himself to try to heal would he get 1, 2, or 3 HP back? We figured he would get 2 because he damage dealt by him was getting increased as he was making his attack by focused aperatures but then negated before it hit therefore cryochamber could not increase it more. later on a enviorment changed all damage to toxic and we were not sure if it changed it before or after the damage was dealt.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 766,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-09-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39179,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2012-09-24T18:33:50.000Z",
+      "cooked": "<p>While actions occur in the order the the cards have been played, anything which modifies damage count is considered to always be in effect, and thus is easiest to simply apply them at the point damage is to be dealt.&nbsp; The effect of Null-Point Calibration Unit triggers once damage has been determined to occur (and thus all damage count modifiers that would apply would be applied first), so you would get the&nbsp;3 cold damage reguardless of order of play.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:12:55.136Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6324,
+      "topic_slug": "what-is-the-order-of-damage-calculations",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>While actions occur in the order the the cards have been played, anything which modifies damage count is considered to always be in effect, and thus is easiest to simply apply them at the point damage is to be dealt.&nbsp; The effect of Null-Point Calibration Unit triggers once damage has been determined to occur (and thus all damage count modifiers that would apply would be applied first), so you would get the&nbsp;3 cold damage reguardless of order of play.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39181,
+      "name": "flamethrower49",
+      "username": "flamethrower49",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/f/838e76/{size}.png",
+      "created_at": "2012-09-24T19:06:42.000Z",
+      "cooked": "<p>JayMann is correct.&nbsp; With those three equipments in play, a use of Zero's <em>Thermodynamics</em>&nbsp;can allow Zero to regain three hit points.&nbsp;</p><p>However, if the vat that makes everything toxic is in play,&nbsp;either use of <em>Thermodynamics</em> would merely result in Zero dealing himself two toxic damage.&nbsp; (Yeah, try not to let that card around Zero.)</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:12:55.219Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6324,
+      "topic_slug": "what-is-the-order-of-damage-calculations",
+      "display_username": "flamethrower49",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>JayMann is correct.&nbsp; With those three equipments in play, a use of Zero&#39;s <em>Thermodynamics</em>&nbsp;can allow Zero to regain three hit points.&nbsp;</p><p>However, if the vat that makes everything toxic is in play,&nbsp;either use of <em>Thermodynamics</em> would merely result in Zero dealing himself two toxic damage.&nbsp; (Yeah, try not to let that card around Zero.)</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 317,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39182,
+      "name": "Vyolynce",
+      "username": "Vyolynce",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/vyolynce/{size}/2397_2.png",
+      "created_at": "2012-09-24T20:01:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"flamethrower49\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/f/838e76/48.png\" class=\"avatar\"> flamethrower49:</div>\n<blockquote>\n<p>However, if the vat that makes everything toxic is in play,&nbsp;either use of <em>Thermodynamics</em> would merely result in Zero dealing himself two toxic damage.&nbsp; (Yeah, try not to let that card around Zero.)</p>\n</blockquote>\n</aside>\n<p>He tends to enjoy the Trisolvent Vat being around, though.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:12:55.301Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6324,
+      "topic_slug": "what-is-the-order-of-damage-calculations",
+      "display_username": "Vyolynce",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"flamethrower49\"]\n However, if the vat that makes everything toxic is in play,&nbsp;either use of <em>Thermodynamics</em> would merely result in Zero dealing himself two toxic damage.&nbsp; (Yeah, try not to let that card around Zero.)\n[/quote]\n\nHe tends to enjoy the Trisolvent Vat being around, though.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 380,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39183,
+      "name": "Gorith",
+      "username": "Gorith",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/ac91a4/{size}.png",
+      "created_at": "2012-09-24T21:24:49.000Z",
+      "cooked": "<p>Thanks for the responses we were certainly overthinking it. Gotta get our head outa all the CCGs and other games with multiple steps in each phase.</p><p>&nbsp;</p><p>So for final clarification it all goes into effect before the ability is even used? So in effect zeros power should have read something like (gond have card infront of me) \"Absolute zero deals himself 3 Cold damage or 0 Fire damage\"?</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:12:55.397Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6324,
+      "topic_slug": "what-is-the-order-of-damage-calculations",
+      "display_username": "Gorith",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Thanks for the responses we were certainly overthinking it. Gotta get our head outa all the CCGs and other games with multiple steps in each phase.</p><p>&nbsp;</p><p>So for final clarification it all goes into effect before the ability is even used? So in effect zeros power should have read something like (gond have card infront of me) &quot;Absolute zero deals himself 3 Cold damage or 0 Fire damage&quot;?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 766,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-09-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39185,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2012-09-24T21:30:06.000Z",
+      "cooked": "<p>Well, if you want to think of it as multiple steps, with all those cards out, he has a status effect of cold damage +2, fire damage -1.&nbsp; Every time he initiates an attack, the necessary modifiers are applied.&nbsp; So, more or less, he could read a modified power of \"deals himself 3 cold or 0 fire damage,\" yes.&nbsp; But, if you initiate cold damage, it would be 1 + 2 cold damage, but if something converted that cold damage to fire damage, the cold damage modifier goes away and the fire damage modifier applies, making it 1 - 1 fire damage.&nbsp; Given that modifiers will keep changing while other cards modify damage types and redirect damage, it's simpler to wait until you are at a point of final damage before applying count modifiers.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:12:55.463Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6324,
+      "topic_slug": "what-is-the-order-of-damage-calculations",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Well, if you want to think of it as multiple steps, with all those cards out, he has a status effect of cold damage +2, fire damage -1.&nbsp; Every time he initiates an attack, the necessary modifiers are applied.&nbsp; So, more or less, he could read a modified power of &quot;deals himself 3 cold or 0 fire damage,&quot; yes.&nbsp; But, if you initiate cold damage, it would be 1 + 2 cold damage, but if something converted that cold damage to fire damage, the cold damage modifier goes away and the fire damage modifier applies, making it 1 - 1 fire damage.&nbsp; Given that modifiers will keep changing while other cards modify damage types and redirect damage, it&#39;s simpler to wait until you are at a point of final damage before applying count modifiers.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39186,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2012-09-25T02:57:10.000Z",
+      "cooked": "<p>I don't think you were overthinking it -- we've just had a lot of time on the forums to think through it quite thoroughly.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:12:55.541Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6324,
+      "topic_slug": "what-is-the-order-of-damage-calculations",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I don&#39;t think you were overthinking it -- we&#39;ve just had a lot of time on the forums to think through it quite thoroughly.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

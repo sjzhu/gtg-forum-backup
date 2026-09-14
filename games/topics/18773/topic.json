@@ -1,0 +1,984 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 18776,
+        "name": "tigerclaw32",
+        "username": "tigerclaw32",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/ed8c4c/{size}.png",
+        "created_at": "2018-12-04T04:16:26.000Z",
+        "cooked": "<p>Ok I understand these are questions that have probably been answered a couple times, but I'm struggling to find them.</p>\n<p>1. If damage is dealt to a hero target and redirected to another hero target how does dmg reduction work.</p>\n<p>&nbsp; &nbsp; Ex. If legacy is hit for 3 dmg and he has on fortitude (reduce dmg to him by 1), but the dmg is then redirected to Unity's stealth bot (which reduces dmg dealt to it by 1) would stealth bot take 1 dmg (reduced by both effects) or 2 dmg (reduced by only stealth bot)</p>\n<p>2. If dmg is dealt to multiple targets or all targets say via Ra's Scorched earth, how is dmg dealt?</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp;A) all targets at once. B) each target individually based off how long they have been there. C) each target individually with players choosing dmg order. D) some other method.</p>\n<p>Thank you to anyone who can answer these for me.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:52:15.208Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 98,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 485.0,
+        "yours": false,
+        "topic_id": 18773,
+        "topic_slug": "damage-redirection-reduction-and-mass-dmg",
+        "display_username": "tigerclaw32",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Ok I understand these are questions that have probably been answered a couple times, but I'm struggling to find them.</p>\r\n\r\n<p>1. If damage is dealt to a hero target and redirected to another hero target how does dmg reduction work.</p>\r\n\r\n<p>&nbsp; &nbsp; Ex. If legacy is hit for 3 dmg and he has on fortitude (reduce dmg to him by 1), but the dmg is then redirected to Unity's stealth bot (which reduces dmg dealt to it by 1) would stealth bot take 1 dmg (reduced by both effects) or 2 dmg (reduced by only stealth bot)</p>\r\n\r\n<p>2. If dmg is dealt to multiple targets or all targets say via Ra's Scorched earth, how is dmg dealt?</p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp;A) all targets at once. B) each target individually based off how long they have been there. C) each target individually with players choosing dmg order. D) some other method.</p>\r\n\r\n<p>Thank you to anyone who can answer these for me.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17176,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2018-12-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 224521,
+        "name": "darkroydante",
+        "username": "darkroydante",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/darkroydante/{size}/2044_2.png",
+        "created_at": "2018-12-04T07:02:00.000Z",
+        "cooked": "<p>1) Damage increases and reductions are recalculated each time damage is redirected. In your example, the three damage redirected to Stealth Bot is reduced by Stealth Bot's -1, and so Stealth Bot takes 2 damage. Legacy's effects are no longer applied.&nbsp;</p>\n<p>2) In every case multiple targets need to take damage, damage&nbsp;happens one target at a time and players choose the order targets take damage in. Ra's Scorched Earth is a great example. Say you are in Insula Primalis and there are 2&nbsp;envrionment cards in play, and say they are 2 Velociraptor Packs with 2 HP each.&nbsp;Ra will deal 2&nbsp;damage to each non-hero target. You select the first&nbsp;Velociraptor Pack and it takes 2 damage, destroying it. Now the second Velociraptor Pack only takes 1 damage becasue there is only 1 envrionment card in play. If you hit the VIllain before all of this, they would take 2 damage. If you hit them after, they would take 1.&nbsp;</p>\n<p>Hope that helps!</p>\n<p>&nbsp;</p>\n<p>edit: Forgot to mention. This&nbsp;<a href=\"https://greaterthangames.com/forum/topic/clarifications-and-decisions-from-handelabra-christophers-fireside-chats-6773\" rel=\"noopener nofollow ugc\">thread</a>&nbsp;is by the developer of the videogame, which catologues major rules clarifications&nbsp;and updates in order of&nbsp;expanions. It's probably one of the best places to check initially if you have a question about a certain card.&nbsp;&nbsp;</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:57:55.930Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 25.0,
+        "yours": false,
+        "topic_id": 18773,
+        "topic_slug": "damage-redirection-reduction-and-mass-dmg",
+        "display_username": "darkroydante",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/forum/topic/clarifications-and-decisions-from-handelabra-christophers-fireside-chats-6773",
+            "internal": false,
+            "reflection": false,
+            "clicks": 4
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>1) Damage increases and reductions are recalculated each time damage is redirected. In your example, the three damage redirected to Stealth Bot is reduced by Stealth Bot's -1, and so Stealth Bot takes 2 damage. Legacy's effects are no longer applied.&nbsp;</p>\r\n\r\n<p>2) In every case multiple targets need to take damage, damage&nbsp;happens one target at a time and players choose the order targets take damage in. Ra's Scorched Earth is a great example. Say you are in Insula Primalis and there are 2&nbsp;envrionment cards in play, and say they are 2 Velociraptor Packs with 2 HP each.&nbsp;Ra will deal 2&nbsp;damage to each non-hero target. You select the first&nbsp;Velociraptor Pack and it takes 2 damage, destroying it. Now the second Velociraptor Pack only takes 1 damage becasue there is only 1 envrionment card in play. If you hit the VIllain before all of this, they would take 2 damage. If you hit them after, they would take 1.&nbsp;</p>\r\n\r\n<p>Hope that helps!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>edit: Forgot to mention. This&nbsp;<a href=\"https://greaterthangames.com/forum/topic/clarifications-and-decisions-from-handelabra-christophers-fireside-chats-6773\">thread</a>&nbsp;is by the developer of the videogame, which catologues major rules clarifications&nbsp;and updates in order of&nbsp;expanions. It's probably one of the best places to check initially if you have a question about a certain card.&nbsp;&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11478,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-01-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 224522,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2018-12-04T07:21:21.000Z",
+        "cooked": "<p>Caveats to #1, though:</p>\n<p>If&nbsp;<em>no</em>&nbsp;damage would be dealt, it is not redirected. Say Wraith has used her base power and would be dealt 2 damage. Even if there's something that would force the damage to be redirected (say. Immutus), and it would be more than 0 damage to a different target, it doesn't. Wraith takes 0 and that's the end of it.</p>\n<p>Also, one-time damage reduction, like Wraith's, can be used up even if it is not used. Take the above example: if 3 damage is pointed at Wraith, so that she would take 1, instead Immutus takes 3 but the damage reduction was still \"checked,\" so it's still consumed.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:57:56.019Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18773,
+        "topic_slug": "damage-redirection-reduction-and-mass-dmg",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>Caveats to #1, though:</p>\r\n\r\n<p>If&nbsp;<em>no</em>&nbsp;damage would be dealt, it is not redirected. Say Wraith has used her base power and would be dealt 2 damage. Even if there's something that would force the damage to be redirected (say. Immutus), and it would be more than 0 damage to a different target, it doesn't. Wraith takes 0 and that's the end of it.</p>\r\n\r\n<p>Also, one-time damage reduction, like Wraith's, can be used up even if it is not used. Take the above example: if 3 damage is pointed at Wraith, so that she would take 1, instead Immutus takes 3 but the damage reduction was still \"checked,\" so it's still consumed.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 224523,
+        "name": "tigerclaw32",
+        "username": "tigerclaw32",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/ed8c4c/{size}.png",
+        "created_at": "2018-12-04T15:32:34.000Z",
+        "cooked": "<p>Thanks for the response.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:57:56.094Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18773,
+        "topic_slug": "damage-redirection-reduction-and-mass-dmg",
+        "display_username": "tigerclaw32",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Thanks for the response.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17176,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2018-12-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 224524,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2018-12-04T15:40:28.000Z",
+        "cooked": "<p>In addition to the above regarding redirection, don't forget to take Nemesis bonuses into account, if applicable. For example, the Chairman tries to hit Mr Fixer for two points of damage. This is increased to three because of the Nemesis bonus.. But say Fixer has his Pipe Wrench out, thereby reducing all damage to him by one. And he also has Driving Mantis, so when those three points of damage are reduced to two, they suddenly become eligible for redirection and he decides to send them to the Operative. The damage is \"reset\" to its original two points as we are now recalculating for another target. But like Mr Fixer, this one also shares the Chairman's Nemesis bonus so the damage goes back up to three again. Since the Operative has no means of reducing or redirecting this, that's how much she gets hit for :D.</p>\n<p>And for your second question, I think that's been pretty well covered but note that it's not just damage that this applies to - any time <em>any</em> effect will hit multiple targets, players always get to choose the order - nothing is really simultaneous. So for example, say Fanatic/Apostate have just let off an End of Days/Apocalypse while there's a whole bunch of stuff out across all decks. Say Unity is present in this game and has a Bee Bot out. You can destroy all applicable villain and environment things that you want to get blown up, then destroy Bee Bot, who can interrupt the End of Days/Apocalypse by destroying it, which means it's gone and nothing else gets blown up. So other than Bee Bot, everyone gets to keep all their stuff (unless they're someone who <em>likes</em> it when their stuff breaks, like Mainstay or Stuntman or someone, in which case they may ask for that to get popped before the bot) :D.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:57:56.159Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18773,
+        "topic_slug": "damage-redirection-reduction-and-mass-dmg",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>In addition to the above regarding redirection, don't forget to take Nemesis bonuses into account, if applicable. For example, the Chairman tries to hit Mr Fixer for two points of damage. This is increased to three because of the Nemesis bonus.. But say Fixer has his Pipe Wrench out, thereby reducing all damage to him by one. And he also has Driving Mantis, so when those three points of damage are reduced to two, they suddenly become eligible for redirection and he decides to send them to the Operative. The damage is \"reset\" to its original two points as we are now recalculating for another target. But like Mr Fixer, this one also shares the Chairman's Nemesis bonus so the damage goes back up to three again. Since the Operative has no means of reducing or redirecting this, that's how much she gets hit for :D.</p>\r\n\r\n<p>And for your second question, I think that's been pretty well covered but note that it's not just damage that this applies to - any time <em>any</em> effect will hit multiple targets, players always get to choose the order - nothing is really simultaneous. So for example, say Fanatic/Apostate have just let off an End of Days/Apocalypse while there's a whole bunch of stuff out across all decks. Say Unity is present in this game and has a Bee Bot out. You can destroy all applicable villain and environment things that you want to get blown up, then destroy Bee Bot, who can interrupt the End of Days/Apocalypse by destroying it, which means it's gone and nothing else gets blown up. So other than Bee Bot, everyone gets to keep all their stuff (unless they're someone who <em>likes</em> it when their stuff breaks, like Mainstay or Stuntman or someone, in which case they may ask for that to get popped before the bot) :D.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      18776,
+      224521,
+      224522,
+      224523,
+      224524
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2839
+    ],
+    [
+      4,
+      2838
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T20:08:26.107Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T20:08:26.107Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 66,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31821,
+      "title": "Neat card interaction for Akash'Thriya",
+      "fancy_title": "Neat card interaction for Akash&rsquo;Thriya",
+      "slug": "neat-card-interaction-for-akashthriya",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-09-22T23:51:00.052Z",
+      "last_posted_at": "2025-09-23T01:42:49.714Z",
+      "bumped": true,
+      "bumped_at": "2025-09-23T01:42:49.714Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 128,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32278,
+      "title": "Unwinnable / Unlosable SotM team game",
+      "fancy_title": "Unwinnable / Unlosable SotM team game",
+      "slug": "unwinnable-unlosable-sotm-team-game",
+      "posts_count": 10,
+      "reply_count": 5,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2026-04-23T15:38:06.331Z",
+      "last_posted_at": "2026-07-03T19:04:45.562Z",
+      "bumped": true,
+      "bumped_at": "2026-07-03T19:11:09.242Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 23,
+      "views": 172,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 16735,
+            "username": "Griff_s_Dad",
+            "name": "Griff's Dad",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/g/e0b2c6/{size}.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19126,
+            "username": "gater",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/gater/{size}/7318_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4975,
+            "username": "Escher",
+            "name": "Escher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/escher/{size}/4865_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31775,
+      "title": "Origin of the Animalverse (theory)",
+      "fancy_title": "Origin of the Animalverse (theory)",
+      "slug": "origin-of-the-animalverse-theory",
+      "posts_count": 10,
+      "reply_count": 6,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2025-09-12T13:50:44.574Z",
+      "last_posted_at": "2025-09-16T12:31:52.066Z",
+      "bumped": true,
+      "bumped_at": "2025-09-16T12:31:52.066Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 8,
+      "views": 170,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13161,
+            "username": "MindWanderer",
+            "name": "MindWanderer",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17935,
+            "username": "Thunderbird",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/ba8739/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32165,
+      "title": "Improving Oblivaeon",
+      "fancy_title": "Improving Oblivaeon",
+      "slug": "improving-oblivaeon",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-02-04T20:38:41.840Z",
+      "last_posted_at": "2026-02-05T22:55:19.416Z",
+      "bumped": true,
+      "bumped_at": "2026-02-05T22:55:19.416Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 120,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18465,
+            "username": "Dustin_the_Wind",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/d/f1d935/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 18773,
+  "title": "Damage redirection + reduction and mass dmg",
+  "fancy_title": "Damage redirection + reduction and mass dmg",
+  "posts_count": 5,
+  "created_at": "2018-12-04T04:16:26.000Z",
+  "views": 379,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2018-12-04T15:40:28.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "damage-redirection-reduction-and-mass-dmg",
+  "category_id": 11,
+  "word_count": 891,
+  "deleted_at": null,
+  "user_id": 17176,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_18773",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 5,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 4,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 17176,
+        "username": "tigerclaw32",
+        "name": "tigerclaw32",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/ed8c4c/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 1117,
+        "username": "Ameena",
+        "name": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 11478,
+        "username": "darkroydante",
+        "name": "darkroydante",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/darkroydante/{size}/2044_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 13161,
+        "username": "MindWanderer",
+        "name": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 17176,
+      "username": "tigerclaw32",
+      "name": "tigerclaw32",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/ed8c4c/{size}.png"
+    },
+    "last_poster": {
+      "id": 1117,
+      "username": "Ameena",
+      "name": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png"
+    },
+    "links": [
+      {
+        "url": "https://greaterthangames.com/forum/topic/clarifications-and-decisions-from-handelabra-christophers-fireside-chats-6773",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 4,
+        "user_id": 11478,
+        "domain": "greaterthangames.com",
+        "root_domain": "greaterthangames.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

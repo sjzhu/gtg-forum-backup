@@ -1,0 +1,1032 @@
+{
+  "posts": [
+    {
+      "id": 11442,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2014-10-21T17:01:25.000Z",
+      "cooked": "<p>I've been playing a lot of the new Sentinels app from Handelabra, and discussing issues on their forums.&nbsp; An issue just came up where they cited Christopher as their source, so I'm coming here for clarification as to whether or not this particular timing mechanism is intended to apply to the tabletop game as well.<br><br>In my Handelabra post, I said (edited to clarify examples):</p><blockquote><p>In my latest game, I ran into two annoying situations that I suspect are the same underlying bug. As near as I can tell, when evaluating modifiers to damage, the game always executes things that change damage &lt;strong&gt;type&lt;/strong&gt; first, then things that change damage &lt;strong&gt;amount&lt;/strong&gt;, then things that redirect the damage's &lt;strong&gt;target&lt;/strong&gt;. And I can't find any support in the rules for doing things in that order. As near as I can tell, the order for those different effects is ambiguous, and should therefore be player choice.<br><br>My actual cases:<br><br>1) The Wraith has built up 8 points worth of Stealth damage reduction. Legacy has Lead From The Front and Fortitude in play. A small amount of damage targets The Wraith. The game automatically triggers the Stealth damage reduction, reducing the damage to 0.&nbsp; Since there is no more damage, Lead From The Front has nothing to redirect.&nbsp; I would much rather have had Legacy take a tiny hit than have Wraith waste all that Stealth. But I was not offered the choice.<br><br>2) Wraith has Micro-Targeting Computer and uses Razor Ordnance. Cramped Quarters Combat is in Play. I would have liked to trigger MTC first (while it was still appropriate), and only then have CQC change teh damage to Melee. But, again, I wasn't offered that option.</p></blockquote><p>Handelabra's reply (in part) was:</p><blockquote><p>We discussed this at length with Christopher during development, and he asserted that damage dealing must be done in the order of: type change, amount modifiers, redirect. If a redirect does occur, then modifiers before the redirect are re-evaluated from the start of that sequence until damage is actually dealt.<br><br>Therefore, you correctly deduced the order in which things are occurring, but that is intentional by design.<br><br>[...]<br><br>The full order is: Make Irreducible (if applicable), Change Damage Type, Check If Immune, Increase or Reduce Amount, Redirect or Prevent Damage.</p></blockquote><p>So, Christopher, is it intended that that order of effects be applied to the tabletop game?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:42:45.101Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I&#39;ve been playing a lot of the new Sentinels app from Handelabra, and discussing issues on their forums.&nbsp; An issue just came up where they cited Christopher as their source, so I&#39;m coming here for clarification as to whether or not this particular timing mechanism is intended to apply to the tabletop game as well.<br /><br />In my Handelabra post, I said (edited to clarify examples):</p><blockquote><p>In my latest game, I ran into two annoying situations that I suspect are the same underlying bug. As near as I can tell, when evaluating modifiers to damage, the game always executes things that change damage &lt;strong&gt;type&lt;/strong&gt; first, then things that change damage &lt;strong&gt;amount&lt;/strong&gt;, then things that redirect the damage&#39;s &lt;strong&gt;target&lt;/strong&gt;. And I can&#39;t find any support in the rules for doing things in that order. As near as I can tell, the order for those different effects is ambiguous, and should therefore be player choice.<br /><br />My actual cases:<br /><br />1) The Wraith has built up 8 points worth of Stealth damage reduction. Legacy has Lead From The Front and Fortitude in play. A small amount of damage targets The Wraith. The game automatically triggers the Stealth damage reduction, reducing the damage to 0.&nbsp; Since there is no more damage, Lead From The Front has nothing to redirect.&nbsp; I would much rather have had Legacy take a tiny hit than have Wraith waste all that Stealth. But I was not offered the choice.<br /><br />2) Wraith has Micro-Targeting Computer and uses Razor Ordnance. Cramped Quarters Combat is in Play. I would have liked to trigger MTC first (while it was still appropriate), and only then have CQC change teh damage to Melee. But, again, I wasn&#39;t offered that option.</p></blockquote><p>Handelabra&#39;s reply (in part) was:</p><blockquote><p>We discussed this at length with Christopher during development, and he asserted that damage dealing must be done in the order of: type change, amount modifiers, redirect. If a redirect does occur, then modifiers before the redirect are re-evaluated from the start of that sequence until damage is actually dealt.<br /><br />Therefore, you correctly deduced the order in which things are occurring, but that is intentional by design.<br /><br />[...]<br /><br />The full order is: Make Irreducible (if applicable), Change Damage Type, Check If Immune, Increase or Reduce Amount, Redirect or Prevent Damage.</p></blockquote><p>So, Christopher, is it intended that that order of effects be applied to the tabletop game?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119650,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-10-21T17:34:31.000Z",
+      "cooked": "<p>Yes. There are various and posts scattered around here that confirm that. For simplicity,  I wrote a post about how dealing damage works here: <a href=\"https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047\">https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047</a></p>\n<p>Christopher reviewed the post before I put it up.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.142Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Yes. There are various and posts scattered around here that confirm that. For simplicity,  I wrote a post about how dealing damage works here: https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047\r\n\r\nChristopher reviewed the post before I put it up.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119651,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2014-10-21T18:12:47.000Z",
+      "cooked": "<p>Any chance of getting that info added to a future edition of the rulebook?</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.243Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Any chance of getting that info added to a future edition of the rulebook?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119652,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2014-10-21T18:58:51.000Z",
+      "cooked": "<p>The biggest thing in the example given was that Wraith was not going to take the damage. &nbsp;You do not redirect damage that will not deal damage.</p><p>&nbsp;</p><p>The reason we don't have a clearly spelled out order of timing for damage is that there are so many effects in the game that can complicate it that the fringe cases would take a huge amount of work to cover.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.316Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The biggest thing in the example given was that Wraith was not going to take the damage. &nbsp;You do not redirect damage that will not deal damage.</p><p>&nbsp;</p><p>The reason we don&#39;t have a clearly spelled out order of timing for damage is that there are so many effects in the game that can complicate it that the fringe cases would take a huge amount of work to cover.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119653,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2014-10-21T19:34:55.000Z",
+      "cooked": "<p>I'll add that info to the FAQ. &nbsp;Seems important.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.384Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I&#39;ll add that info to the FAQ. &nbsp;Seems important.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119654,
+      "name": "livingintruefreedom",
+      "username": "livingintruefreedom",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/l/ec9cab/{size}.png",
+      "created_at": "2014-11-12T07:33:42.000Z",
+      "cooked": "<p>Ok, simplist answer I have. Lets use RA's Imbue Fire card for a perfect example of why this order of \"type change, amount modifiers, redirect\" is so important. RA's imbue has it listed in text order: +1 to Fire Damage, Change all hero damage to Fire, Power: Destroy this card. As you can see if you followed the cards text in order the damage bonus would only apply to damage that was already Fire type. Now using the order of \"type change, amount modifiers, redirect\" it now boosts that damage of all heros by 1, because their damage type is changed before the damage modifier is done.</p><p>&nbsp;</p><p>Now here is there sucky part of Damage Type Change. Say your playing RA, and play Imbue Fire. But your in Megaoplis and <strong>after</strong> you played Imbue Fire, the environment flips Closed Quarter Combat. You have two different damage type changes. So you now follow the rule of Order of Play. Since CQC was played Last, it is the type of damage done, which means it is melee damage.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.451Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "livingintruefreedom",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Ok, simplist answer I have. Lets use RA&#39;s Imbue Fire card for a perfect example of why this order of &quot;type change, amount modifiers, redirect&quot; is so important. RA&#39;s imbue has it listed in text order: +1 to Fire Damage, Change all hero damage to Fire, Power: Destroy this card. As you can see if you followed the cards text in order the damage bonus would only apply to damage that was already Fire type. Now using the order of &quot;type change, amount modifiers, redirect&quot; it now boosts that damage of all heros by 1, because their damage type is changed before the damage modifier is done.</p><p>&nbsp;</p><p>Now here is there sucky part of Damage Type Change. Say your playing RA, and play Imbue Fire. But your in Megaoplis and <strong><u>after</u></strong> you played Imbue Fire, the environment flips Closed Quarter Combat. You have two different damage type changes. So you now follow the rule of Order of Play. Since CQC was played Last, it is the type of damage done, which means it is melee damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 9210,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119655,
+      "name": "pwatson1974",
+      "username": "pwatson1974",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pwatson1974/{size}/1925_2.png",
+      "created_at": "2014-11-12T07:44:52.000Z",
+      "cooked": "<p>No, you don't. As they're not start of turn/end of turn effects, the players choose the order, and would likely choose CQC first so they get both damage bosts. That's certainly how it works in the video game.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.525Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "pwatson1974",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>No, you don&#39;t. As they&#39;re not start of turn/end of turn effects, the players choose the order, and would likely choose CQC first so they get both damage bosts. That&#39;s certainly how it works in the video game.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 293,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-02-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119656,
+      "name": "Humble-Knight",
+      "username": "Humble-Knight",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/humble-knight/{size}/2259_2.png",
+      "created_at": "2014-11-12T13:27:42.000Z",
+      "cooked": "<p>But you can't get both boosts, the type of damage determines the boost</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.594Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "Humble-Knight",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>But you can&#39;t get both boosts, the type of damage determines the boost</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 7798,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-02-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119657,
+      "name": "grysqrl",
+      "username": "grysqrl",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/grysqrl/{size}/1909_2.png",
+      "created_at": "2014-11-12T13:36:22.000Z",
+      "cooked": "<p>Not for Cramped Quarters Combat. That boosts all damage and changes all damage to melee. Even if you switch from melee, you still get the damage boost. So if you apply CQC and then Imbued Fire, you end up with +2 fire damage.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.666Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "grysqrl",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Not for Cramped Quarters Combat. That boosts <u>all</u> damage and changes all damage to melee. Even if you switch from melee, you still get the damage boost. So if you apply CQC and then Imbued Fire, you end up with +2 fire damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 5390,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119658,
+      "name": "Humble-Knight",
+      "username": "Humble-Knight",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/humble-knight/{size}/2259_2.png",
+      "created_at": "2014-11-12T13:42:11.000Z",
+      "cooked": "<p>Oh that's right. Forgot it was a straight boost, not a conditional one</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.743Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "Humble-Knight",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Oh that&#39;s right. Forgot it was a straight boost, not a conditional one</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 7798,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-02-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119659,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2014-11-12T20:47:09.000Z",
+      "cooked": "<p>It's Imbued Fire and Micro-Targeting computer that don't stack, since the latter will only kick in if Wraith is dealing projectile damage.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.812Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It&#39;s Imbued Fire and Micro-Targeting computer that don&#39;t stack, since the latter will only kick in if Wraith is dealing projectile damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 119660,
+      "name": "Greywind",
+      "username": "Greywind",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+      "created_at": "2014-11-12T20:53:02.000Z",
+      "cooked": "<p>Well, if Ra would quit burning up her projectiles...</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:52:55.887Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11441,
+      "topic_slug": "damage-effects-timing-meta-question",
+      "display_username": "Greywind",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Well, if Ra would quit burning up her projectiles...</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3795,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-02-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

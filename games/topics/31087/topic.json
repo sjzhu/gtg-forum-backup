@@ -1,0 +1,855 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 260638,
+        "name": "Matt Wilson",
+        "username": "cynlover01",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/cynlover01/{size}/6676_2.png",
+        "created_at": "2024-09-06T01:12:10.896Z",
+        "cooked": "<p>For Action <span class=\"hashtag\">#1</span>, our Hero uses the Dangerous Explosion ability (Attack multiple targets using [power]. Use your Mid die. Hinder all targets damaged by this ability with your Min die. Hinder yourself with your Max die).</p>\n<p>Then during their next Action, they use the Resolve ability (Boost yourself using [power], then remove a penalty on yourself or Recover using your Min die.).</p>\n<p>Question 1: Is Resolve’s Boost affected by the previous action’s Hinder effect? I think yes, but I’m not sure.</p>\n<p>Question 2: Since Hinder only hangs around for the target’s next action, wouldn’t it be gone anyway after hindering the Boost effect? If so, doesn’t that make the second part of the Resolve ability a bit pointless?</p>\n<p>Thanks in advance for your response.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2024-09-06T01:12:10.896Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 41,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 224.4,
+        "yours": false,
+        "topic_id": 31087,
+        "topic_slug": "rules-question-hinder-vs-resolve-ability",
+        "display_username": "Matt Wilson",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "For Action #1, our Hero uses the Dangerous Explosion ability (Attack multiple targets using [power]. Use your Mid die. Hinder all targets damaged by this ability with your Min die. Hinder yourself with your Max die). \n\nThen during their next Action, they use the Resolve ability (Boost yourself using [power], then remove a penalty on yourself or Recover using your Min die.). \n\nQuestion 1: Is Resolve's Boost affected by the previous action's Hinder effect? I think yes, but I'm not sure. \n\nQuestion 2: Since Hinder only hangs around for the target's next action, wouldn't it be gone anyway after hindering the Boost effect? If so, doesn't that make the second part of the Resolve ability a bit pointless?\n\nThanks in advance for your response.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18739,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2024-08-17",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 260640,
+        "name": "Chief Lackey Rich",
+        "username": "Chief_Lackey_Rich",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+        "created_at": "2024-09-06T02:26:08.162Z",
+        "cooked": "<p>This one again.  I really wish they’d put up a FAQ for Resolve and its copycat abilities - and everything else that’s needed a FAQ for nigh-on five years now.</p>\n<p>The answers to all your questions  are yes, yes, and yes.  But…somewhere on one of the podcasts from years ago they’ve said that it’s worded poorly and that the intent was to be able to remove a penalty before it gets applied, then Boost Mid - but as you noted, that’s not really how the rules as written work.</p>\n<p>If you play it strictly by the actual wording, the main reason to use Resolve would be to remove a persistent penalty (which would still apply to the Boost action part of the ability).  It’s also conceivable that you might want to use Resolve when you have no penalties just to get both a Boost and the Min die healing - but you still can’t use the bonus from that Boost on the Min die because you have to declare what bonuses you’re using before rolling dice (barring one reaction that lets you use one afterward, but that’s a real corner case).  Still, you might have other bonuses to throw at it, and even Min die healing is fairly rare and could be very useful with the right build (eg one that has reactions triggering from your personal GYRO zone changing).</p>\n<p>It’s not an ability that most people get excited about, but even RAW it’s not useless either.</p>\n<p>If you accept the podcast statement, a “fixed” wording would be something like:</p>\n<p><strong>Resolve (A)</strong> You may remove one penalty on yourself before rolling your dice pool for the turn.  Then, if you did not remove a penalty, Recover Health equal to your Min die.  Finally, Boost yourself.</p>\n<p>In all honesty, even that version of it isn’t amazing unless you’re facing a lot of large penalties (-3 or worse), and I suspect it would be best to just adopt a slightly less convoluted and more potent version like:</p>\n<p><strong>Resolve (A)</strong> You may remove a penalty from yourself before you roll your dice for the turn.<br>\nBoost yourself, then Recover Health equal to your Min die.</p>\n<p>That makes it a Mid Boost, Min Recovery (which is still only so-so for a Yellow action ability) with a situational rider effect that can quite strong.  Automatic penalty removal is the functional equivalent of generating an infinite-value opposing bonus or automatically-successful Overcome, both limited to just penalty removal.  That’s no joke, especially when laboring under a -4 persistent and exclusive penalty with no allies available to help get it off you.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2024-09-06T02:28:59.006Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 34.2,
+        "yours": false,
+        "topic_id": 31087,
+        "topic_slug": "rules-question-hinder-vs-resolve-ability",
+        "display_username": "Chief Lackey Rich",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "This one again.  I really wish they'd put up a FAQ for Resolve and its copycat abilities - and everything else that's needed a FAQ for nigh-on five years now.\n\nThe answers to all your questions  are yes, yes, and yes.  But...somewhere on one of the podcasts from years ago they've said that it's worded poorly and that the intent was to be able to remove a penalty before it gets applied, then Boost Mid - but as you noted, that's not really how the rules as written work.  \n\nIf you play it strictly by the actual wording, the main reason to use Resolve would be to remove a persistent penalty (which would still apply to the Boost action part of the ability).  It's also conceivable that you might want to use Resolve when you have no penalties just to get both a Boost and the Min die healing - but you still can't use the bonus from that Boost on the Min die because you have to declare what bonuses you're using before rolling dice (barring one reaction that lets you use one afterward, but that's a real corner case).  Still, you might have other bonuses to throw at it, and even Min die healing is fairly rare and could be very useful with the right build (eg one that has reactions triggering from your personal GYRO zone changing).\n\nIt's not an ability that most people get excited about, but even RAW it's not useless either.\n\nIf you accept the podcast statement, a \"fixed\" wording would be something like:\n\n**Resolve (A)** You may remove one penalty on yourself before rolling your dice pool for the turn.  Then, if you did not remove a penalty, Recover Health equal to your Min die.  Finally, Boost yourself.\n\nIn all honesty, even that version of it isn't amazing unless you're facing a lot of large penalties (-3 or worse), and I suspect it would be best to just adopt a slightly less convoluted and more potent version like:\n\n**Resolve (A)** You may remove a penalty from yourself before you roll your dice for the turn. \n Boost yourself, then Recover Health equal to your Min die.\n\nThat makes it a Mid Boost, Min Recovery (which is still only so-so for a Yellow action ability) with a situational rider effect that can quite strong.  Automatic penalty removal is the functional equivalent of generating an infinite-value opposing bonus or automatically-successful Overcome, both limited to just penalty removal.  That's no joke, especially when laboring under a -4 persistent and exclusive penalty with no allies available to help get it off you.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 228,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-10-14",
+        "user_birthdate": "1904-05-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 260641,
+        "name": "FrivYeti",
+        "username": "FrivYeti",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+        "created_at": "2024-09-06T03:45:04.566Z",
+        "cooked": "<p>One thing to keep in mind is that a Hinder only applies if it’s narratively appropriate. As a GM, I consider it reasonable to construct the narrative on that ability in such a way that the vast majority of penalties won’t apply to it, and I’d give leeway that might not be given to someone arguing not to deal with the penalty for an Attack.</p>\n<p>But yeah, if you want to mechanic-proof it, what Rich said.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2024-09-06T03:45:04.566Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 24.0,
+        "yours": false,
+        "topic_id": 31087,
+        "topic_slug": "rules-question-hinder-vs-resolve-ability",
+        "display_username": "FrivYeti",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "One thing to keep in mind is that a Hinder only applies if it's narratively appropriate. As a GM, I consider it reasonable to construct the narrative on that ability in such a way that the vast majority of penalties won't apply to it, and I'd give leeway that might not be given to someone arguing not to deal with the penalty for an Attack.\n\nBut yeah, if you want to mechanic-proof it, what Rich said.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13884,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 260643,
+        "name": "Chief Lackey Rich",
+        "username": "Chief_Lackey_Rich",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+        "created_at": "2024-09-06T11:16:28.807Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"FrivYeti\" data-post=\"3\" data-topic=\"31087\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/frivyeti/48/1919_2.png\" class=\"avatar\"> FrivYeti:</div>\n<blockquote>\n<p>One thing to keep in mind is that a Hinder only applies if it’s narratively appropriate.</p>\n</blockquote>\n</aside>\n<p>That’s very true, and I really should have mentioned it myself.  A penalty whose description suggest it works by impairing your mobility (eg -3 “Covered In Webbing”) might be inapplicable if your version of Resolve is (say) keyed to Fire and narratively described as “Intensifying my flames” or something similar.  OTOH, if the penalty is a -3 “Drenched By A Firehose” it’s certainly going to apply to a lot of things a Human Torch might do, but be mostly meaningless to Namor unless he does something where being really wet would matter (eg messing around with high-voltage electrical equipment, or trying to steal documents that some inconsiderate Nazi sympathizer has written in soluble ink on cheap paper).</p>\n<p>Coming up with different mod descriptors can be a fun part of the gameplay, although GMs should be fairly lenient about things and you don’t want to get overly hung up on finding the broadest possible option every time.  That’s especially true when you’re playing around with elements in the scene rather than just an ability on your character sheet.  Very few heroes actually carry a fire hose around to produce that “drenched” penalty above, but grabbing one left behind by fleeing firefighters and using it with (say) your Hinder ability keyed to Swinging suggests a few panels of wild action as Peter gives Johnny Storm his weekly bath while avoiding his flame blasts with style.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2024-09-06T11:16:28.807Z",
+        "reply_count": 0,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 3.6,
+        "yours": false,
+        "topic_id": 31087,
+        "topic_slug": "rules-question-hinder-vs-resolve-ability",
+        "display_username": "Chief Lackey Rich",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "[quote=\"FrivYeti, post:3, topic:31087\"]\nOne thing to keep in mind is that a Hinder only applies if it’s narratively appropriate.\n[/quote]\nThat's very true, and I really should have mentioned it myself.  A penalty whose description suggest it works by impairing your mobility (eg -3 \"Covered In Webbing\") might be inapplicable if your version of Resolve is (say) keyed to Fire and narratively described as \"Intensifying my flames\" or something similar.  OTOH, if the penalty is a -3 \"Drenched By A Firehose\" it's certainly going to apply to a lot of things a Human Torch might do, but be mostly meaningless to Namor unless he does something where being really wet would matter (eg messing around with high-voltage electrical equipment, or trying to steal documents that some inconsiderate Nazi sympathizer has written in soluble ink on cheap paper).\n\nComing up with different mod descriptors can be a fun part of the gameplay, although GMs should be fairly lenient about things and you don't want to get overly hung up on finding the broadest possible option every time.  That's especially true when you're playing around with elements in the scene rather than just an ability on your character sheet.  Very few heroes actually carry a fire hose around to produce that \"drenched\" penalty above, but grabbing one left behind by fleeing firefighters and using it with (say) your Hinder ability keyed to Swinging suggests a few panels of wild action as Peter gives Johnny Storm his weekly bath while avoiding his flame blasts with style.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 228,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-10-14",
+        "user_birthdate": "1904-05-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      260638,
+      260640,
+      260641,
+      260643
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      736
+    ],
+    [
+      4,
+      735
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T20:08:26.107Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T20:08:26.107Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 61,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32102,
+      "title": "Sinister Sentinels: Play the Bad Guys",
+      "fancy_title": "Sinister Sentinels: Play the Bad Guys",
+      "slug": "sinister-sentinels-play-the-bad-guys",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/original/2X/b/b77149cfb16f7f761f61f02ebe2393a0744ce605.png",
+      "created_at": "2025-12-21T19:20:20.070Z",
+      "last_posted_at": "2025-12-21T19:53:35.569Z",
+      "bumped": true,
+      "bumped_at": "2025-12-21T19:53:35.569Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 6,
+      "views": 126,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32563,
+      "title": "Sentinel Choices Diskdriver Raid on DTRPG",
+      "fancy_title": "Sentinel Choices Diskdriver Raid on DTRPG",
+      "slug": "sentinel-choices-diskdriver-raid-on-dtrpg",
+      "posts_count": 9,
+      "reply_count": 6,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-02T15:07:14.263Z",
+      "last_posted_at": "2026-09-04T20:45:57.058Z",
+      "bumped": true,
+      "bumped_at": "2026-09-04T20:45:57.058Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 17,
+      "views": 78,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16859,
+            "username": "aramis",
+            "name": "aramis",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/aramis/{size}/1871_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 18233,
+            "username": "Faralis",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/faralis/{size}/5866_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32180,
+      "title": "Some stories from the table",
+      "fancy_title": "Some stories from the table",
+      "slug": "some-stories-from-the-table",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-02-18T17:35:54.250Z",
+      "last_posted_at": "2026-02-18T17:35:54.365Z",
+      "bumped": true,
+      "bumped_at": "2026-02-18T17:35:54.365Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 53,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 19073,
+            "username": "A-total-phyco",
+            "name": "Owen",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/a-total-phyco/{size}/7243_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32336,
+      "title": "The Alternates - The Rest of the Recaps",
+      "fancy_title": "The Alternates - The Rest of the Recaps",
+      "slug": "the-alternates-the-rest-of-the-recaps",
+      "posts_count": 19,
+      "reply_count": 11,
+      "highest_post_number": 19,
+      "image_url": null,
+      "created_at": "2026-06-01T16:42:42.310Z",
+      "last_posted_at": "2026-06-14T18:05:27.689Z",
+      "bumped": true,
+      "bumped_at": "2026-06-14T18:05:27.689Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 36,
+      "views": 245,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 11282,
+            "username": "mistergone",
+            "name": "mistergone",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/mistergone/{size}/1898_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 31087,
+  "title": "Rules Question: Hinder vs. Resolve Ability",
+  "fancy_title": "Rules Question: Hinder vs. Resolve Ability",
+  "posts_count": 4,
+  "created_at": "2024-09-06T01:12:10.754Z",
+  "views": 242,
+  "reply_count": 1,
+  "like_count": 4,
+  "last_posted_at": "2024-09-06T11:16:28.807Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "rules-question-hinder-vs-resolve-ability",
+  "category_id": 26,
+  "word_count": 1102,
+  "deleted_at": null,
+  "user_id": 18739,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_31087",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 228,
+        "username": "Chief_Lackey_Rich",
+        "name": "Chief Lackey Rich",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 13884,
+        "username": "FrivYeti",
+        "name": "FrivYeti",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 18739,
+        "username": "cynlover01",
+        "name": "Matt Wilson",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/cynlover01/{size}/6676_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 18739,
+      "username": "cynlover01",
+      "name": "Matt Wilson",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/cynlover01/{size}/6676_2.png"
+    },
+    "last_poster": {
+      "id": 228,
+      "username": "Chief_Lackey_Rich",
+      "name": "Chief Lackey Rich",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png"
+    }
+  },
+  "bookmarks": []
+}

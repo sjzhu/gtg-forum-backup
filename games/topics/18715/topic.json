@@ -1,0 +1,857 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 18717,
+        "name": "robb8888",
+        "username": "robb8888",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/dec6dc/{size}.png",
+        "created_at": "2018-11-07T20:30:40.000Z",
+        "cooked": "<p>I'm making print-and-play versions of the aspects, and this language from one of Earth's aspect cards (Incarnation of the Earth's Might) struck me:</p>\n<ul>\n\t<li>\"[1 Plant] You may play an additional Power Card by paying 1 Energy plus its cost.&nbsp; Its elements apply for the rest of this Innate Power's thresholds (<strong><em>Normally, they wouldn't</em></strong>)\"&nbsp; (<strong>this is the language I'm interested in</strong>)</li>\n\t<li><em>[additional elemental thresholds follow]</em></li>\n</ul>\n<p>Why wouldn't they normally apply?&nbsp; I can't think of one off-hand, but if I were to play a Power Card which gave me additional elements, or which allowed me to place a Presence which gave me additional elements, don't those additional elements immediately come into play, and therefore could be used to satisfy the additional thresholds on the Power Card, because it wouldn't be an \"interrupt\"?</p>\n<p>Is it because it involves playing another Power Card, and that makes it an \"interrupt\"?&nbsp; But in this case, isn't the playing of the additional Power Card part of this particular power?&nbsp; I envision the whole thing working as a couple of nested executions (apologies to the true coders out there for the bad ersatz sorta-code I'm using):</p>\n<ul>\n\t<li>[BEGINNING OF POWER - INCARNATION OF THE EARTH'S MIGHT]\n\t<ul>\n\t\t<li>1 Plant is present, so go to...\n\t\t<ul>\n\t\t\t<li>(Play power card for 1 Energy plus cost; finish all of new Power Card's effects, including their threshold effects, if any)</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li>Additional elemental threshold effects for Incarnation of the Earth's Might</li>\n\t</ul>\n\t</li>\n\t<li>[END OF POWER]</li>\n</ul>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:52:10.059Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 15.0,
+        "yours": false,
+        "topic_id": 18715,
+        "topic_slug": "more-order-of-play-interrupting-aspects",
+        "display_username": "robb8888",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I'm making print-and-play versions of the aspects, and this language from one of Earth's aspect cards (Incarnation of the Earth's Might) struck me:</p>\r\n\r\n<ul>\r\n\t<li>\"[1 Plant] You may play an additional Power Card by paying 1 Energy plus its cost.&nbsp; Its elements apply for the rest of this Innate Power's thresholds (<strong><u><em>Normally, they wouldn't</em></u></strong>)\"&nbsp; (<strong>this is the language I'm interested in</strong>)</li>\r\n\t<li><em>[additional elemental thresholds follow]</em></li>\r\n</ul>\r\n\r\n<p>Why <u>wouldn't</u> they normally apply?&nbsp; I can't think of one off-hand, but if I were to play a Power Card which gave me additional elements, or which allowed me to place a Presence which gave me additional elements, don't those additional elements immediately come into play, and therefore could be used to satisfy the additional thresholds on the Power Card, because it wouldn't be an \"interrupt\"?</p>\r\n\r\n<p>Is it because it involves playing another Power Card, and that makes it an \"interrupt\"?&nbsp; But in this case, isn't the playing of the additional Power Card <u>part</u> of this particular power?&nbsp; I envision the whole thing working as a couple of nested executions (apologies to the true coders out there for the bad ersatz sorta-code I'm using):</p>\r\n\r\n<ul>\r\n\t<li>[BEGINNING OF POWER - INCARNATION OF THE EARTH'S MIGHT]\r\n\t<ul>\r\n\t\t<li>1 Plant is present, so go to...\r\n\t\t<ul>\r\n\t\t\t<li>(Play power card for 1 Energy plus cost; finish all of new Power Card's effects, including their threshold effects, if any)</li>\r\n\t\t</ul>\r\n\t\t</li>\r\n\t\t<li>Additional elemental threshold effects for Incarnation of the Earth's Might</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>[END OF POWER]</li>\r\n</ul>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13202,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-11-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 224115,
+        "name": "dpt",
+        "username": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "created_at": "2018-11-08T00:18:23.000Z",
+        "cooked": "<p>This is one of those rules corners currently under discussion and likely to change; don't take that aspect to seriously. Indeed you would (at least currently) get the elements immediately; here's the FAQ:&nbsp;<a href=\"https://querki.net/u/darker/spirit-island-faq/#!.9v5kcmx\" rel=\"noopener nofollow ugc\">https://querki.net/u/darker/spirit-island-faq/#!.9v5kcmx</a></p>\n<p>I believe Eric forgot about this ruling when writing that text.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:57:25.308Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 18715,
+        "topic_slug": "more-order-of-play-interrupting-aspects",
+        "display_username": "dpt",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://querki.net/u/darker/spirit-island-faq/#!.9v5kcmx",
+            "internal": false,
+            "reflection": false,
+            "title": "Querki: Loading Spirit Island FAQ...",
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>This is one of those rules corners currently under discussion and likely to change; don't take that aspect to seriously. Indeed you would (at least currently) get the elements immediately; here's the FAQ:&nbsp;<a href=\"https://querki.net/u/darker/spirit-island-faq/#!.9v5kcmx\">https://querki.net/u/darker/spirit-island-faq/#!.9v5kcmx</a></p>\r\n\r\n<p>I believe Eric forgot about this ruling when writing that text.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5124,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 224116,
+        "name": "Lorkenpeist",
+        "username": "Lorkenpeist",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lorkenpeist/{size}/1959_2.png",
+        "created_at": "2018-11-08T02:08:51.000Z",
+        "cooked": "<p>Also, playing a power card is not the same as resolving its effects. It just means that the newly played card can be resolved normally at some point during the fast/slow phase, just as if it had been played during the spirit phase. So in particular, its effects would&nbsp;<em>not&nbsp;</em>interrupt the power that let you play it (or let you resolve a slow power during fast phase), and in fact you can resolve other powers in between.&nbsp;</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:57:25.375Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18715,
+        "topic_slug": "more-order-of-play-interrupting-aspects",
+        "display_username": "Lorkenpeist",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Also, playing a power card is not the same as resolving its effects. It just means that the newly played card can be resolved normally at some point during the fast/slow phase, just as if it had been played during the spirit phase. So in particular, its effects would&nbsp;<em>not&nbsp;</em>interrupt the power that let you play it (or let you resolve a slow power during fast phase), and in fact you can resolve other powers in between.&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17039,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2018-10-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 224117,
+        "name": "Eric R",
+        "username": "Eric_R",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/b9bd4f/{size}.png",
+        "created_at": "2018-11-10T03:23:58.000Z",
+        "cooked": "<p>\n&gt; I believe Eric forgot about this ruling when writing that text.\n</p>\n<p>Yup. And I didn't realize <em>all</em> the Aspects in testing were getting released to reviewers, so you got to see 'em in all of their various-stages-of-development (ie, half-done, on average) glory. :)</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:57:25.435Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 18715,
+        "topic_slug": "more-order-of-play-interrupting-aspects",
+        "display_username": "Eric R",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>\n> I believe Eric forgot about this ruling when writing that text.\n</p>\r\n\r\n<p>Yup. And I didn't realize <em>all</em> the Aspects in testing were getting released to reviewers, so you got to see 'em in all of their various-stages-of-development (ie, half-done, on average) glory. :)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10886,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-09-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      18717,
+      224115,
+      224116,
+      224117
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2865
+    ],
+    [
+      4,
+      2863
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T20:08:26.107Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T20:08:26.107Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 66,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32382,
+      "title": "Eric's June 2026 Spirit Island Update",
+      "fancy_title": "Eric&rsquo;s June 2026 Spirit Island Update",
+      "slug": "erics-june-2026-spirit-island-update",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-06-26T01:27:49.471Z",
+      "last_posted_at": "2026-06-26T23:42:44.231Z",
+      "bumped": true,
+      "bumped_at": "2026-06-26T23:42:44.231Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 9,
+      "views": 230,
+      "category_id": 18,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31833,
+      "title": "Please help! Video game logs!",
+      "fancy_title": "Please help! Video game logs!",
+      "slug": "please-help-video-game-logs",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2025-10-01T21:27:10.411Z",
+      "last_posted_at": "2025-10-04T01:17:03.037Z",
+      "bumped": true,
+      "bumped_at": "2025-10-04T01:17:03.037Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 57,
+      "category_id": 32,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 17935,
+            "username": "Thunderbird",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/ba8739/{size}.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32315,
+      "title": "Episode 317 of the Letters Page: Justice Comics #384",
+      "fancy_title": "Episode 317 of the Letters Page: Justice Comics #384",
+      "slug": "episode-317-of-the-letters-page-justice-comics-384",
+      "posts_count": 11,
+      "reply_count": 4,
+      "highest_post_number": 11,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/optimized/2X/b/bd8a214d758c99b8a2b984db995b6fe616bc43ab_2_660x1024.jpeg",
+      "created_at": "2026-05-19T14:11:07.222Z",
+      "last_posted_at": "2026-05-20T17:59:59.995Z",
+      "bumped": true,
+      "bumped_at": "2026-05-20T17:59:59.995Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 25,
+      "views": 142,
+      "category_id": 25,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 14005,
+            "username": "TakeWalker",
+            "name": "KateWalker",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17935,
+            "username": "Thunderbird",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/ba8739/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31860,
+      "title": "Chronocide Etc: OblivAeon, Power Sources, Universe Creation and Destruction",
+      "fancy_title": "Chronocide Etc: OblivAeon, Power Sources, Universe Creation and Destruction",
+      "slug": "chronocide-etc-oblivaeon-power-sources-universe-creation-and-destruction",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-10-09T21:42:11.312Z",
+      "last_posted_at": "2025-10-09T21:42:11.432Z",
+      "bumped": true,
+      "bumped_at": "2025-10-09T21:42:11.432Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 41,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 18715,
+  "title": "More Order of Play/Interrupting -- Aspects",
+  "fancy_title": "More Order of Play/Interrupting &ndash; Aspects",
+  "posts_count": 4,
+  "created_at": "2018-11-07T20:30:40.000Z",
+  "views": 390,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2018-11-10T03:23:58.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "more-order-of-play-interrupting-aspects",
+  "category_id": 18,
+  "word_count": 514,
+  "deleted_at": null,
+  "user_id": 13202,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_18715",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 4,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 5124,
+        "username": "dpt",
+        "name": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 10886,
+        "username": "Eric_R",
+        "name": "Eric R",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/b9bd4f/{size}.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 13202,
+        "username": "robb8888",
+        "name": "robb8888",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/dec6dc/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 17039,
+        "username": "Lorkenpeist",
+        "name": "Lorkenpeist",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lorkenpeist/{size}/1959_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 13202,
+      "username": "robb8888",
+      "name": "robb8888",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/r/dec6dc/{size}.png"
+    },
+    "last_poster": {
+      "id": 10886,
+      "username": "Eric_R",
+      "name": "Eric R",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/b9bd4f/{size}.png"
+    }
+  },
+  "bookmarks": []
+}

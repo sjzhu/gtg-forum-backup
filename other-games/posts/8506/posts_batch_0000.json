@@ -1,0 +1,933 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 70548,
+        "name": "dwetuski",
+        "username": "dwetuski",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+        "created_at": "2013-08-12T17:39:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>Damage delt is always a result of HP loss though.</p>\n</blockquote>\n</aside>\n<p>That can't be right. &nbsp;If this were true, a target would have to actually lose hp before Divine Sacrifice or Wrest the Mind could redirect damage away from it.</p>\n<p>Could it be that you're thinking of the fact that a target doesn't \"take damage\" if the target is immune to the type of damage it's dealt of if the damage it's dealt is reduced below 1? &nbsp;I think that \"takes damage\" is a distinct concept from \"deals damage\".</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:26.912Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "dwetuski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5108,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70549,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2013-08-12T18:07:49.000Z",
+        "cooked": "<p><span>I think the order is:</span></p><p>&nbsp;</p><p>1) Damage is declared, which constitutes determining the original amount, type, source, and target of the damage.</p><p>3) Damage \"is dealt\" by the source, at which point one or more of the 2 redirect effects might modify the target.</p><div>-- Steps 1 and 3 are the same thing</div><div>&nbsp;</div><p>2) Damage increases/reductions that affect damage dealt by a source are applied.</p><p>6) Damage increases/reductions that affect damage dealt to a target are applied.</p><div>-- Steps 2 and 6 are the same thing. Also in this section is anything that changes the type of the damage. All of the increases, decreases, and type changes are considered in card-played order, but because the amount can't affect the type, it's easier to do the type first so as not to have to go back and redo the amounts.</div><div>&nbsp;</div><p><span>4) Damage \"would be dealt\" to the target, at which point one or more of the 8 redirect effects might modify the target.</span></p><p>-- And if redirection occurs, one needs to return to the previous step of considering increases, reductions, and types, except that type is never based on target (to date), so that can effectively be skipped.</p><p><span>5) Immunity may cancel the damage entirely, ending the sequence immediately.</span></p><p><span>7) The target's hp is reduced.</span></p><p>&nbsp;</p><p><span>I'm sorry I don't have references for them, but my memory is that the designers have clearly stated that immunity happens very last, after reductions, and that after a redirection, all increases and decreases are recalculated based on the new target.&nbsp;</span></p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:26.986Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70550,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-08-12T18:11:00.000Z",
+        "cooked": "<p><span>Generally, if a source dealt damage, it reduced HP. If no HP was lost, no damage was dealt.</span></p><p>&nbsp;</p><p>Maybe this might be a better way to pose it and alter your steps.</p><p>1) Damage sequence declared. Determine target/base damage/type/source</p><p>2) Evaluate all damage modifiers</p><p><span>3) Damage is dealt</span></p><p><span>3a) \"Would be dealt damage\" triggers and effects take place. If redirection was used, start from step 1 with new target</span></p><p>3b) \"When target deals/is dealt\" damage triggers and effects take place.&nbsp;<span>If redirection was used, start from step 1 with new target</span></p><p>4) Reduce HP</p><p>4a) \"Target dealt damage this way\" triggers and effects</p><p>Edit: Modified this a bit</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.063Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70551,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T03:55:00.000Z",
+        "cooked": "<p>Just to stress this point:</p><p>Bunker's incap ability is not Damage Reduction. &nbsp;It prevents damage and works against irreducible damage. &nbsp;It works like a limited immunity, basically the target is immune to the first two points of damage, except that it is Bunker preventing the damage.</p><blockquote><p>So, here's how I think the order should be:</p><p>1) Damage is declared, which constitutes determining the original amount, type, source, and target of the damage.</p><p>2) Damage increases/reductions that affect damage dealt by a source are applied.</p><p>3) Damage \"is dealt\" by the source, at which point one or more of the 2 redirect effects might modify the target.</p><p>4) Damage \"would be dealt\" to the target, at which point one or more of the 8 redirect effects might modify the target.</p><p>5) Immunity may cancel the damage entirely, ending the sequence immediately.</p><p>6) Damage increases/reductions that affect damage dealt to a target are applied.</p><p>7) The target's hp is reduced.</p></blockquote><p>Good job with the card survey, the only two that don't have would be dealt are dealing with effects that don't care about the target, sacrifice is source based (targets fanatic damaged have their damage redirected), just like Wrest the Mind.</p><p>As for the timing above, I would put all \"Would be dealt\" effects in theStep 4 as they are all triggered then. &nbsp;That might be your intent but it looks like you could just mean redirects there. &nbsp;At the point where those trigger I think the group playing the game should decide what happens. &nbsp;If you can keep track of all the card orders and want to do it that way, go for it, if your group doesn't want to track card order across four heroes and villain cards too, then let the heroes decide. &nbsp;I've never been able to keep what cards were played first in my head (even laying them out in order I still don't know because cards from different play areas trigger at the same time, and keeping that straight is like work).</p><p>The immunity timing is wrong, I believe it is official (it is in Spiffs PDF) that a target immune to damage cannot redirect it. &nbsp;I just checked today as I thought about this some more. &nbsp;So I'd time it up like this:</p><p>1: &nbsp;Damage Declaration, initial Source, type, amount and target are declared.</p><p>2: &nbsp;Apply changes to damage type.</p><p>3: &nbsp;Apply modifiers to damage based on source and type.</p><p>4: &nbsp;Source of damage steps complete, check for redirection based on source, proceed to target.</p><p>5. &nbsp;If target is immune end damage calculations, no damage is dealt.</p><p>6. &nbsp;Trigger all \"would be dealt damage\" reduction and redirection effects.</p><p>7. &nbsp;Trigger all \"is dealt damage\" modifiers.</p><p>8, &nbsp;Reduce targets HP.</p><p>Unless Spiff's PDF is wrong (I doubt) or has been superceeded step 5 needs to be there.</p><p>This list is going to change how I play, I can't use WtM to steer damage Iron Legacy redirects back at him, which makes a lot of sense thematically.</p><p>&nbsp;</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.148Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70552,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2013-08-13T04:03:38.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Just to stress this point:Haka's incap ability is not Damage Reduction. &nbsp;It prevents damage and works against irreducible damage. &nbsp;It works like a limited immunity, basically the target is immune to the first two points of damage, except that it is Haka preventing the damage</p>\n</blockquote>\n</aside>\n<p>Haka's incap side is \"Select a Hero. Decrease the next damage to that hero by 2\" i'm not sure how you are getting prevention from it. It looks to me that it may be the case of inconsistant wording, and should be \"reduce the next damage to that hero by 2\".</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.228Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70553,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2013-08-13T04:18:00.000Z",
+        "cooked": "<p>He is thinking of Bunker, who still has an incapacitated ability which says \"prevent the next&nbsp;2 damage\".&nbsp; Although I suspect that if it had been caught, that would have been changed to reduce in enhanced edition.</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.297Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70554,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2013-08-13T04:23:00.000Z",
+        "cooked": "<p>No, Bunker's is intentionally Prevent.</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.360Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70555,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-08-13T04:29:47.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dypaca\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dypaca/48/2079_2.png\" class=\"avatar\"> dypaca:</div>\n<blockquote>\n<p>He is thinking of Bunker</p>\n</blockquote>\n</aside>\n<p>Yes I was, thanks for the catch, edited.</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.421Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70556,
+        "name": "Envisioner",
+        "username": "Envisioner",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+        "created_at": "2013-10-13T17:52:00.000Z",
+        "cooked": "<p>I think this topic (or a similar one) should be stickied once consensus is reached (or an official ruling obtained).&nbsp; As it is, I'm finding it impossible to locate the clarification I wanted, which is what happens when 5-6 damage is dealt to Wraith with Shielding Winds in play and Stealth activated (once).&nbsp; For today I will play it as \"stealth applies first due to card play order, so Shielding Winds never applies\", but it'd be nice to know for sure.&nbsp; Spiff's compilation could really stand to have an official Christopher-approved clarification of this very common interaction.</p>",
+        "post_number": 29,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.487Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "Envisioner",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5332,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70557,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2013-10-13T18:16:51.000Z",
+        "cooked": "<p>It has alteady been ruled that Fortitude and Superhuman Durability happen in card played order.</p>",
+        "post_number": 30,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.569Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 70558,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2013-10-13T19:21:30.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>It has alteady been ruled that Fortitude and Superhuman Durability happen in card played order.</p>\n</blockquote>\n</aside>\n<p>The most heavily debated official ruling ever. Lets also keep in mind that it was never officially confirmed what would happen if fort was played second. Thought if point that out.&nbsp;</p>",
+        "post_number": 31,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:49:27.632Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 8506,
+        "topic_slug": "does-stored-reduction-last-past-a-redirection",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 8506
+}

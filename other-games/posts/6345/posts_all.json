@@ -1,0 +1,429 @@
+{
+  "posts": [
+    {
+      "id": 6347,
+      "name": "BaloTheJester",
+      "username": "BaloTheJester",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/balothejester/{size}/2080_2.png",
+      "created_at": "2012-09-28T16:33:23.000Z",
+      "cooked": "<p>I couldn't think of a more generic way of putting this.</p><p>The general question: When a card including damage that affects all targets (or all targets of a given type) triggers a card that puts a target into play, is that target affected by the damage? When a card including multi-target damage triggers an effect that destroys the card, does the damage happen to all targets who would resolve after that trigger?</p><p>The specific situation: We were fighting Gloomweaver, who had out a Cultist (I forget which one) and some Zombies. Nightmist cast Oblivion. The \"all targets\" damage of Oblivion killed all the zombies and damaged the Cultist. The \"all non-hero targets\" damage killed the Cultist. Per Gloomweaver's villain card, a zombie then spawns. Should this new zombie take the \"all non-hero targets\" damage as well?</p><p>Another moment in the same game - the Drum of Despair went off at the start of the villain turn. It had only 3 HP remaining. Nightmist had the Amulet out that let her redirect damage (I have forgotten the name of the card, embarrassingly). When Nightmist resolved the Drum's effect she chose to take the damage, then use the Amulet to redirect it back at the Drum and destroy it. If we resolved the Drum's effect on Nightmist first, would this mean only Nightmist took any effect from the Drum?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:36:16.278Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 20.0,
+      "yours": false,
+      "topic_id": 6345,
+      "topic_slug": "effects-mid-aoe",
+      "display_username": "BaloTheJester",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I couldn&#39;t think of a more generic way of putting this.</p><p>The general question: When a card including damage that affects all targets (or all targets of a given type) triggers a card that puts a target into play, is that target affected by the damage? When a card including multi-target damage triggers an effect that destroys the card, does the damage happen to all targets who would resolve after that trigger?</p><p>The specific situation: We were fighting Gloomweaver, who had out a Cultist (I forget which one) and some Zombies. Nightmist cast Oblivion. The &quot;all targets&quot; damage of Oblivion killed all the zombies and damaged the Cultist. The &quot;all non-hero targets&quot; damage killed the Cultist. Per Gloomweaver&#39;s villain card, a zombie then spawns. Should this new zombie take the &quot;all non-hero targets&quot; damage as well?</p><p>Another moment in the same game - the Drum of Despair went off at the start of the villain turn. It had only 3 HP remaining. Nightmist had the Amulet out that let her redirect damage (I have forgotten the name of the card, embarrassingly). When Nightmist resolved the Drum&#39;s effect she chose to take the damage, then use the Amulet to redirect it back at the Drum and destroy it. If we resolved the Drum&#39;s effect on Nightmist first, would this mean only Nightmist took any effect from the Drum?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 507,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-07-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39275,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2012-09-28T17:11:21.000Z",
+      "cooked": "<p>If a card which is dealing damage to multiple targets is destroyed, any remaining potential damage is cancelled.&nbsp; Based on that logic, I would assume that damage being dealt to multiple targets continues until there are no longer any potential targets (e.g. if a target enters play&nbsp;and is a valid target for currently ongoing damage being dealt, it would recieve the damage).&nbsp; This, however, would create issues with cards that deal the top X targets with the highest HP, or all except the target with the lowest HP, etc, as if a new valid target enters play, it could make a previous valid target an invalid target, and, while the new target could be valid, it would go outside the count limit (while technically within the count limit were damage not already dealt to some now invalid targets).&nbsp; Two possible solutions to this, one is that cards dealing damage to multiple targets must identify all targets before dealing damage.&nbsp; This would cause new targets introduced to be prevented from recieving damage from the multi target damage.&nbsp; The second would be to seperate multi-target attacks into two classifications based on logical interpretations of the target specitications, one which requires predetermination of targets prior to dealing damage (to prevent contraditory targetting), and one which does not require predetermination of targets (as it would be impossible to create any ambiguity).</p><p>&nbsp;</p><p>Or, just do what you think makes most sense.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:13:00.537Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6345,
+      "topic_slug": "effects-mid-aoe",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>If a card which is dealing damage to multiple targets is destroyed, any remaining potential damage is cancelled.&nbsp; Based on that logic, I would assume that damage being dealt to multiple targets continues until there are no longer any potential targets (e.g. if a target enters play&nbsp;and is a valid target for currently ongoing damage being dealt, it would recieve the damage).&nbsp; This, however, would create issues with cards that deal the top X targets with the highest HP, or all except the target with the lowest HP, etc, as if a new valid target enters play, it could make a previous valid target an invalid target, and, while the new target could be valid, it would go outside the count limit (while technically within the count limit were damage not already dealt to some now invalid targets).&nbsp; Two possible solutions to this, one is that cards dealing damage to multiple targets must identify all targets before dealing damage.&nbsp; This would cause new targets introduced to be prevented from recieving damage from the multi target damage.&nbsp; The second would be to seperate multi-target attacks into two classifications based on logical interpretations of the target specitications, one which requires predetermination of targets prior to dealing damage (to prevent contraditory targetting), and one which does not require predetermination of targets (as it would be impossible to create any ambiguity).</p><p>&nbsp;</p><p>Or, just do what you think makes most sense.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39276,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2012-09-28T17:15:00.000Z",
+      "cooked": "<p>If I remember correctly, this came up during play testing and the answers to your two questions, BaloTheJester, are \"Yes\" and \"Yes\".  <img src=\"//forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=9\" title=\":slightly_smiling_face:\" class=\"emoji\" alt=\":slightly_smiling_face:\"></p>\n<p>&nbsp;</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:13:00.615Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6345,
+      "topic_slug": "effects-mid-aoe",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "If I remember correctly, this came up during play testing and the answers to your two questions, BaloTheJester, are &quot;Yes&quot; and &quot;Yes&quot;.  :slightly_smiling_face: \n\n&nbsp;",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39277,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2012-09-28T17:17:24.000Z",
+      "cooked": "<p>The effect of the drum can definately be worked the way you did, redirecting it back to original source is a favourite of Visionary and her <em>Wrest the Mind</em>. I'm pretty sure the other question is answered in Spiff's consolidated FAQ... but I can't for the HP of me remember what the answer is.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:13:00.687Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6345,
+      "topic_slug": "effects-mid-aoe",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The effect of the drum can definately be worked the way you did, redirecting it back to original source is a favourite of Visionary and her <em>Wrest the Mind</em>. I&#39;m pretty sure the other question is answered in Spiff&#39;s consolidated FAQ... but I can&#39;t for the HP of me remember what the answer is.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 39278,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2012-10-01T03:26:16.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Rabit\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabit/48/5774_2.png\" class=\"avatar\"> Rabit:</div>\n<blockquote>\n<p>If I remember correctly, this came up during play testing and the answers to your two questions, BaloTheJester, are \"Yes\" and \"Yes\".  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=12\" title=\":slightly_smiling_face:\" class=\"emoji\" alt=\":slightly_smiling_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Agreed. A trigger in the middle of AoE would could cause a newly-put-in-play target to also be hit, AND a card doing multiple attacks which is destroyed would forestall the attackes that haven't yet occured.</p>\n<p>&nbsp;</p>\n<p>As for changing which X cards are hit due to triggers or destroyed cards, the question is moot, as <em>which</em> targets will be hit is determined all at once before any targets are attacked.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:13:00.762Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6345,
+      "topic_slug": "effects-mid-aoe",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Rabit\"]\n\nIf I remember correctly, this came up during play testing and the answers to your two questions, BaloTheJester, are &quot;Yes&quot; and &quot;Yes&quot;.  :slightly_smiling_face: \n\n[/quote]\n\n&nbsp;\n\nAgreed. A trigger in the middle of AoE would could cause a newly-put-in-play target to also be hit, AND a card doing multiple attacks which is destroyed would forestall the attackes that haven&#39;t yet occured.\n\n&nbsp;\n\nAs for changing which X cards are hit due to triggers or destroyed cards, the question is moot, as _which_ targets will be hit is determined all at once before any targets are attacked.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

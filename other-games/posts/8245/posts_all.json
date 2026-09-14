@@ -1,0 +1,429 @@
+{
+  "posts": [
+    {
+      "id": 8247,
+      "name": "burningneuron",
+      "username": "burningneuron",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/burningneuron/{size}/2653_2.png",
+      "created_at": "2013-06-20T14:17:59.000Z",
+      "cooked": "<p>Ra's card comes into play that says all hero damage is fire, and all fire damage is +1.</p><p>Pike Industrial's card comes into play that says all damage is toxic, all damage +1.</p><p>Resolving them in play order, do we:</p><p>A) hero does 2 whatever damage, Ra converts it to fire and gives it +1, then PI turns it toxic and gives it an additional +1 for 4 damage, or...</p><p>B) hero does 2 damage, Ra converts it to fire, it gets +1 for being fire but then loses the +1 when PI turns it to toxic, then gets +1 for the PI card's global modifier, for 3 damage?</p><p>I'm not married to either answer, both seem right, but my gut says B. &nbsp;What says the group?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:38:43.404Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 20.0,
+      "yours": false,
+      "topic_id": 8245,
+      "topic_slug": "stacking-static-modifiers",
+      "display_username": "burningneuron",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Ra&#39;s card comes into play that says all hero damage is fire, and all fire damage is +1.</p><p>Pike Industrial&#39;s card comes into play that says all damage is toxic, all damage +1.</p><p>Resolving them in play order, do we:</p><p>A) hero does 2 whatever damage, Ra converts it to fire and gives it +1, then PI turns it toxic and gives it an additional +1 for 4 damage, or...</p><p>B) hero does 2 damage, Ra converts it to fire, it gets +1 for being fire but then loses the +1 when PI turns it to toxic, then gets +1 for the PI card&#39;s global modifier, for 3 damage?</p><p>I&#39;m not married to either answer, both seem right, but my gut says B. &nbsp;What says the group?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4565,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-05-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 66387,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-06-20T14:42:00.000Z",
+      "cooked": "<p>Modifiers do stack normaly. Galvanize + Imbued Fire would give all heros +2 damage for instance. But this situation is a little different.</p><p>Because the toxic Vat came into play&nbsp;<em>after</em> Ra's Imbued Fire, all damage becomes toxic. Since Imbued Fire only increases&nbsp;<em>fire</em>&nbsp;damage by 1, the toxic vats conversion would mean Imbued Fire is useless until the Vat gets blown up. So I'd think [B] is correct.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:44:04.498Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8245,
+      "topic_slug": "stacking-static-modifiers",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Modifiers do stack normaly. Galvanize + Imbued Fire would give all heros +2 damage for instance. But this situation is a little different.</p><p>Because the toxic Vat came into play&nbsp;<em>after</em> Ra&#39;s Imbued Fire, all damage becomes toxic. Since Imbued Fire only increases&nbsp;<em>fire</em>&nbsp;damage by 1, the toxic vats conversion would mean Imbued Fire is useless until the Vat gets blown up. So I&#39;d think [B] is correct.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 66388,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2013-06-20T14:43:20.000Z",
+      "cooked": "<p>I now pronounce you burningneuron and Answer B</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:44:04.567Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8245,
+      "topic_slug": "stacking-static-modifiers",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I now pronounce you burningneuron and Answer B</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 66389,
+      "name": "Drakossozh",
+      "username": "Drakossozh",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/f05b48/{size}.png",
+      "created_at": "2013-06-20T16:07:48.000Z",
+      "cooked": "<p>You may kiss the <em><strong>B</strong></em>ride.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:44:04.630Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8245,
+      "topic_slug": "stacking-static-modifiers",
+      "display_username": "Drakossozh",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>You may kiss the <u><em><strong>B</strong></em></u>ride.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3992,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 66390,
+      "name": "Ironic",
+      "username": "Ironic",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ironic/{size}/2171_2.png",
+      "created_at": "2013-06-20T19:24:04.000Z",
+      "cooked": "<p>Note that this is different from Megalopolis' Cramped Quarters Combat, which makes all damage melee, and then increases&nbsp;<em>all</em> damage by one. &nbsp;In that case, order matters - if Imbued Fire was in play already, damage is melee and the boni don't stack, but if CQC was in play first and then Imbued Fire came out, damage is fire and Heroes get +2.</p><p>Which, really, is a little confusing when you think about it. &nbsp;C'est la guerre.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:44:04.695Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8245,
+      "topic_slug": "stacking-static-modifiers",
+      "display_username": "Ironic",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Note that this is different from Megalopolis&#39; Cramped Quarters Combat, which makes all damage melee, and then increases&nbsp;<em>all</em> damage by one. &nbsp;In that case, order matters - if Imbued Fire was in play already, damage is melee and the boni don&#39;t stack, but if CQC was in play first and then Imbued Fire came out, damage is fire and Heroes get +2.</p><p>Which, really, is a little confusing when you think about it. &nbsp;C&#39;est la guerre.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3474,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

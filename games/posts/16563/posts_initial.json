@@ -1,0 +1,1952 @@
+{
+  "posts": [
+    {
+      "id": 16565,
+      "name": "scifantasy",
+      "username": "scifantasy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/scifantasy/{size}/2070_2.png",
+      "created_at": "2017-04-18T19:29:30.000Z",
+      "cooked": "<p>Hi all! I'm new to the forums here and reasonably new to Sentinels of the Multiverse, having gotten into the game (well, more substantially than the occasional game in a convention game room) through Handelabra's rather fantastic Android implementation over the last month or two. I live in NYC, so I do a&nbsp;<em>lot</em>&nbsp;of gaming on the subway–going through all of the backlogged Weekly One-Shots and all of the achievements was ideal.</p>\n<p>When I heard about the Oblivaeon ARG from last year, I was fascinated–I love puzzles. With this one complete, I went looking for a summary, and all due respect to the Sentinels Wiki, I found it a little…incomplete. So I went to the \"Whose Tim Cosing? thread–and I took notes.</p>\n<p>Which became something of a chronicle.</p>\n<p>And in a few places, it points out aspects that are still unsolved, because Peter Hayward has apparently had Real Life get in the way of the blog he was planning to do recapping the ARG.</p>\n<p>So I figured, why not share it?</p>\n\n<p>&nbsp;</p>\n<p><strong>Notes</strong></p>\n<p><em>Terminology</em></p>\n<p>When a new page is identified, I will give the full link; all other times (mostly after the page is identified, but occasionally before) I will refer to a page by its nine-character code.</p>\n<p><em>Credit</em></p>\n<p>I will attempt to give credit where it is due to the player who discovered a particular solution first, with allowances if several people make a discovery simultaneously.</p>\n<p><em>The Rulebook</em></p>\n<p>The Villains of the Multiverse rulebook (herein, the \"Rulebook\") was a major source of clues and content for the ARG. A scan of the Rulebook was posted by&nbsp;<strong>dpt</strong>:</p>\n<p><a href=\"http://pages.iu.edu/~dpthurst/tmp/villains-rulebook.pdf\" rel=\"noopener nofollow ugc\">http://pages.iu.edu/~dpthurst/tmp/villains-rulebook.pdf</a></p>\n<p><strong>arenson9</strong>&nbsp;would be the first to notice that each page from 1-9 was associated with a color, as seen in the page numbers of the Rulebook:</p>\n<p>1: Yellow<br>2: Blue<br>3: Pink<br>4: Orange<br>5: Red<br>6: Brown<br>7: Gray<br>8: White<br>9: Green</p>\n<p>(Herein, the \"Rulebook Code.\")</p>\n<p>Attention should also be paid to the first page of the rulebook, and the shading of the crossed-out word \"Sentinels\" as well as the Greater Than Games logo in the bottom right, which has only four pips instead of the usual five. Both of these facts were identified by&nbsp;<strong>tindiyen</strong>&nbsp;during various parts of the hunt, but their significance would not be identified until the final puzzle.</p>\n<p>&nbsp;</p>\n<p><strong>Cover 1: Genocidal</strong></p>\n<p>There were a couple of places where the ARG could be said to \"start.\"&nbsp;<strong>Kratos13&nbsp;</strong>accidentally stumbled on the \"Intervene\" clue, for example (which led to a tweeted callout, \"Too quick, K\"). But the true trigger was the creation of the \"Whose Tim Cosing?\" thread, which became the central solving area of the ARG.</p>\n<p>Posted by&nbsp;<strong>CornCakes</strong>&nbsp;(later revealed to be Peter C. Hayward, the designer of the ARG), the message simply pointed out that \"Tim Cosing\" appears in the Rulebook's acknowledgements section nine times.</p>\n<p><strong>Matchstickman&nbsp;</strong>immediately saw the anagram of \"It's Coming.\"</p>\n<p>(<strong><em>Note</em></strong>: There seem to have been two intended methods to solve this puzzle.</p>\n<p>One was to see that the colors of the villain biographies in the end of the Rulebook were ordered according to the Rulebook Code to produce 716453289.&nbsp;<strong>jorcbrow</strong>&nbsp;got this during the lead up to&nbsp;<strong>oddallies</strong>.</p>\n<p>The other method was to count the number of names that appeared between each \"Tim Cosing\" in the playtester acknowledgements, again getting 716453289.&nbsp;<strong>much0gust0</strong>&nbsp;figured this one out during the \"Break time\" before&nbsp;<strong>bethegate</strong>.</p>\n<p>Either way, if you assign the letters in TIMCOSING values 123456789, rearranging them according to the order 716453289 produces ITSCOMING. Unfortunately it wasn't a very complicated anagram, so this clue was jumped over for a while.)</p>\n<p><strong>Comrade Bubbles&nbsp;</strong>found Tim Cosing's Twitter account, and&nbsp;<strong>Powerhound_2000</strong>&nbsp;posted that the QR code Tim had for a usericon leads to:</p>\n<p><a href=\"https://greaterthangames.com/replaceme\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/replaceme</a></p>\n<p>With some prodding from Tim, including his tweet \"Replace me,\"&nbsp;<strong>dpt</strong>&nbsp;took that \"replaceme\" part literally, and found:</p>\n<p><a href=\"https://greaterthangames.com/itscoming\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/itscoming</a></p>\n<p>With the help from another couple of clues from Tim (including \"Flavor text,\" which was an error–ten letters),&nbsp;<strong>grysqrl&nbsp;</strong>found that the text on&nbsp;<strong>itscoming</strong>&nbsp;was made up of selections of the flavor text on nine specific cards:</p>\n<p>Gruum<br>Endless Possibilities<br>Negative Energy Field<br>Oblivion<br>Chronological Hotspot<br>Indomitable Force<br>Demoralization<br>Apocalypse<br>Lambent Reaper</p>\n<p>(This got \"Well done, G\" from Tim.)</p>\n<p><strong>arenson9&nbsp;</strong>also noticed that the source code for&nbsp;<strong>itscoming</strong>&nbsp;had the code 124185 embedded in it. This would be held in reserve for a while.</p>\n<p><strong>Chogb001</strong>&nbsp;was the one who saw that reading the first letter of each card led to&nbsp;<strong>the first cover</strong>:</p>\n<p><a href=\"https://greaterthangames.com/genocidal\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/genocidal</a></p>\n<p>&nbsp;</p>\n<p><strong>Cover 2: Harbinger</strong></p>\n<p>The fact that all (except the error) of Tim Cosing's tweets had been nine characters, not to mention all of the code phrases, primed the players to seek out nine-character strings. The most obvious was the one below the barcode on&nbsp;<strong>genocidal</strong>, which&nbsp;<strong>DocBrown</strong>&nbsp;found:</p>\n<p><a href=\"https://greaterthangames.com/982354617\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/982354617</a></p>\n<p>This is, of course, also the reverse of the 716453289 code that had not actually been discovered yet.</p>\n<p>The&nbsp;<strong>982354617&nbsp;</strong>comic's references to \"three times as many,\" the Mega-Computer, and Megalopolis were enough to hook in the already-discovered, but not yet understood, \"Intervene\" clue, as&nbsp;<strong>Donner</strong>&nbsp;specifically called out. See here for a picture:</p>\n<p><a href=\"https://greaterthangames.com/forum/topic/intervene-8225\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/intervene-8225</a></p>\n<p>Following The Wraith's directive to \"look at the screens…start at the top, left to right,\" the players, including&nbsp;<strong>VisforYoshi</strong>,&nbsp;<strong>Chogb011</strong>, and&nbsp;<strong>Julia</strong>, identified the nine cards on the Mega-Computer screens as, in order:</p>\n<p>Scion of Blight<br>\"Diplomatic\" Envoy<br>Beginning of the End<br>Eye on the Prize<br>Retcon<br>Between the Lines<br>Don't Dismiss Anything<br>Fixed Point<br>Reveal the Flaws</p>\n<p>With Bunker's \"Flavor Chips\" in hand, the players knew to focus on the flavor text of each card, as&nbsp;<strong>Julia</strong>&nbsp;outlined. <strong>m</strong><strong>ackcrockett</strong>&nbsp;applied the Rulebook Code, taking the encoded letter of each flavor text. If a given screen was pink, for example, they took the third letter of the flavor text of the card shown on that screen.</p>\n<p>The nine letters thus identified spelled&nbsp;<em>formofthe</em>, and&nbsp;<strong>mackcrockett&nbsp;</strong>recognized that this was the start of a specific Progeny card:&nbsp;<em>Form of the Harbinger</em>, and thus identified&nbsp;<strong>the second cover:</strong></p>\n<p><a href=\"https://greaterthangames.com/harbinger\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/harbinger</a></p>\n<p>(<strong><em>Note</em></strong>: It does not appear that the coloring of the letters of the word \"Intervene\" in&nbsp;<strong>intervene</strong>&nbsp;was ever fully understood. Hayward's comment is that \"it's not an additional key - it was actually intended to point towards the eventual solution of that image.\"</p>\n<p>Though&nbsp;<strong>DerpTheBugbear</strong>&nbsp;would, during \"Break Time,\" identify the 716453289 Rulebook-biography clue and suggest it was connected to \"Intervene,\" the actual \"Intervene\" solution is, to Your Humble Chronicler's knowledge, not established.</p>\n<p><strong>UPDATE: April 19, 2017, 2000 EDT</strong>: As you see below, this post spurred a new interest in solving the unsolved puzzles. In the process it was discovered that the \"Intervene\" puzzle was in fact&nbsp;<em>unsolvable</em>! The intent of the puzzle had been to demonstrate the relationship between Rulebook Code color and position of a character in a given flavor text, but due to a juxtaposition in notes, the flavor text Hayward believed was on Mega-Computer was in fact on Micro-Targeting Computer.</p>\n<p>Reading that flavor text, the solution is obvious:&nbsp;I is brown meaning 6, N is gray (7), T is green (9), E is yellow (1), R is orange (4), V is blue (2)…and those numbers are the positions of those letters in that flavor text.</p>\n<p>Yr. Hmbl. believes that had the flavor text been matched properly, this puzzle <em>might</em> have been solved at this time and shown as further proof that&nbsp;<strong>m</strong><strong>ackcrockett</strong><strong>&nbsp;</strong> was on the right track. At the same time, it's possible that because the connection between flavor text and Rulebook Code position was clear, it might have been skipped over. If so, it almost certainly would have been discovered during \"Break Time.\")</p>\n<p>&nbsp;</p>\n<p><strong>Cover 3: Odd Allies</strong></p>\n<p>While there were a few false starts here,&nbsp;<strong>VisforYoshi</strong>&nbsp;noticed that the first paragraph of&nbsp;<strong>harbinger</strong>&nbsp;had an acrostic reading \"BASE EIGHT.\" Tim's tweet, \"Checkouts,\" focused the players\" attention on the barcode of&nbsp;<strong>harbinger</strong>, which&nbsp;<strong>DerpTheBugbear</strong>&nbsp;scanned to reveal 71645328–the code, less the 9.&nbsp;<strong>DerpTheBugbear</strong>&nbsp;and&nbsp;<strong>bretttwo</strong>&nbsp;both saw that converting 71645328 to base eight produced:</p>\n<p><a href=\"https://greaterthangames.com/421234220\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/421234220</a></p>\n<p>The reference in&nbsp;<strong>421234220&nbsp;</strong>to \"the now-classic Freedom Four Annual <span class=\"hashtag-raw\">#1</span>\" led players to check&nbsp;<a href=\"https://greaterthangames.com/downloads\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/downloads</a>, where&nbsp;<strong>Comrade Bubbles</strong>&nbsp;first clearly identified that there are nine different versions of that comic linked (the \"[PDF icon] Freedom 4 <span class=\"hashtag-raw\">#1</span>.pdf\" link is actually nine different links). Each link had the form: <a href=\"https://greaterthangames.com/system/files/downloads/X.pdf\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/system/files/downloads/X.pdf</a> (where X is a number from 1-9).</p>\n<p>The only differences were the time on the clock when Tachyon's alarm goes off on page 16, and a letter on the drill behind Legacy on page 18, identified by&nbsp;<strong>bretttwo</strong>&nbsp;and&nbsp;<strong>dpt</strong>&nbsp;respectively:</p>\n<p>1: 8:53, R<br>2: 7:08, A<br>3: 9:20, I<br>4: 6:00, L<br>5: 5:40, F<br>6: 7:08, E<br>7: 6:10, N<br>8: 6:00, C<br>9: 7:52, E</p>\n<p><strong>bretttwo&nbsp;</strong>saw that the nine clock positions, if imagined in their analog positions and read as semaphore, would produce the sequence OLSDALEDI (though there were also several other possibilities based on the edge cases of certain semaphore readings). When the players saw what a Rail Fence Cipher (the nine letters) is,&nbsp;<strong>bretttwo&nbsp;</strong>applied the one to the other:</p>\n<p><span style=\"font-family:'courier'\"> O &nbsp; &nbsp; &nbsp; L &nbsp; &nbsp; &nbsp; S </span> <br> <span style=\"font-family:'courier'\"> &nbsp; D &nbsp; A &nbsp; L &nbsp; E </span> <br><span style=\"font-family:'courier'\"> &nbsp; &nbsp;D &nbsp; &nbsp; &nbsp; I </span></p>\n<p>This led to&nbsp;<strong>the third cover</strong>:</p>\n<p><a href=\"https://greaterthangames.com/oddallies\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/oddallies</a></p>\n<p>&nbsp;</p>\n<p><strong>Cover 4: Omnitron-U</strong></p>\n<p>The players started with the same clues that had gotten them to&nbsp;<strong>oddallies</strong>:&nbsp;<strong>jagarciao</strong>&nbsp;saw that the acrostic in the first paragraph was LEETSPEAK, and&nbsp;<strong>DerpTheBugbear</strong>&nbsp;scanned the barcode to 804RD64M3–which is, of course, leet-speak for \"Boardgame.\"</p>\n<p>(Incidentally, it was at this time that&nbsp;<strong>racingstripe</strong>, somehow, stumbled upon the Morse code video that was intended for a later clue, despite the video being unlisted on YouTube. Tim Cosing's tweet, \"Tut tut tut,\" likely referred to this sequence break, and it would have repercussions later.)</p>\n<p>Next,&nbsp;<strong>tyches_coin</strong>&nbsp;noticed that 126951, just above the&nbsp;<strong>oddallies</strong>&nbsp;barcode, is the BoardGameGeek code for the Ambuscade mini-expansion:</p>\n<p><a href=\"https://boardgamegeek.com/boardgameexpansion/126951/sentinels-multiverse-ambuscade-villain-character\" rel=\"noopener nofollow ugc\">https://boardgamegeek.com/boardgameexpansion/126951/sentinels-multiverse-ambuscade-villain-character</a></p>\n<p><strong>BlueHairedMeerkat</strong>&nbsp;noticed that the other part of that, 633000, is \"Geek\": 6 for G, 3 for E, and the 000 means multiplied by 1,000, which is K (as in, \"kilo\"). Thus, the whole barcode area becomes \"Boardgame Geek 126951.\"</p>\n<p><strong>DerpTheBugbear</strong>&nbsp;then found that the 124185 clue from&nbsp;<strong>itscoming</strong>&nbsp;also meant BGG, as that's the code for Unity's mini-expansion:</p>\n<p><a href=\"https://boardgamegeek.com/boardgame/124185/sentinels-multiverse-unity-hero-character\" rel=\"noopener nofollow ugc\">https://boardgamegeek.com/boardgame/124185/sentinels-multiverse-unity-hero-character</a></p>\n<p>(At this time,&nbsp;<strong>BlueHairedMeerkat</strong>&nbsp;and&nbsp;<strong>dpt&nbsp;</strong>posted their summaries of the events of the ARG to date.)</p>\n<p><strong>Sameer</strong>&nbsp;next found that the&nbsp;<strong>421234220</strong>&nbsp;page also had a number in a comment, namely 134393–which is the BGG page for the Eternal Haka promo card:</p>\n<p><a href=\"https://boardgamegeek.com/boardgame/134393/sentinels-multiverse-eternal-haka-promo-card\" rel=\"noopener nofollow ugc\">https://boardgamegeek.com/boardgame/134393/sentinels-multiverse-eternal-haka-promo-card</a></p>\n<p><b>TheCraftyCurler</b> poined out that the last letters of the first paragraph of the <strong>oddallies</strong> story spelled out HEALTHPTS,&nbsp;and&nbsp;<strong>kitmehsu</strong>&nbsp;noticed that the&nbsp;<strong>replaceme</strong>&nbsp;page also had a number, One Two Six Nine Four Nine (126949), leading to Cosmic Omnitron's BGG page:</p>\n<p><a href=\"https://boardgamegeek.com/boardgame/126949/sentinels-multiverse-cosmic-omnitron-villain-promo\" rel=\"noopener nofollow ugc\">https://boardgamegeek.com/boardgame/126949/sentinels-multiverse-cosmic-omnitron-villain-promo</a></p>\n<p>That was enough for&nbsp;<strong>BlueHairedMeerkat</strong>&nbsp;and&nbsp;<strong>kitmehsu</strong>&nbsp;to see that the HP of the four identified characters, listed in the order of their pages, produced:</p>\n<p><a href=\"https://greaterthangames.com/100263350\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/100263350</a></p>\n<p><strong>Comrade Bubbles</strong>&nbsp;first noticed that the hovertext on that image is \"uif,\" and&nbsp;<strong>Chromium_Man</strong>&nbsp;found that Augustus's Code is a simple substitution cipher, where each letter is advanced by one–thus, \"uif\" is \"the,\" as&nbsp;<strong>BlueHairedMeerkat</strong>&nbsp;saw.</p>\n<p>While&nbsp;<strong>MrLeRobot</strong>&nbsp;identified the relationship between the bots and their HP, it took another Tim tweet, \"Bookstore,\" for&nbsp;<strong>Chromium_Man</strong>&nbsp;to suggest that the thirteen symbols-to-numbers should be looked as as an ISBN, which he identified as T.S. Eliot's \"The Wasteland.\"&nbsp;<strong>Chromium_Man</strong>&nbsp;and&nbsp;<strong>BlueHairedMeerkat</strong>&nbsp;simultaneously applied an Augustus cipher to the nine-letter \"Wasteland\" and found:</p>\n<p><a href=\"https://greaterthangames.com/xbtufmboe\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/xbtufmboe</a></p>\n<p><strong>wyken09</strong>&nbsp;broke the animated gif into 25 images, and&nbsp;<strong>grysqrl</strong>&nbsp;realized there was one image from a card for each letter of the alphabet except for U. The large number of Omnitron images led&nbsp;<strong>grysqrl</strong>&nbsp;to make the leap to&nbsp;<strong>the fourth cover</strong>:</p>\n<p><a href=\"https://greaterthangames.com/omnitronu\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/omnitronu</a></p>\n<p>(The true method of solving this puzzle was supposed to be to realize that the animation wasn't consistent. Some images appeared for a short time, some for a longer time. If one mapped the shorts and longs as Morse code, one would produce the code OMNITRWN, due to an error in design–as Tim would later tweet, \"W's almost U.\" This solution was first suggested by&nbsp;<strong>wyken09</strong>&nbsp;and positively identified by&nbsp;<strong>ludkubo</strong>&nbsp;during the \"Break Time\" before&nbsp;<strong>bethegate</strong>.)</p>\n<p>&nbsp;</p>\n<p><strong>Cover 5: Time v. Time</strong></p>\n<p>Unfortunately for Tim and the GTG crew, the barcode on&nbsp;<strong>omnitronu</strong>&nbsp;turned out to be a royal pain, leading to Tim tweeting \"Scan again\" and \"Reloading.\" Finally, though,&nbsp;<strong>Julia</strong>&nbsp;managed to scan the barcode and identify it as \"bitly1QupVMD,\" or, as&nbsp;<strong>Comrade Bubbles</strong>&nbsp;saw,</p>\n<p><a href=\"https://bitly.com/1QupVMD\" rel=\"noopener nofollow ugc\">https://bitly.com/1QupVMD</a></p>\n<p>That redirects to&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hexadecimal\" rel=\"noopener nofollow ugc\">https://en.wikipedia.org/wiki/Hexadecimal</a>, the Wikipedia page for Hexidecimal notation. Hardly a shock that as&nbsp;<strong>Powerhound_2000</strong>&nbsp;first stated (though&nbsp;<strong>dedilus</strong>&nbsp;was close), the text below the&nbsp;<strong>omnitronu</strong>&nbsp;barcode, \"232D2D2D,\" was readable as hex.</p>\n<p><strong>Foote</strong>&nbsp;did the conversion and identified the code as #—, which&nbsp;<strong>Trajector</strong>,&nbsp;<strong>kitmehsu</strong>, and&nbsp;<strong>Foote</strong>&nbsp;speculated pointed to the importance of issue numbers.&nbsp;<strong>Trajector</strong>&nbsp;identified three cards in the text of&nbsp;<strong>omnitronu</strong>: Prophetic Vision, Take Down, and Twisting Back Alleys.</p>\n<p><strong>RySmith6</strong>&nbsp;realized this referred to the issue numbers of those three cards. 201 (Prophetic Vision), 128 (Take Down), and 190 (Twisting Back Alleys doesn't have a number itself, but it refers to the Wraith's Combat Stance card, which does). This led to:</p>\n<p><a href=\"https://greaterthangames.com/201128190\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/201128190</a></p>\n<p>Besides confirming the dreams of the all the Wrunker 'shippers (\"Braithes\"?), the page, as&nbsp;<strong>Von_Raptor</strong>&nbsp;and&nbsp;<strong>cokeandsympathy</strong>&nbsp;were the first to recognize, has the three bolded phrases all bearing the initials \"MP,\" and therefore \"mp3\" was relevant. It was&nbsp;<strong>grysqrl</strong>&nbsp;who linked to:</p>\n<p><a href=\"https://greaterthangames.com/201128190.mp3\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/201128190.mp3</a></p>\n<p><strong>Comrade Bubbles</strong>&nbsp;was the first to say that the audio sounded altered, but a&nbsp;<em>lot</em>&nbsp;of other people, including&nbsp;<strong>Trajector</strong>, <strong>Von_Raptor</strong>, and&nbsp;<strong>MrFettucine</strong>, simultaneously recognized that the audio was clips from the Sentinels video game–not just reversed, but also sped up or slowed down. Naturally, it was (correctly) assumed that there were nine distinct sounds.</p>\n<p><strong>grysqrl</strong>&nbsp;first specifically identified the second and fifth sounds as files related to the Insula Primalis and Iron Legacy decks,&nbsp;<strong>Pgrammens</strong>&nbsp;added Tomb of Anubis as 1 and Megalopolis as 3.&nbsp;<strong>Malchodit</strong>&nbsp;heard that 5 was Voss's theme, 8 was the Matriarch's theme,&nbsp;<strong>Trajector</strong>&nbsp;named 4 as Enclave of the Endless, and&nbsp;<strong>grysqrl</strong>&nbsp;made the obvious leap (to the point that nobody has ever seemed to bother figuring out the last two sound clips) from TIMEV_IM_ to the&nbsp;<strong>fifth cover</strong>:</p>\n<p><a href=\"https://greaterthangames.com/timevtime\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/timevtime</a></p>\n<p>&nbsp;</p>\n<p><strong>Cover 6: Ft. Adamant</strong></p>\n<p><strong>Julia</strong>&nbsp;decoded the barcode on&nbsp;<strong>timevtime</strong>&nbsp;into \"urihgmrmv,\" but that and \"urmzomrmv\" needed another Tim tweet (987654321).&nbsp;<strong>TheSoundOfTrees</strong>&nbsp;is the one who first suggested a reversed-alphabet code (an \"Atbash cipher,\" as it's called), and that gave&nbsp;<strong>brettwo</strong>&nbsp;the idea to Atbash decode the phrases into \"firstnine\" and \"finalnine.\"</p>\n<p>The first and last nine words of the&nbsp;<strong>timevtime</strong>&nbsp;story are \"Five years…in seconds.\"&nbsp;<strong>bobbertoriley</strong>&nbsp;wouldn't be fooled again, and used a converter to calculate 157,784,760 seconds:</p>\n<p><a href=\"https://greaterthangames.com/157784760\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/157784760</a></p>\n<p><strong>Foote</strong>&nbsp;was the first to look at the source code for&nbsp;<strong>157784760</strong>, and also the first to paste the odd text in comments in HTML into Notepad and mess with the word wrapping to find the ASCII art. (<strong>Foote</strong>&nbsp;did it by trial and error, but Hayward would later say the correct line length was 128 characters, as indicated by \"Character introduced in <span class=\"hashtag-raw\">#128</span>.\") This led to&nbsp;<strong>the sixth cover</strong>:</p>\n<p><a href=\"https://greaterthangames.com/ftadamant\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/ftadamant</a></p>\n<p>&nbsp;</p>\n<p><strong>Cover 7: Be the Gate</strong></p>\n<p>When the Morse code video first identified during&nbsp;<strong>omnitronu</strong>&nbsp;went live at this point, there was an attempt to leapfrog over finding how to get there; that said, it didn't take long for&nbsp;<strong>carnilius</strong>&nbsp;to note that the word TIMELINES at the bottom contained the following seven color codes in font tags, in this order: 063118 061079 121107 100106 122110 101085 052056</p>\n<p><strong>GeekInsight</strong>&nbsp;lived up to their name, and noted that the first letter of each sentence on the first paragraph of the&nbsp;<strong>ftadamant</strong>&nbsp;story spelled out ASCII CODE. Converting the color codes in TIMELINES from ASCII to text yielded \"?v=OykdjzneU48\"</p>\n<p>(<strong>brettwo</strong>&nbsp;noticed at the same time that the barcode for&nbsp;<strong>ftadamant</strong>&nbsp;yielded fifteen numbers, which weren't listed, but I suspect were 099 111 108 111 114–the ASCII codes for the letters \"color.\" As in, \"look at the colors of the TIMELINES word.\")</p>\n<p>At any rate,&nbsp;<em>quelle surprise</em>, that's the YouTube ID for the Morse video:</p>\n<p><a href=\"https://www.youtube.com/watch?v=OykdjzneU48\" rel=\"noopener nofollow ugc\">https://www.youtube.com/watch?v=OykdjzneU48</a></p>\n<p>(The title of that video is Morse code for M O R S E C O D E. Of course it is.)</p>\n<p>This is where the evil happened. The Morse code is recursive: the code is a series of the words DOT, DASH, and SLASH, which can themselves be decoded in Morse to another layer of DOT/DASH/SLASH, which finally decode to nine digits:</p>\n<p><a href=\"https://greaterthangames.com/918273645\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/918273645</a></p>\n<p>This was yet another recursively-encoded Morse sequence, which eventually decoded to PLAYLISTS.</p>\n<p>Tim Cosing's YouTube account has one playlist, which contains one video:</p>\n<p><a href=\"https://www.youtube.com/watch?v=gVzwYSRnBsQ&amp;list=PLKYaqQYhlmcHvG2cBAU485BdwBxdzPXqE\" rel=\"noopener nofollow ugc\">https://www.youtube.com/watch?v=gVzwYSRnBsQ&amp;list=PLKYaqQYhlmcHvG2cBAU485BdwBxdzPXqE</a></p>\n<p>The creator of that video, \"Tim Nunpesh,\" is an anagram of \"Punishment,\" the title of the video is \"A GOOD TIME,\" and the 81 minutes (81 being 9 squared) of runtime were much more the former than the latter. It's commonly believed this was a combination of the cost paid for sequence breaking, and also an attempt to stall so GTG could finish the rest of the comics for the ARG.</p>\n<p>It worked…for about an hour and a half. When&nbsp;<strong>elgioioso.alex89</strong>&nbsp;posted a large chunk of the Morse code that decoded through repeated encodings to 1397,&nbsp;<strong>Brettonia</strong>&nbsp;appears to have brute-forced the rest (knowing that digits wouldn't repeat) and found:</p>\n<p><a href=\"https://greaterthangames.com/139724865\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/139724865</a></p>\n<p>This is around when Tim tweeted \"Break time,\" so while it's not there anymore, the forum reactions indicate that&nbsp;<strong>139724865</strong>&nbsp;originally said \"Be patient.\"</p>\n<p>While the break was ongoing, Tim pointed out some of the still-unsolved clues, including:</p>\n<p>Intervene? (As in, \"what does Intervene in&nbsp;<strong>intervene&nbsp;</strong>mean?\" Unsolvable, see above.)<br>Sound file? (\"What are the two other sounds in the&nbsp;<strong>201128190</strong>&nbsp;file?\" Still unsolved.)<br>Animation? (Refers to the&nbsp;<strong>xbtufmboe</strong>&nbsp;clue and the Morse code in the gif animation.<strong>&nbsp;ludkubo</strong>&nbsp;pieced it together to get OMNITRWN.)<br>Name order? (Refers to the repetition of \"Tim Cosing\" in the playtester acknowledgements and their decoding into&nbsp;<strong>716453289</strong>&nbsp;that leads to&nbsp;<strong>itscoming</strong>.&nbsp;<strong>much0gust0</strong>&nbsp;got it.)</p>\n<p>After about twelve hours, Tim tweeted \"Who's Ready?\" and&nbsp;<strong>139724865</strong>&nbsp;went live.</p>\n<p><strong>DerpTheBugbear</strong>&nbsp;saw the bonus puzzle in the source code, which we'll come back to.</p>\n<p>But first, the riddle.</p>\n<p>The first two lines say that the \"middle\" of the riddle is three letters, the \"final\" part is four, and by implication, the \"first\" part is two–and more importantly, the first part the riddle will discuss is the \"middle.\"</p>\n<blockquote>\nTake nothing, then square it, then square it once more, and still you'll have nothing--why add him to four?\n</blockquote>\nAbsolute Zero: 0 squared is still 0, as is 0 squared squared, and the question was, why add Absolute Zero to the Freedom Four (to get the Freedom Five)?\n<blockquote>\nThe start of his power is simple, concise. (And common--in fact, I have said it now twice.) Let's move past the middle (Ah - there's number four)\n</blockquote>\nBase AZ's power is Thermodynamics, which starts with \"the.\" So the middle three letters of the riddle are \"the.\"&nbsp;<strong>WalkingTarget</strong>&nbsp;got that first.\n<blockquote>\n[A]nd hope that no obstacle blocks off the door. The daughter, the old man, the mishap, and Faye\n</blockquote>\nThis is the Dark Watch (Expatriette, Mr. Fixer, Setback, and NightMist) with Setback likely as the \"obstacle.\"\n<blockquote>\nThe power to make bad things go away. Be careful to take it from only the end\n</blockquote>\n\"The power to make bad things go away\" is Setback's card Mitigate--the last four letters of which are, of course, \"gate.\"&nbsp;<strong>SunsetShadow</strong>&nbsp;was the first to say that.\n<blockquote>\nAnd the start? It opened this riddle, my friend\n</blockquote>\nThe first two letters of the riddle are \"Be.\" And&nbsp;<strong>MrFettucine</strong>&nbsp;figured that out, and combined it with the rest, to get&nbsp;<strong>the seventh cover</strong>:\n<p><a href=\"https://greaterthangames.com/bethegate\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/bethegate</a></p>\n<p>&nbsp;</p>\n<p>Now, about that bonus riddle:</p>\n<blockquote>\nAh; looking for more? I like it, new foe.<br>For nothing comes easy, or how would we grow?\n</blockquote>\nFrippery, it seems.\n<blockquote>\nMy first is in Flay, but never in normal.\n</blockquote>\nA lot of people were distracted by the F in Flay, but apparently--and I don't believe this was ever fully explained when&nbsp;<strong>grysqrl</strong>&nbsp;got it--this refers to the J in \"Major.\"\n<blockquote>\nMy second's in you (if we're being informal).\n</blockquote>\nThe Ps from Legacy's name, Paul Parsons--never explicitly made because&nbsp;<strong>grysqrl</strong>&nbsp;made a leap of logic.\n<blockquote>\nMy third is in most words - three times in your base.\n</blockquote>\nE, which appears three times in Freedom Tower, as identified by&nbsp;<strong>FreedomGunfire</strong>.\n<blockquote>\nAnd my last's in the past and a place out in space.\n</blockquote>\n<strong>grysqrl</strong>&nbsp;identified these as Silver Gulch, 1883, and Wagner Mars Base, and figured the G was the common element.\n<blockquote>\nThe timeline is broken; before you go mend it<br>Take the fruits of your labor and simply append it.\n</blockquote>\nAs in, add \"jpeg\" to the end of \"bethegate\" to get this bonus image:\n<p><a href=\"https://greaterthangames.com/bethegate.jpeg\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/bethegate.jpeg</a></p>\n<p>&nbsp;</p>\n<p><strong>Cover 8: End of Days</strong></p>\n<p>With a lot of people distracted by the bonus riddle, the \"D E F G\" at the start of&nbsp;<strong>bethegate</strong>&nbsp;(it was just the Harpy looking through an encyclopedia, flavor only), the source code (Google Analytics code can look like clue code) and the like, the players needed Tim's \"Square dot\" tweet to focus back on the main thread.</p>\n<p><strong>Julia</strong>&nbsp;had already ID'd the barcode of&nbsp;<strong>bethegate</strong>&nbsp;as \"causation,\" as well as the \"space\" and \"time\" below same.</p>\n<p><strong>jorcbrow&nbsp;</strong>saw that some of the periods in the&nbsp;<strong>bethegate</strong>&nbsp;text were square, but it was&nbsp;<strong>VikenXetred</strong>&nbsp;who identified the nine words&nbsp;<em>following</em>&nbsp;the square dots:</p>\n<p>D<br>I'd<br>HIC<br>Cool<br>Gotta<br>Sounds<br>Cherubs<br>Unstable<br>Toxicants</p>\n<p><strong>nyrens</strong>&nbsp;and&nbsp;<strong>VikenXetred</strong>&nbsp;together looked at the final letter of each word to get DDCLASSES (<strong>nyrens</strong>&nbsp;got most of it but missed the D at the start, figuring it for a \".\"), which got everybody thinking D&amp;D classes until Tim tweeted \"Librarian.\" (The fact that the lengths of the keywords went in order from 1-9 was not lost on anyone either.)</p>\n<p><strong>Chromium_Man</strong>&nbsp;was the first to say the words \"Dewey Decimal,\" barely beating out&nbsp;<strong>SirGropes</strong>,&nbsp;<strong>Atras</strong>,&nbsp;<strong>cnranger</strong>, and&nbsp;<strong>Tindiyen</strong>, but&nbsp;<strong>FierstArter</strong>&nbsp;is the one who combined the Dewey Decimal classes for Causation (122), Space (114), and Time (115) into:</p>\n<p><a href=\"https://greaterthangames.com/122114115\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/122114115</a></p>\n<p><strong>DerpTheBugbear</strong>&nbsp;noticed that the filename of the image was T26252731.jpg, and&nbsp;<strong>nyrens</strong>&nbsp;was the first to key to the word \"Sidekick\" in the comic to conclude the next step was to set up a scenario in the Sentinels of the Mutiverse Sidekick app, based on the scene in the comic.</p>\n<p>The one who spelled it out most completely first was&nbsp;<strong>carnilius</strong>: set up a game with Super Scientific Tachyon, Termi-Nation Unity, Termi-Nation Bunker, Termi-Nation Absolute Zero, and Redeemer Fanatic versus Progeny in Freedom Tower, basically recreating the comic page in the app.&nbsp;<strong>broccoli&nbsp;</strong>correctly argued to put the heroes in the order suggested by the filename (T for Tachyon, the other four were listed by HP: Tachyon, Bunker, AZ, Unity, Fanatic), but it took Tim's next tweet, \"Take Notes,\" for&nbsp;<strong>Donner</strong>&nbsp;to check the notes fields in the app for each character card.</p>\n<p>All of the notes fields had…well, I admit, I'm not 100% sure. Either names of elements, atomic numbers of elements, or symbols for elements. Everybody agreed they were elements and that's how they were treated–correctly, as it turns out. (<strong>Samwise</strong>&nbsp;stated that Tachyon, at least, had atomic numbers, \"60839169,\" so I suspect all of them had numeric strings, but everybody agreed they were atomic numbers so fast that they were all treated as elements from that point out.)</p>\n<p>Progeny had A Sodium Roentgenium Americium, which if you change to the atomic symbols, was \"A Na Rg Am,\" which was quickly decoded into \"ANAGRAM.\"<br>Tachyon had Neodymiun, Oxygen, Yttrium, Sulfur, Fluorine, or Nd O Y S F.<br>Bunker had Boron, Nitrogen, Boron, Gallium, Arsenic, Gallium, Thallium, Bismuth.<br>AZ had Selenium, Bromine, Xenon, Radon, Ununseptium, Livermorium, Selenium.<br>Unity had Chromium, Manganese, Ruthenium, Osmium, Bohrium, Seaborgium, Chromium.<br>Fanatic had Meitnerium, Rhodium, Nickel, Silver, Roentenium, Gold, Iridium.</p>\n<p>It was&nbsp;<strong>dprcooke</strong>&nbsp;who pointed out that if you connected the non-Tachyon heroes' elements like a connect-the-dots puzzle, you got E, D, D, and A, but&nbsp;<strong>grysqrl</strong>&nbsp;is the one who anagrammed EDDA with the NOYSF from Tachyon's capitalized letters to get&nbsp;<strong>the eighth cover</strong>:</p>\n<p><a href=\"https://greaterthangames.com/endofdays\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/endofdays</a></p>\n<p>&nbsp;</p>\n<p><strong>Cover 9: Scion's Aid</strong></p>\n<p>Up front, this point marks the first time the words \"sign language\" were used–<strong>broccoli</strong>&nbsp;saw the L that Ra was making. The significance didn't hit until later.</p>\n<p>With \"First\" and the barcode decoding to \"Last,\"&nbsp;<strong>RySmith6</strong>&nbsp;saw \"VIDEO GAME\" as the first and last words of the text on&nbsp;<strong>endofdays</strong> as Tim tweeted \"Arrow time,\" and then \"new colors.\"&nbsp;<strong>Matchstickman</strong>&nbsp;pointed out that the \"Community\" ad on the video game's splash screen has the \"Intervene\" image again, this time with, ahem, new colors.&nbsp;<strong>broccoli</strong>&nbsp;saw that \"arrow\" referred to the arrows that scroll through the various splash screens in the video game just as&nbsp;<strong>grysqrl</strong>,&nbsp;<strong>blitz20688</strong>, and&nbsp;<strong>arenson9&nbsp;</strong>did the decoding:</p>\n<p><a href=\"https://greaterthangames.com/112233445\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/112233445</a></p>\n<p>It was&nbsp;<strong>grysqrl</strong>&nbsp;again who first spoke of a plus in the lower lefnt, and&nbsp;<strong>sirkevington</strong>&nbsp;saw the 3 in the lower right, but&nbsp;<strong>dedlius</strong>&nbsp;put them together, adding 3 to each number:</p>\n<p><a href=\"https://greaterthangames.com/445566778\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/445566778</a></p>\n<p><strong>TeslaRoyale</strong>&nbsp;first said \"these look like names,\" and identified Tachyon, Ra, and the Visionary's aliases to fit the second set of white, second set of yellow, and solitary set of brown X's.&nbsp;<strong>WalkingTarget</strong>&nbsp;added Legacy's alias for the first set of white,&nbsp;<strong>dedlius</strong>&nbsp;added the Wraith's ,&nbsp;<strong>WalkingTarget</strong>&nbsp;got the six-letter name as Fanatic's, and&nbsp;<strong>grysqrl</strong>&nbsp;listed all nine of the core heroes' aliases (except Tempest–see below) with their color corresponding to a Rulebook Code number:</p>\n<p>Paul Parsons (white, 8), Tyler Vance (green, 9), Maia Mongomery (pink, 3), Ryan Frost (grey, 7), Helena (red, 5)<br>Vanessa Long (brown, 6), Aata Wakarewarewa (orange, 4), Dr. Meredith Stinson (white, 8), Dr. Blake Washington (yellow, 1)</p>\n<p>However, it was&nbsp;<strong>RySmith6</strong>, narrowly beating out&nbsp;<strong>wyken09</strong>&nbsp;and&nbsp;<strong>catwhowalksbyhimself</strong>, who took the letter in that number's position (\"Paul Parsons\" in white, meaning 8, means to take the eighth letter, in that case S, and so on) to get&nbsp;<strong>the ninth cover</strong>:</p>\n<p><a href=\"https://greaterthangames.com/scionsaid\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/scionsaid</a></p>\n<p>(Hayward would reveal in the wrap-up that there was a missing bit in that puzzle: in the source code, there should have been, and later was, a tenth name, corresponding to M'kk Dall'ton, in blue–so, character 2, the apostrophe. And of course, it occurred to make the words clearly \"Scion's Aid,\" not \"Scion Said.\")</p>\n<p>&nbsp;</p>\n<p><strong>Conclusion: Oblivaeon</strong></p>\n<p><strong>&nbsp;</strong>According to Tim, it was \"Not the end,\" so&nbsp;<strong>HeroComplex</strong>&nbsp;saw that all of the sentences in the first paragraph of&nbsp;<strong>scionsaid</strong>&nbsp;were either four or five letters, giving:</p>\n<p><a href=\"https://greaterthangames.com/444455555\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/444455555</a></p>\n<p>As&nbsp;<strong>TheSoundOfTrees</strong>&nbsp;first pointed out, with the title of the page being page/cover, and the two images being first/last…the community was starting to go a little apophenic, seeking meaning everywhere.</p>\n<p>Tim's tweet \"Hands Talk\" paid off the sign language, and&nbsp;<strong>HeroComplex</strong>&nbsp;identified that there's one ASL letter on each page. They spell, of course, SENTINELS.</p>\n<p><strong>MrLeRobot</strong>&nbsp;suggested that the use of shadows and non-shadowed objects in the first/last images on&nbsp;<strong>444455555</strong>&nbsp;might have something to do with the shadowed and un-shadowed letters in the Rulebook. But&nbsp;<strong>grysqrl</strong>&nbsp;took it home, teasing everybody with \"I got it, writing it up now,\" before…well, I'll let&nbsp;<strong>grysqrl</strong>&nbsp;repeat the message that got the \"Nice work, G\" tweet:</p>\n<p><span style=\"font-family:'courier'\">9x9 grid of covers, plus the letters from the sign language (that grid helped, Estelindis!)</span></p>\n<p><span style=\"font-family:'courier'\"> GENOCIDAL S </span> <br> <span style=\"font-family:'courier'\"> HARBINGER E </span> <br> <span style=\"font-family:'courier'\"> ODDALLIES N </span> <br> <span style=\"font-family:'courier'\"> OMNITRONU T </span> <br> <span style=\"font-family:'courier'\"> TIMEVTIME I </span> <br> <span style=\"font-family:'courier'\"> FTADAMANT N </span> <br> <span style=\"font-family:'courier'\"> BETHEGATE E </span> <br> <span style=\"font-family:'courier'\"> ENDOFDAYS L </span> <br> <span style=\"font-family:'courier'\"> SCIONSAID S </span></p>\n<p><span style=\"font-family:'courier'\"> Is the letter shadowed on the first page? </span></p>\n<p><span style=\"font-family:'courier'\"> GENOCIDAL S N </span> <br> <span style=\"font-family:'courier'\"> HARBINGER E N </span> <br> <span style=\"font-family:'courier'\"> ODDALLIES N Y </span> <br> <span style=\"font-family:'courier'\"> OMNITRONU T N </span> <br> <span style=\"font-family:'courier'\"> TIMEVTIME I Y </span> <br> <span style=\"font-family:'courier'\"> FTADAMANT N Y </span> <br> <span style=\"font-family:'courier'\"> BETHEGATE E Y </span> <br> <span style=\"font-family:'courier'\"> ENDOFDAYS L N </span> <br> <span style=\"font-family:'courier'\"> SCIONSAID S Y </span></p>\n<p><span style=\"font-family:'courier'\"> If shadowed, use the 5th letter; if not, use the 4th letter (from pips on the dice of first page/back cover) </span></p>\n<p><span style=\"font-family:'courier'\"> GENOCIDAL S N </span> <br> <span style=\"font-family:'courier'\"> HARBINGER E N </span> <br> <span style=\"font-family:'courier'\"> ODDALLIES N Y </span> <br> <span style=\"font-family:'courier'\"> OMNITRONU T N </span> <br> <span style=\"font-family:'courier'\"> TIMEVTIME I Y </span> <br> <span style=\"font-family:'courier'\"> FTADAMANT N Y </span> <br> <span style=\"font-family:'courier'\"> BETHEGATE E Y </span> <br> <span style=\"font-family:'courier'\"> ENDOFDAYS L N </span> <br> <span style=\"font-family:'courier'\"> SCIONSAID S Y</span></p>\n<p><a href=\"http://greaterthangames.com/oblivaeon\" rel=\"noopener nofollow ugc\">http://greaterthangames.com/oblivaeon</a></p>\n<p>&nbsp;</p>\n<p><strong>Postscript: Unsolved Puzzles</strong></p>\n<p>By Hayward's estimation, at the end there were only four points that nobody spotted–two of which got explained in that wrapup post, the 128-character&nbsp;<strong>ftadamant</strong>&nbsp;reference and the&nbsp;<strong>scionsaid</strong>&nbsp;M'kk Dall'ton name element.</p>\n<p>The remaining puzzles, then, are the meaning of the colored letters in the word \"Intervene\" in&nbsp;<strong>intervene</strong>, and the last two sound clips in&nbsp;<strong>201128190</strong>.</p>\n<p>And that's that!</p>\n<p>&nbsp;</p>\n<p>Hope you enjoyed reading this. I certainly enjoyed writing it all up.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:49:20.351Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 21,
+      "reads": 19,
+      "readers_count": 18,
+      "score": 108.8,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "scifantasy",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/itscoming",
+          "internal": false,
+          "reflection": false,
+          "clicks": 8
+        },
+        {
+          "url": "http://pages.iu.edu/~dpthurst/tmp/villains-rulebook.pdf",
+          "internal": false,
+          "reflection": false,
+          "clicks": 5
+        },
+        {
+          "url": "https://greaterthangames.com/harbinger",
+          "internal": false,
+          "reflection": false,
+          "clicks": 3
+        },
+        {
+          "url": "https://greaterthangames.com/genocidal",
+          "internal": false,
+          "reflection": false,
+          "clicks": 3
+        },
+        {
+          "url": "https://greaterthangames.com/bethegate.jpeg",
+          "internal": false,
+          "reflection": false,
+          "title": "bethegate.jpeg",
+          "clicks": 2
+        },
+        {
+          "url": "https://greaterthangames.com/replaceme",
+          "internal": false,
+          "reflection": false,
+          "clicks": 2
+        },
+        {
+          "url": "https://greaterthangames.com/ftadamant",
+          "internal": false,
+          "reflection": false,
+          "clicks": 1
+        },
+        {
+          "url": "https://greaterthangames.com/982354617",
+          "internal": false,
+          "reflection": false,
+          "clicks": 1
+        },
+        {
+          "url": "https://greaterthangames.com/100263350",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/omnitronu",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://bitly.com/1QupVMD",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hexadecimal",
+          "internal": false,
+          "reflection": false,
+          "title": "Hexadecimal - Wikipedia",
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/201128190",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/201128190.mp3",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/timevtime",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/157784760",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OykdjzneU48",
+          "internal": false,
+          "reflection": false,
+          "title": "--/---/.-./..././-.-./---/-../. - YouTube",
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/918273645",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/139724865",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/bethegate",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/122114115",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/112233445",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/445566778",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/scionsaid",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/444455555",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "http://greaterthangames.com/oblivaeon",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/xbtufmboe",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://boardgamegeek.com/boardgame/124185/sentinels-multiverse-unity-hero-character",
+          "internal": false,
+          "reflection": false,
+          "title": "Sentinels of the Multiverse: Unity Hero Character | Board Game | BoardGameGeek",
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/endofdays",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gVzwYSRnBsQ&list=PLKYaqQYhlmcHvG2cBAU485BdwBxdzPXqE",
+          "internal": false,
+          "reflection": false,
+          "title": ".- / --. --- --- -.. / - .. -- . - YouTube",
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/system/files/downloads/X.pdf",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/forum/topic/intervene-8225",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/421234220",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/downloads",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/oddallies",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://boardgamegeek.com/boardgameexpansion/126951/sentinels-multiverse-ambuscade-villain-character",
+          "internal": false,
+          "reflection": false,
+          "title": "Sentinels of the Multiverse: Ambuscade Villain Character | Board Game | BoardGameGeek",
+          "clicks": 0
+        },
+        {
+          "url": "https://boardgamegeek.com/boardgame/134393/sentinels-multiverse-eternal-haka-promo-card",
+          "internal": false,
+          "reflection": false,
+          "title": "Sentinels of the Multiverse: The Eternal Haka Promo Card | Board Game | BoardGameGeek",
+          "clicks": 0
+        },
+        {
+          "url": "https://boardgamegeek.com/boardgame/126949/sentinels-multiverse-cosmic-omnitron-villain-promo",
+          "internal": false,
+          "reflection": false,
+          "title": "Sentinels of the Multiverse: Cosmic Omnitron Villain Promo Card | Board Game | BoardGameGeek",
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Hi all! I&#39;m new to the forums here and reasonably new to Sentinels of the Multiverse, having gotten into the game (well, more substantially than the occasional game in a convention game room) through Handelabra&#39;s rather fantastic Android implementation over the last month or two. I live in NYC, so I do a&nbsp;<em>lot</em>&nbsp;of gaming on the subway--going through all of the backlogged Weekly One-Shots and all of the achievements was ideal.\n\nWhen I heard about the Oblivaeon ARG from last year, I was fascinated--I love puzzles. With this one complete, I went looking for a summary, and all due respect to the Sentinels Wiki, I found it a little...incomplete. So I went to the &quot;Whose Tim Cosing? thread--and I took notes.\n\nWhich became something of a chronicle.\n\nAnd in a few places, it points out aspects that are still unsolved, because Peter Hayward has apparently had Real Life get in the way of the blog he was planning to do recapping the ARG.\n\nSo I figured, why not share it?\n<!--break-->\n&nbsp;\n\n<u><strong>Notes</strong></u>\n\n<em>Terminology</em>\n\nWhen a new page is identified, I will give the full link; all other times (mostly after the page is identified, but occasionally before) I will refer to a page by its nine-character code.\n\n<em>Credit</em>\n\nI will attempt to give credit where it is due to the player who discovered a particular solution first, with allowances if several people make a discovery simultaneously.\n\n<em>The Rulebook</em>\n\nThe Villains of the Multiverse rulebook (herein, the &quot;Rulebook&quot;) was a major source of clues and content for the ARG. A scan of the Rulebook was posted by&nbsp;<strong>dpt</strong>:\n\n<a href=\"http://pages.iu.edu/~dpthurst/tmp/villains-rulebook.pdf\">http://pages.iu.edu/~dpthurst/tmp/villains-rulebook.pdf</a>\n\n<strong>arenson9</strong>&nbsp;would be the first to notice that each page from 1-9 was associated with a color, as seen in the page numbers of the Rulebook:\n\n1: Yellow<br />2: Blue<br />3: Pink<br />4: Orange<br />5: Red<br />6: Brown<br />7: Gray<br />8: White<br />9: Green\n\n(Herein, the &quot;Rulebook Code.&quot;)\n\nAttention should also be paid to the first page of the rulebook, and the shading of the crossed-out word &quot;Sentinels&quot; as well as the Greater Than Games logo in the bottom right, which has only four pips instead of the usual five. Both of these facts were identified by&nbsp;<strong>tindiyen</strong>&nbsp;during various parts of the hunt, but their significance would not be identified until the final puzzle.\n\n&nbsp;\n\n<u><strong>Cover 1: Genocidal</strong></u>\n\nThere were a couple of places where the ARG could be said to &quot;start.&quot;&nbsp;<strong>Kratos13&nbsp;</strong>accidentally stumbled on the &quot;Intervene&quot; clue, for example (which led to a tweeted callout, &quot;Too quick, K&quot;). But the true trigger was the creation of the &quot;Whose Tim Cosing?&quot; thread, which became the central solving area of the ARG.\n\nPosted by&nbsp;<strong>CornCakes</strong>&nbsp;(later revealed to be Peter C. Hayward, the designer of the ARG), the message simply pointed out that &quot;Tim Cosing&quot; appears in the Rulebook&#39;s acknowledgements section nine times.\n\n<strong>Matchstickman&nbsp;</strong>immediately saw the anagram of &quot;It&#39;s Coming.&quot;\n\n(<strong><em>Note</em></strong>: There seem to have been two intended methods to solve this puzzle.\n\nOne was to see that the colors of the villain biographies in the end of the Rulebook were ordered according to the Rulebook Code to produce 716453289.&nbsp;<strong>jorcbrow</strong>&nbsp;got this during the lead up to&nbsp;<strong>oddallies</strong>.\n\nThe other method was to count the number of names that appeared between each &quot;Tim Cosing&quot; in the playtester acknowledgements, again getting 716453289.&nbsp;<strong>much0gust0</strong>&nbsp;figured this one out during the &quot;Break time&quot; before&nbsp;<strong>bethegate</strong>.\n\nEither way, if you assign the letters in TIMCOSING values 123456789, rearranging them according to the order 716453289 produces ITSCOMING. Unfortunately it wasn&#39;t a very complicated anagram, so this clue was jumped over for a while.)\n\n<strong>Comrade Bubbles&nbsp;</strong>found Tim Cosing&#39;s Twitter account, and&nbsp;<strong>Powerhound_2000</strong>&nbsp;posted that the QR code Tim had for a usericon leads to:\n\n<a href=\"https://greaterthangames.com/replaceme\">https://greaterthangames.com/replaceme</a>\n\nWith some prodding from Tim, including his tweet &quot;Replace me,&quot;&nbsp;<strong>dpt</strong>&nbsp;took that &quot;replaceme&quot; part literally, and found:\n\n<a href=\"https://greaterthangames.com/itscoming\">https://greaterthangames.com/itscoming</a>\n\nWith the help from another couple of clues from Tim (including &quot;Flavor text,&quot; which was an error--ten letters),&nbsp;<strong>grysqrl&nbsp;</strong>found that the text on&nbsp;<strong>itscoming</strong>&nbsp;was made up of selections of the flavor text on nine specific cards:\n\nGruum<br />Endless Possibilities<br />Negative Energy Field<br />Oblivion<br />Chronological Hotspot<br />Indomitable Force<br />Demoralization<br />Apocalypse<br />Lambent Reaper\n\n(This got &quot;Well done, G&quot; from Tim.)\n\n<strong>arenson9&nbsp;</strong>also noticed that the source code for&nbsp;<strong>itscoming</strong>&nbsp;had the code 124185 embedded in it. This would be held in reserve for a while.\n\n<strong>Chogb001</strong>&nbsp;was the one who saw that reading the first letter of each card led to&nbsp;<strong>the first cover</strong>:\n\n<a href=\"https://greaterthangames.com/genocidal\">https://greaterthangames.com/genocidal</a>\n\n&nbsp;\n\n<u><strong>Cover 2: Harbinger</strong></u>\n\nThe fact that all (except the error) of Tim Cosing&#39;s tweets had been nine characters, not to mention all of the code phrases, primed the players to seek out nine-character strings. The most obvious was the one below the barcode on&nbsp;<strong>genocidal</strong>, which&nbsp;<strong>DocBrown</strong>&nbsp;found:\n\n<a href=\"https://greaterthangames.com/982354617\">https://greaterthangames.com/982354617</a>\n\nThis is, of course, also the reverse of the 716453289 code that had not actually been discovered yet.\n\nThe&nbsp;<strong>982354617&nbsp;</strong>comic&#39;s references to &quot;three times as many,&quot; the Mega-Computer, and Megalopolis were enough to hook in the already-discovered, but not yet understood, &quot;Intervene&quot; clue, as&nbsp;<strong>Donner</strong>&nbsp;specifically called out. See here for a picture:\n\n<a href=\"https://greaterthangames.com/forum/topic/intervene-8225\">https://greaterthangames.com/forum/topic/intervene-8225</a>\n\nFollowing The Wraith&#39;s directive to &quot;look at the screens...start at the top, left to right,&quot; the players, including&nbsp;<strong>VisforYoshi</strong>,&nbsp;<strong>Chogb011</strong>, and&nbsp;<strong>Julia</strong>, identified the nine cards on the Mega-Computer screens as, in order:\n\nScion of Blight<br />&quot;Diplomatic&quot; Envoy<br />Beginning of the End<br />Eye on the Prize<br />Retcon<br />Between the Lines<br />Don&#39;t Dismiss Anything<br />Fixed Point<br />Reveal the Flaws\n\nWith Bunker&#39;s &quot;Flavor Chips&quot; in hand, the players knew to focus on the flavor text of each card, as&nbsp;<strong>Julia</strong>&nbsp;outlined. <strong>m</strong><strong>ackcrockett</strong>&nbsp;applied the Rulebook Code, taking the encoded letter of each flavor text. If a given screen was pink, for example, they took the third letter of the flavor text of the card shown on that screen.\n\nThe nine letters thus identified spelled&nbsp;<em>formofthe</em>, and&nbsp;<strong>mackcrockett&nbsp;</strong>recognized that this was the start of a specific Progeny card:&nbsp;<em>Form of the Harbinger</em>, and thus identified&nbsp;<strong>the second cover:</strong>\n\n<a href=\"https://greaterthangames.com/harbinger\">https://greaterthangames.com/harbinger</a>\n\n(<strong><em>Note</em></strong>: It does not appear that the coloring of the letters of the word &quot;Intervene&quot; in&nbsp;<strong>intervene</strong>&nbsp;was ever fully understood. Hayward&#39;s comment is that &quot;it&#39;s not an additional key - it was actually intended to point towards the eventual solution of that image.&quot;\n\nThough&nbsp;<strong>DerpTheBugbear</strong>&nbsp;would, during &quot;Break Time,&quot; identify the 716453289 Rulebook-biography clue and suggest it was connected to &quot;Intervene,&quot; the actual &quot;Intervene&quot; solution is, to Your Humble Chronicler&#39;s knowledge, not established.\n\n<strong>UPDATE: April 19, 2017, 2000 EDT</strong>: As you see below, this post spurred a new interest in solving the unsolved puzzles. In the process it was discovered that the &quot;Intervene&quot; puzzle was in fact&nbsp;<em>unsolvable</em>! The intent of the puzzle had been to demonstrate the relationship between Rulebook Code color and position of a character in a given flavor text, but due to a juxtaposition in notes, the flavor text Hayward believed was on Mega-Computer was in fact on Micro-Targeting Computer.\n\nReading that flavor text, the solution is obvious:&nbsp;I is brown meaning 6, N is gray (7), T is green (9), E is yellow (1), R is orange (4), V is blue (2)...and those numbers are the positions of those letters in that flavor text.\n\nYr. Hmbl. believes that had the flavor text been matched properly, this puzzle <em>might</em> have been solved at this time and shown as further proof that&nbsp;<strong>m</strong><strong>ackcrockett</strong><strong>&nbsp;</strong> was on the right track. At the same time, it&#39;s possible that because the connection between flavor text and Rulebook Code position was clear, it might have been skipped over. If so, it almost certainly would have been discovered during &quot;Break Time.&quot;) \n\n&nbsp;\n\n<u><strong>Cover 3: Odd Allies</strong></u>\n\nWhile there were a few false starts here,&nbsp;<strong>VisforYoshi</strong>&nbsp;noticed that the first paragraph of&nbsp;<strong>harbinger</strong>&nbsp;had an acrostic reading &quot;BASE EIGHT.&quot; Tim&#39;s tweet, &quot;Checkouts,&quot; focused the players&quot; attention on the barcode of&nbsp;<strong>harbinger</strong>, which&nbsp;<strong>DerpTheBugbear</strong>&nbsp;scanned to reveal 71645328--the code, less the 9.&nbsp;<strong>DerpTheBugbear</strong>&nbsp;and&nbsp;<strong>bretttwo</strong>&nbsp;both saw that converting 71645328 to base eight produced:\n\n<a href=\"https://greaterthangames.com/421234220\">https://greaterthangames.com/421234220</a>\n\nThe reference in&nbsp;<strong>421234220&nbsp;</strong>to &quot;the now-classic Freedom Four Annual #1&quot; led players to check&nbsp;<a href=\"https://greaterthangames.com/downloads\">https://greaterthangames.com/downloads</a>, where&nbsp;<strong>Comrade Bubbles</strong>&nbsp;first clearly identified that there are nine different versions of that comic linked (the &quot;[PDF icon] Freedom 4 #1.pdf&quot; link is actually nine different links). Each link had the form: https://greaterthangames.com/system/files/downloads/X.pdf (where X is a number from 1-9).\n\nThe only differences were the time on the clock when Tachyon&#39;s alarm goes off on page 16, and a letter on the drill behind Legacy on page 18, identified by&nbsp;<strong>bretttwo</strong>&nbsp;and&nbsp;<strong>dpt</strong>&nbsp;respectively:\n\n1: 8:53, R<br />2: 7:08, A<br />3: 9:20, I<br />4: 6:00, L<br />5: 5:40, F<br />6: 7:08, E<br />7: 6:10, N<br />8: 6:00, C<br />9: 7:52, E\n\n<strong>bretttwo&nbsp;</strong>saw that the nine clock positions, if imagined in their analog positions and read as semaphore, would produce the sequence OLSDALEDI (though there were also several other possibilities based on the edge cases of certain semaphore readings). When the players saw what a Rail Fence Cipher (the nine letters) is,&nbsp;<strong>bretttwo&nbsp;</strong>applied the one to the other:\n\n [font=courier] O &nbsp; &nbsp; &nbsp; L &nbsp; &nbsp; &nbsp; S [/font] <br /> [font=courier] &nbsp; D &nbsp; A &nbsp; L &nbsp; E [/font] <br />[font=courier] &nbsp; &nbsp;D &nbsp; &nbsp; &nbsp; I [/font] \n\nThis led to&nbsp;<strong>the third cover</strong>:\n\n<a href=\"https://greaterthangames.com/oddallies\">https://greaterthangames.com/oddallies</a>\n\n&nbsp;\n\n<u><strong>Cover 4: Omnitron-U</strong></u>\n\nThe players started with the same clues that had gotten them to&nbsp;<strong>oddallies</strong>:&nbsp;<strong>jagarciao</strong>&nbsp;saw that the acrostic in the first paragraph was LEETSPEAK, and&nbsp;<strong>DerpTheBugbear</strong>&nbsp;scanned the barcode to 804RD64M3--which is, of course, leet-speak for &quot;Boardgame.&quot;\n\n(Incidentally, it was at this time that&nbsp;<strong>racingstripe</strong>, somehow, stumbled upon the Morse code video that was intended for a later clue, despite the video being unlisted on YouTube. Tim Cosing&#39;s tweet, &quot;Tut tut tut,&quot; likely referred to this sequence break, and it would have repercussions later.)\n\nNext,&nbsp;<strong>tyches_coin</strong>&nbsp;noticed that 126951, just above the&nbsp;<strong>oddallies</strong>&nbsp;barcode, is the BoardGameGeek code for the Ambuscade mini-expansion:\n\n<a href=\"https://boardgamegeek.com/boardgameexpansion/126951/sentinels-multiverse-ambuscade-villain-character\">https://boardgamegeek.com/boardgameexpansion/126951/sentinels-multiverse-ambuscade-villain-character</a>\n\n<strong>BlueHairedMeerkat</strong>&nbsp;noticed that the other part of that, 633000, is &quot;Geek&quot;: 6 for G, 3 for E, and the 000 means multiplied by 1,000, which is K (as in, &quot;kilo&quot;). Thus, the whole barcode area becomes &quot;Boardgame Geek 126951.&quot;\n\n<strong>DerpTheBugbear</strong>&nbsp;then found that the 124185 clue from&nbsp;<strong>itscoming</strong>&nbsp;also meant BGG, as that&#39;s the code for Unity&#39;s mini-expansion:\n\n<a href=\"https://boardgamegeek.com/boardgame/124185/sentinels-multiverse-unity-hero-character\">https://boardgamegeek.com/boardgame/124185/sentinels-multiverse-unity-hero-character</a>\n\n(At this time,&nbsp;<strong>BlueHairedMeerkat</strong>&nbsp;and&nbsp;<strong>dpt&nbsp;</strong>posted their summaries of the events of the ARG to date.)\n\n<strong>Sameer</strong>&nbsp;next found that the&nbsp;<strong>421234220</strong>&nbsp;page also had a number in a comment, namely 134393--which is the BGG page for the Eternal Haka promo card:\n\n<a href=\"https://boardgamegeek.com/boardgame/134393/sentinels-multiverse-eternal-haka-promo-card\">https://boardgamegeek.com/boardgame/134393/sentinels-multiverse-eternal-haka-promo-card</a>\n\n<b>TheCraftyCurler</b> poined out that the last letters of the first paragraph of the <strong>oddallies</strong> story spelled out HEALTHPTS,&nbsp;and&nbsp;<strong>kitmehsu</strong>&nbsp;noticed that the&nbsp;<strong>replaceme</strong>&nbsp;page also had a number, One Two Six Nine Four Nine (126949), leading to Cosmic Omnitron&#39;s BGG page:\n\n<a href=\"https://boardgamegeek.com/boardgame/126949/sentinels-multiverse-cosmic-omnitron-villain-promo\">https://boardgamegeek.com/boardgame/126949/sentinels-multiverse-cosmic-omnitron-villain-promo</a>\n\nThat was enough for&nbsp;<strong>BlueHairedMeerkat</strong>&nbsp;and&nbsp;<strong>kitmehsu</strong>&nbsp;to see that the HP of the four identified characters, listed in the order of their pages, produced:\n\n<a href=\"https://greaterthangames.com/100263350\">https://greaterthangames.com/100263350</a>\n\n<strong>Comrade Bubbles</strong>&nbsp;first noticed that the hovertext on that image is &quot;uif,&quot; and&nbsp;<strong>Chromium_Man</strong>&nbsp;found that Augustus&#39;s Code is a simple substitution cipher, where each letter is advanced by one--thus, &quot;uif&quot; is &quot;the,&quot; as&nbsp;<strong>BlueHairedMeerkat</strong>&nbsp;saw.\n\nWhile&nbsp;<strong>MrLeRobot</strong>&nbsp;identified the relationship between the bots and their HP, it took another Tim tweet, &quot;Bookstore,&quot; for&nbsp;<strong>Chromium_Man</strong>&nbsp;to suggest that the thirteen symbols-to-numbers should be looked as as an ISBN, which he identified as T.S. Eliot&#39;s &quot;The Wasteland.&quot;&nbsp;<strong>Chromium_Man</strong>&nbsp;and&nbsp;<strong>BlueHairedMeerkat</strong>&nbsp;simultaneously applied an Augustus cipher to the nine-letter &quot;Wasteland&quot; and found:\n\n<a href=\"https://greaterthangames.com/xbtufmboe\">https://greaterthangames.com/xbtufmboe</a>\n\n<strong>wyken09</strong>&nbsp;broke the animated gif into 25 images, and&nbsp;<strong>grysqrl</strong>&nbsp;realized there was one image from a card for each letter of the alphabet except for U. The large number of Omnitron images led&nbsp;<strong>grysqrl</strong>&nbsp;to make the leap to&nbsp;<strong>the fourth cover</strong>:\n\n<a href=\"https://greaterthangames.com/omnitronu\">https://greaterthangames.com/omnitronu</a>\n\n(The true method of solving this puzzle was supposed to be to realize that the animation wasn&#39;t consistent. Some images appeared for a short time, some for a longer time. If one mapped the shorts and longs as Morse code, one would produce the code OMNITRWN, due to an error in design--as Tim would later tweet, &quot;W&#39;s almost U.&quot; This solution was first suggested by&nbsp;<strong>wyken09</strong>&nbsp;and positively identified by&nbsp;<strong>ludkubo</strong>&nbsp;during the &quot;Break Time&quot; before&nbsp;<strong>bethegate</strong>.)\n\n&nbsp;\n\n<u><strong>Cover 5: Time v. Time</strong></u>\n\nUnfortunately for Tim and the GTG crew, the barcode on&nbsp;<strong>omnitronu</strong>&nbsp;turned out to be a royal pain, leading to Tim tweeting &quot;Scan again&quot; and &quot;Reloading.&quot; Finally, though,&nbsp;<strong>Julia</strong>&nbsp;managed to scan the barcode and identify it as &quot;bitly1QupVMD,&quot; or, as&nbsp;<strong>Comrade Bubbles</strong>&nbsp;saw,\n\n<a href=\"https://bitly.com/1QupVMD\">https://bitly.com/1QupVMD</a>\n\nThat redirects to&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hexadecimal\">https://en.wikipedia.org/wiki/Hexadecimal</a>, the Wikipedia page for Hexidecimal notation. Hardly a shock that as&nbsp;<strong>Powerhound_2000</strong>&nbsp;first stated (though&nbsp;<strong>dedilus</strong>&nbsp;was close), the text below the&nbsp;<strong>omnitronu</strong>&nbsp;barcode, &quot;232D2D2D,&quot; was readable as hex.\n\n<strong>Foote</strong>&nbsp;did the conversion and identified the code as #---, which&nbsp;<strong>Trajector</strong>,&nbsp;<strong>kitmehsu</strong>, and&nbsp;<strong>Foote</strong>&nbsp;speculated pointed to the importance of issue numbers.&nbsp;<strong>Trajector</strong>&nbsp;identified three cards in the text of&nbsp;<strong>omnitronu</strong>: Prophetic Vision, Take Down, and Twisting Back Alleys.\n\n<strong>RySmith6</strong>&nbsp;realized this referred to the issue numbers of those three cards. 201 (Prophetic Vision), 128 (Take Down), and 190 (Twisting Back Alleys doesn&#39;t have a number itself, but it refers to the Wraith&#39;s Combat Stance card, which does). This led to:\n\n<a href=\"https://greaterthangames.com/201128190\">https://greaterthangames.com/201128190</a>\n\nBesides confirming the dreams of the all the Wrunker &#39;shippers (&quot;Braithes&quot;?), the page, as&nbsp;<strong>Von_Raptor</strong>&nbsp;and&nbsp;<strong>cokeandsympathy</strong>&nbsp;were the first to recognize, has the three bolded phrases all bearing the initials &quot;MP,&quot; and therefore &quot;mp3&quot; was relevant. It was&nbsp;<strong>grysqrl</strong>&nbsp;who linked to:\n\n<a href=\"https://greaterthangames.com/201128190.mp3\">https://greaterthangames.com/201128190.mp3</a>\n\n<strong>Comrade Bubbles</strong>&nbsp;was the first to say that the audio sounded altered, but a&nbsp;<em>lot</em>&nbsp;of other people, including&nbsp;<strong>Trajector</strong>, <strong>Von_Raptor</strong>, and&nbsp;<strong>MrFettucine</strong>, simultaneously recognized that the audio was clips from the Sentinels video game--not just reversed, but also sped up or slowed down. Naturally, it was (correctly) assumed that there were nine distinct sounds.\n\n<strong>grysqrl</strong>&nbsp;first specifically identified the second and fifth sounds as files related to the Insula Primalis and Iron Legacy decks,&nbsp;<strong>Pgrammens</strong>&nbsp;added Tomb of Anubis as 1 and Megalopolis as 3.&nbsp;<strong>Malchodit</strong>&nbsp;heard that 5 was Voss&#39;s theme, 8 was the Matriarch&#39;s theme,&nbsp;<strong>Trajector</strong>&nbsp;named 4 as Enclave of the Endless, and&nbsp;<strong>grysqrl</strong>&nbsp;made the obvious leap (to the point that nobody has ever seemed to bother figuring out the last two sound clips) from TIMEV_IM_ to the&nbsp;<strong>fifth cover</strong>:\n\n<a href=\"https://greaterthangames.com/timevtime\">https://greaterthangames.com/timevtime</a>\n\n&nbsp;\n\n<u><strong>Cover 6: Ft. Adamant</strong></u>\n\n<strong>Julia</strong>&nbsp;decoded the barcode on&nbsp;<strong>timevtime</strong>&nbsp;into &quot;urihgmrmv,&quot; but that and &quot;urmzomrmv&quot; needed another Tim tweet (987654321).&nbsp;<strong>TheSoundOfTrees</strong>&nbsp;is the one who first suggested a reversed-alphabet code (an &quot;Atbash cipher,&quot; as it&#39;s called), and that gave&nbsp;<strong>brettwo</strong>&nbsp;the idea to Atbash decode the phrases into &quot;firstnine&quot; and &quot;finalnine.&quot;\n\nThe first and last nine words of the&nbsp;<strong>timevtime</strong>&nbsp;story are &quot;Five years...in seconds.&quot;&nbsp;<strong>bobbertoriley</strong>&nbsp;wouldn&#39;t be fooled again, and used a converter to calculate 157,784,760 seconds:\n\n<a href=\"https://greaterthangames.com/157784760\">https://greaterthangames.com/157784760</a>\n\n<strong>Foote</strong>&nbsp;was the first to look at the source code for&nbsp;<strong>157784760</strong>, and also the first to paste the odd text in comments in HTML into Notepad and mess with the word wrapping to find the ASCII art. (<strong>Foote</strong>&nbsp;did it by trial and error, but Hayward would later say the correct line length was 128 characters, as indicated by &quot;Character introduced in #128.&quot;) This led to&nbsp;<strong>the sixth cover</strong>:\n\n<a href=\"https://greaterthangames.com/ftadamant\">https://greaterthangames.com/ftadamant</a>\n\n&nbsp;\n\n<u><strong>Cover 7: Be the Gate</strong></u>\n\nWhen the Morse code video first identified during&nbsp;<strong>omnitronu</strong>&nbsp;went live at this point, there was an attempt to leapfrog over finding how to get there; that said, it didn&#39;t take long for&nbsp;<strong>carnilius</strong>&nbsp;to note that the word TIMELINES at the bottom contained the following seven color codes in font tags, in this order: 063118 061079 121107 100106 122110 101085 052056\n\n<strong>GeekInsight</strong>&nbsp;lived up to their name, and noted that the first letter of each sentence on the first paragraph of the&nbsp;<strong>ftadamant</strong>&nbsp;story spelled out ASCII CODE. Converting the color codes in TIMELINES from ASCII to text yielded &quot;?v=OykdjzneU48&quot;\n\n(<strong>brettwo</strong>&nbsp;noticed at the same time that the barcode for&nbsp;<strong>ftadamant</strong>&nbsp;yielded fifteen numbers, which weren&#39;t listed, but I suspect were 099 111 108 111 114--the ASCII codes for the letters &quot;color.&quot; As in, &quot;look at the colors of the TIMELINES word.&quot;)\n\nAt any rate,&nbsp;<em>quelle surprise</em>, that&#39;s the YouTube ID for the Morse video:\n\n<a href=\"https://www.youtube.com/watch?v=OykdjzneU48\">https://www.youtube.com/watch?v=OykdjzneU48</a>\n\n(The title of that video is Morse code for M O R S E C O D E. Of course it is.)\n\nThis is where the evil happened. The Morse code is recursive: the code is a series of the words DOT, DASH, and SLASH, which can themselves be decoded in Morse to another layer of DOT/DASH/SLASH, which finally decode to nine digits:\n\n<a href=\"https://greaterthangames.com/918273645\">https://greaterthangames.com/918273645</a>\n\nThis was yet another recursively-encoded Morse sequence, which eventually decoded to PLAYLISTS.\n\nTim Cosing&#39;s YouTube account has one playlist, which contains one video:\n\n<a href=\"https://www.youtube.com/watch?v=gVzwYSRnBsQ&amp;list=PLKYaqQYhlmcHvG2cBAU485BdwBxdzPXqE\">https://www.youtube.com/watch?v=gVzwYSRnBsQ&amp;list=PLKYaqQYhlmcHvG2cBAU485BdwBxdzPXqE</a>\n\nThe creator of that video, &quot;Tim Nunpesh,&quot; is an anagram of &quot;Punishment,&quot; the title of the video is &quot;A GOOD TIME,&quot; and the 81 minutes (81 being 9 squared) of runtime were much more the former than the latter. It&#39;s commonly believed this was a combination of the cost paid for sequence breaking, and also an attempt to stall so GTG could finish the rest of the comics for the ARG.\n\nIt worked...for about an hour and a half. When&nbsp;<strong>elgioioso.alex89</strong>&nbsp;posted a large chunk of the Morse code that decoded through repeated encodings to 1397,&nbsp;<strong>Brettonia</strong>&nbsp;appears to have brute-forced the rest (knowing that digits wouldn&#39;t repeat) and found:\n\n<a href=\"https://greaterthangames.com/139724865\">https://greaterthangames.com/139724865</a>\n\nThis is around when Tim tweeted &quot;Break time,&quot; so while it&#39;s not there anymore, the forum reactions indicate that&nbsp;<strong>139724865</strong>&nbsp;originally said &quot;Be patient.&quot;\n\nWhile the break was ongoing, Tim pointed out some of the still-unsolved clues, including:\n\nIntervene? (As in, &quot;what does Intervene in&nbsp;<strong>intervene&nbsp;</strong>mean?&quot; Unsolvable, see above.)<br />Sound file? (&quot;What are the two other sounds in the&nbsp;<strong>201128190</strong>&nbsp;file?&quot; Still unsolved.)<br />Animation? (Refers to the&nbsp;<strong>xbtufmboe</strong>&nbsp;clue and the Morse code in the gif animation.<strong>&nbsp;ludkubo</strong>&nbsp;pieced it together to get OMNITRWN.)<br />Name order? (Refers to the repetition of &quot;Tim Cosing&quot; in the playtester acknowledgements and their decoding into&nbsp;<strong>716453289</strong>&nbsp;that leads to&nbsp;<strong>itscoming</strong>.&nbsp;<strong>much0gust0</strong>&nbsp;got it.)\n\nAfter about twelve hours, Tim tweeted &quot;Who&#39;s Ready?&quot; and&nbsp;<strong>139724865</strong>&nbsp;went live.\n\n<strong>DerpTheBugbear</strong>&nbsp;saw the bonus puzzle in the source code, which we&#39;ll come back to.\n\nBut first, the riddle.\n\nThe first two lines say that the &quot;middle&quot; of the riddle is three letters, the &quot;final&quot; part is four, and by implication, the &quot;first&quot; part is two--and more importantly, the first part the riddle will discuss is the &quot;middle.&quot;\n<blockquote>\nTake nothing, then square it, then square it once more, and still you&#39;ll have nothing--why add him to four?\n</blockquote>\nAbsolute Zero: 0 squared is still 0, as is 0 squared squared, and the question was, why add Absolute Zero to the Freedom Four (to get the Freedom Five)?\n<blockquote>\nThe start of his power is simple, concise. (And common--in fact, I have said it now twice.) Let&#39;s move past the middle (Ah - there&#39;s number four)\n</blockquote>\nBase AZ&#39;s power is Thermodynamics, which starts with &quot;the.&quot; So the middle three letters of the riddle are &quot;the.&quot;&nbsp;<strong>WalkingTarget</strong>&nbsp;got that first.\n<blockquote>\n[A]nd hope that no obstacle blocks off the door. The daughter, the old man, the mishap, and Faye\n</blockquote>\nThis is the Dark Watch (Expatriette, Mr. Fixer, Setback, and NightMist) with Setback likely as the &quot;obstacle.&quot;\n<blockquote>\nThe power to make bad things go away. Be careful to take it from only the end\n</blockquote>\n&quot;The power to make bad things go away&quot; is Setback&#39;s card Mitigate--the last four letters of which are, of course, &quot;gate.&quot;&nbsp;<strong>SunsetShadow</strong>&nbsp;was the first to say that.\n<blockquote>\nAnd the start? It opened this riddle, my friend\n</blockquote>\nThe first two letters of the riddle are &quot;Be.&quot; And&nbsp;<strong>MrFettucine</strong>&nbsp;figured that out, and combined it with the rest, to get&nbsp;<strong>the seventh cover</strong>:\n\n<a href=\"https://greaterthangames.com/bethegate\">https://greaterthangames.com/bethegate</a>\n\n&nbsp;\n\nNow, about that bonus riddle:\n<blockquote>\nAh; looking for more? I like it, new foe.<br />For nothing comes easy, or how would we grow?\n</blockquote>\nFrippery, it seems.\n<blockquote>\nMy first is in Flay, but never in normal.\n</blockquote>\nA lot of people were distracted by the F in Flay, but apparently--and I don&#39;t believe this was ever fully explained when&nbsp;<strong>grysqrl</strong>&nbsp;got it--this refers to the J in &quot;Major.&quot;\n<blockquote>\nMy second&#39;s in you (if we&#39;re being informal).\n</blockquote>\nThe Ps from Legacy&#39;s name, Paul Parsons--never explicitly made because&nbsp;<strong>grysqrl</strong>&nbsp;made a leap of logic.\n<blockquote>\nMy third is in most words - three times in your base.\n</blockquote>\nE, which appears three times in Freedom Tower, as identified by&nbsp;<strong>FreedomGunfire</strong>.\n<blockquote>\nAnd my last&#39;s in the past and a place out in space.\n</blockquote>\n<strong>grysqrl</strong>&nbsp;identified these as Silver Gulch, 1883, and Wagner Mars Base, and figured the G was the common element.\n<blockquote>\nThe timeline is broken; before you go mend it<br />Take the fruits of your labor and simply append it.\n</blockquote>\nAs in, add &quot;jpeg&quot; to the end of &quot;bethegate&quot; to get this bonus image:\n\n<a href=\"https://greaterthangames.com/bethegate.jpeg\">https://greaterthangames.com/bethegate.jpeg</a>\n\n&nbsp;\n\n<u><strong>Cover 8: End of Days</strong></u>\n\nWith a lot of people distracted by the bonus riddle, the &quot;D E F G&quot; at the start of&nbsp;<strong>bethegate</strong>&nbsp;(it was just the Harpy looking through an encyclopedia, flavor only), the source code (Google Analytics code can look like clue code) and the like, the players needed Tim&#39;s &quot;Square dot&quot; tweet to focus back on the main thread.\n\n<strong>Julia</strong>&nbsp;had already ID&#39;d the barcode of&nbsp;<strong>bethegate</strong>&nbsp;as &quot;causation,&quot; as well as the &quot;space&quot; and &quot;time&quot; below same.\n\n<strong>jorcbrow&nbsp;</strong>saw that some of the periods in the&nbsp;<strong>bethegate</strong>&nbsp;text were square, but it was&nbsp;<strong>VikenXetred</strong>&nbsp;who identified the nine words&nbsp;<em>following</em>&nbsp;the square dots:\n\nD<br />I&#39;d<br />HIC<br />Cool<br />Gotta<br />Sounds<br />Cherubs<br />Unstable<br />Toxicants\n\n<strong>nyrens</strong>&nbsp;and&nbsp;<strong>VikenXetred</strong>&nbsp;together looked at the final letter of each word to get DDCLASSES (<strong>nyrens</strong>&nbsp;got most of it but missed the D at the start, figuring it for a &quot;.&quot;), which got everybody thinking D&amp;D classes until Tim tweeted &quot;Librarian.&quot; (The fact that the lengths of the keywords went in order from 1-9 was not lost on anyone either.)\n\n<strong>Chromium_Man</strong>&nbsp;was the first to say the words &quot;Dewey Decimal,&quot; barely beating out&nbsp;<strong>SirGropes</strong>,&nbsp;<strong>Atras</strong>,&nbsp;<strong>cnranger</strong>, and&nbsp;<strong>Tindiyen</strong>, but&nbsp;<strong>FierstArter</strong>&nbsp;is the one who combined the Dewey Decimal classes for Causation (122), Space (114), and Time (115) into:\n\n<a href=\"https://greaterthangames.com/122114115\">https://greaterthangames.com/122114115</a>\n\n<strong>DerpTheBugbear</strong>&nbsp;noticed that the filename of the image was T26252731.jpg, and&nbsp;<strong>nyrens</strong>&nbsp;was the first to key to the word &quot;Sidekick&quot; in the comic to conclude the next step was to set up a scenario in the Sentinels of the Mutiverse Sidekick app, based on the scene in the comic.\n\nThe one who spelled it out most completely first was&nbsp;<strong>carnilius</strong>: set up a game with Super Scientific Tachyon, Termi-Nation Unity, Termi-Nation Bunker, Termi-Nation Absolute Zero, and Redeemer Fanatic versus Progeny in Freedom Tower, basically recreating the comic page in the app.&nbsp;<strong>broccoli&nbsp;</strong>correctly argued to put the heroes in the order suggested by the filename (T for Tachyon, the other four were listed by HP: Tachyon, Bunker, AZ, Unity, Fanatic), but it took Tim&#39;s next tweet, &quot;Take Notes,&quot; for&nbsp;<strong>Donner</strong>&nbsp;to check the notes fields in the app for each character card.\n\nAll of the notes fields had...well, I admit, I&#39;m not 100% sure. Either names of elements, atomic numbers of elements, or symbols for elements. Everybody agreed they were elements and that&#39;s how they were treated--correctly, as it turns out. (<strong>Samwise</strong>&nbsp;stated that Tachyon, at least, had atomic numbers, &quot;60839169,&quot; so I suspect all of them had numeric strings, but everybody agreed they were atomic numbers so fast that they were all treated as elements from that point out.)\n\nProgeny had A Sodium Roentgenium Americium, which if you change to the atomic symbols, was &quot;A Na Rg Am,&quot; which was quickly decoded into &quot;ANAGRAM.&quot;<br />Tachyon had Neodymiun, Oxygen, Yttrium, Sulfur, Fluorine, or Nd O Y S F.<br />Bunker had Boron, Nitrogen, Boron, Gallium, Arsenic, Gallium, Thallium, Bismuth.<br />AZ had Selenium, Bromine, Xenon, Radon, Ununseptium, Livermorium, Selenium.<br />Unity had Chromium, Manganese, Ruthenium, Osmium, Bohrium, Seaborgium, Chromium.<br />Fanatic had Meitnerium, Rhodium, Nickel, Silver, Roentenium, Gold, Iridium.\n\nIt was&nbsp;<strong>dprcooke</strong>&nbsp;who pointed out that if you connected the non-Tachyon heroes&#39; elements like a connect-the-dots puzzle, you got E, D, D, and A, but&nbsp;<strong>grysqrl</strong>&nbsp;is the one who anagrammed EDDA with the NOYSF from Tachyon&#39;s capitalized letters to get&nbsp;<strong>the eighth cover</strong>:\n\n<a href=\"https://greaterthangames.com/endofdays\">https://greaterthangames.com/endofdays</a>\n\n&nbsp;\n\n<u><strong>Cover 9: Scion&#39;s Aid</strong></u>\n\nUp front, this point marks the first time the words &quot;sign language&quot; were used--<strong>broccoli</strong>&nbsp;saw the L that Ra was making. The significance didn&#39;t hit until later.\n\nWith &quot;First&quot; and the barcode decoding to &quot;Last,&quot;&nbsp;<strong>RySmith6</strong>&nbsp;saw &quot;VIDEO GAME&quot; as the first and last words of the text on&nbsp;<strong>endofdays</strong> as Tim tweeted &quot;Arrow time,&quot; and then &quot;new colors.&quot;&nbsp;<strong>Matchstickman</strong>&nbsp;pointed out that the &quot;Community&quot; ad on the video game&#39;s splash screen has the &quot;Intervene&quot; image again, this time with, ahem, new colors.&nbsp;<strong>broccoli</strong>&nbsp;saw that &quot;arrow&quot; referred to the arrows that scroll through the various splash screens in the video game just as&nbsp;<strong>grysqrl</strong>,&nbsp;<strong>blitz20688</strong>, and&nbsp;<strong>arenson9&nbsp;</strong>did the decoding:\n\n<a href=\"https://greaterthangames.com/112233445\">https://greaterthangames.com/112233445</a>\n\nIt was&nbsp;<strong>grysqrl</strong>&nbsp;again who first spoke of a plus in the lower lefnt, and&nbsp;<strong>sirkevington</strong>&nbsp;saw the 3 in the lower right, but&nbsp;<strong>dedlius</strong>&nbsp;put them together, adding 3 to each number:\n\n<a href=\"https://greaterthangames.com/445566778\">https://greaterthangames.com/445566778</a>\n\n<strong>TeslaRoyale</strong>&nbsp;first said &quot;these look like names,&quot; and identified Tachyon, Ra, and the Visionary&#39;s aliases to fit the second set of white, second set of yellow, and solitary set of brown X&#39;s.&nbsp;<strong>WalkingTarget</strong>&nbsp;added Legacy&#39;s alias for the first set of white,&nbsp;<strong>dedlius</strong>&nbsp;added the Wraith&#39;s ,&nbsp;<strong>WalkingTarget</strong>&nbsp;got the six-letter name as Fanatic&#39;s, and&nbsp;<strong>grysqrl</strong>&nbsp;listed all nine of the core heroes&#39; aliases (except Tempest--see below) with their color corresponding to a Rulebook Code number:\n\nPaul Parsons (white, 8), Tyler Vance (green, 9), Maia Mongomery (pink, 3), Ryan Frost (grey, 7), Helena (red, 5)<br />Vanessa Long (brown, 6), Aata Wakarewarewa (orange, 4), Dr. Meredith Stinson (white, 8), Dr. Blake Washington (yellow, 1)\n\nHowever, it was&nbsp;<strong>RySmith6</strong>, narrowly beating out&nbsp;<strong>wyken09</strong>&nbsp;and&nbsp;<strong>catwhowalksbyhimself</strong>, who took the letter in that number&#39;s position (&quot;Paul Parsons&quot; in white, meaning 8, means to take the eighth letter, in that case S, and so on) to get&nbsp;<strong>the ninth cover</strong>:\n\n<a href=\"https://greaterthangames.com/scionsaid\">https://greaterthangames.com/scionsaid</a>\n\n(Hayward would reveal in the wrap-up that there was a missing bit in that puzzle: in the source code, there should have been, and later was, a tenth name, corresponding to M&#39;kk Dall&#39;ton, in blue--so, character 2, the apostrophe. And of course, it occurred to make the words clearly &quot;Scion&#39;s Aid,&quot; not &quot;Scion Said.&quot;)\n\n&nbsp;\n\n<u><strong>Conclusion: Oblivaeon</strong></u>\n\n<strong>&nbsp;</strong>According to Tim, it was &quot;Not the end,&quot; so&nbsp;<strong>HeroComplex</strong>&nbsp;saw that all of the sentences in the first paragraph of&nbsp;<strong>scionsaid</strong>&nbsp;were either four or five letters, giving:\n\n<a href=\"https://greaterthangames.com/444455555\">https://greaterthangames.com/444455555</a>\n\nAs&nbsp;<strong>TheSoundOfTrees</strong>&nbsp;first pointed out, with the title of the page being page/cover, and the two images being first/last...the community was starting to go a little apophenic, seeking meaning everywhere.\n\nTim&#39;s tweet &quot;Hands Talk&quot; paid off the sign language, and&nbsp;<strong>HeroComplex</strong>&nbsp;identified that there&#39;s one ASL letter on each page. They spell, of course, SENTINELS.\n\n<strong>MrLeRobot</strong>&nbsp;suggested that the use of shadows and non-shadowed objects in the first/last images on&nbsp;<strong>444455555</strong>&nbsp;might have something to do with the shadowed and un-shadowed letters in the Rulebook. But&nbsp;<strong>grysqrl</strong>&nbsp;took it home, teasing everybody with &quot;I got it, writing it up now,&quot; before...well, I&#39;ll let&nbsp;<strong>grysqrl</strong>&nbsp;repeat the message that got the &quot;Nice work, G&quot; tweet:\n\n[font=courier]<u>9x9 grid of covers, plus the letters from the sign language (that grid helped, Estelindis!)[/font]</u>\n\n [font=courier] GENOCIDAL S [/font] <br /> [font=courier] HARBINGER E [/font] <br /> [font=courier] ODDALLIES N [/font] <br /> [font=courier] OMNITRONU T [/font] <br /> [font=courier] TIMEVTIME I [/font] <br /> [font=courier] FTADAMANT N [/font] <br /> [font=courier] BETHEGATE E [/font] <br /> [font=courier] ENDOFDAYS L [/font] <br /> [font=courier] SCIONSAID S [/font] \n\n [font=courier] <u>Is the letter shadowed on the first page?</u> [/font] \n\n [font=courier] GENOCIDAL S N [/font] <br /> [font=courier] HARBINGER E N [/font] <br /> [font=courier] ODDALLIES N Y [/font] <br /> [font=courier] OMNITRONU T N [/font] <br /> [font=courier] TIMEVTIME I Y [/font] <br /> [font=courier] FTADAMANT N Y [/font] <br /> [font=courier] BETHEGATE E Y [/font] <br /> [font=courier] ENDOFDAYS L N [/font] <br /> [font=courier] SCIONSAID S Y [/font] \n\n [font=courier] <u>If shadowed, use the 5th letter; if not, use the 4th letter (from pips on the dice of first page/back cover)</u> [/font] \n\n [font=courier] GEN<u>O</u>CIDAL S N [/font] <br /> [font=courier] HAR<u>B</u>INGER E N [/font] <br /> [font=courier] ODDA<u>L</u>LIES N Y [/font] <br /> [font=courier] OMN<u>I</u>TRONU T N [/font] <br /> [font=courier] TIME<u>V</u>TIME I Y [/font] <br /> [font=courier] FTAD<u>A</u>MANT N Y [/font] <br /> [font=courier] BETH<u>E</u>GATE E Y [/font] <br /> [font=courier] END<u>O</u>FDAYS L N [/font] <br /> [font=courier] SCIO<u>N</u>SAID S Y[/font]\n\n<a href=\"http://greaterthangames.com/oblivaeon\">http://greaterthangames.com/oblivaeon</a>\n\n&nbsp;\n\n<strong><u>Postscript: Unsolved Puzzles</u></strong>\n\nBy Hayward&#39;s estimation, at the end there were only four points that nobody spotted--two of which got explained in that wrapup post, the 128-character&nbsp;<strong>ftadamant</strong>&nbsp;reference and the&nbsp;<strong>scionsaid</strong>&nbsp;M&#39;kk Dall&#39;ton name element.\n\nThe remaining puzzles, then, are the meaning of the colored letters in the word &quot;Intervene&quot; in&nbsp;<strong>intervene</strong>, and the last two sound clips in&nbsp;<strong>201128190</strong>.\n\nAnd that&#39;s that!\n\n&nbsp;\n\nHope you enjoyed reading this. I certainly enjoyed writing it all up.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 15578,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2017-04-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196596,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2017-04-18T19:40:14.000Z",
+      "cooked": "<p>Welcome to the forums and thanks for the summary. &nbsp; To be honest I didn't realize there were still unsolved pieces. &nbsp;</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:07.710Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 7,
+      "readers_count": 6,
+      "score": 1.4,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>Welcome to the forums and thanks for the summary. &nbsp; To be honest I didn&#39;t realize there were still unsolved pieces. &nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196597,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2017-04-18T19:48:00.000Z",
+      "cooked": "<p>If it hasn't been done, can a Mod please sticky this thread somewhere?</p><p>@scifantasy: Welcome. I like you already. Stay awhile.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:07.786Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 7,
+      "readers_count": 6,
+      "score": 1.4,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>If it hasn&#39;t been done, can a Mod please sticky this thread somewhere?</p><p>@scifantasy: Welcome. I like you already. Stay awhile.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196598,
+      "name": "Christopher",
+      "username": "Christopher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+      "created_at": "2017-04-18T19:49:41.000Z",
+      "cooked": "<p>Bravo! I love this write-up!</p><p>Well done following all of that. Whew!</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:07.854Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 6,
+      "readers_count": 5,
+      "score": 1.2,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "Christopher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Bravo! I love this write-up!</p><p>Well done following all of that. Whew!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": true,
+      "staff": true,
+      "user_id": 5,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196599,
+      "name": "Dandolo",
+      "username": "Dandolo",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dandolo/{size}/1845_2.png",
+      "created_at": "2017-04-18T19:56:44.000Z",
+      "cooked": "<p>Welcome to the forums! Nice to see another New Yorker, I agree by the way, the subway is an excellent place to play Sentinels!</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:07.916Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 6,
+      "readers_count": 5,
+      "score": 1.2,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "Dandolo",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Welcome to the forums! Nice to see another New Yorker, I agree by the way, the subway is an excellent place to play Sentinels!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 13339,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-11-28",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196600,
+      "name": "TimCosing",
+      "username": "TimCosing",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/97f17d/{size}.png",
+      "created_at": "2017-04-18T19:59:48.000Z",
+      "cooked": "<p>This rocks.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:07.979Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 6,
+      "readers_count": 5,
+      "score": 1.2,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "TimCosing",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>This rocks.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 13494,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-12-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196601,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2017-04-18T20:15:51.000Z",
+      "cooked": "<p>Great write-up, thanks and welcome.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.101Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 4,
+      "readers_count": 3,
+      "score": 0.8,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Great write-up, thanks and welcome.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196602,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2017-04-18T20:17:13.000Z",
+      "cooked": "<p>Wow</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.169Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Wow</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196603,
+      "name": "PeterCHayward",
+      "username": "PeterCHayward",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/peterchayward/{size}/2098_2.png",
+      "created_at": "2017-04-18T20:31:09.000Z",
+      "cooked": "<p>I still want to write up the blog post! Running my own game company has, indeed, sucked up more time than I expected it to.</p><p>I'll try to work out an INTERVENE hint that doesn't give the whole thing away. Stay tuned! ;)</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.233Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "PeterCHayward",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I still want to write up the blog post! Running my own game company has, indeed, sucked up more time than I expected it to.</p><p>I'll try to work out an INTERVENE hint that doesn't give the whole thing away. Stay tuned! ;)</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12388,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-04-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196604,
+      "name": "grysqrl",
+      "username": "grysqrl",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/grysqrl/{size}/1909_2.png",
+      "created_at": "2017-04-18T20:46:32.000Z",
+      "cooked": "<p>Welcome to the forums! Nice writeup - it was lots of fun to read through it all again.</p><p>There was one point missing from the Odd Allies page - the right-most letters of each line in the first paragraph spell out \"health pts\", which is what clued to using the HP of each encoded character. I'm not sure if that ever got mentioned in the thread, but that might be helpful for someone trying to follow along.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.300Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "grysqrl",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Welcome to the forums! Nice writeup - it was lots of fun to read through it all again.</p><p>There was one point missing from the Odd Allies page - the right-most letters of each line in the first paragraph spell out &quot;health pts&quot;, which is what clued to using the HP of each encoded character. I&#39;m not sure if that ever got mentioned in the thread, but that might be helpful for someone trying to follow along.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 5390,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196605,
+      "name": "scifantasy",
+      "username": "scifantasy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/scifantasy/{size}/2070_2.png",
+      "created_at": "2017-04-18T20:53:08.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"grysqrl\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/grysqrl/48/1909_2.png\" class=\"avatar\"> grysqrl:</div>\n<blockquote>\n<p>There was one point missing from the Odd Allies page - the right-most letters of each line in the first paragraph spell out \"health pts\", which is what clued to using the HP of each encoded character. I'm not sure if that ever got mentioned in the thread, but that might be helpful for someone trying to follow along.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Oh hey! And yeah, it looks like <span class=\"bbcode-b\">TheCraftyCurler</span> spotted the acrostic, which probably helped <span class=\"bbcode-b\">BlueHairedMeerkat</span> get to that page. I'll add that in.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.366Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "scifantasy",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"grysqrl\"]\n There was one point missing from the Odd Allies page - the right-most letters of each line in the first paragraph spell out &quot;health pts&quot;, which is what clued to using the HP of each encoded character. I&#39;m not sure if that ever got mentioned in the thread, but that might be helpful for someone trying to follow along.  \n[/quote]\n \n\n&nbsp;\n\n Oh hey! And yeah, it looks like [b]TheCraftyCurler[/b] spotted the acrostic, which probably helped [b]BlueHairedMeerkat[/b] get to that page. I&#39;ll add that in. \n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 15578,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2017-04-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196606,
+      "name": "jffdougan",
+      "username": "jffdougan",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/jffdougan/{size}/1882_2.png",
+      "created_at": "2017-04-18T20:55:56.000Z",
+      "cooked": "<p>Will that appear here, or on your own blog someplace?</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.430Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "jffdougan",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Will that appear here, or on your own blog someplace?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5845,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196607,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2017-04-18T21:13:53.000Z",
+      "cooked": "<p>The wiki would be a great place for this! Plus we can see the edits, there (while we might not, here)...</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.498Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The wiki would be a great place for this! Plus we can see the edits, there (while we might not, here)...</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196608,
+      "name": "lynkfox",
+      "username": "lynkfox",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+      "created_at": "2017-04-18T22:15:20.000Z",
+      "cooked": "<p>I've been meaning to get a new wiki update of this. Its a big project, so... I hope you don't mind, I stole yours (gave you full credit!) to put on the wiki as a MUCH better write up than what we had before.&nbsp;</p><p>&nbsp;</p><p>still need some people to transcript the stories onto the wiki, but that can wait.</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.576Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "lynkfox",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I&#39;ve been meaning to get a new wiki update of this. Its a big project, so... I hope you don&#39;t mind, I stole yours (gave you full credit!) to put on the wiki as a MUCH better write up than what we had before.&nbsp;</p><p>&nbsp;</p><p>still need some people to transcript the stories onto the wiki, but that can wait.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1390,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196609,
+      "name": "scifantasy",
+      "username": "scifantasy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/scifantasy/{size}/2070_2.png",
+      "created_at": "2017-04-18T22:26:05.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"lynkfox\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/lynkfox/48/1997_2.png\" class=\"avatar\"> lynkfox:</div>\n<blockquote>\n<p>I've been meaning to get a new wiki update of this. Its a big project, so… I hope you don't mind, I stole yours (gave you full credit!) to put on the wiki as a MUCH better write up than what we had before.&nbsp;&nbsp;still need some people to transcript the stories onto the wiki, but that can wait.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>And here I was going to reply \"I'm all for putting this on the wiki, but I'm not interested in reformatting it.\" So–thanks!</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.655Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "scifantasy",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"lynkfox\"]\n\nI&#39;ve been meaning to get a new wiki update of this. Its a big project, so... I hope you don&#39;t mind, I stole yours (gave you full credit!) to put on the wiki as a MUCH better write up than what we had before.&nbsp;&nbsp;still need some people to transcript the stories onto the wiki, but that can wait.\n\n[/quote]\n\n&nbsp;\n\nAnd here I was going to reply &quot;I&#39;m all for putting this on the wiki, but I&#39;m not interested in reformatting it.&quot; So--thanks!\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 15578,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2017-04-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196610,
+      "name": "speedyolrac",
+      "username": "speedyolrac",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/speedyolrac/{size}/1918_2.png",
+      "created_at": "2017-04-19T02:05:16.000Z",
+      "cooked": "<p>And LynkFox, can we make this easier to access&nbsp;on the Wiki. they only way I found to get there is just searching for it.</p><p>&nbsp;</p><p>And welcome Scifantasy. I too have been playing more on the app than in person. It has been harder to get people over to play my favorite game every single week.</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.728Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 3,
+      "readers_count": 2,
+      "score": 0.6,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "speedyolrac",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>And LynkFox, can we make this easier to access&nbsp;on the Wiki. they only way I found to get there is just searching for it.</p><p>&nbsp;</p><p>And welcome Scifantasy. I too have been playing more on the app than in person. It has been harder to get people over to play my favorite game every single week.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 9665,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196611,
+      "name": "dpt",
+      "username": "dpt",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+      "created_at": "2017-04-19T03:27:50.000Z",
+      "cooked": "<p>Wow! Great to be reminded, and to see just how many people contributed. It was hard to force myself to sleep.</p>\n<p>As you can probably guess from the URL, that’s not a great place to leave the rulebook scan. Can it be uploaded all a file upload the wiki?</p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.808Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 4,
+      "readers_count": 3,
+      "score": 0.8,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "dpt",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Wow! Great to be reminded, and to see just how many people contributed. It was hard to force myself to sleep.\r\n\r\nAs you can probably guess from the URL, that's not a great place to leave the rulebook scan. Can it be uploaded all a file upload the wiki?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5124,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196612,
+      "name": "lynkfox",
+      "username": "lynkfox",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+      "created_at": "2017-04-19T09:50:31.000Z",
+      "cooked": "<p>Yes, it can.  I’ll work on that tonight</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.879Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 4,
+      "readers_count": 3,
+      "score": 0.8,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "lynkfox",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Yes, it can.  I'll work on that tonight",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1390,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196613,
+      "name": "Lord Flash Fire",
+      "username": "Lord_Flash_Fire",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/lord_flash_fire/{size}/2071_2.png",
+      "created_at": "2017-04-19T10:59:49.000Z",
+      "cooked": "<p>Hey, is anyone else interested in figuring out the T and E from the timeVtime mp3? I'm going to work on the E once I listen to the Letters Page because I'm no good with scrambled voices</p><p>&nbsp;</p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:08.939Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 4,
+      "readers_count": 3,
+      "score": 0.8,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "Lord Flash Fire",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Hey, is anyone else interested in figuring out the T and E from the timeVtime mp3? I&#39;m going to work on the E once I listen to the Letters Page because I&#39;m no good with scrambled voices</p><p>&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 14007,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2016-02-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 196614,
+      "name": "scifantasy",
+      "username": "scifantasy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/scifantasy/{size}/2070_2.png",
+      "created_at": "2017-04-19T13:28:26.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Lord Flash Fire\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Lord Flash Fire:</div>\n<blockquote>\n<p>Hey, is anyone else interested in figuring out the T and E from the timeVtime mp3? I'm going to work on the E once I listen to the Letters Page because I'm no good with scrambled voices&nbsp;</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Well, to make things easier, here's the link to the reversed mp3 that&nbsp;<strong>wyken09</strong> posted.&nbsp;<a href=\"https://www.dropbox.com/s/mmlo8qx4gedkm08/201128190reverse.mp4?dl=0\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Dropbox</a></p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:24:09.020Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 5,
+      "readers_count": 4,
+      "score": 1.0,
+      "yours": false,
+      "topic_id": 16563,
+      "topic_slug": "oblivaerg-a-recap-of-the-reality",
+      "display_username": "scifantasy",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://www.dropbox.com/s/mmlo8qx4gedkm08/201128190reverse.mp4?dl=0",
+          "internal": false,
+          "reflection": false,
+          "title": "Dropbox - 201128190reverse.mp4 - Simplify your life",
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Lord Flash Fire\"]\n\nHey, is anyone else interested in figuring out the T and E from the timeVtime mp3? I&#39;m going to work on the E once I listen to the Letters Page because I&#39;m no good with scrambled voices&nbsp;\n\n[/quote]\n\n&nbsp;\n\nWell, to make things easier, here&#39;s the link to the reversed mp3 that&nbsp;<strong>wyken09</strong> posted.&nbsp;https://www.dropbox.com/s/mmlo8qx4gedkm08/201128190reverse.mp4?dl=0\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 15578,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2017-04-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

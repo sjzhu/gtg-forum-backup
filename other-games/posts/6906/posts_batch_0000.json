@@ -1,0 +1,1183 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 49554,
+        "name": "Katsue",
+        "username": "Katsue",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/katsue/{size}/2012_2.png",
+        "created_at": "2012-12-16T00:27:02.000Z",
+        "cooked": "<p>In principle it could be a queue...</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.264Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "Katsue",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 647,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-08-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49555,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2012-12-16T01:36:57.000Z",
+        "cooked": "<p>Well, yes, when I say some sort of stack, I really mean some sort of ordered collection.&nbsp; Whether it is more like a stack, queue, or some hybrid, they are all on some level the same basic idea.</p><p>When multiple cards react to one event, they go in play order like a queue.&nbsp; But when you have a chain reaction, (i.e. the reaction to one event is itself a trigger for another reaction), the reactions to the latest event are resolved before resuming the queue of reactions for the older event, like a stack.</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.348Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49556,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2012-12-16T01:49:00.000Z",
+        "cooked": "<p>I actually created a topic in order to create a consistant ordering of events, weither an action occurs before (as seen in reacting to cards played) or after (as seen in powers used).&nbsp; Really, in all cases other than dealing damage (as it's two actions, of which one causes the other), I see three potential reaction points to an action.&nbsp; Two before the action occurs, and one after.&nbsp; I would say (unless it doesn't fit well with how some of the cards are worded), that, any reaction to if an action would occur is first, and may cancel the action (and any other reactions to that action), any reaction to an action occuring (using either present or present progressive) resolves prior to the action resolving, and any reaction to an action that occured (using either past, present perfect, or past perfect) resolves after the action resolves.</p><p>Also, as an exceptional case, any card which reacts to itself being played or entering play&nbsp;would have said reaction resolve prior to any other card which reacts to&nbsp; cards being played or entering play (but not before any cards which react to cards that would enter play or would be played).</p><p>(While \"is played\" is technically present perfect, I would still consider it to be present, as said action is always stated as \"to be played,\" thus making the present perfect version being \"has been played.\")</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.420Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49558,
+        "name": "TheSoundOfTrees",
+        "username": "TheSoundOfTrees",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/da6949/{size}.png",
+        "created_at": "2012-12-16T05:04:00.000Z",
+        "cooked": "<p>I am trying to follow the reasonings in this thread, can what follows help in clarifying the issue ?</p><p>The ruling for powers seems grounded on the idea that \"using a power\" and \"resolving a power\" are not two different \"steps\" in time : a power takes effect as soon as used, so reactions can only happen after it is resolved.</p><p>With cards, we are not sure if \"card is played\", \"card enters play\", \"card is resolved\" are simultaneous, or discrete steps.</p><ul>\n<li>if \"resolution\" and \"played\" are simultaneous, reactions to \"play\" always occur after the card's resolution</li>\n<li>if resolution happens <em>after</em> the card is played/enter play, then reactions ot entering play are resolved before the card text is resolved</li>\n</ul><p>I am used to playing with the \"different time\" interpretation, but the more I think about it, the more it seems reasonable to think that the text on a card exists and is applied as soon as the card enters play/is played.</p><p>This may be the \"solution\"... The Informant already exists - when you play a card that destroys it, the card is resolved as soon as played, and he can't react to it because the card destroys it first. But a Fowl card <em>entering play</em> has its text in effect as soon as it enters play, and so plays the top card even if it is immediately destroyed...</p><p>\"text on a card exists and is resolved as soon as a card enters play\" seems to resolve the issue \"as intended\".</p><p><em>Edit : \"text on a card is applicable as soon as the card is played\" seems a better way to say it</em>.</p><p>What do you think ?</p><p>&nbsp;</p><p>*note : if resolution is seen as immediate as soon as the card is played, then \"card order\" is bypassed in this case, and the card is resolved first, even if played \"last\".</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.507Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "TheSoundOfTrees",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 911,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-09-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49559,
+        "name": "Koga",
+        "username": "Koga",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/koga/{size}/2058_2.png",
+        "created_at": "2012-12-16T08:28:58.000Z",
+        "cooked": "<p>Could think of it this way. The Informant reacts to a card being played, Hairtrigger reflexes reacts to a target entering play. For the card to become a target, it has to have it's text active, otherwise it has no HP. So The Informant activates as a result of the action of playing a card, but Hairtrigger Reflexes needs a target to enter play to activate.</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.592Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "Koga",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 101,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49561,
+        "name": "awp832",
+        "username": "awp832",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/a9a28c/{size}.png",
+        "created_at": "2012-12-16T08:44:34.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"TheSoundOfTrees\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/t/da6949/48.png\" class=\"avatar\"> TheSoundOfTrees:</div>\n<blockquote>\n<p><em>&nbsp;\"text on a card is applicable as soon as the card is played\" seems a better way to say it</em>.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Well, lets face it; &nbsp;if its a choice between informant dies a little easier or matriarch utterly neutered against 1 card from Expatriette, the informant dies a little easier option is much more palateable. &nbsp; So on that level I like your interpretation. &nbsp; &nbsp;The only thing that gives me pause is that I don't feel it's very intuitive. &nbsp; &nbsp; It seems to me like Informant gets to play her card, even if she dies. &nbsp; &nbsp;I mean it seems a simple case of logic here.</p>\n<p>&nbsp;</p>\n<ol>\n<li>\n<p>&nbsp;Informant plays top card of villain deck when a hero card is played.</p>\n</li>\n<li>\n<p>&nbsp;I play Elbow Smash to kill the informant</p>\n</li>\n<li>\n<p>Did I play a hero card? &nbsp;Yes&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;therefore informant plays card.</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p>By what the cards say, that seems pretty clear in my eyes. &nbsp;Here's something else that made me lolz though, &nbsp;maybe at my own logic gaps more than anything else. &nbsp; &nbsp;Suppose you don't kill the informant with your card play, &nbsp;suppose you play Takedown instead. &nbsp; &nbsp;Going through <span class=\"hashtag-raw\">#1-4</span> on the list again… 1? &nbsp;check. &nbsp; 2. &nbsp; Play Takedown to stop deck from playing cards 3. yes. 4: &nbsp;??? &nbsp; &nbsp;No idea. &nbsp; I'm inclined to say no. &nbsp; I'm inclined to say; &nbsp;no playing cards means no playing cards. &nbsp; However in principle, this is EXACTLY the same as situation 1 with Elbow smash. &nbsp;I know I shouldn't treat it any differently, and for some reason, I really want to say these are two different situations… but I can't come up with any good reason for that claim.</p>\n<p>&nbsp;</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.664Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "awp832",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 31,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49562,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2012-12-16T09:00:48.000Z",
+        "cooked": "<p>I think Takedown definately stops the Informant, unless someone is arguing that there is a gap between Takedown being played and Takedown being in play when the villain card&nbsp;gets played.&nbsp; While Takedown is in play no villain cards are played for any reason.</p><p>The only reason that there is&nbsp;confusion about one-shots that kill the Informant (or for that matter Mistbound which blocks villain cards) is because they aren't providing an effect while in play, they are doing something at the time that they are played.&nbsp; (or&nbsp;I should say&nbsp;near the time that they are played, as that is the whole issue).</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.745Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49563,
+        "name": "Katsue",
+        "username": "Katsue",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/katsue/{size}/2012_2.png",
+        "created_at": "2012-12-16T13:14:26.000Z",
+        "cooked": "<p>Let's imagine for the moment that the Informant causes Villain cards to be played first. I'm playing Expatriette, and I play an RPG Launcher from hand because I want to destroy, say, some annoying Paparazzi. The Chairman plays Rook City is Mine, and that brings a Hostage Situation into play? Can I destroy the Hostage Situation instead?</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.813Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "Katsue",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 647,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-08-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49565,
+        "name": "flamethrower49",
+        "username": "flamethrower49",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/f/838e76/{size}.png",
+        "created_at": "2012-12-16T18:48:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Katsue\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/katsue/48/2012_2.png\" class=\"avatar\"> Katsue:</div>\n<blockquote>\n<p>Let's imagine for the moment that the Informant causes Villain cards to be played first. I'm playing Expatriette, and I play an RPG Launcher from hand because I want to destroy, say, some annoying Paparazzi. The Chairman plays Rook City is Mine, and that brings a Hostage Situation into play? Can I destroy the Hostage Situation instead?</p>\n</blockquote>\n</aside>\n<p>What a fun question. &nbsp;I have no idea what I would do there. &nbsp;</p>\n<p>Edit: I mean, the Informant&nbsp;<em>must</em>&nbsp;cause Villain cards to be played first. &nbsp;Otherwise, it would be dead and would not be able to affect the game. &nbsp;Do you have to choose targets before playing a card? &nbsp;</p>",
+        "post_number": 29,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.880Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "flamethrower49",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 317,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49567,
+        "name": "pwatson1974",
+        "username": "pwatson1974",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pwatson1974/{size}/1925_2.png",
+        "created_at": "2012-12-16T18:53:25.000Z",
+        "cooked": "<p>I would say yes you can. You paly the card, nothing on the card exists yet. This triggers the Inforamnt who brigns out Rook City is Mine. this brings out Hostage situation. You now resolve the text on the card which menas you now pick your target.</p><p>I tend to play the other way round with text on the card resolving before text off the cards. But I'm not sure I'm 100% following that rule.</p>",
+        "post_number": 30,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:56.950Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "pwatson1974",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 293,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-02-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49568,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2012-12-16T21:00:33.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dypaca\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dypaca/48/2079_2.png\" class=\"avatar\"> dypaca:</div>\n<blockquote>\n<p>… I agree that it would be nice if playing a oneshot and using a power were as similar as possible …</p>\n</blockquote>\n</aside>\n<p>I see the appeal of playing a oneshot being resolved similarly to playing a power: Consistency is easier to understand. Unfortunately, doing so leads to an inconsistency about resolving cards generally – non-oneshots are resolved in card order, but oneshots are resolved immediately.</p>\n<p>So, let me offer a way to think about one-shots that helps me, at least, to see it as consistent that one-shots and powers are handled differently.</p>\n<p>A power comes from a card that is already in play. It thus takes two expenditures of resources to use a power: First the card is put into play, then the power is invoked.</p>\n<p>A one-shot only requires one expenditure of resources: The card is put into play and then its text is immediately invoked.&nbsp;</p>\n<p>So, while it may seem 'slow' or 'disjoint' for the play of a one-shot to be broken into two steps (first putting the card into play and then resolving the text of the card), it's actually fast compared to ongoing and equipment (one resource expenditure versus two), and it would be unfair for one-shots to also pre-empt all of the cards that are already in play by being resolved before them.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+        "post_number": 31,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:57.030Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49569,
+        "name": "ketigid",
+        "username": "ketigid",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/k/9fc29f/{size}.png",
+        "created_at": "2012-12-27T01:18:59.000Z",
+        "cooked": "<p>Just so this doesn't fall into Oblivion, will Christopher post an official clarification, say in the Official Rulings sub-forum, when a decision is made?</p>",
+        "post_number": 32,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:57.105Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "ketigid",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 227,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-10-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49570,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2012-12-28T03:29:25.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"ketigid\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/k/9fc29f/48.png\" class=\"avatar\"> ketigid:</div>\n<blockquote>\n<p>Just so this doesn't fall into Oblivion, will Christopher post an official clarification, say in the Official Rulings sub-forum, when a decision is made?</p>\n</blockquote>\n</aside>\n<p>Would you mind clarifying what you are looking for a decision on? It's a longish thread and I can think of a couple different things you might mean.</p>\n<p>If the Informant is in play, whenever a hero card is played, the top card of the villain deck is played before the hero card is resolved. My apologies for not having a reference at hand, but I'm sure of it.</p>\n<p>The ruling on the interaction between Hairtrigger Reflexes and Fowl cards is a contradiction of this and Christopher hasn't shared yet what he wants to do about that. When he does, I expect we'll all see it.</p>",
+        "post_number": 33,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:57.186Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 49572,
+        "name": "ketigid",
+        "username": "ketigid",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/k/9fc29f/{size}.png",
+        "created_at": "2012-12-28T06:11:20.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"arenson9\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png\" class=\"avatar\"> arenson9:</div>\n<blockquote>\n<p>The ruling on the interaction between Hairtrigger Reflexes and Fowl cards is a contradiction of this and Christopher hasn't shared yet what he wants to do about that. When he does, I expect we'll all see it.</p>\n</blockquote>\n</aside>\n<p>Oh, I was refering to this.</p>",
+        "post_number": 34,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:22:57.274Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6906,
+        "topic_slug": "killing-the-informant",
+        "display_username": "ketigid",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 227,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-10-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 6906
+}

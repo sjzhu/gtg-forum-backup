@@ -1,0 +1,1734 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 10195,
+        "name": "Azqa",
+        "username": "Azqa",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/azqa/{size}/2015_2.png",
+        "created_at": "2014-04-22T23:18:22.000Z",
+        "cooked": "<p>I want to make sure that I'm using the card correctly, so I figured I'd ask the community for some clarification. &nbsp;Relevant portion of the card text:</p><blockquote><p>The first time a hero target would be dealt damage each turn, redirect that damage to Setback, or remove X tokens from your unlucky pool to redirect that damage to a target, where X = the amount of damage.</p></blockquote><p><span>In a situation where something is dealing damage to multiple hero targets, I assumed that the first time each of them was dealt damage in a turn, that instance of damage would interact with WT&amp;P, like how if multiple targets do damage in a turn to Ra with Flame Barrier up, the first damage they do to him that turn causes an interaction with Flame Barrier for each of them. &nbsp;A post from February indicates that WT&amp;P is only triggered once per turn. &nbsp;Looking at the collected errata put together by Spiff,&nbsp;</span></p><blockquote><div>There are some cards which are triggered the first time a target does <span>something each turn. for example, Wraith’s “Combat Stance” will trigger \"the&nbsp;</span><span>first time Wraith is dealt damage by a target each turn”. Similar wording is on R</span><span>a’s “Flame Barrier” and on Miss Information’s “Revealed Saboteur” side. Does&nbsp;</span><span>this mean that the effect will only trigger the first time any target does xyz&nbsp;</span><span>per turn, or that it will trigger the first time any particular target does xyz&nbsp;</span><span>per turn? </span></div><div>&nbsp;</div><div>&nbsp;</div><div>It will trigger the first time any particular target does xyz per turn. So, if&nbsp;<span>two different targets damage Wraith in a turn, “combat stance” will trigger&nbsp;</span><span>both times, but if a single target damages her twice in the same turn, “Combat S</span><span>tance” will only trigger once.&nbsp;</span></div><div>https://greaterthangames.com/forum/topic/combat-stance-0</div></blockquote><p>Why would WT&amp;P be handled differently?</p><p>&nbsp;</p><p>Interaction between WT&amp;P and another of Setback's own cards - High Risk Behavior. &nbsp;Relevant card text:</p><blockquote><p>Increase damage to and by Setback to and by villain targets by 1 for every 3 tokens in your unlucky pool.</p></blockquote><p>If 1 damage from a villain target is coming in to one of Setback's teammates for the first time this turn (and let's say it's the only instance of damage occurring at all this turn), and Setback has 9 tokens in his unlucky pool, that's 1 damage to the teammate but it'd be 4 damage to Setback, unless he redirects it (let's say back to a villain target) which would make it 1 damage to that target. &nbsp;I assumed that he'd remove 1 token from his unlucky pool to redirect the damage, since damage modifications specific to a target don't get carried through redirection. &nbsp;Is that correct, or would he have to remove 4 tokens from his unlucky pool to redirect what would be 4 damage to himself, but would end up causing the villain target to do only 1 damage to itself?</p><p>&nbsp;</p><p>Lastly, interaction between WT&amp;P and a teammate's card - something like the Naturalist's Indomitable Force, or the Scholar's Alchemical Redirection. &nbsp;Relevant card text:</p><blockquote><p>Whenever damage would be dealt to a hero target, redirect it to the Naturalist.</p></blockquote><blockquote><p>Redirect all damage that would be dealt to hero targets to the Scholar.</p></blockquote><p>First off, I'm assuming that those two cards, despite different phrasing, function identically. &nbsp;If I'm wrong, please correct me. &nbsp;For the interaction with WT&amp;P, since these redirections are not part of the \"At start/end of turn...\" set of effects, the \"simultaneous\" redirections can be handled in order of player preference per posted errata as far as I understand.</p><p>So, let's say Parse, Setback, and the Naturalist are squaring off against Baron Blade, whose Powered Remote Turret is doing 2 damage to each hero target. &nbsp;If they all get redirected to the Naturalist first, would that mean that only the first redirect to the Naturalist would be able to be redirected to Setback (or a target of his choice if he removes 2 tokens from his pool)? &nbsp;If they all get redirected to Setback first and he removes 6 tokens from his pool, would he redirect them all to Baron Blade (assuming WT&amp;P is allowed to interact with them all, per the first question) and thus have no damage going to a hero target so nothing for the Naturalist to have redirected to himself? &nbsp;Or if they all get redirected to Setback first, would they then all be redirected to the Naturalist without Setback having a chance to remove tokens from his pool to redirect them elsewhere even though he could have enough to do that? &nbsp;That last one doesn't seem remotely likely; I'm just including it as a possibility to make sure I'm missing as little as possible.</p><p>Thanks!</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:41:10.698Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 20.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "Azqa",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I want to make sure that I&#39;m using the card correctly, so I figured I&#39;d ask the community for some clarification. &nbsp;Relevant portion of the card text:</p><blockquote><p>The first time a hero target would be dealt damage each turn, redirect that damage to Setback, or remove X tokens from your unlucky pool to redirect that damage to a target, where X = the amount of damage.</p></blockquote><p><span style=\"font-size: 13px;\">In a situation where something is dealing damage to multiple hero targets, I assumed that the first time each of them was dealt damage in a turn, that instance of damage would interact with WT&amp;P, like how if multiple targets do damage in a turn to Ra with Flame Barrier up, the first damage they do to him that turn causes an interaction with Flame Barrier for each of them. &nbsp;A post from February indicates that WT&amp;P is only triggered once per turn. &nbsp;Looking at the collected errata put together by Spiff,&nbsp;</span></p><blockquote><div>There are some cards which are triggered the first time a target does <span style=\"font-size: 13px;\">something each turn. for example, Wraith&rsquo;s &ldquo;Combat Stance&rdquo; will trigger &quot;the&nbsp;</span><span style=\"font-size: 13px;\">first time Wraith is dealt damage by a target each turn&rdquo;. Similar wording is on R</span><span style=\"font-size: 13px;\">a&rsquo;s &ldquo;Flame Barrier&rdquo; and on Miss Information&rsquo;s &ldquo;Revealed Saboteur&rdquo; side. Does&nbsp;</span><span style=\"font-size: 13px;\">this mean that the effect will only trigger the first time any target does xyz&nbsp;</span><span style=\"font-size: 13px;\">per turn, or that it will trigger the first time any particular target does xyz&nbsp;</span><span style=\"font-size: 13px;\">per turn? </span></div><div>&nbsp;</div><div>&nbsp;</div><div>It will trigger the first time any particular target does xyz per turn. So, if&nbsp;<span style=\"font-size: 13px;\">two different targets damage Wraith in a turn, &ldquo;combat stance&rdquo; will trigger&nbsp;</span><span style=\"font-size: 13px;\">both times, but if a single target damages her twice in the same turn, &ldquo;Combat S</span><span style=\"font-size: 13px;\">tance&rdquo; will only trigger once.&nbsp;</span></div><div>https://greaterthangames.com/forum/topic/combat-stance-0</div></blockquote><p>Why would WT&amp;P be handled differently?</p><p>&nbsp;</p><p>Interaction between WT&amp;P and another of Setback&#39;s own cards - High Risk Behavior. &nbsp;Relevant card text:</p><blockquote><p>Increase damage to and by Setback to and by villain targets by 1 for every 3 tokens in your unlucky pool.</p></blockquote><p>If 1 damage from a villain target is coming in to one of Setback&#39;s teammates for the first time this turn (and let&#39;s say it&#39;s the only instance of damage occurring at all this turn), and Setback has 9 tokens in his unlucky pool, that&#39;s 1 damage to the teammate but it&#39;d be 4 damage to Setback, unless he redirects it (let&#39;s say back to a villain target) which would make it 1 damage to that target. &nbsp;I assumed that he&#39;d remove 1 token from his unlucky pool to redirect the damage, since damage modifications specific to a target don&#39;t get carried through redirection. &nbsp;Is that correct, or would he have to remove 4 tokens from his unlucky pool to redirect what would be 4 damage to himself, but would end up causing the villain target to do only 1 damage to itself?</p><p>&nbsp;</p><p>Lastly, interaction between WT&amp;P and a teammate&#39;s card - something like the Naturalist&#39;s Indomitable Force, or the Scholar&#39;s Alchemical Redirection. &nbsp;Relevant card text:</p><blockquote><p>Whenever damage would be dealt to a hero target, redirect it to the Naturalist.</p></blockquote><blockquote><p>Redirect all damage that would be dealt to hero targets to the Scholar.</p></blockquote><p>First off, I&#39;m assuming that those two cards, despite different phrasing, function identically. &nbsp;If I&#39;m wrong, please correct me. &nbsp;For the interaction with WT&amp;P, since these redirections are not part of the &quot;At start/end of turn...&quot; set of effects, the &quot;simultaneous&quot; redirections can be handled in order of player preference per posted errata as far as I understand.</p><p>So, let&#39;s say Parse, Setback, and the Naturalist are squaring off against Baron Blade, whose Powered Remote Turret is doing 2 damage to each hero target. &nbsp;If they all get redirected to the Naturalist first, would that mean that only the first redirect to the Naturalist would be able to be redirected to Setback (or a target of his choice if he removes 2 tokens from his pool)? &nbsp;If they all get redirected to Setback first and he removes 6 tokens from his pool, would he redirect them all to Baron Blade (assuming WT&amp;P is allowed to interact with them all, per the first question) and thus have no damage going to a hero target so nothing for the Naturalist to have redirected to himself? &nbsp;Or if they all get redirected to Setback first, would they then all be redirected to the Naturalist without Setback having a chance to remove tokens from his pool to redirect them elsewhere even though he could have enough to do that? &nbsp;That last one doesn&#39;t seem remotely likely; I&#39;m just including it as a possibility to make sure I&#39;m missing as little as possible.</p><p>Thanks!</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8008,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-03-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99891,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2014-04-22T23:36:21.000Z",
+        "cooked": "<p>It's different because of the wording. Flame Barrier counters the first damage Ra takes from each target. It's not the first time Ra is dealt damage; it's the first time that target is the source of the damage. WTAP is just \"the first time a hero is dealt damage.\" It's not referring to a specific source or target; grammatically speaking, it cannot be interpreted the same way as Flame Barrier.</p><p>&nbsp;</p><p>For the second question: I'd say you only spend 1 token. It would only be increased if Setback were the target, but since it's \"spend tokens OR redirect it to Setback,\" it never touches Setback until he chooses not to spend a token. However, if Setback were the original target, it would be increased, so he'd spend 4 to redirect it, at which point it would become 1.</p><p>&nbsp;</p><p>For the third; you've almost got it, except that you can only spend tokens once a turn; either way, you couldn't spend 6 tokens to redirect all of them, and Setback would only ever take 2 damage, if any. So all of it would get redirected to the Naturalist, and the FIRST one would be redirected to Setback or a target of your choice, but both effects must happen. So for the first one you can either choose to</p><p>a.) Send it to Setback (or target of your choice) and then to the Naturalist, or</p><p>b.) Send it to the Naturalist and then Setback or a target of your choice.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:00.748Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>It&#39;s different because of the wording. Flame Barrier counters the first damage Ra takes from each target. It&#39;s not the first time Ra is dealt damage; it&#39;s the first time that target is the source of the damage. WTAP is just &quot;the first time a hero is dealt damage.&quot; It&#39;s not referring to a specific source or target; grammatically speaking, it cannot be interpreted the same way as Flame Barrier.</p><p>&nbsp;</p><p>For the second question: I&#39;d say you only spend 1 token. It would only be increased if Setback were the target, but since it&#39;s &quot;spend tokens OR redirect it to Setback,&quot; it never touches Setback until he chooses not to spend a token. However, if Setback were the original target, it would be increased, so he&#39;d spend 4 to redirect it, at which point it would become 1.</p><p>&nbsp;</p><p>For the third; you&#39;ve almost got it, except that you can only spend tokens once a turn; either way, you couldn&#39;t spend 6 tokens to redirect all of them, and Setback would only ever take 2 damage, if any. So all of it would get redirected to the Naturalist, and the FIRST one would be redirected to Setback or a target of your choice, but both effects must happen. So for the first one you can either choose to</p><p>a.) Send it to Setback (or target of your choice) and then to the Naturalist, or</p><p>b.) Send it to the Naturalist and then Setback or a target of your choice.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99892,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2014-04-22T23:38:06.000Z",
+        "cooked": "<p>1. &nbsp;It would be first time each target.</p><p>2. &nbsp;If you discard the tokens to redirect, the damage is never being redirected to Setback, so you would not have to discard more tokens. &nbsp;Damage being dealt to you would require the extra tokens for the increased damage. &nbsp;This also means that if Legacy had Fortitude and Super Human Durability and something tried to deal him 7 damage, that 7 would get reduced to 3, and Setback could discard 3 tokens to redirect the 7 damage. &nbsp;Redirecting from Chrono with hunter and hunter will cost you more.</p><p>3. &nbsp;Those redirections are unlimited, and Setback's redirection isn't, so even if Setback redirected it to himself Scholar or Naturalist would just pull the damage back to themselves.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:00.833Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>1. &nbsp;It would be first time each target.</p><p>2. &nbsp;If you discard the tokens to redirect, the damage is never being redirected to Setback, so you would not have to discard more tokens. &nbsp;Damage being dealt to you would require the extra tokens for the increased damage. &nbsp;This also means that if Legacy had Fortitude and Super Human Durability and something tried to deal him 7 damage, that 7 would get reduced to 3, and Setback could discard 3 tokens to redirect the 7 damage. &nbsp;Redirecting from Chrono with hunter and hunter will cost you more.</p><p>3. &nbsp;Those redirections are unlimited, and Setback&#39;s redirection isn&#39;t, so even if Setback redirected it to himself Scholar or Naturalist would just pull the damage back to themselves.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99893,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2014-04-23T00:51:04.000Z",
+        "cooked": "<p>For the first question, it sadly has not been officially stated if it's only for the first hero or each hero. Which is why you were provided two different answers.&nbsp;I will point out that I am&nbsp;in the opinion that it triggers for each hero,&nbsp;since prior to being the \"first time\" it triggered for every instance of damage a hero would be dealt. And also only triggering once per turn (usually twice per round because environment and villain are the ones that will most likely be doing damage) is too easy to control, but activating for every hero makes it more thrilling as it adds danger!</p><p>&nbsp;</p><p>Now for the third question,&nbsp;&nbsp;I agree with Phantaskippy. However, to expand on it a bit more, if Setback desires to redirect to another target by spending tokens, he could still totally do so!</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:00.919Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>For the first question, it sadly has not been officially stated if it&#39;s only for the first hero or each hero. Which is why you were provided two different answers.&nbsp;I will point out that I am&nbsp;in the opinion that it triggers for each hero,&nbsp;since prior to being the &quot;first time&quot; it triggered for every instance of damage a hero would be dealt. And also only triggering once per turn (usually twice per round because environment and villain are the ones that will most likely be doing damage) is too easy to control, but activating for every hero makes it more thrilling as it adds danger!</p><p>&nbsp;</p><p>Now for the third question,&nbsp;&nbsp;I agree with Phantaskippy. However, to expand on it a bit more, if Setback desires to redirect to another target by spending tokens, he could still totally do so!</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99894,
+        "name": "Azqa",
+        "username": "Azqa",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/azqa/{size}/2015_2.png",
+        "created_at": "2014-04-23T01:24:56.000Z",
+        "cooked": "<p>Responses much appreciated! &nbsp;I was hoping that the playtesters had been given some kind of official response, but if not, then hopefully we'll all get one in the future.</p><p>Since \"The first time Ra is dealt damage by a target each turn, Ra deals that target 2 fire damage\" is intended to be understood as \"In a given turn, for each target that deals damage to Ra, the first time that target deals damage to Ra, Ra deals that target 2 fire damage\" that is why I was interpreting \"The first time a hero target would be dealt damage each turn, redirect...\" as \"In a given turn, for each hero target that would be dealt damage, the first time that target would be dealt damage, redirect...\"</p><p>I certainly agree that it's more fun (and riskier) to have it apply to multiple targets in a single turn!</p><p>Glad to know that I'm set on the second question, and I think I'm clear on the third.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:01.007Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "Azqa",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Responses much appreciated! &nbsp;I was hoping that the playtesters had been given some kind of official response, but if not, then hopefully we&#39;ll all get one in the future.</p><p>Since &quot;The first time Ra is dealt damage by a target each turn, Ra deals that target 2 fire damage&quot; is intended to be understood as &quot;In a given turn, for each target that deals damage to Ra, the first time that target deals damage to Ra, Ra deals that target 2 fire damage&quot; that is why I was interpreting &quot;The first time a hero target would be dealt damage each turn, redirect...&quot; as &quot;In a given turn, for each hero target that would be dealt damage, the first time that target would be dealt damage, redirect...&quot;</p><p>I certainly agree that it&#39;s more fun (and riskier) to have it apply to multiple targets in a single turn!</p><p>Glad to know that I&#39;m set on the second question, and I think I&#39;m clear on the third.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8008,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-03-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99895,
+        "name": "Silverleaf",
+        "username": "Silverleaf",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+        "created_at": "2014-04-23T04:57:03.000Z",
+        "cooked": "<p>I think \"a target\" means ONE target, not EACH target - i.e. the first out of any of the possible targets.</p><p>It's more like \"the first time he is dealt damage (by a target)\", so I'd say it only triggers once a turn no matter how many times he gets hit.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:01.090Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "Silverleaf",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I think &quot;a target&quot; means ONE target, not EACH target - i.e. the first out of any of the possible targets.</p><p>It&#39;s more like &quot;the first time he is dealt damage (by a target)&quot;, so I&#39;d say it only triggers once a turn no matter how many times he gets hit.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4341,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99896,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2014-04-23T11:57:01.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Silverleaf\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/silverleaf/48/2332_2.png\" class=\"avatar\"> Silverleaf:</div>\n<blockquote>\n<p>I think \"a target\" means ONE target, not EACH target - i.e. the first out of any of the possible targets.It's more like \"the first time he is dealt damage (by a target)\", so I'd say it only triggers once a turn no matter how many times he gets hit.</p>\n</blockquote>\n</aside>\n<p>Agreed - if it was meant to trigger on each, it would say, \"The first time <em>each</em> hero target would be dealt damage each turn…\"</p>\n<p>I dug through the playtest forums and didn't see anything answering this, but I thought there was a conversation and this was the result.</p>\n<p>But I could be misremembering. It's happened before. <img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/3/30f31d94097407b2e5595f3ecfbb53491bdd4076.gif\" alt=\"\" data-base62-sha1=\"6Z1N3sPPr4mb8Xlhog5I831C8IK\" role=\"presentation\" width=\"17\" height=\"17\" class=\"animated\"></p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-14T00:58:14.452Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Silverleaf\"]\n\nI think &quot;a target&quot; means ONE target, not EACH target - i.e. the first out of any of the possible targets.It&#39;s more like &quot;the first time he is dealt damage (by a target)&quot;, so I&#39;d say it only triggers once a turn no matter how many times he gets hit.\n\n[/quote]\n\nAgreed - if it was meant to trigger on each, it would say, &quot;The first time <em>each</em> hero target would be dealt damage each turn...&quot;\n\nI dug through the playtest forums and didn&#39;t see anything answering this, but I thought there was a conversation and this was the result.\n\nBut I could be misremembering. It&#39;s happened before. ![](upload://6Z1N3sPPr4mb8Xlhog5I831C8IK.gif)",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "downloaded local copies of images",
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99897,
+        "name": "HeroComplex",
+        "username": "HeroComplex",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/h/bbce88/{size}.png",
+        "created_at": "2014-04-23T12:20:55.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"McBehrer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mcbehrer/48/1850_2.png\" class=\"avatar\"> McBehrer:</div>\n<blockquote>\n<p>It's different because of the wording. Flame Barrier counters the first damage Ra takes from each target. It's not the first time Ra is dealt damage; it's the first time that target is the source of the damage. WTAP is just \"the first time a hero is dealt damage.\" It's not referring to a specific source or target; grammatically speaking, it cannot be interpreted the same way as Flame Barrier.</p>\n</blockquote>\n</aside>\n<p>I don't follow this reasoning.&nbsp; I see enough difference between the wordings that the powers-that-be <span class=\"bbcode-i\">could</span> issue a different interpretation and it probably wouldn't technically contradict the prior Flame Barrier ruling, if they wanted to.&nbsp; But I definitely don't see why that difference in wording would make it grammatically impossible for WTWP to work the same as Flame Barrier, triggering off each hero target's first instance rather than just the first instance overall.</p>\n<p>Same question for Silverleaf and Rabit—I get your reasoning in a vacuum, but not when we already have the rulings on Flame Barrier and Combat Stance.&nbsp; The Spiff clarification on Combat Stance tells us that \"the first time Wraith is dealt damage by a target each turn,\" triggers not just for any target, but for each target.&nbsp; So the ideas that \"a target\" inherently means just one, or that otherwise they'd have said \"each target,\" don't seem persuasive to me in light of precedent.</p>\n<p>Essentially, I don't understand what the reasoning is that is leading folks to determine that \"The first time <span class=\"bbcode-b\">a hero target</span> would be dealt damage each turn\" and \"The first time Wraith is dealt damage by <span class=\"bbcode-b\">a target</span> each turn\" work so differently.&nbsp; Yes, obviously one is about a target taking damage and the other about a target dealing damage, but I don't think anyone's actually explained why that would matter, or more generally of why \"a hero target\" in one card means just whoever's first, and \"a target\" in the other means each target individually.</p>\n<p>I'd appreciate if someone could really dig in and explain why WTWP would only work on one target, consistent with the prior rulings, and/or why they're reading the texts as working differently.&nbsp; At the moment, I'm having trouble figuring out a response because I'm not sure where the potential disagreement is stemming from.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:01.279Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "HeroComplex",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"McBehrer\"]\n\nIt&#39;s different because of the wording. Flame Barrier counters the first damage Ra takes from each target. It&#39;s not the first time Ra is dealt damage; it&#39;s the first time that target is the source of the damage. WTAP is just &quot;the first time a hero is dealt damage.&quot; It&#39;s not referring to a specific source or target; grammatically speaking, it cannot be interpreted the same way as Flame Barrier.\n[/quote]\nI don&#39;t follow this reasoning.&nbsp; I see enough difference between the wordings that the powers-that-be [i]could[/i] issue a different interpretation and it probably wouldn&#39;t technically contradict the prior Flame Barrier ruling, if they wanted to.&nbsp; But I definitely don&#39;t see why that difference in wording would make it grammatically impossible for WTWP to work the same as Flame Barrier, triggering off each hero target&#39;s first instance rather than just the first instance overall.\n\nSame question for Silverleaf and Rabit---I get your reasoning in a vacuum, but not when we already have the rulings on Flame Barrier and Combat Stance.&nbsp; The Spiff clarification on Combat Stance tells us that &quot;the first time Wraith is dealt damage by a target each turn,&quot; triggers not just for any target, but for each target.&nbsp; So the ideas that &quot;a target&quot; inherently means just one, or that otherwise they&#39;d have said &quot;each target,&quot; don&#39;t seem persuasive to me in light of precedent.\n\nEssentially, I don&#39;t understand what the reasoning is that is leading folks to determine that &quot;The first time [b]a hero target[/b] would be dealt damage each turn&quot; and &quot;The first time Wraith is dealt damage by [b]a target[/b] each turn&quot; work so differently.&nbsp; Yes, obviously one is about a target taking damage and the other about a target dealing damage, but I don&#39;t think anyone&#39;s actually explained why that would matter, or more generally of why &quot;a hero target&quot; in one card means just whoever&#39;s first, and &quot;a target&quot; in the other means each target individually.\n\nI&#39;d appreciate if someone could really dig in and explain why WTWP would only work on one target, consistent with the prior rulings, and/or why they&#39;re reading the texts as working differently.&nbsp; At the moment, I&#39;m having trouble figuring out a response because I&#39;m not sure where the potential disagreement is stemming from.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7685,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-01-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99898,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2014-04-23T13:15:01.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"HeroComplex\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/h/bbce88/48.png\" class=\"avatar\"> HeroComplex:</div>\n<blockquote>\n<p>Essentially, I don't understand what the reasoning is that is leading folks to determine that \"The first time   a hero target   would be dealt damage each turn\" and \"The first time Wraith is dealt damage by   a target   each turn\" work so differently.&nbsp; Yes, obviously one is about a target taking damage and the other about a target dealing damage, but I don't think anyone's actually explained why that would matter, or more generally of why \"a hero target\" in one card means just whoever's first, and \"a target\" in the other means each target individually.</p>\n</blockquote>\n</aside>\n<p>You are not alone. It makes little sense to me as well. I am firmly in camp Ronway on this one for what its worth. If the wording of \"A Target\" in&nbsp; Flame Barrier and Combat Stance equates to \"Each Target\", then for the sake of consistancy we should read \"A hero Target\" on Wrong Time and Place the same way.&nbsp;</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:01.364Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"HeroComplex\"]\n\n Essentially, I don&#39;t understand what the reasoning is that is leading folks to determine that &quot;The first time   a hero target   would be dealt damage each turn&quot; and &quot;The first time Wraith is dealt damage by   a target   each turn&quot; work so differently.&nbsp; Yes, obviously one is about a target taking damage and the other about a target dealing damage, but I don&#39;t think anyone&#39;s actually explained why that would matter, or more generally of why &quot;a hero target&quot; in one card means just whoever&#39;s first, and &quot;a target&quot; in the other means each target individually. \n\n[/quote]\n\nYou are not alone. It makes little sense to me as well. I am firmly in camp Ronway on this one for what its worth. If the wording of &quot;A Target&quot; in&nbsp; Flame Barrier and Combat Stance equates to &quot;Each Target&quot;, then for the sake of consistancy we should read &quot;A hero Target&quot; on Wrong Time and Place the same way.&nbsp; \n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99899,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2014-04-23T13:29:31.000Z",
+        "cooked": "<p>Flame Barrier</p><blockquote><p>The First time Ra is dealt damage by a target&nbsp;each turn, Ra deals that target 2 fire damage.</p></blockquote><p>Miss Information's Character Card</p><blockquote><p>The first time a hero target deals damage to Miss Information each turn, she deals that target (h) minus 2 psychic damage.</p></blockquote><p>Wrong Time and Place</p><blockquote><p>The first time&nbsp;a hero target would be dealt damage each turn...</p></blockquote><p>The first two have been confirmed to trigger for each. Meaning, if Baron Blade hits Ra for some amount of damage, then Ra will deal 2 fire damage back to Baron Blade. Then on that very same turn, the Power Remote Turret deals damage to Ra, he will once again trigger Flame Barrier. Same with Miss Information, Parse lets a Wraith use a power, dealing Miss Information damage, thus taking damage back from&nbsp;Miss Information's&nbsp;Character Card trigger. Parse then follows it up with a Pin Point Shot, now also taking the revenge damage on Miss Information's Character Card.</p><p>Why am I bringing out Miss Information? Because it opens with \"the first time a hero target\", what does Wrong Time and Place open with? \"The first time a hero target\", so why would one trigger for any and all heroes targets dealing damage, but not trigger on any and all heroes who would be dealt damage?</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:01.445Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Flame Barrier</p><blockquote><p>The First time Ra is dealt damage by a target&nbsp;each turn, Ra deals that target 2 fire damage.</p></blockquote><p>Miss Information&#39;s Character Card</p><blockquote><p>The first time a hero target deals damage to Miss Information each turn, she deals that target (h) minus 2 psychic damage.</p></blockquote><p>Wrong Time and Place</p><blockquote><p>The first time&nbsp;a hero target would be dealt damage each turn...</p></blockquote><p>The first two have been confirmed to trigger for each. Meaning, if Baron Blade hits Ra for some amount of damage, then Ra will deal 2 fire damage back to Baron Blade. Then on that very same turn, the Power Remote Turret deals damage to Ra, he will once again trigger Flame Barrier. Same with Miss Information, Parse lets a Wraith use a power, dealing Miss Information damage, thus taking damage back from&nbsp;Miss Information&#39;s&nbsp;Character Card trigger. Parse then follows it up with a Pin Point Shot, now also taking the revenge damage on Miss Information&#39;s Character Card.</p><p>Why am I bringing out Miss Information? Because it opens with &quot;the first time a hero target&quot;, what does Wrong Time and Place open with? &quot;The first time a hero target&quot;, so why would one trigger for any and all heroes targets dealing damage, but not trigger on any and all heroes who would be dealt damage?</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99900,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2014-04-23T14:20:18.000Z",
+        "cooked": "<p>I &nbsp;find myself in camp Ronway. I am ... discomfitted.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:01.527Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I &nbsp;find myself in camp Ronway. I am ... discomfitted.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99901,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2014-04-23T17:00:45.000Z",
+        "cooked": "<p>I'd like to say that the founding of Camp Ronway was in agreement with Phantaskippy. &nbsp;Foote just refuses to admit he agrees with me.</p><p>Something about all life as we know it stopping instantaneously and every molecule in your body exploding at the speed of light.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:01.601Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I&#39;d like to say that the founding of Camp Ronway was in agreement with Phantaskippy. &nbsp;Foote just refuses to admit he agrees with me.</p><p>Something about all life as we know it stopping instantaneously and every molecule in your body exploding at the speed of light.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 99902,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2014-04-23T17:34:52.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>I'd like to say that the founding of Camp Ronway was in agreement with Phantaskippy. &nbsp;Foote just refuses to admit he agrees with me.Something about all life as we know it stopping instantaneously and every molecule in your body exploding at the speed of light.</p>\n</blockquote>\n</aside>\n<p>Confirming with Skippy that I will not be agreeing with him on these matters. We have reputations to uphold and stuff.&nbsp;</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T03:28:01.683Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 10194,
+        "topic_slug": "setbacks-wrong-time-and-place",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"phantaskippy\"]\n\nI&#39;d like to say that the founding of Camp Ronway was in agreement with Phantaskippy. &nbsp;Foote just refuses to admit he agrees with me.Something about all life as we know it stopping instantaneously and every molecule in your body exploding at the speed of light.\n\n[/quote]\n\nConfirming with Skippy that I will not be agreeing with him on these matters. We have reputations to uphold and stuff.&nbsp;\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      10195,
+      99891,
+      99892,
+      99893,
+      99894,
+      99895,
+      99896,
+      99897,
+      99898,
+      99899,
+      99900,
+      99901,
+      99902
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      4526
+    ],
+    [
+      6,
+      4525
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 12,
+      "reply_count": 1,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-12T14:09:24.588Z",
+      "bumped": true,
+      "bumped_at": "2026-09-12T14:09:24.588Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 21,
+      "views": 91,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32029,
+      "title": "OblivAeon weird card interaction",
+      "fancy_title": "OblivAeon weird card interaction",
+      "slug": "oblivaeon-weird-card-interaction",
+      "posts_count": 14,
+      "reply_count": 9,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2025-11-04T23:13:14.702Z",
+      "last_posted_at": "2025-11-17T13:06:56.375Z",
+      "bumped": true,
+      "bumped_at": "2025-11-17T16:35:26.816Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 158,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32017,
+      "title": "Text for a future rulebook",
+      "fancy_title": "Text for a future rulebook",
+      "slug": "text-for-a-future-rulebook",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2025-10-29T18:32:19.434Z",
+      "last_posted_at": "2025-10-31T21:15:02.195Z",
+      "bumped": true,
+      "bumped_at": "2025-10-31T21:15:02.195Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 114,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13161,
+            "username": "MindWanderer",
+            "name": "MindWanderer",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31872,
+      "title": "Argent Adept Six-Instrument Orchestration",
+      "fancy_title": "Argent Adept Six-Instrument Orchestration",
+      "slug": "argent-adept-six-instrument-orchestration",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-10-21T02:28:56.949Z",
+      "last_posted_at": "2025-10-21T03:50:57.042Z",
+      "bumped": true,
+      "bumped_at": "2025-10-21T03:50:57.042Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 84,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 32331,
+      "title": "Episode 318 of the Letters Page: Writers’ Room: A Day in the Life: Benchmark",
+      "fancy_title": "Episode 318 of the Letters Page: Writers’ Room: A Day in the Life: Benchmark",
+      "slug": "episode-318-of-the-letters-page-writers-room-a-day-in-the-life-benchmark",
+      "posts_count": 32,
+      "reply_count": 19,
+      "highest_post_number": 32,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/optimized/2X/8/8024c5ee253429a35a862a97395eca03e6eae4c6_2_660x1024.jpeg",
+      "created_at": "2026-05-26T14:26:14.988Z",
+      "last_posted_at": "2026-06-09T19:08:07.558Z",
+      "bumped": true,
+      "bumped_at": "2026-06-09T19:08:07.558Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 51,
+      "views": 391,
+      "category_id": 25,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 14005,
+            "username": "TakeWalker",
+            "name": "KateWalker",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18183,
+            "username": "psychedelicchurro",
+            "name": "Kento",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/psychedelicchurro/{size}/6027_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 10194,
+  "title": "Setback's \"Wrong Time and Place\"",
+  "fancy_title": "Setback&rsquo;s &ldquo;Wrong Time and Place&rdquo;",
+  "posts_count": 13,
+  "created_at": "2014-04-22T23:18:22.000Z",
+  "views": 1135,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2014-04-23T17:34:52.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "setbacks-wrong-time-and-place",
+  "category_id": 12,
+  "word_count": 3050,
+  "deleted_at": null,
+  "user_id": 8008,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_10194",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 13,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 9,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 8008,
+        "username": "Azqa",
+        "name": "Azqa",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/azqa/{size}/2015_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 3684,
+        "username": "phantaskippy",
+        "name": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 4333,
+        "username": "Foote",
+        "name": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 10,
+        "username": "Ronway",
+        "name": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 4341,
+        "username": "Silverleaf",
+        "name": "Silverleaf",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 7685,
+        "username": "HeroComplex",
+        "name": "HeroComplex",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/h/bbce88/{size}.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 18,
+        "username": "arenson9",
+        "name": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "moderator": true,
+        "trust_level": 4
+      },
+      {
+        "id": 20,
+        "username": "Rabit",
+        "name": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 409,
+        "username": "McBehrer",
+        "name": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 8008,
+      "username": "Azqa",
+      "name": "Azqa",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/azqa/{size}/2015_2.png"
+    },
+    "last_poster": {
+      "id": 4333,
+      "username": "Foote",
+      "name": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png"
+    }
+  },
+  "bookmarks": []
+}

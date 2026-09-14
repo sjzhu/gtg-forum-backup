@@ -1,0 +1,1720 @@
+{
+  "posts": [
+    {
+      "id": 8507,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2013-08-11T15:01:37.000Z",
+      "cooked": "<p>Suppose that Haka has been incapacitated, uses his incapacitated ability to 'Select a hero. Decrease the next damage dealt to that hero by 2', and selects Mr. Fixer.</p><p>&nbsp;</p><p>Suppose, then, that Mr. Fixer has Driving Mantis in play, which allows him to redirect damage that would be dealt to him if it is 2 or less, and then Mr. Fixer is attacked for 3.</p><p>&nbsp;</p><p>My guess is that the way this would be resolved is that the attack would be reduced to 1, Mr. Fixer may redirect the attack, the amount of the attack remains reduced from 3 to 1, despite the fact that Mr. Fixer is no longer the target, and the next attack against Mr. Fixer would not be reduced.</p><p>&nbsp;</p><p>I think another reasonable interpretation is that all of the above is correct except that the attack is reset to 3 for whatever the next target is. Another possibility, which I don't like as much, is that after the redirection, Mr. Fixer actually maintains the reduction of 2 for his next attack because he wasn't actually hit.</p><p>&nbsp;</p><p>By definition, Haka's character card would have been in play before Driving Mantis, but what if this reduction had come from another card that came into play _AFTER_ Driving Mantis?</p><p>&nbsp;</p><p>The only cards I can think of that redirect an attack based on the amount of the attack are Driving Mantis and Synaptic Interruption, and I can't think of any cards other than character cards that can reduce the next attack on Mr. Fixer or Tachyon. Haka has Haka of Shielding, but it only works on him.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:39:03.356Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 5,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 25.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Suppose that Haka has been incapacitated, uses his incapacitated ability to &#39;Select a hero. Decrease the next damage dealt to that hero by 2&#39;, and selects Mr. Fixer.</p><p>&nbsp;</p><p>Suppose, then, that Mr. Fixer has Driving Mantis in play, which allows him to redirect damage that would be dealt to him if it is 2 or less, and then Mr. Fixer is attacked for 3.</p><p>&nbsp;</p><p>My guess is that the way this would be resolved is that the attack would be reduced to 1, Mr. Fixer may redirect the attack, the amount of the attack remains reduced from 3 to 1, despite the fact that Mr. Fixer is no longer the target, and the next attack against Mr. Fixer would not be reduced.</p><p>&nbsp;</p><p>I think another reasonable interpretation is that all of the above is correct except that the attack is reset to 3 for whatever the next target is. Another possibility, which I don&#39;t like as much, is that after the redirection, Mr. Fixer actually maintains the reduction of 2 for his next attack because he wasn&#39;t actually hit.</p><p>&nbsp;</p><p>By definition, Haka&#39;s character card would have been in play before Driving Mantis, but what if this reduction had come from another card that came into play _AFTER_ Driving Mantis?</p><p>&nbsp;</p><p>The only cards I can think of that redirect an attack based on the amount of the attack are Driving Mantis and Synaptic Interruption, and I can&#39;t think of any cards other than character cards that can reduce the next attack on Mr. Fixer or Tachyon. Haka has Haka of Shielding, but it only works on him.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70529,
+      "name": "dwetuski",
+      "username": "dwetuski",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+      "created_at": "2013-08-11T15:45:02.000Z",
+      "cooked": "<p>I think the redirection criteria is checked before the damage reduction is applied. &nbsp;Synaptic interruption says \"would be dealt\", meaning before it is actually dealt, and Haka's ability says \"the next damage dealt\", meaning damage that has actually been dealt. &nbsp;So, the damage reduction never applies if the damage is redirected away from the target that has damage reduction. &nbsp;This doesn't necessarily apply to damage reductions that refer to damage dealt by the source, however.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:25.409Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "dwetuski",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I think the redirection criteria is checked before the damage reduction is applied. &nbsp;Synaptic interruption says &quot;would be dealt&quot;, meaning before it is actually dealt, and Haka&#39;s ability says &quot;the next damage dealt&quot;, meaning damage that has actually been dealt. &nbsp;So, the damage reduction never applies if the damage is redirected away from the target that has damage reduction. &nbsp;This doesn&#39;t necessarily apply to damage reductions that refer to damage dealt by the source, however.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5108,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70530,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-08-11T15:47:13.000Z",
+      "cooked": "<p>I would think that the damage reduction gets lifted after the redirection since Fixer is no longer the target of the damage. It seems like Hakas incap ability is basically temporary DR, so it would work with mantis the same way that pipe wrenches DR does (attack of 3 reduces to 2 then redirects back for the full three since the attack is reassessed after the redirect).&nbsp;</p><p>But that's only if you think the incap power works like normal DR. I do not think though that it would keep the reduction through the redirect in the same way that something like smoke bombs does.&nbsp;</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:25.491Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I would think that the damage reduction gets lifted after the redirection since Fixer is no longer the target of the damage. It seems like Hakas incap ability is basically temporary DR, so it would work with mantis the same way that pipe wrenches DR does (attack of 3 reduces to 2 then redirects back for the full three since the attack is reassessed after the redirect).&nbsp;</p><p>But that&#39;s only if you think the incap power works like normal DR. I do not think though that it would keep the reduction through the redirect in the same way that something like smoke bombs does.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70531,
+      "name": "dypaca",
+      "username": "dypaca",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+      "created_at": "2013-08-11T18:02:29.000Z",
+      "cooked": "<p>I definately don't think the reduction should stay on the attack after it is redirected.&nbsp; It only reduces damage to the target Haka chose, and nothing else.</p><p>And for the second question, as a general rule I would say that when damage gets redirected, then nothing happened to the original target and the damage reduction would stay for the next attack.&nbsp; I definately understand how this feels like the wrong ruling in the case of Driving Mantis, which did actually take advantage of the reduction to work, but I don't think it warrants an exception.</p><p>Driving Mantis, Synaptic Interruption, and Iron Legacy's SuperHuman Rediretion&nbsp;redirect based on amount,&nbsp;and Flak Jacket is somewhat similar in that it prevents damage based on amount.&nbsp; Driving Mantis is the only one with a maximum instead of a minimum though, and so far nothing says 'increase the next damage dealt to a target'.&nbsp; It doesn't feel as wrong to keep the damage reduction if Synaptic Interruption or Flak Jacket trigger IN SPITE of temporary damage reduction rather than because of it.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:25.562Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "dypaca",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I definately don&#39;t think the reduction should stay on the attack after it is redirected.&nbsp; It only reduces damage to the target Haka chose, and nothing else.</p><p>And for the second question, as a general rule I would say that when damage gets redirected, then nothing happened to the original target and the damage reduction would stay for the next attack.&nbsp; I definately understand how this feels like the wrong ruling in the case of Driving Mantis, which did actually take advantage of the reduction to work, but I don&#39;t think it warrants an exception.</p><p>Driving Mantis, Synaptic Interruption, and Iron Legacy&#39;s SuperHuman Rediretion&nbsp;redirect based on amount,&nbsp;and Flak Jacket is somewhat similar in that it prevents damage based on amount.&nbsp; Driving Mantis is the only one with a maximum instead of a minimum though, and so far nothing says &#39;increase the next damage dealt to a target&#39;.&nbsp; It doesn&#39;t feel as wrong to keep the damage reduction if Synaptic Interruption or Flak Jacket trigger IN SPITE of temporary damage reduction rather than because of it.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 466,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-06-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70532,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2013-08-12T02:33:22.000Z",
+      "cooked": "<p>As for the order of reduction and redirection, we always count them as simultaneous checks, and we decide the order in which to do it. &nbsp;</p><p>I'd like to make the distinction between <em>would be dealt</em> and <em>is dealt</em>, but that doesn't seem to be about timing as much as grammar, I could be wrong there, at which point anything worded <em>is dealt</em> would not be allowed before redirection trigger timing occurs.</p><p>The way I play it is that all redirection and reduction trigger at once, and the heroes get to choose. &nbsp;I follow the order played when card effects are activated by the turn phase changing, but response triggers I do hero's choice. &nbsp;I don't know if that's official, but it is really hard to keep track of card order when the cards aren't all from the same deck.</p><p>As for Bunker's incap effect, damage prevention is very different from reduction. &nbsp;To me it is effectively partial immunity, as it works on irreducible damage. &nbsp;Prevention doesn't lower the damage dealt to Fixer, it prevents 2 points of it from lowering his health. &nbsp;I believe that Bunker's incap should work on the same timing as immunity in regards to redirection. &nbsp;If you allow redirection of damage when the character is immune (like Tempest's incap and Synaptic Interuption interacting), then Bunker's effect should take place after redirection would or would not occur, and vice versa if you go the opposite way.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:25.637Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>As for the order of reduction and redirection, we always count them as simultaneous checks, and we decide the order in which to do it. &nbsp;</p><p>I&#39;d like to make the distinction between <em>would be dealt</em> and <em>is dealt</em>, but that doesn&#39;t seem to be about timing as much as grammar, I could be wrong there, at which point anything worded <em>is dealt</em> would not be allowed before redirection trigger timing occurs.</p><p>The way I play it is that all redirection and reduction trigger at once, and the heroes get to choose. &nbsp;I follow the order played when card effects are activated by the turn phase changing, but response triggers I do hero&#39;s choice. &nbsp;I don&#39;t know if that&#39;s official, but it is really hard to keep track of card order when the cards aren&#39;t all from the same deck.</p><p>As for Bunker&#39;s incap effect, damage prevention is very different from reduction. &nbsp;To me it is effectively partial immunity, as it works on irreducible damage. &nbsp;Prevention doesn&#39;t lower the damage dealt to Fixer, it prevents 2 points of it from lowering his health. &nbsp;I believe that Bunker&#39;s incap should work on the same timing as immunity in regards to redirection. &nbsp;If you allow redirection of damage when the character is immune (like Tempest&#39;s incap and Synaptic Interuption interacting), then Bunker&#39;s effect should take place after redirection would or would not occur, and vice versa if you go the opposite way.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70533,
+      "name": "tyquaius",
+      "username": "tyquaius",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/e95f7d/{size}.png",
+      "created_at": "2013-08-12T03:18:44.000Z",
+      "cooked": "<p>Perhaps the answer to this question maybe similar to the Advanced La Capitan ruling given to Ronway at KantCon?</p><p>You proceed in the order in which the card was written. But I guess in your scenario, the order in which the cards were played.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:25.727Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "tyquaius",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Perhaps the answer to this question maybe similar to the Advanced La Capitan ruling given to Ronway at KantCon?</p><p>You proceed in the order in which the card was written. But I guess in your scenario, the order in which the cards were played.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5169,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70534,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2013-08-12T03:36:01.000Z",
+      "cooked": "<blockquote><p><span>You proceed in the order in which the card was written. But I guess in your scenario, the order in which the cards were played.</span></p></blockquote><p><span>The problem with this is we are dealing with cards from different decks, as well as optional triggers. &nbsp;I don't hink order of play can be reasonably used in these circumstances, what if you can't remember if Tachyon played Synaptic or Tempest played Shielding winds first? &nbsp;What if both were brought out by Don't Dismiss Anything?</span></p><p><span>That's why I tend to lump the entire thing into the ambiguous timing-&gt;Heroes choice category.</span></p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:25.814Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<blockquote><p><span style=\"color: rgb(68, 68, 68); font-family: 'PT Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(255, 255, 255);\">You proceed in the order in which the card was written. But I guess in your scenario, the order in which the cards were played.</span></p></blockquote><p><span style=\"color: rgb(68, 68, 68); font-family: 'PT Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(255, 255, 255);\">The problem with this is we are dealing with cards from different decks, as well as optional triggers. &nbsp;I don&#39;t hink order of play can be reasonably used in these circumstances, what if you can&#39;t remember if Tachyon played Synaptic or Tempest played Shielding winds first? &nbsp;What if both were brought out by Don&#39;t Dismiss Anything?</span></p><p><span style=\"color: rgb(68, 68, 68); font-family: 'PT Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(255, 255, 255);\">That&#39;s why I tend to lump the entire thing into the ambiguous timing-&gt;Heroes choice category.</span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70535,
+      "name": "Greywind",
+      "username": "Greywind",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+      "created_at": "2013-08-12T05:33:04.000Z",
+      "cooked": "<p>You can lay the cards out in such a way as to help you remember what was played in what order. Cards brought out by another effect still enter play in player order from where the effect originated.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:25.884Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Greywind",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>You can lay the cards out in such a way as to help you remember what was played in what order. Cards brought out by another effect still enter play in player order from where the effect originated.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3795,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-02-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70536,
+      "name": "Amnachaidh",
+      "username": "Amnachaidh",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/ba8739/{size}.png",
+      "created_at": "2013-08-12T10:04:33.000Z",
+      "cooked": "<p>It seems to me that the order of precidence in this case is obvious - Haka was out before Driving Mantis.&nbsp; My understanding is that the order is based on card play and not card effect, and a character card is one of the H+1 cards in the game played. That distinction may be a hair not yet split, though.</p><p>I also think that - in the case of pipe wrench - the damage source remains the attacker and not Mr. Fixer.&nbsp; In this case, the damage doesn't get the boost. I was recently disappointed to discover this was the case in the Driving Mantis/Jack Handle combo.</p><p>The best way I can see it working is the 3 points get reduced to 1, and the one point gets Judo thrown elsewhere.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:25.959Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Amnachaidh",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It seems to me that the order of precidence in this case is obvious - Haka was out before Driving Mantis.&nbsp; My understanding is that the order is based on card play and not card effect, and a character card is one of the H+1 cards in the game played. That distinction may be a hair not yet split, though.</p><p>I also think that - in the case of pipe wrench - the damage source remains the attacker and not Mr. Fixer.&nbsp; In this case, the damage doesn&#39;t get the boost. I was recently disappointed to discover this was the case in the Driving Mantis/Jack Handle combo.</p><p>The best way I can see it working is the 3 points get reduced to 1, and the one point gets Judo thrown elsewhere.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3488,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70537,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2013-08-12T13:48:35.000Z",
+      "cooked": "<p>Something that has been said many of times, when damage is redirected the DR that applies to the original target does not get factored in to the new target. So the damage would be reduced to 1, then Fixer would redirect it to a new target, making it 3 damage to that target.</p><p>Now the real question is does the DR stay because he wasn't hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.028Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Something that has been said many of times, when damage is redirected the DR that applies to the original target does not get factored in to the new target. So the damage would be reduced to 1, then Fixer would redirect it to a new target, making it 3 damage to that target.</p><p>Now the real question is does the DR stay because he wasn&#39;t hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70538,
+      "name": "tyquaius",
+      "username": "tyquaius",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/e95f7d/{size}.png",
+      "created_at": "2013-08-12T13:58:00.000Z",
+      "cooked": "<p>*double posting. sorry*</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.113Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "tyquaius",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>*double posting. sorry*</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5169,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70539,
+      "name": "tyquaius",
+      "username": "tyquaius",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/e95f7d/{size}.png",
+      "created_at": "2013-08-12T13:58:07.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>Something that has been said many of times, when damage is redirected the DR that applies to the original target does not get factored in to the new target. So the damage would be reduced to 1, then Fixer would redirect it to a new target, making it 3 damage to that target.Now the real question is does the DR stay because he wasn't hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.</p>\n</blockquote>\n</aside>\n<p>Out of curiosity, where is this redirect rule written?</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.176Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "tyquaius",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Ronway\"]\n\nSomething that has been said many of times, when damage is redirected the DR that applies to the original target does not get factored in to the new target. So the damage would be reduced to 1, then Fixer would redirect it to a new target, making it 3 damage to that target.Now the real question is does the DR stay because he wasn&#39;t hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.\n\n[/quote]\n\nOut of curiosity, where is this redirect rule written?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5169,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70540,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-08-12T14:10:36.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>Now the real question is does the DR stay because he wasn't hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.</p>\n</blockquote>\n</aside>\n<p>I dissagree with your assesment. Consider the wording. \"Decrease the next damage delt to that hero by 2\". It does not say \"decrease the next damage that <em>would be</em> delt\".&nbsp; Damage delt is always the result of HP loss.</p>\n<p>Fixer's redirection (and just about every redirection I can think of) starts the redirection effect before damage is delt, hence the \"<em>would be</em>\" in the trigger condition for its effect. So if we are looking at this from the perspective of trigger conditions and effects, Fixers redirection ability is triggered before Hakas ability would be.</p>\n<p>Looking at it that way, I am not so sure anymore that Fixer would even be able to redirect the initial damage of 3 in the first place given this senario.&nbsp;</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.252Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Ronway\"]\n\nNow the real question is does the DR stay because he wasn&#39;t hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.\n\n[/quote]\n\nI dissagree with your assesment. Consider the wording. &quot;Decrease the next damage delt to that hero by 2&quot;. It does not say &quot;decrease the next damage that <em>would be</em> delt&quot;.&nbsp; Damage delt is always the result of HP loss.  \n\n Fixer&#39;s redirection (and just about every redirection I can think of) starts the redirection effect before damage is delt, hence the &quot;<em>would be</em>&quot; in the trigger condition for its effect. So if we are looking at this from the perspective of trigger conditions and effects, Fixers redirection ability is triggered before Hakas ability would be. \n\nLooking at it that way, I am not so sure anymore that Fixer would even be able to redirect the initial damage of 3 in the first place given this senario.&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70541,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-08-12T14:11:35.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"tyquaius\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/t/e95f7d/48.png\" class=\"avatar\"> tyquaius:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Ronway wrote:</b><br><blockquote>Something that has been said many of times, when damage is redirected the DR that applies to the original target does not get factored in to the new target. So the damage would be reduced to 1, then Fixer would redirect it to a new target, making it 3 damage to that target.Now the real question is does the DR stay because he wasn't hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.\n&nbsp;\n</blockquote></div>\nOut of curiosity, where is this redirect rule written?\n</blockquote>\n</aside>\n<p>It has been taken from multiple official rulings we have gotten on topics dealing with redirection. It is not spelled out exactly how to handle redirection in the rulebook.</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.326Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"tyquaius\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>Ronway wrote:</b><br /><blockquote class=\"bb-quote-body\">Something that has been said many of times, when damage is redirected the DR that applies to the original target does not get factored in to the new target. So the damage would be reduced to 1, then Fixer would redirect it to a new target, making it 3 damage to that target.Now the real question is does the DR stay because he wasn&#39;t hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.\n&nbsp;\n</blockquote></div>\nOut of curiosity, where is this redirect rule written?\n\n[/quote]\n\nIt has been taken from multiple official rulings we have gotten on topics dealing with redirection. It is not spelled out exactly how to handle redirection in the rulebook.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70542,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2013-08-12T14:23:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>I dissagree with your assesment. Consider the wording. \"Decrease the next damage delt to that hero by 2\". It does not say \"decrease the next damage that <em>would be</em> delt\".&nbsp;Damage delt is always the result of HP loss. Fixer's redirection (and just about every redirection I can think of) starts the redirection effect before damage is delt, hence the \"<em>would be</em>\" in the trigger condition for its effect. So if we are looking at this from the perspective of trigger conditions and effects, Fixers redirection ability is triggered before Hakas ability would be.Looking at it that way, I am not so sure anymore that Fixer would even be able to redirect the initial damage of 3 in the first place given this senario.&nbsp;</p>\n</blockquote>\n</aside>\n<p>General consensus is DR is applied before damage reduction.</p>\n<p><a href=\"https://greaterthangames.com/comment/35994#comment-35994\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/comment/35994#comment-35994</a></p>\n<p><a href=\"https://greaterthangames.com/comment/4562#comment-4562\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/comment/4562#comment-4562</a></p>\n<p>There are 2 that depict damage modifiers then determine redirection. I know there are a lot more, but those are the first few I have found.&nbsp;What you're saying is redirection is determined then damage modifiers?</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.400Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/comment/35994#comment-35994",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "https://greaterthangames.com/comment/4562#comment-4562",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Foote\"]\n\nI dissagree with your assesment. Consider the wording. &quot;Decrease the next damage delt to that hero by 2&quot;. It does not say &quot;decrease the next damage that <em>would be</em> delt&quot;.&nbsp;Damage delt is always the result of HP loss. Fixer&#39;s redirection (and just about every redirection I can think of) starts the redirection effect before damage is delt, hence the &quot;<em>would be</em>&quot; in the trigger condition for its effect. So if we are looking at this from the perspective of trigger conditions and effects, Fixers redirection ability is triggered before Hakas ability would be.Looking at it that way, I am not so sure anymore that Fixer would even be able to redirect the initial damage of 3 in the first place given this senario.&nbsp;\n\n[/quote]\n\nGeneral consensus is DR is applied before damage reduction.\n\n<a href=\"https://greaterthangames.com/comment/35994#comment-35994\">https://greaterthangames.com/comment/35994#comment-35994</a>\n\n<a href=\"https://greaterthangames.com/comment/4562#comment-4562\">https://greaterthangames.com/comment/4562#comment-4562</a>\n\nThere are 2 that depict damage modifiers then determine redirection. I know there are a lot more, but those are the first few I have found.&nbsp;What you&#39;re saying is redirection is determined then damage modifiers?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70543,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-08-12T14:32:16.000Z",
+      "cooked": "<p>Right, normally that is correct.&nbsp;</p><p>I guess I was questioning whether Hakas incap ability functions like stardard forms of DR like Fortitude or Heavy Plating. I think I would still play it as acting like normal, although temporary, DR. I just was not as sure as I thought I was.</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.486Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Right, normally that is correct.&nbsp;</p><p>I guess I was questioning whether Hakas incap ability functions like stardard forms of DR like Fortitude or Heavy Plating. I think I would still play it as acting like normal, although temporary, DR. I just was not as sure as I thought I was.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70544,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2013-08-12T14:44:11.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>Now the real question is does the DR stay because he wasn't hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>I agree both that this is the real question and that he would lose that DR.</p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.565Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Ronway\"]\n\nNow the real question is does the DR stay because he wasn&#39;t hit or not. Considering he actually was able to take advantage of it to redirect damage, I would say he would lose that DR.\n\n[/quote]\n\n&nbsp;\n\nI agree both that this is the real question and that he would lose that DR.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70545,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-08-12T15:07:39.000Z",
+      "cooked": "<p>That would seem to keep it in line with how things like Wraith's Stealth work</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.642Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>That would seem to keep it in line with how things like Wraith&#39;s Stealth work</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70546,
+      "name": "dwetuski",
+      "username": "dwetuski",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/3e96dc/{size}.png",
+      "created_at": "2013-08-12T16:59:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>I'd like to make the distinction between  <em>would be dealt</em>  and  <em>is dealt</em> , but that doesn't seem to be about timing as much as grammar, I could be wrong there, at which point anything worded  <em>is dealt</em>  would not be allowed before redirection trigger timing occurs.</p>\n</blockquote>\n</aside>\n<p>I've just completed a survey of all hero cards looking for redirect effects and found 10: Alchemical Redirection,&nbsp;  Amulet of the Elder Gods, Divine Sacrifice, Driving Mantis,&nbsp;  Enduring Intercession,&nbsp;  Lead from the Front,&nbsp;  Smoke Bombs,&nbsp;  Stealth Bot,&nbsp;  Synaptic Interruption, and Wrest the Mind. &nbsp;8 of those use the phrase \"would be\", and those 7 also describe the targets the damage gets redirected from in some way. &nbsp;The 2 cards that do not use the phrase \"would be\" are Divine Sacrifice and Wrest the Mind, which do not describe the original target of the damage to be redirected. &nbsp;  Given the clear consistency of this pattern, I think it's safe to say that the choice of wording is deliberate.</p>\n<p>So, here's how I think the order should be:</p>\n<ol>\n<li>\n<p>Damage is declared, which constitutes determining the original amount, type, source, and target of the damage.</p>\n</li>\n<li>\n<p>Damage increases/reductions that affect damage dealt by a source are applied.</p>\n</li>\n<li>\n<p>Damage \"is dealt\" by the source  , at which point one or more of the 2 redirect effects might modify the target.</p>\n</li>\n<li>\n<p>Damage \"would be dealt\" to the target, at which point one or more of the 8   redirect effects might modify the target.</p>\n</li>\n<li>\n<p>Immunity may cancel the damage entirely, ending the sequence immediately.</p>\n</li>\n<li>\n<p>Damage increases/reductions that affect damage dealt to a target are applied.</p>\n</li>\n<li>\n<p>The target's hp is reduced.</p>\n</li>\n</ol>\n<p>Edit: Upon further consideration, I have no opinion on whether 3 and 4 should be 2 different steps or on what their order should be. &nbsp;But, I think it's clear that damage is not dealt to a target that it's redirected from, so damage modifers that depend on a target being dealt damage shouldn't in any way apply before damage is redirected.</p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.718Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "dwetuski",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"phantaskippy\"]\n I&#39;d like to make the distinction between  <em>would be dealt</em>  and  <em>is dealt</em> , but that doesn&#39;t seem to be about timing as much as grammar, I could be wrong there, at which point anything worded  <em>is dealt</em>  would not be allowed before redirection trigger timing occurs.  \n[/quote]\n \n\n I&#39;ve just completed a survey of all hero cards looking for redirect effects and found 10: Alchemical Redirection,&nbsp;  Amulet of the Elder Gods, Divine Sacrifice, Driving Mantis,&nbsp;  Enduring Intercession,&nbsp;  Lead from the Front,&nbsp;  Smoke Bombs,&nbsp;  Stealth Bot,&nbsp;  Synaptic Interruption, and Wrest the Mind. &nbsp;8 of those use the phrase &quot;would be&quot;, and those 7 also describe the targets the damage gets redirected from in some way. &nbsp;The 2 cards that do not use the phrase &quot;would be&quot; are Divine Sacrifice and Wrest the Mind, which do not describe the original target of the damage to be redirected. &nbsp;  Given the clear consistency of this pattern, I think it&#39;s safe to say that the choice of wording is deliberate. \n\n So, here&#39;s how I think the order should be: \n\n 1) Damage is declared, which constitutes determining the original amount, type, source, and target of the damage. \n\n 2) Damage increases/reductions that affect damage dealt by a source are applied. \n\n 3) Damage &quot;is dealt&quot; by the source  , at which point one or more of the 2 redirect effects might modify the target. \n\n 4) Damage &quot;would be dealt&quot; to the target, at which point one or more of the 8   redirect effects might modify the target. \n\n5) Immunity may cancel the damage entirely, ending the sequence immediately.\n\n6) Damage increases/reductions that affect damage dealt to a target are applied.\n\n7) The target&#39;s hp is reduced.\n\nEdit: Upon further consideration, I have no opinion on whether 3 and 4 should be 2 different steps or on what their order should be. &nbsp;But, I think it&#39;s clear that damage is not dealt to a target that it&#39;s redirected from, so damage modifers that depend on a target being dealt damage shouldn&#39;t in any way apply before damage is redirected.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5108,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 70547,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-08-12T17:27:00.000Z",
+      "cooked": "<p>Damage delt is always a result of HP loss though. I would switch your steps 2 and 3.&nbsp;</p><p>Look at how Divine Sacrifice and Wrest the Mind and what they actually do. Going by to my car/road analogy, the bulk of the redirection effects move the \"road\" that the damage travels down. Divine Sacrifice and Wrest the Mind, in a sense, build the roads instead of moving them. I believe this is the reason for the would be dealt wording.</p><p>In my GUI analogy, the hero (be it Fanatic or Visionary) choose which target the villain/enviro will initially \"highlight\" for its attack. With the others, the highlighting has been done and selected, but gets redirected after the fact.</p><p>For Visionary and Fanatic in this example, damage modifiers to the base value have no impact on the eligibility of the redirection. However, for the others, modifiers can have an impact on the effect. Like Mantis for example can't redirect an instance of damage over 2 which is calculated after modifiers, and no one can redirect damage if they would reduce it to 0 or if they are immune to damage.&nbsp;</p><p>The difference is slight, but important, as the timing is quite different.</p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:49:26.804Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8506,
+      "topic_slug": "does-stored-reduction-last-past-a-redirection",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Damage delt is always a result of HP loss though. I would switch your steps 2 and 3.&nbsp;</p><p>Look at how Divine Sacrifice and Wrest the Mind and what they actually do. Going by to my car/road analogy, the bulk of the redirection effects move the &quot;road&quot; that the damage travels down. Divine Sacrifice and Wrest the Mind, in a sense, build the roads instead of moving them. I believe this is the reason for the would be dealt wording.</p><p>In my GUI analogy, the hero (be it Fanatic or Visionary) choose which target the villain/enviro will initially &quot;highlight&quot; for its attack. With the others, the highlighting has been done and selected, but gets redirected after the fact.</p><p>For Visionary and Fanatic in this example, damage modifiers to the base value have no impact on the eligibility of the redirection. However, for the others, modifiers can have an impact on the effect. Like Mantis for example can&#39;t redirect an instance of damage over 2 which is calculated after modifiers, and no one can redirect damage if they would reduce it to 0 or if they are immune to damage.&nbsp;</p><p>The difference is slight, but important, as the timing is quite different.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

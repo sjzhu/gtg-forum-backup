@@ -1,0 +1,1947 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 62910,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2013-09-02T12:58:31.000Z",
+        "cooked": "<p>So let's start at the beginning. Is the order the following\"</p><p>1) Play a card.</p><p>2) Triggers on cards being played</p><p>3) Card (text) enters play</p><p>If this is true, then when a card says play a card, it is completeld on step #1, is resolved, and goes to the trash. However, we know for a fact that this isn't true. The Negative Energy Field ruling says that it can hit the target that was just played. This wouldn't be possible unless its hp is in the game. Now you could agrue that hp and the text are different, but I will bring up the point that Spiff brings up constantly, \"where has it ever been said that a card and its text come into play at different times?\" Furthermore, can HTR hit a card with damage reduction or immunity? If you say that the text comes in later, then no, but this doesn't make much sense.</p><p>So now we have to understand what is going on. Every card has 2 types of text, static modifires (name, hp, type, damage increase/decrease, etc.) and trigers. All static modifiers are in place all the time, and come into effect the moment they enter play. Triggers always have something that triggers them. With Equipment and Ongoings, the trigger will be written explicitly, with One-Shots, the trigger is being played. Keep in mind though, that if triggers happen at the same time, you go in card play order.</p><p>So let's say you have 1 hp left with NEF in play, and you want to play Suture Self. Here is how it will look:</p><p>1) Play Suture.</p><p>2) Look for triggers, we have two: 1) Suture, 2) NEF. They will both trigger now, so we go in card play order.</p><p>2a) NEF hits for 1.</p><p>2b) Would have been Suture, but poor Wraith is incapped.</p><p>Now we know that trigers interrupt all actions, so inherently, the card itself has its own triggers and needs to finish resolving before the first card goes to the trash. We never see anywhere that you delay a trigger to resolve a different action.</p><p>And it is resolving an action. As part of the nature of One-Shots, it has 3 elements to it.</p><p>1) Put it in play.</p><p>2) Triggers the text.</p><p>3) Move to the trash.</p><p>Since this is inherent to every One-Shot, you do not need to say \"move to the trash\" on every single card (look at a whole bunch of Environment cards for when it does need to say \"destroy this card\" because they aren't One-Shots). This is the nature of One-Shots. Also, don't get hung up on it saying \"move to the trash\" and not destroy, because the cards aren't destroyed, and, therefore, not affected by Fixed Point, Ammo Drop, etc. Therefore, \"moving to the trash\" is the final step of the card, and its resolution. You do not resolve the card until the card it played is resoved, which includes playing the card and activating its text.</p><p>On a completely separate note, I am not sure why everyone is interepretting \"play a card\" as defining a separate step. There are sevearl good reasons why it is worded this way, and it is to distinguish from other cases, not to define a step.</p><p>\"play a card from the top\" vs \"take from trash\" - Here the emphasis is on where the card is coming from.</p><p>\"play a card\" vs \"reveal a card\" - This purposely gets around certain rules (e.g. Timeshift).</p><p>\"play a card\" vs \"entering play\" - \"Entering play\" is a more general and inclusive term. If HTR only said \"when a target is played\" it would not hit anything coming from the trash. I think the difference here is to be more inclusive, not to define a separate step.</p>",
+        "post_number": 71,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.063Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62911,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-09-02T15:04:19.000Z",
+        "cooked": "<p>Pydro, I don't actually know if we agree or not.</p><blockquote><p>So let's start at the beginning. Is the order the following\"</p><p>1) Play a card.</p><p>2) Triggers on cards being played</p><p>3) Card (text) enters play</p></blockquote><p>I disagree that a text doesn't enter play, I say it does, but it has to wait its turn to act. &nbsp;The text has to be activated. &nbsp;HP, Targets, all these static modifiers that don't have to be activated of course are live as soon as they hit the field, which is why the &gt;G guys have to reconsider Hairtrigger vs. Fowl cards, since the current rulings would cause the fowl card not to play anyother fowl cards when Hairtrigger kills it. &nbsp;The target enters play, triggering its text to activate and Hairtrigger, since Hairtrigger was out first it activates first and kills the Fowl card. &nbsp;As we know when you destroy a card mid-activation it doesn't get to finish. &nbsp;The fact that this is a problem they have to look into pretty much validates this process.</p><p>Just like any card order ruling, all the text is in play, and it all qeues up to act in the order the cards entered play.</p><blockquote><p>So let's say you have 1 hp left with NEF in play, and you want to play Suture Self. Here is how it will look:</p><p>1) Play Suture.</p><p>2) Look for triggers, we have two: 1) Suture, 2) NEF. They will both trigger now, so we go in card play order.</p><p>2a) NEF hits for 1.</p><p>2b) Would have been Suture, but poor Wraith is incapped.</p></blockquote><p>I agree with this, I think it is pretty standard with current rulings.</p><blockquote><p>And it is resolving an action. As part of the nature of One-Shots, it has 3 elements to it.</p><p>1) Put it in play.</p><p>2) Triggers the text.</p><p>3) Move to the trash.</p></blockquote><p>Also agree with this. &nbsp;(although I use activate the text as trigger seems to lead to other conclusions)</p><blockquote><p><span>Therefore, \"moving to the trash\" is the final step of the card, and its resolution. You do not resolve the card until the card it played is resoved, which includes playing the card and activating its text.</span></p></blockquote><p>I don't know where this is coming from, it doesn't seem to follow from your arguments.</p><blockquote><p><span>On a completely separate note, I am not sure why everyone is interepretting \"play a card\" as defining a separate step.&nbsp;</span></p></blockquote><p>It is only a seperate step in the sense that when a card deals damage to every target each target being dealt damage is a seperate step.</p><p>It only matters because of the definitions, a card is played when it enters play, then its text activates. &nbsp;That is a seperate step for the purposes of resolving any effect that activates when a card enters play. &nbsp;The effects would be simultaneous and are resolved by card order.</p><p>&nbsp;</p>",
+        "post_number": 72,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.157Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62912,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2013-09-02T16:08:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<blockquote>\nTherefore, \"moving to the trash\" is the final step of the card, and its resolution. You do not resolve the card until the card it played is resoved, which includes playing the card and activating its text.\n</blockquote>\nI don't know where this is coming from, it doesn't seem to follow from your arguments.\n</blockquote>\n</aside>\n<p>My point here was a response to your comment about the card not being fully resolved. The card isn't fully resolved once another card is played, but rather it is fully resolved once it finishes its last inherent step, \"moving to the trash.\" As with all other triggers, you completely resolve the previous once, before finishing the first one. If let's say there was another line after \"play a card,\" you would still activate the card fully before going on to the next action. So too here, you fully resolve the card before going to the final step, \"moving to the trash.\"</p>\n<p>Maybe I am not understanding you. I thought you were saying the following:</p>\n<p>We have 3 steps:</p>\n<ol>\n<li>\n<p>Play a card.</p>\n</li>\n<li>\n<p>Triggers on \"play a card\"</p>\n</li>\n<li>\n<p>Activate the original card.</p>\n</li>\n</ol>\n<p>Since these are 3 separate steps, when a card says play a villain card, it is completed after step one. So it would look like sometihng like this:</p>\n<ol>\n<li>\n<p>Play a card.</p>\n</li>\n<li>\n<p>Discard original card.</p>\n</li>\n<li>\n<p>Triggers on \"play a card\"</p>\n</li>\n<li>\n<p>Activate the played card.</p>\n</li>\n</ol>\n<p>I was responding to this interpretation. I don't think it can work like this, because playing a card and its text activation would inherently be connected. In my opinion, there are 2 possible interpretations. 1) Playing a card and activating its text are intrinsically connected, so taht play a card = activate its text. If so, you would activate the text before discarding the original card, since its text of \"play a card\" wasn;t full resolved. 2) T he text is triggered on its own play. If the text is \"triggered,\" you would still resolve the triggered ability before going to the last step of \"moving to the trash,\" since we always stop play to fulfill triggers. (This makes the most sense.)</p>\n<p>&nbsp;</p>",
+        "post_number": 73,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.245Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62913,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-09-02T17:37:32.000Z",
+        "cooked": "<p>OK, I think I get our disagreement here.</p><blockquote><p><span>My point here was a response to your comment about the card not being fully resolved. The card isn't fully resolved once another card is played, but rather it is fully resolved once it finishes its last inherent step, \"moving to the trash.\"</span></p></blockquote><p>To me the effect of moving to the trash is not from the card itself, but a static \"on the board\" effect from the rule book, so instead of being intrinsic to the card like an additional line of text, it is a response to the resolution of text that sends the card to the trash.</p><p>This is why I say it is a timing question that needs an official answer.</p><p>It can be seen as a trigger that responds to the resolution of the card, and thus would have interruption power, or like you argue the timing of an additional line of text that wouldn't interrupt at all, but wait in line to activate.</p><p>I can see it coming down both ways, but we don't have any ruling on the type of effect intfinsic rules have.</p><p>My argument is that a One-Shot coming into play activating its text and a One-Shot finished having effect going to the trash have the same origin for their happening, the rule book. &nbsp;It seems to me that they would have the same timing as any rulebook rule, which includes a target reaching 0hp being destroyed, which can take place in the middle of an action, interrupting a card text becasue its condition is reached.</p><p>We do this with Beebot and sonic mine all the time, a condition is reached that a target hits zero HP, and the rule book interrupts whatever else is happening and destroys that card. &nbsp;You can end up with multiple chains where sonic mine is triggered, and then beebot is triggered, etc.</p><p>So to a One-Shot entering play activating text is a rule-book trigger.</p><p>I argue that a One-Shot resolved going to the trash is the same timing, and would tie with the one-shot text activating, and resolve by card order. &nbsp;</p>",
+        "post_number": 74,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.341Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62914,
+        "name": "Katsue",
+        "username": "Katsue",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/katsue/{size}/2012_2.png",
+        "created_at": "2013-09-02T21:19:00.000Z",
+        "cooked": "<p>Card order is irrelevant for Run and Gun (and any similar effects), as Run and Gun can't be considered to have finished resolving until the card played by it has fully resolved.</p>",
+        "post_number": 75,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.416Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 10.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Katsue",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 647,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-08-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62915,
+        "name": "j1hopki1",
+        "username": "j1hopki1",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/58f4c7/{size}.png",
+        "created_at": "2013-09-06T17:36:11.000Z",
+        "cooked": "<p>Turn 2, Four Heroes,&nbsp;Infinte Damage (three targets). Scholar, Ra, Absolute Zero, and Rook City Wraith in the Time Cataclysm.</p><p>Turn 1: Villain does their thing.</p><p>Turn 2: Scholar goes first and&nbsp;plays Don't Dismiss Anything (I think DDA doesn't depend on turn order)</p><p>Ra reveals Imbued Fire from his deck and puts it into play.</p><p>Absolute Zero reveals Isothermic Transducer and puts it into play.</p><p>Scholar reveals Proverbs and Axioms from his deck and puts it into play (I don't think P&amp;A depends on turn order)</p><p>Note that Wraith has not used the effect from DDA, yet.</p><p>Scholar heals for 2.</p><p>Rook City Wraith takes three damage and uses her innate power to reveal Fixed Point from the Environment deck and put it into play.</p><p>Absolute Zero takes 3 damage to use a power. Imbue Fire changes it to fire and boosts it to 4.</p><p>&nbsp; Since AZ took&nbsp;4 fire he now deals 1 target&nbsp;4 cold. He chooses to hit himself again. Imbue Fire changes it to fire and boosts it to 5.</p><p>&nbsp;&nbsp;&nbsp; Since AZ took&nbsp;5 fire he now deals 1 target&nbsp;5 cold. He chooses to hit himself again. Imbue Fire changes it to fire and boosts it to 6.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since AZ took&nbsp;6 fire he now deals 1 target 6 cold. He chooses to hit himself again. Imbue Fire changes it to fire and boosts it to 7.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...</p><p>AZ keeps doing that even after he goes into the negative HP since Fixed Point keeps him alive. Once he gets a big enough blast ready he hits one target with it for like 1000 damage. He can then do the same thing with the damage he takes from his power and the damage he takes from Ra for a total of 3 targets.</p><p>Now that Proverbs and Axioms has resolved we finish the effect from Don't Dismiss Anything. Wraith reveals Grappling Hook from her deck and puts it into play destroying Fixed Point. The three targets and AZ vaporize in an isolated supernova.</p>",
+        "post_number": 76,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.474Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "j1hopki1",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 992,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62916,
+        "name": "BlueHairedMeerkat",
+        "username": "BlueHairedMeerkat",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+        "created_at": "2013-09-06T17:54:11.000Z",
+        "cooked": "<p>Chuck in a second DDA and (with Ra and AZ playing damage-dealers) you can take out five targets, allowing you to ruin the Ennead.</p>",
+        "post_number": 77,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.556Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "BlueHairedMeerkat",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2023,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62917,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-09-06T18:02:38.000Z",
+        "cooked": "<p>You are correct, P&amp;A is heroes choice as to order, I can't find any mistakes, so you win at least one timeline of the Multiverse.</p>",
+        "post_number": 78,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.621Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62918,
+        "name": "Snail Shell",
+        "username": "Snail_Shell",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/eada6e/{size}.png",
+        "created_at": "2013-09-06T19:23:24.000Z",
+        "cooked": "<p>To date, our shortest game was Legacy, Haka, Ra, and The Scholar against Ambuscade.&nbsp; It didn't go three rounds.</p>",
+        "post_number": 79,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.692Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Snail Shell",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5367,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62919,
+        "name": "j1hopki1",
+        "username": "j1hopki1",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/58f4c7/{size}.png",
+        "created_at": "2013-09-06T20:12:13.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Snail Shell\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Snail Shell:</div>\n<blockquote>\n<p>To date, our shortest game was Legacy, Haka, Ra, and The Scholar against Ambuscade.&nbsp; It didn't go three rounds.</p>\n</blockquote>\n</aside>\n<p>Yeah, does anyone have examples of their fastest real life game?</p>",
+        "post_number": 80,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.773Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "j1hopki1",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 992,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62920,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-09-06T21:04:48.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"j1hopki1\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/j/58f4c7/48.png\" class=\"avatar\"> j1hopki1:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Snail Shell wrote:</b><br><blockquote>To date, our shortest game was Legacy, Haka, Ra, and The Scholar against Ambuscade.&nbsp; It didn't go three rounds.\n&nbsp;\n</blockquote></div>\nYeah, does anyone have examples of their fastest real life game?\n</blockquote>\n</aside>\n<p>Dying to Iron Legacy turn 6, his turn to start round two we all died.</p>\n<p>Fastest Win was also IL, he nuked down Fanatic and round 2, I think third hero of four she Retributioned him to death. &nbsp;That would be 9 turns, second round.</p>",
+        "post_number": 81,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.850Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62921,
+        "name": "Theta_Sigma",
+        "username": "Theta_Sigma",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/theta_sigma/{size}/1929_2.png",
+        "created_at": "2013-09-07T01:03:38.000Z",
+        "cooked": "<p>I've never seen our group have a game with Iron Legacy that's gone more than 3 rounds, no matter the outcome.</p>",
+        "post_number": 82,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.922Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Theta_Sigma",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4792,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-06-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62922,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2013-09-07T02:28:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Theta_Sigma\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/theta_sigma/48/1929_2.png\" class=\"avatar\"> Theta_Sigma:</div>\n<blockquote>\n<p>I've never seen our group have a game with Iron Legacy that's gone more than 3 rounds, no matter the outcome.</p>\n</blockquote>\n</aside>\n<p>We had one really long one, it involved Legacy getting set up to tank right off the bat and the rest of us losing our cards all the time.</p>",
+        "post_number": 83,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:39.994Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62923,
+        "name": "Reckless",
+        "username": "Reckless",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/reckless/{size}/2467_2.png",
+        "created_at": "2013-09-07T05:27:47.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Theta_Sigma\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/theta_sigma/48/1929_2.png\" class=\"avatar\"> Theta_Sigma:</div>\n<blockquote>\n<p>I've never seen our group have a game with Iron Legacy that's gone more than 3 rounds, no matter the outcome.</p>\n</blockquote>\n</aside>\n<p>Attaching a Twist the Ether to Legacy can really slow down a game with all of his snow cone punches that kiss Absolute Zero's sleek, reflective face.</p>",
+        "post_number": 84,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.060Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Reckless",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 422,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-17",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62924,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2013-09-07T13:29:44.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"j1hopki1\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/j/58f4c7/48.png\" class=\"avatar\"> j1hopki1:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Snail Shell wrote:</b><br><blockquote>To date, our shortest game was Legacy, Haka, Ra, and The Scholar against Ambuscade.&nbsp; It didn't go three rounds.\n&nbsp;\n</blockquote></div>\nYeah, does anyone have examples of their fastest real life game?\n</blockquote>\n</aside>\n<p>This is perhaps not a proper example, as it happened during playtesting of Rook City such that the cards were not as they are today. Jaymann can maybe help my memory, but we were playing against the Matriarch in the Pike Industrial Complex and on the first round some combination of boosts to all damage followed by something from the environment destroying a bunch of fowl followed by a Darken the Skies meant that all of the heroes went down on Matriarch's second turn.</p>",
+        "post_number": 85,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.138Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62925,
+        "name": "pppery",
+        "username": "pppery",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/p/3d9bf3/{size}.png",
+        "created_at": "2013-09-07T19:53:58.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"pppery\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/p/3d9bf3/48.png\" class=\"avatar\"> pppery:</div>\n<blockquote>\n<div><b>pppery wrote:</b><br><blockquote>&nbsp;TCP wrote:<br><blockquote>&nbsp;pppery wrote:<br><blockquote>&nbsp;TCP wrote:<br><blockquote>Let's see, if Chrono-Ranger plays By Any Means, Argent Adept boosts Akash'Butha's attack, Rook City Wraith draws an Obsidian Field, and the Visionary plays Twist the Ether, that'd add 48 points of damage. Can more be done?&nbsp;&nbsp;&nbsp;\n&nbsp;\n</blockquote>\nGetting out by any by any means with a sudden contract, or chaining eyes-on-the-prize\n</blockquote>\nWouldn't work, Akash has three layers of Mountainous Carapace to get through.\n</blockquote>\nAdd the following two heroes to the chain(in this order, before chrono-ranger and fanatic):Argent-adept, mister fixerVillan turn:After chainging three primeval eruptionas to get all the limbs, the villan plays a disrupt the field and then any card.The environment play of disrupt the field is a fixed point.Argents turn: Argent adept plays Alacratous subdominant, then uses his power to activate the perform of it, letting mister fixer play a card, riveting crane(the style that makes damage to a target that mr fixer attacked irreducible)Mr fixer's turn:Mr fixer plays alternating tiger claw(the style that makes mr fixer's damage irreducible). You would think this would be pointless, but remember fixed point...Mr fixer then strikes, dealing one irreducible damage to ab. This then makes damage to ab irreducible.Now the remaining heroes can hit ab with one damage as often as they please.&nbsp;To make up for some of the buffs to ab that you suggested, add the scholar(between fixer and cr)Scholar's turn: Scholar plays Don't Dismiss anything;Argent gets out Xu's bell(if i have the type of the songs correctly)Scholar gets another Don't dismiss anything:Argent gets out Syncopated onslaughtScholar gets out Proverbs and Axioms:Argent uses the power of xu's bell:Perform:buff another hero and ab(Syncopated onslought)Accompany:You may use a power now. If you do, destroy this card(Alacratous subdominant)Argent adept chooses to use her base power, vocalize(activate a perform)Perform:buff another hero and ab again(Syncopated onslought)Note: i actually don't have the scholar i am simply using it off of my understanding of it from other forum posts.Can you expand the scholar chain more, so argent can buff ab a third time?(Heroes:Fixer, Chrono-ranger, Fanatic, Scholar, argent)Can you emit so much extra damage that this method is better?(Hint: The fixer strike combo adds three damage because the carapaces don't protect ab from hitting herself when they are destroyed.\n</blockquote></div>\nActually, if we rearange the heroes(mr fixer after scholar, instead of before) then argent can buff ab yet a third timeNew sequenceVillian turn:the same\n<p>Argents turn:</p>\n<p>Argent plays   Syncopated onslaught  (Instead of alacratous subdominant), and then uses his power to  buff ab (instead of letting mr fixer play a card)</p>\n<p>Scholars turn:</p>\n<p>Filling in more blanks in the dde chain:</p>\n<p>First dde:</p>\n<p>Mr fixer gets out alternating tiger claw , argent gets out  Alacratous subdominant (Instead ofsyncopated onsolought)</p>\n<p>Second dde: Mr fixer gets out riveting crane , argent gets out xu's bell</p>\n<p>Proverbs:unchanged</p>\n<p>You can't get a fourth because there are only two wasy for argent to activate the perform of a rythym</p>\n</blockquote>\n</aside>\n<p>Wait!</p>\n<p>If you replace chrono-ranger with omni-x after everyone else, argent can buff ab <span class=\"bbcode-b\"> <span style=\"font-size:15%\">five</span> </span> times, and he can even destroy all the limps, so end of days isn't necessary!one turn sooner win!You can also then remove fanatic, making a fifth turn win!</p>\n<p>All previous turns :unchanged</p>\n<p>Omni-x's turn:</p>\n<p>Omni-x's plays from the don't dismiss anything are two diffrent 4-type platings.</p>\n<p>On his turn, Omni-x plays the defensive blast, then timeshifts the scholar, getting out a second proverbd and axioms(if there are two of them, remember, i don't have the scholar), argent buffs ab&nbsp; and omni-x twice, using the same method explained in my first quoted post. Omni-x uses the defensive blast to hit for <span style=\"font-size:20%\">48</span>!!!</p>",
+        "post_number": 86,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.225Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "pppery",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1137,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62926,
+        "name": "pppery",
+        "username": "pppery",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/p/3d9bf3/{size}.png",
+        "created_at": "2013-09-07T19:53:59.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"pppery\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/p/3d9bf3/48.png\" class=\"avatar\"> pppery:</div>\n<blockquote>\n<div><b>pppery wrote:</b><br><blockquote>&nbsp;TCP wrote:<br><blockquote>&nbsp;pppery wrote:<br><blockquote>&nbsp;TCP wrote:<br><blockquote>Let's see, if Chrono-Ranger plays By Any Means, Argent Adept boosts Akash'Butha's attack, Rook City Wraith draws an Obsidian Field, and the Visionary plays Twist the Ether, that'd add 48 points of damage. Can more be done?&nbsp;&nbsp;&nbsp;\n&nbsp;\n</blockquote>\nGetting out by any by any means with a sudden contract, or chaining eyes-on-the-prize\n</blockquote>\nWouldn't work, Akash has three layers of Mountainous Carapace to get through.\n</blockquote>\nAdd the following two heroes to the chain(in this order, before chrono-ranger and fanatic):Argent-adept, mister fixerVillan turn:After chainging three primeval eruptionas to get all the limbs, the villan plays a disrupt the field and then any card.The environment play of disrupt the field is a fixed point.Argents turn: Argent adept plays Alacratous subdominant, then uses his power to activate the perform of it, letting mister fixer play a card, riveting crane(the style that makes damage to a target that mr fixer attacked irreducible)Mr fixer's turn:Mr fixer plays alternating tiger claw(the style that makes mr fixer's damage irreducible). You would think this would be pointless, but remember fixed point...Mr fixer then strikes, dealing one irreducible damage to ab. This then makes damage to ab irreducible.Now the remaining heroes can hit ab with one damage as often as they please.&nbsp;To make up for some of the buffs to ab that you suggested, add the scholar(between fixer and cr)Scholar's turn: Scholar plays Don't Dismiss anything;Argent gets out Xu's bell(if i have the type of the songs correctly)Scholar gets another Don't dismiss anything:Argent gets out Syncopated onslaughtScholar gets out Proverbs and Axioms:Argent uses the power of xu's bell:Perform:buff another hero and ab(Syncopated onslought)Accompany:You may use a power now. If you do, destroy this card(Alacratous subdominant)Argent adept chooses to use her base power, vocalize(activate a perform)Perform:buff another hero and ab again(Syncopated onslought)Note: i actually don't have the scholar i am simply using it off of my understanding of it from other forum posts.Can you expand the scholar chain more, so argent can buff ab a third time?(Heroes:Fixer, Chrono-ranger, Fanatic, Scholar, argent)Can you emit so much extra damage that this method is better?(Hint: The fixer strike combo adds three damage because the carapaces don't protect ab from hitting herself when they are destroyed.\n</blockquote></div>\nActually, if we rearange the heroes(mr fixer after scholar, instead of before) then argent can buff ab yet a third timeNew sequenceVillian turn:the same\n<p>Argents turn:</p>\n<p>Argent plays   Syncopated onslaught  (Instead of alacratous subdominant), and then uses his power to  buff ab (instead of letting mr fixer play a card)</p>\n<p>Scholars turn:</p>\n<p>Filling in more blanks in the dde chain:</p>\n<p>First dde:</p>\n<p>Mr fixer gets out alternating tiger claw , argent gets out  Alacratous subdominant (Instead ofsyncopated onsolought)</p>\n<p>Second dde: Mr fixer gets out riveting crane , argent gets out xu's bell</p>\n<p>Proverbs:unchanged</p>\n<p>You can't get a fourth because there are only two wasy for argent to activate the perform of a rythym</p>\n</blockquote>\n</aside>\n<p>Wait!</p>\n<p>If you replace chrono-ranger with omni-x after everyone else, argent can buff ab <span class=\"bbcode-b\"> <span style=\"font-size:15%\">five</span> </span> times, and he can even destroy all the limps, so end of days isn't necessary!one turn sooner win!You can also then remove fanatic, making a fifth turn win!</p>\n<p>All previous turns :unchanged</p>\n<p>Omni-x's turn:</p>\n<p>Omni-x's plays from the don't dismiss anything are two diffrent 4-type platings.</p>\n<p>On his turn, Omni-x plays the defensive blast, then timeshifts the scholar, getting out a second proverbd and axioms(if there are two of them, remember, i don't have the scholar), argent buffs ab&nbsp; and omni-x twice, using the same method explained in my first quoted post. Omni-x uses the defensive blast to hit for <span style=\"font-size:20%\">48</span>!!!</p>",
+        "post_number": 87,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.346Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "pppery",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1137,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62927,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2013-09-09T19:14:44.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"arenson9\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png\" class=\"avatar\"> arenson9:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>j1hopki1 wrote:</b><br><blockquote>&nbsp;Snail Shell wrote:<br><blockquote>To date, our shortest game was Legacy, Haka, Ra, and The Scholar against Ambuscade.&nbsp; It didn't go three rounds.&nbsp;\n&nbsp;\n</blockquote>\nYeah, does anyone have examples of their fastest real life game?\n</blockquote></div>\nThis is perhaps not a proper example, as it happened during playtesting of Rook City such that the cards were not as they are today. Jaymann can maybe help my memory, but we were playing against the Matriarch in the Pike Industrial Complex and on the first round some combination of boosts to all damage followed by something from the environment destroying a bunch of fowl followed by a Darken the Skies meant that all of the heroes went down on Matriarch's second turn.\n</blockquote>\n</aside>\n<p>Ah yes, this was back when one of the cards Pike Industrial Compex reduced the maximum HP of all targets (or at least all non-environment targets) by one, thus having fowl cards enter play at zero HP, causing self destruction of a very long bird chain, followed then by a Darken the Skies placing them all back into play to explode again.&nbsp; After the proper release they reworded the card to no longer affect the maximum HP of targets, then later the Enhanced Edition did the same for the original release.</p>",
+        "post_number": 88,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.440Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62928,
+        "name": "pppery",
+        "username": "pppery",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/p/3d9bf3/{size}.png",
+        "created_at": "2013-09-10T01:37:29.000Z",
+        "cooked": "<p>However that chain can stuill happen witth suprise shopping trip</p>",
+        "post_number": 89,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.515Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "pppery",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1137,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62929,
+        "name": "Envisioner",
+        "username": "Envisioner",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+        "created_at": "2013-09-30T10:49:27.000Z",
+        "cooked": "<p>Last Wednesday I beat Baron Blade in 4 rounds.&nbsp; I was playing on Advanced with 5 players, so there was a realistic possibility of Terralunar Impulsion, but Blade didn't manage to luck into that, and my team included Legacy and he got Inspiring Presence, as well as Tempest and the Scholar.&nbsp; The heroes fired on all cylinders, and Blade went down in one round after flipping thanks to Tempest's Shackles and Lightning Storm, Scholar's Proverbs and Axioms, and Haka's Rampage.&nbsp; Chrono-Ranger rounded out the group; he didn't do an awful lot, but when you're firing 1-damage shots twice a turn and have at one point TWO Galvanizes and Inspiring Presence stacked on you, you don't need&nbsp; your own really good combos to work.&nbsp; I believe it wasn't even to the second hero's turn on round 4 before Blade's 30 HP ran out, even with a Living Force Field and his Advanced reduction.&nbsp; Tempest got a Lightning Slash on the last round and that was that.&nbsp; We didn't even get any real help from the Environment.</p>",
+        "post_number": 90,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.574Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Envisioner",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5332,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62930,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2013-10-22T22:58:17.000Z",
+        "cooked": "<p>Hello future forumites reading old threads, do we have hover cars yet?</p>\n<p>The Run&amp;Gun/Quick Stim Patch question was asked and answered of Christopher in person, you can find the ruling <a href=\"https://greaterthangames.com/forum/topic/text-on-cards-play-a-card-4289\" data-bbcode=\"true\" rel=\"noopener nofollow ugc\">here</a></p>\n<p>&nbsp;</p>",
+        "post_number": 91,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.656Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/forum/topic/text-on-cards-play-a-card-4289",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62931,
+        "name": "Reckless",
+        "username": "Reckless",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/reckless/{size}/2467_2.png",
+        "created_at": "2013-10-22T23:01:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>Hello future forumites reading old threads, do we have hover cars yet?The Run&amp;Gun/Quick Stim Patch question was asked and answered of Christopher in person, you can find the ruling <a href=\"https://greaterthangames.com/forum/topic/text-on-cards-play-a-card-4289\" rel=\"noopener nofollow ugc\">here</a></p>\n</blockquote>\n</aside>\n<p>Thank goodness!&nbsp; I always had a bad habit of drawing a Run and Gun into a Quick Stim Patch into a Run and Gun into a Quick Stim Patch into a-(at this point someone usually snatches the deck away from me and plays a card that doesn't have a \"Play the top card of the villain deck\" as a rider).<br><br>Take that, Ambuscade!</p>",
+        "post_number": 92,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.723Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Reckless",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 422,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-17",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 62932,
+        "name": "Ameena",
+        "username": "Ameena",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+        "created_at": "2013-10-22T23:05:56.000Z",
+        "cooked": "<p>The other one that can be nasty for that is...Diversionary Tactics, I think it's called. One of Miss Information's cards. Akash'Bhuta's Primeval Eruption can be a funny one too. Or Disrupt the Field playing a Primeval Eruption which plays another Primeval Eruption (yes I've had that happen ;)).</p>",
+        "post_number": 93,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:39:40.790Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 7925,
+        "topic_slug": "the-shortest-possible-game",
+        "display_username": "Ameena",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1117,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-10-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 7925
+}

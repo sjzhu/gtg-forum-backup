@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": 16442,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2017-04-01T00:24:49.000Z",
+      "cooked": "<p>Handelabra has now protected the game against overflow and underflow errors. &nbsp;No longer can you give AZ 2 billion health. &nbsp;I am both slightly sad and rather gleeful, because I'm guessing that this is almost entirely my fault. &nbsp;:D &nbsp;</p><p>&nbsp;</p><p>There are still some weirdnesses when you reach that level of damage, though. &nbsp;Damage modifiers can push the damage negative, and AZ refused to heal from Null-Point. The log claims that he was at maximum health (he was as far from maximum health as possible), but I think the problem was the negative damage amount.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:49:10.237Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 16441,
+      "topic_slug": "no-more-overflow",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Handelabra has now protected the game against overflow and underflow errors. &nbsp;No longer can you give AZ 2 billion health. &nbsp;I am both slightly sad and rather gleeful, because I&#39;m guessing that this is almost entirely my fault. &nbsp;:D &nbsp;</p><p>&nbsp;</p><p>There are still some weirdnesses when you reach that level of damage, though. &nbsp;Damage modifiers can push the damage negative, and AZ refused to heal from Null-Point. The log claims that he was at maximum health (he was as far from maximum health as possible), but I think the problem was the negative damage amount.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

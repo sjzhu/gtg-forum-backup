@@ -1,0 +1,343 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 21762,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2011-08-28T13:22:08.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;TheJayMann&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"TheJayMann\"\":</div>\n<blockquote>\n<p>So I created a chm based on what I’ve documented of the model thus far.  I can’t attach more than 192 KB at a time, so I have to provide a link.</p>\n<p><a href=\"http://www.mediafire.com/download.php?spb13h8khh8dp8h\">http://www.mediafire.com/download.php?spb13h8khh8dp8h</a></p>\n</blockquote>\n</aside>\n<p>I’m unfamiliar with this file format. When I try to open it (under Win7), I get a window that has a nice heiarchy on the left-hand-side with what  looks like a bunch of Class names, but attempting to click on any particular class just gives me: ‘Navigation to the web page was canceled’. What <em>should</em> be seeing? Is there some particular software I need?</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:55:50.195Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 5114,
+        "topic_slug": "im-bored",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 21763,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2011-08-28T13:29:45.000Z",
+        "cooked": "<p>Ah, I forgot to mention.</p>\n<p>CHM is Compiled HTML, it’s a new help file format to replace HLP.  However, starting with Windows XP SP2, Internet Explorer (and now Chrome, and maybe a few other browsers) set all files downloaded from the internet with an internet tag.  Various checks are performed by the system and applications if the tag is detected.  For EXE files, the system shows a dialog asking if you really want to run the application first, same with msiexec when an MSI is run.  When a ZIP file has the tag, every file extracted from the ZIP file has the same tag added on.  When hh sees that a CHM has the internet tag, all navigation attempts fail.  What you have to do is bring up the properties of the file (right cick → Properties, among other methods) and unblock the file.</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:55:50.281Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 5114,
+        "topic_slug": "im-bored",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 21764,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2011-08-28T16:35:12.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;TheJayMann&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"TheJayMann\"\":</div>\n<blockquote>\n<p>What you have to do is bring up the properties of the file (right cick → Properties, among other methods) and unblock the file.</p>\n</blockquote>\n</aside>\n<p>Excellent. That worked.</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:55:50.352Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 5114,
+        "topic_slug": "im-bored",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 21765,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2011-09-03T02:51:30.000Z",
+        "cooked": "<p>The first bit of actual code from the game engine to be made public.  I tried to document as well as I could.  Unfortunately, I can’t post in color (or, at least, it would take me a very long time to format it here similar to how it is in Visual Studio.<br>\n[font=courier]using System;<br>\nusing System.Collections.Generic;<br>\nusing System.Linq;</p>\n<p>namespace SotM.Utilities {</p>\n<pre><code>/// \n/// This trigger fires in response to group of triggers.\n/// \n/// \n/// The type of data passed from the trigger.\n/// \n/// \n/// This special trigger filter is used to automatically subscribe\n/// all responses subscribed to it to a number of other triggers,\n/// and responds to other triggers that fire when another trigger\n/// is created, allowing that trigger to automatically be added\n/// to the trigger list.\n/// \nsealed class CompositeTrigger : IObservable&gt;{\n\n    private ISet&gt; _Triggers;\n    private IList _Registers;\n\n    /// \n    /// Creates a new composite trigger.\n    /// \n    /// \n    /// A list of triggers to listen to.\n    /// \n    private CompositeTrigger(IEnumerable&gt; triggers) {\n        _Triggers = new HashSet&gt;(triggers);\n    }\n\n    /// \n    /// Creates a new composite trigger given a list of triggers,\n    /// a trigger to add triggers, and a converter to select\n    /// a trigger from the trigger.  Trigger trigger trigger\n    /// trigger.\n    /// \n    /// \n    /// The type of data passed when the update trigger is fired.\n    /// \n    /// \n    /// The list of triggers to initialize the composite trigger\n    /// with.\n    /// \n    /// \n    /// A trigger that is fired when a new trigger should be added\n    /// to the composite trigger.\n    /// \n    /// \n    /// A function which obtains the trigger to be added from the\n    /// data passed from the update trigger.\n    /// \n    /// \n    /// An autoupdated composite trigger.\n    /// \n    public CompositeTrigger Create(IEnumerable&gt; triggers, Trigger updateTrigger, Func&gt; triggerSelector){\n        var cTrigger = new CompositeTrigger(triggers);\n        updateTrigger.Subscribe(new Response(DateTime.Now.AddYears(-1)) { Next = u =&gt; cTrigger.AddTrigger(triggerSelector(u.Value)) });\n        return cTrigger;\n    }\n\n    /// \n    /// Adds a trigger to the composite trigger.\n    /// \n    /// \n    /// The trigger to add\n    /// \n    private void AddTrigger(Trigger trigger) {\n        // We want to register all current registers with the\n        // new trigger, but only if we haven't already registered\n        // with the trigger.\n        if (_Triggers.Add(trigger)) foreach (var register in _Registers) register.AddTrigger(trigger);\n        \n    }\n\n    /// \n    /// Registers a response with the composite trigger.  This in\n    /// turn registers the response to all the composed triggers\n    /// contained by the composite trigger.\n    /// \n    /// \n    /// The response to register\n    /// \n    /// \n    /// A registration object which can unregister from all\n    /// composed triggers when unregistered.\n    /// \n    public override IDisposable Subscribe(IObserver&gt; observer) {\n        // Convert observable to response, as we need an actual\n        // response object.\n        var response = observer.AsResponse();\n\n        // We need to create a register based on the response\n        // and the list of triggers, add the register to the\n        // list of registers, and then \n        var register = new CompositeTriggerRegistration(response, _Triggers, this);\n        _Registers.Add(register);\n        return register;\n    }\n\n    /// \n    /// A private class that handles the registration of responses\n    /// to a composite trigger.\n    /// \n    /// \n    /// This class handles subscribing a given response to all\n    /// triggers, subscribes the response when new triggers are\n    /// added, and removes all registrations of the response\n    /// when the composite registration is unregistered.\n    /// \n    private class CompositeTriggerRegistration : IDisposable {\n\n        private ISet _Registers;\n        private CompositeTrigger _Owner;\n\n        public Response Response { get; private set; }\n\n        /// \n        /// Creates a registration given a response and a list\n        /// of triggers to register.\n        /// \n        /// \n        /// The response to register\n        /// \n        /// \n        /// An initial list of triggers to register to\n        /// \n        /// \n        /// The composite trigger that owns the register.  This\n        /// allows the register to remove itself from the owning\n        /// composite trigger when it's unregistered.\n        /// \n        public CompositeTriggerRegistration(Response response, IEnumerable&gt; triggers, CompositeTrigger owner) {\n            Response = response;\n            _Registers = new HashSet(triggers.Select(t =&gt; t.Subscribe(response)));\n            _Owner = owner;\n        }\n\n        /// \n        /// Registers the response to a new trigger.\n        /// \n        /// \n        /// The new trigger to register to\n        /// \n        public void AddTrigger(Trigger trigger) {\n            _Registers.Add(trigger.Subscribe(Response));\n        }\n\n        /// \n        /// Unregisters the response from all triggers it is\n        /// registered to.\n        /// \n        public void Dispose() {\n            foreach (var register in _Registers) register.Dispose();\n            _Owner._Registers.Remove(this);\n        }\n    }\n\n\n}\n</code></pre>\n<p>}[/font]</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:55:50.430Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 5114,
+        "topic_slug": "im-bored",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 5114
+}

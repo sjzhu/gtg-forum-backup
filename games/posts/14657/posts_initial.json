@@ -1,0 +1,1725 @@
+{
+  "posts": [
+    {
+      "id": 14659,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2016-03-01T01:00:40.000Z",
+      "cooked": "<p>Well.</p><p>With the one million dollar stretch goal smashed, we have knowledge of everything Sentinels that will ever exist, supposedly. Which is what I've been waiting for, so that I can, for the final time, calculate how many possible games of Sentinels can be played. I've done this before (my post-Villains attempt is <a href=\"https://greaterthangames.com/forum/topic/statistics-of-the-multiverse-6779\" rel=\"noopener nofollow ugc\">here</a>), but now we have&nbsp;<em>everything.</em></p><p>The rules of the game are as would be expected: games can be against any villian with any combination of 3-5 heroes. Hero order doesn't matter, but swapping out any hero for another hero, or for a different promo of that hero, does count as different.</p><p>&nbsp;</p><p>We start with out heroes. We have:</p><ul>\n<li>21 heroes with 2 character cards: Expatriette, Mr Fixer, Nightmist, Omnitron-X, Chrono-Ranger, Setback, The Naturalist, Parse, K.N.Y.F.E.,&nbsp;<span>Sky-Scraper*, Luminary, The Harpy, Akash'Thriya, La Comodora, Lifeline, Stuntman, Benchmark, Dr Medico, Mainstay, The Idealist, Writhe</span>\n</li>\n<li><span>2 heroes with 3 character cards: Ra, The Visionary</span></li>\n<li>8 heroes with 4 character cards: Tachyon, The Wraith, Absolute Zero, Fanatic, Haka, Tempest, Argent Adept, Captain Cosmic</li>\n<li>2 heroes with 5 character cards: Legacy**, Bunker</li>\n<li>1 hero with 16 character cards: The Sentinels*</li>\n</ul><p>&nbsp;</p><p>*Christopher has said that the Sky-Scraper promos are really meant to be used together, so I'm treating them as one promo; on the other hand, the Sentinels can be freely mixed and matched, so they effectively have 2^4 = 16 possible character cards.</p><p>**I count Cleverest Legacy. He's official if not physically existant.</p><p>&nbsp;</p><p>My previous method of calculation (to start with non-promo versions and then counting the changes we can add with promos) is not going to work very well with this many promos floating around. I could modify it, but (because why not) I'd like to try something else. So, let's look at three groups of heroes - those with 2 character cards, those with 4, and the rest) and figure out how many teams of various sizes we can make using just them.</p><p><strong>2 cards:</strong></p><ul>\n<li>1 hero: <b>42&nbsp;</b>(21 heroes, 2 cards each)</li>\n<li>2 heroes: <strong>840</strong>&nbsp;((21 x 20 / 2) x 2^2, or 21C2 x 4)</li>\n<li>3 heroes:&nbsp;<strong>10640</strong>\n</li>\n<li>4 heroes:&nbsp;<strong>95760</strong>\n</li>\n<li>5 heroes:&nbsp;<strong>651168</strong>\n</li>\n</ul><p><strong>4 cards:</strong></p><ul>\n<li>1 hero:&nbsp;<strong>32</strong>\n</li>\n<li>2 heroes:&nbsp;<strong>448</strong>\n</li>\n<li>3 heroes:&nbsp;<strong>3584</strong>\n</li>\n<li>4 heroes:&nbsp;<strong>17920</strong>\n</li>\n<li>5 heroes:&nbsp;<strong>57344</strong>\n</li>\n</ul><p><strong>Other:</strong></p><ul>\n<li>1 hero: <strong>32</strong>&nbsp;(16 + 2 x 5 + 2 x 3)</li>\n<li>2 heroes: &nbsp;<strong>126</strong>\n</li>\n<li>3 heroes:&nbsp;<strong>1744</strong>\n</li>\n<li>4 heroes:&nbsp;<strong>4015</strong>\n</li>\n<li>5 heroes:&nbsp;<strong>2800</strong>\n</li>\n</ul><p>And now we use these as building blocks to build up to our full numbers:</p><p><strong>2 or 4 cards:</strong></p><ul>\n<li>1 hero:&nbsp;<strong>74</strong>\n</li>\n<li>2 heroes:&nbsp;<strong>2632</strong> (840 + 42 x 32 + 448)</li>\n<li>3 heroes: <strong>59920</strong>&nbsp;(10640 + 840 x 32 + 42 x 448 + 3584)</li>\n<li>4 heroes:&nbsp;<strong>981008</strong>\n</li>\n<li>5 heroes:&nbsp;<strong>11462752</strong>\n</li>\n</ul><p><strong>All heroes:</strong></p><ul>\n<li>1 hero: <strong>106</strong>\n</li>\n<li>2 heroes: <strong>5126</strong>&nbsp;(126 + 32 x 74 + 2632)</li>\n<li>3 heroes: <strong>155212</strong>&nbsp;(1744 + 126 x 74 + 32 x 2632 + 59920)</li>\n<li>4 heroes:&nbsp;<strong>3363151</strong>\n</li>\n<li>5 heroes:&nbsp;<strong>55295046</strong>\n</li>\n</ul><p>Phew! That's a lot of heroes! (And the hairiest of the maths over with.) Except... it isn't. Because, genius that I am, I forgot to list the mini-expansion heroes, so that's how mant games you can play without Unity, The Scholar and Guise. Right, so, fine, let's fix this.</p><p><strong>Mini-Expansions:</strong></p><ul>\n<li>1 hero:&nbsp;<strong>8</strong>\n</li>\n<li>2 heroes:&nbsp;<strong>21</strong>\n</li>\n<li>3 heroes:&nbsp;<strong>18</strong>\n</li>\n</ul><p><strong>No seriously, all heroes:</strong></p><ul>\n<li>3 heroes:&nbsp;<strong>198464</strong>\n</li>\n<li>4 heroes:&nbsp;<strong>4714401</strong>\n</li>\n<li>5 heroes:&nbsp;<strong>85551974</strong>\n</li>\n<li>3-5 heroes:&nbsp;<strong>90464839</strong>\n</li>\n</ul><p>Right.&nbsp;<em>Grand</em>. Moving on.</p><p><span>Let's look at regular villains yet. With villain promos, we have 30 regular villains, each of which can be played on Advanced or not and on Challenge mode or not (except that GloomSpite and Skinwalker Gloomy are a single Challenge mode battle, but with the Advanced text on each being independent the numbers work out the same), so that's 120 villain configurations. Combine that with 24 environments, we get 2880; combine that with out hero teams, and we have&nbsp;</span><strong><span>260538736320&nbsp;</span></strong><span>normal games that are possible.</span></p><p><span>Now, Vengeance! We have 15 Vengeance villains, which is 455 trios, 1365 quartets and 3003 quintets. For whom you can presumably switch Advanced and Challenge modes on and off independently, so... 29120 trios, 348440 quartets and 3075072 quintets. Add in heroes, and you get&nbsp;</span><span>5779271680 sextets, about&nbsp;</span><span>1642685900000 (Google is now giving me answers in standard form, our numbers are so large) octets and&nbsp;</span><span>263078480000000 dectets. Sum those up, multiply by 24 environments, and we get...&nbsp;</span><span><strong>6353446300000000 </strong>or so Vengeance games.</span></p><p><span>Finally, barely large enough to be worth mentioning, OblivAeon. One villain, four possible modes, two environments for which order matters. That gives 2208 ways to OblivAeon, so with heroes that's&nbsp;</span><strong><span>199746364512.</span></strong></p><p><span>Sum these three, and we get approximately&nbsp;</span><strong><span>6,353,906,500,000,000</span></strong><span>. That is a ridiculous number.&nbsp;<strong>Six quadrillion&nbsp;</strong>is just large. So large.</span></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:46:48.690Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/statistics-of-the-multiverse-6779",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Well.</p><p>With the one million dollar stretch goal smashed, we have knowledge of everything Sentinels that will ever exist, supposedly. Which is what I&#39;ve been waiting for, so that I can, for the final time, calculate how many possible games of Sentinels can be played. I&#39;ve done this before (my post-Villains attempt is <a href=\"https://greaterthangames.com/forum/topic/statistics-of-the-multiverse-6779\">here</a>), but now we have&nbsp;<em>everything.</em></p><p>The rules of the game are as would be expected: games can be against any villian with any combination of 3-5 heroes. Hero order doesn&#39;t matter, but swapping out any hero for another hero, or for a different promo of that hero, does count as different.</p><p>&nbsp;</p><p>We start with out heroes. We have:</p><ul><li>21 heroes with 2 character cards: Expatriette, Mr Fixer, Nightmist, Omnitron-X, Chrono-Ranger, Setback, The Naturalist, Parse, K.N.Y.F.E.,&nbsp;<span style=\"font-size: 13px; line-height: 20px;\">Sky-Scraper*, Luminary, The Harpy, Akash&#39;Thriya, La Comodora, Lifeline, Stuntman, Benchmark, Dr Medico, Mainstay, The Idealist, Writhe</span></li><li><span style=\"font-size: 13px;\">2 heroes with 3 character cards: Ra, The Visionary</span></li><li>8 heroes with 4 character cards: Tachyon, The Wraith, Absolute Zero, Fanatic, Haka, Tempest, Argent Adept, Captain Cosmic</li><li>2 heroes with 5 character cards: Legacy**, Bunker</li><li>1 hero with 16 character cards: The Sentinels*</li></ul><p>&nbsp;</p><p>*Christopher has said that the Sky-Scraper promos are really meant to be used together, so I&#39;m treating them as one promo; on the other hand, the Sentinels can be freely mixed and matched, so they effectively have 2^4 = 16 possible character cards.</p><p>**I count Cleverest Legacy. He&#39;s official if not physically existant.</p><p>&nbsp;</p><p>My previous method of calculation (to start with non-promo versions and then counting the changes we can add with promos) is not going to work very well with this many promos floating around. I could modify it, but (because why not) I&#39;d like to try something else. So, let&#39;s look at three groups of heroes - those with 2 character cards, those with 4, and the rest) and figure out how many teams of various sizes we can make using just them.</p><p><strong>2 cards:</strong></p><ul><li>1 hero: <b>42&nbsp;</b>(21 heroes, 2 cards each)</li><li>2 heroes: <strong>840</strong>&nbsp;((21 x 20 / 2) x 2^2, or 21C2 x 4)</li><li>3 heroes:&nbsp;<strong>10640</strong></li><li>4 heroes:&nbsp;<strong>95760</strong></li><li>5 heroes:&nbsp;<strong>651168</strong></li></ul><p><strong>4 cards:</strong></p><ul><li>1 hero:&nbsp;<strong>32</strong></li><li>2 heroes:&nbsp;<strong>448</strong></li><li>3 heroes:&nbsp;<strong>3584</strong></li><li>4 heroes:&nbsp;<strong>17920</strong></li><li>5 heroes:&nbsp;<strong>57344</strong></li></ul><p><strong>Other:</strong></p><ul><li>1 hero: <strong>32</strong>&nbsp;(16 + 2 x 5 + 2 x 3)</li><li>2 heroes: &nbsp;<strong>126</strong></li><li>3 heroes:&nbsp;<strong>1744</strong></li><li>4 heroes:&nbsp;<strong>4015</strong></li><li>5 heroes:&nbsp;<strong>2800</strong></li></ul><p>And now we use these as building blocks to build up to our full numbers:</p><p><strong>2 or 4 cards:</strong></p><ul><li>1 hero:&nbsp;<strong>74</strong></li><li>2 heroes:&nbsp;<strong>2632</strong> (840 + 42 x 32 + 448)</li><li>3 heroes: <strong>59920</strong>&nbsp;(10640 + 840 x 32 + 42 x 448 + 3584)</li><li>4 heroes:&nbsp;<strong>981008</strong></li><li>5 heroes:&nbsp;<strong>11462752</strong></li></ul><p><strong>All heroes:</strong></p><ul><li>1 hero: <strong>106</strong></li><li>2 heroes: <strong>5126</strong>&nbsp;(126 + 32 x 74 + 2632)</li><li>3 heroes: <strong>155212</strong>&nbsp;(1744 + 126 x 74 + 32 x 2632 + 59920)</li><li>4 heroes:&nbsp;<strong>3363151</strong></li><li>5 heroes:&nbsp;<strong>55295046</strong></li></ul><p>Phew! That&#39;s a lot of heroes! (And the hairiest of the maths over with.) Except... it isn&#39;t. Because, genius that I am, I forgot to list the mini-expansion heroes, so that&#39;s how mant games you can play without Unity, The Scholar and Guise. Right, so, fine, let&#39;s fix this.</p><p><strong>Mini-Expansions:</strong></p><ul><li>1 hero:&nbsp;<strong>8</strong></li><li>2 heroes:&nbsp;<strong>21</strong></li><li>3 heroes:&nbsp;<strong>18</strong></li></ul><p><strong>No seriously, all heroes:</strong></p><ul><li>3 heroes:&nbsp;<strong>198464</strong></li><li>4 heroes:&nbsp;<strong>4714401</strong></li><li>5 heroes:&nbsp;<strong>85551974</strong></li><li>3-5 heroes:&nbsp;<strong>90464839</strong></li></ul><p>Right.&nbsp;<em>Grand</em>. Moving on.</p><p><span style=\"font-size: 13px;\">Let&#39;s look at regular villains yet. With villain promos, we have 30 regular villains, each of which can be played on Advanced or not and on Challenge mode or not (except that GloomSpite and Skinwalker Gloomy are a single Challenge mode battle, but with the Advanced text on each being independent the numbers work out the same), so that&#39;s 120 villain configurations. Combine that with 24 environments, we get 2880; combine that with out hero teams, and we have&nbsp;</span><strong><span style=\"font-size: 13px; line-height: 20px;\">260538736320&nbsp;</span></strong><span style=\"font-size: 13px; line-height: 20px;\">normal games that are possible.</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">Now, Vengeance! We have 15 Vengeance villains, which is 455 trios, 1365 quartets and 3003 quintets. For whom you can presumably switch Advanced and Challenge modes on and off independently, so... 29120 trios, 348440 quartets and 3075072 quintets. Add in heroes, and you get&nbsp;</span><span style=\"font-size: 13px; line-height: 20px;\">5779271680 sextets, about&nbsp;</span><span style=\"font-size: 13px; line-height: 20px;\">1642685900000 (Google is now giving me answers in standard form, our numbers are so large) octets and&nbsp;</span><span style=\"font-size: 13px; line-height: 20px;\">263078480000000 dectets. Sum those up, multiply by 24 environments, and we get...&nbsp;</span><span style=\"font-size: 13px; line-height: 20px;\"><strong>6353446300000000 </strong>or so Vengeance games.</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">Finally, barely large enough to be worth mentioning, OblivAeon. One villain, four possible modes, two environments for which order matters. That gives 2208 ways to OblivAeon, so with heroes that&#39;s&nbsp;</span><strong><span style=\"font-size: 13px; line-height: 20px;\">199746364512.</span></strong></p><p><span style=\"font-size: 13px; line-height: 20px;\">Sum these three, and we get approximately&nbsp;</span><strong><span style=\"font-size: 13px; line-height: 20px;\">6,353,906,500,000,000</span></strong><span style=\"font-size: 13px; line-height: 20px;\">. That is a ridiculous number.&nbsp;<strong>Six quadrillion&nbsp;</strong>is just large. So large.</span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163701,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2016-03-01T01:14:13.000Z",
+      "cooked": "<p>I guess I'll be playing for quite a while  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/grin.png?v=9\" title=\":grin:\" class=\"emoji\" alt=\":grin:\"></p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.123Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "I guess I&#39;ll be playing for quite a while&nbsp; :grin: ",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163702,
+      "name": "Dandolo",
+      "username": "Dandolo",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dandolo/{size}/1845_2.png",
+      "created_at": "2016-03-01T01:34:47.000Z",
+      "cooked": "<p>Let's compare this to just the Base Game alone.... 10 Heroes, 4 Villains, 4 Environments, 0 Promos.</p><p>That means 120 sets of 3 Heroes, 210 sets of 4 Heroes, and 252 sets of 5 Heroes for 582 total. Multiply by 16 unique Villain-Environment combinations for 9312 total games. &nbsp;Congradulations the expansions and promos have made Sentinels 682 Billion times more replayable.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.185Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Dandolo",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Let&#39;s compare this to just the Base Game alone.... 10 Heroes, 4 Villains, 4 Environments, 0 Promos.</p><p>That means 120 sets of 3 Heroes, 210 sets of 4 Heroes, and 252 sets of 5 Heroes for 582 total. Multiply by 16 unique Villain-Environment combinations for 9312 total games. &nbsp;Congradulations the expansions and promos have made Sentinels 682 Billion times more replayable.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 13339,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-11-28",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163703,
+      "name": "ChronoRanger_101",
+      "username": "ChronoRanger_101",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chronoranger_101/{size}/2112_2.png",
+      "created_at": "2016-03-01T02:24:00.000Z",
+      "cooked": "<p>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).&nbsp;</p><p>&nbsp;</p><p>Also oblivean isn't four possible modes, but rather four phases you have to play through.&nbsp;</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.251Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "ChronoRanger_101",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).&nbsp;</p><p>&nbsp;</p><p>Also oblivean isn&#39;t four possible modes, but rather four phases you have to play through.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12520,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-06-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163704,
+      "name": "MrLeRobot",
+      "username": "MrLeRobot",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/mrlerobot/{size}/1932_2.png",
+      "created_at": "2016-03-01T02:38:58.000Z",
+      "cooked": "<p>So you're telling me I don't really need this Cauldron stuff, right? :)</p><p>&nbsp;</p><p>(And now, you actually want to know the numbers including The Cauldron...!)</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.319Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "MrLeRobot",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>So you&#39;re telling me I don&#39;t really need this Cauldron stuff, right? :)</p><p>&nbsp;</p><p>(And now, you actually want to know the numbers including The Cauldron...!)</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5835,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163705,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2016-03-01T02:46:23.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"ChronoRanger_101\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/chronoranger_101/48/2112_2.png\" class=\"avatar\"> ChronoRanger_101:</div>\n<blockquote>\n<p>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).</p>\n</blockquote>\n</aside>\n<p>We don't know how they will be implemented and Christopher said they will keep their names so we don't know fully yet whether they can be mixed and matched or not. &nbsp;</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.387Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "[quote=\"ChronoRanger_101\"]\n\nI noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).\n\n[/quote]\n\nWe don&#39;t know how they will be implemented and Christopher said they will keep their names so we don&#39;t know fully yet whether they can be mixed and matched or not. &nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163706,
+      "name": "ChronoRanger_101",
+      "username": "ChronoRanger_101",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chronoranger_101/{size}/2112_2.png",
+      "created_at": "2016-03-01T02:49:31.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>ChronoRanger_101 wrote:</b><br><blockquote>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).\n&nbsp;\n</blockquote></div>\nWe don't know how they will be implemented and Christopher said they will keep their names so we don't know fully yet whether they can be mixed and matched or not. &nbsp;\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>maybe, but the ones in the void guard will have higher hp than the ones in the sentinels. Plus the ones in the sentinels will have lower hp, so I think it's fair to say that while you could, it wouldn't be beneficial to do so. The lower hp ones work together, the higher hp more for stand alone play.&nbsp;</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.453Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "ChronoRanger_101",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Powerhound_2000\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>ChronoRanger_101 wrote:</b><br /><blockquote class=\"bb-quote-body\">I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).\n&nbsp;\n</blockquote></div>\nWe don&#39;t know how they will be implemented and Christopher said they will keep their names so we don&#39;t know fully yet whether they can be mixed and matched or not. &nbsp;\n\n[/quote]\n\n&nbsp;\n\nmaybe, but the ones in the void guard will have higher hp than the ones in the sentinels. Plus the ones in the sentinels will have lower hp, so I think it&#39;s fair to say that while you could, it wouldn&#39;t be beneficial to do so. The lower hp ones work together, the higher hp more for stand alone play.&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12520,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-06-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163707,
+      "name": "dpt",
+      "username": "dpt",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+      "created_at": "2016-03-01T02:51:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"ChronoRanger_101\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/chronoranger_101/48/2112_2.png\" class=\"avatar\"> ChronoRanger_101:</div>\n<blockquote>\n<p>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).</p>\n</blockquote>\n</aside>\n<p>He is counting \"The Sentinels\" as being one hero deck, with 16 possible variations coming from the Adamanat Sentinels:&nbsp;  <a href=\"https://greaterthangames.com/content/promos-and-oversized-cards-and-more\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/content/promos-and-oversized-cards-and-more</a></p>\n<p>&nbsp;</p>\n<p>The Idealist, Writhe, Dr. Medico, and Mainstay are another four hero decks, each with two variations (orginal and post-OblivAeon promo).</p>\n<p>There's some question whether you could use (say) Dr. Medico in a game with The Sentinels deck. That would complicate the math.</p>\n<blockquote>\n<p>Also oblivean isn't four possible modes, but rather four phases you have to play through.&nbsp;<br>\nOblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.)</p>\n</blockquote>\n<p>I'm not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don't see all of them every game?</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.529Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "dpt",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/content/promos-and-oversized-cards-and-more",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"ChronoRanger_101\"]\n I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp). \n[/quote]\nHe is counting &quot;The Sentinels&quot; as being one hero deck, with 16 possible variations coming from the Adamanat Sentinels:&nbsp;  https://greaterthangames.com/content/promos-and-oversized-cards-and-more \n\n&nbsp;\n\nThe Idealist, Writhe, Dr. Medico, and Mainstay are another four hero decks, each with two variations (orginal and post-OblivAeon promo).\n\nThere&#39;s some question whether you could use (say) Dr. Medico in a game with The Sentinels deck. That would complicate the math.\n\n \n> Also oblivean isn&#39;t four possible modes, but rather four phases you have to play through.&nbsp;  \nOblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.) \n\n I&#39;m not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don&#39;t see all of them every game? \n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5124,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163708,
+      "name": "ChronoRanger_101",
+      "username": "ChronoRanger_101",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chronoranger_101/{size}/2112_2.png",
+      "created_at": "2016-03-01T03:05:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>ChronoRanger_101 wrote:</b><br><blockquote>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).\n&nbsp;\n</blockquote></div>\nHe is counting \"The Sentinels\" as being one hero deck, with 16 possible variations coming from the Adamanat Sentinels:&nbsp;<a href=\"https://greaterthangames.com/content/promos-and-oversized-cards-and-more\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/content/promos-and-oversized-cards-and-more</a>&nbsp;The Idealist, Writhe, Dr. Medico, and Mainstay are another four hero decks, each with two variations (orginal and post-OblivAeon promo).There's some question whether you could use (say) Dr. Medico in a game with The Sentinels deck. That would complicate the math.\n<div>Quote:<br><blockquote>Also oblivean isn't four possible modes, but rather four phases you have to play through.&nbsp;\n&nbsp;\n</blockquote></div>\nOblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.)I'm not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don't see all of them every game?ow\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>ooooh. I see. The 16 combination makes sense now. Yes there's five different shield cards and 10 scions. From my understand the scions vary and not all come out every time. But I'm pretty sure it's at random.&nbsp;</p>\n<p>Edit: does the alternate for the sentinels team also have an alternate setup card with alternate incap abilities?</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.617Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "ChronoRanger_101",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"dpt\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>ChronoRanger_101 wrote:</b><br /><blockquote class=\"bb-quote-body\">I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).\n&nbsp;\n</blockquote></div>\nHe is counting &quot;The Sentinels&quot; as being one hero deck, with 16 possible variations coming from the Adamanat Sentinels:&nbsp;<a href=\"https://greaterthangames.com/content/promos-and-oversized-cards-and-more\">https://greaterthangames.com/content/promos-and-oversized-cards-and-more</a>&nbsp;The Idealist, Writhe, Dr. Medico, and Mainstay are another four hero decks, each with two variations (orginal and post-OblivAeon promo).There&#39;s some question whether you could use (say) Dr. Medico in a game with The Sentinels deck. That would complicate the math.\n<div class=\"bb-quote\">Quote:<br /><blockquote class=\"bb-quote-body\">Also oblivean isn&#39;t four possible modes, but rather four phases you have to play through.&nbsp;\n&nbsp;\n</blockquote></div>\nOblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.)I&#39;m not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don&#39;t see all of them every game?ow\n\n[/quote]\n\n&nbsp;\n\nooooh. I see. The 16 combination makes sense now. Yes there&#39;s five different shield cards and 10 scions. From my understand the scions vary and not all come out every time. But I&#39;m pretty sure it&#39;s at random.&nbsp;\n\nEdit: does the alternate for the sentinels team also have an alternate setup card with alternate incap abilities?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12520,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-06-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163709,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2016-03-01T03:13:46.000Z",
+      "cooked": "<p>We have no idea yet</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.701Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>We have no idea yet</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163710,
+      "name": "ChronoRanger_101",
+      "username": "ChronoRanger_101",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chronoranger_101/{size}/2112_2.png",
+      "created_at": "2016-03-01T03:34:03.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>We have no idea yet</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>i meant the adamant sentinels.&nbsp;</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.764Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "ChronoRanger_101",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Powerhound_2000\"]\n\nWe have no idea yet\n\n[/quote]\n\n&nbsp;\n\ni meant the adamant sentinels.&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12520,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-06-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163711,
+      "name": "grysqrl",
+      "username": "grysqrl",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/grysqrl/{size}/1909_2.png",
+      "created_at": "2016-03-01T03:52:46.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"ChronoRanger_101\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/chronoranger_101/48/2112_2.png\" class=\"avatar\"> ChronoRanger_101:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Powerhound_2000 wrote:</b><br><blockquote>We have no idea yet\n&nbsp;\n</blockquote></div>\n&nbsp;i meant the adamant sentinels.&nbsp;\n</blockquote>\n</aside>\n<p>They use the same setup card.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.832Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "grysqrl",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"ChronoRanger_101\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>Powerhound_2000 wrote:</b><br /><blockquote class=\"bb-quote-body\">We have no idea yet\n&nbsp;\n</blockquote></div>\n&nbsp;i meant the adamant sentinels.&nbsp;\n\n[/quote]\n\nThey use the same setup card.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 5390,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163712,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2016-03-01T05:55:01.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>OblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.)I'm not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don't see all of them every game?</p>\n</blockquote>\n</aside>\n<p>My guess would be that the Scions act kind of like the Ennead in that they come out slowly and semirandomly. &nbsp;But there's no way to know for sure yet.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:46.909Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"dpt\"]\n\n OblivAeon has four phases, but also has five different Shield Cards, each giving a different game. (So there was a mistake on this point.)I&#39;m not clear on whether the Scions are a start-of-game choice or not. Maybe not? But you don&#39;t see all of them every game? \n\n[/quote]\nMy guess would be that the Scions act kind of like the Ennead in that they come out slowly and semirandomly. &nbsp;But there&#39;s no way to know for sure yet.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163713,
+      "name": "ChronoRanger_101",
+      "username": "ChronoRanger_101",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chronoranger_101/{size}/2112_2.png",
+      "created_at": "2016-03-01T06:43:35.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>We have no idea yet</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>the only way I could see the void guard character cards working with the sentinels deck is if they were A) double sided with one side lower hp, or B) double cards for each hero. Otherwise the higher hp wouldn't work for the team style deck.&nbsp;</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:47.028Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "ChronoRanger_101",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Powerhound_2000\"]\n\nWe have no idea yet\n\n[/quote]\n\n&nbsp;\n\nthe only way I could see the void guard character cards working with the sentinels deck is if they were A) double sided with one side lower hp, or B) double cards for each hero. Otherwise the higher hp wouldn&#39;t work for the team style deck.&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12520,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-06-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163714,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2016-03-01T09:05:08.000Z",
+      "cooked": "<p>As mentioned above, the Void Guard are being treated seperately from the Sentinels, but the Adamant Sentinels can mix and match with the regular ones.</p><p>The four modes mentioned for OblivAeon are just switching on and off Advanced and Challenge modes; the Scions come from a deck, so are less of an issue. I could have counted the shields as different games, but we really don't know how major their effects will be, and honestly the difference it will make to the numbers is tiny.</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:47.091Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>As mentioned above, the Void Guard are being treated seperately from the Sentinels, but the Adamant Sentinels can mix and match with the regular ones.</p><p>The four modes mentioned for OblivAeon are just switching on and off Advanced and Challenge modes; the Scions come from a deck, so are less of an issue. I could have counted the shields as different games, but we really don&#39;t know how major their effects will be, and honestly the difference it will make to the numbers is tiny.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163715,
+      "name": "ChronoRanger_101",
+      "username": "ChronoRanger_101",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chronoranger_101/{size}/2112_2.png",
+      "created_at": "2016-03-04T22:14:01.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>ChronoRanger_101 wrote:</b><br><blockquote>I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).\n&nbsp;\n</blockquote></div>\nWe don't know how they will be implemented and Christopher said they will keep their names so we don't know fully yet whether they can be mixed and matched or not. &nbsp;\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>we got official word today, the new void guard heroes are intended for stand alone use and not for mix and match with the sentinels. However house rules and adjustments are allowed (of course) if desired.&nbsp;</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:47.153Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "ChronoRanger_101",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Powerhound_2000\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>ChronoRanger_101 wrote:</b><br /><blockquote class=\"bb-quote-body\">I noticed you counted he void guard heroes as being mixed with the sentinels. This is not the case. Each of the sentinels will have their own deck, not being able to be used with the original sentinels deck. Like wise their promos cannot be used with the new void guard decks. (Lower/higher hp).\n&nbsp;\n</blockquote></div>\nWe don&#39;t know how they will be implemented and Christopher said they will keep their names so we don&#39;t know fully yet whether they can be mixed and matched or not. &nbsp;\n\n[/quote]\n\n&nbsp;\n\nwe got official word today, the new void guard heroes are intended for stand alone use and not for mix and match with the sentinels. However house rules and adjustments are allowed (of course) if desired.&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12520,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-06-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163716,
+      "name": "Belle Sorciere",
+      "username": "Belle_Sorciere",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/belle_sorciere/{size}/1982_2.png",
+      "created_at": "2016-03-04T22:57:37.000Z",
+      "cooked": "<p>I thought we had official word on that when they announced the Void Guard.</p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:47.222Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Belle Sorciere",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I thought we had official word on that when they announced the Void Guard.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12259,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-03-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163717,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2016-03-04T23:00:39.000Z",
+      "cooked": "<p>We did not. &nbsp;I don't find it surprising but there was always some off chance. &nbsp;</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:47.291Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>We did not. &nbsp;I don&#39;t find it surprising but there was always some off chance. &nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163718,
+      "name": "Belle Sorciere",
+      "username": "Belle_Sorciere",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/belle_sorciere/{size}/1982_2.png",
+      "created_at": "2016-03-04T23:07:50.000Z",
+      "cooked": "<p>The update literally said the Void Guard was four character cards each with their own deck:</p><p>\n&gt; <em><strong>Sentinels of the Multiverse: Void Guard</strong></em> is a box set of four hero characters, complete with their own hero character cards and decks. It will be sent to every Kickstarter backer that is backing a pledge level higher than $1.\n</p><p>I don't really see any wiggle room there.</p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:47.362Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Belle Sorciere",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The update literally said the Void Guard was four character cards each with their own deck:</p><p>\n> <em><strong>Sentinels of the Multiverse: Void Guard</strong></em> is a box set of four hero characters, complete with their own hero character cards and decks. It will be sent to every Kickstarter backer that is backing a pledge level higher than $1.\n</p><p>I don&#39;t really see any wiggle room there.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12259,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-03-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 163719,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2016-03-04T23:10:00.000Z",
+      "cooked": "<p>They still use the same hero names as the Sentinels deck. So there was some wiggle room based on the Sentinels setup card.&nbsp;</p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:44:47.428Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 14657,
+      "topic_slug": "combinatorics-of-the-multiverse-the-final-chapter",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>They still use the same hero names as the Sentinels deck. So there was some wiggle room based on the Sentinels setup card.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "posts": [
+    {
+      "id": 7918,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2013-05-08T21:53:31.000Z",
+      "cooked": "<p>Fortunately, this didn't come up in our game, but there would seem to be an infinite loop that can occur in a game with Voss in the Time Cataclysm. Assume that Voss has three or more minions in his trash, with no Gene-Bound Guards. He plays a Forced Deployment, and on the environment turn Surprise Shopping Trip is played. Now the start of the villain turn:</p><ol>\n<li>Forced Deployment destroys itself.</li>\n<li>The first minion is brought back; all targets take one damage.</li>\n<li>The second minion is brought back; all targets take one damage.</li>\n<li>The third minion is brought back; all targets take one damage; the first minion is destroyed.</li>\n<li>Repeat from step two, ad infinitum.</li>\n</ol><p>Actually, it now occurs to me that this combo is not infinite, because it just churns out damage; if a hero has DR then the heroes win, otherwise they lose. However, if we get the Argent Adept and get him to use Counterpoint Bulwark on Voss and himself, then the loop does go to infinity! Have I overlooked anything?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:38:18.749Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Fortunately, this didn&#39;t come up in our game, but there would seem to be an infinite loop that can occur in a game with Voss in the Time Cataclysm. Assume that Voss has three or more minions in his trash, with no Gene-Bound Guards. He plays a Forced Deployment, and on the environment turn Surprise Shopping Trip is played. Now the start of the villain turn:</p><ol><li>Forced Deployment destroys itself.</li><li>The first minion is brought back; all targets take one damage.</li><li>The second minion is brought back; all targets take one damage.</li><li>The third minion is brought back; all targets take one damage; the first minion is destroyed.</li><li>Repeat from step two, ad infinitum.</li></ol><p>Actually, it now occurs to me that this combo is not infinite, because it just churns out damage; if a hero has DR then the heroes win, otherwise they lose. However, if we get the Argent Adept and get him to use Counterpoint Bulwark on Voss and himself, then the loop does go to infinity! Have I overlooked anything?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62765,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2013-05-08T21:58:01.000Z",
+      "cooked": "<p>A similar issue occurs with Darken the Sky and Hair Trigger Reflexes. It was stated that in this case, all the  fowl are removed.from the trash, then they enter play. Any fowl which are subsequently placed in the trash are not further placed back in play, as the bulk remove from trash has already occurred.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.275Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "A similar issue occurs with Darken the Sky and Hair Trigger Reflexes. It was stated that in this case, all the  fowl are removed.from the trash, then they enter play. Any fowl which are subsequently placed in the trash are not further placed back in play, as the bulk remove from trash has already occurred.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62766,
+      "name": "Gislef",
+      "username": "Gislef",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/4af34b/{size}.png",
+      "created_at": "2013-05-09T14:06:17.000Z",
+      "cooked": "<p>On a somewhat related note, what happens if you draw The Block card that requires you to go through the deck and draw cards until you have four Inmates, but there aren't four Inmates in the Environment deck?</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.374Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Gislef",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>On a somewhat related note, what happens if you draw The Block card that requires you to go through the deck and draw cards until you have four Inmates, but there aren&#39;t four Inmates in the Environment deck?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3102,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-12-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62767,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-05-09T14:53:33.000Z",
+      "cooked": "<p>You \"reveal\" card until H inmates, not draw. This is relevant due to rules of when you reshuffle the trash into an empty deck. You only reshuffle when you have to draw or discard from the top of your deck. If you are \"revealing\" inmates and there are none in there, well you &nbsp;lucked out haha.&nbsp;</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.451Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>You &quot;reveal&quot; card until H inmates, not draw. This is relevant due to rules of when you reshuffle the trash into an empty deck. You only reshuffle when you have to draw or discard from the top of your deck. If you are &quot;revealing&quot; inmates and there are none in there, well you &nbsp;lucked out haha.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62768,
+      "name": "Vyolynce",
+      "username": "Vyolynce",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/vyolynce/{size}/2397_2.png",
+      "created_at": "2013-05-09T15:19:08.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>You \"reveal\" card until H inmates, not draw. This is relevant due to rules of when you reshuffle the trash into an empty deck. You only reshuffle when you have to draw or discard from the top of your deck. If you are \"revealing\" inmates and there are none in there, well you &nbsp;lucked out haha.&nbsp;</p>\n</blockquote>\n</aside>\n<p>Lamest. Riot. Ever.<br><br>But yeah, I've had this happen several times. There are only five inmates in that deck, so if you've already found a couple that card basically reads \"reshuffle the deck\".</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.522Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Vyolynce",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Foote\"]\n\nYou &quot;reveal&quot; card until H inmates, not draw. This is relevant due to rules of when you reshuffle the trash into an empty deck. You only reshuffle when you have to draw or discard from the top of your deck. If you are &quot;revealing&quot; inmates and there are none in there, well you &nbsp;lucked out haha.&nbsp;\n\n[/quote]\n\nLamest. Riot. Ever.<br /><br />But yeah, I&#39;ve had this happen several times. There are only five inmates in that deck, so if you&#39;ve already found a couple that card basically reads &quot;reshuffle the deck&quot;.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 380,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62769,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-05-09T16:15:01.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Vyolynce\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/vyolynce/48/2397_2.png\" class=\"avatar\"> Vyolynce:</div>\n<blockquote>\n<p>so if you've already found a couple that card basically reads \"reshuffle the deck\".</p>\n</blockquote>\n</aside>\n<p>Id be careful with that. Again, you ONLY reshuffle the deck when you have to DRAW from the deck or DISCARD from the deck. Any time else, that deck remains gone and the trash pile still full.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.595Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Vyolynce\"]\n\n so if you&#39;ve already found a couple that card basically reads &quot;reshuffle the deck&quot;. \n\n[/quote]\n\nId be careful with that. Again, you ONLY reshuffle the deck when you have to DRAW from the deck or DISCARD from the deck. Any time else, that deck remains gone and the trash pile still full.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62770,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2013-05-09T16:22:00.000Z",
+      "cooked": "<p>You reshuffle the deck whenever a card directs you to (which is most reveal/search type cards), you reshuffle the trash into the deck only when you need to draw or discard a card from the deck and it's empty.</p><p>That small difference generally only messes with Visionary.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.663Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>You reshuffle the deck whenever a card directs you to (which is most reveal/search type cards), you reshuffle the trash into the deck only when you need to draw or discard a card from the deck and it&#39;s empty.</p><p>That small difference generally only messes with Visionary.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62771,
+      "name": "Vyolynce",
+      "username": "Vyolynce",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/vyolynce/{size}/2397_2.png",
+      "created_at": "2013-05-09T18:41:40.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Vyolynce wrote:</b><br><blockquote>so if you've already found a couple that card basically reads \"reshuffle the deck\".\n&nbsp;\n</blockquote></div>\nId be careful with that. Again, you ONLY reshuffle the deck when you have to DRAW from the deck or DISCARD from the deck. Any time else, that deck remains gone and the trash pile still full.\n</blockquote>\n</aside>\n<p>Well I was paraphrasing. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\"><br><br>But yes, I should have said \"basically reads 'flip the deck into the trash'.\"</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.735Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Vyolynce",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Foote\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>Vyolynce wrote:</b><br /><blockquote class=\"bb-quote-body\">so if you&#39;ve already found a couple that card basically reads &quot;reshuffle the deck&quot;.\n&nbsp;\n</blockquote></div>\nId be careful with that. Again, you ONLY reshuffle the deck when you have to DRAW from the deck or DISCARD from the deck. Any time else, that deck remains gone and the trash pile still full.\n\n[/quote]\n\nWell I was paraphrasing. :P<br /><br />But yes, I should have said &quot;basically reads &#39;flip the deck into the trash&#39;.&quot;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 380,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62772,
+      "name": "Gislef",
+      "username": "Gislef",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/4af34b/{size}.png",
+      "created_at": "2013-05-09T19:03:00.000Z",
+      "cooked": "<p>Wait. So on the Block, when you reveal all of the remaining cards in the deck, what happens to them if there aren't enough Inmates?</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.810Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Gislef",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Wait. So on the Block, when you reveal all of the remaining cards in the deck, what happens to them if there aren&#39;t enough Inmates?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3102,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-12-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62773,
+      "name": "pwatson1974",
+      "username": "pwatson1974",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pwatson1974/{size}/1925_2.png",
+      "created_at": "2013-05-09T19:14:58.000Z",
+      "cooked": "<p>Nothing. You dfid your best for the environment, it just wasn't good enough. Yuo now have a full environment trash and an empoty deck so the next time tyou hacve to play an environment card, you'd shuffle the trash and make it the new deck. That's it.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.882Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "pwatson1974",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Nothing. You dfid your best for the environment, it just wasn&#39;t good enough. Yuo now have a full environment trash and an empoty deck so the next time tyou hacve to play an environment card, you&#39;d shuffle the trash and make it the new deck. That&#39;s it.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 293,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-02-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62774,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2013-05-09T20:30:00.000Z",
+      "cooked": "<p>EDIT: This is completely wrong, so don't follow this. Not deleting it becuase the converstaion wouldn't make sense.</p><p>&nbsp;</p><p>Just keep in mind that during the environment turn you dont play a card, you reveal a card. If the deck was empty, you would just skip that part until another effects says to draw or discard a card.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:28.959Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>EDIT: This is completely wrong, so don&#39;t follow this. Not deleting it becuase the converstaion wouldn&#39;t make sense.</p><p>&nbsp;</p><p>Just keep in mind that during the environment turn you dont play a card, you reveal a card. If the deck was empty, you would just skip that part until another effects says to draw or discard a card.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62775,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2013-05-09T20:41:56.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Just keep in mind that during the environment turn you dont play a card, you reveal a card. If the deck was empty, you would just skip that part until another effects says to draw or discard a card.</p>\n</blockquote>\n</aside>\n<p>No no no. Reveal effects from other cards would prevent it from reshuffling. Revealing a card and playing it would still activate during the environments play phase and thus cause a reshuffle. They probably should of worded it slightly differently to avoid that kind of confusion.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:29.034Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\nJust keep in mind that during the environment turn you dont play a card, you reveal a card. If the deck was empty, you would just skip that part until another effects says to draw or discard a card.\n\n[/quote]\n\nNo no no. Reveal effects from other cards would prevent it from reshuffling. Revealing a card and playing it would still activate during the environments play phase and thus cause a reshuffle. They probably should of worded it slightly differently to avoid that kind of confusion.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62776,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2013-05-09T20:47:36.000Z",
+      "cooked": "<p>So the same thing for the villain deck then?</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:29.102Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "So the same thing for the villain deck then?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62777,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2013-05-09T20:48:42.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>So the same thing for the villain deck then?</p>\n</blockquote>\n</aside>\n<p>Correct!</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:29.168Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\nSo the same thing for the villain deck then?\n\n[/quote]\n\nCorrect!\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 62778,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2013-05-09T20:53:00.000Z",
+      "cooked": "<p>This is great. I play correctly since the beginning, misunderstand a thread and boom, now I am confused.&nbsp;</p><p>EDIT: I think I as relying on this thread:</p><p><a href=\"https://greaterthangames.com/forum/topic/running-out-of-deck-3471\">https://greaterthangames.com/forum/topic/running-out-of-deck-3471</a></p><p>and the fact that the rule book says reveal. At least I only misplayed it once.</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:39:29.229Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7917,
+      "topic_slug": "infinite-loop",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/running-out-of-deck-3471",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>This is great. I play correctly since the beginning, misunderstand a thread and boom, now I am confused.&nbsp;</p><p>EDIT: I think I as relying on this thread:</p><p><a href=\"https://greaterthangames.com/forum/topic/running-out-of-deck-3471\">https://greaterthangames.com/forum/topic/running-out-of-deck-3471</a></p><p>and the fact that the rule book says reveal. At least I only misplayed it once.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

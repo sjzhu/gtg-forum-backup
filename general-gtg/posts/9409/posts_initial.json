@@ -1,0 +1,692 @@
+{
+  "posts": [
+    {
+      "id": 9412,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2014-02-05T22:01:56.000Z",
+      "cooked": "<p>Hello, Meerkat here, doing more maths as an attempt to procrastinate doing other, less appealing maths. After Shattered Timelines came out, I calculated the total number of possible different games (it was&nbsp;<span>71,466,240), and now we have NEW THINGS I'm going to do it again.</span></p><p><span>So, let's start with sets of 5 heroes. We now have 23 different hero decks, so that's 23C5 = 33649 teams, to start with. Now we need to take our 18 promo heroes into account, so we have 18 x 22C4 = 131670 teams with one promo, 18C2 x 21C3 = 203490 teams with two, 18C3 x 20C2 = 155040 with 3, 18C4 x 19 = 58140 with 4 and 18C5 = 8568 with 5. Add those up, we get 556908. The only problem is, this includes teams that have two of the same hero (Legacy, Bunker or Wraith); we need to subtract 3 x 21C3 + 3 x 16 x 20C2 + 3 x 16C2 x 19 + 3 x 16C3 = 21630 bad pairs - but even this takes out those pairs with&nbsp;<em>two&nbsp;</em>duplicate heroes twice, so we add back 3C2 x (14 + 19) = 99, giving us a grand total of&nbsp;<strong>535377&nbsp;</strong>five-hero teams.</span></p><p><span>Right, four-hero teams now. Similar procedure, 23C4 + 18 x 22C3 + 18C2 x 21C2 + 18C3 x 20 + 18C4 = 8855 + 27720 + 32130 + 16320 + 3060 = 88085, minus 3 x 21C2 + 3 x 16 x 20 + 3 x 16C2 = 1950, plus 3C2 = 3, equals&nbsp;<strong>86138&nbsp;</strong>teams of four. For three-hero teams, 23C3 + 18 x 22C2 + 18C2 x 21 + 18C3 - 3 X (16 + 21) =&nbsp;<strong>9847&nbsp;</strong>three-man teams. Total these up, you get&nbsp;<strong>631362&nbsp;</strong>hero teams.</span></p><p><span>Environments are still easy; there are 14 of them, along with 22 regular villains and two difficulty settings; 631362 x 2 x 22 x 14 =&nbsp;<strong>388918992&nbsp;</strong>games not against the Vengeful Five. Against them, a five-man band can play against them on two difficulties in fourteen different environments, for <strong>14990556&nbsp;</strong>games, a quartet can play against 5 different arrangements of them for a total of <strong>12059320</strong>, and a three-piece suite can take on ten different Vengeful Threes, for <strong>2757160 </strong>games.</span></p><p><span>Total number of deck combinations?&nbsp;<strong>418,726,028.</strong> Which is a lot.</span></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:40:12.151Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 2,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 10.0,
+      "yours": false,
+      "topic_id": 9409,
+      "topic_slug": "statistics-with-a-vengeance",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Hello, Meerkat here, doing more maths as an attempt to procrastinate doing other, less appealing maths. After Shattered Timelines came out, I calculated the total number of possible different games (it was&nbsp;<span style=\"font-size: 13px; line-height: 20px;\">71,466,240), and now we have NEW THINGS I&#39;m going to do it again.</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">So, let&#39;s start with sets of 5 heroes. We now have 23 different hero decks, so that&#39;s 23C5 = 33649 teams, to start with. Now we need to take our 18 promo heroes into account, so we have 18 x 22C4 = 131670 teams with one promo, 18C2 x 21C3 = 203490 teams with two, 18C3 x 20C2 = 155040 with 3, 18C4 x 19 = 58140 with 4 and 18C5 = 8568 with 5. Add those up, we get 556908. The only problem is, this includes teams that have two of the same hero (Legacy, Bunker or Wraith); we need to subtract 3 x 21C3 + 3 x 16 x 20C2 + 3 x 16C2 x 19 + 3 x 16C3 = 21630 bad pairs - but even this takes out those pairs with&nbsp;<em>two&nbsp;</em>duplicate heroes twice, so we add back 3C2 x (14 + 19) = 99, giving us a grand total of&nbsp;<strong>535377&nbsp;</strong>five-hero teams.</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">Right, four-hero teams now. Similar procedure, 23C4 + 18 x 22C3 + 18C2 x 21C2 + 18C3 x 20 + 18C4 = 8855 + 27720 + 32130 + 16320 + 3060 = 88085, minus 3 x 21C2 + 3 x 16 x 20 + 3 x 16C2 = 1950, plus 3C2 = 3, equals&nbsp;<strong>86138&nbsp;</strong>teams of four. For three-hero teams, 23C3 + 18 x 22C2 + 18C2 x 21 + 18C3 - 3 X (16 + 21) =&nbsp;<strong>9847&nbsp;</strong>three-man teams. Total these up, you get&nbsp;<strong>631362&nbsp;</strong>hero teams.</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">Environments are still easy; there are 14 of them, along with 22 regular villains and two difficulty settings; 631362 x 2 x 22 x 14 =&nbsp;<strong>388918992&nbsp;</strong>games not against the Vengeful Five. Against them, a five-man band can play against them on two difficulties in fourteen different environments, for <strong>14990556&nbsp;</strong>games, a quartet can play against 5 different arrangements of them for a total of <strong>12059320</strong>, and a three-piece suite can take on ten different Vengeful Threes, for <strong>2757160 </strong>games.</span></p><p><span style=\"font-size: 13px; line-height: 20px;\">Total number of deck combinations?&nbsp;<strong>418,726,028.</strong> Which is a lot.</span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 89444,
+      "name": "Christopher",
+      "username": "Christopher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+      "created_at": "2014-02-05T22:22:00.000Z",
+      "cooked": "<p><a title=\"Sometimes, Christopher tweets awesome things.\" href=\"https://twitter.com/GTGamesLLC/status/431185869496516609\" target=\"_blank\" rel=\"noopener nofollow ugc\">Tweeted.</a></p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:14:23.992Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9409,
+      "topic_slug": "statistics-with-a-vengeance",
+      "display_username": "Christopher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://twitter.com/GTGamesLLC/status/431185869496516609",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p><a title=\"Sometimes, Christopher tweets awesome things.\" href=\"https://twitter.com/GTGamesLLC/status/431185869496516609\" target=\"_blank\">Tweeted.</a></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": true,
+      "staff": true,
+      "user_id": 5,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 89445,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2014-02-05T22:32:22.000Z",
+      "cooked": "<p>Thank you! I might have succumbed to the temptation to calculate this for myself if you hadn't posted these.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:14:24.072Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9409,
+      "topic_slug": "statistics-with-a-vengeance",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Thank you! I might have succumbed to the temptation to calculate this for myself if you hadn&#39;t posted these.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 89446,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2014-02-06T00:26:20.000Z",
+      "cooked": "<p>Gotta play them all.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:14:24.152Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9409,
+      "topic_slug": "statistics-with-a-vengeance",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Gotta play them all.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 89447,
+      "name": "Silverleaf",
+      "username": "Silverleaf",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+      "created_at": "2014-02-06T00:27:52.000Z",
+      "cooked": "<p>We'd better get started then. Those permutations won't play themselves!</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:14:24.229Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9409,
+      "topic_slug": "statistics-with-a-vengeance",
+      "display_username": "Silverleaf",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>We&#39;d better get started then. Those permutations won&#39;t play themselves!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4341,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 89448,
+      "name": "jmrburgard",
+      "username": "jmrburgard",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/j/9fc29f/{size}.png",
+      "created_at": "2014-02-06T00:39:43.000Z",
+      "cooked": "<p>The critical question: Since turn order can matter (a lot) should we also calculate for all possible turn orders?</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:14:24.300Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9409,
+      "topic_slug": "statistics-with-a-vengeance",
+      "display_username": "jmrburgard",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The critical question: Since turn order can matter (a lot) should we also calculate for all possible turn orders?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6178,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 89449,
+      "name": "bessyrocks12",
+      "username": "bessyrocks12",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bessyrocks12/{size}/2447_2.png",
+      "created_at": "2014-02-06T00:40:24.000Z",
+      "cooked": "<p>Awesome. I think I may only be 1/1000 of the way there...</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:14:24.384Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9409,
+      "topic_slug": "statistics-with-a-vengeance",
+      "display_username": "bessyrocks12",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Awesome. I think I may only be 1/1000 of the way there...</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4396,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-16",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 89450,
+      "name": "Benhimself",
+      "username": "Benhimself",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/benhimself/{size}/2160_2.png",
+      "created_at": "2014-02-12T08:51:31.000Z",
+      "cooked": "<p>Just had the thought that if you really wanted to stress test your calculator's overflow buffer, you should also take into account the number of&nbsp;possible orders the cards in&nbsp;each deck could&nbsp;be in.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:14:24.448Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 9409,
+      "topic_slug": "statistics-with-a-vengeance",
+      "display_username": "Benhimself",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Just had the thought that if you really wanted to stress test your calculator&#39;s overflow buffer, you should also take into account the number of&nbsp;possible orders the cards in&nbsp;each deck could&nbsp;be in.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4109,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

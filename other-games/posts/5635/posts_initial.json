@@ -1,0 +1,770 @@
+{
+  "posts": [
+    {
+      "id": 5638,
+      "name": "NDRWnerd",
+      "username": "NDRWnerd",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/n/96bed5/{size}.png",
+      "created_at": "2012-04-18T06:17:16.000Z",
+      "cooked": "<p>Citizen Assault basically deals 1 damage to all Heroes at the end of the villain turn.  Let’s say there are 4 Heroes, one of whom is Legacy.  He has Lead from the Front and Fortitude out. .</p>\n<p>Now I’m fairly certain that Lead from the Front will let Legacy redirect all the damage dealt to the other 3 Heroes by Citizen Assault to himself, <span class=\"bbcode-b\"><span class=\"bbcode-i\">but does he redirect/resolve the damage one at a time or all at once</span>?</span></p>\n<p>If one at at time, each Hero would redirect one damage to Legacy, which is reduced by one for Fortitude, netting zero damage 4 times<br>\n[1 dmg, -1 Fort = 0 dmg] x4</p>\n<p>If all at once, each Hero would redirect one damage each to Legacy, giving Legacy 4 damage total, which is reduced by one for Fortitude, netting 3 damage taken<br>\n[1 dmg x4] -1 Fort = 3 dmg</p>\n<p>So when Lead from the Front triggers do you figure out the result for each instance of damage dealt/redirected,  or do you figure out how much total damage is redirected and then apply it to Legacy?</p>\n<p>I hope my question makes sense.  We chose the first interpretation so as to keep the game moving, but it was argued both ways.  Also this is may first post, so hello all! I think SotM is a great game and it was a big hit when I introduced it to my friends. Now we’re all hooked!</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:35:20.900Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "NDRWnerd",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Citizen Assault basically deals 1 damage to all Heroes at the end of the villain turn.  Let's say there are 4 Heroes, one of whom is Legacy.  He has Lead from the Front and Fortitude out. .\n\nNow I'm fairly certain that Lead from the Front will let Legacy redirect all the damage dealt to the other 3 Heroes by Citizen Assault to himself, [b][i]but does he redirect/resolve the damage one at a time or all at once[/i]?[/b] \n\nIf one at at time, each Hero would redirect one damage to Legacy, which is reduced by one for Fortitude, netting zero damage 4 times  \n[1 dmg, -1 Fort = 0 dmg] x4\n\nIf all at once, each Hero would redirect one damage each to Legacy, giving Legacy 4 damage total, which is reduced by one for Fortitude, netting 3 damage taken \n[1 dmg x4] -1 Fort = 3 dmg\n\nSo when Lead from the Front triggers do you figure out the result for each instance of damage dealt/redirected,  or do you figure out how much total damage is redirected and then apply it to Legacy?\n\nI hope my question makes sense.  We chose the first interpretation so as to keep the game moving, but it was argued both ways.  Also this is may first post, so hello all! I think SotM is a great game and it was a big hit when I introduced it to my friends. Now we're all hooked!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 344,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 28392,
+      "name": "Greonhal",
+      "username": "Greonhal",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/bb73d2/{size}.png",
+      "created_at": "2012-04-18T07:37:49.000Z",
+      "cooked": "<p>I believe it is the first interpretation. Wraith gets hit, Legacy takes the damage and absorbs it. Then Ra gets hit, Legacy takes the damage and absorbs it. Etc.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:02:20.839Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "Greonhal",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I believe it is the first interpretation. Wraith gets hit, Legacy takes the damage and absorbs it. Then Ra gets hit, Legacy takes the damage and absorbs it. Etc.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 296,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-02-13",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 28393,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2012-04-18T12:33:06.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Greonhal&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Greonhal\"\":</div>\n<blockquote>\n<p>I believe it is the first interpretation. Wraith gets hit, Legacy takes the damage and absorbs it. Then Ra gets hit, Legacy takes the damage and absorbs it. Etc.</p>\n</blockquote>\n</aside>\n<p>Agreed</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:02:20.924Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"Greonhal\"\"]\n\nI believe it is the first interpretation. Wraith gets hit, Legacy takes the damage and absorbs it. Then Ra gets hit, Legacy takes the damage and absorbs it. Etc.\n\n[/quote]\n\n\nAgreed",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 28394,
+      "name": "Paul",
+      "username": "Paul",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/paul/{size}/5862_2.png",
+      "created_at": "2012-04-18T18:22:14.000Z",
+      "cooked": "<p>Yup, Option 1 is how it works!</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:02:21.015Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "Paul",
+      "primary_group_name": "playtesters",
+      "flair_name": "Judges",
+      "flair_url": "scale-balanced",
+      "flair_bg_color": "7700ff",
+      "flair_color": "",
+      "flair_group_id": 42,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "Chief Justice",
+      "title_is_group": false,
+      "bookmarked": false,
+      "raw": "Yup, Option 1 is how it works!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": true,
+      "staff": true,
+      "user_id": 542,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-07-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 28395,
+      "name": "NDRWnerd",
+      "username": "NDRWnerd",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/n/96bed5/{size}.png",
+      "created_at": "2012-04-18T23:32:42.000Z",
+      "cooked": "<p>Thanks for the responses.  I’m glad that we ruled it the correct way, I think we were starting to over-think things.</p>\n<p>I also have a question about Visionary’s Demoralization card, and rather than make another question-thread I’ll just ask here; does Demoralization happen every turn, or does it happen once when it is played (and the card just stays out)?  Also, do the Villains get that health back if it is destroyed?  I couldn’t find anything on the forums so maybe it’s obvious to everyone else …</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:02:21.092Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "NDRWnerd",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Thanks for the responses.  I'm glad that we ruled it the correct way, I think we were starting to over-think things.\n\nI also have a question about Visionary's Demoralization card, and rather than make another question-thread I'll just ask here; does Demoralization happen every turn, or does it happen once when it is played (and the card just stays out)?  Also, do the Villains get that health back if it is destroyed?  I couldn't find anything on the forums so maybe it's obvious to everyone else ....",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 344,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 28396,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2012-04-19T00:19:11.000Z",
+      "cooked": "<p>Demoralization is a constant effect, it is always on and always reduces the max HP by 1… but it only ever reduces the the max HP by 1. It does not effect the same target more than once.<br>\nAs with any max HP effects the effect is reversed when the card leaves play, in this case all the targets would regain 1 HP</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:02:21.169Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Demoralization is a constant effect, it is always on and always reduces the max HP by 1... but it only ever reduces the the max HP by 1. It does not effect the same target more than once.\nAs with any max HP effects the effect is reversed when the card leaves play, in this case all the targets would regain 1 HP",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 28397,
+      "name": "NDRWnerd",
+      "username": "NDRWnerd",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/n/96bed5/{size}.png",
+      "created_at": "2012-04-19T02:36:28.000Z",
+      "cooked": "<p>ok, thanks!  So adding to MAX HP is like getting temporary hp’s in D&amp;D, and decreasing MAX HP is like negative hp’s.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:02:21.246Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "NDRWnerd",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "ok, thanks!  So adding to MAX HP is like getting temporary hp's in D&D, and decreasing MAX HP is like negative hp's.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 344,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 28399,
+      "name": "WriterRyan",
+      "username": "WriterRyan",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/writerryan/{size}/2710_2.png",
+      "created_at": "2012-04-19T04:29:07.000Z",
+      "cooked": "<p>Almost, but not entirely. Unlike D&amp;D, the damage you take with increased HP is still there if the increased HP goes away.</p>\n<p>Let’s say you have two characters - one in D&amp;D and one in SotM - who both are currently at 25 hit points. Through some event, each gets two additional hit points, with the D&amp;D one being Temporary HP. Now each takes two damage somehow, bringing both down to 25 hit points again. For the D&amp;D character, that’s it. However, if the thing that gave the SotM character additional hit points goes away, then that character will go down to 23 hit points automatically.</p>\n<p>A different explanation for the SotM hit point increases and decreases: look at each increase or decrease as if they had always been there from the start of the game until that effect goes away at which point you should disregard the fact that the effect was ever there at all.</p>\n<p>One more way to look at it: HP in SotM is actually tracking how much damage has been taken. If a character has taken 12 points of damage and their HP is increased by two, they have still taken 12 points of damage, and if that effect goes away, they have still taken 12 points of damage.</p>\n<p>Hope that helps!  <img src=\"//forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=9\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\"></p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:02:21.331Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "WriterRyan",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Almost, but not entirely. Unlike D&D, the damage you take with increased HP is still there if the increased HP goes away.\n\nLet's say you have two characters - one in D&D and one in SotM - who both are currently at 25 hit points. Through some event, each gets two additional hit points, with the D&D one being Temporary HP. Now each takes two damage somehow, bringing both down to 25 hit points again. For the D&D character, that's it. However, if the thing that gave the SotM character additional hit points goes away, then that character will go down to 23 hit points automatically.\n\nA different explanation for the SotM hit point increases and decreases: look at each increase or decrease as if they had always been there from the start of the game until that effect goes away at which point you should disregard the fact that the effect was ever there at all.\n\nOne more way to look at it: HP in SotM is actually tracking how much damage has been taken. If a character has taken 12 points of damage and their HP is increased by two, they have still taken 12 points of damage, and if that effect goes away, they have still taken 12 points of damage.\n\nHope that helps!  :)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-07-31",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 28401,
+      "name": "NDRWnerd",
+      "username": "NDRWnerd",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/n/96bed5/{size}.png",
+      "created_at": "2012-04-19T04:59:10.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;WriterRyan&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"WriterRyan\"\":</div>\n<blockquote>\n<p>One more way to look at it: HP in SotM is actually tracking how much damage has been taken. If a character has taken 12 points of damage and their HP is increased by two, they have still taken 12 points of damage, and if that effect goes away, they have still taken 12 points of damage.</p>\n<p>Hope that helps!  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n</blockquote>\n</aside>\n<p>This is a great way of putting it, and makes it crystal clear to me.  I may just steal this verbatim to explain to my gaming-group hee hee. Thanks!</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:02:21.416Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5635,
+      "topic_slug": "lead-from-the-front-fortitude-vs-citizen-assault",
+      "display_username": "NDRWnerd",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"WriterRyan\"\"]\n\n\nOne more way to look at it: HP in SotM is actually tracking how much damage has been taken. If a character has taken 12 points of damage and their HP is increased by two, they have still taken 12 points of damage, and if that effect goes away, they have still taken 12 points of damage.\n\nHope that helps!  :)\n\n[/quote]\n\n\nThis is a great way of putting it, and makes it crystal clear to me.  I may just steal this verbatim to explain to my gaming-group hee hee. Thanks!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 344,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

@@ -1,0 +1,1756 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 264364,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-04T23:13:14.793Z",
+        "cooked": "<p>Not that I’ll ever get an official answer, but I hoped someone might know.  Fanatic has a Wounding Buffer from Captain Cosmic, which in turn also has an Autonomous Blade on itself.  The mission card “Hermetic Evolved” deals 1 damage to Fanatic, causing her to deal 1 damage to herself.  The Wounding Buffer then damages <em>her</em>, and then <em>itself</em>, and only then does Autonomous Blade activate.  I don’t understand why the Buffer did not at least damage Hermetic Evolved <em>first</em>, before Fanatic’s self damage, and perhaps <em>then</em> also damage her and itself.  How is it possible that the Buffer responded to the second damage instance Fanatic had taken that turn?</p>\n<p>For reference, here are the texts of the cards involved, emphasis mine on what seem to be the critical phrases that I thought I unambiguously interpreted as meaning Hermetic should get hit first.</p>\n<p>Hermetic Evolved - Objective, Villain <em>Target</em><br>\nAt the end of your turn, this card deals each hero <em>target</em> 1 irreducible infernal damage.  Any <em>hero character card</em> dealt this way deals itself 1 psychic damage.</p>\n<p>Wounding Buffer<br>\nPlay this card next to a hero character card. The first time that hero character card is dealt damage by <em>a target</em> each turn, this card deals the source of that damage 2 energy damage.</p>\n<p>Autonomous Blade<br>\nPlay this card next to a hero target.<br>\nThe first time <em>that target deals damage</em> each turn, this card deals 1 target 2 energy damage.</p>\n<p>So in the sequence that the app executes, two rules appear to be violated.  First, Hermetic dealt damage to Fanatic, and the Buffer should have immediately hit him before she hit herself.  Second, when she hit herself, the Buffer hit her, then the Buffer hit itself, and only then did the Blade fire.  The Blade is supposed to fire on the first damage instance, not the second.</p>\n<p>Let me know if you can explain this as anything other than a programming error (which unfortunately won’t likely ever be fixed).</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2025-11-04T23:13:14.793Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 10,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 53.2,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Not that I'll ever get an official answer, but I hoped someone might know.  Fanatic has a Wounding Buffer from Captain Cosmic, which in turn also has an Autonomous Blade on itself.  The mission card \"Hermetic Evolved\" deals 1 damage to Fanatic, causing her to deal 1 damage to herself.  The Wounding Buffer then damages *her*, and then *itself*, and only then does Autonomous Blade activate.  I don't understand why the Buffer did not at least damage Hermetic Evolved *first*, before Fanatic's self damage, and perhaps *then* also damage her and itself.  How is it possible that the Buffer responded to the second damage instance Fanatic had taken that turn?\n\nFor reference, here are the texts of the cards involved, emphasis mine on what seem to be the critical phrases that I thought I unambiguously interpreted as meaning Hermetic should get hit first.\n\nHermetic Evolved - Objective, Villain *Target*\nAt the end of your turn, this card deals each hero *target* 1 irreducible infernal damage.  Any *hero character card* dealt this way deals itself 1 psychic damage.\n\nWounding Buffer\nPlay this card next to a hero character card. The first time that hero character card is dealt damage by *a target* each turn, this card deals the source of that damage 2 energy damage.\n\nAutonomous Blade\nPlay this card next to a hero target.\nThe first time *that target deals damage* each turn, this card deals 1 target 2 energy damage.\n\nSo in the sequence that the app executes, two rules appear to be violated.  First, Hermetic dealt damage to Fanatic, and the Buffer should have immediately hit him before she hit herself.  Second, when she hit herself, the Buffer hit her, then the Buffer hit itself, and only then did the Blade fire.  The Blade is supposed to fire on the first damage instance, not the second.\n\nLet me know if you can explain this as anything other than a programming error (which unfortunately won't likely ever be fixed).",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264365,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2025-11-04T23:52:54.431Z",
+        "cooked": "<p>If you’re playing on PC can you attach the log too?  If so, it should be at c:\\Users(YourNameHere)\\AppData\\LocalLow\\Handelabra Games Inc_\\Sentinels</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2025-11-04T23:52:54.431Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 8.0,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "If you’re playing on PC can you attach the log too?  If so, it should be at c:\\Users\\(YourNameHere)\\AppData\\LocalLow\\Handelabra Games Inc_\\Sentinels",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264366,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-05T00:46:05.745Z",
+        "cooked": "<p>Well I could, but it would be basically unreadable, since it was an entire OblivAeon game with multiple restarts (which amazingly managed to make it to phase 3 despite accidentally starting with probably the hardest Shield card and never removing it).  And anyway I can’t put up that amount of text in one message without extensive editing.  I believe the following is the relevant excerpt of a block of consecutive lines from the log, this should cover the entirety of the interaction described:</p>\n<p>Went from Fanatic’s DrawCard phase to End phase.<br>\nCreated decision [SelectTargets/None D70 Fanatic]<br>\nCreated decision [SelectTarget/None D70-1 Fanatic]<br>\nHermetic Evolved initiates 1 Infernal damage to Autonomous Blade.<br>\nHermetic Evolved deals Autonomous Blade 1 Infernal damage.<br>\nAutonomous Blade is now at 3 HP.<br>\nCreated decision [SelectTarget/None D70-2 Fanatic]<br>\nHermetic Evolved initiates 1 Infernal damage to Fanatic.<br>\nHermetic Evolved deals Fanatic 1 Infernal damage.<br>\nFanatic is now at 12 HP.<br>\nFanatic initiates 1 Psychic damage to Fanatic.<br>\nFanatic deals Fanatic 1 Psychic damage.<br>\nFanatic is now at 11 HP.<br>\nWounding Buffer reacts!<br>\nWounding Buffer initiates 2 Energy damage to Fanatic.<br>\nWounding Buffer deals Fanatic 2 Energy damage.<br>\nFanatic is now at 9 HP.<br>\nWounding Buffer reacts!<br>\nWounding Buffer initiates 2 Energy damage to Wounding Buffer.<br>\nWounding Buffer deals Wounding Buffer 2 Energy damage.<br>\nWounding Buffer is now at 2 HP.<br>\nCreated decision [SelectTargets/None D71 Captain Cosmic]<br>\nCreated decision [SelectTarget/None D71-1 Captain Cosmic]<br>\nAutonomous Blade initiates 2 Energy damage to Hermetic Evolved.<br>\nAutonomous Blade deals Hermetic Evolved 2 Energy damage.<br>\nHermetic Evolved is now at 6 HP.<br>\nWounding Buffer reacts!<br>\nWounding Buffer initiates 2 Energy damage to Hermetic Evolved.<br>\nWounding Buffer deals Hermetic Evolved 2 Energy damage.<br>\nHermetic Evolved is now at 4 HP.<br>\nCreated decision [SelectTarget/None D70-3 Fanatic]<br>\nHermetic Evolved initiates 1 Infernal damage to Wounding Buffer.<br>\nHermetic Evolved deals Wounding Buffer 1 Infernal damage.<br>\nWounding Buffer is now at 1 HP.<br>\nCreated decision [SelectTarget/None D70-4 Fanatic]<br>\nWent from Fanatic’s End phase to AfterEnd phase.</p>\n<p>Later in the game, Korrupton came into play from one of the Environments being threatened by Blivs, and it’s possible that there’s some subtle difference in wording between Hermetic and Korrupton that explains why the latter damages each target once, and then again damages each target once, but Hermetic damages a target who immediately damages itself, and only the latter is somehow counted as the first damage to occur that turn.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2025-11-05T00:47:54.926Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 13,
+        "readers_count": 12,
+        "score": 2.6,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "username": "Powerhound_2000",
+          "name": "Sonvar",
+          "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png"
+        },
+        "bookmarked": false,
+        "raw": "Well I could, but it would be basically unreadable, since it was an entire OblivAeon game with multiple restarts (which amazingly managed to make it to phase 3 despite accidentally starting with probably the hardest Shield card and never removing it).  And anyway I can't put up that amount of text in one message without extensive editing.  I believe the following is the relevant excerpt of a block of consecutive lines from the log, this should cover the entirety of the interaction described:\n\nWent from Fanatic's DrawCard phase to End phase. \nCreated decision [SelectTargets/None D70 Fanatic]\nCreated decision [SelectTarget/None D70-1 Fanatic]\nHermetic Evolved initiates 1 Infernal damage to Autonomous Blade.\nHermetic Evolved deals Autonomous Blade 1 Infernal damage.\nAutonomous Blade is now at 3 HP.\nCreated decision [SelectTarget/None D70-2 Fanatic]\nHermetic Evolved initiates 1 Infernal damage to Fanatic.\nHermetic Evolved deals Fanatic 1 Infernal damage.\nFanatic is now at 12 HP.\nFanatic initiates 1 Psychic damage to Fanatic.\nFanatic deals Fanatic 1 Psychic damage.\nFanatic is now at 11 HP.\nWounding Buffer reacts!\nWounding Buffer initiates 2 Energy damage to Fanatic.\nWounding Buffer deals Fanatic 2 Energy damage.\nFanatic is now at 9 HP.\nWounding Buffer reacts!\nWounding Buffer initiates 2 Energy damage to Wounding Buffer.\nWounding Buffer deals Wounding Buffer 2 Energy damage.\nWounding Buffer is now at 2 HP.\nCreated decision [SelectTargets/None D71 Captain Cosmic]\nCreated decision [SelectTarget/None D71-1 Captain Cosmic]\nAutonomous Blade initiates 2 Energy damage to Hermetic Evolved.\nAutonomous Blade deals Hermetic Evolved 2 Energy damage.\nHermetic Evolved is now at 6 HP.\nWounding Buffer reacts!\nWounding Buffer initiates 2 Energy damage to Hermetic Evolved.\nWounding Buffer deals Hermetic Evolved 2 Energy damage.\nHermetic Evolved is now at 4 HP.\nCreated decision [SelectTarget/None D70-3 Fanatic]\nHermetic Evolved initiates 1 Infernal damage to Wounding Buffer.\nHermetic Evolved deals Wounding Buffer 1 Infernal damage.\nWounding Buffer is now at 1 HP.\nCreated decision [SelectTarget/None D70-4 Fanatic]\nWent from Fanatic's End phase to AfterEnd phase.\n\nLater in the game, Korrupton came into play from one of the Environments being threatened by Blivs, and it's possible that there's some subtle difference in wording between Hermetic and Korrupton that explains why the latter damages each target once, and then again damages each target once, but Hermetic damages a target who immediately damages itself, and only the latter is somehow counted as the first damage to occur that turn.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264367,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2025-11-05T00:57:48.172Z",
+        "cooked": "<p>I’d submit a bug report with that information to Handelabra.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2025-11-05T00:57:48.172Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 7.8,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "I’d submit a bug report with that information to Handelabra.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264368,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-05T02:28:35.887Z",
+        "cooked": "<p>Are they still taking bug reports for a product from that long ago?</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2025-11-05T02:28:35.887Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 13,
+        "readers_count": 12,
+        "score": 7.6,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "username": "Powerhound_2000",
+          "name": "Sonvar",
+          "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png"
+        },
+        "bookmarked": false,
+        "raw": "Are they still taking bug reports for a product from that long ago?",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264371,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2025-11-05T03:39:11.283Z",
+        "cooked": "<p>Yes, they still actively put out patches and MigrantP still puts together a weekly one-shot.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2025-11-05T03:39:11.283Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 22.8,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "username": "LonelyMan",
+          "name": "",
+          "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png"
+        },
+        "bookmarked": false,
+        "raw": "Yes, they still actively put out patches and MigrantP still puts together a weekly one-shot.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264375,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-06T11:09:40.927Z",
+        "cooked": "<p>Well I tried to replicate the glitch last night, instead I got pulled into a rather successful game that I paused at phase 2, so it’ll be at least a couple days before I can try again.  Maybe in the meantime someone else can do it.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2025-11-06T11:09:40.927Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 11,
+        "readers_count": 10,
+        "score": 2.2,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "username": "Powerhound_2000",
+          "name": "Sonvar",
+          "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png"
+        },
+        "bookmarked": false,
+        "raw": "Well I tried to replicate the glitch last night, instead I got pulled into a rather successful game that I paused at phase 2, so it'll be at least a couple days before I can try again.  Maybe in the meantime someone else can do it.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264378,
+        "name": "",
+        "username": "Omegatron",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+        "created_at": "2025-11-06T17:01:58.587Z",
+        "cooked": "<p>Is it possible that Hermetic had already damage Fanatic that turn? The buffer only reacts once per target I believe.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2025-11-06T17:01:58.587Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 7.4,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Is it possible that Hermetic had already damage Fanatic that turn? The buffer only reacts once per target I believe.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17936,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2021-04-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264380,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-06T18:22:02.560Z",
+        "cooked": "<p>He was activating his own text, and that attack was the first thing he did; I’m not 100% sure nothing else was like “the third lowest HP non-environment target which is a non-hero character card” dealing some damage, but I’m 99% sure.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2025-11-06T18:22:02.560Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 7.4,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "username": "Omegatron",
+          "name": "",
+          "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png"
+        },
+        "bookmarked": false,
+        "raw": "He was activating his own text, and that attack was the first thing he did; I'm not 100% sure nothing else was like \"the third lowest HP non-environment target which is a non-hero character card\" dealing some damage, but I'm 99% sure.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264382,
+        "name": "",
+        "username": "Omegatron",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+        "created_at": "2025-11-06T18:44:28.577Z",
+        "cooked": "<p>I can’t think of anything off hand that would cause that, but it’s the only non-bug explanation I can think of. If you upload the complete log to something like <a href=\"https://pastebin.com/\" rel=\"noopener nofollow ugc\">pastebin</a>, we could check.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2025-11-06T18:44:28.577Z",
+        "reply_count": 1,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 11,
+        "readers_count": 10,
+        "score": 22.2,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://pastebin.com/",
+            "internal": false,
+            "reflection": false,
+            "title": "Pastebin.com - #1 paste tool since 2002!",
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "username": "LonelyMan",
+          "name": "",
+          "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png"
+        },
+        "bookmarked": false,
+        "raw": "I can't think of anything off hand that would cause that, but it's the only non-bug explanation I can think of. If you upload the complete log to something like [pastebin](https://pastebin.com/), we could check.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17936,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2021-04-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264383,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-06T20:00:12.431Z",
+        "cooked": "<p>Not sure if I kept the whole log, I’ll see.  When I suggested you guys might find it before I can do it again, I was suggesting you try what I did: set up an Oblivaeon game with Fanatic as hero 5, four other heroes before her including CC, and then draw a mission card or reshuffle the deck until Hermetic Evolved turns up.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2025-11-06T20:00:12.431Z",
+        "reply_count": 0,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 11,
+        "readers_count": 10,
+        "score": 2.2,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "username": "Omegatron",
+          "name": "",
+          "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png"
+        },
+        "bookmarked": false,
+        "raw": "Not sure if I kept the whole log, I'll see.  When I suggested you guys might find it before I can do it again, I was suggesting you try what I did: set up an Oblivaeon game with Fanatic as hero 5, four other heroes before her including CC, and then draw a mission card or reshuffle the deck until Hermetic Evolved turns up.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264390,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-07T04:30:21.822Z",
+        "cooked": "<p>Unrelated to the earlier mentioned glitch (the game I resumed today had already run out of Captains Cosmic by the time I did a save-and-quit yesterday), I faced OblivaeVoss for the first time.  Did you know he has his own unique victory music?  I didn’t!  A special Apostate-like choral remix of the Voss theme  for when he successfully “subjugates” the universe? (Which is better than destroying the multiverse, I suppose, if only because it’s a localized despotic regime.)</p>\n<p>Most of seven years that song has existed without my knowing about it.  I don’t think you can even hear it any other way besides losing an OblivAeon game in phase 4.  I can’t say it’s my favorite villain victory song, but it’s certainly better than the silence you’re greeted with after Original Recipe OblivAeon blows up his fifth Environment.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2025-11-07T04:30:21.822Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 10,
+        "readers_count": 9,
+        "score": 7.0,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Unrelated to the earlier mentioned glitch (the game I resumed today had already run out of Captains Cosmic by the time I did a save-and-quit yesterday), I faced OblivaeVoss for the first time.  Did you know he has his own unique victory music?  I didn't!  A special Apostate-like choral remix of the Voss theme  for when he successfully \"subjugates\" the universe? (Which is better than destroying the multiverse, I suppose, if only because it's a localized despotic regime.)\n\nMost of seven years that song has existed without my knowing about it.  I don't think you can even hear it any other way besides losing an OblivAeon game in phase 4.  I can't say it's my favorite villain victory song, but it's certainly better than the silence you're greeted with after Original Recipe OblivAeon blows up his fifth Environment.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264392,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-07T11:50:24.132Z",
+        "cooked": "<p>Two more replication attempts failed.  The absolute perversity with which Captain Cosmic’s deck refuses to cough up a Wounding Buffer for me beggars belief.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2025-11-07T11:50:24.132Z",
+        "reply_count": 1,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 10,
+        "readers_count": 9,
+        "score": 7.0,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "username": "LonelyMan",
+          "name": "",
+          "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png"
+        },
+        "bookmarked": false,
+        "raw": "Two more replication attempts failed.  The absolute perversity with which Captain Cosmic's deck refuses to cough up a Wounding Buffer for me beggars belief.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 264428,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-11-17T13:06:56.375Z",
+        "cooked": "<p>Finally got the bug replicated (more or less) and reported.  If I never play CC and Fanny against Blivs again, it’ll be too soon.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "updated_at": "2025-11-17T16:35:26.770Z",
+        "reply_count": 0,
+        "reply_to_post_number": 13,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 9,
+        "readers_count": 8,
+        "score": 16.8,
+        "yours": false,
+        "topic_id": 32029,
+        "topic_slug": "oblivaeon-weird-card-interaction",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "username": "LonelyMan",
+          "name": "",
+          "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png"
+        },
+        "bookmarked": false,
+        "raw": "Finally got the bug replicated (more or less) and reported.  If I never play CC and Fanny against Blivs again, it'll be too soon.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true
+      }
+    ],
+    "stream": [
+      264364,
+      264365,
+      264366,
+      264367,
+      264368,
+      264371,
+      264375,
+      264378,
+      264380,
+      264382,
+      264383,
+      264390,
+      264392,
+      264428
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      312
+    ],
+    [
+      7,
+      310
+    ],
+    [
+      12,
+      309
+    ],
+    [
+      14,
+      299
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 12,
+      "reply_count": 1,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-12T14:09:24.588Z",
+      "bumped": true,
+      "bumped_at": "2026-09-12T14:09:24.588Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 21,
+      "views": 90,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32017,
+      "title": "Text for a future rulebook",
+      "fancy_title": "Text for a future rulebook",
+      "slug": "text-for-a-future-rulebook",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2025-10-29T18:32:19.434Z",
+      "last_posted_at": "2025-10-31T21:15:02.195Z",
+      "bumped": true,
+      "bumped_at": "2025-10-31T21:15:02.195Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 114,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13161,
+            "username": "MindWanderer",
+            "name": "MindWanderer",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31872,
+      "title": "Argent Adept Six-Instrument Orchestration",
+      "fancy_title": "Argent Adept Six-Instrument Orchestration",
+      "slug": "argent-adept-six-instrument-orchestration",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-10-21T02:28:56.949Z",
+      "last_posted_at": "2025-10-21T03:50:57.042Z",
+      "bumped": true,
+      "bumped_at": "2025-10-21T03:50:57.042Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 84,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 32501,
+      "title": "Gencon Live 2026: The Letters Page",
+      "fancy_title": "Gencon Live 2026: The Letters Page",
+      "slug": "gencon-live-2026-the-letters-page",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-11T14:33:08.308Z",
+      "last_posted_at": "2026-08-11T14:33:08.398Z",
+      "bumped": true,
+      "bumped_at": "2026-08-11T14:33:08.398Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 30,
+      "category_id": 25,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31831,
+      "title": "The Moral Neutrality universe",
+      "fancy_title": "The Moral Neutrality universe",
+      "slug": "the-moral-neutrality-universe",
+      "posts_count": 39,
+      "reply_count": 7,
+      "highest_post_number": 41,
+      "image_url": null,
+      "created_at": "2025-10-01T18:21:03.643Z",
+      "last_posted_at": "2026-07-29T02:52:24.487Z",
+      "bumped": true,
+      "bumped_at": "2026-07-29T02:52:24.487Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 650,
+      "category_id": 25,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 32029,
+  "title": "OblivAeon weird card interaction",
+  "fancy_title": "OblivAeon weird card interaction",
+  "posts_count": 14,
+  "created_at": "2025-11-04T23:13:14.702Z",
+  "views": 158,
+  "reply_count": 9,
+  "like_count": 3,
+  "last_posted_at": "2025-11-17T13:06:56.375Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "oblivaeon-weird-card-interaction",
+  "category_id": 12,
+  "word_count": 1230,
+  "deleted_at": null,
+  "user_id": 18355,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_32029",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 14,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "accepted_answer": {
+    "post_number": 14,
+    "username": "LonelyMan",
+    "excerpt": "Finally got the bug replicated (more or less) and reported.  If I never play CC and Fanny against Blivs again, it’ll be too soon.",
+    "name": null
+  },
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 18355,
+        "username": "LonelyMan",
+        "name": "",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "post_count": 9,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3
+      },
+      {
+        "id": 5464,
+        "username": "Powerhound_2000",
+        "name": "Sonvar",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "post_count": 3,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 17936,
+        "username": "Omegatron",
+        "name": "",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 18355,
+      "username": "LonelyMan",
+      "name": "",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png"
+    },
+    "last_poster": {
+      "id": 18355,
+      "username": "LonelyMan",
+      "name": "",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png"
+    }
+  },
+  "bookmarks": []
+}

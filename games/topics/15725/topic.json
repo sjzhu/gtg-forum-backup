@@ -1,0 +1,1946 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 15726,
+        "name": "just.a.smith",
+        "username": "just.a.smith",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/dec6dc/{size}.png",
+        "created_at": "2016-09-28T20:30:28.000Z",
+        "cooked": "<p>So, inspired by the similar thread that this is named after (see&nbsp;<a href=\"https://greaterthangames.com/forum/topic/nuking-for-glory-max-damage-3823\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/nuking-for-glory-max-damage-3823</a>), I posted a while ago on the Sentinels of the Multiverse subreddit a thread about maximum villain damage. &nbsp;In particular, I was looking at the maximum damage each villain could do before the heroes even got a chance to react - i.e. what if you had bad luck that made Setback seem positively tame? &nbsp;Here’s the rules I set forth:</p>\n<ul>\n<li>The villain deck is stacked at the beginning of the game and after each re-shuffle.</li>\n<li>If it's relevant, the environment deck is stacked as well, in the same way.</li>\n<li>Nemesis damage is not considered.</li>\n<li>Total damage done to hero targets is considered - this means five damage to one target is as good as one damage to five targets. &nbsp;[s]If you can find a way to abuse this by getting Constructs or Mechanical Golems into play, more power to you.[/s] Never mind, that falls under the same problem as nemesis damage.</li>\n<li>You may assume the heroes have infinite HP for our purposes, and not worry about those puny heroes dying partway through their pummeling. &nbsp;</li>\n<li>You may choose Challenge or Advanced mode, or both, if that assists with damage output.</li>\n<li>You may choose H to be anywhere from three to five. &nbsp;You will usually want it to be five.</li>\n<li>We're trying to be as nasty to the heroes as possible, so we will let the villain choose the order of damage in cases where it matters.</li>\n</ul>\nNow, for most villains, this number likely isn't terribly interesting; most villains can't play multiple cards per turn. &nbsp;Below are a few of the villains that have been calculated by myself and others.\n<p><b>Ambuscade: (Challenge mode, H=5, any environment)</b></p>\n<p>Unbounded amount of damage. &nbsp;Because of the way his challenge variant works, if we're stacking the deck in favor of the villain at all times, then the heroes die in a never-ending cascade of traps.</p>\n<p><strong>Infinitor: (Standard mode, H=5, any environment)</strong></p>\n<ul>\n<li>Start with any four manifestations in play.</li>\n<li>First play is Insanity, revealing all the manifestations and ending with playing Machinations of a Madman.</li>\n<li>Machinations of a Madman reveals Crazed Artifice and discards it, dealing one to each target, then plays the next card, which is another Machinations. [5]</li>\n<li>Machinations of a Madman reveals Crazed Artifice and discards it, dealing one to each target, then plays the next card, which is Whispers of Oblivion. [10]</li>\n<li>Whispers of Oblivion does one to each target, then plays the next card, which is Whispers of Oblivion (2). [15]</li>\n<li>Whispers of Oblivion (2) does one to each target, then plays the next card, which is Whispers of Oblivion (3). [20]</li>\n<li>Whispers of Oblivion (3) does one to each target, then plays the next card, which is irrelevant; all that's left are one-shots that don't deal damage, and all of the damage dealing ones are still in play. [25]</li>\n<li>At the end of turn, Infinitor deals H-1 damage. [29]</li>\n<li>At the end of turn, the three&nbsp;Lambent Reapers deal 2 and 2 to the lowest each. (3*(2+2)=12) [41]</li>\n<li>At the end of turn, the three Recalescent Hellions deal 3 to the two highest each. (3*2*3=18) [59]</li>\n<li>At the end of turn, the three Twisted Miscreations deal H to the highest each. (3*5=15) [74]</li>\n<li>Assuming all of the Crushing Cages went on the first hero in the turn order, then at the start of that hero's turn, all three Cages deal that hero 1 and 1. (3*(1+1)=6) [80]</li>\n</ul>\n<strong>Final total: 80</strong>\n<p><strong>Akash'Bhuta: (Advanced mode, H=5, Silver Gultch)</strong></p>\n<p>So you might go into this thinking that more targets would help AB play more cards, but you'd be wrong. See, the only things in AB's deck that can deal damage on the first turn are Primeval Limbs, and it's simple enough to get all of those into play by chaining Primeval Eruptions. What matters more is how much damage the environment cards we get to play can deal. Here's the set-up:</p>\n<p>Play phase:\n</p><ul>\n<li>Plays Disrupt the Field; plays another villain card</li>\n<li>Plays the other copy of Disrupt the Field; plays another villain card</li>\n<li>Plays Primeval Eruption, revealing five of twelve Primeval Limbs (specifically 3x Arboreal Phalanges, 2x Mountainous Carapace); mills five environment cards, plays another villain card</li>\n<li>Plays a second Primeval Eruption, revealing five more Primeval Limbs (1x Mountainous Carapace, 3x Living Rockslide, 1x Ensnaring Brambles); mills five environment cards, plays another villain card</li>\n<li>Plays a third Primeval Eruption, revealing the last two Limbs and three cards that don't matter; mills two more environment cards and plays another villain card</li>\n<li>Plays Entomb (this doesn't actually matter for this turn)</li>\n<li>The second Disrupt the Field finishes, playing an Explosives Wagon from the top of the environment deck</li>\n<li>The first Disrupt the Field finishes, playing another Explosives Wagon from the top of the environment deck</li>\n</ul><p>End of turn\n</p><ul>\n<li>3 Arboreal Phalanges deal 6 melee damage each (18 damage)</li>\n<li>The first Living Rockslide deals 5 projectile damage to each non-villain target; the Explosives Wagons are at 4 hp each (43 damage)</li>\n<li>The second Living Rockslide deals 5 projectile damage to each non-villain target; to maximize damage, we deal damage to the heroes first, then destroy the first Explosives Wagon (68 damage)</li>\n<li>The first Explosives Wagon deals 8 to each hero, then destroys the other Explosives Wagon before moving on to the villain targets (108 damage)</li>\n<li>The second Explosives Wagon deals 8 to each hero, then 6 to each villain except AB, who takes no damage thanks to three Mountainous Carapaces (148 damage)</li>\n<li>The first Explosives Wagon deals 4 to each villain, which destroys all of the Living Rockslides and Ensnaring Brambles, but not the Mountainous Carapaces. AB herself takes 39 damage.</li>\n</ul><p>You could also rearrange the damage on the two Explosives Wagons so that each villain takes 12, which is enough to destroy the Mountainous Carapaces. The max damage you can deal to AB this way is as follows:\n</p><ul>\n<li>The first Explosives Wagon deals 8 to each hero, then 6 to each villain except AB herself, then 6 to the other Explosives Wagon</li>\n<li>The second Explosives Wagon deals 8 to each hero, then 6 to each villain, starting with the Carapaces; the Carapace death triggers deal 9, 10, and 11 damage, respectively. Then the Phalanges deal 13 each, the Rockslides deal 11 each, and the Brambles deal 10 each. (132 total damage to AB)</li>\n<li>The second Explosives Wagon finishes by dealing 6 to AB, and the first one deals 4 to AB, for a total damage to AB of 142 damage.</li>\n</ul><p>To recap, that's 26 to each hero, plus another 6 to the three heroes that started the highest for a total of 148 damage to the heroes, and 142 damage to AB, all before the heroes get a turn. Oh, and by the way, Entomb is set up to deal another five to each hero at the start of the next villain turn. Good luck!\n</p><p><strong>Final Total: 148</strong>\n</p><p><strong>Iron Legacy: (Standard mode, H=5, any environment)</strong>\n</p><p>\n[quote=\"MigrantP\"]\n</p><p>Try Iron Legacy =)\n</p><p>Play with 5 heroes. At the start of the game, Iron Legacy plays 5 ongoing cards:\n</p><ul>\n<li>Demoralizing Presence (+1 damage)</li>\n<li>Demoralizing Presence (+1 damage)</li>\n<li>Galvanized (+1 damage)</li>\n<li>Galvanized (+1 damage)</li>\n<li>Final Evolution - IL deals 5 damage to each hero (6 to nemeses)</li>\n</ul><p>He plays a card:\n</p><ul>\n<li>Former Allies, everyone discards 1</li>\n<li>Former Allies, everyone discards 1</li>\n<li>Rule from the Front, everyone discards 2. 8 damage to each hero (9 to nemeses)</li>\n</ul><p>End of turn:\n</p><ul>\n<li>7 damage to each hero (8 to nemeses)</li>\n<li>Demoralizing Presence: 1 damage to each hero from themselves</li>\n<li>Demoralizing Presence: 1 damage to each hero from themselves</li>\n</ul><p>Total before a hero makes a play:\n</p><ul>\n<li>22 damage to each hero (25 to nemeses) - total of between 110 and 125 damage</li>\n<li>All hero cards discarded</li>\n</ul><p>\n[/quote]\n</p><p><strong>Final Total: 110</strong>\n</p><p><strong>Progeny: (Standard Mode, H=5, any environment)</strong>\n</p><p>\n[quote=\"TechnomagusPrime\"]\n</p><p>Start of game:\n</p><ul><li>Scion of Storms (1 damage to all Heroes, 2 to KNYFE)</li></ul><p>Play phase:\n</p><ul><li>The Inevitable, get Time of Tribulations (3 damage to all Heroes, 4 to KNYFE)</li></ul><p>End Phase\n</p><ul>\n<li>Progeny deals 4 damage to all Heroes (5 to KNYFE).</li>\n<li>Scion of Storms plays Form of the Harbinger</li>\n<li>Form of the Harbinger fetches Scion of Storms</li>\n<li>Scion of Storms and Form of the Harbinger each deal 3 damage to all heroes (4 to KNYFE, 6 total or 8 to KNYFE).</li>\n<li>Scion of Storms plays Form of the Harbinger</li>\n<li>Form of the Harbinger plays Scion of Flame</li>\n<li>Form of the Harbinger and Scion of Flame each deal 4 damage to all Heroes (5 to KNYFE, 8 total or 10 to KNYFE).</li>\n</ul><p>Total, 22 damage to each hero, 29 to KNYFE. This will exactly kill KNYFE: Rogue Agent, and leave regular KNYFE at 1 HP.\n</p><p>\n[/quote]\n</p><p><strong>Final Total: 110</strong>\n</p><p><strong>The Dreamer (Standard mode, H=5, any environment)</strong>\n</p><p>\n[quote=\"Sonvar\"]\n</p><p> In an five hero game against the Dreamer, normal or advanced, you could have her start with these five projections \n</p><ul>\n<li>Two Dark Hero (+2 damage total from villain targets)</li>\n<li>Two Macabre Specter</li>\n<li>One Grotesque Arachnoid</li>\n</ul><p>Normal Card play\n</p><ul><li>Night Terrors deals 8 psychic damage to all heroes</li></ul><p>End of Turn\n</p><ul>\n<li>Each Macabre Specter deals 4 psychic damage to all heroes</li>\n<li>Grotesque Arachnoid deals 4 toxic damage to all but the lowest health hero</li>\n</ul><p>Total before a hero makes a play\n</p><ul>\n<li>16 damage to the lowest health hero and 20 to all others</li>\n<li>You are also dealing with -2 damage to all projections the first round (-3 if playing on advanced)</li>\n</ul><p>\n[/quote]\n</p><p><strong>Final Total: 96</strong></p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:48:12.792Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "just.a.smith",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/forum/topic/nuking-for-glory-max-damage-3823",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "So, inspired by the similar thread that this is named after (see&nbsp;<a href=\"https://greaterthangames.com/forum/topic/nuking-for-glory-max-damage-3823\">https://greaterthangames.com/forum/topic/nuking-for-glory-max-damage-3823</a>), I posted a while ago on the Sentinels of the Multiverse subreddit a thread about maximum villain damage. &nbsp;In particular, I was looking at the maximum damage each villain could do before the heroes even got a chance to react - i.e. what if you had bad luck that made Setback seem positively tame? &nbsp;Here&#39;s the rules I set forth:\n<ul><li>The villain deck is stacked at the beginning of the game and after each re-shuffle.</li><li>If it&#39;s relevant, the environment deck is stacked as well, in the same way.</li><li>Nemesis damage is not considered.</li><li>Total damage done to hero targets is considered - this means five damage to one target is as good as one damage to five targets. &nbsp;[s]If you can find a way to abuse this by getting Constructs or Mechanical Golems into play, more power to you.[/s] Never mind, that falls under the same problem as nemesis damage.</li><li>You may assume the heroes have infinite HP for our purposes, and not worry about those puny heroes dying partway through their pummeling. &nbsp;</li><li>You may choose Challenge or Advanced mode, or both, if that assists with damage output.</li><li>You may choose H to be anywhere from three to five. &nbsp;You will usually want it to be five.</li><li>We&#39;re trying to be as nasty to the heroes as possible, so we will let the villain choose the order of damage in cases where it matters.</li></ul>\nNow, for most villains, this number likely isn&#39;t terribly interesting; most villains can&#39;t play multiple cards per turn. &nbsp;Below are a few of the villains that have been calculated by myself and others.\n\n<b>Ambuscade: (Challenge mode, H=5, any environment)</b>\n\nUnbounded amount of damage. &nbsp;Because of the way his challenge variant works, if we&#39;re stacking the deck in favor of the villain at all times, then the heroes die in a never-ending cascade of traps.\n\n<strong>Infinitor: (Standard mode, H=5, any environment)</strong>\n<ul><li>Start with any four manifestations in play.</li><li>First play is Insanity, revealing all the manifestations and ending with playing Machinations of a Madman.</li><li>Machinations of a Madman reveals Crazed Artifice and discards it, dealing one to each target, then plays the next card, which is another Machinations. [5]</li><li>Machinations of a Madman reveals Crazed Artifice and discards it, dealing one to each target, then plays the next card, which is Whispers of Oblivion. [10]</li><li>Whispers of Oblivion does one to each target, then plays the next card, which is Whispers of Oblivion (2). [15]</li><li>Whispers of Oblivion (2) does one to each target, then plays the next card, which is Whispers of Oblivion (3). [20]</li><li>Whispers of Oblivion (3) does one to each target, then plays the next card, which is irrelevant; all that&#39;s left are one-shots that don&#39;t deal damage, and all of the damage dealing ones are still in play. [25]</li><li>At the end of turn, Infinitor deals H-1 damage. [29]</li><li>At the end of turn, the three&nbsp;Lambent Reapers deal 2 and 2 to the lowest each. (3*(2+2)=12) [41]</li><li>At the end of turn, the three Recalescent Hellions deal 3 to the two highest each. (3*2*3=18) [59]</li><li>At the end of turn, the three Twisted Miscreations deal H to the highest each. (3*5=15) [74]</li><li>Assuming all of the Crushing Cages went on the first hero in the turn order, then at the start of that hero&#39;s turn, all three Cages deal that hero 1 and 1. (3*(1+1)=6) [80]</li></ul>\n<strong>Final total: 80</strong>\n\n<strong>Akash&#39;Bhuta: (Advanced mode, H=5, Silver Gultch)</strong>\n\n So you might go into this thinking that more targets would help AB play more cards, but you&#39;d be wrong. See, the only things in AB&#39;s deck that can deal damage on the first turn are Primeval Limbs, and it&#39;s simple enough to get all of those into play by chaining Primeval Eruptions. What matters more is how much damage the environment cards we get to play can deal. Here&#39;s the set-up: \n<p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Play phase:\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Plays Disrupt the Field; plays another villain card</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Plays the other copy of Disrupt the Field; plays another villain card</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Plays Primeval Eruption, revealing five of twelve Primeval Limbs (specifically 3x Arboreal Phalanges, 2x Mountainous Carapace); mills five environment cards, plays another villain card</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Plays a second Primeval Eruption, revealing five more Primeval Limbs (1x Mountainous Carapace, 3x Living Rockslide, 1x Ensnaring Brambles); mills five environment cards, plays another villain card</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Plays a third Primeval Eruption, revealing the last two Limbs and three cards that don&#39;t matter; mills two more environment cards and plays another villain card</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Plays Entomb (this doesn&#39;t actually matter for this turn)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The second Disrupt the Field finishes, playing an Explosives Wagon from the top of the environment deck</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The first Disrupt the Field finishes, playing another Explosives Wagon from the top of the environment deck</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">End of turn\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">3 Arboreal Phalanges deal 6 melee damage each (18 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The first Living Rockslide deals 5 projectile damage to each non-villain target; the Explosives Wagons are at 4 hp each (43 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The second Living Rockslide deals 5 projectile damage to each non-villain target; to maximize damage, we deal damage to the heroes first, then destroy the first Explosives Wagon (68 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The first Explosives Wagon deals 8 to each hero, then destroys the other Explosives Wagon before moving on to the villain targets (108 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The second Explosives Wagon deals 8 to each hero, then 6 to each villain except AB, who takes no damage thanks to three Mountainous Carapaces (148 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The first Explosives Wagon deals 4 to each villain, which destroys all of the Living Rockslides and Ensnaring Brambles, but not the Mountainous Carapaces. AB herself takes 39 damage.</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">You could also rearrange the damage on the two Explosives Wagons so that each villain takes 12, which is enough to destroy the Mountainous Carapaces. The max damage you can deal to AB this way is as follows:\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The first Explosives Wagon deals 8 to each hero, then 6 to each villain except AB herself, then 6 to the other Explosives Wagon</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The second Explosives Wagon deals 8 to each hero, then 6 to each villain, starting with the Carapaces; the Carapace death triggers deal 9, 10, and 11 damage, respectively. Then the Phalanges deal 13 each, the Rockslides deal 11 each, and the Brambles deal 10 each. (132 total damage to AB)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The second Explosives Wagon finishes by dealing 6 to AB, and the first one deals 4 to AB, for a total damage to AB of 142 damage.</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">To recap, that&#39;s 26 to each hero, plus another 6 to the three heroes that started the highest for a total of 148 damage to the heroes, and 142 damage to AB, all before the heroes get a turn. Oh, and by the way, Entomb is set up to deal another five to each hero at the start of the next villain turn. Good luck!\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\"><strong>Final Total: 148</strong>\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\"><strong>Iron Legacy: (Standard mode, H=5, any environment)</strong>\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">\n[quote=\"MigrantP\"]\n\n<p style=\"box-sizing: border-box; margin: 0px 0px 0.357143em; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Try Iron Legacy =)\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Play with 5 heroes. At the start of the game, Iron Legacy plays 5 ongoing cards:\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Demoralizing Presence (+1 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Demoralizing Presence (+1 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Galvanized (+1 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Galvanized (+1 damage)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Final Evolution - IL deals 5 damage to each hero (6 to nemeses)</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">He plays a card:\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Former Allies, everyone discards 1</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Former Allies, everyone discards 1</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Rule from the Front, everyone discards 2. 8 damage to each hero (9 to nemeses)</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">End of turn:\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">7 damage to each hero (8 to nemeses)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Demoralizing Presence: 1 damage to each hero from themselves</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Demoralizing Presence: 1 damage to each hero from themselves</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Total before a hero makes a play:\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">22 damage to each hero (25 to nemeses) - total of between 110 and 125 damage</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">All hero cards discarded</li></ul><p style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">\n[/quote]\n\n<p style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\"><strong>Final Total: 110</strong>\n<p style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\"><strong>Progeny: (Standard Mode, H=5, any environment)</strong>\n<p style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">\n[quote=\"TechnomagusPrime\"]\n\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Start of game:\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Scion of Storms (1 damage to all Heroes, 2 to KNYFE)</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Play phase:\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">The Inevitable, get Time of Tribulations (3 damage to all Heroes, 4 to KNYFE)</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">End Phase\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Progeny deals 4 damage to all Heroes (5 to KNYFE).</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Scion of Storms plays Form of the Harbinger</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Form of the Harbinger fetches Scion of Storms</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Scion of Storms and Form of the Harbinger each deal 3 damage to all heroes (4 to KNYFE, 6 total or 8 to KNYFE).</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Scion of Storms plays Form of the Harbinger</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Form of the Harbinger plays Scion of Flame</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Form of the Harbinger and Scion of Flame each deal 4 damage to all Heroes (5 to KNYFE, 8 total or 10 to KNYFE).</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Total, 22 damage to each hero, 29 to KNYFE. This will exactly kill KNYFE: Rogue Agent, and leave regular KNYFE at 1 HP.\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">\n[/quote]\n\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\"><strong>Final Total: 110</strong>\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\"><strong>The Dreamer (Standard mode, H=5, any environment)</strong>\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">\n[quote=\"Sonvar\"]\n\n<p style=\"box-sizing: border-box; margin: 0.357143em 0px 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\"> In an five hero game against the Dreamer, normal or advanced, you could have her start with these five projections \n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Two Dark Hero (+2 damage total from villain targets)</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Two Macabre Specter</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">One Grotesque Arachnoid</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Normal Card play\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Night Terrors deals 8 psychic damage to all heroes</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">End of Turn\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-bottom: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Each Macabre Specter deals 4 psychic damage to all heroes</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">Grotesque Arachnoid deals 4 toxic damage to all but the lowest health hero</li></ul><p style=\"box-sizing: border-box; margin: 0.357143em 0px; font-size: 14px; line-height: 1.42857em; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; background-color: rgb(255, 255, 255);\">Total before a hero makes a play\n<ul style=\"box-sizing: border-box; margin-top: 0.357143em; margin-left: 0px; padding-left: 40px; color: rgb(41, 47, 52); font-family: verdana, arial, helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">16 damage to the lowest health hero and 20 to all others</li><li style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">You are also dealing with -2 damage to all projections the first round (-3 if playing on advanced)</li></ul><p style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\">\n[/quote]\n\n<p style=\"box-sizing: border-box; margin-left: 0px; font-size: 1em; line-height: 1.42857em;\"><strong>Final Total: 96</strong>\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14775,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-08-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183055,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2016-09-28T21:02:07.000Z",
+        "cooked": "<p>For advanced Chokepoint you wouldn't get much damage but most heroes likely will be starting with two cards or less in hand</p><ul>\n<li>Newfound Power reveals Newfound Power all players have to put a one-shot face down in Chokepoint's play area</li>\n<li>Newfound Power reveals Newfound Power all players have to put a one-shot face down in Chokepoint's play area</li>\n<li>Newfound Power reveals Material Upheaveal&nbsp;<span>all players have to put a one-shot face down in Chokepoint's play area</span>\n</li>\n<li>Material Upheaval deals all heroes a total of 4 damage [20]</li>\n<li>Chokepoint deals the hero with the most health 4 damage [24]</li>\n<li>The player with the most cards in hand put on face down in Chokepoint's play area</li>\n</ul><p>&nbsp;</p><p>For Citizen Dawn I'd have her against 5 heroes on advanced and challenge mode</p><ul>\n<li>Initial Citizens are Truth, Winter, Assault, and Hammer</li>\n<li>Card play is Citizen Dare which destroys Citizen Truth. &nbsp;</li>\n<li>Truth is destroyed due to Dare being played and deals the hero with the highest health 5 Melee damage[5]</li>\n<li>Citizen Dawn reacts to the destruction of a Citizen and deals the hero with the highest health 5 fire damage [10]</li>\n<li>Citizen Dawn end of turn deals the hero with the highest Heath 5 energy damage [15]</li>\n<li>Winter deals each hero 4 cold damage [35]</li>\n<li>Assault deals each hero 3 melee damage [50]</li>\n<li>Hammer deals each hero 5 fire damage [75]</li>\n</ul><p>While this is painful the more painful start is Blinding Blast with Sweat, and Tears out as that everyone with no hand and stays that way until you can get rid of Tears.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:11.577Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>For advanced Chokepoint you wouldn&#39;t get much damage but most heroes likely will be starting with two cards or less in hand</p><ul><li>Newfound Power reveals Newfound Power all players have to put a one-shot face down in Chokepoint&#39;s play area</li><li style=\"font-size: 13px;\">Newfound Power reveals Newfound Power all players have to put a one-shot face down in Chokepoint&#39;s play area</li><li style=\"font-size: 13px;\">Newfound Power reveals Material Upheaveal&nbsp;<span style=\"font-size: 13px;\">all players have to put a one-shot face down in Chokepoint&#39;s play area</span></li><li style=\"font-size: 13px;\">Material Upheaval deals all heroes a total of 4 damage [20]</li><li style=\"font-size: 13px;\">Chokepoint deals the hero with the most health 4 damage [24]</li><li style=\"font-size: 13px;\">The player with the most cards in hand put on face down in Chokepoint&#39;s play area</li></ul><p style=\"font-size: 13px;\">&nbsp;</p><p style=\"font-size: 13px;\">For Citizen Dawn I&#39;d have her against 5 heroes on advanced and challenge mode</p><ul><li style=\"font-size: 13px;\">Initial Citizens are Truth, Winter, Assault, and Hammer</li><li style=\"font-size: 13px;\">Card play is Citizen Dare which destroys Citizen Truth. &nbsp;</li><li style=\"font-size: 13px;\">Truth is destroyed due to Dare being played and deals the hero with the highest health 5 Melee damage[5]</li><li style=\"font-size: 13px;\">Citizen Dawn reacts to the destruction of a Citizen and deals the hero with the highest health 5 fire damage [10]</li><li style=\"font-size: 13px;\">Citizen Dawn end of turn deals the hero with the highest Heath 5 energy damage [15]</li><li style=\"font-size: 13px;\">Winter deals each hero 4 cold damage [35]</li><li style=\"font-size: 13px;\">Assault deals each hero 3 melee damage [50]</li><li style=\"font-size: 13px;\">Hammer deals each hero 5 fire damage [75]</li></ul><p style=\"font-size: 13px;\">While this is painful the more painful start is Blinding Blast with Sweat, and Tears out as that everyone with no hand and stays that way until you can get rid of Tears.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183056,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-09-28T21:17:58.000Z",
+        "cooked": "<p>I think that I can top Akash'Bhuta's damage to heroes. &nbsp;The secret is that we're not trying to see how much damage can be dealt in a turn. &nbsp;We're trying to see how much damage can be dealt before the heroes can <span class=\"bbcode-i\">react</span>. &nbsp;And there are ways of keeping the heroes from reacting… (mwahahahah!)</p>\n<p>&nbsp;</p>\n<p>Akash'Bhuta (H=5, Advanced)</p>\n<p>Play a card:<br>Disrupt the Field -&gt; Disrupt the Field -&gt; Primeveal Eruption -&gt; Primeveal Eruption -&gt; Primeveal Eruption -&gt; Entomb<br>All limbs are in play, 12 environment cards discarded, play 2 environment cards: Hostage Situation &amp; Paparazzi on the Scene</p>\n<p>End of turn:<br>3x Arboreal Phalanges deal 4 damage each [12]<br>3x Living Rockslides deal 3 damage x5 each [57]<br><br>Heroes cannot play cards or use powers, and do nothing but draw cards on their turns</p>\n<p>Environment turn:<br>Start of turn: Players get rid of Hostage Situation &amp; Paparazzi. &nbsp;or not. &nbsp;It doesn't matter<br>Play a card: Plummeting Monorail -&gt; Entomb<br>End of turn: nothing</p>\n<p>Villain Turn:<br>Start of Turn: 2x Entomb deal 5 damage to each hero and are destroyed. &nbsp;The Plummeting Monorail is also destroyed [107]<br>Play a card: Earth's Sacrifice. &nbsp;The environment has no cards left, and reshuffles. &nbsp;Akash'Bhuta flips.<br>End of turn:<br>Akash deals 4 heroes 3 damage. [119]<br> 3x Arboreal Phalanges deal 4 damage each [131] <br> 3x Living Rockslides deal 3 damage x5 each [176]<br><br>Now the heroes can respond. <br>&nbsp;</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:11.653Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "I think that I can top Akash&#39;Bhuta&#39;s damage to heroes. &nbsp;The secret is that we&#39;re not trying to see how much damage can be dealt in a turn. &nbsp;We&#39;re trying to see how much damage can be dealt before the heroes can [i]react[/i]. &nbsp;And there are ways of keeping the heroes from reacting... (mwahahahah!)\n\n&nbsp;\n\nAkash&#39;Bhuta (H=5, Advanced)\n\nPlay a card:<br />Disrupt the Field -&gt; Disrupt the Field -&gt; Primeveal Eruption -&gt; Primeveal Eruption -&gt; Primeveal Eruption -&gt; Entomb<br />All limbs are in play, 12 environment cards discarded, play 2 environment cards: Hostage Situation &amp; Paparazzi on the Scene\n\nEnd of turn:<br />3x Arboreal Phalanges deal 4 damage each [12]<br />3x Living Rockslides deal 3 damage x5 each [57]<br /><br />Heroes cannot play cards or use powers, and do nothing but draw cards on their turns\n\nEnvironment turn:<br />Start of turn: Players get rid of Hostage Situation &amp; Paparazzi. &nbsp;or not. &nbsp;It doesn&#39;t matter<br />Play a card: Plummeting Monorail -&gt; Entomb<br />End of turn: nothing\n\nVillain Turn:<br />Start of Turn: 2x Entomb deal 5 damage to each hero and are destroyed. &nbsp;The Plummeting Monorail is also destroyed [107]<br />Play a card: Earth&#39;s Sacrifice. &nbsp;The environment has no cards left, and reshuffles. &nbsp;Akash&#39;Bhuta flips.<br />End of turn:<br />Akash deals 4 heroes 3 damage. [119]<br /> 3x Arboreal Phalanges deal 4 damage each [131] <br /> 3x Living Rockslides deal 3 damage x5 each [176]<br /><br />Now the heroes can respond. <br />&nbsp;\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183057,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2016-09-28T21:24:49.000Z",
+        "cooked": "<p>Owie</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:11.729Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>Owie</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183058,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-09-28T21:50:54.000Z",
+        "cooked": "<p>The Chairman can pull off a similar trick:</p><p>&nbsp;</p><p>The Chairman (H=5)</p><p>Play a card: Rook City is Mine! -&gt; Hostage Sit &amp; Paparazzi<br>End of Turn:<br>The Operative finds The Contract<br>The Contract shoots a hero for 2+1 [3]<br>The Contract finds the Hired Gun<br>Hired Gun shoots everyone for 2+1 [18]</p><p>The heroes don't do anything</p><p>The Environment plays Rooftop Combat</p><p>Start of Turn: nothing<br>Play a card: Undivided Attention deals 5+2 and 4+2 damage to heroes [31]<br>The Operative finds The Muscle<br>The Contract shoots a hero for 2+2 [35]<br>The Contract finds a Hired Gun<br>Hired Gun shoots everyone for 2+2 [55]<br>Hired Gun shoots everyone for 2+2 [75]<br>The Muscle finds an Enforcer<br>The Enforcer deals 5+2 damage to a hero [82]<br><br>I'm not sure if the Enforcer damage should count, since the hero could avoid it by discarding a card. &nbsp;But either way, life sucks for the heroes.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:11.793Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>The Chairman can pull off a similar trick:</p><p>&nbsp;</p><p>The Chairman (H=5)</p><p>Play a card: Rook City is Mine! -&gt; Hostage Sit &amp; Paparazzi<br />End of Turn:<br />The Operative finds The Contract<br />The Contract shoots a hero for 2+1 [3]<br />The Contract finds the Hired Gun<br />Hired Gun shoots everyone for 2+1 [18]</p><p>The heroes don&#39;t do anything</p><p>The Environment plays Rooftop Combat</p><p>Start of Turn: nothing<br />Play a card: Undivided Attention deals 5+2 and 4+2 damage to heroes [31]<br />The Operative finds The Muscle<br />The Contract shoots a hero for 2+2 [35]<br />The Contract finds a Hired Gun<br />Hired Gun shoots everyone for 2+2 [55]<br />Hired Gun shoots everyone for 2+2 [75]<br />The Muscle finds an Enforcer<br />The Enforcer deals 5+2 damage to a hero [82]<br /><br />I&#39;m not sure if the Enforcer damage should count, since the hero could avoid it by discarding a card. &nbsp;But either way, life sucks for the heroes.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183059,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2016-09-28T23:28:27.000Z",
+        "cooked": "<p>This is fascinating. More! :D</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:11.864Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>This is fascinating. More! :D</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183060,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-09-28T23:45:34.000Z",
+        "cooked": "<p>I just realized that none of these numbers are right. &nbsp;You can get the maximum damage for any villain higher than shown... by making the Sentinels one of the heroes. &nbsp;</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:11.933Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I just realized that none of these numbers are right. &nbsp;You can get the maximum damage for any villain higher than shown... by making the Sentinels one of the heroes. &nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183061,
+        "name": "LewdDolphin21",
+        "username": "LewdDolphin21",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lewddolphin21/{size}/1893_2.png",
+        "created_at": "2016-09-28T23:56:39.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p>Rook City is Mine! -&gt; Hostage Sit &amp; Paparazzi</p>\n</blockquote>\n</aside>\n<p>This exact situation happened to me at the start of the game once. It was depressing.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:11.997Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "LewdDolphin21",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Arcanist Lupus\"]\n\nRook City is Mine! -&gt; Hostage Sit &amp; Paparazzi\n\n[/quote]\n\nThis exact situation happened to me at the start of the game once. It was depressing.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12593,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-07-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183062,
+        "name": "just.a.smith",
+        "username": "just.a.smith",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/dec6dc/{size}.png",
+        "created_at": "2016-09-29T06:38:37.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p>I just realized that none of these numbers are right. &nbsp;You can get the maximum damage for any villain higher than shown… by making the Sentinels one of the heroes. &nbsp;</p>\n</blockquote>\n</aside>\n<p>I'm not really counting that, the same way I'm not counting nemesis damage - anything that requires specific heroes is out. &nbsp;Otherwise, we'd be keeping track of actual HP totals, and then we'd have to figure out when exactly each of the Sentinels die.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:12.070Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "just.a.smith",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Arcanist Lupus\"]\n\nI just realized that none of these numbers are right. &nbsp;You can get the maximum damage for any villain higher than shown... by making the Sentinels one of the heroes. &nbsp;\n\n[/quote]\n\nI&#39;m not really counting that, the same way I&#39;m not counting nemesis damage - anything that requires specific heroes is out. &nbsp;Otherwise, we&#39;d be keeping track of actual HP totals, and then we&#39;d have to figure out when exactly each of the Sentinels die.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14775,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-08-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183063,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2016-09-29T16:32:24.000Z",
+        "cooked": "<p>I wasn’t sure, since you said that we could get extra damage in if we could get constructs or golems in play, and those fall under similar territory.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:12.136Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "I wasn't sure, since you said that we could get extra damage in if we could get constructs or golems in play, and those fall under similar territory.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183064,
+        "name": "just.a.smith",
+        "username": "just.a.smith",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/dec6dc/{size}.png",
+        "created_at": "2016-09-29T20:40:32.000Z",
+        "cooked": "<p>True. &nbsp;I should probably remove that.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:12.195Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "just.a.smith",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>True. &nbsp;I should probably remove that.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14775,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-08-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183065,
+        "name": "armadagon",
+        "username": "armadagon",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/armadagon/{size}/2379_2.png",
+        "created_at": "2016-09-30T14:34:53.000Z",
+        "cooked": "<blockquote><p><strong>Progeny: (Standard Mode, H=5, any environment)</strong></p><div><b>TechnomagicPrime wrote:</b><blockquote><p>Start of game:</p><ul><li>Scion of Storms (1 damage to all Heroes, 2 to KNYFE)</li></ul><p>Play phase:</p><ul><li>The Inevitable, get Time of Tribulations (3 damage to all Heroes, 4 to KNYFE)</li></ul><p>End Phase</p><ul><li>Progeny deals 4 damage to all Heroes (5 to KNYFE).</li><li>Scion of Storms plays Form of the Harbinger</li><li>Form of the Harbinger fetches Scion of Storms</li><li>Scion of Storms and Form of the Harbinger each deal 3 damage to all heroes (4 to KNYFE, 6 total or 8 to KNYFE).</li><li>Scion of Storms plays Form of the Harbinger</li><li>Form of the Harbinger plays Scion of Flame</li><li>Form of the Harbinger and Scion of Flame each deal 4 damage to all Heroes (5 to KNYFE, 8 total or 10 to KNYFE).</li></ul><p>Total, 22 damage to each hero, 29 to KNYFE. This will exactly kill KNYFE: Rogue Agent, and leave regular KNYFE at 1 HP.</p><p>&nbsp;</p></blockquote></div><p><strong>Final Total: 110</strong></p></blockquote><p>My reddit name is \"Technoma<em>gus</em>Prime,\" not \"Technomagic.\" &nbsp;Also, the fun thing about the Progeny setup is that unlike the Legacy setup, it works with H less than 5.</p><p><span>Ooh. &nbsp;MigrantP, after Vengeance is released, you need to make the next \"Ridiculous Challenge Time Go!\" oneshot be this Progeny setup vs K.N.Y.F.E. Rogue Agent, the Southwest Sentinels, and The Scholar at Rook City. &nbsp;It's probably winable. &nbsp;Maybe. &nbsp;Haven't crunched the numbers yet.</span></p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:12.261Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "armadagon",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<blockquote><p style=\"margin-right: 10px; margin-bottom: 20px; margin-left: 0px; color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, HelveticaNeue, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14.4px; background-color: rgb(255, 255, 255);\"><strong>Progeny: (Standard Mode, H=5, any environment)</strong></p><div class=\"bb-quote\" style=\"color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, HelveticaNeue, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14.4px; background-color: rgb(255, 255, 255);\"><b>TechnomagicPrime wrote:</b><blockquote class=\"bb-quote-body\" style=\"border-color: rgb(153, 153, 153); background-image: url(&quot;/sites/all/themes/greaterthangamestheme/images/icon-quote.png&quot;); margin-right: 15px;\"><p style=\"margin-right: 10px; margin-bottom: 20px; margin-left: 0px;\">Start of game:</p><ul style=\"margin-top: 1em; margin-bottom: 1em; padding-bottom: 0.25em; padding-left: 2.5em;\"><li>Scion of Storms (1 damage to all Heroes, 2 to KNYFE)</li></ul><p style=\"margin: 0px 10px 20px 0px;\">Play phase:</p><ul style=\"margin-top: 1em; margin-bottom: 1em; padding-bottom: 0.25em; padding-left: 2.5em;\"><li>The Inevitable, get Time of Tribulations (3 damage to all Heroes, 4 to KNYFE)</li></ul><p style=\"margin: 0px 10px 20px 0px;\">End Phase</p><ul style=\"margin-top: 1em; margin-bottom: 1em; padding-bottom: 0.25em; padding-left: 2.5em;\"><li>Progeny deals 4 damage to all Heroes (5 to KNYFE).</li><li>Scion of Storms plays Form of the Harbinger</li><li>Form of the Harbinger fetches Scion of Storms</li><li>Scion of Storms and Form of the Harbinger each deal 3 damage to all heroes (4 to KNYFE, 6 total or 8 to KNYFE).</li><li>Scion of Storms plays Form of the Harbinger</li><li>Form of the Harbinger plays Scion of Flame</li><li>Form of the Harbinger and Scion of Flame each deal 4 damage to all Heroes (5 to KNYFE, 8 total or 10 to KNYFE).</li></ul><p style=\"margin: 0px 10px 20px 0px;\">Total, 22 damage to each hero, 29 to KNYFE. This will exactly kill KNYFE: Rogue Agent, and leave regular KNYFE at 1 HP.</p><p style=\"margin-top: 0px; margin-right: 10px; margin-left: 0px;\">&nbsp;</p></blockquote></div><p style=\"margin: 0px 10px 20px 0px; color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, HelveticaNeue, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14.4px; background-color: rgb(255, 255, 255);\"><strong>Final Total: 110</strong></p></blockquote><p style=\"margin: 0px 10px 20px 0px; color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, HelveticaNeue, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14.4px; background-color: rgb(255, 255, 255);\">My reddit name is &quot;Technoma<em>gus</em>Prime,&quot; not &quot;Technomagic.&quot; &nbsp;Also, the fun thing about the Progeny setup is that unlike the Legacy setup, it works with H less than 5.</p><p style=\"margin: 0px 10px 20px 0px; color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, HelveticaNeue, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14.4px; background-color: rgb(255, 255, 255);\"><span style=\"background-color: rgb(255, 255, 255); font-size: 14.4px;\">Ooh. &nbsp;MigrantP, after Vengeance is released, you need to make the next &quot;Ridiculous Challenge Time Go!&quot; oneshot be this Progeny setup vs K.N.Y.F.E. Rogue Agent, the Southwest Sentinels, and The Scholar at Rook City. &nbsp;It&#39;s probably winable. &nbsp;Maybe. &nbsp;Haven&#39;t crunched the numbers yet.</span></p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6184,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183066,
+        "name": "just.a.smith",
+        "username": "just.a.smith",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/dec6dc/{size}.png",
+        "created_at": "2016-09-30T19:23:56.000Z",
+        "cooked": "<p>Herp. &nbsp;I'll fix that.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:12.390Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "just.a.smith",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Herp. &nbsp;I&#39;ll fix that.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14775,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-08-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183067,
+        "name": "BlueHairedMeerkat",
+        "username": "BlueHairedMeerkat",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+        "created_at": "2016-09-30T21:33:48.000Z",
+        "cooked": "<p>APOSTATE:</p><p>Challenge Mode, H = 5, Condemnation starts in play. Play Fiendish Pugilist x3, Profane Summons to summon Gauntlet of Perdition x2, Periapt of Woe, and something we don't care about. Each Pugilist hits for 4 [12], Apostate hits for 4 and then 4 and then 4, with each Gauntlet hitting for 2 twice. [32]</p><p><strong>Total: 32</strong></p>",
+        "post_number": 14,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:12.453Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "BlueHairedMeerkat",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>APOSTATE:</p><p>Challenge Mode, H = 5, Condemnation starts in play. Play Fiendish Pugilist x3, Profane Summons to summon Gauntlet of Perdition x2, Periapt of Woe, and something we don&#39;t care about. Each Pugilist hits for 4 [12], Apostate hits for 4 and then 4 and then 4, with each Gauntlet hitting for 2 twice. [32]</p><p><strong>Total: 32</strong></p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2023,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183068,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2016-09-30T23:27:52.000Z",
+        "cooked": "<p>Here's an easy one:</p><p><strong>The Matriarch!</strong></p><p>(H=5, any environment, Advanced or Challenge doesn't matter)</p><p>The Matriarch puts Mask of the Matriarch into play</p><p>The Matriarch plays&nbsp;<em>all fifteen of her birds</em> because who cares really, it just looks impressive</p><p>The sixteenth card is Horrid Cacophany, Matriarch hits each hero for 3 sonic [15]</p><p>The Mask of the Matriarch plays the top card of the deck, which is Horrid Cacophany. Matriarch hits each hero for 3 sonic [30]</p><p><strong>Total: 30</strong></p><p>Good gravy, that's even worse than Apostate.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:12.520Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>Here&#39;s an easy one:</p><p><strong>The Matriarch!</strong></p><p>(H=5, any environment, Advanced or Challenge doesn&#39;t matter)</p><p>The Matriarch puts Mask of the Matriarch into play</p><p>The Matriarch plays&nbsp;<em>all fifteen of her birds</em> because who cares really, it just looks impressive</p><p>The sixteenth card is Horrid Cacophany, Matriarch hits each hero for 3 sonic [15]</p><p>The Mask of the Matriarch plays the top card of the deck, which is Horrid Cacophany. Matriarch hits each hero for 3 sonic [30]</p><p><strong>Total: 30</strong></p><p>Good gravy, that&#39;s even worse than Apostate.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 183069,
+        "name": "VisforYoshi",
+        "username": "VisforYoshi",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/visforyoshi/{size}/2185_2.png",
+        "created_at": "2016-10-02T00:45:54.000Z",
+        "cooked": "<p>The one I had to experience was that Gloomweaver sets up in a game against 5 heros, and starts off by playing Strength of the Grave.</p><p>5 Zombies hitting a hero for 8 damage a pop totals to 40 damage done</p><p>&nbsp;</p><p>The other I had to experience was Cosmitron on his flip side played all 9 of his drones in a row, (in a 5 player game), and ended with a Sedative Flechetes.</p><p>&nbsp;</p><p>6 damage to 5 heros: [30]</p><p>Plus 10 from each of the Assault Drones [60]</p><p>Plus 5 from each automaton drone [75]</p><p>&nbsp;</p><p>If you have two fully charged EPE's that ramps up even more, but even without that, it's darn near impossible to suffer a hit like that AND deal with him healing 30HP</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:08:12.584Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 15725,
+        "topic_slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+        "display_username": "VisforYoshi",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>The one I had to experience was that Gloomweaver sets up in a game against 5 heros, and starts off by playing Strength of the Grave.</p><p>5 Zombies hitting a hero for 8 damage a pop totals to 40 damage done</p><p>&nbsp;</p><p>The other I had to experience was Cosmitron on his flip side played all 9 of his drones in a row, (in a 5 player game), and ended with a Sedative Flechetes.</p><p>&nbsp;</p><p>6 damage to 5 heros: [30]</p><p>Plus 10 from each of the Assault Drones [60]</p><p>Plus 5 from each automaton drone [75]</p><p>&nbsp;</p><p>If you have two fully charged EPE&#39;s that ramps up even more, but even without that, it&#39;s darn near impossible to suffer a hit like that AND deal with him healing 30HP</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 9377,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      15726,
+      183055,
+      183056,
+      183057,
+      183058,
+      183059,
+      183060,
+      183061,
+      183062,
+      183063,
+      183064,
+      183065,
+      183066,
+      183067,
+      183068,
+      183069
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      3635
+    ],
+    [
+      10,
+      3634
+    ],
+    [
+      12,
+      3633
+    ],
+    [
+      16,
+      3632
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T20:08:26.107Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T20:08:26.107Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 66,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31821,
+      "title": "Neat card interaction for Akash'Thriya",
+      "fancy_title": "Neat card interaction for Akash&rsquo;Thriya",
+      "slug": "neat-card-interaction-for-akashthriya",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-09-22T23:51:00.052Z",
+      "last_posted_at": "2025-09-23T01:42:49.714Z",
+      "bumped": true,
+      "bumped_at": "2025-09-23T01:42:49.714Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 128,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32278,
+      "title": "Unwinnable / Unlosable SotM team game",
+      "fancy_title": "Unwinnable / Unlosable SotM team game",
+      "slug": "unwinnable-unlosable-sotm-team-game",
+      "posts_count": 10,
+      "reply_count": 5,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2026-04-23T15:38:06.331Z",
+      "last_posted_at": "2026-07-03T19:04:45.562Z",
+      "bumped": true,
+      "bumped_at": "2026-07-03T19:11:09.242Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 23,
+      "views": 172,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 16735,
+            "username": "Griff_s_Dad",
+            "name": "Griff's Dad",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/g/e0b2c6/{size}.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19126,
+            "username": "gater",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/gater/{size}/7318_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4975,
+            "username": "Escher",
+            "name": "Escher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/escher/{size}/4865_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32030,
+      "title": "Two-player OblivAeon?",
+      "fancy_title": "Two-player OblivAeon?",
+      "slug": "two-player-oblivaeon",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-11-07T13:14:17.358Z",
+      "last_posted_at": "2025-11-07T13:14:17.471Z",
+      "bumped": true,
+      "bumped_at": "2025-11-07T13:14:17.471Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 58,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 32165,
+      "title": "Improving Oblivaeon",
+      "fancy_title": "Improving Oblivaeon",
+      "slug": "improving-oblivaeon",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-02-04T20:38:41.840Z",
+      "last_posted_at": "2026-02-05T22:55:19.416Z",
+      "bumped": true,
+      "bumped_at": "2026-02-05T22:55:19.416Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 120,
+      "category_id": 11,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18465,
+            "username": "Dustin_the_Wind",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/d/f1d935/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 15725,
+  "title": "Nuking for Infamy: Max Villain Damage (on the first turn)",
+  "fancy_title": "Nuking for Infamy: Max Villain Damage (on the first turn)",
+  "posts_count": 16,
+  "created_at": "2016-09-28T20:30:28.000Z",
+  "views": 745,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2016-10-02T00:45:54.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "nuking-for-infamy-max-villain-damage-on-the-first-turn",
+  "category_id": 11,
+  "word_count": 6242,
+  "deleted_at": null,
+  "user_id": 14775,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_15725",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 16,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 8,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 6719,
+        "username": "Arcanist_Lupus",
+        "name": "Arcanist Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 14775,
+        "username": "just.a.smith",
+        "name": "just.a.smith",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/dec6dc/{size}.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 5464,
+        "username": "Powerhound_2000",
+        "name": "Sonvar",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 14005,
+        "username": "TakeWalker",
+        "name": "KateWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 9377,
+        "username": "VisforYoshi",
+        "name": "VisforYoshi",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/visforyoshi/{size}/2185_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 6184,
+        "username": "armadagon",
+        "name": "armadagon",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/armadagon/{size}/2379_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 2023,
+        "username": "BlueHairedMeerkat",
+        "name": "BlueHairedMeerkat",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 12593,
+        "username": "LewdDolphin21",
+        "name": "LewdDolphin21",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lewddolphin21/{size}/1893_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 14775,
+      "username": "just.a.smith",
+      "name": "just.a.smith",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/j/dec6dc/{size}.png"
+    },
+    "last_poster": {
+      "id": 9377,
+      "username": "VisforYoshi",
+      "name": "VisforYoshi",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/visforyoshi/{size}/2185_2.png"
+    }
+  },
+  "bookmarks": []
+}

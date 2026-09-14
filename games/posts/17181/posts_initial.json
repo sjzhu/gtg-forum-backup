@@ -1,0 +1,1117 @@
+{
+  "posts": [
+    {
+      "id": 17183,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2017-09-20T21:03:10.000Z",
+      "cooked": "<p><span><span>So, from time to time I've been known to calculate how many different permutations of a board game can be played. Like </span><a href=\"https://greaterthangames.com/forum/topic/combinatorics-of-the-multiverse-the-final-chapter-8588\" rel=\"noopener nofollow ugc\"><span>here</span></a><span>, where I discover that Sentinels of the Multiverse can be played in 6 quadrillion different ways. I'd wager that Spirit Island is a ways off of that, but how close can we get?</span></span></p><p><strong><span><span>What Counts as Different?</span></span></strong></p><p><span><span>I'm counting two games as different if:</span></span></p><ul>\n<li><span><span>They have different spirits in them</span></span></li>\n<li><span><span>Or different boards</span></span></li>\n<li><span><span>Or the same spirits and boards, but different spirit-board pairings</span></span></li>\n<li><span><span>Or the same spirit-board pairings, but arranged differently*</span></span></li>\n<li><span><span>They're against different adversaries</span></span></li>\n<li><span><span>Theyire against the same adversary, but on different difficulty levels</span></span></li>\n<li><span><span>They have a different scenario</span></span></li>\n<li><span><span>They do or do not contain Branch &amp; Claw</span></span></li>\n<li><span><span>Whether they're using a blight card (base game only)</span></span></li>\n</ul><p><span><span>They're not different based on which Blight card is used, the arrangement of decks or anything like that; we're only counting intentional game setup.</span></span></p><p><strong><span><span>A Word on Branch and Claw</span></span></strong></p><p><span><span>In Sentinels, it doesn't really matter what expansions you're using, since all you're going is picking some decks and putting them together. With Spirit Island though, adding Branch &amp; Claw means adding tokens, events, and lots of new cards, so even with the same spirit setup you get two very different games. (I will, however, count any content from B&amp;C that can be used in the base game, IE the scenarios and France 0-1.)</span></span></p><p><strong><span><span>Two Words on<em> </em></span><em><span>Second Wave</span></em></span></strong></p><p><span><span>Hells no.**</span></span></p><p><strong><span><span>Spirits</span></span></strong></p><p><span><span>This is pretty easy; in games without B&amp;C, there are 10; with, there are 12. We then just have to calculate the number of combinations, and at this point I've explained combinatorics enough that I'm just going to put the results here.</span></span></p><p><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1p &nbsp;&nbsp;2p &nbsp;&nbsp;&nbsp;3p &nbsp;&nbsp;&nbsp;4p</span></span><br><span>Base: &nbsp;&nbsp;10 &nbsp;&nbsp;45 &nbsp;&nbsp;120 &nbsp;&nbsp;210</span><br><span>B&amp;C: &nbsp;&nbsp;&nbsp;12 &nbsp;&nbsp;66 &nbsp;&nbsp;220 &nbsp;&nbsp;495</span></p><p><strong><span><span>Adversaries &amp; Scenarios</span></span></strong></p><p><span><span>These are easy; there are three adversaries at seven levels, two France levels and one lack thereof for base, for a total of 24; B&amp;C gets five more Frances for a total of 29. Multiplying these numbers by the eight scenarios and one lack of scenario gives us 216 and 261. We might as well factor the choice of whether to use a blight card in here too, making that first number 432.***</span></span></p><p><strong><span><span>Boards</span></span></strong></p><p><span><span>This is probably the most complicated bit. One spirit is easy; they can choose from five boards: A,B,C,D and the North East of the canonical map. Two spirits have two possibilities for the canonical map, and on the normal maps we have six pairs of boards and then two spirit assignments, so twelve arrangements, so fourteen total. Three spirits have four choices of boards, two ways they can be arranged and six spirit assignments, plus three canonical possibilities, for a total of 51. Four spirits have twelve board arrangements, 24 spirit assignments, four canonical arrangements, giving us 292 board setups.</span></span></p><p><strong><span><span>Putting it all together</span></span></strong></p><p><span><span>This is just a lot of multiplication. I stuck in in a Google Sheet and formula’ed it out; the end result is </span><strong><span>70,338,024</span></strong><span>. That is a lot of Spirit Island.</span></span></p><p>&nbsp;</p><p><span><span>*Yes, really, for two reasons: one, because it can make a reasonable amount of difference to a game; and two, because I want big numbers, dammit :P</span></span></p><p><span><span>**We'll count it as a different scenario, but not look at the potential follow-on games it causes.</span></span></p><p><span><span>***If you don't like my board shenanigans, you can just stop here. I'll even do the multiplication for you: 432*(10+45+120+210)=166320, 261*(12+66+220+496)=207234; so that's a total of 373554. Not very <em>big,</em> though, is it?</span></span></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:50:10.321Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 170,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 845.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/combinatorics-of-the-multiverse-the-final-chapter-8588",
+          "internal": false,
+          "reflection": false,
+          "clicks": 1
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:4pt;margin-bottom:8pt;margin-right: 4pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">So, from time to time I&#39;ve been known to calculate how many different permutations of a board game can be played. Like </span><a href=\"https://greaterthangames.com/forum/topic/combinatorics-of-the-multiverse-the-final-chapter-8588\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; text-decoration-line: underline; white-space: pre-wrap;\">here</span></a><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">, where I discover that Sentinels of the Multiverse can be played in 6 quadrillion different ways. I&#39;d wager that Spirit Island is a ways off of that, but how close can we get?</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><strong><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; white-space: pre-wrap;\">What Counts as Different?</span></span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">I&#39;m counting two games as different if:</span></span></p><ul dir=\"ltr\"><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">They have different spirits in them</span></span></li><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">Or different boards</span></span></li><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">Or the same spirits and boards, but different spirit-board pairings</span></span></li><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">Or the same spirit-board pairings, but arranged differently*</span></span></li><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">They&#39;re against different adversaries</span></span></li><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">Theyire against the same adversary, but on different difficulty levels</span></span></li><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">They have a different scenario</span></span></li><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">They do or do not contain Branch &amp; Claw</span></span></li><li style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; margin-left: 30pt; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; white-space: pre-wrap;\">Whether they&#39;re using a blight card (base game only)</span></span></li></ul><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">They&#39;re not different based on which Blight card is used, the arrangement of decks or anything like that; we&#39;re only counting intentional game setup.</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><strong><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; white-space: pre-wrap;\">A Word on Branch and Claw</span></span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">In Sentinels, it doesn&#39;t really matter what expansions you&#39;re using, since all you&#39;re going is picking some decks and putting them together. With Spirit Island though, adding Branch &amp; Claw means adding tokens, events, and lots of new cards, so even with the same spirit setup you get two very different games. (I will, however, count any content from B&amp;C that can be used in the base game, IE the scenarios and France 0-1.)</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><strong><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; white-space: pre-wrap;\">Two Words on<em> </em></span><em><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; font-style: italic; white-space: pre-wrap;\">Second Wave</span></em></span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">Hells no.**</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><strong><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; white-space: pre-wrap;\">Spirits</span></span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">This is pretty easy; in games without B&amp;C, there are 10; with, there are 12. We then just have to calculate the number of combinations, and at this point I&#39;ve explained combinatorics enough that I&#39;m just going to put the results here.</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1p &nbsp;&nbsp;2p &nbsp;&nbsp;&nbsp;3p &nbsp;&nbsp;&nbsp;4p</span></span><br /><span style=\"font-family: &quot;Trebuchet MS&quot;; font-size: 10pt; white-space: pre-wrap;\">Base: &nbsp;&nbsp;10 &nbsp;&nbsp;45 &nbsp;&nbsp;120 &nbsp;&nbsp;210</span><br /><span style=\"font-family: &quot;Trebuchet MS&quot;; font-size: 10pt; white-space: pre-wrap;\">B&amp;C: &nbsp;&nbsp;&nbsp;12 &nbsp;&nbsp;66 &nbsp;&nbsp;220 &nbsp;&nbsp;495</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><strong><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; white-space: pre-wrap;\">Adversaries &amp; Scenarios</span></span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">These are easy; there are three adversaries at seven levels, two France levels and one lack thereof for base, for a total of 24; B&amp;C gets five more Frances for a total of 29. Multiplying these numbers by the eight scenarios and one lack of scenario gives us 216 and 261. We might as well factor the choice of whether to use a blight card in here too, making that first number 432.***</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><strong><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; white-space: pre-wrap;\">Boards</span></span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">This is probably the most complicated bit. One spirit is easy; they can choose from five boards: A,B,C,D and the North East of the canonical map. Two spirits have two possibilities for the canonical map, and on the normal maps we have six pairs of boards and then two spirit assignments, so twelve arrangements, so fourteen total. Three spirits have four choices of boards, two ways they can be arranged and six spirit assignments, plus three canonical possibilities, for a total of 51. Four spirits have twelve board arrangements, 24 spirit assignments, four canonical arrangements, giving us 292 board setups.</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><strong><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; white-space: pre-wrap;\">Putting it all together</span></span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">This is just a lot of multiplication. I stuck in in a Google Sheet and formula&rsquo;ed it out; the end result is </span><strong><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; font-weight: 700; white-space: pre-wrap;\">70,338,024</span></strong><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">. That is a lot of Spirit Island.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">*Yes, really, for two reasons: one, because it can make a reasonable amount of difference to a game; and two, because I want big numbers, dammit :P</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">**We&#39;ll count it as a different scenario, but not look at the potential follow-on games it causes.</span></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-513f6eee-a119-0daa-dc8c-5cbb8661edfe\"><span style=\"font-size: 10pt; font-family: &quot;Trebuchet MS&quot;; white-space: pre-wrap;\">***If you don&#39;t like my board shenanigans, you can just stop here. I&#39;ll even do the multiplication for you: 432*(10+45+120+210)=166320, 261*(12+66+220+496)=207234; so that&#39;s a total of 373554. Not very <em>big,</em> though, is it?</span></span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204405,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2017-09-20T21:48:41.000Z",
+      "cooked": "<p>I love it.</p><p>Maths are cool.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.351Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I love it.</p><p>Maths are cool.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204406,
+      "name": "Trajector",
+      "username": "Trajector",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/trajector/{size}/1914_2.png",
+      "created_at": "2017-09-20T23:29:26.000Z",
+      "cooked": "<p>I don’t think Spirit-board pairings would affect the game more than, say, the order of cards in the Invader deck. Unlike in Sentinels of the Multiverse, where player order can matter a <em>lot</em>, in Spirit Island (1) all players play simultaneously and (2) each board is set up identically the same way.</p>\n<p>Now, on the canonical island, I’ll give you that Spirit-board pairings could affect things more strongly, and would be willing to entertain them as “different games.”</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.426Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 5.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "Trajector",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "I don't think Spirit-board pairings would affect the game more than, say, the order of cards in the Invader deck. Unlike in Sentinels of the Multiverse, where player order can matter a *lot*, in Spirit Island (1) all players play simultaneously and (2) each board is set up identically the same way.\r\n\r\n\r\n\r\n\r\n\r\n\r\nNow, on the canonical island, I'll give you that Spirit-board pairings could affect things more strongly, and would be willing to entertain them as \"different games.\"",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 11097,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-12-13",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204407,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2017-09-21T01:46:00.000Z",
+      "cooked": "<p>\n[quote=\"Trajector\"]\n</p><p>I don't think Spirit-board pairings would affect the game more than, say, the order of cards in the Invader deck. Unlike in Sentinels of the Multiverse, where player order can matter a *lot*, in Spirit Island (1) all players play simultaneously and (2) each board is set up identically the same way.</p><p>Now, on the canonical island, I'll give you that Spirit-board pairings could affect things more strongly, and would be willing to entertain them as \"different games.\"</p><p>\n[/quote]\n</p><p>It's not the degree of difference that matters. &nbsp;But board choice is a setup decision that players make, while the Invader deck is entirely random and out of the players' hands.</p><p>&nbsp;</p><p>Meerkat, you're underestimating the number of possible setups in several ways.</p><p>1) The Thematic Boards are more flexible than that. &nbsp;The rules text: \"The thematic boards have a fixed layout relative to each other. &nbsp;You can use any of them that you want - but for the definitive geography at each player count: [lists specific board configurations]\". &nbsp;This means that you aren't limited to the \"definitive geography\" for each player number, and the number of thematic board configurations for each player count is 1p - 4, 2p - 4, 3p - 4, and 4p - 1.</p><p>&nbsp;</p><p>2) &nbsp;Ocean's Hungry Grasp and Sharp Fangs Behind the Leaves have variable starting setups. &nbsp;Ocean can place their second presence in any of the three Coastal lands, given them three possible starting setups (or four if they start on the North East Thematic board). &nbsp;Fangs can place their second presence anywhere on the island where there is a beast. &nbsp;This means that Fangs has P+1 starting configurations for the regular boards (where P is the number of players) unless they start on board C (which puts their starting Beast in the same land as the natural Beast). &nbsp;On the thematic boards they have 1 possible configuration + 1 if the North East is in play + 1 if the West is in play.</p><p>Thunderspeaker and Spread of Rampant Green also have variable starting setups, but only on the thematic boards.&nbsp;</p><p>Northeast: 1 for TS, 2 for SRG<br>Northwest: 4 for TS, 1 for SRG<br>East: 3 for TS, 1 for SRG<br>West: 3 for TS, 1 for SRG<br>I don't have Southwest or Southeast, so I can't speak for their setups for any of the four Spirits.</p><p>&nbsp;</p><p>3) France can be set up two different ways at Level 2 or higher - Slave Rebellion 4 cards down, or randomized between the 3rd and 4th cards.</p><p>&nbsp;</p><p>4) &nbsp;Finally, but most importantly, if you have the Thematic Island Playmat, you can play 6 player games! &nbsp;(Also 5 player games, I guess, and a whole slew of other 4, 3, 2, and 1 player games)</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.500Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 5.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p style=\"font-size: 13px;\">\n[quote=\"Trajector\"]\n</p><p style=\"font-size: 13px;\">I don&#39;t think Spirit-board pairings would affect the game more than, say, the order of cards in the Invader deck. Unlike in Sentinels of the Multiverse, where player order can matter a *lot*, in Spirit Island (1) all players play simultaneously and (2) each board is set up identically the same way.</p><p style=\"font-size: 13px;\">Now, on the canonical island, I&#39;ll give you that Spirit-board pairings could affect things more strongly, and would be willing to entertain them as &quot;different games.&quot;</p><p style=\"font-size: 13px;\">\n[/quote]\n</p><p style=\"font-size: 13px;\">It&#39;s not the degree of difference that matters. &nbsp;But board choice is a setup decision that players make, while the Invader deck is entirely random and out of the players&#39; hands.</p><p style=\"font-size: 13px;\">&nbsp;</p><p style=\"font-size: 13px;\">Meerkat, you&#39;re underestimating the number of possible setups in several ways.</p><p style=\"font-size: 13px;\">1) The Thematic Boards are more flexible than that. &nbsp;The rules text: &quot;The thematic boards have a fixed layout relative to each other. &nbsp;You can use any of them that you want - but for the definitive geography at each player count: [lists specific board configurations]&quot;. &nbsp;This means that you aren&#39;t limited to the &quot;definitive geography&quot; for each player number, and the number of thematic board configurations for each player count is 1p - 4, 2p - 4, 3p - 4, and 4p - 1.</p><p style=\"font-size: 13px;\">&nbsp;</p><p style=\"font-size: 13px;\">2) &nbsp;Ocean&#39;s Hungry Grasp and Sharp Fangs Behind the Leaves have variable starting setups. &nbsp;Ocean can place their second presence in any of the three Coastal lands, given them three possible starting setups (or four if they start on the North East Thematic board). &nbsp;Fangs can place their second presence anywhere on the island where there is a beast. &nbsp;This means that Fangs has P+1 starting configurations for the regular boards (where P is the number of players) unless they start on board C (which puts their starting Beast in the same land as the natural Beast). &nbsp;On the thematic boards they have 1 possible configuration + 1 if the North East is in play + 1 if the West is in play.</p><p style=\"font-size: 13px;\">Thunderspeaker and Spread of Rampant Green also have variable starting setups, but only on the thematic boards.&nbsp;</p><p style=\"font-size: 13px;\">Northeast: 1 for TS, 2 for SRG<br />Northwest: 4 for TS, 1 for SRG<br />East: 3 for TS, 1 for SRG<br />West: 3 for TS, 1 for SRG<br />I don&#39;t have Southwest or Southeast, so I can&#39;t speak for their setups for any of the four Spirits.</p><p style=\"font-size: 13px;\">&nbsp;</p><p style=\"font-size: 13px;\">3) France can be set up two different ways at Level 2 or higher - Slave Rebellion 4 cards down, or randomized between the 3rd and 4th cards.</p><p style=\"font-size: 13px;\">&nbsp;</p><p style=\"font-size: 13px;\">4) &nbsp;Finally, but most importantly, if you have the Thematic Island Playmat, you can play 6 player games! &nbsp;(Also 5 player games, I guess, and a whole slew of other 4, 3, 2, and 1 player games)</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204408,
+      "name": "BlueHairedMeerkat",
+      "username": "BlueHairedMeerkat",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/bluehairedmeerkat/{size}/1967_2.png",
+      "created_at": "2017-09-21T08:29:45.000Z",
+      "cooked": "<ol>\n<li>\n<p>Huh, okay. Clearly I should’ve rechecked the rules before doing this.</p>\n</li>\n<li>\n<p>Yeah, there is that… I chose to neglect this deliberately, but I suppose you’re right that it is deliberately chosen variable setup.</p>\n</li>\n<li>\n<p>… Really? I thought France was pretty explicit on it being the fourth card down.</p>\n</li>\n<li>\n<p>Yeahhh, I suppose. I may still leave this out, though, given it’s a weird thing. Save it for when the 5-6 player expansion comes out.</p>\n</li>\n</ol>\n<p>Either way, expect an update tonight…</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.585Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "BlueHairedMeerkat",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "1) Huh, okay. Clearly I should've rechecked the rules before doing this.\r\n\r\n2) Yeah, there is that... I chose to neglect this deliberately, but I suppose you're right that it is deliberately chosen variable setup.\r\n\r\n3) ... Really? I thought France was pretty explicit on it being the fourth card down.\r\n\r\n4) Yeahhh, I suppose. I may still leave this out, though, given it's a weird thing. Save it for when the 5-6 player expansion comes out.\r\n\r\nEither way, expect an update tonight...",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 2023,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-11-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204409,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2017-09-21T16:29:47.000Z",
+      "cooked": "<p>In the B&amp;C rules book they describe the alternate serup for France.  I don’t have it with me, so I can’t pinpoint where.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.713Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "In the B&C rules book they describe the alternate serup for France.  I don't have it with me, so I can't pinpoint where.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204410,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2017-09-21T19:55:17.000Z",
+      "cooked": "<p>Aren't there also multiple ways that boards can be layed out?</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.768Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Aren&#39;t there also multiple ways that boards can be layed out?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204411,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2017-09-21T20:22:12.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"arenson9\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png\" class=\"avatar\"> arenson9:</div>\n<blockquote>\n<p>Aren’t there also multiple ways that boards can be layed out?</p>\n</blockquote>\n</aside>\n<p>Not the thematic boards. They have fixed positions relative to each other.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.832Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"arenson9\"]\n\nAren't there also multiple ways that boards can be layed out?\n\n[/quote]\n\nNot the thematic boards. They have fixed positions relative to each other.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204412,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2017-09-22T14:27:15.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p><b>arenson9 wrote:</b></p>\n<div><blockquote>Aren't there also multiple ways that boards can be layed out?</blockquote></div>\nNot the thematic boards. They have fixed positions relative to each other.\n</blockquote>\n</aside>\n<p>Well, they have fixed positions they are&nbsp;<strong><em>meant</em></strong> to be relative to each other. However, they&nbsp;<strong><em>can</em></strong> be played in different positions, if a person wants to…</p>\n<p>Just for clarity.&nbsp; <img src=\"https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.898Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Arcanist Lupus\"]\n\n<b style=\"font-size: 13px;\">arenson9 wrote:</b>\n<div class=\"bb-quote\"><blockquote class=\"bb-quote-body\">Aren&#39;t there also multiple ways that boards can be layed out?</blockquote></div>\nNot the thematic boards. They have fixed positions relative to each other.\n\n[/quote]\n\nWell, they have fixed positions they are&nbsp;<strong><em>meant</em></strong> to be relative to each other. However, they&nbsp;<strong><em>can</em></strong> be played in different positions, if a person wants to...\n\nJust for clarity.&nbsp; :wink: ",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204413,
+      "name": "grysqrl",
+      "username": "grysqrl",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/grysqrl/{size}/1909_2.png",
+      "created_at": "2017-09-22T14:38:18.000Z",
+      "cooked": "<p>If we're going in that direction, there are all sorts of unofficial ways to tile the island boards, which would make counting the permutations hugely impractical. Maybe best to stick with just recommended setups for now.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:32.978Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "grysqrl",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>If we&#39;re going in that direction, there are all sorts of unofficial ways to tile the island boards, which would make counting the permutations hugely impractical. Maybe best to stick with just recommended setups for now.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 5390,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204414,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2017-09-22T15:55:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"grysqrl\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/grysqrl/48/1909_2.png\" class=\"avatar\"> grysqrl:</div>\n<blockquote>\n<p>If we're going in that direction, there are all sorts of unofficial ways to tile the island boards, which would make counting the permutations hugely impractical. Maybe best to stick with just recommended setups for now.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Why would these unofficial ways to tile the island boards make counting the permutations hugely impractical?</p>\n<p>If you've got two boards, there are X ways to tile them. If you've got three, there are Y ways to tile them, etc. I agree it complications the computation, but nowhere near as much as, say, accounting for the variant character cards in SotM complicated <em>that</em> computation. Unless I'm missing something, of course, and I may well be. My Spirit Island Fu is moderate at best.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:33.047Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"grysqrl\"]\n\nIf we&#39;re going in that direction, there are all sorts of unofficial ways to tile the island boards, which would make counting the permutations hugely impractical. Maybe best to stick with just recommended setups for now.\n\n[/quote]\n\n&nbsp;\n\nWhy would these unofficial ways to tile the island boards make counting the permutations hugely impractical?\n\nIf you&#39;ve got two boards, there are X ways to tile them. If you&#39;ve got three, there are Y ways to tile them, etc. I agree it complications the computation, but nowhere near as much as, say, accounting for the variant character cards in SotM complicated _that_ computation. Unless I&#39;m missing something, of course, and I may well be. My Spirit Island Fu is moderate at best.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204415,
+      "name": "grysqrl",
+      "username": "grysqrl",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/grysqrl/{size}/1909_2.png",
+      "created_at": "2017-09-22T16:16:36.000Z",
+      "cooked": "<p>\"Hugely\" may be an overstatement.</p><p>If you have two specific boards, there are 9 ways to tile them. That one's easy.</p><p>If you have all four boards, I'm not sure how to best approach all of the possible layouts. I think we're looking at something on the order of 1500 ways to tile them. I'm going to have to think about this one for a bit.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:33.110Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "grysqrl",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>&quot;Hugely&quot; may be an overstatement.</p><p>If you have two specific boards, there are 9 ways to tile them. That one&#39;s easy.</p><p>If you have all four boards, I&#39;m not sure how to best approach all of the possible layouts. I think we&#39;re looking at something on the order of 1500 ways to tile them. I&#39;m going to have to think about this one for a bit.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 5390,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 204416,
+      "name": "Arcanist Lupus",
+      "username": "Arcanist_Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+      "created_at": "2017-09-22T22:49:42.000Z",
+      "cooked": "<p>Non-official arrangements for the thematic board are problematic because the borders of the lands don't always match up with the borders of the boards.</p>\n<p>&nbsp;</p>\n<p>The big problem, in my opinion, with using non-official board configurations is that if you're going unofficial that also allows the partial adoption of Branch and Claw. &nbsp;Currently, we are only evaluating two modes: &nbsp;WIth B&amp;C and without (with the two exceptions that the first two levels of France and the Scenarios have been incorporated into 'without'). &nbsp;But there are any number of ways you can partially incorporate B&amp;C. &nbsp;You can add Tokens (in Powers, Fear cards, and Spirits) without adding Events. &nbsp;You can add only the Powers/Fear cards that don't mention tokens. &nbsp;You can add Events and just skip the token event portion. &nbsp;You can use Events without a blight card if you treat the empty space as a blank 2/3 blight card. &nbsp;You can add the new blight cards without anything else. &nbsp;You can add the new powers, but not the new fear. &nbsp;You could add the new Major powers, but not the new Minors. &nbsp;You could get two copies of the game and play with two of the same spirit. &nbsp;Etc, etc, etc.</p>\n<p>A lot of the possible combinations are not things that you'd necessarily <span class=\"bbcode-i\">want</span> to do, but they are perfectly valid unofficial setups. &nbsp;Therefore I think we should limit ourselves to alternative setups that are explicitly allowed in the game rules, like the France Slave Rebellion alternative ordering.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T05:33:33.172Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 17181,
+      "topic_slug": "how-many-games-of-spirit-island-can-be-played",
+      "display_username": "Arcanist Lupus",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Non-official arrangements for the thematic board are problematic because the borders of the lands don&#39;t always match up with the borders of the boards.\n\n&nbsp;\n\nThe big problem, in my opinion, with using non-official board configurations is that if you&#39;re going unofficial that also allows the partial adoption of Branch and Claw. &nbsp;Currently, we are only evaluating two modes: &nbsp;WIth B&amp;C and without (with the two exceptions that the first two levels of France and the Scenarios have been incorporated into &#39;without&#39;). &nbsp;But there are any number of ways you can partially incorporate B&amp;C. &nbsp;You can add Tokens (in Powers, Fear cards, and Spirits) without adding Events. &nbsp;You can add only the Powers/Fear cards that don&#39;t mention tokens. &nbsp;You can add Events and just skip the token event portion. &nbsp;You can use Events without a blight card if you treat the empty space as a blank 2/3 blight card. &nbsp;You can add the new blight cards without anything else. &nbsp;You can add the new powers, but not the new fear. &nbsp;You could add the new Major powers, but not the new Minors. &nbsp;You could get two copies of the game and play with two of the same spirit. &nbsp;Etc, etc, etc.\n\nA lot of the possible combinations are not things that you&#39;d necessarily [i]want[/i] to do, but they are perfectly valid unofficial setups. &nbsp;Therefore I think we should limit ourselves to alternative setups that are explicitly allowed in the game rules, like the France Slave Rebellion alternative ordering.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

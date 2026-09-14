@@ -1,0 +1,4209 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 128506,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-20T20:33:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>How about Wrest The Mind and Driving Mantis? Gene-Bound Soldier has Wrest the Mind on it, it goes to attack Mr. Fixer, But Visionary redirects the damage to another target and Soldier is destroyed.If Mr. Fixer has Driving Mantis in play was its effect consumed in that process, or could he still redirect a second shot of damage dealt to him?</p>\n</blockquote>\n</aside>\n<p>I think Mantis would be used up, because the second shot of damage would technically be the 2nd time Fixer would be dealt damage that turn by definition. That is not the trigger clause for Mantis. Just because another sources redirection was used doesn't change the nature of that second instance of damage assigned to him.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:17.490Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128507,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-20T20:56:02.000Z",
+        "cooked": "<p>I don't understand how a seperation of timing matters in this case. &nbsp;They are consumable triggers that work off the same trigger. &nbsp;Why would one work one way and the other work the other way.</p><p>&nbsp;</p><p>I understand that the reduction happens before redirection, but whether we are backtracking to undo reduction or not applying redirection the same thing is happening.</p><p>To have redirection cancel effects that have already taken place and count them unconsumed, but count effects as consumed that were yet to take place doesn't work.</p><p>&nbsp;</p><p>The key to the other ruling is not timing centered, it is centered on the idea that if an effect was crucial to the result, it is consumed, if it is irrelevant to the result, it is not consumed.</p><p>A card looking to redirect damage that is redirected before it can do so has no relevance to the redirection that did occur.</p><p>Similarly consumable redirection isn't consumed against damage that is prevented. (La Capitan for instance)</p><p>&nbsp;</p><p>The Twist the Ether mechanic shows us that redirection causes a do-over for the damage. &nbsp;</p><p>The Driving Mantis + consumable reduction shows us that effcts that are critical to the redirection are consumed.</p><p>Logically it follows that Nighmist can't redirect things infinitely because the redirection effect was critical to the redirection, not because the wording \"First time\" holds special significance that \"Next Time\" does not, or because the timing was slightly different than reduction.</p><p>I think it is not just a fair argument, but a better assumption that because a second redirection effect had no relevance to the first one being used that it will remain unconsumed.</p><p>It is more elegant and follows a cohesive logic that doesn't need special exceptions.</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:17.609Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128508,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-20T20:58:30.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>phantaskippy wrote:</b><br><blockquote>How about Wrest The Mind and Driving Mantis? Gene-Bound Soldier has Wrest the Mind on it, it goes to attack Mr. Fixer, But Visionary redirects the damage to another target and Soldier is destroyed.If Mr. Fixer has Driving Mantis in play was its effect consumed in that process, or could he still redirect a second shot of damage dealt to him?\n&nbsp;\n</blockquote></div>\nI think Mantis would be used up, because the second shot of damage would technically be the 2nd time Fixer would be dealt damage that turn by definition. That is not the trigger clause for Mantis. Just because another sources redirection was used doesn't change the nature of that second instance of damage assigned to him.\n</blockquote>\n</aside>\n<p>and with the Driving mantis ruling the next damage would not be the next damage dealt, it would be the second damage dealt since the effect activated.</p>\n<p>But yet we know that officially \"next damage\" reduction isn't consumed unless it is critical to the end result. &nbsp;Timing is irrelevant here, it is all about what effects have actually impacted the game.</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:17.735Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128509,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-20T21:01:54.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<div><b>Foote wrote:</b><br><blockquote>&nbsp;phantaskippy wrote:<br><blockquote>How about Wrest The Mind and Driving Mantis? Gene-Bound Soldier has Wrest the Mind on it, it goes to attack Mr. Fixer, But Visionary redirects the damage to another target and Soldier is destroyed.If Mr. Fixer has Driving Mantis in play was its effect consumed in that process, or could he still redirect a second shot of damage dealt to him?&nbsp;\n&nbsp;\n</blockquote>\nI think Mantis would be used up, because the second shot of damage would technically be the 2nd time Fixer would be dealt damage that turn by definition. That is not the trigger clause for Mantis. Just because another sources redirection was used doesn't change the nature of that second instance of damage assigned to him.\n</blockquote></div>\nand with the Driving mantis ruling the next damage would not be the next damage dealt, it would be the second damage dealt since the effect activated.But yet we know that officially \"next damage\" reduction isn't consumed unless it is critical to the end result. &nbsp;Timing is irrelevant here, it is all about what effects have actually impacted the game.\n</blockquote>\n</aside>\n<p>This isn't quite the same. Technically, Driving Mantis triggers off \"The first instance of damage that is 2 or less\" and not just \"the first isntance of damage\". Mantis has a 2nd qualifier in its trigger clause that needs to be evaluated.</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:17.833Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128510,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-01-20T21:03:19.000Z",
+        "cooked": "<p>Except that the situations aren't comparable. \"Next damage\" is based on whether it has some impact. So does \"both\" of the \"first time cards\". If no damage was dealt, neither would be used up. To accurately compare the sitautions, you would need 2 \"next damage\" effects, and prove that only one would be used up and not both. However, not only does the ruling not cover that situation, we also have a ruling that multiple Stealth effects would be used up at once. This would indicate that mutiple \"first time\" would all be used up at once, even if you compare the situations.</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.072Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128511,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-20T21:06:57.000Z",
+        "cooked": "<p>Soldier does deal 2 damage, so they would both be triggered. &nbsp;If a second instance of 2 damage happens the same turn, which in Voss's deck is pretty common, then what evaluation is needed.</p><p>He would have been dealt damage that would trigger the redirection, but another redirection got to it first. &nbsp;There was no first instance of damage that turn, because it was redirected. &nbsp;Therefore the redirection effect of Mantis is unconsumed.</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.128Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128512,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2015-01-20T21:15:29.000Z",
+        "cooked": "<p>I skimmed all the post, so I am not sure where things ended up. However here are some of my thoughts on it the first time x target would be dealt damage.</p><p>I noticed a post saying that damage dealt means HP reduced, however we are talking about would be dealt, which is not reliant on HP being reduced. Infact, the first time a target would be dealt damage and the first time a target is dealt damage can trigger two different things. Take Mister Fixer's Driving Mantis and Captain Cosmic's Wounding Buffer. If that Wounding Buffer is on Mister Fixer, then say Mister Fixer is the target of a 2 damage attack, Mister Fixer can redirect it because it would be the first time he would be dealt damage. Then say he is a target of another attack in the same round, since this is the second time he would be dealt damage, even if 2 or fewer, he would be unable to redirect. However the is now the first time he is dealt damage, so Wounding Buffer could then trigger. In this he would of been dealt damage twice and is dealt damage once.</p><p>And with the case of Wrest the Mind and Driving Mantis, if The Visionary redirects it when it would of dealt 2 or less damage to Mister Fixer, then I would be inclined to say Mister Fixer would no longer be able to use Driving Mantis that turn.</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.180Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128513,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-20T21:18:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Soldier does deal 2 damage, so they would both be triggered. &nbsp;If a second instance of 2 damage happens the same turn, which in Voss's deck is pretty common, then what evaluation is needed.He would have been dealt damage that would trigger the redirection, but another redirection got to it first. &nbsp;There was no first instance of damage that turn, because it was redirected. &nbsp;Therefore the redirection effect of Mantis is unconsumed.</p>\n</blockquote>\n</aside>\n<p>It doesn't matter if Mantis was used or not though. Mantis and Wrest the Mind would both be active during that first instance of damage because both trigger clauses are met and you have to choose one or the other (or none at all). <em>Regardless </em>of how you redirect the first instance, that second instance of 2 damage is the 2nd time Fixer would be dealt an instance of 2 or less damage, and that does not meet the requirment anymore for triggering Mantis at all. Effects are still 100% dependant on their trigger clause and conditions.</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.243Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128514,
+        "name": "AvatarX",
+        "username": "AvatarX",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/avatarx/{size}/2479_2.png",
+        "created_at": "2015-01-20T21:26:07.000Z",
+        "cooked": "<p><span>I will try my take on it. &nbsp;I always thought that the Haka/Redirection/Mantis ruling was more a representation of the players choosing the order of effects instead of what effects go off. &nbsp;As such...</span></p><p><span>-when Fixer has Mantis and Haka&nbsp;shielding (-2), he can choose what to do first.&nbsp; If he takes 2 damage, he chooses to use mantis first and shielding goes back into play because it wasn’t used.&nbsp; I think that is the key, shielding goes back into play with “next damage”, so it will work on the next damage.&nbsp; If he took 4, he can choose to use the shielding, then Mantis.&nbsp; Both are used.</span></p><p><span>-when Fixer has Mantis and Wrest the Mind on the damage dealer, the players can choose to use either first.&nbsp; If they use Mantis, fine, they are both still in play.&nbsp; However if they use Wrest first, Mantis is still in play, but it is no longer the first time he has been dealt damage.</span></p><p><span>-So, let’s assume Fixer has some way to duplicate Mantis’ effect on a consumable card and has both in play.&nbsp; He receives 2 damage.&nbsp; He takes both cards and chooses which to apply first.&nbsp; Either one,, the damage is redirected.&nbsp; If it was the consumable, it leaves play.&nbsp; If not, the consumable goes back in play, but wouldn’t be able to be used later in the turn because the next damage he takes is no longer the first time in the turn.&nbsp; Next turn, he could use the consumable if he wanted when first dealt damage.</span></p><p><span>If the trigger is the first time, it is still the first time even if it is redirected.&nbsp; Next time can stay in play if not used.&nbsp; Keep in mind I think this is card based, hence why Wraith uses all up.&nbsp; You action Wraiths power and it uses up all stacks.&nbsp; If Wraith had the same -2 shielding, she can choose which “next time” to use and if the damage is prevented completely, the remaining card/ability goes back into play to go into effect the next time damage is done.</span></p><p><span>I hope this makes sense.</span></p>",
+        "post_number": 29,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.300Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "AvatarX",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11139,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128515,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-20T21:50:30.000Z",
+        "cooked": "<p>Twist the Ether doesn't redirect anything, so it has nothing to do with the original target.</p><p>&nbsp;</p><p>Next damage, or first damage, it works the same. &nbsp;Next does not mean \"The next or time after that,\" it means next. &nbsp;If \"next damage\" is not consumed and can still trigger then why not \"first time.\"</p><p>&nbsp;</p><p>As for Ronway: &nbsp;The HP reduced is damage dealt was a response to a specific argument, it really doesn't affect this debate at all.</p><p>&nbsp;</p><p>It seems this argument has come down to the difference between \"next damage\" and \"First damage.\"</p><p>&nbsp;</p><p>My thoughts:</p><p>When you activate a \"Next damage\" effect, it is the same as saying \"the first time you would be dealt damage after activating this effect. . .\"</p><p>The First time each turn effect is the same as \"At the start of your turn, the next time you would be dealt damage this turn. . .\"</p><p>Obviously the more elegant wordings are the ones in the game, but \"first\" and \"next\" are not different timings, they both mean the very next damage dealt for their respective periods of time.</p><p>&nbsp;</p><p>Beyond that my argument is:</p><p>1. &nbsp;Redirection cancels all the effects of the initial attack, changing it to a new target. &nbsp;Twist the Ether shows us that, the damage alterations are canceled, and the attack starts over with a new target.</p><p>2. &nbsp;Because of this, once Soldier's attack on Mr. Fixer is redirected it is treated as not happening. &nbsp;Mr. Fixer wouldn't take damage, that attack never happened. &nbsp;This is supported by the idea that \"Next time\" effects are counted as not applying to redirected damage. &nbsp;If the attack counts as clearing the \"Mr. Fixer would take damage\" hurdle, then it was the next time Mr. Fixer would take damage and those effects would be gone.</p><p>3. &nbsp;The ruling on Mantis vs. Next damage effects show us what effects are still treated as having happened, and that is the ones that are critical to the redirection or prevention. &nbsp;Therefore if a \"Next Damage\" reduction is needed for Mantis to redirect the damage, then after the attack is restarted Mantis and the \"Next Damage\" are consumed because they were both required for the redirection to happen.</p><p>4. &nbsp;To further the similarity between first and next, if Spite's PL602 Omicron's reduction is active and Wrest The Mind redirects damage away from his that should not prevent Omicron from reducing an attack against Spite, because Omicron was not required for the redirection to occur, and the damage was dealt to another target, it didn't resolve with Spite, so it wasn't the first time he would take damage. &nbsp;It was the first time a different target took damage.</p><p>5. &nbsp;If Redirection would trigger on the \"next damage dealt to\" or \"first damage dealt to\" and that damage is redirected away, that damage resolves elsewhere and the damage resolves as not being the first damage, or next damage that would be dealt to the original target.</p><p>&nbsp;</p><p>Side Note:</p><p>Redirection and Prevention: &nbsp;If Mr. Fixer would be dealt damage but that damage is prevented it does not count as the first time Mr. Fixer would be dealt damage, because he couldn't be dealt that damage. &nbsp;If an instance of damage is already resolved on another target, it cannot be dealt to Mr. Fixer. &nbsp;It can't be the first damage that would be dealt to him if it is resolved elsewhere, so the effect is not consumed.</p>",
+        "post_number": 30,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.377Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128516,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-20T21:59:00.000Z",
+        "cooked": "<p>If \"Next time\" and \"first time\" were the same, they would be worded the same. There are different connotations there. \"First\" in more limited in that it completley excludes any 2nd or 3rd time. \"Next\" could very well be a 2nd or 3rd attempt if previous attempts were altered or tampered with in that proccess, pushing a future attempt as the \"next\". This has 0 to do with timing and everything to do with how triggers clauses work.</p><p>Different phrases. Different connotations.&nbsp;</p>",
+        "post_number": 31,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.501Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128517,
+        "name": "AvatarX",
+        "username": "AvatarX",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/avatarx/{size}/2479_2.png",
+        "created_at": "2015-01-20T21:59:52.000Z",
+        "cooked": "<p>Actually, I think this can be tested out in the App.&nbsp; If Wraith has both Combat Stance and Smoke Bombs in play and she has the lowest HP.&nbsp; Does it give you the option to deal combat stance damage, then redirect?&nbsp; Or do smoke bombs go into effect immediately?&nbsp; Also does another instance of damage trigger combat stance after smoke bombs redirect?</p><p>I'm at work, so I can't test this out.</p>",
+        "post_number": 32,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.567Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "AvatarX",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11139,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128518,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-20T22:00:48.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"AvatarX\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/avatarx/48/2479_2.png\" class=\"avatar\"> AvatarX:</div>\n<blockquote>\n<p>Actually, I think this can be tested out in the App.&nbsp; If Wraith has both Combat Stance and Smoke Bombs in play and she has the lowest HP.&nbsp; Does it give you the option to deal combat stance damage, then redirect?&nbsp; Or do smoke bombs go into effect immediately?&nbsp; Also does another instance of damage trigger combat stance after smoke bombs redirect?I'm at work, so I can't test this out.</p>\n</blockquote>\n</aside>\n<p>Combat Stance requires damage to be dealt I'm pretty sure. Smoke Bombs doesn't. These are totally different trigger clauses</p>",
+        "post_number": 33,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.630Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128519,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2015-01-20T22:02:48.000Z",
+        "cooked": "<p>Not sure about that. I don't remember the exact sitaution, but one time when playing I had an effect based on being dealt damage (maybe Iso?), and a redirection, and it asked me which one I wanted to do (couldn't do both). WIll have to doulbe check later).</p>",
+        "post_number": 34,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.703Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128520,
+        "name": "AvatarX",
+        "username": "AvatarX",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/avatarx/{size}/2479_2.png",
+        "created_at": "2015-01-20T22:05:32.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>AvatarX wrote:</b><br><blockquote>Actually, I think this can be tested out in the App.&nbsp; If Wraith has both Combat Stance and Smoke Bombs in play and she has the lowest HP.&nbsp; Does it give you the option to deal combat stance damage, then redirect?&nbsp; Or do smoke bombs go into effect immediately?&nbsp; Also does another instance of damage trigger combat stance after smoke bombs redirect?I'm at work, so I can't test this out.\n&nbsp;\n</blockquote></div>\nCombat Stance requires damage to be dealt I'm pretty sure. Smoke Bombs doesn't. These are totally different trigger clauses\n</blockquote>\n</aside>\n<p>But it would prove if redirected damage counts as \"First time hit\". &nbsp;If you can use Combat Stance after smoke bombs redirected damage from the same target, it would support multiple \"First time effects\" a turn. &nbsp;If Combat Stance does not trigger, it supports that \"First\" is different than \"Next\".</p>",
+        "post_number": 35,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.772Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "AvatarX",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11139,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128521,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-20T22:10:13.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"AvatarX\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/avatarx/48/2479_2.png\" class=\"avatar\"> AvatarX:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Foote wrote:</b><br><blockquote>&nbsp;AvatarX wrote:<br><blockquote>Actually, I think this can be tested out in the App.&nbsp; If Wraith has both Combat Stance and Smoke Bombs in play and she has the lowest HP.&nbsp; Does it give you the option to deal combat stance damage, then redirect?&nbsp; Or do smoke bombs go into effect immediately?&nbsp; Also does another instance of damage trigger combat stance after smoke bombs redirect?I'm at work, so I can't test this out.&nbsp;\n&nbsp;\n</blockquote>\nCombat Stance requires damage to be dealt I'm pretty sure. Smoke Bombs doesn't. These are totally different trigger clauses\n</blockquote></div>\nBut it would prove if redirected damage counts as \"First time hit\". &nbsp;If you can use Combat Stance after smoke bombs redirected damage from the same target, it would support multiple \"First time effects\" a turn. &nbsp;If Combat Stance does not trigger, it supports that \"First\" is different than \"Next\".\n</blockquote>\n</aside>\n<p>no you are comparing apples and oranges here. These are two very different triggers&nbsp;</p>",
+        "post_number": 36,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.842Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128522,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-20T22:12:23.000Z",
+        "cooked": "<p>English man.</p><p>English.</p><p>Next:</p><blockquote><p><span>coming immediately after the time of writing or speaking.</span></p></blockquote><p><span>The first time ___ happens after I have said this is the next time it happens. &nbsp;The difference between next and first is the timing of when you start looking for the object.</span></p><p><span>The next baseball game, vs. the First baseball game of 2015.</span></p><p>If I am saying this in 2014 and there are still baseball games to play, then the two mean different things.</p><p>If I am saying it in 2015 or later and the first game of 2015 has passed, then they mean different things.</p><p>But</p><p>If I am saying this when there are no baseball games left before 2015, and before any games in 2015 have occurred, then they mean the exact same thing.</p><p>&nbsp;</p><p><span>If the \"next damage dealt to a hero target\" effect has not been used then when the turn starts a \"First time this turn damage is dealt to a hero target\" will be referring to the exact same event.</span></p><p><span>In this argument we are talking about a period of time where next and first both are looking to the exact same event. &nbsp;The first time you are dealt damage will be the next time you are dealt damage.</span></p><p>&nbsp;</p><p><span>You can't have one be fulfilled and the other not. &nbsp;It is not how the words work.</span></p><p>&nbsp;</p><p><span>The way you are treating redirection and Next is as if the redirection not only didn't trigger it, but in fact reapplied the effect. &nbsp;Setback isn't using his base power a second time whenever redirection occurs. &nbsp;The effect activated and the first time after activating the effect that damage would be dealt to a hero target is by definition the next time a hero target would be dealt damage.</span></p><p><span>Christopher isn't reinventing the English Language. &nbsp;He's using the words properly.</span></p><p>&nbsp;</p>",
+        "post_number": 37,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:18.920Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128523,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-20T22:19:00.000Z",
+        "cooked": "<p>To reiterate:</p><p>&nbsp;</p><p>The only way for \"The next time a hero target would be dealt damage\" and \"The first time each turn a hero target would be dealt damage\" to not overlap is if:</p><p>1. &nbsp;the \"next time\" effect was activated in a turn where damage had already been dealt to a hero target.</p><p>-and-</p><p>2. &nbsp;Damage is dealt to a hero target after the effect is activated, but before the turn ends.</p><p>&nbsp;</p><p>That is the only way that \"The next time a hero target is dealt damage\" will not also necessarily be \"the first time each turn a hero target would be dealt damage\"</p><p>&nbsp;</p><p>\"First\" requires a set beginning point to start tracking.</p><p>\"Next\" starts tracking upon saying the word \"next.\"</p><p>That is the entire difference of meaning in the words used here.</p>",
+        "post_number": 38,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.010Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128524,
+        "name": "grysqrl",
+        "username": "grysqrl",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/grysqrl/{size}/1909_2.png",
+        "created_at": "2015-01-20T22:47:22.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>To reiterate:</p>\n<p>&nbsp;</p>\n<p>The only way for \"The next time a hero target would be dealt damage\" and \"The first time each turn a hero target would be dealt damage\" to not overlap is if:</p>\n<ol>\n<li>&nbsp;the \"next time\" effect was activated in a turn where damage had already been dealt to a hero target.</li>\n</ol>\n<p>-and-</p>\n<ol start=\"2\">\n<li>&nbsp;Damage is dealt to a hero target after the effect is activated, but before the turn ends.</li>\n</ol>\n<p>&nbsp;</p>\n<p>That is the only way that \"The next time a hero target is dealt damage\" will not also necessarily be \"the first time each turn a hero target would be dealt damage\"</p>\n<p>&nbsp;</p>\n<p>\"First\" requires a set beginning point to start tracking.</p>\n<p>\"Next\" starts tracking upon saying the word \"next.\"</p>\n<p>That is the entire difference of meaning in the words used here.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>I agree - there is no distinction between \"first\" and \"next\" that is interesting to this discussion. \"First\" is just a \"next\" that refreshes at the beginning of each turn/round/whatever.</p>\n<p>&nbsp;</p>",
+        "post_number": 39,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.081Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "grysqrl",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 5390,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128525,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-20T23:07:14.000Z",
+        "cooked": "<p>Let me see if I can help show where people are going wrong with \"next.\"</p><p>(I used the bus analogy in the sister thread, using it here again)</p><p>If I say \"I'm getting on the next bus that stops.\" and a bus pulls up and stops, and I do not get on, I did not get on the next bus that stops.</p><p>If I then say \"That's alright, I'll get on the next one.\" &nbsp;I am re-activating the word next, it is a whole new effect, and not at all the same as my prior statement that I would get on the next bus.</p><p>&nbsp;</p><p>The point is, to say that the first damage being redirected, and then another damage coming can't be the first, but can be the next, is to re-activate the \"Next time . . . would be dealt damage\" effect, it would have to be a seperate activation, because the initial one has failed.</p><p>&nbsp;</p><p>For \"the next damage\" to apply after redirection means that damage is treated as not counting as damage that \"would be dealt.\"</p><p>Meaning that it would not cause \"the first time\" to fail either.</p><p>&nbsp;</p><p>It cannot work any other way.</p>",
+        "post_number": 40,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.150Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128526,
+        "name": "AvatarX",
+        "username": "AvatarX",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/avatarx/{size}/2479_2.png",
+        "created_at": "2015-01-20T23:22:00.000Z",
+        "cooked": "<p>It can work multiple ways depending on interpretation.&nbsp; Remember that not everybody reads things and interprets them in the same way.</p><p>But expanding on your analogy,&nbsp; I say that I will get on the next bus I see.&nbsp; The first bus I see drives by without giving me a change to get on, so I will get on the next bus.&nbsp; The second bus stops and I get on.&nbsp; The second bus was the next after the first, but it is not the first I saw.</p>",
+        "post_number": 41,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.220Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "AvatarX",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11139,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-12-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128527,
+        "name": "eugeneruss",
+        "username": "eugeneruss",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/a183cd/{size}.png",
+        "created_at": "2015-01-20T23:22:24.000Z",
+        "cooked": "<p>The semantics of \"first\" vs. \"next\" don't interest me, as much as the effect still being in play does. If a \"next\" effect is still in play, it can still trigger that turn. However, a \"first each turn\" has two conditions, and it might not trigger if it's no longer (for purposes of that trigger) the first time in a turn.<br><br>The real question is here is finding a way to process the rules that both fits the wording and the intention. English breaks down under excessive attempts to parse it, but rules intentions can be divined by consulting the designers.</p><p>It *seems to me* that the designers intend you to be able to have multiple synaptic interruptions (and similar effects) in play and trigger successively, but do not intend the same to be possible with multiple first in turn effects. That's fine by me, since the synaptic style effects get consumed in use, so they're balanced by that.</p><p>If that turns out NOT to be the intention, we adjust our understanding of the wording on the cards accordingly, or (as I often do) say \"great, I'll keep doing it this other way\".</p>",
+        "post_number": 42,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.286Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "eugeneruss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8475,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128528,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-20T23:46:06.000Z",
+        "cooked": "<p>copy and paste from other thread because these two threads are the exact. same. thing. why are there two threads with the same discussion.</p><p>&nbsp;</p><div><b>phantaskippy wrote:</b><blockquote><p>The next time is always the first time after&nbsp;<strong><em>a</em></strong>&nbsp;point in time. &nbsp;That is the definition of next.</p><p>&nbsp;</p></blockquote></div><p>Here lies the entire crux of my argument.</p><p>\"The next time\" is always the first time after a given point in time. But what point is that exactly? Is it ever stricktly defined? Why can't that point in time fluxuate under certain cercumstances? In fact, we already know that it&nbsp;<strong><em>does</em></strong>. Look at Haka of Shielding. Les say Haka uses Shielding on himself and two instances of 2 damage comes his way. The first gets redirected by Wrest the Mind. We know that Haka of Shielding in this case is &nbsp;still considered active and will reduce that second instance of damage. Why? Because since Haka of Shielding wasn't used, it is still active. We are still technically reducing the \"next\" instance of damage that would be dealt since the card is still active.</p><p>Card is active, trigger clause is literally met, so effect will trigger.</p><p>However, \"the first time each turn\" is always the first time after a&nbsp;specific&nbsp;point in time, the start of each turn. That specific point can't fluxuate due to its very definition. So say those two instances of 2 damage get dealt to Fixer with Mantis in play. The first gets redirected by Wrest the Mind. Now we have a case were Mantis might still be active because it wasn't used, but quite litterally it is now the 2nd time this turn he would be dealt an instance of 2 or less damage, and the trigger clause on Mantis fundamentally can't be triggered. Whether Mantis was used before or not makes no difference.</p><p>Card is active, trigger clause can not be met, so effect doesn't trigger.</p><p>First time and Next time are not terms you can whimsically interchange as you please. They have different connotations and apply differently under certain contexts.</p><p>This is the classic case of Square = Rectangle but Rectangle =/= Square.&nbsp;</p><p>Square = First time</p><p>Rectangle = Next time</p>",
+        "post_number": 43,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.359Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128529,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-21T01:38:00.000Z",
+        "cooked": "<p>No.</p><p>Next is also a fixed point. &nbsp;The point at which you activate the idea of next. &nbsp;In this case the ability that says \"next\" is the exact, fixed time the effect is active.</p><p>Seriously, the definition states exactly that.</p><p>You are trying to argue that a word doesn't always mean what it means and your proof is that the card effect doesn't fit your theory and the definition of the word.</p><p>The problem isn't the definition of the word next, or the official ruling on how the card works.</p><p>&nbsp;</p><p>First and next will work the same way in the example for this question. &nbsp;They have to, because the word next does have a meaning, and that meaning fixes the point from which Next is active, and that point is the moment the word is invoked.</p><p>In the case of this card game it works the moment the effect that uses the word next is activated.</p><p>How else could it be interpreted without ignoring the definition of the word next, and the way it is used throughout the card game.</p><p>&nbsp;</p><p>Next is never used to refer to an ambiguous occurance in the future, it always means the first time after now, now being the moment you invoke \"next.\"</p><p>The only way to be consistent with the ruling we have and similar effects that use the \"first time each turn\" wording is to have them work the same way.</p><p>We know \"next\" isn't consumed by damage that is redirected without requiring the effect that next is attached to.</p><p>To resolve how \"first\" will work we have two options:</p><p>1. &nbsp;Ignore the definition of the word next, and how it is consistently used every other time in the game and say that while \"First\" and \"Next\" are both not consumed, next can mean the one after the next, while first cannot mean the one after first.</p><p>-or-</p><p>2. &nbsp;We take the option that doesn't violate the definition of the words, and makes a nice consistent rule and say that damage that is redirected no longer \"would have dealt\" damage to the original target, therefore first and next don't have to violate their meanings and the whole system works beautifully.</p><p>&nbsp;</p><p>#2 also has teh added benefit of not allowing a single instance of damage to count as damaging one target, but almost damage a bunch of others. &nbsp;Which just seems bizarre to me.</p><p>&nbsp;</p><p>Lastly, yes Next and First have different meanings. &nbsp;The exact nature of which I have made clear multiple times.</p><p>First you have to designate the time at which it starts tracking, it can be in the past, in the future, it has to be designated.</p><p>Next self-designates that time because it tracks from \"now.\" &nbsp;Now being he moment the word next is invoked.</p><p>That is the difference. &nbsp;That difference is irrelevant to this question.</p><p>Seriously, you can imagine that next has some wierd true meaning that none of us quite grasp, or you can accept that the definition of the word is accurate and use it the way it is intended to be used.</p><p>There is no ambiguity in this usage of next. &nbsp;None. &nbsp;In the example Next and first will work the exact same way.</p>",
+        "post_number": 44,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.440Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128530,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-01-21T02:05:00.000Z",
+        "cooked": "<p>Question for all. &nbsp;Fright Train has Engine of Destruction in play and Bloogo with 1 HP next to him. &nbsp;Fanatic Exorcises him (Fright Train, not Bloogo) with her base power (1 melee, 1 radiant).</p><p>&nbsp;</p><p>How much damage would you say Fright Train takes?</p><p>&nbsp;</p><p>And no more than 5 lines of explaination about why you chose that number. &nbsp;Bonus points if you can summarize in a sentence.</p><p>&nbsp;</p><p>I'm trying to get a better feel for everyone's opinions, because I think we've started to repeat ourselves.</p>",
+        "post_number": 45,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.543Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128531,
+        "name": "eugeneruss",
+        "username": "eugeneruss",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/a183cd/{size}.png",
+        "created_at": "2015-01-21T03:41:00.000Z",
+        "cooked": "<p>Fright Train takes 2 radiant.</p><p>When Fanatic exorcises, she would deal one melee to Fright Train, but this gets redirected to Bloogo, who dies. She then deals 1 radiant to Fright Train, increased by 1 by Engine of Destruction.</p><p>When you redirect that first bit of damage, it loses Fright Train's bonus, per other examples of redirection and increased / reduced damage to a target. This prevents it from being the first actual damage dealt to him for purposes of taking damage, but he's already had damage dealt to him for purposes of redirection (even though that winds up being irrelevant).</p><p>The question's more interesting if Bloogo has two hit points :)</p><p>I think all this endless nattering about \"first\" meaning the same as \"next\" falls apart when you modify \"first\" with \"in a turn\" and make it conditional. And when you take into account that prior rulings appears to indicate that multiple \"redirect first damage in a turn\" effects don't trigger sequentially, but multiple \"next damage\" effects do (that last will be revised if an official ruling contradicts it).</p><p>&nbsp;</p><p>Because, as I've said, there's always room for \"next damage\" when you take more damage. There's not always room for first damage in a turn.</p>",
+        "post_number": 46,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.605Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "eugeneruss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8475,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-08-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128532,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2015-01-21T05:24:04.000Z",
+        "cooked": "<p>I would have said 2 radiant, but going by the ruling for Superhuman Redirection, I'll have to (reluctantly) say 1 radiant. The buff was used up on the damage that got redirected to Bloogo.</p>",
+        "post_number": 47,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.669Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128533,
+        "name": "grysqrl",
+        "username": "grysqrl",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/grysqrl/{size}/1909_2.png",
+        "created_at": "2015-01-21T05:56:29.000Z",
+        "cooked": "<p>Absolutely 2 radiant. Damage dealt requires HP reduction. The melee hit reduces Bloogo's HP, so at that point, we haven't seen the first damage dealt to Fright Train yet. The radiant will be the first damage dealt to Fright Train, so it gets the boost.</p>",
+        "post_number": 48,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.734Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "grysqrl",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 5390,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128534,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2015-01-21T06:35:22.000Z",
+        "cooked": "<p>But then, by that logic, multiple Superhuman Redirections would trigger one after another. After the first one redirects, then you hit him again, and since he hasn't lost HP yet, he hasn't been dealt damage. Therefore, this is the first time he is being dealt damage, so you redirect it for the second one.</p>",
+        "post_number": 49,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.794Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128535,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2015-01-21T13:06:17.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"McBehrer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mcbehrer/48/1850_2.png\" class=\"avatar\"> McBehrer:</div>\n<blockquote>\n<p>But then, by that logic, multiple Superhuman Redirections would trigger one after another. After the first one redirects, then you hit him again, and since he hasn't lost HP yet, he hasn't been dealt damage. Therefore, this is the first time he is being dealt damage, so you redirect it for the second one.</p>\n</blockquote>\n</aside>\n<p>Superhuman Redirection triggers on when he&nbsp;<strong>would</strong> be dealt damage. That does not need damage to actually be dealt for it to trigger. This is why onle one redirection with Superhuman Redirection is possible, as the first time he would be dealt 5 or more damage in a turn it would be redirect. The second time he would be dealt 5 or more damage in that turn triggers none of the Superhuman Redirections, as it would be the second time he would of been dealt 5 or more damage that turn.&nbsp;</p>",
+        "post_number": 50,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.853Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128536,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-21T13:57:00.000Z",
+        "cooked": "<p>Can someone find the Superhuman redirection ruling that is being referenced here?</p><p>The one I remember was about the same instance of damage being redirected multiple times by the same card.</p><p>It was asking since it was the same instance of damage if that damage could still be redirected by the same effect. (since it was necessarily the same instance of damage that was \"the first\")</p><p>That is the one I remember, I don't remember and can't find one that deals with multiple copies, or any ruling about First working that way.</p><p>Also the La Capitan ruling doesn't mesh with it.</p>",
+        "post_number": 51,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.913Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128537,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-21T13:57:44.000Z",
+        "cooked": "<p>And if we follow the \"first damage\" as people are saying we should then then La Capitan's Flip side Advanced text can only take place if La Capitan is damaged between the start of her turn and the end of her turn, when she has no cards under her but hasn't flipped yet.</p><p>&nbsp;</p><p>I sincerely doubt that is the idea behind that advanced text. &nbsp;Any other time her cards are cleared it would not be the first time she would have taken damage, since she has to have \"would be dealt\" for her prevention to activate. &nbsp;And after all, even if the damage is prevented it still won't be the first time that round.</p><p>Prevention and redirection both cancel the attack. &nbsp;The attack never happened. &nbsp;La Capitan, or in my original example Guise, the damage would not have damaged La Capitan or Guise, because it was prevented in one case, and dealt to a different target in the other.</p><blockquote><p>&nbsp;</p><p>Once an attack is redirected ALL modifiers are reassessed.</p><p>&nbsp;That is 100% correct.</p><p>Now, on to a situation which has caused great discord:</p><p>If Haka reduces damage to Mr. Fixer, allowing Mr. Fixer to redirect that damage, then the damage gets re-evaluated as it hits its eventual target, as per the \"once an attack is redirected, reassess all modifiers\" law. However, Haka's reduction of damage dealt to Mr. Fixer is necessarily used up. It has to be, otherwise, Mr. Fixer could not have redirected the damage. So, even though Haka's damage reduction never actually reduced any final damage that was dealt, the effect was used up, as it allowed a trigger to occur.</p></blockquote><p>That is the ruling on Mantis and \"next time\" reduction. &nbsp;</p><p>1. &nbsp;It is a fact that \"next\" and \"first\" will work the exact same way if both are active at the start of the turn. &nbsp;Any other result violates the definition of the words.</p><p>2. &nbsp;Prevention and Redirection, according to the video game guys, both will use this ruling.</p><p>3. &nbsp;If \"Next\" can still trigger, then the effect has either been reactivated, or the attack never happened.</p><p>4. &nbsp;Setback's base power, incap powrs and PW Haka's base power are not given a \"free use\" every time damage is redirected. &nbsp;Those abilities have costs, you'd have to pay the cost a second time.</p><p>5. &nbsp;La Capitan's Advanced text (flip side) would almost never trigger, and be by far the most situational, fiddly and worst designed advanced text in the game, unless prevented attacks do not count as \"would be dealt\" for the purposes of determining the first time each round.</p><p>&nbsp;</p><p>I think it is pretty clear that either those attacks don't count for Next or First, or the game is needlessly complex and not as well designed as it is.</p><p>&nbsp;</p>",
+        "post_number": 52,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:19.978Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128538,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2015-01-21T14:43:05.000Z",
+        "cooked": "<p>Not ruling, I meant concensus. Just the general idea in the thread was that the first one was the only one that mattered, even if it got redirected.</p><p>&nbsp;</p><p>Also, I was pretty sure that La Capitan's flip side advanced was after all the cards were cleared. I remember I brought up the same thing, saying that it should happen before clearing the cards, but was corrected on the grounds that it is written lower on the card, and so must occur later.</p>",
+        "post_number": 53,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.058Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128539,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-21T15:36:00.000Z",
+        "cooked": "<p>The point is if damage \"would be dealt\" to La Capitan and is prevented, then under what circumstances would her redirect even be able to occur? &nbsp;Since it is \"First time each round\" her advanced text either needs the prevented damage to not qualify as \"would be dealt\" or it simply will not ever activate, except in the bizarre circumstance I mentioned above.</p><p>The evidence all points to redirected and prevented damage not counting as \"would be dealt\" to its original target once redirected.</p><p>Which makes sense to me, damage that has already been resolved is not threatening to anyone that wasn't dealt damage by it.</p>",
+        "post_number": 54,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.126Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128540,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2015-01-21T16:13:15.000Z",
+        "cooked": "<p>Except then, when you hit Iron Legacy the second time, that's the first time he \"would be dealt\" damage, so his second redirection should trigger, right? That's what I have been saying; if redirecting cancels out \"first time\" effects, like Engine of Destruction or La Capitan, then it should cancel out \"first time\" effects like Superhuman Redirection or -- in the conversation that started this whole thing -- Total Beefcake and Infiltrate and Obfuscate.</p>",
+        "post_number": 55,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.186Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128541,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2015-01-21T16:31:47.000Z",
+        "cooked": "<p>But since everyone else INSISTS that redirecting damage away via those effects breaks the \"first time they would be dealt damage\" barrier, so the second hit would go through and not count as the first time, that means that OTHER \"first time\" effects like Engine of Destruction would have to be used up as well.</p><p>&nbsp;</p><p>So, there are 3 options.</p><p>1.) if you redirect the first damage away, it still counts as that target's \"first time it is/would have been dealt damage,\" cancelling out any further effects with that trigger, like additional Superhuman Redirections, Engine of Destruction, Stealth, etc.&nbsp;</p><p>&nbsp;</p><p>2.) If you redirect the first damage away, it means that the target has not been dealt damage, which resets the \"first time it would have been dealt damage.\" Therefore, the next time it is dealt damage is the first, which would then trigger a second Superhuman Redirection, Engine of Destruction, Stealth, etc.</p><p>3.) If you redirect the first damage away, it uses up the \"first time it WOULD be dealt damage,\" but not the \"first time it takes damage.\" This would use up things like Caliginous Form and Superhuman Redirection, that merely require the target to be the TARGET of damage, but not bonuses or reductions that require damage to actually be dealt. The second time it is targeted is not the first time in the turn it WOULD take damage, but it is the first time it DOES take damage. They are grammatically and mechanically distinct. This means that all of the Redirections (or other \"first time they would take damage\" effects) go off at once. You may have moved the damage, but the trigger -- being targeted for damage -- still happened. If there are different effects that trigger, they don't get skipped. Just, in this case, they don't matter, because they both do the same thing.</p><p>&nbsp;</p><p>The way I see it, option 3 is the most logical. I was originally going to say 2, but thinking it over I realized that, based on the wording, you CAN make the argument that using up the \"first time it would be dealt damage\" does not necessarily use up the \"first time it IS dealt damage,\" if no damage is dealt. This comes with the addendum that, except in the case of prevention or redirection, a Stealth effect that reduces the damage to 0 IS used up, since it is only because of its own effect that no damage was dealt. No stacking up Stealth and just never ever taking damage. \"First time\" comes before \"whenever,\" so La Capitan's advanced mode would trigger before the prevention, as I believe is the intent.</p>",
+        "post_number": 56,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.253Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128542,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-21T16:59:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Prevention and redirection both cancel the attack. &nbsp;The attack never happened.&nbsp;</p>\n</blockquote>\n</aside>\n<p>I don't think this is correct at all. Prevention and Redirection are not the same thing. They are two totally different mechanics. Even though they may have the same outcome of the initial target not taking damage, its faulty logic to conclude they must therefore be the same in any and all cases.</p>\n<p>You are making this exact same logical leap saying that \"Next\" and \"First\" are the same as well (that leap being that if two things are similar, they therefore must be the same). And while I'm on the topic of Next and First, let's walk through a quick proof of why they are not the same.</p>\n<blockquote>\nI want to catch the <strong>Next</strong> bus. I miss the 1st bus. I get on the 2nd bus. I caught the <strong>Next</strong> bus\n</blockquote>\n\"I caught the Next bus\" is in fact a true statement.&nbsp;\n<p>But did I catch the first bus? No, that is a false statment.</p>\n<blockquote>\nI want to catch the <strong>First</strong> bus. I miss the 1st bus. I get on the 2nd bus. I caught the <strong>First</strong> bus\n</blockquote>\n\"I caught the First bus\" is a <em>false</em> statement.\n<p>Do you see why the word \"First\" and \"Next\" can't be interchangable words? I don't understand why that is even a debate.&nbsp;</p>\n<p>But I digress.</p>\n<p>Lets go back to the mechanical difference of Prevention and Redirection:</p>\n<p>When you prevent damage, you are right here that the attack is considered never to have happened. The entire thing was prevented, and because of that fact, for all intents and purposes its considered that you would not and could not have taken damage at all. This is why the La Capitain ruling can work like it does and the redirection can still trigger, since she would never technically be eligable to take damage while there were still cards under her to burn, so the \"First time she would take damage\" clause in the Advance text is still applicable after all cards under her are gone. It truly is only now the first time she could really be dealt damage by virtue of her mechanics.&nbsp;</p>\n<p>But when you redirect an attack, the attack from the source&nbsp;<em>still happens</em>, it just happens against a different target now (and because its now a different target, all modifiers are recalculated to adjust to that fact). So your inital statement above is false. Furthermore, the game state still considers the fact that you would have and could have taken damage in that instance because redirection nessesarily occures <em>after</em> that evaluation takes place. How do we know this is true? Because instances of 0 damage can not be redirected at all (a case where the game considers that you would not have and could not have taken damage).&nbsp;</p>\n<p>&nbsp;</p>",
+        "post_number": 57,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.326Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128543,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-01-21T17:20:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<blockquote>I want to catch the <strong>First</strong> bus. I miss the 1st bus. I get on the 2nd bus. I caught the <strong>First</strong> bus\n&nbsp;\n</blockquote>\n\"I caught the First bus\" is a <em>false</em> statement.\n</blockquote>\n</aside>\n<p>EDIT: &nbsp;As Foote points out below, my point only works for a modified version of this:</p>\n<blockquote>\n<p>I want to catch the&nbsp; <strong>First</strong> &nbsp;bus. The 1st bus doesn't show up. I get on the 2nd bus. I caught the&nbsp; <strong>First</strong> &nbsp;bus</p>\n</blockquote>\n<p>It's a different metaphor, but I don't think it's a less valid one.</p>\n<p>/EDIT</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>And this is&nbsp;<strong>exactly</strong> where the disagreement is. &nbsp;\"I caught the first bus\" is not an false statement - it is an imprecise one.</p>\n<p>&nbsp;</p>\n<p>\"I caught the first bus&nbsp;<strong>that came</strong>\" is a true statement.</p>\n<p>I caught the first bus&nbsp;<strong>that was scheduled</strong>\" is a false statement.</p>\n<p>The disagreement is whether \"first\" is referring to the schedule or the arrivals.</p>\n<p>&nbsp;</p>\n<p>Those of us claiming that \"next\" and \"first\" are the same are using \"that came\" for both \"first\" and \"next\". &nbsp;Those of us claiming that \"next\" and \"first\" are different are using \"that came\" for \"next\" and \"that was scheduled\" for \"first\".</p>",
+        "post_number": 58,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.405Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128544,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-21T17:34:15.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"jsz2\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n jsz2:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Foote wrote:</b><br><blockquote>&nbsp;<br><blockquote>I want to catch the <strong>First</strong> bus. I miss the 1st bus. I get on the 2nd bus. I caught the <strong>First</strong> bus&nbsp;\n&nbsp;\n</blockquote>\n\"I caught the First bus\" is a <em>false</em> statement.\n</blockquote></div>\nAnd this is&nbsp;<strong>exactly</strong> where the disagreement is. &nbsp;\"I caught the first bus\" is not an false statement - it is an imprecise one.&nbsp;\"I caught the first bus&nbsp;<strong>that came</strong>\" is a true statement.I caught the first bus&nbsp;<strong>that was scheduled</strong>\" is a false statement.The disagreement is whether \"first\" is referring to the schedule or the arrivals.&nbsp;Those of us claiming that \"next\" and \"first\" are the same are using \"that came\" for both \"first\" and \"next\". &nbsp;Those of us claiming that \"next\" and \"first\" are different are using \"that came\" for \"next\" and \"that was scheduled\" for \"first\".\n</blockquote>\n</aside>\n<p>\"I caught the first bus that came\" is in  <strong><em>no way, shape, or form a true statement</em></strong> . It explicitly says that you missed the first bus. You can't miss a bus that never comes dude. It came. You missed it.</p>",
+        "post_number": 59,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.477Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128545,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-01-21T17:39:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><blockquote>&nbsp; \"I caught the first bus that came\" is in  <strong><em>no way, shape, or form a true statement</em></strong> . It explicitly says that you missed the first bus. You can't miss a bus that never comes dude. It came. You missed it. </blockquote></div>\n</blockquote>\n</aside>\n<p>You're right. &nbsp;In my head I was thinking about busses breaking down and not showing up, instead of you missing the bus. &nbsp;(Because when I constructed the metaphor for myself, I used busses that break down because it supports my argument)</p>\n<p>&nbsp;</p>\n<p>And this is where the metaphor breaks down, because I can think of no way to argue whether busses being missed or busses breaking down is a better metaphor for preventing/redirecting damage.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Alternate version of my point, with a slightly different metaphor:</p>\n<p>\"I caught the first bus. &nbsp;The 1st bus was full. &nbsp;I caught the 2nd bus.\" &nbsp;is a false statement.</p>\n<p>\"I caught the first available bus. &nbsp;The 1st bus was full. &nbsp;I caught the 2nd bus.\" &nbsp;is a true statement.<br><br>Are these cards talking about busses, or available busses?</p>",
+        "post_number": 60,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.545Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128546,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-01-21T17:48:52.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>And if we follow the \"first damage\" as people are saying we should then then La Capitan's Flip side Advanced text can only take place if La Capitan is damaged between the start of her turn and the end of her turn, when she has no cards under her but hasn't flipped yet.&nbsp;I sincerely doubt that is the idea behind that advanced text.&nbsp;</p>\n</blockquote>\n</aside>\n<p>A side note here: La Capitan's Flipside Advanced text was changed for the oversized villain cards (eg, the most recent printing of the character) to read \"The first time every TURN…\" instead of first time every round.&nbsp; This indicates to me that Christopher realized that the original wording was flawed in some significant way, perhaps in exactly the way you observe here.</p>",
+        "post_number": 61,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.652Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128547,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2015-01-21T17:54:04.000Z",
+        "cooked": "<p>Actually, that was a typo. The small cards always take precedence over the large card. It's supposed to be round, and has been stated as such.</p>",
+        "post_number": 62,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.716Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128548,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-21T17:54:25.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"jsz2\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n jsz2:</div>\n<blockquote>\n<p>&nbsp;And this is where the metaphor breaks down, because I can think of no way to argue whether busses being missed or busses breaking down is a better metaphor for preventing/redirecting damage. &nbsp;</p>\n</blockquote>\n</aside>\n<p>But see, thats not the point I was trying to make there. The thought experiment was to show that the words \"First\" and \"Next\" are not interchangable. That is the whole point. The statements I provided only served to illustrate that.</p>",
+        "post_number": 63,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.779Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128549,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-01-21T18:15:48.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>jsz2 wrote:</b><br><blockquote>&nbsp;And this is where the metaphor breaks down, because I can think of no way to argue whether busses being missed or busses breaking down is a better metaphor for preventing/redirecting damage. &nbsp;\n&nbsp;\n</blockquote></div>\nBut see, thats not the point I was trying to make there. The thought experiment was to show that the words \"First\" and \"Next\" are not interchangable. That is the whole point. The statements I provided only served to illustrate that.\n</blockquote>\n</aside>\n<p>And my point is that given the proper metaphor, they are interchangable. &nbsp;You're using a metaphor in which they are not interchangable. &nbsp;I'm using a metaphor in which they are. &nbsp;Neither metaphor is similar enough to the actual scenario to be declared more accurate than the other.</p>\n<p>&nbsp;</p>\n<p>The issue is not who's correct. &nbsp;Everybody is correct&nbsp;<em>in the paradigm that they're using</em>. &nbsp;We're spending time arguing about who's correct, when we should be arguing about which paradigm is correct.</p>\n<p>&nbsp;</p>\n<p>That said, the paradigm I'm using is the paradigm of seperate paradigms, which is probably not the only way to view our problem here.</p>",
+        "post_number": 64,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.844Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128550,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-21T18:37:50.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"jsz2\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n jsz2:</div>\n<blockquote>\n<p>And my point is that given the proper metaphor, they are interchangable. &nbsp;You're using a metaphor in which they are not interchangable. &nbsp;I'm using a metaphor in which they are. &nbsp;</p>\n</blockquote>\n</aside>\n<p>We know they are similar terms already. \"The First Time\" will always technically be \"The Next Time\", but you flat out can't say that \"The Next Time\" will <em>always</em> be \"The First Time\" as I showed you. Again, this is Squares/Rectangles. Squares can always be Rectangles, but Rectangles are not always Squares. Two very similar words that can be interchanged on occasion, but they still mean two different things.</p>\n<p>And thats the whole point. They are different. Not the same. As soon as I provided one case where they were not interchangable, thats the only conclusion you can end with.</p>",
+        "post_number": 65,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.916Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128551,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-01-21T18:47:27.000Z",
+        "cooked": "<p>They're not interchangeable, but sometimes you can treat them as if they are.</p><p>&nbsp;</p><p>For example: &nbsp;A square is not interchangable with a rectangle - unless the only thing you care about is the angles of the corners. &nbsp;If all you're doing is measuring corner angles, then suddenly the differences (while still present) don't matter.</p><p>That's my point. &nbsp;There are some cases where first and next can be treated the same (even though they're different). &nbsp;And while one case can be used to prove that they're different, one case cannot be used to prove that in&nbsp;<em>this</em> case they need to be treated differently.</p>",
+        "post_number": 66,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:20.998Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128552,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-21T18:52:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"jsz2\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n jsz2:</div>\n<blockquote>\n<p>They're not interchangeable, but sometimes you can treat them as if they are.&nbsp;For example: &nbsp;A square is not interchangable with a rectangle - unless the only thing you care about is the angles of the corners. &nbsp;If all you're doing is measuring corner angles, then suddenly the differences (while still present) don't matter.That's my point. &nbsp;There are some cases where first and next can be treated the same (even though they're different). &nbsp;And while one case can be used to prove that they're different, one case cannot be used to prove that in&nbsp;<em>this</em> case they need to be treated differently.</p>\n</blockquote>\n</aside>\n<p>But ultimatly we are talking about the mechanics of triggers in-game. And if we are going to read these cards as literally as possible to help that cause, you have to keep in mind that those two terms&nbsp;<em>are</em> different and the assumption <em>can't</em> be made that they should be treated as the same, because they just arn't. If they were meant to be treated as they same <em>in all cases</em>, they would be worded the same.</p>",
+        "post_number": 67,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:21.068Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128553,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-21T19:19:46.000Z",
+        "cooked": "<p>They are different terms with different meanings. &nbsp;This is true.</p><p>In the exact case we are looking at, and in fact in almost every case in this game they are going to act the same way. &nbsp;This is also true.</p><p>&nbsp;</p><blockquote><p><span>I want to catch the&nbsp;</span><strong>Next</strong><span>&nbsp;bus. I miss the 1st bus. I get on the 2nd bus. I caught the&nbsp;</span><strong>Next</strong><span>&nbsp;bus</span></p></blockquote><p>This is not a true statement.</p><p>Unless your intention to catch the next bus began after missing the first bus. &nbsp;Otherwise you missed the next bus, and caught the bus after next.</p><p>&nbsp;</p><p>The problem you are having with next is that you are sliding the timing of next, reapplying it after it has expired.</p><p>You can't do that in this game. &nbsp;Setback's base power triggers the next time a hero target would take damage. &nbsp;Which literally means \"The first time after the power is activated.\"</p><p>That is what next is.</p><p>The difference between next and First is that when reapplied next will always have a target, the first one after activation.</p><p>First time each turn, if applied mid-turn after damage has already been dealt will have already missed the trigger for that turn.</p><p>However, if at the start of the turn both \"next\" and \"first\" are active, they will resolve the exact same way.</p><p>&nbsp;</p><p>What you are doing by making next apply after the first trigger post activation is the same as reapplying it. &nbsp;You are changing the activation timing of the effect. &nbsp;The effect is already active, and it doesn't get a do-over if its trigger is missed anymore than \"first\" does.</p><p>&nbsp;</p><p>Its like saying, \"Well I missed the first bus, but I'll get the first after that.\"</p><p>In common speech we often reapply next haphazardly, but in game terms \"Next\" has a definitive point of activation. &nbsp;Every effect that uses next has a set time that it starts looking for the \"next\" trigger.</p>",
+        "post_number": 68,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:21.138Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128554,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-21T19:47:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>&nbsp;The problem you are having with next is that you are sliding the timing of next, reapplying it after it has expired.</p>\n</blockquote>\n</aside>\n<p>Thats not a problem at all though. Thats the&nbsp;<em>entire</em> <em>point</em> of using the word \"next\" because the nature of the world allows that kind of sliding, given a context in which it makes sense.</p>\n<p>We have already have rulings where this sliding of timing does happen.</p>\n<p>Haka uses Shielding on himself to reduce the next instance of damage. Two instances of 2 damage come his way and the first lest say is redirected by Wrest the Mind. That \"Next\" damage that would have been dealt to Haka after the card was played was that First instance of damage that would have been dealt, and that subsequently got redirected.</p>\n<p>So was Shielding used on that particular \"next\" instance of damage? No it wasn't. It will <em>still </em>go on to&nbsp;reduce the 2nd instance of damage coming to him.</p>\n<p>\"Next\" shifted from the first instance of damage to the second instance of damage. It quite literally still reduced the \"next\" instance of damage he would have taken.</p>\n<p>We have to read it literally, and It literally is a more flexible term than \"First\" because that explicitly specifies the point of timing. If Haka of Shielding said to reduce the First amount of damage that would be dealt, then the card would not work as it currently does because it specifically can't affect the Second amount of damage that would have been dealt as that defies the conditional clause of the effect.</p>",
+        "post_number": 69,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:21.220Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128555,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2015-01-21T19:55:17.000Z",
+        "cooked": "<p>I think you guys are arguing over something that doesn't really matter. The REAL point of contention here isn't whether or not the second instance of damage counts as the first, after redirecting. The point is ACTUALLY whether or not the first one STILL COUNTS AS THE FIRST ONE after it gets redirected, or if it simply ceases to have happened. If it ceases to have happened, then the next one he gets hit with would still be the first one, since the \"true\" first one got nullified before it went through.</p><p>&nbsp;</p><p>However, I do not believe that to be the case. I think the correct answer is that for \"would be dealt damage\" effects, it is used up -- It has already been targeted, so the first bus has already come and gone -- but for \"is dealt damage,\" it is not, as he didn't actually get on.</p><p>&nbsp;</p>",
+        "post_number": 70,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:21.297Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12036,
+        "topic_slug": "priority-of-first-damage-vs-hp-were-reduced",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 12036
+}

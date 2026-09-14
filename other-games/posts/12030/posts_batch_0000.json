@@ -1,0 +1,343 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 128462,
+        "name": "Donner",
+        "username": "Donner",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/donner/{size}/1903_2.png",
+        "created_at": "2015-01-20T23:20:01.000Z",
+        "cooked": "<p>I think that the best way to word something that would trigger twice (due to having two sources, like synaptic interruption), it should say \"Whenever X\" instead of \"the next X\" or \"the first X\".&nbsp; Then, if the first instance that would trigger, does, it uses the trigger the second would have used.&nbsp; And the second can then trigger when the event occurs again.&nbsp; But those usually require destruction of the card or some other way to signify that particular instance has triggered.&nbsp; If it is a card that stays in play but should redirect if X damage makes it through (only once each turn, though), how should it be worded so that two instances of that card can redirect two instances of that damage and no more?</p><p>Then, once we figure out how they should be worded, we can see if the current wording on any of these cards seems like they were aiming for that goal or for a single-shot regardless of instances effect.</p><p>Personally, I think the cards that say \"the first\" are trying to be multi-card, single instance (no matter how many cards of that type you have out, they only trigger once) and the ones that say \"the next\" are trying to be multi-card, multi-instance (each card stops one instance).&nbsp; In which case the flow order goes like this:&nbsp; Damage is trying to be dealt.&nbsp; Check the first card that says it can stop it.&nbsp; It triggers and is spent.&nbsp; The next time damage is dealt, we skip the first card and check the next.&nbsp; If it is unspent, it becomes spent and stops it.&nbsp; Otherwise, the wording difference between \"first\" and \"next\" has no point and they should all say first or all say next.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:14.324Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12030,
+        "topic_slug": "guise-multiple-base-power-use-and-multiple-redirections",
+        "display_username": "Donner",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4238,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128463,
+        "name": "Foote",
+        "username": "Foote",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+        "created_at": "2015-01-20T23:42:21.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>The next time is always the first time after <strong><em>a</em></strong> point in time. &nbsp;That is the definition of next.</p>\n</blockquote>\n</aside>\n<p>Here lies the entire crux of my argument.</p>\n<p>\"The next time\" is always the first time after a given point in time. But what point is that exactly? Is it ever stricktly defined? Why can't that point in time fluxuate under certain cercumstances? In fact, we already know that it <strong><em>does</em></strong>. Look at Haka of Shielding. Les say Haka uses Shielding on himself and two instances of 2 damage comes his way. The first gets redirected by Wrest the Mind. We know that Haka of Shielding in this case is &nbsp;still considered active and will reduce that second instance of damage. Why? Because since Haka of Shielding wasn't used, it is still active. We are still technically reducing the \"next\" instance of damage that would be dealt since the card is still active.</p>\n<p>Card is active, trigger clause is literally met, so effect will trigger.</p>\n<p>However, \"the first time each turn\" is always the first time after a specific point in time, the start of each turn. That specific point can't fluxuate due to its very definition. So say those two instances of 2 damage get dealt to Fixer with Mantis in play. The first gets redirected by Wrest the Mind. Now we have a case were Mantis might still be active because it wasn't used, but quite litterally it is now the 2nd time this turn he would be dealt an instance of 2 or less damage, and the trigger clause on Mantis fundamentally can't be triggered. Whether Mantis was used before or not makes no difference.</p>\n<p>Card is active, trigger clause can not be met, so effect doesn't trigger.</p>\n<p>First time and Next time are not terms you can whimsically interchange as you please. They have different connotations and apply differently under certain contexts.</p>\n<p>This is the classic case of Square = Rectangle but Rectangle =/= Square.&nbsp;</p>\n<p>Square = First time</p>\n<p>Rectangle = Next time</p>\n<p>&nbsp;</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:14.396Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12030,
+        "topic_slug": "guise-multiple-base-power-use-and-multiple-redirections",
+        "display_username": "Foote",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4333,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128464,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2015-01-21T01:42:00.000Z",
+        "cooked": "<p>I responded on the other thread, one of these needs to die.</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:14.469Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12030,
+        "topic_slug": "guise-multiple-base-power-use-and-multiple-redirections",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 128465,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-01-21T02:10:14.000Z",
+        "cooked": "<p>I agree. &nbsp;Kill the thread!</p>\n<p>&nbsp;</p>\n<p><font color=\"white\">(Or at least derail it with a discussion about murdering threads)</font></p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:03:14.533Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12030,
+        "topic_slug": "guise-multiple-base-power-use-and-multiple-redirections",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 12030
+}

@@ -1,0 +1,681 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 134117,
+        "name": "Nataraja",
+        "username": "Nataraja",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/7feea3/{size}.png",
+        "created_at": "2015-02-27T18:09:26.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Donner\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/donner/48/1903_2.png\" class=\"avatar\"> Donner:</div>\n<blockquote>\n<p>It doesn't seem like a mess to me.The first ones have to hit X targets. &nbsp;That means they can't hit the same target twice, but they can hit more targets if they haven't reached X yet. &nbsp;And they are not particular about which targets they're hitting.The second ones Say hit a target for X. &nbsp;Then hit a target for Y. &nbsp;Those are separate attacks. &nbsp;They can hit the same target twice.The third one targets a set of targets (X targets) with a HP criteria (all highest, all lowest, etc.). &nbsp;It HAS to snapshot at this point to figure out everyone that fits its criteria. &nbsp;Trying to re-calculate the criteria every time a new target comes into play becomes MUCH more complex than taking the targets as they were and dealing out the damage to them.This is, in my opinion, the cleaner way to do things. &nbsp;Everything else gets messier when you start adding the other interactions possible in the game.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>That's why I say it's a mess. The third one behaves differently because it has to or the game breaks. Or at least gets under a lot of stress. It would be more elegant to normalize the game so third case isn't a case at all and doesn't have to stand out as behaving differently and we have as much of everything behaving consistently as we can.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:09:54.475Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12455,
+        "topic_slug": "when-do-you-declare-x-targets",
+        "display_username": "Nataraja",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11015,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-11-24",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 134118,
+        "name": "Donner",
+        "username": "Donner",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/donner/{size}/1903_2.png",
+        "created_at": "2015-02-27T18:13:18.000Z",
+        "cooked": "<p>I don't understand why you view this as being a mess. &nbsp;For me, it is easier to say \"Oh, these guys have the highest health so we need to hit them\" than to go \"This one has the highest. &nbsp;Recalculate. &nbsp;This one has the highest. &nbsp; Recalculate...\"</p><p>The rule is different, sure. but the level of complexity is now at the rule level instead of the play level. &nbsp;And it is easier to deal with there.</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:09:54.546Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 10.0,
+        "yours": false,
+        "topic_id": 12455,
+        "topic_slug": "when-do-you-declare-x-targets",
+        "display_username": "Donner",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4238,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 134119,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-28T02:19:56.000Z",
+        "cooked": "<p>I'm with Nataraja on this.&nbsp; In order to distinguish between, for example, Ambitious Racketeer and the end-of-turn damage done by a flipped Cosmic Omnitron, you need to get into some quite complex concepts of what kind of targeting is going on.&nbsp; Conversely, just checking whether the text includes the phrase \"up to\" is simple and easy.</p><p>Are there any cards *besides* Ambitious Racketeer that share its qualities?&nbsp; And are there any cases besides Captain Cosmic that can bring out new Hero targets as a result of dealing damage?&nbsp; I suspect that this is another case where we're keeping the rules overly complex in order to support a tiny change in interpretation to a single card (or very small number of them, at any rate), and even then, only in rare circumstances.</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:09:55.090Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 10.0,
+        "yours": false,
+        "topic_id": 12455,
+        "topic_slug": "when-do-you-declare-x-targets",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 134120,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2015-02-28T03:12:47.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"AlexxKay\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png\" class=\"avatar\"> AlexxKay:</div>\n<blockquote>\n<p>&nbsp;Conversely, just checking whether the text includes the phrase \"up to\" is simple and easy.</p>\n</blockquote>\n</aside>\n<p>Checking to see if the phrase says highest/lowest/most is not equally easy?</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:09:55.147Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12455,
+        "topic_slug": "when-do-you-declare-x-targets",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 134121,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2015-02-28T04:27:10.000Z",
+        "cooked": "<p>I actually did come up with a house rule way to handle \"Deal the 3 targets with the highest HP\" and similar cases in a manner similar to the way \"Deal up to 3 targets\" without creating non-intuitive results.</p><p>&nbsp;</p><p>Problem: &nbsp;If each target is chosen seperately, then when the damage dealt changes the HP order of the targets, it becomes possible to skip dealing damage to the highest HP target.</p><p>Example: &nbsp;\"Deal the 3 targets with the highest HP 2 damage\" when the targets are at A(22), B(19), C(18), &amp; D(17). &nbsp;Barring schenanigans caused by reacting triggers, A,B,&amp;C should take damage, D should not. &nbsp;But if targets are chosen sequentially, then if C is chosen as the first target, then it will drop below D, moving D into the \"top 3\". &nbsp;You could then choose D and then B, and A would not take damage. &nbsp;Clearly, this is flawed.</p><p>Solution: &nbsp;I can't think of a good way to word this in general, so I'll word it for the specfic example shown above. &nbsp;The first shot can target any of the first 3. &nbsp;Now there are only two shots left, so the 2nd shot can target any of the first 2, excluding any previously targeted targets, and the 3rd shot must target the highest not-yet-previously targeted target.</p><p>Example: &nbsp;Scenario above: &nbsp;C is chosen first. &nbsp;Now the order is A,B,D,C. &nbsp;The second shot can only target A or B. &nbsp;Whichever is targeted, the other must be the last target. &nbsp;If A was chosen first, the order is now A,B,C,D, but A's been chosen, so the next target must be one of the top two of B,C,D. &nbsp;Either way, it still will achieve the expected result.</p><p>&nbsp;</p><p>I haven't heavily tested this method with schenanigans, but I do think that it will behave intuitively in most cases (i.e. &nbsp;You won't be able to leave the highest HP &nbsp;target untouched unless it takes damage from some other source in the middle of the damage or a new target replaces it as highest HP, etc)</p><p>&nbsp;</p><p>It's obviously not the offical way that the targets are chosen, but if you prefer it to the offical version, feel free to use it as a house rule.</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:09:55.207Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12455,
+        "topic_slug": "when-do-you-declare-x-targets",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 134122,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-28T07:07:56.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<div><b>AlexxKay wrote:</b><br><blockquote>&nbsp;Conversely, just checking whether the text includes the phrase \"up to\" is simple and easy.</blockquote></div>\nChecking to see if the phrase says highest/lowest/most is not equally easy?\n</blockquote>\n</aside>\n<p>Not for me subjectively, since I find it unintuitive.&nbsp;</p>\n<p>Not by objective complexity (measured in \"number of characters (or even words) needed to state the rule.</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:09:55.281Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 12455,
+        "topic_slug": "when-do-you-declare-x-targets",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 134123,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2015-02-28T12:00:18.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"AlexxKay\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/59ef9b/48.png\" class=\"avatar\"> AlexxKay:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Ronway wrote:</b><br><blockquote>AlexxKay wrote:<br><blockquote>&nbsp;Conversely, just checking whether the text includes the phrase \"up to\" is simple and easy.\n&nbsp;\n</blockquote>\nChecking to see if the phrase says highest/lowest/most is not equally easy?\n</blockquote></div>\nNot for me subjectively, since I find it unintuitive.&nbsp;\n<p>Not by objective complexity (measured in \"number of characters (or even words) needed to state the rule.</p>\n</blockquote>\n</aside>\n<p>What about \"with the\"?</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:09:55.349Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 12455,
+        "topic_slug": "when-do-you-declare-x-targets",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 134124,
+        "name": "AlexxKay",
+        "username": "AlexxKay",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+        "created_at": "2015-02-28T16:27:24.000Z",
+        "cooked": "<p>That seems workable.</p><p>Updating the damage dealing doc to have the following comments:</p><p>\"If the effect damages \"the N targets WITH THE (some condition)\", all the valid targets are chosen the first time we go through this step. The valid targets are *not* recalculated due to later side effects.\"</p><p>\"Conversely, if the effect damages multiple targets, but does NOT use the phrase \"WITH THE\", then you DO re-evaluate which are the valid targets every time you go through this step. For example, Taiaha can kill a Cultist, and then target the Zombie that is created in response.\"</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "updated_at": "2021-02-07T04:09:55.416Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 10,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 50.0,
+        "yours": false,
+        "topic_id": 12455,
+        "topic_slug": "when-do-you-declare-x-targets",
+        "display_username": "AlexxKay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6457,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 12455
+}

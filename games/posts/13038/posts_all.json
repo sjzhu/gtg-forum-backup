@@ -1,0 +1,430 @@
+{
+  "posts": [
+    {
+      "id": 13039,
+      "name": "gphpgl",
+      "username": "gphpgl",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/ba9def/{size}.png",
+      "created_at": "2015-05-21T07:41:00.000Z",
+      "cooked": "<p>When we play, we keep having talks about when certain effects trigger if they are based on \"deal damage\" or \"dealt damage\", so we like to know if we have overlooked a ruling.<br><br>Is a card considered to \"deal damage\", whenever it target a card with damage, no matter the actually effect?<br>Even if that damage is reduced to zero at the source (like \"Damage dealt -1\" on the source)?<br>Even if that damage is reduced to zero from global effects (like \"Damage dealt -1\"/\"Damage taken -1\" from other cards)?<br>Even if that damage is reduced to zero at the target (like \"Damage taken -1\" on the target)?<br>Even if the damage is redirected?<br>Even if the target is immune to the damage?<br><br>Is a card only considered to be \"dealt damage\", when it actually remove hp?<br>Or also when the card is immune the that damage?<br>Or also when the damage is reduced to zero?<br>Or also when the damage is redirected to another card?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:44:44.248Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 136,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 675.0,
+      "yours": false,
+      "topic_id": 13038,
+      "topic_slug": "deal-damage-and-dealt-damage",
+      "display_username": "gphpgl",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>When we play, we keep having talks about when certain effects trigger if they are based on &quot;deal damage&quot; or &quot;dealt damage&quot;, so we like to know if we have overlooked a ruling.<br /><br />Is a card considered to &quot;deal damage&quot;, whenever it target a card with damage, no matter the actually effect?<br />Even if that damage is reduced to zero at the source (like &quot;Damage dealt -1&quot; on the source)?<br />Even if that damage is reduced to zero from global effects (like &quot;Damage dealt -1&quot;/&quot;Damage taken -1&quot; from other cards)?<br />Even if that damage is reduced to zero at the target (like &quot;Damage taken -1&quot; on the target)?<br />Even if the damage is redirected?<br />Even if the target is immune to the damage?<br /><br />Is a card only considered to be &quot;dealt damage&quot;, when it actually remove hp?<br />Or also when the card is immune the that damage?<br />Or also when the damage is reduced to zero?<br />Or also when the damage is redirected to another card?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 12427,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2015-05-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 141818,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2015-05-21T11:26:09.000Z",
+      "cooked": "<p>A target is considered to deal damage whenever HP is reduced. So anytime the damage is reduced to 0 or the target is immune, they will not deal damage. If the damage is redirected, then they will deal damage to the new target unless it is reduced to 0 or they are immune.</p><p>Like \"deal damage\", HP must be removed to trigger any effects on being dealt damage. So immune or reduced to 0 would not have been dealt damage. And in this case, if damage is redirected if the initial target would not have been dealt damage, so none of their effect trigger. However if the new target has a \"dealt damage\" effect, that would work.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:18:59.267Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 13038,
+      "topic_slug": "deal-damage-and-dealt-damage",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>A target is considered to deal damage whenever HP is reduced. So anytime the damage is reduced to 0 or the target is immune, they will not deal damage. If the damage is redirected, then they will deal damage to the new target unless it is reduced to 0 or they are immune.</p><p>Like &quot;deal damage&quot;, HP must be removed to trigger any effects on being dealt damage. So immune or reduced to 0 would not have been dealt damage. And in this case, if damage is redirected if the initial target would not have been dealt damage, so none of their effect trigger. However if the new target has a &quot;dealt damage&quot; effect, that would work.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 141819,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2015-05-21T12:23:29.000Z",
+      "cooked": "<p>As a side note, if someone has an effect which goes off when they're dealt damage and their own damage is redirected to them, that effect will go off. So you can get Baron Blade to hit himself with his own Backlash Field if he tries to hit someone and you redirect that damage back to him :D.The Chairman and the Operative can be made to beat each other up as well, and will get Nemesis bonus for hitting each other, as any two characters who have the same symbol will always get Nemesis bonus against each other, regardless of whether or not they're supposed to be on the same side (the Ennead and the Sentinels can also do this, for example).</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:18:59.330Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13038,
+      "topic_slug": "deal-damage-and-dealt-damage",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>As a side note, if someone has an effect which goes off when they&#39;re dealt damage and their own damage is redirected to them, that effect will go off. So you can get Baron Blade to hit himself with his own Backlash Field if he tries to hit someone and you redirect that damage back to him :D.The Chairman and the Operative can be made to beat each other up as well, and will get Nemesis bonus for hitting each other, as any two characters who have the same symbol will always get Nemesis bonus against each other, regardless of whether or not they&#39;re supposed to be on the same side (the Ennead and the Sentinels can also do this, for example).</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 141820,
+      "name": "Amnachaidh",
+      "username": "Amnachaidh",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/ba8739/{size}.png",
+      "created_at": "2015-05-22T16:56:24.000Z",
+      "cooked": "<p>It is also worth noting that damage dealt is not limited to the available hit points. Hit points go negative with overkill. This can be very important for some characters like Absolute Zero and, per recent rule clarification, Mr. Fixer.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:18:59.393Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13038,
+      "topic_slug": "deal-damage-and-dealt-damage",
+      "display_username": "Amnachaidh",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It is also worth noting that damage dealt is not limited to the available hit points. Hit points go negative with overkill. This can be very important for some characters like Absolute Zero and, per recent rule clarification, Mr. Fixer.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3488,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 141821,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2015-05-22T19:21:42.000Z",
+      "cooked": "<p>Also Fanatic, for more fun with Fixed Point when you unleash a Wrathful Retribution for many many damages :D.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:18:59.471Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 13038,
+      "topic_slug": "deal-damage-and-dealt-damage",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Also Fanatic, for more fun with Fixed Point when you unleash a Wrathful Retribution for many many damages :D.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

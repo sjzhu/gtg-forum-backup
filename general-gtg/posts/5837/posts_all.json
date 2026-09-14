@@ -1,0 +1,2969 @@
+{
+  "posts": [
+    {
+      "id": 5838,
+      "name": "Tamar",
+      "username": "Tamar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/85f322/{size}.png",
+      "created_at": "2012-05-21T19:53:15.000Z",
+      "cooked": "<p>So, we all obviously have gaming in common as a thing we do for fun,  but that generally isn’t the ONLY thing we do. What other hobbies to people have? What weird and exciting things do you people do for fun?</p>\n<p>I dress up in funny clothes on the weekend and pretend I’m a 9th/10th century Khazar (<a href=\"http://www.sca.org\" rel=\"noopener nofollow ugc\">http://www.sca.org</a>)<br>\nI also sew for that, as well as modern clothing and costumes (<a href=\"http://tamarbatavraham.wordpress.com/\" rel=\"noopener nofollow ugc\">http://tamarbatavraham.wordpress.com/</a>)</p>\n<p>Who else does something cool? Surfing or water colors or raising chinchillas and dying them purple?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:35:36.557Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 15.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Tamar",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.sca.org",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "http://tamarbatavraham.wordpress.com/",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "So, we all obviously have gaming in common as a thing we do for fun,  but that generally isn't the ONLY thing we do. What other hobbies to people have? What weird and exciting things do you people do for fun?\n\nI dress up in funny clothes on the weekend and pretend I'm a 9th/10th century Khazar (http://www.sca.org)\nI also sew for that, as well as modern clothing and costumes (http://tamarbatavraham.wordpress.com/)\n\nWho else does something cool? Surfing or water colors or raising chinchillas and dying them purple?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31048,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2012-05-21T20:13:07.000Z",
+      "cooked": "<p>I like doing this:</p>\n<p><code>\nclass LegacyRingCard : LastingCard {\n    public override bool IsLimited { get { return true; } }\n    public override string[] Keywords { get { return new string[] {\"Equipment\"}; } }\n    public override bool PlayLastingCard() {\n        this.Player.PowerCount += 1;\n    }\n    public override Destroy() {\n        this.Player.PowerCount -= 1;\n    }\n}</code></p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:00.543Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I like doing this:\n\n[code]\nclass LegacyRingCard : LastingCard {\n    public override bool IsLimited { get { return true; } }\n    public override string[] Keywords { get { return new string[] {\"Equipment\"}; } }\n    public override bool PlayLastingCard() {\n        this.Player.PowerCount += 1;\n    }\n    public override Destroy() {\n        this.Player.PowerCount -= 1;\n    }\n}[/code]",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31050,
+      "name": "Tamar",
+      "username": "Tamar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/85f322/{size}.png",
+      "created_at": "2012-05-21T20:27:21.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;TheJayMann&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"TheJayMann\"\":</div>\n<blockquote>\n<p>I like doing this:</p>\n</blockquote>\n</aside>\n<p>I’m pretty sure you’re just using computer words now… o_O</p>\n<p>Coding is too much like learning a foreign language, which I’m terrible at, but I’m glad other people do it so I have things like games and the internets!</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:00.632Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Tamar",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"TheJayMann\"\"]\n\nI like doing this:\n\n[/quote]\n\n\nI'm pretty sure you're just using computer words now... o_O\n\nCoding is too much like learning a foreign language, which I'm terrible at, but I'm glad other people do it so I have things like games and the internets!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31051,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2012-05-21T20:33:08.000Z",
+      "cooked": "<p>I haven’t made anything new in a long time, but once upon a time I used to make WoW music videos for Jonathan Coulton (and other’s) songs: <a href=\"http://www.youtube.com/user/spiffworld?feature=mhee\" rel=\"noopener nofollow ugc\">http://www.youtube.com/user/spiffworld?feature=mhee</a>.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:00.732Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.youtube.com/user/spiffworld?feature=mhee",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I haven't made anything new in a long time, but once upon a time I used to make WoW music videos for Jonathan Coulton (and other's) songs: http://www.youtube.com/user/spiffworld?feature=mhee.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31053,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2012-05-21T21:22:56.000Z",
+      "cooked": "<p>SotM taking all your time, Spiff? <img src=\"//forums.greaterthangames.com/images/emoji/apple/wink.png?v=9\" title=\":wink:\" class=\"emoji\" alt=\":wink:\"></p>\n<p>I run a collection of role-playing games, most in what we affectionately refer to as AD&amp;D 2.7 (in a campaign world I’ve been running since 1984) and another in Pathfinder.</p>\n<p>Been having a strange urge to run Traveller, lately, though. I’m also planning a sequel to a game I ran a couple years ago using a customization of the Everway rules (diceless role-playing).</p>\n<p>I also volunteer for some local organizations. For example, I screen films for and work at <a href=\"http://www.trulymovingpictures.org/heartland-film-festival/\" data-bbcode=\"true\">the Heartland film festival</a> here in Indianapolis and I do some things for the Coalition for Homelessness Intervention and Prevention of Greater Indianapolis (<a href=\"http://www.chipindy.org/\" data-bbcode=\"true\">CHIP</a>) - when time allows.</p>\n<p>And, of course, helping out with Sentinels where I can.  ;D</p>\n<p>Just wish I had more time to do all these things…  :-\\</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:00.813Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.trulymovingpictures.org/heartland-film-festival/",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "http://www.chipindy.org/",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "SotM taking all your time, Spiff? ;)\n\nI run a collection of role-playing games, most in what we affectionately refer to as AD&D 2.7 (in a campaign world I've been running since 1984) and another in Pathfinder. \n\nBeen having a strange urge to run Traveller, lately, though. I'm also planning a sequel to a game I ran a couple years ago using a customization of the Everway rules (diceless role-playing). \n\nI also volunteer for some local organizations. For example, I screen films for and work at [url=http://www.trulymovingpictures.org/heartland-film-festival/]the Heartland film festival[/url] here in Indianapolis and I do some things for the Coalition for Homelessness Intervention and Prevention of Greater Indianapolis ([url=http://www.chipindy.org/]CHIP[/url]) - when time allows. \n\nAnd, of course, helping out with Sentinels where I can.  ;D\n\nJust wish I had more time to do all these things...  :-\\",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31055,
+      "name": "Beckyzoole",
+      "username": "Beckyzoole",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/beckyzoole/{size}/2657_2.png",
+      "created_at": "2012-05-21T21:36:28.000Z",
+      "cooked": "<p>I play Magic the Gathering. A lot. Also, I just knit a Mobius strip. Geek cred, I gots it.  8)</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:00.897Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Beckyzoole",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I play Magic the Gathering. A lot. Also, I just knit a Mobius strip. Geek cred, I gots it.  8)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 11,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31057,
+      "name": "Craig",
+      "username": "Craig",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/craig/{size}/2150_2.png",
+      "created_at": "2012-05-21T22:14:54.000Z",
+      "cooked": "<p>I train dogs, both professionally and in my free time. I also roleplay a lot. Add in my writing and that doesn’t leave much left over.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:00.971Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Craig",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I train dogs, both professionally and in my free time. I also roleplay a lot. Add in my writing and that doesn't leave much left over.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 346,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31058,
+      "name": "lugaru",
+      "username": "lugaru",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/lugaru/{size}/2767_2.png",
+      "created_at": "2012-05-21T23:14:57.000Z",
+      "cooked": "<p><a href=\"http://www.theconnoisseurs.com\" class=\"onebox\" target=\"_blank\" rel=\"noopener nofollow ugc\">http://www.theconnoisseurs.com</a></p>\n<p>I write reviews of craft beers, books, restaurants, films, etc. Also we engage in Iron Chef style battles. Let me know what you think, I just rebuilt the site.</p>\n<p>I also design tabletop games, although these days most of them never get past the word document. Designing games is like a sudoku puzzle for me… you have blank squares that you need to fit numbers, rules and ideas into.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.061Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "lugaru",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.theconnoisseurs.com",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "http://www.theconnoisseurs.com\n\nI write reviews of craft beers, books, restaurants, films, etc. Also we engage in Iron Chef style battles. Let me know what you think, I just rebuilt the site. \n\nI also design tabletop games, although these days most of them never get past the word document. Designing games is like a sudoku puzzle for me... you have blank squares that you need to fit numbers, rules and ideas into.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 328,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31059,
+      "name": "chwineka",
+      "username": "chwineka",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chwineka/{size}/34_2.png",
+      "created_at": "2012-05-21T23:35:21.000Z",
+      "cooked": "<p>I work in a game store where I’m exposed to more shiny objects than my wallet can sustain. It does give me a chance to pimp out great superhero card games to customers, though. <img src=\"//forums.greaterthangames.com/images/emoji/apple/smiley.png?v=9\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\"></p>\n<p>Beyond that? Uh… My friends and I gather each week from 6PM until around 2AM watching movies (usually bad horror movies) and making fun of them. If you dedicate one night a week to watching bad horror movies, the universe will succumb to heat death before you run out.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.146Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "chwineka",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I work in a game store where I'm exposed to more shiny objects than my wallet can sustain. It does give me a chance to pimp out great superhero card games to customers, though. :D\n\nBeyond that? Uh... My friends and I gather each week from 6PM until around 2AM watching movies (usually bad horror movies) and making fun of them. If you dedicate one night a week to watching bad horror movies, the universe will succumb to heat death before you run out.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 295,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-02-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31060,
+      "name": "Tamar",
+      "username": "Tamar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/85f322/{size}.png",
+      "created_at": "2012-05-22T02:55:48.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Spiff&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Spiff\"\":</div>\n<blockquote>\n<p>I haven’t made anything new in a long time, but once upon a time I used to make WoW music videos for Jonathan Coulton (and other’s) songs: <a href=\"http://www.youtube.com/user/spiffworld?feature=mhee\" rel=\"noopener nofollow ugc\">http://www.youtube.com/user/spiffworld?feature=mhee</a>.</p>\n</blockquote>\n</aside>\n<p>Hey, I actually remember watching some of those forever ago!  Very cool.  I’ve contemplated trying to do some fan vid stuff for various shows or movies, but I’ve been too lazy to figure out how to really go about it so far.</p>\n<aside class=\"quote no-group\" data-username=\"&quot;&quot;imprimis5&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"imprimis5\"\":</div>\n<blockquote>\n<p>I train dogs, both professionally and in my free time. I also roleplay a lot. Add in my writing and that doesn’t leave much left over.</p>\n</blockquote>\n</aside>\n<p>Any particular breed?</p>\n<aside class=\"quote no-group\" data-username=\"&quot;&quot;lugaru&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"lugaru\"\":</div>\n<blockquote>\n<p><a href=\"http://www.theconnoisseurs.com\" rel=\"noopener nofollow ugc\">http://www.theconnoisseurs.com</a><br>\nI write reviews of craft beers, books, restaurants, films, etc. Also we engage in Iron Chef style battles. Let me know what you think, I just rebuilt the site.</p>\n</blockquote>\n</aside>\n<p>That looks pretty cool.  I’m not a beer person, but I could eat that entire flourless chocolate cake <img src=\"https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\">  and I would like to high five whoever is doing the duckface on your front page</p>\n<aside class=\"quote no-group\" data-username=\"&quot;&quot;chwineka&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"chwineka\"\":</div>\n<blockquote>\n<p>I work in a game store where I’m exposed to more shiny objects than my wallet can sustain. It does give me a chance to pimp out great superhero card games to customers, though. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/smiley.png?v=12\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>Beyond that? Uh… My friends and I gather each week from 6PM until around 2AM watching movies (usually bad horror movies) and making fun of them. If you dedicate one night a week to watching bad horror movies, the universe will succumb to heat death before you run out.</p>\n</blockquote>\n</aside>\n<p>I’m not allowed to work in a Book store, fabric store, comic store or game store.  I would never bring money home from my paychecks if I did.<br>\nIf you guys haven’t checked out the movie <a href=\"http://www.imdb.com/title/tt0779982/\" data-bbcode=\"true\" rel=\"noopener nofollow ugc\">Black Sheep</a>, you are cheating yourselves out of a truly hilariously horrific viewing experience.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.241Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Tamar",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.imdb.com/title/tt0779982/",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"Spiff\"\"]\n\nI haven't made anything new in a long time, but once upon a time I used to make WoW music videos for Jonathan Coulton (and other's) songs: http://www.youtube.com/user/spiffworld?feature=mhee.\n\n[/quote]\n\n\nHey, I actually remember watching some of those forever ago!  Very cool.  I've contemplated trying to do some fan vid stuff for various shows or movies, but I've been too lazy to figure out how to really go about it so far.\n\n\n[quote=\"\"imprimis5\"\"]\n\nI train dogs, both professionally and in my free time. I also roleplay a lot. Add in my writing and that doesn't leave much left over.\n\n[/quote]\n\n\nAny particular breed?\n[quote=\"\"lugaru\"\"]\n\nhttp://www.theconnoisseurs.com\nI write reviews of craft beers, books, restaurants, films, etc. Also we engage in Iron Chef style battles. Let me know what you think, I just rebuilt the site. \n\n[/quote]\n\n\nThat looks pretty cool.  I'm not a beer person, but I could eat that entire flourless chocolate cake :P  and I would like to high five whoever is doing the duckface on your front page\n\n[quote=\"\"chwineka\"\"]\n\nI work in a game store where I'm exposed to more shiny objects than my wallet can sustain. It does give me a chance to pimp out great superhero card games to customers, though. :D\n\nBeyond that? Uh... My friends and I gather each week from 6PM until around 2AM watching movies (usually bad horror movies) and making fun of them. If you dedicate one night a week to watching bad horror movies, the universe will succumb to heat death before you run out.\n\n[/quote]\n\n\nI'm not allowed to work in a Book store, fabric store, comic store or game store.  I would never bring money home from my paychecks if I did.\nIf you guys haven't checked out the movie [url=http://www.imdb.com/title/tt0779982/]Black Sheep[/url], you are cheating yourselves out of a truly hilariously horrific viewing experience.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31062,
+      "name": "Craig",
+      "username": "Craig",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/craig/{size}/2150_2.png",
+      "created_at": "2012-05-22T03:42:27.000Z",
+      "cooked": "<p>Well, “my breed” is Siberian Husky. I’ve trained about everything by now, but I still specialise in sled dogs.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.352Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Craig",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Well, \"my breed\" is Siberian Husky. I've trained about everything by now, but I still specialise in sled dogs.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 346,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31063,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2012-05-22T04:28:23.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;imprimis5&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"imprimis5\"\":</div>\n<blockquote>\n<p>Well, “my breed” is Siberian Husky. I’ve trained about everything by now, but I still specialise in sled dogs.</p>\n</blockquote>\n</aside>\n<p>Easily the coolest thing I’ve read today, and it had decent competition, believe you me.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.426Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"imprimis5\"\"]\n\nWell, \"my breed\" is Siberian Husky. I've trained about everything by now, but I still specialise in sled dogs.\n\n[/quote]\n\n\nEasily the coolest thing I've read today, and it had decent competition, believe you me.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31064,
+      "name": "Craig",
+      "username": "Craig",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/craig/{size}/2150_2.png",
+      "created_at": "2012-05-22T04:40:46.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;arenson9&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"arenson9\"\":</div>\n<blockquote>\n<p>Easily the coolest thing I’ve read today, and it had decent competition, believe you me.</p>\n</blockquote>\n</aside>\n<p>Don’t get me started on dogs, friend. There’s more where that came from. I could talk your ear off just about Banshee, my husky puppy.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.503Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Craig",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"arenson9\"\"]\n\nEasily the coolest thing I've read today, and it had decent competition, believe you me.\n\n[/quote]\n\n\nDon't get me started on dogs, friend. There's more where that came from. I could talk your ear off just about Banshee, my husky puppy.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 346,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-18",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31065,
+      "name": "Tamar",
+      "username": "Tamar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/85f322/{size}.png",
+      "created_at": "2012-05-22T06:16:27.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;imprimis5&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"imprimis5\"\":</div>\n<blockquote>\n<p>Don’t get me started on dogs, friend. There’s more where that came from. I could talk your ear off just about Banshee, my husky puppy.</p>\n</blockquote>\n</aside>\n<p>Pics or it didn’t happen! <img src=\"https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nI grew up with Mastiffs and an Irish Wolfhound, so I’m a fan of big cuddly dogs.  Not so much a fan of the cold though, so I don’t know that I’d do so well with that part.</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.580Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Tamar",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"imprimis5\"\"]\n\nDon't get me started on dogs, friend. There's more where that came from. I could talk your ear off just about Banshee, my husky puppy.\n\n[/quote]\n\n\nPics or it didn't happen! :P\nI grew up with Mastiffs and an Irish Wolfhound, so I'm a fan of big cuddly dogs.  Not so much a fan of the cold though, so I don't know that I'd do so well with that part.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31067,
+      "name": "broccoli",
+      "username": "broccoli",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/broccoli/{size}/1861_2.png",
+      "created_at": "2012-05-22T06:27:39.000Z",
+      "cooked": "<p>I work as a Unix consultant, and as a result I script stuff for fun sometimes.  However, aside from an ever-growing board game collection, my most commonly performed hobbies are racquetball and rock climbing.  I recently moved to Austin, TX, so I expect to start climbing a lot more outdoors (previously, I climbed primarily at an indoor gym).</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.652Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "broccoli",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I work as a Unix consultant, and as a result I script stuff for fun sometimes.  However, aside from an ever-growing board game collection, my most commonly performed hobbies are racquetball and rock climbing.  I recently moved to Austin, TX, so I expect to start climbing a lot more outdoors (previously, I climbed primarily at an indoor gym).",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 233,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31068,
+      "name": "The Conscience",
+      "username": "The_Conscience",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/58956e/{size}.png",
+      "created_at": "2012-05-22T10:59:27.000Z",
+      "cooked": "<p>I design board and card games as well as play a wide variety of them (for research don’t ya know). I have the added advantage of working in a game store so I see all that is new and interesting. It’s not as hard as you might think to avoid spending all your money there. I also (guilty secret here) make custom dice bags.</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.717Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "The Conscience",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I design board and card games as well as play a wide variety of them (for research don't ya know). I have the added advantage of working in a game store so I see all that is new and interesting. It's not as hard as you might think to avoid spending all your money there. I also (guilty secret here) make custom dice bags.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 45,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31069,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2012-05-22T13:58:23.000Z",
+      "cooked": "<p>[quote=““The Conscience””]</p>\n<p>I also (guilty secret here) make custom dice bags.</p>\n<p>[/quote]</p>\n<p>What kind of dice bags?  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.789Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"The Conscience\"\"]\n\nI also (guilty secret here) make custom dice bags.\n\n[/quote]\n\n\nWhat kind of dice bags?  :)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31070,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2012-05-22T15:25:58.000Z",
+      "cooked": "<p>Wait just one minute there people, there are hobbies outside of gaming? I don’t believe any of it for a minute.</p>\n<p>In all honesty though I don’t really have any other hobby. Video Games are a fairly expensive budget and between rent, food, and a one and a half year old I don’t even have much money to spend on that. I do enjoy writing, but I have trouble actually sitting down and typing everything the way I want so I have given up on that. Though as a child I had notebooks full of stick people comics that I had drawn up, drawing makes storytelling so much easier though. Since I don’t have a very artistic touch (my stick folk could also use a major revamping) I ended up steering clear of that as well.</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.864Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Wait just one minute there people, there are hobbies outside of gaming? I don't believe any of it for a minute.\n\nIn all honesty though I don't really have any other hobby. Video Games are a fairly expensive budget and between rent, food, and a one and a half year old I don't even have much money to spend on that. I do enjoy writing, but I have trouble actually sitting down and typing everything the way I want so I have given up on that. Though as a child I had notebooks full of stick people comics that I had drawn up, drawing makes storytelling so much easier though. Since I don't have a very artistic touch (my stick folk could also use a major revamping) I ended up steering clear of that as well.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31072,
+      "name": "Singlog",
+      "username": "Singlog",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/singlog/{size}/2788_2.png",
+      "created_at": "2012-05-22T16:07:51.000Z",
+      "cooked": "<p>Well up until a few minutes ago my hobbies included studying and doing homework, but I finished my final highschool final a few minutes ago. My life no longer has purpose. I have been tossed into the void and know not which direction to turn.</p>\n<p>Oh wait…college.</p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:01.961Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Singlog",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Well up until a few minutes ago my hobbies included studying and doing homework, but I finished my final highschool final a few minutes ago. My life no longer has purpose. I have been tossed into the void and know not which direction to turn. \n\nOh wait...college.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 374,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31073,
+      "name": "lugaru",
+      "username": "lugaru",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/lugaru/{size}/2767_2.png",
+      "created_at": "2012-05-22T16:21:40.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Tamar&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Tamar\"\":</div>\n<blockquote>\n<p>Any particular breed?[quote=“lugaru”]<br>\n<a href=\"http://www.theconnoisseurs.com\" rel=\"noopener nofollow ugc\">http://www.theconnoisseurs.com</a><br>\nI write reviews of craft beers, books, restaurants, films, etc. Also we engage in Iron Chef style battles. Let me know what you think, I just rebuilt the site.</p>\n</blockquote>\n</aside>\n<p>That looks pretty cool.  I’m not a beer person, but I could eat that entire flourless chocolate cake <img src=\"https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\">  and I would like to high five whoever is doing the duckface on your front page<br>\n[/quote]</p>\n<p>lol thanks, in that pic my friends came out great so I took the hit.</p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.067Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "lugaru",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"Tamar\"\"]\n\nAny particular breed?[quote=\"lugaru\"]\nhttp://www.theconnoisseurs.com\nI write reviews of craft beers, books, restaurants, films, etc. Also we engage in Iron Chef style battles. Let me know what you think, I just rebuilt the site. \n\n[/quote]\n\n\nThat looks pretty cool.  I'm not a beer person, but I could eat that entire flourless chocolate cake :P  and I would like to high five whoever is doing the duckface on your front page\n[/quote]\n\nlol thanks, in that pic my friends came out great so I took the hit.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 328,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31075,
+      "name": "josul0215",
+      "username": "josul0215",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/josul0215/{size}/2621_2.png",
+      "created_at": "2012-05-22T16:23:04.000Z",
+      "cooked": "<p>I’m a full time student that works full time and writes short stories to publish in magazines. I also roleplay and play video games. What I don’t get to do is sleep. <img src=\"//forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=9\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\"></p>",
+      "post_number": 21,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.138Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "josul0215",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 319,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31076,
+      "name": "lugaru",
+      "username": "lugaru",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/lugaru/{size}/2767_2.png",
+      "created_at": "2012-05-22T16:41:27.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Ronway&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Ronway\"\":</div>\n<blockquote>\n<p>Wait just one minute there people, there are hobbies outside of gaming? I don’t believe any of it for a minute.</p>\n<p>In all honesty though I don’t really have any other hobby. Video Games are a fairly expensive budget and between rent, food, and a one and a half year old I don’t even have much money to spend on that.</p>\n</blockquote>\n</aside>\n<p>I’ve gotten really into indy games… they tend to be cheap and provide a lot of value. Minecraft is the obvious example, but right now I’m big on Project Zomboid. It is a cheap game, still in alfa but very playable, and you cant win. It actually says “this is the story of how you died” at the start. Each game is fairly unique… sometimes you will slowly go mad in an attic, running out of food, sometimes you will go down in a blaze of glory, killing dozens of zombies in a burning building.</p>",
+      "post_number": 22,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.216Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "lugaru",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 328,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31077,
+      "name": "WriterRyan",
+      "username": "WriterRyan",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/writerryan/{size}/2710_2.png",
+      "created_at": "2012-05-22T18:37:35.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Tamar&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Tamar\"\":</div>\n<blockquote>\n<p>Coding is too much like learning a foreign language, which I’m terrible at, but I’m glad other people do it so I have things like games and the internets!</p>\n</blockquote>\n</aside>\n<p>I’d go a step further and say that coding is like learning a foreign language, except if you screw up your grammar in a foreign language the person you’re talking to doesn’t just yell “WRONG” over and over again until you give up and walk away. (I dropped out of a CS major and then a CS minor when I realized I hated it.)</p>\n<p>I enjoy playing video games when I have the time, and I’ve discovered that I actually like doing home improvement projects. I also like reading, going to live concerts, and writing whenever the fancy takes me.</p>\n<p>By the way, lugaru, I like your site’s logo a lot.</p>",
+      "post_number": 23,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.316Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "WriterRyan",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-07-31",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31079,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2012-05-22T21:20:37.000Z",
+      "cooked": "<p>I used to be in an a cappella group: <a href=\"http://lagerrhythms.com\">http://lagerrhythms.com</a></p>\n<p>I used to help advise a youth group: <a href=\"http://www.nfty.org/ov/tygs/\">http://www.nfty.org/ov/tygs/</a></p>\n<p>I volunteer a bit at an organization that rescues food: <a href=\"http://www.secondhelpings.org/\">http://www.secondhelpings.org/</a></p>",
+      "post_number": 24,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.407Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://lagerrhythms.com",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "http://www.nfty.org/ov/tygs/",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        },
+        {
+          "url": "http://www.secondhelpings.org/",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31081,
+      "name": "The Conscience",
+      "username": "The_Conscience",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/58956e/{size}.png",
+      "created_at": "2012-05-22T21:55:45.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Rabit&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Rabit\"\":</div>\n<blockquote>\n<aside class=\"quote no-group\" data-username=\"The Conscience\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n The Conscience:</div>\n<blockquote>\n<p>I also (guilty secret here) make custom dice bags.</p>\n</blockquote>\n</aside>\n<p>What kind of dice bags?  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n</blockquote>\n</aside>\n<p>The kind one puts dice in. Seriously they are geared towards gamers (especially ones that have LOTS of dice, you know who you are.)</p>",
+      "post_number": 25,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.514Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "The Conscience",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 45,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31082,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2012-05-23T00:00:55.000Z",
+      "cooked": "<p>[quote=““The Conscience””]</p>\n<p>The kind one puts dice in. Seriously they are geared towards gamers (especially ones that have LOTS of dice, you know who you are.)</p>\n<p>[/quote]</p>\n<p>Sorry - I should have been more specific. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>What are they made of? Cloth, chain, leather, bubbles?</p>\n<p>And yes, I <span class=\"bbcode-b\">do</span> know how I am. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>(I’m looking for a new bag at Origins and GenCon, as my ~30-year-old Crown Royal bag finally started developing holes, so…)</p>",
+      "post_number": 26,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.598Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31083,
+      "name": "Tamar",
+      "username": "Tamar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/85f322/{size}.png",
+      "created_at": "2012-05-23T01:39:22.000Z",
+      "cooked": "<p>[quote=““The Conscience””]</p>\n<p>I also (guilty secret here) make custom dice bags.</p>\n<p>[/quote]</p>\n<p>Fun!  I’ve sewn a couple for friends and stuff, but I’ve never done them for sale or anything.  Our local game store back in Kansas city sold them from a local maker and I didn’t want to step on any toes by putting my stuff in there too.  Maybe I’ll check into that when I find out my preferred local game store.<br>\nAnd for all that I could make myself a cool bag, I’m using a chainmail one made by the hubby <img src=\"https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<aside class=\"quote no-group\" data-username=\"&quot;&quot;arenson9&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"arenson9\"\":</div>\n<blockquote>\n<p>I volunteer a bit at an organization that rescues food: <a href=\"http://www.secondhelpings.org/\" rel=\"noopener nofollow ugc\">http://www.secondhelpings.org/</a></p>\n</blockquote>\n</aside>\n<p>I immediately new what this meant, but it didn’t stop my brain from feeding me a picture of sad little sandwiches and bowls of pasta and stuff in animal shelter type cages.  <span class=\"hashtag-raw\">#MyBrainIsWeird</span></p>\n<aside class=\"quote no-group\" data-username=\"&quot;&quot;Rabit&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Rabit\"\":</div>\n<blockquote>\n<p>Sorry - I should have been more specific. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>What are they made of? Cloth, chain, leather, bubbles?</p>\n<p>(I’m looking for a new bag at Origins and GenCon, as my ~30-year-old Crown Royal bag finally started developing holes, so…)</p>\n</blockquote>\n</aside>\n<p>Ooh, bubbles!  I want a bubbles dice bag!</p>",
+      "post_number": 27,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.691Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Tamar",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31085,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2012-05-23T02:16:35.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Tamar&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Tamar\"\":</div>\n<blockquote>\n<p>Ooh, bubbles!  I want a bubbles dice bag!</p>\n</blockquote>\n</aside>\n<p>I know, right?! <img src=\"https://forums.greaterthangames.com/images/emoji/apple/smiley.png?v=12\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "post_number": 28,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.786Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31086,
+      "name": "Gnipp",
+      "username": "Gnipp",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/g/65b543/{size}.png",
+      "created_at": "2012-05-23T05:37:19.000Z",
+      "cooked": "<p>Hmm, hobbies other than gaming…</p>\n<p>I am always trying to find time to do more gaming.  Does that count?</p>\n<p>Between work and familytime(my 6 year old daughter plays SOTM with me sometimes -she likes Wraith) my actual gaming time is small.  So I’m constantly thinking of game stuff and reading rules(yes, I know I’m a geek).  I host a once a year weekend long invite only game convention at my house called SloCon that just recently ended so now I get to look forward to GenCon.</p>\n<p>And color me interested in the dice bag discussion as well.</p>",
+      "post_number": 29,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.869Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Gnipp",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 255,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-11-28",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31087,
+      "name": "The Conscience",
+      "username": "The_Conscience",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/58956e/{size}.png",
+      "created_at": "2012-05-23T11:33:19.000Z",
+      "cooked": "<p>I make the dice bags out of 100% cotton fabric that I find in fabric stores when the better half goes shopping for quilting stuff. I can post some pics later when I swing by the local shop where I have them for sale. Also I can do whatever fabric you would like as long as you provide the fabric in the pattern you desire.</p>",
+      "post_number": 30,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:02.956Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "The Conscience",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 45,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31088,
+      "name": "beevolant",
+      "username": "beevolant",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/b/8edcca/{size}.png",
+      "created_at": "2012-05-23T20:30:27.000Z",
+      "cooked": "<p>Like TamarBatAvraham, I am also in the SCA (<a href=\"http://www.sca.org\" rel=\"noopener nofollow ugc\">http://www.sca.org</a>) and I do a lot of administrative type stuff with that organization (I’m the recruitment and retention officer for the multi-state region and maintain the membership database). Being in the SCA leads to a lot of camping, crafting, and doing random awesome things like writing poems in medieval German.</p>\n<p>I also do some sewing, mostly medieval clothing for the SCA, though I am making an awesome quilted mobile of the solar system for the parasite I’m rocking right now. I recently took up metal working - jewelry stuff, some bronze casting, pierce work, that sort of thing. I also brew beer, mead, and other random stuff that sounds delicious.</p>\n<p>I’m currently playing in a pathfinder game too. Most of my time right now though has been going to the SCA and getting my life ready for a baby.</p>",
+      "post_number": 31,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:03.028Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "beevolant",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.sca.org",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 14,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31091,
+      "name": "Nilus",
+      "username": "Nilus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/nilus/{size}/2099_2.png",
+      "created_at": "2012-05-23T21:02:24.000Z",
+      "cooked": "<p>I use to be a video game/PC gamer but when I got to the point in career where I spend 50 to 60 hours a week looking at a computer screen I decided to give them up mostly.  Also use to role play a lot when I was younger but not so much in the last few years.</p>\n<p>My two current hobbies/jobs are</p>\n<ol>\n<li>\n<p>Being a Dad to a awesome 4 year old son.  He is not quite old enough for SOTM yet but this summer we plan to start expanding his Board game collection to include some more interesting game(Thinking of trying “That’s my Fish”)</p>\n</li>\n<li>\n<p>I am a Malifaux Henchman and playtester.   Malifaux is a skirmish level steampunk, horror, minature game with some really cool unique rules.   And a Henchman is what they call there demo team guys(Like a Press Ganger for Privateer Press, or an Outrider for Games workshop).  I have been doing that since the game was released in 2009.   Along with demoing the game I also run events.  I am the lead person in charge of all the Malifaux events at Adepticon and I have recently been asked and accepted the job to run all the Malifaux tournament events at Gencon this year.</p>\n</li>\n</ol>",
+      "post_number": 32,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:03.118Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Nilus",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 236,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-10-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31092,
+      "name": "Veet",
+      "username": "Veet",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/v/f05b48/{size}.png",
+      "created_at": "2012-05-24T02:14:10.000Z",
+      "cooked": "<p>I raise plants and children, and occasionally try as hard as I can to get lost in the woods (I always find my way back home though for some reason).</p>",
+      "post_number": 33,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:03.205Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Veet",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 93,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-14",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 31095,
+      "name": "Kaudrim",
+      "username": "Kaudrim",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/k/eb9ed0/{size}.png",
+      "created_at": "2012-05-24T04:16:21.000Z",
+      "cooked": "<p>I am an Avid reader, keep trying to write stuff, doesn’t usually work out.  I do write poetry, however ( you can find some <a href=\"http://allpoetry.com/master_dragon\" data-bbcode=\"true\" rel=\"noopener nofollow ugc\">here</a>.  Otherwise, I’m an avid gamer willing to try any game once.   Used to do SCA thinking about getting back into it.</p>",
+      "post_number": 34,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:05:03.267Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 5837,
+      "topic_slug": "other-hobbies",
+      "display_username": "Kaudrim",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://allpoetry.com/master_dragon",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 386,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "posts": [
+    {
+      "id": 7537,
+      "name": "DrScott",
+      "username": "DrScott",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/97f17d/{size}.png",
+      "created_at": "2013-03-31T14:57:28.000Z",
+      "cooked": "<p>I've been doing some mock plays with Mr. Fixer to see how he might work. &nbsp;I recently got both Pipe Wrench and Driving Mantis in my hand and it propmted a question about the verb \"deal\" and I'm going in circles with it. &nbsp;Pipe Wrench includes the line \"Reduce damage dealth to Mr. Fixer by 1.\" &nbsp;Driving Mantis: \"The first time each turn that Mr. Fixer would be <span class=\"bbcode-i\">dealt 2 or less damage</span> you may redirect that damage . . . \"</p>\n<p>My question boils down to does Driving Mantis kick in based on the damage dealt before the Pipe Wrench reduction, or does Driving Mantis kick in based on how much damage is actually dealt after the Pipe Wrench reduction. &nbsp;In other words, does \"dealt\" refer to what the villain sends out, or does \"dealt\" refer to what the hero will actually suffer? &nbsp; (So when considering this combo, does Mr. Fixer reduce an incoming attack of 2 to 1 and redirect only 1 damage, but take an attack of 3 since that exceeds the limit of Driving Mantis. &nbsp;Or, can he take an incoming attack of 3 once it's reduced to 2 and redirect that.)</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:37:51.039Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "DrScott",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I&#39;ve been doing some mock plays with Mr. Fixer to see how he might work. &nbsp;I recently got both Pipe Wrench and Driving Mantis in my hand and it propmted a question about the verb &quot;deal&quot; and I&#39;m going in circles with it. &nbsp;Pipe Wrench includes the line &quot;Reduce damage dealth to Mr. Fixer by 1.&quot; &nbsp;Driving Mantis: &quot;The first time each turn that Mr. Fixer would be [i]dealt 2 or less damage[/i] you may redirect that damage . . . &quot;\n\nMy question boils down to does Driving Mantis kick in based on the damage dealt before the Pipe Wrench reduction, or does Driving Mantis kick in based on how much damage is actually dealt after the Pipe Wrench reduction. &nbsp;In other words, does &quot;dealt&quot; refer to what the villain sends out, or does &quot;dealt&quot; refer to what the hero will actually suffer? &nbsp; (So when considering this combo, does Mr. Fixer reduce an incoming attack of 2 to 1 and redirect only 1 damage, but take an attack of 3 since that exceeds the limit of Driving Mantis. &nbsp;Or, can he take an incoming attack of 3 once it&#39;s reduced to 2 and redirect that.)\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4232,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57239,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2013-03-31T15:15:44.000Z",
+      "cooked": "<p>It would be after the reduction is added. So in a sense Fixer now would negate 1 damages while being able to redirect 2 or 3 damages. Since he would also be redirecting that damage it would no longer be reduced so it'll go back to it's original value to the new target.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:30.856Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It would be after the reduction is added. So in a sense Fixer now would negate 1 damages while being able to redirect 2 or 3 damages. Since he would also be redirecting that damage it would no longer be reduced so it&#39;ll go back to it&#39;s original value to the new target.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57240,
+      "name": "DrScott",
+      "username": "DrScott",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/97f17d/{size}.png",
+      "created_at": "2013-03-31T15:20:47.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>&nbsp;Since he would also be redirecting that damage it would no longer be reduced so it'll go back to it's original value to the new target.</p>\n</blockquote>\n</aside>\n<p>Hmmm, that seems too good to be true. &nbsp;I'm not saying you're wrong, but that kind of seems like having it both ways. &nbsp;Wouldn't he also redirect 1 damage attacks by the same logic?</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:30.923Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "DrScott",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Ronway\"]\n\n&nbsp;Since he would also be redirecting that damage it would no longer be reduced so it&#39;ll go back to it&#39;s original value to the new target.\n\n[/quote]\n\nHmmm, that seems too good to be true. &nbsp;I&#39;m not saying you&#39;re wrong, but that kind of seems like having it both ways. &nbsp;Wouldn&#39;t he also redirect 1 damage attacks by the same logic?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4232,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57241,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2013-03-31T15:28:00.000Z",
+      "cooked": "<p>He would not be dealt damage, as it would only be 0&nbsp;thus&nbsp;his HP would remain the same and not promting the Drivng Mantis.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:31.005Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>He would not be dealt damage, as it would only be 0&nbsp;thus&nbsp;his HP would remain the same and not promting the Drivng Mantis.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57242,
+      "name": "DrScott",
+      "username": "DrScott",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/97f17d/{size}.png",
+      "created_at": "2013-03-31T15:55:26.000Z",
+      "cooked": "<p>OK, so I think I'm starting to get it. &nbsp;Driving Mantis triggers based on the damage that MF would actually take after the Pipe Wrench modifier is applied, but what it redirects is based on the base damage.</p><p><span>This is actually quite a powerful combo in a four character game as a lot of villain, minion and environment damage is \"H-1.\"</span></p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:31.068Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "DrScott",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>OK, so I think I&#39;m starting to get it. &nbsp;Driving Mantis triggers based on the damage that MF would actually take after the Pipe Wrench modifier is applied, but what it redirects is based on the base damage.</p><p><span style=\"font-size: 13px;\">This is actually quite a powerful combo in a four character game as a lot of villain, minion and environment damage is &quot;H-1.&quot;</span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4232,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57243,
+      "name": "Sefirit",
+      "username": "Sefirit",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/s/e68b1a/{size}.png",
+      "created_at": "2013-03-31T16:26:02.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"DrScott\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/97f17d/48.png\" class=\"avatar\"> DrScott:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Ronway wrote:</b><br><blockquote>&nbsp;Since he would also be redirecting that damage it would no longer be reduced so it'll go back to it's original value to the new target.\n&nbsp;\n</blockquote></div>\nHmmm, that seems too good to be true. &nbsp;I'm not saying you're wrong, but that kind of seems like having it both ways. &nbsp;Wouldn't he also redirect 1 damage attacks by the same logic?\n</blockquote>\n</aside>\n<p>Remember that when damage is redirected you start the attack over from the original attacker to the new target and recalculate any bonuses/negatives so the pipe wrench reduction no longer counts.&nbsp;</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:31.147Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "Sefirit",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"DrScott\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>Ronway wrote:</b><br /><blockquote class=\"bb-quote-body\">&nbsp;Since he would also be redirecting that damage it would no longer be reduced so it&#39;ll go back to it&#39;s original value to the new target.\n&nbsp;\n</blockquote></div>\nHmmm, that seems too good to be true. &nbsp;I&#39;m not saying you&#39;re wrong, but that kind of seems like having it both ways. &nbsp;Wouldn&#39;t he also redirect 1 damage attacks by the same logic?\n\n[/quote]\n\nRemember that when damage is redirected you start the attack over from the original attacker to the new target and recalculate any bonuses/negatives so the pipe wrench reduction no longer counts.&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3727,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-02-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57244,
+      "name": "DrScott",
+      "username": "DrScott",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/97f17d/{size}.png",
+      "created_at": "2013-03-31T16:51:02.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Sefirit\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/s/e68b1a/48.png\" class=\"avatar\"> Sefirit:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>DrScott wrote:</b><br><blockquote>&nbsp;Ronway wrote:<br><blockquote>&nbsp;Since he would also be redirecting that damage it would no longer be reduced so it'll go back to it's original value to the new target.&nbsp;\n&nbsp;\n</blockquote>\nHmmm, that seems too good to be true. &nbsp;I'm not saying you're wrong, but that kind of seems like having it both ways. &nbsp;Wouldn't he also redirect 1 damage attacks by the same logic?\n</blockquote></div>\nRemember that when damage is redirected you start the attack over from the original attacker to the new target and recalculate any bonuses/negatives so the pipe wrench reduction no longer counts.&nbsp;\n</blockquote>\n</aside>\n<p>Now this whole thing makes more sense - if I'd actually read the glassary I'd have learned that \"Damage that is redirected does not affect the oringinal target. &nbsp;Instead, it affects the target to whom it is directed.\"</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:31.244Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "DrScott",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Sefirit\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>DrScott wrote:</b><br /><blockquote class=\"bb-quote-body\">&nbsp;Ronway wrote:<br /><blockquote class=\"bb-quote-body\">&nbsp;Since he would also be redirecting that damage it would no longer be reduced so it&#39;ll go back to it&#39;s original value to the new target.&nbsp;\n&nbsp;\n</blockquote>\nHmmm, that seems too good to be true. &nbsp;I&#39;m not saying you&#39;re wrong, but that kind of seems like having it both ways. &nbsp;Wouldn&#39;t he also redirect 1 damage attacks by the same logic?\n</blockquote></div>\nRemember that when damage is redirected you start the attack over from the original attacker to the new target and recalculate any bonuses/negatives so the pipe wrench reduction no longer counts.&nbsp;\n\n[/quote]\n\nNow this whole thing makes more sense - if I&#39;d actually read the glassary I&#39;d have learned that &quot;Damage that is redirected does not affect the oringinal target. &nbsp;Instead, it affects the target to whom it is directed.&quot;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4232,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57245,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2013-04-01T18:46:02.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>It would be after the reduction is added. So in a sense Fixer now would negate 1 damages while being able to redirect 2 or 3 damages. Since he would also be redirecting that damage it would no longer be reduced so it'll go back to it's original value to the new target.</p>\n</blockquote>\n</aside>\n<p>Technically, I believe the cannon answer is that it depends on the order the cards are played.</p>\n<p>&nbsp;</p>\n<p>Although I often will short-cut the analysis process by considering possible redirections after everything else, there's nothing in the rules that says to do so.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:31.317Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Ronway\"]\n\nIt would be after the reduction is added. So in a sense Fixer now would negate 1 damages while being able to redirect 2 or 3 damages. Since he would also be redirecting that damage it would no longer be reduced so it&#39;ll go back to it&#39;s original value to the new target.\n\n[/quote]\n\nTechnically, I believe the cannon answer is that it depends on the order the cards are played.\n\n&nbsp;\n\nAlthough I often will short-cut the analysis process by considering possible redirections after everything else, there&#39;s nothing in the rules that says to do so.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 57246,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2013-04-01T19:46:42.000Z",
+      "cooked": "<p>Personally I see damage reduction as something that is passive thus always in effect. Thus damage is always calculated to how much it will deal before&nbsp;it would actually deal damage, thus getting around the whole in the order of play. Order of play for things like this would just make it overly complicated, which isn't something I would really enjoy. If it would ever appear on a villian that would redirect a &lt;x amount I would do the same thing with them if they also were granted reduction.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:32:31.392Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 7536,
+      "topic_slug": "dealing-with-dealt",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Personally I see damage reduction as something that is passive thus always in effect. Thus damage is always calculated to how much it will deal before&nbsp;it would actually deal damage, thus getting around the whole in the order of play. Order of play for things like this would just make it overly complicated, which isn&#39;t something I would really enjoy. If it would ever appear on a villian that would redirect a &lt;x amount I would do the same thing with them if they also were granted reduction.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

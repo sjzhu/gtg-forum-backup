@@ -1,0 +1,2292 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 6111,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2012-07-27T05:25:23.000Z",
+        "cooked": "<p>I was bored, so I decided to create a formula to determine the exact number of unique scenarios that could be created with the heroes, villains, and environments we have as of Infernal Relics. These are, of course, including all promotional heroes and villains, but with the rules of 3-5 heroes, 1 villain, 1 environment, and no promotional hero played alongside their original counterpart. (no Legacy + young Legacy.) Also, normal and advanced mode are each counted, but half-on, half-off advanced mode is not, for simplicity’s sake.</p>\n<p>Accounting for the promos tripped me up a bit, but I have found what I believe to be the correct formula.</p>\n<p>2 * V * E * F(A)<br>\nF(A) = F(H) + F§<br>\nF(H) = (H * H-1 * H-2)^3 * (H-3)^2 * H-4<br>\nF§ = (P * H-1 * H-2)^3 * (H-3)^2 * H-4</p>\n<p>V = total villains (15)<br>\nE = environments (8)<br>\nH = non-promotional heroes (15)<br>\nP = Promotional heroes (4)<br>\n2 for normal and advanced mode.</p>\n<p>All of this adds up to a grand total of 7,881,570,393,000,000<br>\nThat’s over 7 QUADRILLION combinations of heroes, villains, environments, and difficulties.</p>\n<p>You should advertise that. That’s pretty impressive.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:35:57.374Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "I was bored, so I decided to create a formula to determine the exact number of unique scenarios that could be created with the heroes, villains, and environments we have as of Infernal Relics. These are, of course, including all promotional heroes and villains, but with the rules of 3-5 heroes, 1 villain, 1 environment, and no promotional hero played alongside their original counterpart. (no Legacy + young Legacy.) Also, normal and advanced mode are each counted, but half-on, half-off advanced mode is not, for simplicity's sake.\n\nAccounting for the promos tripped me up a bit, but I have found what I believe to be the correct formula.\n\n2 * V * E * F(A)\nF(A) = F(H) + F(P)\nF(H) = (H * H-1 * H-2)^3 * (H-3)^2 * H-4\nF(P) = (P * H-1 * H-2)^3 * (H-3)^2 * H-4\n\nV = total villains (15)\nE = environments (8)\nH = non-promotional heroes (15)\nP = Promotional heroes (4)\n2 for normal and advanced mode.\n\nAll of this adds up to a grand total of 7,881,570,393,000,000\nThat's over 7 QUADRILLION combinations of heroes, villains, environments, and difficulties. \n\nYou should advertise that. That's pretty impressive.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35596,
+        "name": "Riffian",
+        "username": "Riffian",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/ecae2f/{size}.png",
+        "created_at": "2012-07-27T08:34:41.000Z",
+        "cooked": "<p>I’ll admit you lost me at ‘maths’, but I tuned back in at OVER 7 QUADRILLION.<br>\nNot to mention the fact that, even with the exact same match-up, the cards you draw each time will likely be a very different set…</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.207Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "Riffian",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "I'll admit you lost me at 'maths', but I tuned back in at OVER 7 QUADRILLION. \nNot to mention the fact that, even with the exact same match-up, the cards you draw each time will likely be a very different set...",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 494,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35599,
+        "name": "beevolant",
+        "username": "beevolant",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/8edcca/{size}.png",
+        "created_at": "2012-07-27T14:53:05.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Riffian&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Riffian\"\":</div>\n<blockquote>\n<p>Not to mention the fact that, even with the exact same match-up, the cards you draw each time will likely be a very different set…</p>\n</blockquote>\n</aside>\n<p>And, given that some heros have more than one valid set of strategies to use in their decks… The number of completely unique feeling games is beyond imagination.</p>\n<p>And yet, we have some how gotten the T-Rex to finish the game for us multiple times <img src=\"https://forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=12\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.283Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "beevolant",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"\"Riffian\"\"]\n\nNot to mention the fact that, even with the exact same match-up, the cards you draw each time will likely be a very different set...\n\n[/quote]\n\n\nAnd, given that some heros have more than one valid set of strategies to use in their decks... The number of completely unique feeling games is beyond imagination. \n\nAnd yet, we have some how gotten the T-Rex to finish the game for us multiple times :P",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35600,
+        "name": "Craig",
+        "username": "Craig",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/craig/{size}/2150_2.png",
+        "created_at": "2012-07-27T14:55:50.000Z",
+        "cooked": "<p>We’ve crossed from actual numbers into batsh*t insane numbers. Might as well just say that you have better odds of being sent Dreamings from The Great Lord Cthulhu than playing the same game twice.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.358Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "Craig",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "We've crossed from actual numbers into batsh*t insane numbers. Might as well just say that you have better odds of being sent Dreamings from The Great Lord Cthulhu than playing the same game twice.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 346,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-18",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35601,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2012-07-27T15:04:01.000Z",
+        "cooked": "<p>I agree that the number of combinations of decks is vast and a great selling point, but I don’t follow your math.</p>\n<p>The total number of combinations equals the total number of ways to choose 3, 4, or 5 hero decks multiplied by the total number of villain decks multiplied by the total number of environment decks:</p>\n<blockquote>\n<p>NumCombos = NumHeroCombos * NumVillains * NumEnviros</p>\n</blockquote>\n<p>The total number of ways to choose 3, 4, or 5 hero decks equals the number of ways to choose 3 hero decks plus the number of ways to choose 4 hero decks plus the number of ways to choose 5 hero decks:</p>\n<blockquote>\n<p>NumHeroCombos = NumHeroCombos3 + NumHeroCombos4 + NumHeroCombos5</p>\n</blockquote>\n<p>If we were allowing two versions of the same hero (as in Finest Legacy and Newest Legacy) to be used at the same time, then the number of ways to choose 3 hero decks would simply be the combinations one can form from the number of total heroes, choosing three:</p>\n<blockquote>\n<p>NumHeroes = 19 (ten in base set, four in Rook City, four in Infernal Relics, Ambuscade, four promo heroes)</p>\n</blockquote>\n<blockquote>\n<p>RawHeroCombos3 = Combinations(NumHeroes, 3) = 19! / ((19-3)! * 3!) = 19 * 18 * 17 / 6 = 969</p>\n</blockquote>\n<p>But we are not allowing the use of a hero and his or her corresponding promo hero, so we need to subtract all of the instances when such a pair shows up in our combinations. In the case of choosing only three heroes, this is relatively simple, as we don’t have to worry about <span class=\"bbcode-b\">TWO</span> pairs of a hero and a corresponding promo showing up at the same time. For any given hero/promo pair there are are 17 ways for it to show up, because there’s a third hero on the team. Since there are four hero/promo pairs, then the number of teams of three heroes that have a promo pair, and thus need to be discarded, are:</p>\n<blockquote>\n<p>PromoCombos3 = 4 * Combinations((NumHeroes-2),1) = 4 * 17 = 68</p>\n</blockquote>\n<blockquote>\n<p>NumHeroCombos3 = RawHeroCombos3 - PromoCombos3 = 901</p>\n</blockquote>\n<p>For teams of four heroes, we again need to determine the raw number of teams and subtract the number of teams that have promo pairs in them, but we also need to consider that we could now have two different promo pairs in the same combination, so we need to be careful not to subtract that team twice from the total. Given that there are four possible promo pairs and that we would have two of them at a time, this is the combinations of four, choose two:</p>\n<blockquote>\n<p>RawHeroCombos4 = Combinations(NumHeroes,4) = 19! / ((19-4)! * 4!) = 3,876</p>\n</blockquote>\n<blockquote>\n<p>PromoCombos4 = 4 * Combinations((NumHeroes-2),2) = 4 * (17 * 16 / 2) = 544</p>\n</blockquote>\n<blockquote>\n<p>PromoPromoCombos4 = Combinations(4,2) = 6</p>\n</blockquote>\n<blockquote>\n<p>NumHeroCombos4 = RawHeroCombos4 - (PromoCombos4 - PromoPromoCombos4) = 3,338</p>\n</blockquote>\n<p>For teams of five heroes, when considering how many teams have multiple promo pairs, we have to keep in mind that with a fifth team member, there will be many more combinations that have two promo pairs. To account for this the number of combinations of promo pairs is multiplied by the total number of heroes minus four (which represents the four heroes that make up the two promo pairs):</p>\n<blockquote>\n<p>RawHeroCombos5  = Combinations(NumHeroes,5) = 19! / ((19-5!) * 5!) = 11,628</p>\n</blockquote>\n<blockquote>\n<p>PromoCombos5 = 4 * Combinations((NumHeroes-2,3) = 4 * (17 * 16 * 15 / 6) = 2,720</p>\n</blockquote>\n<blockquote>\n<p>PromoPromoCombos5 = Combinations(4,2) * 15 = 90</p>\n</blockquote>\n<blockquote>\n<p>NumHeroCombos5 = RawHeroCombos4 - (PromoCombos5 - PromoPromoCombos5) = 8,998</p>\n</blockquote>\n<p>Now we can add all of the ways to form three-hero, four-hero, or five-hero teams:</p>\n<blockquote>\n<p>NumHeroCombos = NumHeroCombos3 + NumHeroCombos4 + NumHeroCombos5 = 901 + 3,338 + 8,998 = 13,237</p>\n</blockquote>\n<p>And then we can multiple the number of hero combinations by the number of villain and environment decks:</p>\n<blockquote>\n<p>NumVillains = 13 (four in base set, four in Rook City, four in Infernal Relics, and Ambuscade)</p>\n</blockquote>\n<blockquote>\n<p>NumEnviros = 8 (four in base set, two in Rook City, two in Infernal Relics)</p>\n</blockquote>\n<blockquote>\n<p>NumCombos = NumHeroCombos * NumVillains * NumEnviros = 13,237 * 13 * 8 = 1,376,648</p>\n</blockquote>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.456Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "I agree that the number of combinations of decks is vast and a great selling point, but I don't follow your math.\n\nThe total number of combinations equals the total number of ways to choose 3, 4, or 5 hero decks multiplied by the total number of villain decks multiplied by the total number of environment decks:\n\n\n>  NumCombos = NumHeroCombos * NumVillains * NumEnviros\n\n\nThe total number of ways to choose 3, 4, or 5 hero decks equals the number of ways to choose 3 hero decks plus the number of ways to choose 4 hero decks plus the number of ways to choose 5 hero decks:\n\n\n>  NumHeroCombos = NumHeroCombos3 + NumHeroCombos4 + NumHeroCombos5\n\n\nIf we were allowing two versions of the same hero (as in Finest Legacy and Newest Legacy) to be used at the same time, then the number of ways to choose 3 hero decks would simply be the combinations one can form from the number of total heroes, choosing three:\n\n\n> NumHeroes = 19 (ten in base set, four in Rook City, four in Infernal Relics, Ambuscade, four promo heroes)\n\n\n\n>  RawHeroCombos3 = Combinations(NumHeroes, 3) = 19! / ((19-3)! * 3!) = 19 * 18 * 17 / 6 = 969\n\n\nBut we are not allowing the use of a hero and his or her corresponding promo hero, so we need to subtract all of the instances when such a pair shows up in our combinations. In the case of choosing only three heroes, this is relatively simple, as we don't have to worry about [b]TWO[/b] pairs of a hero and a corresponding promo showing up at the same time. For any given hero/promo pair there are are 17 ways for it to show up, because there's a third hero on the team. Since there are four hero/promo pairs, then the number of teams of three heroes that have a promo pair, and thus need to be discarded, are:\n\n\n>  PromoCombos3 = 4 * Combinations((NumHeroes-2),1) = 4 * 17 = 68\n\n\n>  NumHeroCombos3 = RawHeroCombos3 - PromoCombos3 = 901\n\n\nFor teams of four heroes, we again need to determine the raw number of teams and subtract the number of teams that have promo pairs in them, but we also need to consider that we could now have two different promo pairs in the same combination, so we need to be careful not to subtract that team twice from the total. Given that there are four possible promo pairs and that we would have two of them at a time, this is the combinations of four, choose two:\n\n\n>  RawHeroCombos4 = Combinations(NumHeroes,4) = 19! / ((19-4)! * 4!) = 3,876\n\n\n>  PromoCombos4 = 4 * Combinations((NumHeroes-2),2) = 4 * (17 * 16 / 2) = 544\n\n\n>  PromoPromoCombos4 = Combinations(4,2) = 6\n\n\n>  NumHeroCombos4 = RawHeroCombos4 - (PromoCombos4 - PromoPromoCombos4) = 3,338\n\n\nFor teams of five heroes, when considering how many teams have multiple promo pairs, we have to keep in mind that with a fifth team member, there will be many more combinations that have two promo pairs. To account for this the number of combinations of promo pairs is multiplied by the total number of heroes minus four (which represents the four heroes that make up the two promo pairs):\n\n\n> RawHeroCombos5  = Combinations(NumHeroes,5) = 19! / ((19-5!) * 5!) = 11,628\n\n\n> PromoCombos5 = 4 * Combinations((NumHeroes-2,3) = 4 * (17 * 16 * 15 / 6) = 2,720\n\n\n> PromoPromoCombos5 = Combinations(4,2) * 15 = 90\n\n\n> NumHeroCombos5 = RawHeroCombos4 - (PromoCombos5 - PromoPromoCombos5) = 8,998\n\n\nNow we can add all of the ways to form three-hero, four-hero, or five-hero teams:\n\n\n>  NumHeroCombos = NumHeroCombos3 + NumHeroCombos4 + NumHeroCombos5 = 901 + 3,338 + 8,998 = 13,237\n\n\nAnd then we can multiple the number of hero combinations by the number of villain and environment decks:\n\n\n> NumVillains = 13 (four in base set, four in Rook City, four in Infernal Relics, and Ambuscade)\n\n\n> NumEnviros = 8 (four in base set, two in Rook City, two in Infernal Relics)\n\n\n\n>  NumCombos = NumHeroCombos * NumVillains * NumEnviros = 13,237 * 13 * 8 = 1,376,648",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35602,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2012-07-27T15:51:04.000Z",
+        "cooked": "<p>… I multiplied the hero combinations. Dammit.</p>\n<p>So really, it’s 2 (because I’m counting advanced and not-advanced as separate things) * 15 (promotional villains, don’t forget) * 8 * ((3(15 * 14 * 13) + 24 + 11) + ((3(4 * 14 * 13) + 24 + 11)))</p>\n<p>I forgot to think. Or I overthought it. I don’t know.</p>\n<p>Anyway, my doing the promotional heroes was much less complex than yours. I just calculated the total number of NON-promotional heroes (15 * 14 * 13) + (15 * 14 ) 13 * 12) + ( 15 * 14 * 13 * 12 * 11)<br>\nand then added in the number of promotionals, but calculating them in the place of their normal heroes. (4 * 14 * 13) + (4 * 14 * 13 * 12) + (4 * 14 * 13 * 12 * 11).</p>\n<p>Anyway, I got</p>\n<p>2,506,560</p>\n<p>… so, apart from me using different numbers of villains, we got the same number.</p>\n<p>Hooray for correcting flawed equations!</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.575Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "... I multiplied the hero combinations. Dammit.\n\nSo really, it's 2 (because I'm counting advanced and not-advanced as separate things) * 15 (promotional villains, don't forget) * 8 * ((3(15 * 14 * 13) + 24 + 11) + ((3(4 * 14 * 13) + 24 + 11)))\n\nI forgot to think. Or I overthought it. I don't know.\n\nAnyway, my doing the promotional heroes was much less complex than yours. I just calculated the total number of NON-promotional heroes (15 * 14 * 13) + (15 * 14 ) 13 * 12) + ( 15 * 14 * 13 * 12 * 11)\nand then added in the number of promotionals, but calculating them in the place of their normal heroes. (4 * 14 * 13) + (4 * 14 * 13 * 12) + (4 * 14 * 13 * 12 * 11). \n\nAnyway, I got \n\n2,506,560\n\n... so, apart from me using different numbers of villains, we got the same number.\n\nHooray for correcting flawed equations!",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35603,
+        "name": "The_Densetsu",
+        "username": "The_Densetsu",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/ea666f/{size}.png",
+        "created_at": "2012-07-27T16:00:29.000Z",
+        "cooked": "<p>When I saw your first post, I was like  \" &gt;:(  Someone doesn’t get combinatorics!  &gt;:( \".</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.657Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "The_Densetsu",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "When I saw your first post, I was like  \" >:(  Someone doesn't get combinatorics!  >:( \".",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 349,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35605,
+        "name": "kirioni",
+        "username": "kirioni",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/k/5f9b8f/{size}.png",
+        "created_at": "2012-07-27T16:10:38.000Z",
+        "cooked": "<p>I personally loved how eight parenthesis became cool glasses guy <img src=\"//forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=9\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\"> Uhhh and the math was nice too <img src=\"//forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=9\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\"> I believe there is no limit to the experience(s) to be had and am satisfied with that.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.727Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "kirioni",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "I personally loved how eight parenthesis became cool glasses guy :) Uhhh and the math was nice too :) I believe there is no limit to the experience(s) to be had and am satisfied with that.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 412,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-17",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35606,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2012-07-27T16:21:00.000Z",
+        "cooked": "<p>Well, the last math class I took was College Algebra, my Junior year of high school, 3 years ago. So I am a bit rusty.</p>\n<p>I just kind of figured it out from scratch. I figured it out eventually though.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.811Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Well, the last math class I took was College Algebra, my Junior year of high school, 3 years ago. So I am a bit rusty.\n\nI just kind of figured it out from scratch. I figured it out eventually though.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35607,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2012-07-27T17:22:41.000Z",
+        "cooked": "<p>McBehrer, I think you need to consider combinations instead of permutations.</p>\n<p>For instance, just using the 15 non-promo heroes, when forming a team of 3 there aren’t (15 * 14 * 13) ways to do it. Why not? Imagine your first team is Legacy, AZ, Wraith and your second team is Wraith, AZ, Legacy. Those are two different permutations, but they are the same combination.</p>\n<p>I’m also not sure that the way you handled promotional heroes counts all of the combinations properly. How, for instance, do you count the situation when two different promo heroes are on the same team?</p>\n<p>Than you for pointing out the promo villains. I had, indeed, forgotten about those. My revised total is 1,588,440. Why, yes, I did create a spreadsheet for this.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.887Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "McBehrer, I think you need to consider combinations instead of permutations.\n\nFor instance, just using the 15 non-promo heroes, when forming a team of 3 there aren't (15 * 14 * 13) ways to do it. Why not? Imagine your first team is Legacy, AZ, Wraith and your second team is Wraith, AZ, Legacy. Those are two different permutations, but they are the same combination.\n\nI'm also not sure that the way you handled promotional heroes counts all of the combinations properly. How, for instance, do you count the situation when two different promo heroes are on the same team?\n\nThan you for pointing out the promo villains. I had, indeed, forgotten about those. My revised total is 1,588,440. Why, yes, I did create a spreadsheet for this.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35609,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2012-07-27T17:43:05.000Z",
+        "cooked": "<p>Thanks for starting this conversation, McBehrer! Interesting and entertaining stuff. <img src=\"//forums.greaterthangames.com/images/emoji/apple/smiley.png?v=9\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\"></p>\n<p>Have to agree with the earlier sentiments expressed:</p>\n<ul>\n<li>With all the possible deals, the permutations are impressively near-infinite[/<em>][</em>]The many different styles of decks creates very different experiences in each of those games[/<em>][</em>]There are things that are awesome about the game, such as using a T-Rex or a Kraken to the heroes’ advantage, that randomness allows to happen multiple times (although Wednesday’s two side-by-side games with three Kraken out each was a little sureal, but hilarious in that one won and one lost  ???) [/<em>][</em>]Having 8) turn into 8) is always humorous (to me <img src=\"//forums.greaterthangames.com/images/emoji/apple/wink.png?v=9\" title=\":wink:\" class=\"emoji\" alt=\":wink:\"> )[/<em>][</em>]I’m suddenly hoping to receive dreamings from the greatest of the Elder Gods…[list][/list][/*]</li>\n</ul>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:28.967Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Thanks for starting this conversation, McBehrer! Interesting and entertaining stuff. :D \n\nHave to agree with the earlier sentiments expressed: \n[list][*]With all the possible deals, the permutations are impressively near-infinite[/*][*]The many different styles of decks creates very different experiences in each of those games[/*][*]There are things that are awesome about the game, such as using a T-Rex or a Kraken to the heroes' advantage, that randomness allows to happen multiple times (although Wednesday's two side-by-side games with three Kraken out each was a little sureal, but hilarious in that one won and one lost  ???) [/*][*]Having 8) turn into 8) is always humorous (to me ;) )[/*][*]I'm suddenly hoping to receive dreamings from the greatest of the Elder Gods...[list][/list][/*][/list]",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35610,
+        "name": "Veet",
+        "username": "Veet",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/v/f05b48/{size}.png",
+        "created_at": "2012-07-28T02:16:16.000Z",
+        "cooked": "<p>Assuming about a half hour per game playing all those instances would take a little over 90 years of solid play.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:29.043Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "Veet",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Assuming about a half hour per game playing all those instances would take a little over 90 years of solid play.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 93,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35611,
+        "name": "McBehrer",
+        "username": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "created_at": "2012-07-28T05:01:53.000Z",
+        "cooked": "<p>hmm… I’ll have to think about it.<br>\nI don’t know how to do it the other way.  I just kind of came up with these off the top of my head.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:29.119Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "McBehrer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "hmm... I'll have to think about it.\nI don't know how to do it the other way.  I just kind of came up with these off the top of my head.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 409,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-14",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35612,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2012-11-13T08:35:50.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"arenson9\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png\" class=\"avatar\"> arenson9:</div>\n<blockquote>\n<p>My revised total is 1,588,440. Why, yes, I did create a spreadsheet for this.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>I shudder at the thought of accommodating the fact that there will be three different versions of The Wraith in the future, spreadsheet or no.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:29.188Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"arenson9\"]\n\nMy revised total is 1,588,440. Why, yes, I did create a spreadsheet for this.\n\n[/quote]\n\n&nbsp;\n\nI shudder at the thought of accommodating the fact that there will be three different versions of The Wraith in the future, spreadsheet or no.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35613,
+        "name": "beevolant",
+        "username": "beevolant",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/8edcca/{size}.png",
+        "created_at": "2012-11-13T22:21:55.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"arenson9\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/arenson9/48/1900_2.png\" class=\"avatar\"> arenson9:</div>\n<blockquote>\n<p>I shudder at the thought of accommodating the fact that there will be three different versions of The Wraith in the future, spreadsheet or no.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>There could even be more versions of The Wraith - we still haven't seen the comedy Adam-West-Style Wraith, I kind of want a goofy buddy match of The Wraith and Tachyon.&nbsp;</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:29.275Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "beevolant",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"arenson9\"]\n\nI shudder at the thought of accommodating the fact that there will be three different versions of The Wraith in the future, spreadsheet or no.\n\n[/quote]\n\n&nbsp;\n\nThere could even be more versions of The Wraith - we still haven&#39;t seen the comedy Adam-West-Style Wraith, I kind of want a goofy buddy match of The Wraith and Tachyon.&nbsp;\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35615,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2012-11-13T22:24:27.000Z",
+        "cooked": "<p>The Kevin Conroy style Wraith is the only true Wraith in my opinion, just like the Mark Hamill style Spite is the only true Spite to me.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:29.357Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>The Kevin Conroy style Wraith is the only true Wraith in my opinion, just like the Mark Hamill style Spite is the only true Spite to me.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35616,
+        "name": "AnachronismAxe",
+        "username": "AnachronismAxe",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/anachronismaxe/{size}/2163_2.png",
+        "created_at": "2012-11-13T22:37:46.000Z",
+        "cooked": "<p>The next expansion after Shattered Timelines is all about The Wraith. 2 new Wraith decks so you can have 5 DIFFERENT WRAITHS IN PLAY AT THE SAME TIME. Including the time she had all those spider arms, the alternate universe where she had her secret identity out in the open, the time she was mind controlled, and before she got amnesia the third and seventh times. THE VILLAINS ARE ALL EVIL ALTERNATE VERSIONS OF HER AND HER MANSION/LAIR WILL BE THE ENVIRONMENTS.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:29.435Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "AnachronismAxe",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>The next expansion after Shattered Timelines is all about The Wraith. 2 new Wraith decks so you can have 5 DIFFERENT WRAITHS IN PLAY AT THE SAME TIME. Including the time she had all those spider arms, the alternate universe where she had her secret identity out in the open, the time she was mind controlled, and before she got amnesia the third and seventh times. THE VILLAINS ARE ALL EVIL ALTERNATE VERSIONS OF HER AND HER MANSION/LAIR WILL BE THE ENVIRONMENTS.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 329,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35618,
+        "name": "EvanDan55",
+        "username": "EvanDan55",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/evandan55/{size}/2374_2.png",
+        "created_at": "2012-11-13T22:44:01.000Z",
+        "cooked": "<p>All cards in this expansion will just have art of Wraith doing Wraith-like things. No one else is allowed in the art, or story.</p><p>And what will this expansion be called?</p><p><em>Everybody Loves Maia</em>.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:29.508Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "EvanDan55",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>All cards in this expansion will just have art of Wraith doing Wraith-like things. No one else is allowed in the art, or story.</p><p>And what will this expansion be called?</p><p><em>Everybody Loves Maia</em>.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 287,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-01-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 35619,
+        "name": "Cosmonaut Zero",
+        "username": "Cosmonaut_Zero",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/cosmonaut_zero/{size}/2520_2.png",
+        "created_at": "2012-11-13T22:47:06.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"AnachronismAxe\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/anachronismaxe/48/2163_2.png\" class=\"avatar\"> AnachronismAxe:</div>\n<blockquote>\n<p>The next expansion after Shattered Timelines is all about The Wraith. 2 new Wraith decks so you can have 5 DIFFERENT WRAITHS IN PLAY AT THE SAME TIME. Including the time she had all those spider arms, the alternate universe where she had her secret identity out in the open, the time she was mind controlled, and before she got amnesia the third and seventh times. THE VILLAINS ARE ALL EVIL ALTERNATE VERSIONS OF HER AND HER MANSION/LAIR WILL BE THE ENVIRONMENTS.</p>\n</blockquote>\n</aside>\n<p>This follows from the philosophy that if everything is overpowered, then nothing is overpowered. Maybe the most plausible way I've heard to balance her deck yet. ;D</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:09:29.587Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6109,
+        "topic_slug": "so-i-did-some-maths",
+        "display_username": "Cosmonaut Zero",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"AnachronismAxe\"]\n\nThe next expansion after Shattered Timelines is all about The Wraith. 2 new Wraith decks so you can have 5 DIFFERENT WRAITHS IN PLAY AT THE SAME TIME. Including the time she had all those spider arms, the alternate universe where she had her secret identity out in the open, the time she was mind controlled, and before she got amnesia the third and seventh times. THE VILLAINS ARE ALL EVIL ALTERNATE VERSIONS OF HER AND HER MANSION/LAIR WILL BE THE ENVIRONMENTS.\n\n[/quote]\n\nThis follows from the philosophy that if everything is overpowered, then nothing is overpowered. Maybe the most plausible way I&#39;ve heard to balance her deck yet. ;D\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 673,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-09-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      6111,
+      35596,
+      35599,
+      35600,
+      35601,
+      35602,
+      35603,
+      35605,
+      35606,
+      35607,
+      35609,
+      35610,
+      35611,
+      35612,
+      35613,
+      35615,
+      35616,
+      35618,
+      35619
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      5160
+    ],
+    [
+      2,
+      5159
+    ],
+    [
+      14,
+      5050
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T18:25:00.468Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T18:25:00.468Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 57,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32274,
+      "title": "Is YouTube Premium worth it for watching long board game playthroughs and tutorials?",
+      "fancy_title": "Is YouTube Premium worth it for watching long board game playthroughs and tutorials?",
+      "slug": "is-youtube-premium-worth-it-for-watching-long-board-game-playthroughs-and-tutorials",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-04-19T19:36:58.355Z",
+      "last_posted_at": "2026-04-20T13:40:12.918Z",
+      "bumped": true,
+      "bumped_at": "2026-04-20T13:40:12.918Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 57,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 19125,
+            "username": "tahirmehmood",
+            "name": "Tahir Mehmood Khokhar",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/f08c70/{size}.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 32203,
+      "title": "The Jigsaw Puzzle",
+      "fancy_title": "The Jigsaw Puzzle",
+      "slug": "the-jigsaw-puzzle",
+      "posts_count": 5,
+      "reply_count": 1,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-03-08T14:15:45.778Z",
+      "last_posted_at": "2026-03-23T01:24:05.631Z",
+      "bumped": true,
+      "bumped_at": "2026-03-23T01:24:05.631Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 106,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 12225,
+            "username": "Mirado",
+            "name": "Mirado",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/m/958977/{size}.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 32384,
+      "title": "Order a replacement of a card",
+      "fancy_title": "Order a replacement of a card",
+      "slug": "order-a-replacement-of-a-card",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-06-26T21:15:19.098Z",
+      "last_posted_at": "2026-06-29T14:21:05.878Z",
+      "bumped": true,
+      "bumped_at": "2026-06-29T14:21:05.878Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 8,
+      "views": 100,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 19166,
+            "username": "tenoclock",
+            "name": null,
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/bcef8e/{size}.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32277,
+      "title": "Do you watch gameplay/tutorials for Sentinels or GTG games on YouTube, or prefer learning directly from the rulebook?",
+      "fancy_title": "Do you watch gameplay/tutorials for Sentinels or GTG games on YouTube, or prefer learning directly from the rulebook?",
+      "slug": "do-you-watch-gameplay-tutorials-for-sentinels-or-gtg-games-on-youtube-or-prefer-learning-directly-from-the-rulebook",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-04-21T12:24:22.227Z",
+      "last_posted_at": "2026-04-21T17:26:35.714Z",
+      "bumped": true,
+      "bumped_at": "2026-04-21T17:26:35.714Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 42,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 19125,
+            "username": "tahirmehmood",
+            "name": "Tahir Mehmood Khokhar",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/f08c70/{size}.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 6109,
+  "title": "So, I did some maths...",
+  "fancy_title": "So, I did some maths&hellip;",
+  "posts_count": 19,
+  "created_at": "2012-07-27T05:25:23.000Z",
+  "views": 1643,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2012-11-13T22:47:06.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "so-i-did-some-maths",
+  "category_id": 7,
+  "word_count": 1954,
+  "deleted_at": null,
+  "user_id": 409,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_6109",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 19,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 13,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 409,
+        "username": "McBehrer",
+        "name": "McBehrer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png",
+        "post_count": 4,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 18,
+        "username": "arenson9",
+        "name": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "post_count": 3,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "moderator": true,
+        "trust_level": 4
+      },
+      {
+        "id": 14,
+        "username": "beevolant",
+        "name": "beevolant",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/8edcca/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 93,
+        "username": "Veet",
+        "name": "Veet",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/v/f05b48/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 287,
+        "username": "EvanDan55",
+        "name": "EvanDan55",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/evandan55/{size}/2374_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 329,
+        "username": "AnachronismAxe",
+        "name": "AnachronismAxe",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/anachronismaxe/{size}/2163_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 346,
+        "username": "Craig",
+        "name": "Craig",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/craig/{size}/2150_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 349,
+        "username": "The_Densetsu",
+        "name": "The_Densetsu",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/ea666f/{size}.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 412,
+        "username": "kirioni",
+        "name": "kirioni",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/k/5f9b8f/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 494,
+        "username": "Riffian",
+        "name": "Riffian",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/ecae2f/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 673,
+        "username": "Cosmonaut_Zero",
+        "name": "Cosmonaut Zero",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/cosmonaut_zero/{size}/2520_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 17,
+        "username": "TheJayMann",
+        "name": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 20,
+        "username": "Rabit",
+        "name": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 409,
+      "username": "McBehrer",
+      "name": "McBehrer",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/mcbehrer/{size}/1850_2.png"
+    },
+    "last_poster": {
+      "id": 673,
+      "username": "Cosmonaut_Zero",
+      "name": "Cosmonaut Zero",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/cosmonaut_zero/{size}/2520_2.png"
+    }
+  },
+  "bookmarks": []
+}

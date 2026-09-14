@@ -1,0 +1,599 @@
+{
+  "posts": [
+    {
+      "id": 13809,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2015-10-26T22:50:31.000Z",
+      "cooked": "<p>Apologies if I've posted something like this before. Can't remember for sure and didn't find anything like it via a search.</p><p>&nbsp;</p><p>I thought it would be fun to share how I teach Sentinel Tactics and see if y'all think it can be improved. I'm always keen to teach games as quickly as possible. I know I get bored pretty quickly when learning a game, so prefer to jump in as much as possible. I've never reached a really satisfactory point with Sentinel Tactics, but it's at least not unbearably long.</p><p>&nbsp;</p><p>(EDIT: Whew. Just wrote this all out. It's so long I'm not sure I can bring myself to read through it again looking for typos.)</p><p>&nbsp;</p><p>The spiel:</p><p>The main things you need to know for this game are how to move and how to attack. I'm going to show you those, but first let me explain what's going on with the panel in front of you and your character's power cards.</p><p>&nbsp;</p><p>The number next to actions is how many actions you get on your turn. We'll talk more about those later. The number next to defense is how many defence dice you get to roll if you're attacked. We'll also talk more about that later. The number next to movement is how many movement dice you roll. There's also an arrow which tells you which ONE of those dice becomes your character's movement for the turn. Up? Highest. Down? Lowest. Sideways? The middle one. Go ahead and roll your movement and take the resulting die and put it on your panel next to Movement. Typically we roll the white dice for movement.</p><p>&nbsp;</p><p>Looking at the panel you'll see some Fist icons. These are things you can spend an action point on. Most of these are attacks, but not all. You can tell if it's an attack if it has a row of numbers next to it. For attack actions, the number before the die is how many attack dice you get to roll. In the row of numbers to the right of the die, the ones that AREN'T highlighted represent auto-misses. When rolling attacks, any auto-misses you roll don't count.</p><p>&nbsp;</p><p>Another icon you can see on your panel looks like of like pink energy bubbles. These represent abilities that are always in effect.</p><p>&nbsp;</p><p>If you look through your power cards, you'll see that they will give you other actions and abilities. Many of the actions will be attack actions, but not all of them. You also may see another icon, a plus sign that represents health. If you look at your panel you'll see a bunch of wound marks. You start the game with all of your wound marks covered up with health icons. If you lose all of your health icons, then you are incapacitated. You're not out of the game. You'll get to stand back up on your next turn. When incapacitated you put your power cards back in your hand and lose your movement. When you stand back up at the beginning of your next turn you replace your hit points and reroll your movement. You'll also get one power card, but more about that later.</p><p>Anyway, for the abilities that have a hit point marker next to them you don't have to use an action to use them, but you do have to sacrifice a hit point.</p><p>Looking at your cards, you may see that some of your cards say 'One Shot'. For those cards, if you use the ability on the card, then that card is placed to the &nbsp;side and no longer usable until after the next time you're incapacitated.</p><p>&nbsp;</p><p>Ok, let's learn how to move. The white circles on each hex on the board represent elevation. When moving from hex to hex at the same elevation, it simply costs one movement point to go to the next hex. So, Tachyon's movement is five and she starts here, then you can simply move her one, two, three, four, five hexes. If she wants to change elevation though, whether she's going up or down, it costs an extra movement point for each elevation changes. So, to move from here to here is one, three five. Likewise, in the opposite direction it's two, four, five. Note that you don't get to go move partially. If you don't have enough movement points to change elevation, you can't move there. So if she moves two, then four, she can't get to here because that would require her to have had six points, and she doesn't have them. Likewise, you can't save any movement points for next turn. You either use them this turn or they're lost.</p><p>One more thing about movement: Some characters have 'mobility'. If you have mobility you can ignore elevation changes when moving. Legacy has mobility, so if he has movement five e can simply move one, two, three, four, five across these hexes, ignoring the elevation.&nbsp;</p><p>Ok, that's movement. Let's talk about attacks. Looking at an attack ability, you've already seen that it shows you how many dice you roll and which results are considered auto-misses. So the way this works is that the attacker rolls their dice and removes auto-misses, then the defender rolls their dice to see if they can block the remaining attack dice. &nbsp;The attacker, though, also has to roll high enough to _REACH_ the defender. So the attacker rolls dice, removes auto-misses, then checks _RANGE_. So, imagine that Tachyon is using her base power to attack Legacy. Go ahead and roll some dice for that. We typically use red dice for the attacker. OK, Tachyon rolled 2,3, and 5. The 2 is an auto-miss, so set that aside. The 3 and 5 would normally make range, but in the interest of this example, pretend that 3 is a 1, ok? Ok, since it's a 1 and Tachyon is one, two, three hexes away, the one doesn't make range. Now, when checking range it is much like movement, in that you have to take elevation into account, BUT you don't have to go both up and down when checking range. Just look at the starting and ending elevations, count the hexes and add the difference in the elevation. So, between these two points instead of count three down, then one, then two up for a total of six range, it's really just three hexes over and one elevation down for a total of four range.</p><p>OK, back to our example. Tachyon rolled three dice, lost one to an auto-miss, and lost another one to not making range. She is threatening Legacy with a single '5'. Legacy now rolls defense dice. Ok, 1, 4, 6. Legacy can now choose, for each one of his defense dice, to defend against one of Tachyon's attacking dice. If he chooses the 1 or the 4 he fails to block Tachyon's die and takes a point of damage. He can choose the six, though, and block it. Imagine, though, that Tachyon was threatening him with a four and a five and Legacy rolled a 1, 2, and 6. That six could block either the four or the five, but none of Legacy's other dice could block anything, so Legacy would take one point of damage.</p><p>So that's the basics of attacking and defending, including auto-misses and checking range. We also have these various tokens. If you've acquired Attack+1 tokens, you can use as many of them as you like as part of your attack. You don't have to decide whether or not you're using them until after you've rolled your attack, and you can decide one at a time how many of them you want to use. Likewise, if you have Defense+1 tokens, you can use as many as you like after you roll your defense dice, and you can decide one at a time how many you want to use.</p><p>If you have one ore more Attack-1 tokens, however, you must use one AND ONLY one of them. You have to use one of them, but you can't use more than one, because you can't just get rid of them all in one intentionally bad attack. Likewise for the Defense-1 tokens. Also, if you ever have an Attack+1 and an Attack-1 token at the same time, they immediately cancel each other out and get put back in the supply. Same for Defense+1 and Defense-1 tokens.</p><p>Next, we'll talk about Aim and Dodge tokens. If you happen to have an Aim token, then you can declare you're using it _BEFORE_ you roll your attack dice. Then, after you get rid of auto-misses, any remaining dice become the value of whatever your highest remaining die is. There's an exception to this if you are attacking more than one target. In that case, the AIM only affects the first target. When attacking multiple targets with the same attack, you only roll the attack dice once, though each defender rolls their own defense dice.</p><p>Dodge works the same way as Aim. You have to say you're using it before you roll, then all your defense dice become the value of the highest defense die you rolled.</p><p>So, that's the tokens and how attacks work, but to make an attack you also need to have line of sight. There are two things that can affect line of sight: Cover and Elevation. First, elevation. In order to avoid a lot of complexity, there's a really simple rule for determinig whether or not the elevation of a hex blocks line of sight. This simple rule saves a lot of complexity, but does occassionally where the physics and angles might lead you to thinking you have line of sight when you don't. The simple rule is that there can't be an intervening hex that is taller than either the attacker or the defender. So, if you line up here and here you obviously have line of sight because it's all the same elevation. Here and here is no problem because there's nothing taller in-between the attacker and defender. What about here and here, though? It won't work because this '2' is taller than the defender's '1'. Even if you line up here and here, where it looks like it would be really easy for Tachyon at this elevation 3 hex to see over the elevation '2' hex and across all these other hexes, the '2' still blocks line of sight because it's higher than Legacy's hex. Line of sight works the same way whether you're going up or down. If I can see you, you can see me.</p><p>Well, that's true for elevation, but not true for cover. These green squares are cover. First of all, they block all line of sight. You can draw line of sight for anywhere on the attacker's hex to anywhere on the defender's hex. So if you're trying to attack from here to here, you can draw the line of sight from this corner to this corner. Cover hexes completely block line of &nbsp;sight, so you can never draw line of sight through a cover hex, no matter what its elevation is.</p><p>Unlike elevation, which is symmetric, cover is not. You can attack out of cover, but not in to cover, unless you are in the hex right next to it. So if The Wraith is in cover here and Bunker is over here, The Wraith can attack Bunker, but Bunker can't attack The Wraith. If Legacy, though, is in this hex next to The Wraith, they can both attack each other. Note, btw, the keyword melee on Legacy's attack. Any attack that is a melee attack can _ONLY_ hit targets that are in an adjacent hex. Keep in mind that just because a hex is adjacent, doesn't mean it is at range one. If Legacy is here and attack Tachyon here, the range is still four. Legacy can make the melee attack because he is adjacent, but the elevation change still affects range.</p><p>Speaking of range, note that there are some abilites that grant increased reach. Anything that gives you reach makes your range easier. So, if you have reach +3 and you would normally be at range four, you are now only at range 1, so it is easier for your attack dice to make range.</p><p>Alright, that covers attacks against a single target. There are also a couple different ways to attack multiple targets. Some attack abilities simply say they can be used against multiple targets. Some attacks have an origin and a range. These attacks hit a circle of hexes around an origin. The origin is where the attack initiates from and the range tells you how big of an area is targets. So, if you have origin four, range one, you can count up to four hexes away and say the attack starts there, then the attack will hit all targets within one hex. You determine the range based from the origin hex to each target.</p><p>Another area affect attack is a vertex attack. Vertex attacks have an origin, but not a range. You first determine an origin hex, then pick any one of the six vertices on that hex. The attack will then hit all three of the hexes on that vertex. Bunker is a good way to show these various effects. Here's an origin/range area affect and here's an example of it. Here's a vertex attack and an example of it.</p><p>Ok, phew. We've finally finished talking about attacking. Just a couple more things and we'll be ready to start. I need to show you what the phases in a turn are and how to use your actions.</p><p>On one side of this card are the four phases in each turn and on the other side are four actions that are always available to you.&nbsp;</p><p>The phases are really easy to understand. Virtually everything happens in here in phase three, Go, Time! The first phase, Power Up, is mostly just about deciding what powers you want to have in play. Your cards aren't a draw deck, but a hand of cards. You start the game with two powers in play. The maximum number of power cards you can have in play is two, except for a couple of characters that have exceptions. During Power Up you may pick up one power card back into your hand and you may play one power card. Note that you may not play the same power card immediatley after picking it up. Since some power cards have an effect when they're put in play, that keeps people from immediately getting the affect again each turn. If you start your turn incapacitated, after replacing your hit points and rerolling movement then you get to take your turn. You won't have any power cards in play yet, but you may play one at this point. So, one of the downsides of being incapacitated is that for a turn you only have one power card in play.</p><p>Another thing that happens during Power Up is that if you have any Aim or Dodge tokens you lose them. Attack+1/-1 and Defense+1/-1 tokens stick around until you use them, but Aim and Dodge tokens are only good until the beginning of your next turn. If you take an Aim or Dodge token, it's because you expect to use them or don't have anything else to do.</p><p>Ok, that's the Power Up phase. The second phase is called Surge. The only time anything ever happens during Surge is if you have the keyword Surge on your character panel or a power card in play. If you, then do the surge effects. Otherwise, don't do anything.&nbsp;</p><p>The third phase is where everything happes and we'll come back to that. The fourth phase, 'To be Continued' is pretty much just wrap up. One thing we haven't talked about yet are hazard spaces. Take a look at this volcano card. These volcano hexes are considered hazard spaces. If you move into a hazard hex during your turn, you are immediately attacked by the hazard. And you're attacked for every hazard in that hex, if there's more than one, and every time you walk into another hazard hex, even if that hazard is caused by the same source as a previous hazard hex. I mention this now because if you end your turn in a hazard hex, then you are also attacked. During 'To be Continued' you check for any hazards that are affecting you.</p><p>By the way, if you are attacked by two hazards, you get to choose the order in which they attack you. This is because any time the order of events needs to be decided by the players, it is up to the player who is currently taking a turn. Another place this comes into affect is when you are attacking multiple targets with the same attack.</p><p>After checking for hazard attacks you reroll movement, turn over your Turn Marker, and then the player with the next turn marker takes that turn. In a skirmish game each player will usually have one turn marker. In scenarios, whoever is playing the villain may have multiple turn markers, interleaves with the heroes' turn markers.</p><p>OK, back to Go, Time. During the Go, Time phase you can use as many actions as you have available to you, usually two or three, as it says on the character panel. You always have these four actions available to you. Aim and Dodge simply mean to take an Aim or Dodge token from the supply. Movement we've talked about. Sprint is a special kind of movement. It allows you to move any two hexes regardless of elevation. So, during Go, Time you have these four actions available to you plus whatever actions are on your panel and your power cards. Note, however, that you can't use the same action more than once in the same turn At least usually, sometimes a character will have one or more actions marked as unlimited, so they _could_ use the same action multiple times.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:45:43.323Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 15.2,
+      "yours": false,
+      "topic_id": 13806,
+      "topic_slug": "how-to-teach-sentinel-tactics",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Apologies if I&#39;ve posted something like this before. Can&#39;t remember for sure and didn&#39;t find anything like it via a search.</p><p>&nbsp;</p><p>I thought it would be fun to share how I teach Sentinel Tactics and see if y&#39;all think it can be improved. I&#39;m always keen to teach games as quickly as possible. I know I get bored pretty quickly when learning a game, so prefer to jump in as much as possible. I&#39;ve never reached a really satisfactory point with Sentinel Tactics, but it&#39;s at least not unbearably long.</p><p>&nbsp;</p><p>(EDIT: Whew. Just wrote this all out. It&#39;s so long I&#39;m not sure I can bring myself to read through it again looking for typos.)</p><p>&nbsp;</p><p>The spiel:</p><p>The main things you need to know for this game are how to move and how to attack. I&#39;m going to show you those, but first let me explain what&#39;s going on with the panel in front of you and your character&#39;s power cards.</p><p>&nbsp;</p><p>The number next to actions is how many actions you get on your turn. We&#39;ll talk more about those later. The number next to defense is how many defence dice you get to roll if you&#39;re attacked. We&#39;ll also talk more about that later. The number next to movement is how many movement dice you roll. There&#39;s also an arrow which tells you which ONE of those dice becomes your character&#39;s movement for the turn. Up? Highest. Down? Lowest. Sideways? The middle one. Go ahead and roll your movement and take the resulting die and put it on your panel next to Movement. Typically we roll the white dice for movement.</p><p>&nbsp;</p><p>Looking at the panel you&#39;ll see some Fist icons. These are things you can spend an action point on. Most of these are attacks, but not all. You can tell if it&#39;s an attack if it has a row of numbers next to it. For attack actions, the number before the die is how many attack dice you get to roll. In the row of numbers to the right of the die, the ones that AREN&#39;T highlighted represent auto-misses. When rolling attacks, any auto-misses you roll don&#39;t count.</p><p>&nbsp;</p><p>Another icon you can see on your panel looks like of like pink energy bubbles. These represent abilities that are always in effect.</p><p>&nbsp;</p><p>If you look through your power cards, you&#39;ll see that they will give you other actions and abilities. Many of the actions will be attack actions, but not all of them. You also may see another icon, a plus sign that represents health. If you look at your panel you&#39;ll see a bunch of wound marks. You start the game with all of your wound marks covered up with health icons. If you lose all of your health icons, then you are incapacitated. You&#39;re not out of the game. You&#39;ll get to stand back up on your next turn. When incapacitated you put your power cards back in your hand and lose your movement. When you stand back up at the beginning of your next turn you replace your hit points and reroll your movement. You&#39;ll also get one power card, but more about that later.</p><p>Anyway, for the abilities that have a hit point marker next to them you don&#39;t have to use an action to use them, but you do have to sacrifice a hit point.</p><p>Looking at your cards, you may see that some of your cards say &#39;One Shot&#39;. For those cards, if you use the ability on the card, then that card is placed to the &nbsp;side and no longer usable until after the next time you&#39;re incapacitated.</p><p>&nbsp;</p><p>Ok, let&#39;s learn how to move. The white circles on each hex on the board represent elevation. When moving from hex to hex at the same elevation, it simply costs one movement point to go to the next hex. So, Tachyon&#39;s movement is five and she starts here, then you can simply move her one, two, three, four, five hexes. If she wants to change elevation though, whether she&#39;s going up or down, it costs an extra movement point for each elevation changes. So, to move from here to here is one, three five. Likewise, in the opposite direction it&#39;s two, four, five. Note that you don&#39;t get to go move partially. If you don&#39;t have enough movement points to change elevation, you can&#39;t move there. So if she moves two, then four, she can&#39;t get to here because that would require her to have had six points, and she doesn&#39;t have them. Likewise, you can&#39;t save any movement points for next turn. You either use them this turn or they&#39;re lost.</p><p>One more thing about movement: Some characters have &#39;mobility&#39;. If you have mobility you can ignore elevation changes when moving. Legacy has mobility, so if he has movement five e can simply move one, two, three, four, five across these hexes, ignoring the elevation.&nbsp;</p><p>Ok, that&#39;s movement. Let&#39;s talk about attacks. Looking at an attack ability, you&#39;ve already seen that it shows you how many dice you roll and which results are considered auto-misses. So the way this works is that the attacker rolls their dice and removes auto-misses, then the defender rolls their dice to see if they can block the remaining attack dice. &nbsp;The attacker, though, also has to roll high enough to _REACH_ the defender. So the attacker rolls dice, removes auto-misses, then checks _RANGE_. So, imagine that Tachyon is using her base power to attack Legacy. Go ahead and roll some dice for that. We typically use red dice for the attacker. OK, Tachyon rolled 2,3, and 5. The 2 is an auto-miss, so set that aside. The 3 and 5 would normally make range, but in the interest of this example, pretend that 3 is a 1, ok? Ok, since it&#39;s a 1 and Tachyon is one, two, three hexes away, the one doesn&#39;t make range. Now, when checking range it is much like movement, in that you have to take elevation into account, BUT you don&#39;t have to go both up and down when checking range. Just look at the starting and ending elevations, count the hexes and add the difference in the elevation. So, between these two points instead of count three down, then one, then two up for a total of six range, it&#39;s really just three hexes over and one elevation down for a total of four range.</p><p>OK, back to our example. Tachyon rolled three dice, lost one to an auto-miss, and lost another one to not making range. She is threatening Legacy with a single &#39;5&#39;. Legacy now rolls defense dice. Ok, 1, 4, 6. Legacy can now choose, for each one of his defense dice, to defend against one of Tachyon&#39;s attacking dice. If he chooses the 1 or the 4 he fails to block Tachyon&#39;s die and takes a point of damage. He can choose the six, though, and block it. Imagine, though, that Tachyon was threatening him with a four and a five and Legacy rolled a 1, 2, and 6. That six could block either the four or the five, but none of Legacy&#39;s other dice could block anything, so Legacy would take one point of damage.</p><p>So that&#39;s the basics of attacking and defending, including auto-misses and checking range. We also have these various tokens. If you&#39;ve acquired Attack+1 tokens, you can use as many of them as you like as part of your attack. You don&#39;t have to decide whether or not you&#39;re using them until after you&#39;ve rolled your attack, and you can decide one at a time how many of them you want to use. Likewise, if you have Defense+1 tokens, you can use as many as you like after you roll your defense dice, and you can decide one at a time how many you want to use.</p><p>If you have one ore more Attack-1 tokens, however, you must use one AND ONLY one of them. You have to use one of them, but you can&#39;t use more than one, because you can&#39;t just get rid of them all in one intentionally bad attack. Likewise for the Defense-1 tokens. Also, if you ever have an Attack+1 and an Attack-1 token at the same time, they immediately cancel each other out and get put back in the supply. Same for Defense+1 and Defense-1 tokens.</p><p>Next, we&#39;ll talk about Aim and Dodge tokens. If you happen to have an Aim token, then you can declare you&#39;re using it _BEFORE_ you roll your attack dice. Then, after you get rid of auto-misses, any remaining dice become the value of whatever your highest remaining die is. There&#39;s an exception to this if you are attacking more than one target. In that case, the AIM only affects the first target. When attacking multiple targets with the same attack, you only roll the attack dice once, though each defender rolls their own defense dice.</p><p>Dodge works the same way as Aim. You have to say you&#39;re using it before you roll, then all your defense dice become the value of the highest defense die you rolled.</p><p>So, that&#39;s the tokens and how attacks work, but to make an attack you also need to have line of sight. There are two things that can affect line of sight: Cover and Elevation. First, elevation. In order to avoid a lot of complexity, there&#39;s a really simple rule for determinig whether or not the elevation of a hex blocks line of sight. This simple rule saves a lot of complexity, but does occassionally where the physics and angles might lead you to thinking you have line of sight when you don&#39;t. The simple rule is that there can&#39;t be an intervening hex that is taller than either the attacker or the defender. So, if you line up here and here you obviously have line of sight because it&#39;s all the same elevation. Here and here is no problem because there&#39;s nothing taller in-between the attacker and defender. What about here and here, though? It won&#39;t work because this &#39;2&#39; is taller than the defender&#39;s &#39;1&#39;. Even if you line up here and here, where it looks like it would be really easy for Tachyon at this elevation 3 hex to see over the elevation &#39;2&#39; hex and across all these other hexes, the &#39;2&#39; still blocks line of sight because it&#39;s higher than Legacy&#39;s hex. Line of sight works the same way whether you&#39;re going up or down. If I can see you, you can see me.</p><p>Well, that&#39;s true for elevation, but not true for cover. These green squares are cover. First of all, they block all line of sight. You can draw line of sight for anywhere on the attacker&#39;s hex to anywhere on the defender&#39;s hex. So if you&#39;re trying to attack from here to here, you can draw the line of sight from this corner to this corner. Cover hexes completely block line of &nbsp;sight, so you can never draw line of sight through a cover hex, no matter what its elevation is.</p><p>Unlike elevation, which is symmetric, cover is not. You can attack out of cover, but not in to cover, unless you are in the hex right next to it. So if The Wraith is in cover here and Bunker is over here, The Wraith can attack Bunker, but Bunker can&#39;t attack The Wraith. If Legacy, though, is in this hex next to The Wraith, they can both attack each other. Note, btw, the keyword melee on Legacy&#39;s attack. Any attack that is a melee attack can _ONLY_ hit targets that are in an adjacent hex. Keep in mind that just because a hex is adjacent, doesn&#39;t mean it is at range one. If Legacy is here and attack Tachyon here, the range is still four. Legacy can make the melee attack because he is adjacent, but the elevation change still affects range.</p><p>Speaking of range, note that there are some abilites that grant increased reach. Anything that gives you reach makes your range easier. So, if you have reach +3 and you would normally be at range four, you are now only at range 1, so it is easier for your attack dice to make range.</p><p>Alright, that covers attacks against a single target. There are also a couple different ways to attack multiple targets. Some attack abilities simply say they can be used against multiple targets. Some attacks have an origin and a range. These attacks hit a circle of hexes around an origin. The origin is where the attack initiates from and the range tells you how big of an area is targets. So, if you have origin four, range one, you can count up to four hexes away and say the attack starts there, then the attack will hit all targets within one hex. You determine the range based from the origin hex to each target.</p><p>Another area affect attack is a vertex attack. Vertex attacks have an origin, but not a range. You first determine an origin hex, then pick any one of the six vertices on that hex. The attack will then hit all three of the hexes on that vertex. Bunker is a good way to show these various effects. Here&#39;s an origin/range area affect and here&#39;s an example of it. Here&#39;s a vertex attack and an example of it.</p><p>Ok, phew. We&#39;ve finally finished talking about attacking. Just a couple more things and we&#39;ll be ready to start. I need to show you what the phases in a turn are and how to use your actions.</p><p>On one side of this card are the four phases in each turn and on the other side are four actions that are always available to you.&nbsp;</p><p>The phases are really easy to understand. Virtually everything happens in here in phase three, Go, Time! The first phase, Power Up, is mostly just about deciding what powers you want to have in play. Your cards aren&#39;t a draw deck, but a hand of cards. You start the game with two powers in play. The maximum number of power cards you can have in play is two, except for a couple of characters that have exceptions. During Power Up you may pick up one power card back into your hand and you may play one power card. Note that you may not play the same power card immediatley after picking it up. Since some power cards have an effect when they&#39;re put in play, that keeps people from immediately getting the affect again each turn. If you start your turn incapacitated, after replacing your hit points and rerolling movement then you get to take your turn. You won&#39;t have any power cards in play yet, but you may play one at this point. So, one of the downsides of being incapacitated is that for a turn you only have one power card in play.</p><p>Another thing that happens during Power Up is that if you have any Aim or Dodge tokens you lose them. Attack+1/-1 and Defense+1/-1 tokens stick around until you use them, but Aim and Dodge tokens are only good until the beginning of your next turn. If you take an Aim or Dodge token, it&#39;s because you expect to use them or don&#39;t have anything else to do.</p><p>Ok, that&#39;s the Power Up phase. The second phase is called Surge. The only time anything ever happens during Surge is if you have the keyword Surge on your character panel or a power card in play. If you, then do the surge effects. Otherwise, don&#39;t do anything.&nbsp;</p><p>The third phase is where everything happes and we&#39;ll come back to that. The fourth phase, &#39;To be Continued&#39; is pretty much just wrap up. One thing we haven&#39;t talked about yet are hazard spaces. Take a look at this volcano card. These volcano hexes are considered hazard spaces. If you move into a hazard hex during your turn, you are immediately attacked by the hazard. And you&#39;re attacked for every hazard in that hex, if there&#39;s more than one, and every time you walk into another hazard hex, even if that hazard is caused by the same source as a previous hazard hex. I mention this now because if you end your turn in a hazard hex, then you are also attacked. During &#39;To be Continued&#39; you check for any hazards that are affecting you.</p><p>By the way, if you are attacked by two hazards, you get to choose the order in which they attack you. This is because any time the order of events needs to be decided by the players, it is up to the player who is currently taking a turn. Another place this comes into affect is when you are attacking multiple targets with the same attack.</p><p>After checking for hazard attacks you reroll movement, turn over your Turn Marker, and then the player with the next turn marker takes that turn. In a skirmish game each player will usually have one turn marker. In scenarios, whoever is playing the villain may have multiple turn markers, interleaves with the heroes&#39; turn markers.</p><p>OK, back to Go, Time. During the Go, Time phase you can use as many actions as you have available to you, usually two or three, as it says on the character panel. You always have these four actions available to you. Aim and Dodge simply mean to take an Aim or Dodge token from the supply. Movement we&#39;ve talked about. Sprint is a special kind of movement. It allows you to move any two hexes regardless of elevation. So, during Go, Time you have these four actions available to you plus whatever actions are on your panel and your power cards. Note, however, that you can&#39;t use the same action more than once in the same turn At least usually, sometimes a character will have one or more actions marked as unlimited, so they _could_ use the same action multiple times.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 149893,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2015-10-26T23:05:52.000Z",
+      "cooked": "<p>Man, I always miss something and usully multiple things when I try to teach this:</p><p>&nbsp;</p><ul><li>Attacks don't hurt yoursel</li></ul><ul><li>Attack+1 tokens (etc.) add another die to the attack&nbsp;</li></ul><p>&nbsp;</p><p>What else did I miss?</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:28:26.960Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 13806,
+      "topic_slug": "how-to-teach-sentinel-tactics",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Man, I always miss something and usully multiple things when I try to teach this:</p><p>&nbsp;</p><ul><li>Attacks don&#39;t hurt yoursel</li></ul><ul><li>Attack+1 tokens (etc.) add another die to the attack&nbsp;</li></ul><p>&nbsp;</p><p>What else did I miss?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 149894,
+      "name": "dpt",
+      "username": "dpt",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+      "created_at": "2015-10-27T03:22:00.000Z",
+      "cooked": "<p>You don’t necessarily need to explain everything right off the bat. I would skip saying that attacks don’t hit yourself until it game up, for instance.</p>\n<p>I was surprised you delayed talking about Sprint like that. What’s your reasoning there?</p>\n<p>And why do you put a comma in “Go, Time”?</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:28:27.093Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 13806,
+      "topic_slug": "how-to-teach-sentinel-tactics",
+      "display_username": "dpt",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "You don't necessarily need to explain everything right off the bat. I would skip saying that attacks don't hit yourself until it game up, for instance.\r\n\r\nI was surprised you delayed talking about Sprint like that. What's your reasoning there?\r\n\r\nAnd why do you put a comma in \"Go, Time\"?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5124,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-08-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 149895,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2015-10-27T10:56:38.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>And why do you put a comma in \"Go, Time\"?</p>\n</blockquote>\n</aside>\n<p>Dramatic pause.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:28:27.320Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 13806,
+      "topic_slug": "how-to-teach-sentinel-tactics",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"dpt\"]\n\nAnd why do you put a comma in &quot;Go, Time&quot;?\n\n[/quote]\n\nDramatic pause.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 149896,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2015-10-27T15:48:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>You don't necessarily need to explain everything right off the bat. I would skip saying that attacks don't hit yourself until it game up, for instance.</p>\n</blockquote>\n</aside>\n<div>I'm not so sure. Perhaps I'm looking for too much out of someone's first game. I don't want them to feel like they're regularly being blindsided by rules they haven't heard yet. Your damage doesn't hurt you. Hazards go off at the end of the turn. Reach extends someone's range. When aiming you only get to aim at the first target. Origin/Radius attacks come from the Origin. I'm torn between wanting to jump in as soon as possible and not wanting to leave anything out. Haven't found a happy medium for me yet.&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div>\n<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>I was surprised you delayed talking about Sprint like that. What's your reasoning there?</p>\n</blockquote>\n</aside>\n<p>My spiel used to start with learning about movement and attacking, with the intuition that it would be most fun to jump right into learning how to move your pieces around and rolling some dice. In that context, I wanted to present movement and then present attacks without taking the brief jaunt to explain that there's also a separte type of movement called Sprinting. Not that introducing this third thing would be <em>SO</em> hard, but it interupted the flow I was envisioning. Since trying out, only recently, this spiel of starting with the character panels and power cards, I think you're right that it makes no sense to delay introducing Sprint.</p>\n<div>&nbsp;</div>\n<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>And why do you put a comma in \"Go, Time\"?</p>\n</blockquote>\n</aside>\n<p>Just laziness on my part in not looking up the proper name. I think I was thining of Unity's Go, Bots ability, but even for that I'm not sure there's a comma, come to think of it.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:28:27.390Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 13806,
+      "topic_slug": "how-to-teach-sentinel-tactics",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"dpt\"]\n\nYou don&#39;t necessarily need to explain everything right off the bat. I would skip saying that attacks don&#39;t hit yourself until it game up, for instance.\n\n[/quote]\n\n<div>I&#39;m not so sure. Perhaps I&#39;m looking for too much out of someone&#39;s first game. I don&#39;t want them to feel like they&#39;re regularly being blindsided by rules they haven&#39;t heard yet. Your damage doesn&#39;t hurt you. Hazards go off at the end of the turn. Reach extends someone&#39;s range. When aiming you only get to aim at the first target. Origin/Radius attacks come from the Origin. I&#39;m torn between wanting to jump in as soon as possible and not wanting to leave anything out. Haven&#39;t found a happy medium for me yet.&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div>\n\n[quote=\"dpt\"]\n\nI was surprised you delayed talking about Sprint like that. What&#39;s your reasoning there?\n\n[/quote]\n\nMy spiel used to start with learning about movement and attacking, with the intuition that it would be most fun to jump right into learning how to move your pieces around and rolling some dice. In that context, I wanted to present movement and then present attacks without taking the brief jaunt to explain that there&#39;s also a separte type of movement called Sprinting. Not that introducing this third thing would be _SO_ hard, but it interupted the flow I was envisioning. Since trying out, only recently, this spiel of starting with the character panels and power cards, I think you&#39;re right that it makes no sense to delay introducing Sprint.\n<div>&nbsp;</div>\n\n[quote=\"dpt\"]\n\nAnd why do you put a comma in &quot;Go, Time&quot;?\n\n[/quote]\n\nJust laziness on my part in not looking up the proper name. I think I was thining of Unity&#39;s Go, Bots ability, but even for that I&#39;m not sure there&#39;s a comma, come to think of it.\n\n&nbsp;\n\n&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 149897,
+      "name": "RySmith6",
+      "username": "RySmith6",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rysmith6/{size}/1852_2.png",
+      "created_at": "2016-05-11T00:05:08.000Z",
+      "cooked": "<p>We were able to demo at PAX East for 35+ people over 30 games or so, and we think we have a contribution to this! Our focus was much more of a push to garner interest and get playing quickly, as opposed to introducing a friend who you may have captive for a while; however, if you demo at a FLGS, this might help.</p><p>IF you have the resources, we highly suggest playing on the Citadel of the Sun map. This eliminates talking about elevation for movement, range, and LOS purposes, which, until someone has decided they like the game, is a whole separate dimension that they don't need to keep in mind. Doing this did get us a couple of questions over the days about how mobility and sprinting work, but most of those ended up being from the people who decided they loved the game by turn 4, and so we were able to plop a tile in front of them to help explain elevation, without breaking stride for everyone else.</p><p>We also scripted the teams, and neutered the hands for each character. We had Bunker and Ra running against Dawn and Baron Blade, and removed Turret Mode, External Combustion, Drawn to the Flame, Blazing Tornado, Devastating Aurora, Return with the Dawn, Displacing Teleporter and Maniacal Gloating. This meant we didn't have to teach Push until Overkill, and there is a good mix of different attacks amongst all four characters, without some of the more overwhelming characteristic turns for each of the players.</p><p>We intentionally wanted a 2v2, as most people approaching were in pairs or trios, which allowed us to have one of us play a team, if necessary, without having the long rounds of a 3v3 or the loss of team play of a 1v1. Again, this was intended to get people in, get them playing, and get dice rolling as soon as possible, so take our suggestion with a huge grain of salt. We had one group that came in with 6, so we accomodated them with a 3v3, and they all seemed to have a fun time.</p><p>In terms of teaching multiple people at once, we found it helpful to walk everyone through a turn, with the phases on the rules card, stopping during the \"Go Time\" to explain attacks(including auto-misses, range, and tokens) and movement.</p><p>Again, huge grain of salt, as we had two people sitting with the table at all times, and our goal was simply to make sure people would want to play again.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:28:27.461Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 13806,
+      "topic_slug": "how-to-teach-sentinel-tactics",
+      "display_username": "RySmith6",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>We were able to demo at PAX East for 35+ people over 30 games or so, and we think we have a contribution to this! Our focus was much more of a push to garner interest and get playing quickly, as opposed to introducing a friend who you may have captive for a while; however, if you demo at a FLGS, this might help.</p><p>IF you have the resources, we highly suggest playing on the Citadel of the Sun map. This eliminates talking about elevation for movement, range, and LOS purposes, which, until someone has decided they like the game, is a whole separate dimension that they don&#39;t need to keep in mind. Doing this did get us a couple of questions over the days about how mobility and sprinting work, but most of those ended up being from the people who decided they loved the game by turn 4, and so we were able to plop a tile in front of them to help explain elevation, without breaking stride for everyone else.</p><p>We also scripted the teams, and neutered the hands for each character. We had Bunker and Ra running against Dawn and Baron Blade, and removed Turret Mode, External Combustion, Drawn to the Flame, Blazing Tornado, Devastating Aurora, Return with the Dawn, Displacing Teleporter and Maniacal Gloating. This meant we didn&#39;t have to teach Push until Overkill, and there is a good mix of different attacks amongst all four characters, without some of the more overwhelming characteristic turns for each of the players.</p><p>We intentionally wanted a 2v2, as most people approaching were in pairs or trios, which allowed us to have one of us play a team, if necessary, without having the long rounds of a 3v3 or the loss of team play of a 1v1. Again, this was intended to get people in, get them playing, and get dice rolling as soon as possible, so take our suggestion with a huge grain of salt. We had one group that came in with 6, so we accomodated them with a 3v3, and they all seemed to have a fun time.</p><p>In terms of teaching multiple people at once, we found it helpful to walk everyone through a turn, with the phases on the rules card, stopping during the &quot;Go Time&quot; to explain attacks(including auto-misses, range, and tokens) and movement.</p><p>Again, huge grain of salt, as we had two people sitting with the table at all times, and our goal was simply to make sure people would want to play again.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5931,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-17",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 149898,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2016-05-11T14:45:58.000Z",
+      "cooked": "<p>This is fantastic. Really appreciate you sharing this. Lots of food for thought.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T04:28:27.532Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 13806,
+      "topic_slug": "how-to-teach-sentinel-tactics",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>This is fantastic. Really appreciate you sharing this. Lots of food for thought.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

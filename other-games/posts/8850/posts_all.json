@@ -1,0 +1,1797 @@
+{
+  "posts": [
+    {
+      "id": 8852,
+      "name": "StalkinPanda",
+      "username": "StalkinPanda",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/s/f1d935/{size}.png",
+      "created_at": "2013-10-15T23:21:43.000Z",
+      "cooked": "<p>Hey all, got the game recently and stumbled across a couple uncertainties while playing our last couple of games.</p><p>1. Some cards are destroyed when something happens in a round. Does this happen IMMEDIATELY when the event occurs or at the end of the round.</p><p>An example are the different devices that Omnitron plays that are discarded when Omnitron takes at least 7 damage in a round. Does this happen the moment he is dealt that 7 damage total or at the end of the environment turn in the round he is dealt at least 7 damage?</p><p>&nbsp;</p><p>2. 'Damage would be dealt' vs 'Damage Dealt'.</p><p>&nbsp; I'll use legacy to explain this one. 'Superhuman Durability' states that \"when legacy would be dealt 5 or more damage from a single source, reduce that damage by 3\". When Legacy has 'fortitude' in play (\"Reduce damage dealt to Legacy by 1\") and a source (would) deal him 5 damage, would 'Superhuman Durability' still trigger since he's only actually dealt 4 damage with fortitude.</p><p>&nbsp;</p><p>3. Damage Reduction + Absolute Zero</p><p>This is a follow-up to my previous question with a different hero.</p><p>Cryo Chamber (reduce fire damage dealt to absolute zero by 1) + Isothermic Transducer (whenever AZ is dealt fire damage, AZ deals 1 target that much cold damage) = When a source sends 5 fire damage to AZ, does he deal the full 5 cold damage to a target or only the 4 damage after the damage reduction by cryo chamber?</p><p>The same question for his inherent power (thermodynamics) which deals AZ 1 fire damage, which would be reduced to 0 with cryo chamber. Or is this situation different because he takes NO damage vs reduced damage?</p><p>&nbsp;</p><p>Thanks in advance!</p><p>&nbsp;</p><p><span>&nbsp;</span></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:39:28.939Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 15.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "StalkinPanda",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Hey all, got the game recently and stumbled across a couple uncertainties while playing our last couple of games.</p><p>1.<u> Some cards are destroyed when something happens in a round. Does this happen IMMEDIATELY when the event occurs or at the end of the round.</u></p><p>An example are the different devices that Omnitron plays that are discarded when Omnitron takes at least 7 damage in a round. Does this happen the moment he is dealt that 7 damage total or at the end of the environment turn in the round he is dealt at least 7 damage?</p><p>&nbsp;</p><p>2. <u>&#39;Damage would be dealt&#39; vs &#39;Damage Dealt&#39;.</u></p><p>&nbsp; I&#39;ll use legacy to explain this one. &#39;Superhuman Durability&#39; states that &quot;when legacy would be dealt 5 or more damage from a single source, reduce that damage by 3&quot;. When Legacy has &#39;fortitude&#39; in play (&quot;Reduce damage dealt to Legacy by 1&quot;) and a source (would) deal him 5 damage, would &#39;Superhuman Durability&#39; still trigger since he&#39;s only actually dealt 4 damage with fortitude.</p><p>&nbsp;</p><p>3. <u>Damage Reduction + Absolute Zero</u></p><p>This is a follow-up to my previous question with a different hero.</p><p>Cryo Chamber (reduce fire damage dealt to absolute zero by 1) + Isothermic Transducer (whenever AZ is dealt fire damage, AZ deals 1 target that much cold damage) = When a source sends 5 fire damage to AZ, does he deal the full 5 cold damage to a target or only the 4 damage after the damage reduction by cryo chamber?</p><p>The same question for his inherent power (thermodynamics) which deals AZ 1 fire damage, which would be reduced to 0 with cryo chamber. Or is this situation different because he takes NO damage vs reduced damage?</p><p>&nbsp;</p><p>Thanks in advance!</p><p>&nbsp;</p><p><span style=\"font-size: 13px;\">&nbsp;</span></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5913,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77280,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2013-10-15T23:37:24.000Z",
+      "cooked": "<ol>\n<li>it happens immediately.</li>\n<li>the cards are applied in the order they came into play. The difference in wording doesn’t matter.</li>\n<li>damage dealt is the amount of hp lost. If no hp is lost, there was no damage dealt.</li>\n</ol>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:14.462Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "1) it happens immediately. \r\n2) the cards are applied in the order they came into play. The difference in wording doesn't matter.\r\n3) damage dealt is the amount of hp lost. If no hp is lost, there was no damage dealt.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77281,
+      "name": "Donner",
+      "username": "Donner",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/donner/{size}/1903_2.png",
+      "created_at": "2013-10-15T23:39:50.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"StalkinPanda\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/s/f1d935/48.png\" class=\"avatar\"> StalkinPanda:</div>\n<blockquote>\n<p>Hey all, got the game recently and stumbled across a couple uncertainties while playing our last couple of games.1. Some cards are destroyed when something happens in a round. Does this happen IMMEDIATELY when the event occurs or at the end of the round.An example are the different devices that Omnitron plays that are discarded when Omnitron takes at least 7 damage in a round. Does this happen the moment he is dealt that 7 damage total or at the end of the environment turn in the round he is dealt at least 7 damage?&nbsp;2. 'Damage would be dealt' vs 'Damage Dealt'.&nbsp; I'll use legacy to explain this one. 'Superhuman Durability' states that \"when legacy would be dealt 5 or more damage from a single source, reduce that damage by 3\". When Legacy has 'fortitude' in play (\"Reduce damage dealt to Legacy by 1\") and a source (would) deal him 5 damage, would 'Superhuman Durability' still trigger since he's only actually dealt 4 damage with fortitude.&nbsp;3. Damage Reduction + Absolute ZeroThis is a follow-up to my previous question with a different hero.Cryo Chamber (reduce fire damage dealt to absolute zero by 1) + Isothermic Transducer (whenever AZ is dealt fire damage, AZ deals 1 target that much cold damage) = When a source sends 5 fire damage to AZ, does he deal the full 5 cold damage to a target or only the 4 damage after the damage reduction by cryo chamber?The same question for his inherent power (thermodynamics) which deals AZ 1 fire damage, which would be reduced to 0 with cryo chamber. Or is this situation different because he takes NO damage vs reduced damage?&nbsp;Thanks in advance!&nbsp;&nbsp;</p>\n</blockquote>\n</aside>\n<ol>\n<li>&nbsp;They are destroyed immediately.</li>\n</ol>\n<p>&nbsp;</p>\n<ol start=\"2\">\n<li>&nbsp;This is a can of worms. &nbsp;I play that I can decide the order and reduce by 3 first then by 1. &nbsp;But this has ignited its own thread before.</li>\n</ol>\n<p>&nbsp;</p>\n<ol start=\"3\">\n<li>&nbsp;AZ only deals damage for damage he actually took or healed from. &nbsp;If it is reduced, he didn't take the part that was reduced out, so he can't deal it. &nbsp;Redirection, however, is a bit trickier. &nbsp;See Mr. Fixer with the Pipe Wrench and Driving Mantis. &nbsp;May also lead to question 2's can of worms.</li>\n</ol>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:14.550Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Donner",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"StalkinPanda\"]\n\nHey all, got the game recently and stumbled across a couple uncertainties while playing our last couple of games.1. Some cards are destroyed when something happens in a round. Does this happen IMMEDIATELY when the event occurs or at the end of the round.An example are the different devices that Omnitron plays that are discarded when Omnitron takes at least 7 damage in a round. Does this happen the moment he is dealt that 7 damage total or at the end of the environment turn in the round he is dealt at least 7 damage?&nbsp;2. &#39;Damage would be dealt&#39; vs &#39;Damage Dealt&#39;.&nbsp; I&#39;ll use legacy to explain this one. &#39;Superhuman Durability&#39; states that &quot;when legacy would be dealt 5 or more damage from a single source, reduce that damage by 3&quot;. When Legacy has &#39;fortitude&#39; in play (&quot;Reduce damage dealt to Legacy by 1&quot;) and a source (would) deal him 5 damage, would &#39;Superhuman Durability&#39; still trigger since he&#39;s only actually dealt 4 damage with fortitude.&nbsp;3. Damage Reduction + Absolute ZeroThis is a follow-up to my previous question with a different hero.Cryo Chamber (reduce fire damage dealt to absolute zero by 1) + Isothermic Transducer (whenever AZ is dealt fire damage, AZ deals 1 target that much cold damage) = When a source sends 5 fire damage to AZ, does he deal the full 5 cold damage to a target or only the 4 damage after the damage reduction by cryo chamber?The same question for his inherent power (thermodynamics) which deals AZ 1 fire damage, which would be reduced to 0 with cryo chamber. Or is this situation different because he takes NO damage vs reduced damage?&nbsp;Thanks in advance!&nbsp;&nbsp;\n\n[/quote]\n\n1. &nbsp;They are destroyed immediately.\n\n&nbsp;\n\n2. &nbsp;This is a can of worms. &nbsp;I play that I can decide the order and reduce by 3 first then by 1. &nbsp;But this has ignited its own thread before.\n\n&nbsp;\n\n3. &nbsp;AZ only deals damage for damage he actually took or healed from. &nbsp;If it is reduced, he didn&#39;t take the part that was reduced out, so he can&#39;t deal it. &nbsp;Redirection, however, is a bit trickier. &nbsp;See Mr. Fixer with the Pipe Wrench and Driving Mantis. &nbsp;May also lead to question 2&#39;s can of worms.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4238,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-03-29",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77282,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-10-16T01:03:20.000Z",
+      "cooked": "<p>2. Alternative take. They are not truly simultaneous effecs, so even after checking SHD, fortitude would bump the instance of damage out of SHDs trigger range. Fortitude is also a static effect compared to SHD being a triggered effect. Boils down to card order doesn't change the outcome. The forum is generally split on topic.&nbsp;</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:14.674Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>2. Alternative take. They are not truly simultaneous effecs, so even after checking SHD, fortitude would bump the instance of damage out of SHDs trigger range. Fortitude is also a static effect compared to SHD being a triggered effect. Boils down to card order doesn&#39;t change the outcome. The forum is generally split on topic.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77283,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2013-10-16T01:15:00.000Z",
+      "cooked": "<p>Is SHD a triggered effect? &nbsp;I would argue they are both static.</p><p>Stalkin Panda: &nbsp;The other two questions resolve as Pydro and donner explained, #2 is a can of worms. &nbsp;I play it that the players decide, because it is not a case of multiple card effects being triggered (static effects aren't triggered) and the timing is ambiguous. &nbsp;So I'd apply the rule that when timing is ambiguous on effects players decide the order.</p><p>I do the same with redirection and reduction, because a triggered and static effect have ambiguous timing interaction. &nbsp;That rarely is a difficult situation though.</p><p>You will easily get four or five interpretations though, you'll ahve to pick the one that works best for you and your group and go with it.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:14.753Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Is SHD a triggered effect? &nbsp;I would argue they are both static.</p><p>Stalkin Panda: &nbsp;The other two questions resolve as Pydro and donner explained, #2 is a can of worms. &nbsp;I play it that the players decide, because it is not a case of multiple card effects being triggered (static effects aren&#39;t triggered) and the timing is ambiguous. &nbsp;So I&#39;d apply the rule that when timing is ambiguous on effects players decide the order.</p><p>I do the same with redirection and reduction, because a triggered and static effect have ambiguous timing interaction. &nbsp;That rarely is a difficult situation though.</p><p>You will easily get four or five interpretations though, you&#39;ll ahve to pick the one that works best for you and your group and go with it.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77284,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-10-16T01:31:00.000Z",
+      "cooked": "<p>Triggered effects are conveyed through if/then statements. If trigger, then effect.</p><p>SHD fits that sentence structure perfectly. When he could be dealt damage of 5 or more is the explicit trigger condition for the effect of reducing it by 3</p><p>Fortitude is only laid out as a single effect clause. When do you reduce damage dealt to legacy by 1? It doesn't say. No explicit trigger clause. Thats what makes this a static effect since the implicit trigger is when the card is played.&nbsp;</p><p>The trigger clause specifically makes SHD a triggered effect.&nbsp;</p><p>But I agree with skippy, that there's a lot of valid interpretations and you are free to chose whichever works best for you.&nbsp;</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:14.840Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Triggered effects are conveyed through if/then statements. If trigger, then effect.</p><p>SHD fits that sentence structure perfectly. When he could be dealt damage of 5 or more is the explicit trigger condition for the effect of reducing it by 3</p><p>Fortitude is only laid out as a single effect clause. When do you reduce damage dealt to legacy by 1? It doesn&#39;t say. No explicit trigger clause. Thats what makes this a static effect since the implicit trigger is when the card is played.&nbsp;</p><p>The trigger clause specifically makes SHD a triggered effect.&nbsp;</p><p>But I agree with skippy, that there&#39;s a lot of valid interpretations and you are free to chose whichever works best for you.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77285,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2013-10-16T02:02:00.000Z",
+      "cooked": "<p>To be fair, we do have an official ruling on #2 (it is as I said). We have a can of worms because many people don't like the ruling for very valid reasons: it is inconsistent, it isn't fun, etc. I wouldn't be shocked if the ruling will be changed, however, we do have a ruling on this specific issue, even though it doesn't make sense. What it comes down to is do you follow the ruling no matter what, do you prefer consistent rulings that you can apply every, or do you not make the game harder for yourself.</p><p>EDIT: Here is he ruling that says Legacy takes 4 damage if Fortitude was out first.</p><p><a href=\"https://greaterthangames.com/comment/3024#comment-3024\">https://greaterthangames.com/comment/3024#comment-3024</a></p><p>You can scroll down to see some of the complaints, but I know there have been many more since then.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:14.926Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/comment/3024#comment-3024",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>To be fair, we do have an official ruling on #2 (it is as I said). We have a can of worms because many people don&#39;t like the ruling for very valid reasons: it is inconsistent, it isn&#39;t fun, etc. I wouldn&#39;t be shocked if the ruling will be changed, however, we do have a ruling on this specific issue, even though it doesn&#39;t make sense. What it comes down to is do you follow the ruling no matter what, do you prefer consistent rulings that you can apply every, or do you not make the game harder for yourself.</p><p>EDIT: Here is he ruling that says Legacy takes 4 damage if Fortitude was out first.</p><p><a href=\"https://greaterthangames.com/comment/3024#comment-3024\">https://greaterthangames.com/comment/3024#comment-3024</a></p><p>You can scroll down to see some of the complaints, but I know there have been many more since then.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77286,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2013-10-16T02:11:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>Triggered effects are conveyed through if/then statements. If trigger, then effect.SHD fits that sentence structure perfectly. When he could be dealt damage of 5 or more is the explicit trigger condition for the effect of reducing it by 3Fortitude is only laid out as a single effect clause. When do you reduce damage dealt to legacy by 1? It doesn't say. No explicit trigger clause. Thats what makes this a static effect since the implicit trigger is when the card is played.&nbsp;The trigger clause specifically makes SHD a triggered effect.&nbsp;But I agree with skippy, that there's a lot of valid interpretations and you are free to chose whichever works best for you.&nbsp;</p>\n</blockquote>\n</aside>\n<p>SHD doesn't say if or then. &nbsp;The few cards that say \"if\" involve flak jacket, EoW Bunker and Cedistic Dissonant, there are some interesting implcations of qualified effects counting as triggered effects. &nbsp; &nbsp;</p>\n<p>If we treat whenever statements as if-then statements then both of undaunted's effects would be a triggered effect. &nbsp;Which would mean that if Fanatic had undaunted and was lowest hp, and was dealt 1 irreducible damage from a villain and smoke bombs was out before undaunted you would redirect even though you would be redirecting damage that could not be taken. &nbsp;Since we already have a ruling that that does not occur we either have to assume that Immunity breaks game mechanics or that undaunted's prevention is a static effect.</p>\n<p>I side with the second option, that Fanatic's prevention of exactly one damage is a static effect, and is written using the word whenever simply because the conditions of applying the effect are complicated.</p>\n<p>Another whenever statement that creates difficulty if treated as a triggered effect is flesh to liquid. &nbsp;It uses the word whenever in its statement that increases his healing. &nbsp;Which means you would have to play it before mortal to energy or you would deal the damage before increasing the healing.</p>\n<p>Again it makes more sense that Mortal to Energy's increase in healing is static, even though it uses the word whenever.</p>\n<p>&nbsp;</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.009Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Foote\"]\n\nTriggered effects are conveyed through if/then statements. If trigger, then effect.SHD fits that sentence structure perfectly. When he could be dealt damage of 5 or more is the explicit trigger condition for the effect of reducing it by 3Fortitude is only laid out as a single effect clause. When do you reduce damage dealt to legacy by 1? It doesn&#39;t say. No explicit trigger clause. Thats what makes this a static effect since the implicit trigger is when the card is played.&nbsp;The trigger clause specifically makes SHD a triggered effect.&nbsp;But I agree with skippy, that there&#39;s a lot of valid interpretations and you are free to chose whichever works best for you.&nbsp;\n\n[/quote]\n\nSHD doesn&#39;t say if or then. &nbsp;The few cards that say &quot;if&quot; involve flak jacket, EoW Bunker and Cedistic Dissonant, there are some interesting implcations of qualified effects counting as triggered effects. &nbsp; &nbsp;\n\nIf we treat whenever statements as if-then statements then both of undaunted&#39;s effects would be a triggered effect. &nbsp;Which would mean that if Fanatic had undaunted and was lowest hp, and was dealt 1 irreducible damage from a villain and smoke bombs was out before undaunted you would redirect even though you would be redirecting damage that could not be taken. &nbsp;Since we already have a ruling that that does not occur we either have to assume that Immunity breaks game mechanics or that undaunted&#39;s prevention is a static effect.\n\nI side with the second option, that Fanatic&#39;s prevention of exactly one damage is a static effect, and is written using the word whenever simply because the conditions of applying the effect are complicated.\n\nAnother whenever statement that creates difficulty if treated as a triggered effect is flesh to liquid. &nbsp;It uses the word whenever in its statement that increases his healing. &nbsp;Which means you would have to play it before mortal to energy or you would deal the damage before increasing the healing.\n\nAgain it makes more sense that Mortal to Energy&#39;s increase in healing is static, even though it uses the word whenever.\n\n&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77287,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2013-10-16T03:07:53.000Z",
+      "cooked": "<p>Since we are assuming the ruling is wrong, may I suggest we make another thread with how each person wants the interaction to work, along with their explanation, and how it fits into the overall game.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.082Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Since we are assuming the ruling is wrong, may I suggest we make another thread with how each person wants the interaction to work, along with their explanation, and how it fits into the overall game.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77288,
+      "name": "Silverleaf",
+      "username": "Silverleaf",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/silverleaf/{size}/2332_2.png",
+      "created_at": "2013-10-16T03:15:33.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>Since we are assuming the ruling is wrong, may I suggest we make another thread with how each person wants the interaction to work, along with their explanation, and how it fits into the overall game.</p>\n</blockquote>\n</aside>\n<p>Or we could assume that the designer is, you know, <em>right. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"></em></p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.147Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Silverleaf",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\nSince we are assuming the ruling is wrong, may I suggest we make another thread with how each person wants the interaction to work, along with their explanation, and how it fits into the overall game.\n[/quote]\n\nOr we could assume that the designer is, you know, <em>right. ;)</em>\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4341,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77289,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-10-16T04:28:48.000Z",
+      "cooked": "<p>It doesn't have to be wrong nessesarily. But a clarification on if \"would be dealt damage\" and \"damage dealt\" are in fact simultaneous effects would be more than sufficient.&nbsp;</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.227Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It doesn&#39;t have to be wrong nessesarily. But a clarification on if &quot;would be dealt damage&quot; and &quot;damage dealt&quot; are in fact simultaneous effects would be more than sufficient.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77290,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-10-16T04:53:35.000Z",
+      "cooked": "<p>And I think you're wrong about undaunted. The \"whenever\" clause gives the effect an implied timing. Its specifically triggers whenever X condition happens. Think about this, if undaunted was \"static\", why even put the \"whenever\" clause? That card text is pretty cramped as is, and certainly it was redundant? There's a reason. The entire point of that sentence structure is to convey specific timing.</p><p>And read the triggers on liquid and energy again. They are not simultaneous so no, card order would matter there. The undaunted thing is wrong too. Undaunted does not grant immunity so that \"can't redirect\" thing does not apply in that case. Damage prevention is a different effect.&nbsp;</p><p>If/then statements don't always start with \"If\". When X happens, then Y. That's no different than saying If X, then Y. What would you say the difference is there?</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.308Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>And I think you&#39;re wrong about undaunted. The &quot;whenever&quot; clause gives the effect an implied timing. Its specifically triggers whenever X condition happens. Think about this, if undaunted was &quot;static&quot;, why even put the &quot;whenever&quot; clause? That card text is pretty cramped as is, and certainly it was redundant? There&#39;s a reason. The entire point of that sentence structure is to convey specific timing.</p><p>And read the triggers on liquid and energy again. They are not simultaneous so no, card order would matter there. The undaunted thing is wrong too. Undaunted does not grant immunity so that &quot;can&#39;t redirect&quot; thing does not apply in that case. Damage prevention is a different effect.&nbsp;</p><p>If/then statements don&#39;t always start with &quot;If&quot;. When X happens, then Y. That&#39;s no different than saying If X, then Y. What would you say the difference is there?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77291,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2013-10-16T12:53:20.000Z",
+      "cooked": "<p>Would be. . .</p><p>I'd love that wording to have an impact on timing, but we don't have anything supporting that and the SHD - Fort ruling would seem to say that \"would be\" is irrelevant to timing, as well as whether things are static or not.</p><p>The ruling isn't immunity, it is that if the target could not take the damage then it can't redirect. &nbsp;If Fanatic is preventing it she can't redirect it, unless I understood that process wrong.</p><p>You are correct about the Scholar. &nbsp;It just seems wierd that that language would be used there to create a triggered increase in healing.</p><p>I still maintain that having to track card play order across the table is a horrible mechanic. &nbsp;The game isn't Bookkeepers of the Multiverse, and one of its great appeals is in how fun the flow of the game is, and the whole \"Players decide the order\" makes the game a lot of fun for mid-level strategists.</p><p>Fortunately the only member of my gaming group that insisted on knowing the rules and following them to the letter moved away, because honestly we wouldn't be able to play Sentinels anymore on game night. &nbsp;I find that sad.</p><p>&nbsp;</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.388Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Would be. . .</p><p>I&#39;d love that wording to have an impact on timing, but we don&#39;t have anything supporting that and the SHD - Fort ruling would seem to say that &quot;would be&quot; is irrelevant to timing, as well as whether things are static or not.</p><p>The ruling isn&#39;t immunity, it is that if the target could not take the damage then it can&#39;t redirect. &nbsp;If Fanatic is preventing it she can&#39;t redirect it, unless I understood that process wrong.</p><p>You are correct about the Scholar. &nbsp;It just seems wierd that that language would be used there to create a triggered increase in healing.</p><p>I still maintain that having to track card play order across the table is a horrible mechanic. &nbsp;The game isn&#39;t Bookkeepers of the Multiverse, and one of its great appeals is in how fun the flow of the game is, and the whole &quot;Players decide the order&quot; makes the game a lot of fun for mid-level strategists.</p><p>Fortunately the only member of my gaming group that insisted on knowing the rules and following them to the letter moved away, because honestly we wouldn&#39;t be able to play Sentinels anymore on game night. &nbsp;I find that sad.</p><p>&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77292,
+      "name": "StalkinPanda",
+      "username": "StalkinPanda",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/s/f1d935/{size}.png",
+      "created_at": "2013-10-16T13:19:15.000Z",
+      "cooked": "<p>Thanks for the replies! Time difference + work didn't permit me to respond earlier but I do appreciate it.</p><p>Just to be clear, am I correct in assuming that 'damage dealt' is always actual hp lost after reduction and 'would be dealt' is the same just worded differently?&nbsp;</p><p>&nbsp;</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.458Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "StalkinPanda",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Thanks for the replies! Time difference + work didn&#39;t permit me to respond earlier but I do appreciate it.</p><p>Just to be clear, am I correct in assuming that &#39;damage dealt&#39; is always actual hp lost after reduction and &#39;would be dealt&#39; is the same just worded differently?&nbsp;</p><p>&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5913,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77293,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-10-16T13:32:01.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>Would be. . .I'd love that wording to have an impact on timing, but we don't have anything supporting that and the SHD - Fort ruling would seem to say that \"would be\" is irrelevant to timing, as well as whether things are static or not.The ruling isn't immunity, it is that if the target could not take the damage then it can't redirect. &nbsp;If Fanatic is preventing it she can't redirect it, unless I understood that process wrong.You are correct about the Scholar. &nbsp;It just seems wierd that that language would be used there to create a triggered increase in healing.I still maintain that having to track card play order across the table is a horrible mechanic. &nbsp;The game isn't Bookkeepers of the Multiverse, and one of its great appeals is in how fun the flow of the game is, and the whole \"Players decide the order\" makes the game a lot of fun for mid-level strategists.Fortunately the only member of my gaming group that insisted on knowing the rules and following them to the letter moved away, because honestly we wouldn't be able to play Sentinels anymore on game night. &nbsp;I find that sad.&nbsp;</p>\n</blockquote>\n</aside>\n<p>Undaunted doesn't prevent her from taking the damage though. That's the point. It's only when she would take the damage it prevents it. If you redirect it, you wouldn't be taking the damage anymore thus nothing is being prevented. Yes there is implied timing. Fortitude is reducing damage dealt to Legacy regardless of whether he is being deal damage or not. Do you see the difference? It all goes back to the Trigger clause.&nbsp;</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.524Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"phantaskippy\"]\n\nWould be. . .I&#39;d love that wording to have an impact on timing, but we don&#39;t have anything supporting that and the SHD - Fort ruling would seem to say that &quot;would be&quot; is irrelevant to timing, as well as whether things are static or not.The ruling isn&#39;t immunity, it is that if the target could not take the damage then it can&#39;t redirect. &nbsp;If Fanatic is preventing it she can&#39;t redirect it, unless I understood that process wrong.You are correct about the Scholar. &nbsp;It just seems wierd that that language would be used there to create a triggered increase in healing.I still maintain that having to track card play order across the table is a horrible mechanic. &nbsp;The game isn&#39;t Bookkeepers of the Multiverse, and one of its great appeals is in how fun the flow of the game is, and the whole &quot;Players decide the order&quot; makes the game a lot of fun for mid-level strategists.Fortunately the only member of my gaming group that insisted on knowing the rules and following them to the letter moved away, because honestly we wouldn&#39;t be able to play Sentinels anymore on game night. &nbsp;I find that sad.&nbsp;\n\n[/quote]\n\nUndaunted doesn&#39;t prevent her from taking the damage though. That&#39;s the point. It&#39;s only when she would take the damage it prevents it. If you redirect it, you wouldn&#39;t be taking the damage anymore thus nothing is being prevented. Yes there is implied timing. Fortitude is reducing damage dealt to Legacy regardless of whether he is being deal damage or not. Do you see the difference? It all goes back to the Trigger clause.&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77294,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2013-10-16T13:44:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"StalkinPanda\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/s/f1d935/48.png\" class=\"avatar\"> StalkinPanda:</div>\n<blockquote>\n<p>Thanks for the replies! Time difference + work didn't permit me to respond earlier but I do appreciate it.Just to be clear, am I correct in assuming that 'damage dealt' is always actual hp lost after reduction and 'would be dealt' is the same just worded differently?&nbsp;&nbsp;</p>\n</blockquote>\n</aside>\n<p>Damage increases/reduction first, then would be dealt damage, then dealt damage. That's how I do it anyways,&nbsp;because it is the easiest way I have found to keep track of it.</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.593Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"StalkinPanda\"]\n\nThanks for the replies! Time difference + work didn&#39;t permit me to respond earlier but I do appreciate it.Just to be clear, am I correct in assuming that &#39;damage dealt&#39; is always actual hp lost after reduction and &#39;would be dealt&#39; is the same just worded differently?&nbsp;&nbsp;\n\n[/quote]\n\nDamage increases/reduction first, then would be dealt damage, then dealt damage. That&#39;s how I do it anyways,&nbsp;because it is the easiest way I have found to keep track of it.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77295,
+      "name": "phantaskippy",
+      "username": "phantaskippy",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+      "created_at": "2013-10-16T14:27:38.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>phantaskippy wrote:</b><br><blockquote>Would be. . .I'd love that wording to have an impact on timing, but we don't have anything supporting that and the SHD - Fort ruling would seem to say that \"would be\" is irrelevant to timing, as well as whether things are static or not.The ruling isn't immunity, it is that if the target could not take the damage then it can't redirect. &nbsp;If Fanatic is preventing it she can't redirect it, unless I understood that process wrong.You are correct about the Scholar. &nbsp;It just seems wierd that that language would be used there to create a triggered increase in healing.I still maintain that having to track card play order across the table is a horrible mechanic. &nbsp;The game isn't Bookkeepers of the Multiverse, and one of its great appeals is in how fun the flow of the game is, and the whole \"Players decide the order\" makes the game a lot of fun for mid-level strategists.Fortunately the only member of my gaming group that insisted on knowing the rules and following them to the letter moved away, because honestly we wouldn't be able to play Sentinels anymore on game night. &nbsp;I find that sad.&nbsp;\n&nbsp;\n</blockquote></div>\nUndaunted doesn't prevent her from taking the damage though. That's the point. It's only when she would take the damage it prevents it. If you redirect it, you wouldn't be taking the damage anymore thus nothing is being prevented. Yes there is implied timing. Fortitude is reducing damage dealt to Legacy regardless of whether he is being deal damage or not. Do you see the difference? It all goes back to the Trigger clause.&nbsp;\n</blockquote>\n</aside>\n<p>If that is how it works, then why would a trigger ever go before a static? &nbsp;I personally think it makes more sense to have static effects always apply first, but the official ruling is card order.</p>\n<p>Also how would you time Aegis of Resurrection versus incapacitation? &nbsp;It is obvious the way it is intended to work, but how would you explain the timing? &nbsp;Both the wording in the manual to remove all their cards from the game and flip them and the wording on the card would seem to be triggers.</p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.670Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "phantaskippy",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Foote\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>phantaskippy wrote:</b><br /><blockquote class=\"bb-quote-body\">Would be. . .I&#39;d love that wording to have an impact on timing, but we don&#39;t have anything supporting that and the SHD - Fort ruling would seem to say that &quot;would be&quot; is irrelevant to timing, as well as whether things are static or not.The ruling isn&#39;t immunity, it is that if the target could not take the damage then it can&#39;t redirect. &nbsp;If Fanatic is preventing it she can&#39;t redirect it, unless I understood that process wrong.You are correct about the Scholar. &nbsp;It just seems wierd that that language would be used there to create a triggered increase in healing.I still maintain that having to track card play order across the table is a horrible mechanic. &nbsp;The game isn&#39;t Bookkeepers of the Multiverse, and one of its great appeals is in how fun the flow of the game is, and the whole &quot;Players decide the order&quot; makes the game a lot of fun for mid-level strategists.Fortunately the only member of my gaming group that insisted on knowing the rules and following them to the letter moved away, because honestly we wouldn&#39;t be able to play Sentinels anymore on game night. &nbsp;I find that sad.&nbsp;\n&nbsp;\n</blockquote></div>\nUndaunted doesn&#39;t prevent her from taking the damage though. That&#39;s the point. It&#39;s only when she would take the damage it prevents it. If you redirect it, you wouldn&#39;t be taking the damage anymore thus nothing is being prevented. Yes there is implied timing. Fortitude is reducing damage dealt to Legacy regardless of whether he is being deal damage or not. Do you see the difference? It all goes back to the Trigger clause.&nbsp;\n\n[/quote]\n\nIf that is how it works, then why would a trigger ever go before a static? &nbsp;I personally think it makes more sense to have static effects always apply first, but the official ruling is card order.\n\nAlso how would you time Aegis of Resurrection versus incapacitation? &nbsp;It is obvious the way it is intended to work, but how would you explain the timing? &nbsp;Both the wording in the manual to remove all their cards from the game and flip them and the wording on the card would seem to be triggers.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3684,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-01-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77296,
+      "name": "StalkinPanda",
+      "username": "StalkinPanda",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/s/f1d935/{size}.png",
+      "created_at": "2013-10-16T14:50:14.000Z",
+      "cooked": "<p>That seems like a logical way to do things. Thanks Ronway for the answer. &nbsp;</p><p>Thanks to the other posters as well ofc. I'm still quite new to the game so i don't fully understand the card interactions you're debating just yet.</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.740Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "StalkinPanda",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>That seems like a logical way to do things. Thanks Ronway for the answer. &nbsp;</p><p>Thanks to the other posters as well ofc. I&#39;m still quite new to the game so i don&#39;t fully understand the card interactions you&#39;re debating just yet.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5913,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77297,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-10-16T15:19:38.000Z",
+      "cooked": "<p>Sorry for going off on those tangents. I play it the same way Ronway does as well. That was more simple.&nbsp;</p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.833Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Sorry for going off on those tangents. I play it the same way Ronway does as well. That was more simple.&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77298,
+      "name": "StalkinPanda",
+      "username": "StalkinPanda",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/s/f1d935/{size}.png",
+      "created_at": "2013-10-16T15:43:00.000Z",
+      "cooked": "<p>No need to apologize at all, I like (trying) to understand the more advanced card interactions. By all means continue the discussion as long as you don't mind me throwing in a basic question every now and then.</p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.895Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "StalkinPanda",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>No need to apologize at all, I like (trying) to understand the more advanced card interactions. By all means continue the discussion as long as you don&#39;t mind me throwing in a basic question every now and then.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5913,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 77299,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2013-10-16T16:21:01.000Z",
+      "cooked": "<p>The secondary undaunted effect is rather telling of the intent of damage modifications. Damage mods are essential information to decide whether Fanatic will take enough damage to trigger the effect (in this case, exactly 1 damage). I think that is a fair way to view it without being overly rulesy</p>",
+      "post_number": 21,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:58:15.963Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 8850,
+      "topic_slug": "beginner-questions-regarding-damage-reduction-timing",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

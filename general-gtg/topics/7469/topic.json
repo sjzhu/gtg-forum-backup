@@ -1,0 +1,2025 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 7470,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-03-25T04:44:47.000Z",
+        "cooked": "<p>It's been a while since I've had a boring Sunday where the family was off doing something and leaving me alone, so I thought I'd take advantage of that happening today to work on something I've been wanting to try out -- making an online game tracker similar to the great Sentinels Sidekick iOS app, but which could track effects (+1 damage, all damage = melee, etc.) as well as hp. &nbsp;I made enough progress in one day to let people play with it and give me any feedback they'd like, if they're interested.</p><p>www.spiffworld.com/sotm/game_tracker.cfm</p><p>Here's what it can and can't do so far:</p><p>&nbsp;- There are no villains or environment stuff yet, just heroes.</p><p>&nbsp;- You can choose as many heroes as you want (it won't check you).</p><p>&nbsp;- You can add as many effects to a hero as you'd like, and you can remove them from the heroes. &nbsp;I'd like to make a way to show that an effect is affecting all heroes so you don't have to add it per hero, but it doesn't do that so far.</p><p>&nbsp;- You can make as many changes as you want and the \"update\" button will submit them all. &nbsp;This means that you could add a \"+1 damage\" effect to each of the heroes and you don't have to click \"update\" after each one. &nbsp;Just hit it once when you're done.</p><p>&nbsp;- For the heroes with targets (Visionary, Unity), you can add those, and you can even add effects to the individual targets. &nbsp;However, here's where it gets a bit wonky though - if you add multiples of the same kind of target (multiple Raptor Bots, for example), it'll get confused.</p><p>&nbsp;- it's formatted for phone screens but still looks good on PC monitors and iPads.</p><p>I'm pretty sure I'm going to have to rewrite big parts of it as I refine it, so don't get too attached to it the way it is. &nbsp;But if you feel like trying it out and decide that you hate how I have something laid out, or hate the input methods for changing the data, I'd like to know that sooner rather than later.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:37:45.976Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>It&#39;s been a while since I&#39;ve had a boring Sunday where the family was off doing something and leaving me alone, so I thought I&#39;d take advantage of that happening today to work on something I&#39;ve been wanting to try out -- making an online game tracker similar to the great Sentinels Sidekick iOS app, but which could track effects (+1 damage, all damage = melee, etc.) as well as hp. &nbsp;I made enough progress in one day to let people play with it and give me any feedback they&#39;d like, if they&#39;re interested.</p><p>www.spiffworld.com/sotm/game_tracker.cfm</p><p>Here&#39;s what it can and can&#39;t do so far:</p><p>&nbsp;- There are no villains or environment stuff yet, just heroes.</p><p>&nbsp;- You can choose as many heroes as you want (it won&#39;t check you).</p><p>&nbsp;- You can add as many effects to a hero as you&#39;d like, and you can remove them from the heroes. &nbsp;I&#39;d like to make a way to show that an effect is affecting all heroes so you don&#39;t have to add it per hero, but it doesn&#39;t do that so far.</p><p>&nbsp;- You can make as many changes as you want and the &quot;update&quot; button will submit them all. &nbsp;This means that you could add a &quot;+1 damage&quot; effect to each of the heroes and you don&#39;t have to click &quot;update&quot; after each one. &nbsp;Just hit it once when you&#39;re done.</p><p>&nbsp;- For the heroes with targets (Visionary, Unity), you can add those, and you can even add effects to the individual targets. &nbsp;However, here&#39;s where it gets a bit wonky though - if you add multiples of the same kind of target (multiple Raptor Bots, for example), it&#39;ll get confused.</p><p>&nbsp;- it&#39;s formatted for phone screens but still looks good on PC monitors and iPads.</p><p>I&#39;m pretty sure I&#39;m going to have to rewrite big parts of it as I refine it, so don&#39;t get too attached to it the way it is. &nbsp;But if you feel like trying it out and decide that you hate how I have something laid out, or hate the input methods for changing the data, I&#39;d like to know that sooner rather than later.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56420,
+        "name": "Koey",
+        "username": "Koey",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/koey/{size}/2187_2.png",
+        "created_at": "2013-03-25T05:11:20.000Z",
+        "cooked": "<p>Looks great. How do you get multiple Heroes? I am using Safari and Chrome on my mac but can't seem to get it working.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:26.938Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Koey",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Looks great. How do you get multiple Heroes? I am using Safari and Chrome on my mac but can&#39;t seem to get it working.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1902,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-20",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56421,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2013-03-26T04:04:57.000Z",
+        "cooked": "<p>Cool. I have plans for adding effect tracking to Sentinels Sidekick, but it's always a question of getting the time to work on it. The app has been getting a lot of downloads lately so that might help =)</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.010Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Cool. I have plans for adding effect tracking to Sentinels Sidekick, but it&#39;s always a question of getting the time to work on it. The app has been getting a lot of downloads lately so that might help =)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56422,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-03-26T05:45:00.000Z",
+        "cooked": "<p>I worried about stepping on your toes before I posted that I'd spent time working on this project. I'm sorry if I have, but I just wanted to see if it was a problem I could solve. I'm not entirely convinced that a web page like mine could ever be a good solution for a problem like this anyways. Using web forms is less elegant than input methods in an app, my page can only be used with Internet access, and I think it could end up being too irritating to have to unlock the phone all the time just to make an update.&nbsp;</p><p>I think I'm going to continue with the project because there are still some problems with the site I really want to solve, but if it never ends up being a suitable solution on the level of the Sidekick, I won't be surprised.&nbsp;</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.091Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I worried about stepping on your toes before I posted that I&#39;d spent time working on this project. I&#39;m sorry if I have, but I just wanted to see if it was a problem I could solve. I&#39;m not entirely convinced that a web page like mine could ever be a good solution for a problem like this anyways. Using web forms is less elegant than input methods in an app, my page can only be used with Internet access, and I think it could end up being too irritating to have to unlock the phone all the time just to make an update.&nbsp;</p><p>I think I&#39;m going to continue with the project because there are still some problems with the site I really want to solve, but if it never ends up being a suitable solution on the level of the Sidekick, I won&#39;t be surprised.&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56423,
+        "name": "Drakossozh",
+        "username": "Drakossozh",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/f05b48/{size}.png",
+        "created_at": "2013-03-26T14:51:55.000Z",
+        "cooked": "<p>Is this app available offline? I think that would be a big deal :)</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.153Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Drakossozh",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Is this app available offline? I think that would be a big deal :)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3992,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-03-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56424,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2013-03-26T15:20:19.000Z",
+        "cooked": "<p>I think that,  as a tablet user,  its great.  I can lock my tablet open and it’s big enough for everyone to see from its stand. and given that sidekick isn’t on android,  I love the idea,  so I for one would want you to keep going and continue to refine</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.236Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "I think that,  as a tablet user,  its great.  I can lock my tablet open and it's big enough for everyone to see from its stand. and given that sidekick isn't on android,  I love the idea,  so I for one would want you to keep going and continue to refine",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56425,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-03-26T16:54:00.000Z",
+        "cooked": "<p>Mine won't ever be available offline.&nbsp; I like writing stuff using lots of ColdFusion, and that's a server-side thing.&nbsp; So it won't ever work without the Internet.</p><p>Like I said, I think I am going to continue trying to refine it.&nbsp; The main problem I'm trying to solve is doing all of this without a backend database to hold info about the cards or the state of the game at any point.&nbsp; I'm doing it successfully in the current version, but it's so hacked together that I'm surprised it's working.&nbsp; I need to find a more elegant way to pass everything the game needs to know about its current state to itself, and then to query that state so it can be displayed properly, all while having the code be semi-intelligible to a human (i.e. me) looking at it.</p><p>(EDIT: to clarify, I <em>could </em>use a database, but don't want to.&nbsp; I've built online versions of Risk and Heroclix that allowed my friends to play each other online, and it works great.&nbsp; But whenever someone made a move they wanted to take back, or something got screwed up, I was responsible for going into the database and fixing things, and I don't want to do that here.&nbsp; The challenge here is to see if the entire thing can be self-contained, passing info to processing pages, but then back to the main page itself, without ever needing a backend database or anything I'll be responsible for maintaining.)</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.317Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Mine won&#39;t ever be available offline.&nbsp; I like writing stuff using lots of ColdFusion, and that&#39;s a server-side thing.&nbsp; So it won&#39;t ever work without the Internet.</p><p>Like I said, I think I am going to continue trying to refine it.&nbsp; The main problem I&#39;m trying to solve is doing all of this without a backend database to hold info about the cards or the state of the game at any point.&nbsp; I&#39;m doing it successfully in the current version, but it&#39;s so hacked together that I&#39;m surprised it&#39;s working.&nbsp; I need to find a more elegant way to pass everything the game needs to know about its current state to itself, and then to query that state so it can be displayed properly, all while having the code be semi-intelligible to a human (i.e. me) looking at it.</p><p>(EDIT: to clarify, I <em>could </em>use a database, but don&#39;t want to.&nbsp; I&#39;ve built online versions of Risk and Heroclix that allowed my friends to play each other online, and it works great.&nbsp; But whenever someone made a move they wanted to take back, or something got screwed up, I was responsible for going into the database and fixing things, and I don&#39;t want to do that here.&nbsp; The challenge here is to see if the entire thing can be self-contained, passing info to processing pages, but then back to the main page itself, without ever needing a backend database or anything I&#39;ll be responsible for maintaining.)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56426,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2013-03-26T22:54:56.000Z",
+        "cooked": "<p>Best part: Works on Android devices.  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/grin.png?v=9\" title=\":grin:\" class=\"emoji\" alt=\":grin:\"></p>\n<p>Thanks, Spiff!</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.385Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Best part: Works on Android devices.  :grin: \n\nThanks, Spiff!",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56427,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2013-03-27T18:24:55.000Z",
+        "cooked": "<p>No toes stepped on at all. Nothing like some healthy competition to keep things moving =)</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.466Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>No toes stepped on at all. Nothing like some healthy competition to keep things moving =)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56428,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-03-27T19:43:52.000Z",
+        "cooked": "<p>Then you'd better figure out a way to get the official art in yours, 'cause mine'll have pictures. :)</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.528Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Then you&#39;d better figure out a way to get the official art in yours, &#39;cause mine&#39;ll have pictures. :)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56429,
+        "name": "Wendell",
+        "username": "Wendell",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/w/e9bcb4/{size}.png",
+        "created_at": "2013-03-29T20:28:52.000Z",
+        "cooked": "<p>@Koey: You can selecte several heros by holding \"control\" when you click on their name. I guess on Mac you have to hold \"cmd\". That works in general for this kind of multi-options lists in webpages.</p><p>@Spliff: I am not an expert, but I think for what you want to do it would be much more easier to use javascript and persist the state in the local storage of the browser... All that playing with the url parameters can get really complicated soon! That would allow to use it offline too.</p><p>&nbsp;</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.602Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Wendell",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>@Koey: You can selecte several heros by holding &quot;control&quot; when you click on their name. I guess on Mac you have to hold &quot;cmd&quot;. That works in general for this kind of multi-options lists in webpages.</p><p>@Spliff: I am not an expert, but I think for what you want to do it would be much more easier to use javascript and persist the state in the local storage of the browser... All that playing with the url parameters can get really complicated soon! That would allow to use it offline too.</p><p>&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3058,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-12-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56430,
+        "name": "pyrofrog",
+        "username": "pyrofrog",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pyrofrog/{size}/1963_2.png",
+        "created_at": "2013-03-29T21:55:00.000Z",
+        "cooked": "<p>@wendell&nbsp;</p><p>I'm sure that would work well, but wouldn't that also cut out any mobile options for iPhone/pod/pad? (Not sure on android.) I currently use the sidekick for all my games because I can put it in the center of the table...&nbsp;</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.670Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "pyrofrog",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>@wendell&nbsp;</p><p>I&#39;m sure that would work well, but wouldn&#39;t that also cut out any mobile options for iPhone/pod/pad? (Not sure on android.) I currently use the sidekick for all my games because I can put it in the center of the table...&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1374,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56431,
+        "name": "Wendell",
+        "username": "Wendell",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/w/e9bcb4/{size}.png",
+        "created_at": "2013-03-29T22:50:38.000Z",
+        "cooked": "<p>I don´t know anything about apple devices, to tell you the truth. But I am just talking about a web application to be used in the browser. For sure they have a browser that support javascript, and I will be very surprised if it does not support localstorage too...</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.740Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Wendell",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I don&acute;t know anything about apple devices, to tell you the truth. But I am just talking about a web application to be used in the browser. For sure they have a browser that support javascript, and I will be very surprised if it does not support localstorage too...</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3058,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-12-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56432,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-03-29T22:53:25.000Z",
+        "cooked": "<p>Don't misunderstand me, I'm not looking for the easiest way to do this. &nbsp;I've identified the challenge I want to try to overcome, which is building it using ColdFusion and storing the game's state in the URL. &nbsp;If I end up with a useful tool at the end of the project, that'll be a nice bonus, but I'm mostly just doing it to see if I can do it. :)</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.815Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Don&#39;t misunderstand me, I&#39;m not looking for the easiest way to do this. &nbsp;I&#39;ve identified the challenge I want to try to overcome, which is building it using ColdFusion and storing the game&#39;s state in the URL. &nbsp;If I end up with a useful tool at the end of the project, that&#39;ll be a nice bonus, but I&#39;m mostly just doing it to see if I can do it. :)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56433,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-03-31T21:03:56.000Z",
+        "cooked": "<p>An update: &nbsp;version 3.0 is coming along nicely (I won't subject you to version 2.0, which was a mess). &nbsp;3.0 isn't ready for primetime yet, but I'll let everyone know when they can kick the tires. &nbsp;Once I've got it all working, I think one of the biggest challenges is going to be laying it out in an intuitive, clutter-free way. &nbsp;The villain and each of the heroes can have multiple effects on them, and there can be villain, environment, and hero targets, each of which can have multiple effects on <em>them</em>, not to mention the universal effects for all heroes or villains or everyone. &nbsp;There's a lot to keep track of, and finding a way to make that a smooth process will be important if this is going to end up being a useful tool rather than just one more thing to fiddle with during a game.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.907Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>An update: &nbsp;version 3.0 is coming along nicely (I won&#39;t subject you to version 2.0, which was a mess). &nbsp;3.0 isn&#39;t ready for primetime yet, but I&#39;ll let everyone know when they can kick the tires. &nbsp;Once I&#39;ve got it all working, I think one of the biggest challenges is going to be laying it out in an intuitive, clutter-free way. &nbsp;The villain and each of the heroes can have multiple effects on them, and there can be villain, environment, and hero targets, each of which can have multiple effects on <em>them</em>, not to mention the universal effects for all heroes or villains or everyone. &nbsp;There&#39;s a lot to keep track of, and finding a way to make that a smooth process will be important if this is going to end up being a useful tool rather than just one more thing to fiddle with during a game.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56434,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2013-04-01T05:05:19.000Z",
+        "cooked": "<p>And that's why it's not in Sidekick yet.. it's hard to do right =)</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:27.977Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>And that&#39;s why it&#39;s not in Sidekick yet.. it&#39;s hard to do right =)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56435,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-04-12T05:22:00.000Z",
+        "cooked": "<p>OK, I think I've got the thing working to the point where people can start using it for reals (mostly). &nbsp;If you're interested, point your browsers to:</p><p>www.spiffworld.com/sotm/companion</p><p>I believe the use of the tool should mostly be self-exlanatory. &nbsp;Some highlights of the features and caveats since it's still in beta:</p><ul>\n<li>Some of the villains and environments have final art but most don't and none of the heroes do. &nbsp;I actually kind of like the way the placeholder art looks (clean), but after you see a couple of the finished villain arts and can compare them, I'd like some feedback.</li>\n<li>It'll indicate which target has highest hp (green), lowest hp (red), and even if a target is both highest and lowest (yellow). &nbsp;In cases of a tie, all tied targets get the color.</li>\n<li>To change a target's hp, you can use the up and down arrows to change it one tick at a time, or if you're in the mood, you can just type a new number in the text field directly.</li>\n<li>To get rid of a target or effect, click the checkbox (or the \"x\") to the right of its name. &nbsp;If you do this to a target which currently has effects on it, the effects will automatically be deleted.</li>\n<li>Click the \"univ. effects\" link at the top to reveal the section for adding universal (or all-heroes-only effects, or all-villains-only-effects, etc.). &nbsp;Once you've added these, they will appear in the list next to the appropriate target alongside any effects that target may have just for itself. &nbsp;This means that if you choose a universal effect of \"+1 damage\" and there are three targets in play, you'll see the \"+1 damage\" effect three times. &nbsp;To get rid of a universal effect, click the checkbox next to any one of that effect in the list, and all will be removed. &nbsp;A (u), (v), (h), or (e) will be displayed next to universal effects so you can differentiate them from normal effects on a target.</li>\n<li>Targets have a little picture of a Bee Bot next to them for now. &nbsp;Eventually I'll add the correct art for each target.</li>\n<li>In the cases where a villain starts with a particular target always out, the Companion will put it out automatically (La Paradoja Magnifica, Matriarch's Mask, etc.). &nbsp;In cases where a villain starts with random cards out (Voss' soldiers, Dawn's citizens), you'll have to add them yourself manually because there's no way for the Companion to know which ones you drew.</li>\n<li>There are multiple \"update\" buttons throughout the app, but they all do the same thing. &nbsp;There are just multiples of them so that you'll always be able to find one no matter where you're scrolled to on the page. &nbsp;Also, you don't have to hit \"update\" after every single thing you do. &nbsp;You could select a couple of new targets to add, delete a handful of effects from existing targets, and update everyone's hp and then just hit \"update\" once, and it will handle all of that at the same time.</li>\n<li>As always, you can bookmark or copy/paste the URL to save the state of the game and come back to it later.</li>\n<li>I think the only error you can make it throw will be if you screw with the URL or delete the contents of a text box completely. &nbsp;Eventually, I'll add error handling to deal with those, but it's not in now.</li>\n</ul><p>Let me know what you think, and if you find any problems. &nbsp;I know the order of the heroes/villains/enviros in the list is sub-optimal. &nbsp;They're listed chronologically instead of alphabetically. &nbsp;I'll fix that later. &nbsp;The list of possible effects is just the ones there are tokens for, but if we need any other new ones, let me know.</p><p>Once we've determined that it's working and that it's something people find useful, I'll hook it up to the Randomizer so that you can go straight from picking a random game to having that loaded up in the Companion.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:28.044Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>OK, I think I&#39;ve got the thing working to the point where people can start using it for reals (mostly). &nbsp;If you&#39;re interested, point your browsers to:</p><p>www.spiffworld.com/sotm/companion</p><p>I believe the use of the tool should mostly be self-exlanatory. &nbsp;Some highlights of the features and caveats since it&#39;s still in beta:</p><ul><li>Some of the villains and environments have final art but most don&#39;t and none of the heroes do. &nbsp;I actually kind of like the way the placeholder art looks (clean), but after you see a couple of the finished villain arts and can compare them, I&#39;d like some feedback.</li><li>It&#39;ll indicate which target has highest hp (green), lowest hp (red), and even if a target is both highest and lowest (yellow). &nbsp;In cases of a tie, all tied targets get the color.</li><li>To change a target&#39;s hp, you can use the up and down arrows to change it one tick at a time, or if you&#39;re in the mood, you can just type a new number in the text field directly.</li><li>To get rid of a target or effect, click the checkbox (or the &quot;x&quot;) to the right of its name. &nbsp;If you do this to a target which currently has effects on it, the effects will automatically be deleted.</li><li>Click the &quot;univ. effects&quot; link at the top to reveal the section for adding universal (or all-heroes-only effects, or all-villains-only-effects, etc.). &nbsp;Once you&#39;ve added these, they will appear in the list next to the appropriate target alongside any effects that target may have just for itself. &nbsp;This means that if you choose a universal effect of &quot;+1 damage&quot; and there are three targets in play, you&#39;ll see the &quot;+1 damage&quot; effect three times. &nbsp;To get rid of a universal effect, click the checkbox next to any one of that effect in the list, and all will be removed. &nbsp;A (u), (v), (h), or (e) will be displayed next to universal effects so you can differentiate them from normal effects on a target.</li><li>Targets have a little picture of a Bee Bot next to them for now. &nbsp;Eventually I&#39;ll add the correct art for each target.</li><li>In the cases where a villain starts with a particular target always out, the Companion will put it out automatically (La Paradoja Magnifica, Matriarch&#39;s Mask, etc.). &nbsp;In cases where a villain starts with random cards out (Voss&#39; soldiers, Dawn&#39;s citizens), you&#39;ll have to add them yourself manually because there&#39;s no way for the Companion to know which ones you drew.</li><li>There are multiple &quot;update&quot; buttons throughout the app, but they all do the same thing. &nbsp;There are just multiples of them so that you&#39;ll always be able to find one no matter where you&#39;re scrolled to on the page. &nbsp;Also, you don&#39;t have to hit &quot;update&quot; after every single thing you do. &nbsp;You could select a couple of new targets to add, delete a handful of effects from existing targets, and update everyone&#39;s hp and then just hit &quot;update&quot; once, and it will handle all of that at the same time.</li><li>As always, you can bookmark or copy/paste the URL to save the state of the game and come back to it later.</li><li>I think the only error you can make it throw will be if you screw with the URL or delete the contents of a text box completely. &nbsp;Eventually, I&#39;ll add error handling to deal with those, but it&#39;s not in now.</li></ul><p>Let me know what you think, and if you find any problems. &nbsp;I know the order of the heroes/villains/enviros in the list is sub-optimal. &nbsp;They&#39;re listed chronologically instead of alphabetically. &nbsp;I&#39;ll fix that later. &nbsp;The list of possible effects is just the ones there are tokens for, but if we need any other new ones, let me know.</p><p>Once we&#39;ve determined that it&#39;s working and that it&#39;s something people find useful, I&#39;ll hook it up to the Randomizer so that you can go straight from picking a random game to having that loaded up in the Companion.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56436,
+        "name": "Wendell",
+        "username": "Wendell",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/w/e9bcb4/{size}.png",
+        "created_at": "2013-04-12T19:24:49.000Z",
+        "cooked": "<p>Wow! That's a ton of work, and it has improved A LOT.&nbsp;</p><p>&nbsp;</p><p>Now with the bugs, sugestions, etc.</p><p>Bugs:</p><p>1.- It allows you to select several the same hero (same version). But when you do so, the HP for those heros are not correctl initializated.</p><p>Example with 2 AZ:</p><p><a href=\"http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1&amp;hero_hp_1=29,29&amp;hero_hp_1=29,29&amp;target=40502%7C47%7Cv%7C10%7C10\" rel=\"noopener nofollow ugc\">http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1&amp;hero_hp_1=29,29&amp;hero_hp_1=29,29&amp;target=40502|47|v|10|10</a></p><p>Note&nbsp;<a href=\"http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1&amp;hero_hp_1=29,29&amp;hero_hp_1=29,29&amp;target=40502%7C47%7Cv%7C10%7C10\" rel=\"noopener nofollow ugc\">hero_hp_1=29,29</a>. And in the input field the value is initialized to 29,29,29,29</p><p>Example with 3 AZ:</p><p><a href=\"http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1,1&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;target=25830%7C47%7Cv%7C10%7C10\" rel=\"noopener nofollow ugc\">http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1,1&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;target=25830|47|v|10|10</a></p><p>Note:&nbsp;<a href=\"http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1,1&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;target=25830%7C47%7Cv%7C10%7C10\" rel=\"noopener nofollow ugc\">hero_hp_1=29,29,29</a>, and the input field for his hp is initialized to&nbsp;29,29,29,29,29,29,29,29,29</p><p>And so on.&nbsp;</p><p>(may the easies fix for now is jut not to allow duplicate heroes. It seems a lot of work to fix the initialization method, and only for those corner cases...)</p><p>2.- I don't see the Green/Red/Yellow mark. Maybe it still not implemented. Will it be only for all the targets,(so green = \"the target with the highest HP\") or there will be also markers for only hero targets (green = \" the target with the highest HP\"), only villain targets...&nbsp;</p><p>&nbsp;</p><p>Sugestions:</p><p>&nbsp;- Add adicionals arrows to increase or decrease 5 hp with one click.&nbsp;</p><p>- Make the list of effects varz depending of the choosen villain, hero, etc. For example, for Omnitron I would like to have the effects \"inmune to cold damage\", \"inmune to melee damage\"... etc for the Adaptative plating subroutine</p><p>&nbsp;</p><p>All in all superb work.</p><p>&nbsp;</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:28.144Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Wendell",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&villain_hp=30&enviro=1&heroes=1,1&hero_hp_1=29,29&hero_hp_1=29,29&target=40502%7C47%7Cv%7C10%7C10",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&villain_hp=30&enviro=1&heroes=1,1,1&hero_hp_1=29,29,29&hero_hp_1=29,29,29&hero_hp_1=29,29,29&target=25830%7C47%7Cv%7C10%7C10",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Wow! That&#39;s a ton of work, and it has improved A LOT.&nbsp;</p><p>&nbsp;</p><p>Now with the bugs, sugestions, etc.</p><p>Bugs:</p><p>1.- It allows you to select several the same hero (same version). But when you do so, the HP for those heros are not correctl initializated.</p><p>Example with 2 AZ:</p><p><a href=\"http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1&amp;hero_hp_1=29,29&amp;hero_hp_1=29,29&amp;target=40502|47|v|10|10\">http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1&amp;hero_hp_1=29,29&amp;hero_hp_1=29,29&amp;target=40502|47|v|10|10</a></p><p>Note&nbsp;<a href=\"http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1&amp;hero_hp_1=29,29&amp;hero_hp_1=29,29&amp;target=40502|47|v|10|10\" style=\"font-size: 13px; line-height: 20px;\">hero_hp_1=29,29</a>. And in the input field the value is initialized to 29,29,29,29</p><p>Example with 3 AZ:</p><p><a href=\"http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1,1&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;target=25830|47|v|10|10\">http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1,1&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;target=25830|47|v|10|10</a></p><p>Note:&nbsp;<a href=\"http://www.spiffworld.com/sotm/companion/index.cfm?villain=1&amp;villain_hp=30&amp;enviro=1&amp;heroes=1,1,1&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;hero_hp_1=29,29,29&amp;target=25830|47|v|10|10\" style=\"font-size: 13px; line-height: 20px;\">hero_hp_1=29,29,29</a>, and the input field for his hp is initialized to&nbsp;29,29,29,29,29,29,29,29,29</p><p>And so on.&nbsp;</p><p>(may the easies fix for now is jut not to allow duplicate heroes. It seems a lot of work to fix the initialization method, and only for those corner cases...)</p><p>2.- I don&#39;t see the Green/Red/Yellow mark. Maybe it still not implemented. Will it be only for all the targets,(so green = &quot;the target with the highest HP&quot;) or there will be also markers for only hero targets (green = &quot; the target with the highest HP&quot;), only villain targets...&nbsp;</p><p>&nbsp;</p><p>Sugestions:</p><p>&nbsp;- Add adicionals arrows to increase or decrease 5 hp with one click.&nbsp;</p><p>- Make the list of effects varz depending of the choosen villain, hero, etc. For example, for Omnitron I would like to have the effects &quot;inmune to cold damage&quot;, &quot;inmune to melee damage&quot;... etc for the Adaptative plating subroutine</p><p>&nbsp;</p><p>All in all superb work.</p><p>&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3058,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-12-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56437,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-04-12T19:59:15.000Z",
+        "cooked": "<p>Right on, that's the kind of beta testing I'm looking for!</p><ol>\n<li>You're right that the easiest thing to do re: multiple heroes is to just disallow it, so I'll add that in today.</li>\n<li>The green/yellow/red was the victim of a \"simple\" change I made this morning. &nbsp;I'll put it back in. &nbsp;Great catch.</li>\n<li>Space is very limited, since it needs to fit well on a phone's small screen. &nbsp;So +/- 5 buttons probably won't fit, unless someone can think of a clever way to do it.</li>\n<li>It hadn't occurred to me to customize the list of effects to the target, but it's a good idea. &nbsp;I'll put it on the to-do list.</li>\n</ol>",
+        "post_number": 19,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:28.257Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Right on, that&#39;s the kind of beta testing I&#39;m looking for!</p><ol><li>You&#39;re right that the easiest thing to do re: multiple heroes is to just disallow it, so I&#39;ll add that in today.</li><li>The green/yellow/red was the victim of a &quot;simple&quot; change I made this morning. &nbsp;I&#39;ll put it back in. &nbsp;Great catch.</li><li>Space is very limited, since it needs to fit well on a phone&#39;s small screen. &nbsp;So +/- 5 buttons probably won&#39;t fit, unless someone can think of a clever way to do it.</li><li>It hadn&#39;t occurred to me to customize the list of effects to the target, but it&#39;s a good idea. &nbsp;I&#39;ll put it on the to-do list.</li></ol>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 56438,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2013-04-12T22:30:40.000Z",
+        "cooked": "<p>Issues #1 and #2 have been corrected.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:31:28.350Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 7469,
+        "topic_slug": "spiff-sotm-game-tracker",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Issues #1 and #2 have been corrected.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      7470,
+      56420,
+      56421,
+      56422,
+      56423,
+      56424,
+      56425,
+      56426,
+      56427,
+      56428,
+      56429,
+      56430,
+      56431,
+      56432,
+      56433,
+      56434,
+      56435,
+      56436,
+      56437,
+      56438,
+      56439,
+      56440,
+      56441,
+      56442,
+      56443,
+      56444,
+      56445
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      4919
+    ],
+    [
+      3,
+      4918
+    ],
+    [
+      5,
+      4917
+    ],
+    [
+      9,
+      4916
+    ],
+    [
+      11,
+      4914
+    ],
+    [
+      15,
+      4912
+    ],
+    [
+      17,
+      4901
+    ],
+    [
+      18,
+      4900
+    ],
+    [
+      22,
+      4899
+    ],
+    [
+      25,
+      4890
+    ]
+  ],
+  "tags_descriptions": {},
+  "id": 7469,
+  "title": "Spiff SotM Game Tracker",
+  "fancy_title": "Spiff SotM Game Tracker",
+  "posts_count": 27,
+  "created_at": "2013-03-25T04:44:47.000Z",
+  "views": 3202,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2013-04-22T16:17:57.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "spiff-sotm-game-tracker",
+  "category_id": 7,
+  "word_count": 3617,
+  "deleted_at": null,
+  "user_id": 73,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_7469",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 27,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 10,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 73,
+        "username": "Spiff",
+        "name": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "post_count": 11,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 1390,
+        "username": "lynkfox",
+        "name": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "post_count": 3,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 3058,
+        "username": "Wendell",
+        "name": "Wendell",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/w/e9bcb4/{size}.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 442,
+        "username": "MigrantP",
+        "name": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "admin": true,
+        "trust_level": 2
+      },
+      {
+        "id": 4253,
+        "username": "dsparenga",
+        "name": "dsparenga",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/b5ac83/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 1374,
+        "username": "pyrofrog",
+        "name": "pyrofrog",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pyrofrog/{size}/1963_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 1902,
+        "username": "Koey",
+        "name": "Koey",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/koey/{size}/2187_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 20,
+        "username": "Rabit",
+        "name": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 3992,
+        "username": "Drakossozh",
+        "name": "Drakossozh",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/f05b48/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 18,
+        "username": "arenson9",
+        "name": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "moderator": true,
+        "trust_level": 4
+      }
+    ],
+    "created_by": {
+      "id": 73,
+      "username": "Spiff",
+      "name": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png"
+    },
+    "last_poster": {
+      "id": 4253,
+      "username": "dsparenga",
+      "name": "dsparenga",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/d/b5ac83/{size}.png"
+    }
+  },
+  "bookmarks": []
+}

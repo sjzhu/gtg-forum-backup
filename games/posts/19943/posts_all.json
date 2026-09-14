@@ -1,0 +1,1156 @@
+{
+  "posts": [
+    {
+      "id": 19944,
+      "name": "Justin Wawrzonek",
+      "username": "drevilz4l",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+      "created_at": "2020-05-31T23:51:12.000Z",
+      "cooked": "<p>Hey All. I've been working for the last week or&nbsp;so on a character builder in Google Sheets. I figured this would be the easiest to keep updated with new versions without having to share out a new file each time. I should stipulate that this sheet is very much a work in progress. All of the basic functionality I wanted to get into it is working, but there are things that I just have not figure out how to do yet, or have not implemented yet. That said here is what I have in the sheet so far:</p>\n<p><strong>Features:</strong></p>\n<p>1. Guided and Constructed Method Building (Minus Divided and Modular Archetypes for now. Need a bit more help putting those it)<br>\n2. Auto Selection of Power Sources, Archetypes, and Personalty based on rolls.<br>\n3. Filtering of Qualities and Powers<br>\n4. Auto Calculation of Health<br>\n5. Auto Filtering of Abilities<br>\n6. Auto Filtering of Principles<br>\n7. Auto Retcon for most features<br>\n8. Page References on most features.</p>\n<p>&nbsp;</p>\n<p>I would greatly appreciate any feedback (negative or positive) you can give me, as well as any help. Many of the formulas and calculations are definitely done inefficiently, but for the life of me I could not figure out how to make them work better. If you get a chance please check my underlying stuff and let me know a better way to do things. A few things I could not figure out easily were:<br>\n<br>\n1. Filtering a dropdown box using the results of another dropdown box. (I ended up having formulas on other sheets that reference the first box, that would in turn be accessed by the second box.</p>\n<p>2. Hiding features that are not part of the current section (Eg. I had to show all 3 qualities&nbsp;even though some backgrounds&nbsp;only choose 2)</p>\n<p>3. A better way to be able to select green powers as yellow powers than what I have set up (Certain archetypes let you do this)<br>\n4. The way I filtered Red Abilities based on the available powers chosen is complete insanity, and I know theres a better way to do it. (Check the RedAbilities Tab)<br>\n5. I could not find a good way to auto calculate if you chose any Athletic or Mental Powers and then chose the highest die chosen from those.&nbsp;</p>\n<p><strong>I also have a question about one feature on the sheet.</strong></p>\n<p>Do you like the previews of the options that appear after you choose your dice? (Eg background shows you the 3 backgrounds before you select one)<br>\nI kind of feel that it is redundant as you see all the info below as well, but originally had it to give you a quick look at all of them. I'm just not sure if its taking up unnecessry room or if people like it.</p>\n<p>&nbsp;</p>\n<p>Anyway I hope this helps at last someone out. Please feel free to make a copy, steal anything you want from it, rework it, or just use parts to build something better. I did this for fun, and to hopefully help the community out. All I ask is that if you make something cool with it that you share it here, or at least share it with me so I can see it. I love cool stuff too.</p>\n<p>&nbsp;</p>\n<p><a href=\"https://drive.google.com/drive/folders/1XfXy4-vJqSPuxIYZubPPl-48Zwtsmmrh?usp=sharing\" rel=\"noopener nofollow ugc\">Beeromancer's Sentinels RPG Character Builder</a></p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:53:49.817Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 3110,
+      "reads": 70,
+      "readers_count": 69,
+      "score": 15544.0,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Justin Wawrzonek",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://drive.google.com/drive/folders/1XfXy4-vJqSPuxIYZubPPl-48Zwtsmmrh?usp=sharing",
+          "internal": false,
+          "reflection": false,
+          "title": "SCRPG Builder Public - Google Drive",
+          "clicks": 1183
+        }
+      ],
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>Hey All. I've been working for the last week or&nbsp;so on a character builder in Google Sheets. I figured this would be the easiest to keep updated with new versions without having to share out a new file each time. I should stipulate that this sheet is very much a work in progress. All of the basic functionality I wanted to get into it is working, but there are things that I just have not figure out how to do yet, or have not implemented yet. That said here is what I have in the sheet so far:</p>\r\n\r\n<p><strong>Features:</strong></p>\r\n\r\n<p>1. Guided and Constructed Method Building (Minus Divided and Modular Archetypes for now. Need a bit more help putting those it)<br />\r\n2. Auto Selection of Power Sources, Archetypes, and Personalty based on rolls.<br />\r\n3. Filtering of Qualities and Powers<br />\r\n4. Auto Calculation of Health<br />\r\n5. Auto Filtering of Abilities<br />\r\n6. Auto Filtering of Principles<br />\r\n7. Auto Retcon for most features<br />\r\n8. Page References on most features.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>I would greatly appreciate any feedback (negative or positive) you can give me, as well as any help. Many of the formulas and calculations are definitely done inefficiently, but for the life of me I could not figure out how to make them work better. If you get a chance please check my underlying stuff and let me know a better way to do things. A few things I could not figure out easily were:<br />\r\n<br />\r\n1. Filtering a dropdown box using the results of another dropdown box. (I ended up having formulas on other sheets that reference the first box, that would in turn be accessed by the second box.</p>\r\n\r\n<p>2. Hiding features that are not part of the current section (Eg. I had to show all 3 qualities&nbsp;even though some backgrounds&nbsp;only choose 2)</p>\r\n\r\n<p>3. A better way to be able to select green powers as yellow powers than what I have set up (Certain archetypes let you do this)<br />\r\n4. The way I filtered Red Abilities based on the available powers chosen is complete insanity, and I know theres a better way to do it. (Check the RedAbilities Tab)<br />\r\n5. I could not find a good way to auto calculate if you chose any Athletic or Mental Powers and then chose the highest die chosen from those.&nbsp;</p>\r\n\r\n<p><strong>I also have a question about one feature on the sheet.</strong></p>\r\n\r\n<p>Do you like the previews of the options that appear after you choose your dice? (Eg background shows you the 3 backgrounds before you select one)<br />\r\nI kind of feel that it is redundant as you see all the info below as well, but originally had it to give you a quick look at all of them. I'm just not sure if its taking up unnecessry room or if people like it.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Anyway I hope this helps at last someone out. Please feel free to make a copy, steal anything you want from it, rework it, or just use parts to build something better. I did this for fun, and to hopefully help the community out. All I ask is that if you make something cool with it that you share it here, or at least share it with me so I can see it. I love cool stuff too.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"https://drive.google.com/drive/folders/1XfXy4-vJqSPuxIYZubPPl-48Zwtsmmrh?usp=sharing\">Beeromancer's Sentinels RPG Character Builder</a></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 83,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 230810,
+      "name": "Trappit",
+      "username": "Trappit",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/9f8e36/{size}.png",
+      "created_at": "2020-06-01T01:27:14.000Z",
+      "cooked": "<p>There are some typos for Flyer that doesn't allow it to find the powers on the GreenAbilities tab.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T06:05:54.771Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 61,
+      "readers_count": 60,
+      "score": 17.2,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Trappit",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>There are some typos for Flyer that doesn't allow it to find the powers on the GreenAbilities tab.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17624,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2020-01-31",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 230811,
+      "name": "Justin Wawrzonek",
+      "username": "drevilz4l",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+      "created_at": "2020-06-01T01:38:14.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"Trappit\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/t/9f8e36/48.png\" class=\"avatar\"> Trappit:</div>\n<blockquote>\n<p>There are some typos for Flyer that doesn’t allow it to find the powers on the GreenAbilities tab.</p>\n</blockquote>\n</aside>\n<p>Thanks Man! Appreciate the find. It has been fixed.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T06:05:54.837Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 2,
+      "reads": 54,
+      "readers_count": 53,
+      "score": 20.8,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Justin Wawrzonek",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "[quote=\"Trappit\"]\n\nThere are some typos for Flyer that doesn't allow it to find the powers on the GreenAbilities tab.\n\n[/quote]\n\nThanks Man! Appreciate the find. It has been fixed.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 83,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 230812,
+      "name": "Justin Wawrzonek",
+      "username": "drevilz4l",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+      "created_at": "2020-06-02T13:43:18.000Z",
+      "cooked": "<p>Constructed Mode added.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T06:05:54.910Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 51,
+      "readers_count": 50,
+      "score": 10.2,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Justin Wawrzonek",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>Constructed Mode added.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 83,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 230813,
+      "name": "Harknail",
+      "username": "Harknail",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/harknail/{size}/1972_2.png",
+      "created_at": "2020-06-10T17:48:44.000Z",
+      "cooked": "<p>I really like the previews in guided mode. It helps to see all options at once when making choices.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T06:05:54.969Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 49,
+      "readers_count": 48,
+      "score": 24.8,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Harknail",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I really like the previews in guided mode. It helps to see all options at once when making choices.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 719,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-09-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 237895,
+      "name": "Justin Wawrzonek",
+      "username": "drevilz4l",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+      "created_at": "2021-05-28T15:15:54.331Z",
+      "cooked": "<p>I figured I’d bump this as the game is out proper now. I’m kind of at a dead end for adding more functionality to it, but if anyone smarter than me wants to tweak this up please feel free.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-05-28T15:15:54.331Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 45,
+      "readers_count": 44,
+      "score": 39.0,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Justin Wawrzonek",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "I figured I'd bump this as the game is out proper now. I'm kind of at a dead end for adding more functionality to it, but if anyone smarter than me wants to tweak this up please feel free.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 83,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "notice": {
+        "type": "returning_user",
+        "last_posted_at": "2020-06-02T13:43:18Z"
+      },
+      "user_cakedate": "2011-09-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 252425,
+      "name": "Justin Wawrzonek",
+      "username": "drevilz4l",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+      "created_at": "2023-04-26T19:59:48.528Z",
+      "cooked": "<p>Space Jello on the Discord a few minor tweaks to the builder. Figured I’d update it here.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2023-04-26T19:59:48.528Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 32,
+      "readers_count": 31,
+      "score": 61.4,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Justin Wawrzonek",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "Space Jello on the Discord a few minor tweaks to the builder. Figured I'd update it here.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 3,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 83,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "notice": {
+        "type": "returning_user",
+        "last_posted_at": "2021-05-28T15:15:54Z"
+      },
+      "user_cakedate": "2011-09-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 252439,
+      "name": "der andere Jan",
+      "username": "der_andere_Jan",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/der_andere_jan/{size}/1881_2.png",
+      "created_at": "2023-04-28T08:58:43.089Z",
+      "cooked": "<p>Appreciate all the work you have put into this!<br>\nSadly, I can’t seem to get it to work - whenever I pick a choice from a dropdown, nothing else changes… is there something stupid I am missing?</p>\n<p>EDIT: Yes, there is!<br>\nI tried working with a downloaded copy - but the interactivity is obviously tied to google drive.<br>\nConsequently, I need to make a copy <em>in google drive</em>, and work from there.<br>\nLeaving this here in case someone else wonders <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\"></p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2023-04-28T09:05:00.425Z",
+      "reply_count": 1,
+      "reply_to_post_number": 7,
+      "quote_count": 0,
+      "incoming_link_count": 2,
+      "reads": 31,
+      "readers_count": 30,
+      "score": 81.2,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "der andere Jan",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 2,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "reply_to_user": {
+        "username": "drevilz4l",
+        "name": "Justin Wawrzonek",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png"
+      },
+      "bookmarked": false,
+      "raw": "Appreciate all the work you have put into this!\nSadly, I can't seem to get it to work - whenever I pick a choice from a dropdown, nothing else changes... is there something stupid I am missing?\n\nEDIT: Yes, there is!\nI tried working with a downloaded copy - but the interactivity is obviously tied to google drive.\nConsequently, I need to make a copy *in google drive*, and work from there.\nLeaving this here in case someone else wonders :)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5978,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": true,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 252597,
+      "name": "Justin Wawrzonek",
+      "username": "drevilz4l",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+      "created_at": "2023-05-16T16:10:59.533Z",
+      "cooked": "<p>Man I need to get notifications for my posts set up, I completely missed this. Yeah if you don’t make a copy it is read only. Very easy mistake to make.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2023-05-16T16:10:59.533Z",
+      "reply_count": 0,
+      "reply_to_post_number": 8,
+      "quote_count": 0,
+      "incoming_link_count": 8,
+      "reads": 29,
+      "readers_count": 28,
+      "score": 105.8,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Justin Wawrzonek",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "reply_to_user": {
+        "username": "der_andere_Jan",
+        "name": "der andere Jan",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/der_andere_jan/{size}/1881_2.png"
+      },
+      "bookmarked": false,
+      "raw": "Man I need to get notifications for my posts set up, I completely missed this. Yeah if you don't make a copy it is read only. Very easy mistake to make.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 83,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 256763,
+      "name": "",
+      "username": "Albavar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/45deac/{size}.png",
+      "created_at": "2024-02-09T18:42:36.770Z",
+      "cooked": "<p>I appreciate this tremendously.  My group is browbeating me into using the game to recreate City of Heroes and this really helps try to keep using the already play balanced powers rather than trying to translate from the online game. (Damage over Time and crowd control powers really do not represent well in Sentinel Comics. lol)</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2024-02-09T18:42:36.770Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 24,
+      "readers_count": 23,
+      "score": 44.8,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I appreciate this tremendously.  My group is browbeating me into using the game to recreate City of Heroes and this really helps try to keep using the already play balanced powers rather than trying to translate from the online game. (Damage over Time and crowd control powers really do not represent well in Sentinel Comics. lol)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 18432,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2023-08-16",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 256766,
+      "name": "Chief Lackey Rich",
+      "username": "Chief_Lackey_Rich",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+      "created_at": "2024-02-09T19:43:02.111Z",
+      "cooked": "<p>My CoH experience is very limited, but many crowd control effects could be roughly modeled as abilities with multi-target Hinder effects.</p>\n<p>DoTs are harder.  I can think of an ability or two that might deal damage to a target on their next turn if they roll doubles, but that’s not really a proper DoT.  The basic concept of “do more damage but it taking time to happen” doesn’t mesh very well with the scene tracker concept, although you could probably playtest something that could sort of work.  Action scenes in the SCRPG are on a tighter “clock” than most MMORPG battles are - and many traditional TTRPGs, for that matter.  Dealing slow but steady damage without burning actions isn’t quite as good here.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2024-02-09T19:43:02.111Z",
+      "reply_count": 0,
+      "reply_to_post_number": 10,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 24,
+      "readers_count": 23,
+      "score": 24.8,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Chief Lackey Rich",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "reply_to_user": {
+        "username": "Albavar",
+        "name": "",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/45deac/{size}.png"
+      },
+      "bookmarked": false,
+      "raw": "My CoH experience is very limited, but many crowd control effects could be roughly modeled as abilities with multi-target Hinder effects.  \n\nDoTs are harder.  I can think of an ability or two that might deal damage to a target on their next turn if they roll doubles, but that's not really a proper DoT.  The basic concept of \"do more damage but it taking time to happen\" doesn't mesh very well with the scene tracker concept, although you could probably playtest something that could sort of work.  Action scenes in the SCRPG are on a tighter \"clock\" than most MMORPG battles are - and many traditional TTRPGs, for that matter.  Dealing slow but steady damage without burning actions isn't quite as good here.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 228,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-10-14",
+      "user_birthdate": "1904-05-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 256773,
+      "name": "",
+      "username": "Albavar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/45deac/{size}.png",
+      "created_at": "2024-02-10T15:45:36.102Z",
+      "cooked": "<p>I completely agree. I just have to explain to the guys why 60% of the powers have essentially collapsed into the basic Attack action using the power die as part of the roll.  The tight clock and simplicity of the actions is why I love SCRPG. I’ve run Champions, Marvel, DC, V&amp;V, M&amp;M, GURPS Supers, a FATE based supers, and a supers world using the Strange.  This is the most fluid and comic book like system I have ever run. Some of the others are more “realistic” or can more fully describe the limits of your powers. But that is just it, they are all about limits.  Only this and possibly FATE can really capture the magic of the writer’s twist that turns everything on its head that makes comics so much fun to read.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2024-02-10T15:45:36.102Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 20,
+      "readers_count": 19,
+      "score": 24.0,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I completely agree. I just have to explain to the guys why 60% of the powers have essentially collapsed into the basic Attack action using the power die as part of the roll.  The tight clock and simplicity of the actions is why I love SCRPG. I've run Champions, Marvel, DC, V&V, M&M, GURPS Supers, a FATE based supers, and a supers world using the Strange.  This is the most fluid and comic book like system I have ever run. Some of the others are more \"realistic\" or can more fully describe the limits of your powers. But that is just it, they are all about limits.  Only this and possibly FATE can really capture the magic of the writer's twist that turns everything on its head that makes comics so much fun to read.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 18432,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2023-08-16",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    },
+    {
+      "id": 256776,
+      "name": "Chief Lackey Rich",
+      "username": "Chief_Lackey_Rich",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+      "created_at": "2024-02-10T16:51:00.699Z",
+      "cooked": "<p>I’m inclined to agree, although I admit I still get the itch to play other systems that take different approaches now and then.  Both the OOP Marvel Heroic (the last iteration before the current one) and its cousin Cortex Prime come close to the SCRPG (and all three have Cam Banks prominently placed in the design teams) but the latter is the most recent and perhaps the most refined.  If nothing else it doesn’t make me feel like gameplay is often a dice-fiddling mechanic the way his earlier systems sometimes do.</p>\n<p>If you haven’t tried any of them, the various Powered By the Apocalypse-engine supers games out there might also be worth your time to look at.  Masks is the best known of them but there are a couple of others that don’t focus on coming-of-age stories the way Masks does.  They won’t be to everyone’s taste, but they certainly do have their fans and I’ve enjoyed my outings playing Masks in a 1980s setting - the time period where I was actually a teenager and can realistically portray one, something I’d struggle to do in a modern campaign.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2024-02-10T16:51:00.699Z",
+      "reply_count": 0,
+      "reply_to_post_number": 12,
+      "quote_count": 0,
+      "incoming_link_count": 4,
+      "reads": 19,
+      "readers_count": 18,
+      "score": 23.8,
+      "yours": false,
+      "topic_id": 19943,
+      "topic_slug": "sentinel-comics-rpg-digital-character-builder",
+      "display_username": "Chief Lackey Rich",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "reply_to_user": {
+        "username": "Albavar",
+        "name": "",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/45deac/{size}.png"
+      },
+      "bookmarked": false,
+      "raw": "I'm inclined to agree, although I admit I still get the itch to play other systems that take different approaches now and then.  Both the OOP Marvel Heroic (the last iteration before the current one) and its cousin Cortex Prime come close to the SCRPG (and all three have Cam Banks prominently placed in the design teams) but the latter is the most recent and perhaps the most refined.  If nothing else it doesn't make me feel like gameplay is often a dice-fiddling mechanic the way his earlier systems sometimes do.\n\nIf you haven't tried any of them, the various Powered By the Apocalypse-engine supers games out there might also be worth your time to look at.  Masks is the best known of them but there are a couple of others that don't focus on coming-of-age stories the way Masks does.  They won't be to everyone's taste, but they certainly do have their fans and I've enjoyed my outings playing Masks in a 1980s setting - the time period where I was actually a teenager and can realistically portray one, something I'd struggle to do in a modern campaign.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 228,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-10-14",
+      "user_birthdate": "1904-05-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": true
+    }
+  ]
+}

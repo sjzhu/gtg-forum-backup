@@ -1,0 +1,1721 @@
+{
+  "posts": [
+    {
+      "id": 5117,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-22T12:20:43.000Z",
+      "cooked": "<p>[font=courier]    class SubZeroAtmosphere : LastingCard {</p>\n<pre><code>    private class SubZeroStartVillainTurnTrigger : ITrigger {\n        private Trigger _VillainStart;\n        private Trigger _VillainEnd;\n\n        public SubZeroStartVillainTurnTrigger(Trigger villainStart, Trigger villainEnd) {\n            _VillainStart = villainStart;\n            _VillainEnd = villainEnd;\n        }\n\n        public bool Raise(Player value) {\n            var responses = new SortedSet&gt;(_VillainStart.Responses, new Trigger.ResponseByDateComparer());\n            foreach (var response in _VillainEnd.Responses.Where(r =&gt; r.Card.Type == CardType.Villain)) responses.Add(response);\n            var c = new Cancelable() { Value = value, IsCancelled = false };\n            foreach (var response in responses) {\n                response.OnNext(c);\n                if (c.IsCancelled) return false;\n            }\n            return true;\n        }\n\n\n        public IDisposable Subscribe(IObserver&gt; observer) {\n            return _VillainStart.Subscribe(observer);\n            \n        }\n    }\n\n    private class SubZeroEndVillainTurnTrigger : ITrigger {\n        private Trigger _VillainEnd;\n\n        public SubZeroEndVillainTurnTrigger(Trigger villainEnd) {\n            _VillainEnd = villainEnd;\n        }\n\n        public bool Raise(Player value) {\n            var responses = new SortedSet&gt;(\n                _VillainEnd.Responses.Where(r =&gt; r.Card.Type != CardType.Villain),\n                new Trigger.ResponseByDateComparer()\n            );\n            var c = new Cancelable() { Value = value, IsCancelled = false };\n            foreach (var response in responses) {\n                response.OnNext(c);\n                if (c.IsCancelled) return false;\n            }\n            return true;\n        }\n\n\n        public IDisposable Subscribe(IObserver&gt; observer) {\n            return _VillainEnd.Subscribe(observer);\n        }\n\n    }\n\n    private Trigger _VillainStart;\n    private Trigger _VillainEnd;\n\n    public SubZeroAtmosphere(HeroPlayer player) : base(\"Sub-Zero Atmosphere\", player) { }\n\n    protected override bool PlayLasting() {\n        if (!(Game.Villain.OnStartTurn is Trigger &amp;&amp; Game.Villain.OnEndTurn is Trigger)) return false;\n        _VillainStart = (Trigger)Game.Villain.OnStartTurn;\n        _VillainEnd = (Trigger)Game.Villain.OnEndTurn;\n        Game.Villain.OnStartTurn = new SubZeroStartVillainTurnTrigger(_VillainStart, _VillainEnd);\n        Game.Villain.OnEndTurn = new SubZeroEndVillainTurnTrigger(_VillainEnd);\n        return true;\n    }\n\n    protected override void DestroyCard() {\n        Game.Villain.OnStartTurn = _VillainStart;\n        Game.Villain.OnEndTurn = _VillainEnd;\n        base.DestroyCard();\n    }\n\n    public override bool CanPlay {\n        get { throw new NotImplementedException(); }\n    }\n\n    public override CardType Type {\n        get { return CardType.Hero; }\n    }\n\n    public override IEnumerable Keywords {\n        get { return new string[]{\"ongoing\"}; }\n    }\n\n    public override string GameText {\n        get {\n            return \"Any villain card which would act at the end of the villain turn instead acts at the start of the villain turn.\";\n        }\n    }\n\n    public override IEnumerable Powers {\n        get { return Enumerable.Empty(); }\n    }\n}[/font]</code></pre>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:34:41.130Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[font=courier]    class SubZeroAtmosphere : LastingCard {\n\n        private class SubZeroStartVillainTurnTrigger : ITrigger {\n            private Trigger _VillainStart;\n            private Trigger _VillainEnd;\n\n            public SubZeroStartVillainTurnTrigger(Trigger villainStart, Trigger villainEnd) {\n                _VillainStart = villainStart;\n                _VillainEnd = villainEnd;\n            }\n\n            public bool Raise(Player value) {\n                var responses = new SortedSet>(_VillainStart.Responses, new Trigger.ResponseByDateComparer());\n                foreach (var response in _VillainEnd.Responses.Where(r => r.Card.Type == CardType.Villain)) responses.Add(response);\n                var c = new Cancelable() { Value = value, IsCancelled = false };\n                foreach (var response in responses) {\n                    response.OnNext(c);\n                    if (c.IsCancelled) return false;\n                }\n                return true;\n            }\n\n\n            public IDisposable Subscribe(IObserver> observer) {\n                return _VillainStart.Subscribe(observer);\n                \n            }\n        }\n\n        private class SubZeroEndVillainTurnTrigger : ITrigger {\n            private Trigger _VillainEnd;\n\n            public SubZeroEndVillainTurnTrigger(Trigger villainEnd) {\n                _VillainEnd = villainEnd;\n            }\n\n            public bool Raise(Player value) {\n                var responses = new SortedSet>(\n                    _VillainEnd.Responses.Where(r => r.Card.Type != CardType.Villain),\n                    new Trigger.ResponseByDateComparer()\n                );\n                var c = new Cancelable() { Value = value, IsCancelled = false };\n                foreach (var response in responses) {\n                    response.OnNext(c);\n                    if (c.IsCancelled) return false;\n                }\n                return true;\n            }\n\n\n            public IDisposable Subscribe(IObserver> observer) {\n                return _VillainEnd.Subscribe(observer);\n            }\n\n        }\n\n        private Trigger _VillainStart;\n        private Trigger _VillainEnd;\n\n        public SubZeroAtmosphere(HeroPlayer player) : base(\"Sub-Zero Atmosphere\", player) { }\n\n        protected override bool PlayLasting() {\n            if (!(Game.Villain.OnStartTurn is Trigger && Game.Villain.OnEndTurn is Trigger)) return false;\n            _VillainStart = (Trigger)Game.Villain.OnStartTurn;\n            _VillainEnd = (Trigger)Game.Villain.OnEndTurn;\n            Game.Villain.OnStartTurn = new SubZeroStartVillainTurnTrigger(_VillainStart, _VillainEnd);\n            Game.Villain.OnEndTurn = new SubZeroEndVillainTurnTrigger(_VillainEnd);\n            return true;\n        }\n\n        protected override void DestroyCard() {\n            Game.Villain.OnStartTurn = _VillainStart;\n            Game.Villain.OnEndTurn = _VillainEnd;\n            base.DestroyCard();\n        }\n\n        public override bool CanPlay {\n            get { throw new NotImplementedException(); }\n        }\n\n        public override CardType Type {\n            get { return CardType.Hero; }\n        }\n\n        public override IEnumerable Keywords {\n            get { return new string[]{\"ongoing\"}; }\n        }\n\n        public override string GameText {\n            get {\n                return \"Any villain card which would act at the end of the villain turn instead acts at the start of the villain turn.\";\n            }\n        }\n\n        public override IEnumerable Powers {\n            get { return Enumerable.Empty(); }\n        }\n    }[/font]",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21736,
+      "name": "Adam",
+      "username": "Adam",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/adam/{size}/1946_2.png",
+      "created_at": "2011-08-22T12:24:33.000Z",
+      "cooked": "<p>Just out of curiosity, at what percentage of coding the entire card game are you? ???</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:48.681Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "Adam",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Just out of curiosity, at what percentage of coding the entire card game are you? ???",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21738,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-22T12:50:20.000Z",
+      "cooked": "<p>Well, as far as anything specific to Sentinels of the Multiverse itself, I’ve only coded two cards (one of which doesn’t exactly fit the current API).  Right now I’ve probably implemented most of the model, but none of the engine.  I know one tough hurdle I’m going to hit is the fact most (all?) enumerators already defined in the .NET framework are either wrappers around other enumerators, or they throw an exception when the underlying collection is modified while being enumerated.  I’ll likely have to implement my own wrapper enumerator which sets itself back to where it left off when the wrapped enumerator throws its exception.  Either that or reimplement a trigger’s collection of responses using the observer pattern while not relying on any enumerators, but the former sounds much simpler.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:48.754Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Well, as far as anything specific to Sentinels of the Multiverse itself, I've only coded two cards (one of which doesn't exactly fit the current API).  Right now I've probably implemented most of the model, but none of the engine.  I know one tough hurdle I'm going to hit is the fact most (all?) enumerators already defined in the .NET framework are either wrappers around other enumerators, or they throw an exception when the underlying collection is modified while being enumerated.  I'll likely have to implement my own wrapper enumerator which sets itself back to where it left off when the wrapped enumerator throws its exception.  Either that or reimplement a trigger's collection of responses using the observer pattern while not relying on any enumerators, but the former sounds much simpler.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21739,
+      "name": "Adam",
+      "username": "Adam",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/adam/{size}/1946_2.png",
+      "created_at": "2011-08-22T12:54:41.000Z",
+      "cooked": "<p>So…magic then? You’re using magic?</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:48.825Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "Adam",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "So.....magic then? You're using magic?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21740,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-22T12:58:49.000Z",
+      "cooked": "<p>If that’s what you people believe when you see a computer working, then yes, I’m using magic, hehehehe.</p>\n<p>Once I get the engine up to a decent point, I wouldn’t mind releasing it open source.  Of course, card packs would be a completely different story, as it would contain various IP (copyrights and trademarks) of Greater Than Games, and could get me in trouble.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:48.886Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "If that's what you people believe when you see a computer working, then yes, I'm using magic, hehehehe.\n\nOnce I get the engine up to a decent point, I wouldn't mind releasing it open source.  Of course, card packs would be a completely different story, as it would contain various IP (copyrights and trademarks) of Greater Than Games, and could get me in trouble.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21741,
+      "name": "Christopher",
+      "username": "Christopher",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+      "created_at": "2011-08-22T13:17:57.000Z",
+      "cooked": "<p>“Any sufficiently advanced technology is indistinguishable from magic.”<br>\n- Arthur C. Clarke</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:48.947Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "Christopher",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "\"Any sufficiently advanced technology is indistinguishable from magic.\" \n                         - Arthur C. Clarke",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": true,
+      "staff": true,
+      "user_id": 5,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21742,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-22T13:20:00.000Z",
+      "cooked": "<p>That must mean I’m some sort of grand warlock, yes?</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.014Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "That must mean I'm some sort of grand warlock, yes?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21744,
+      "name": "Tamar",
+      "username": "Tamar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/85f322/{size}.png",
+      "created_at": "2011-08-22T14:06:03.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Adam&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Adam\"\":</div>\n<blockquote>\n<p>So…magic then? You’re using magic?</p>\n</blockquote>\n</aside>\n<p>Sure looks like magic to me!</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.089Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "Tamar",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"Adam\"\"]\n\nSo.....magic then? You're using magic?\n\n[/quote]\n\n\nSure looks like magic to me!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21745,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2011-08-22T18:33:20.000Z",
+      "cooked": "<p>In thinking how I’d code the game, it seemed like a queue of actions to take would work well, where the result of an action could be more actions inserted into the queue at the head. I imagine the queue starting with a single task which is something like ‘Do a Round’. That task would then spawn a Villain Turn, each Hero Turn, and an environment Turn, all to be put in the queue, followed by another ‘Do a Round’ task. Beyond the queue, the model would need to have heroes, villains, environment and their associated draw pile, trash pile, in-play set, and hand. The piles, set, and hands would then have cards associated with them. Each card would then have actions they could spawn and effect filters they could set. Some actions, such as doing damage, would be implemented by looking through a set of source filters (like Absolute Zero changing cold damage he does to +1), general filters (like Legacy’s Galvanize setting all damage done by heroes to +1), and target filters (like Warlord Voss having all damage decreased by 1 or 2 for each minion). Other actions would primarily change the status of cards – this card is no longer in the hand, it is in the in-play set.</p>\n<p>I share this both because I felt like writing down what’s in my head and to ask The JayMann if this is like what he envisions.</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.172Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "In thinking how I'd code the game, it seemed like a queue of actions to take would work well, where the result of an action could be more actions inserted into the queue at the head. I imagine the queue starting with a single task which is something like 'Do a Round'. That task would then spawn a Villain Turn, each Hero Turn, and an environment Turn, all to be put in the queue, followed by another 'Do a Round' task. Beyond the queue, the model would need to have heroes, villains, environment and their associated draw pile, trash pile, in-play set, and hand. The piles, set, and hands would then have cards associated with them. Each card would then have actions they could spawn and effect filters they could set. Some actions, such as doing damage, would be implemented by looking through a set of source filters (like Absolute Zero changing cold damage he does to +1), general filters (like Legacy's Galvanize setting all damage done by heroes to +1), and target filters (like Warlord Voss having all damage decreased by 1 or 2 for each minion). Other actions would primarily change the status of cards -- this card is no longer in the hand, it is in the in-play set.\n\nI share this both because I felt like writing down what's in my head and to ask The JayMann if this is like what he envisions.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21746,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-22T18:46:43.000Z",
+      "cooked": "<p>Half of what you have written is what I’ve implemented.  However, instead of something generic like “filters” or whatnot, I’m using the Observable/Observer pattern (Reactive Framework).  Basically, the opposite of an enumerator (a push based enumerator of sorts).  Basically, anything that needs to respond to any event registers it’s response (observer) with a trigger (observable), and I’ve designed lasting cards to have a play time, and responses have a reference to a card, and if the card is lasting, it uses it’s play time (otherwise uses the current time or a custom defined time) such that all responses can then be sorted by earliest so that earlier responses are triggered first.  Also, any response can cancel the trigger, prevent further responses from responding to the trigger.  Many triggers I’m implementing in pairs, such that one trigger occurs before the action takes place (allowing the action to be cancelled before it’s performed) and one that occurs after the action (so it can respond to the fact the action actually took place).  Basically, the only thing I haven’t implemented yet is the code that processes each round (engine), and that’s because I’ll need a good amount of the model defined and set in stone so that engine is strait forward, and so that a necessary change in model doesn’t adversely effect the engine.</p>\n<p>Basic M-C-VM-V pattern (Model, Controller, View Model, View)</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.252Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Half of what you have written is what I've implemented.  However, instead of something generic like \"filters\" or whatnot, I'm using the Observable/Observer pattern (Reactive Framework).  Basically, the opposite of an enumerator (a push based enumerator of sorts).  Basically, anything that needs to respond to any event registers it's response (observer) with a trigger (observable), and I've designed lasting cards to have a play time, and responses have a reference to a card, and if the card is lasting, it uses it's play time (otherwise uses the current time or a custom defined time) such that all responses can then be sorted by earliest so that earlier responses are triggered first.  Also, any response can cancel the trigger, prevent further responses from responding to the trigger.  Many triggers I'm implementing in pairs, such that one trigger occurs before the action takes place (allowing the action to be cancelled before it's performed) and one that occurs after the action (so it can respond to the fact the action actually took place).  Basically, the only thing I haven't implemented yet is the code that processes each round (engine), and that's because I'll need a good amount of the model defined and set in stone so that engine is strait forward, and so that a necessary change in model doesn't adversely effect the engine.\n\nBasic M-C-VM-V pattern (Model, Controller, View Model, View)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21747,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2011-08-22T19:09:13.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;TheJayMann&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"TheJayMann\"\":</div>\n<blockquote>\n<p>Half of what you have written is what I’ve implemented.  However, instead of something generic like “filters” or whatnot, I’m using the Observable/Observer pattern (Reactive Framework).  Basically, the opposite of an enumerator (a push based enumerator of sorts).  Basically, anything that needs to respond to any event registers it’s response (observer) with a trigger (observable), and I’ve designed lasting cards to have a play time, and responses have a reference to a card, and if the card is lasting, it uses it’s play time (otherwise uses the current time or a custom defined time) such that all responses can then be sorted by earliest so that earlier responses are triggered first.  Also, any response can cancel the trigger, prevent further responses from responding to the trigger.  Many triggers I’m implementing in pairs, such that one trigger occurs before the action takes place (allowing the action to be cancelled before it’s performed) and one that occurs after the action (so it can respond to the fact the action actually took place).  Basically, the only thing I haven’t implemented yet is the code that processes each round (engine), and that’s because I’ll need a good amount of the model defined and set in stone so that engine is strait forward, and so that a necessary change in model doesn’t adversely effect the engine.</p>\n<p>Basic M-C-VM-V pattern (Model, Controller, View Model, View)</p>\n</blockquote>\n</aside>\n<p>Very cool. I’d be keen to see it if you make it available. What do you have in mind for the View? Are you envisioning a web app?</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.333Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"TheJayMann\"\"]\n\nHalf of what you have written is what I've implemented.  However, instead of something generic like \"filters\" or whatnot, I'm using the Observable/Observer pattern (Reactive Framework).  Basically, the opposite of an enumerator (a push based enumerator of sorts).  Basically, anything that needs to respond to any event registers it's response (observer) with a trigger (observable), and I've designed lasting cards to have a play time, and responses have a reference to a card, and if the card is lasting, it uses it's play time (otherwise uses the current time or a custom defined time) such that all responses can then be sorted by earliest so that earlier responses are triggered first.  Also, any response can cancel the trigger, prevent further responses from responding to the trigger.  Many triggers I'm implementing in pairs, such that one trigger occurs before the action takes place (allowing the action to be cancelled before it's performed) and one that occurs after the action (so it can respond to the fact the action actually took place).  Basically, the only thing I haven't implemented yet is the code that processes each round (engine), and that's because I'll need a good amount of the model defined and set in stone so that engine is strait forward, and so that a necessary change in model doesn't adversely effect the engine.\n\nBasic M-C-VM-V pattern (Model, Controller, View Model, View)\n\n[/quote]\n\n\nVery cool. I'd be keen to see it if you make it available. What do you have in mind for the View? Are you envisioning a web app?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21749,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-22T19:50:57.000Z",
+      "cooked": "<p>Right now, WPF, as I’m experienced in using ViewModels in WPF.  <a href=\"http://ASP.NET\" rel=\"noopener nofollow ugc\">ASP.NET</a> MVC should work well with ViewModels as well, and Silverlight/WP7 is just a different version of WPF.  Other views shouldn’t be too difficult (for someone with experience that is) like MonoTouch, Monodroid, GTK#, etc.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.408Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://ASP.NET",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Right now, WPF, as I'm experienced in using ViewModels in WPF.  ASP.NET MVC should work well with ViewModels as well, and Silverlight/WP7 is just a different version of WPF.  Other views shouldn't be too difficult (for someone with experience that is) like MonoTouch, Monodroid, GTK#, etc.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21751,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2011-08-22T20:45:18.000Z",
+      "cooked": "<p>Certainly is a lot of magic talk. I can’t understand a bit, maybe speaking in Dragonic?</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.505Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Certainly is a lot of magic talk. I can't understand a bit, maybe speaking in Dragonic?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21753,
+      "name": "Tamar",
+      "username": "Tamar",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/85f322/{size}.png",
+      "created_at": "2011-08-22T21:22:00.000Z",
+      "cooked": "<p>I love listening in on other people’s nerdery, even when I don’t really get it <img src=\"//forums.greaterthangames.com/images/emoji/apple/stuck_out_tongue.png?v=9\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\">  It’s just fun to hear knowledgeable people talk about what they know.</p>\n<p>And maybe if I pay enough attention I’ll learn to cast fireball!</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.611Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "Tamar",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I love listening in on other people's nerdery, even when I don't really get it :P  It's just fun to hear knowledgeable people talk about what they know.\n\nAnd maybe if I pay enough attention I'll learn to cast fireball!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-01",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21754,
+      "name": "beevolant",
+      "username": "beevolant",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/b/8edcca/{size}.png",
+      "created_at": "2011-08-22T23:27:46.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;Tamar&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"Tamar\"\":</div>\n<blockquote>\n<p>And maybe if I pay enough attention I’ll learn to cast fireball!</p>\n</blockquote>\n</aside>\n<p>Ooooh! Fireball! My favorite! <img src=\"https://forums.greaterthangames.com/images/emoji/apple/smiley.png?v=12\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>I once programmed a website in html <em>mumblemumble</em> years ago. So for me, this looks more like <em>cue Announcer voice</em> Science FICTION!</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.691Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "beevolant",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"Tamar\"\"]\n\nAnd maybe if I pay enough attention I'll learn to cast fireball!\n\n[/quote]\n\n\nOoooh! Fireball! My favorite! :D\n\nI once programmed a website in html *mumblemumble* years ago. So for me, this looks more like *cue Announcer voice* Science FICTION!",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 14,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21755,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-27T23:00:21.000Z",
+      "cooked": "<p>[font=courier]    class DrawnToTheFlame : LastingCard {</p>\n<pre><code>    protected override bool PlayLasting() {\n        return true;\n    }\n\n    public override bool CanPlay {\n        get { return true; }\n    }\n\n    public override CardType Type {\n        get { return CardType.Hero; }\n    }\n\n    private string[] keywords = { \"Ongoing\" };\n\n    public override IEnumerable Keywords {\n        get { return keywords; }\n    }\n\n    public override string GameText {\n        get { return string.Empty; }\n    }\n\n    Power power = new Power() {\n        GameText = \"Ra deals each non-hero target 1 fire damage for each villain ongoing card in play.\",\n        Play = () =&gt; {\n            var damageCount = Game.Villain.CardsInPlay.Where(c =&gt; c.Keywords.Contains(\"Ongoing\")).Count();\n            foreach (var target in Game.CardsInPlay.OfType().Where(t =&gt; t.CardType != CardType.Hero)) this.DamageTarget(target, damageCount, DamageType.Fire);\n        },\n    };\n            \n    public override IEnumerable Powers {\n        get { return new Power[] { power }; }\n    }\n}[/font]\n</code></pre>\n<p>At a stuck point, more or less, so decided to draw a random card and implement it.  (Note: Card does not compile, as there currently is no Game.CardsInPlay list.  I’m still not sure if I should make a bunch of game level lists, or if I should just create a game level player list and compose the more specific lists as needed (e.g. Game.Players.SelectMany(p =&gt; p.CardsInPlay)).)</p>\n<p>I also have yet to implement services (request dialogs, etc)…</p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.767Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[font=courier]    class DrawnToTheFlame : LastingCard {\n\n        protected override bool PlayLasting() {\n            return true;\n        }\n\n        public override bool CanPlay {\n            get { return true; }\n        }\n\n        public override CardType Type {\n            get { return CardType.Hero; }\n        }\n\n        private string[] keywords = { \"Ongoing\" };\n\n        public override IEnumerable Keywords {\n            get { return keywords; }\n        }\n\n        public override string GameText {\n            get { return string.Empty; }\n        }\n\n        Power power = new Power() {\n            GameText = \"Ra deals each non-hero target 1 fire damage for each villain ongoing card in play.\",\n            Play = () => {\n                var damageCount = Game.Villain.CardsInPlay.Where(c => c.Keywords.Contains(\"Ongoing\")).Count();\n                foreach (var target in Game.CardsInPlay.OfType().Where(t => t.CardType != CardType.Hero)) this.DamageTarget(target, damageCount, DamageType.Fire);\n            },\n        };\n                \n        public override IEnumerable Powers {\n            get { return new Power[] { power }; }\n        }\n    }[/font]\n\nAt a stuck point, more or less, so decided to draw a random card and implement it.  (Note: Card does not compile, as there currently is no Game.CardsInPlay list.  I'm still not sure if I should make a bunch of game level lists, or if I should just create a game level player list and compose the more specific lists as needed (e.g. Game.Players.SelectMany(p => p.CardsInPlay)).) \n\nI also have yet to implement services (request dialogs, etc)...",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21756,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2011-08-28T01:25:33.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;TheJayMann&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"TheJayMann\"\":</div>\n<blockquote>\n<p>I’m still not sure if I should make a bunch of game level lists, or if I should just create a game level player list and compose the more specific lists as needed (e.g. Game.Players.SelectMany(p =&gt; p.CardsInPlay)).)</p>\n</blockquote>\n</aside>\n<p>I was thinking that the lists should be specific to individual players, such that a game would consist of one (or more!) villains, one (or more!) environments, and three to five (or less or more!) heroes, and then within each villain, environment, and hero you’d have separate lists for draw pile, trash, hand, and in-play.</p>\n<p>I mostly think of it that way because, well, that’s how I think of the game, but if you have game-level lists, then you have to tag each individual card with who owns it and what state (draw pile, trash, hand, in-play) anyway.</p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.854Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"TheJayMann\"\"]\n\n\nI'm still not sure if I should make a bunch of game level lists, or if I should just create a game level player list and compose the more specific lists as needed (e.g. Game.Players.SelectMany(p => p.CardsInPlay)).)\n\n\n[/quote]\n\n\nI was thinking that the lists should be specific to individual players, such that a game would consist of one (or more!) villains, one (or more!) environments, and three to five (or less or more!) heroes, and then within each villain, environment, and hero you'd have separate lists for draw pile, trash, hand, and in-play.\n\nI mostly think of it that way because, well, that's how I think of the game, but if you have game-level lists, then you have to tag each individual card with who owns it and what state (draw pile, trash, hand, in-play) anyway.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21758,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-28T01:36:30.000Z",
+      "cooked": "<p>If I were to have game level lists, they would just be enumerable wrappers over the individual lists.  The internal debate is whether to create a game level wrapper for each possible list, or just create a player wrapper and compose the lists as needed.  (I.e. do I create public static Pile CardsInPlay { get { return players.SelectMany(p=&gt;p.CardsInPlay);}} or do I just use Game.Players.SelectMany(p=&gt; p.CardsInPlay) each time I need to get all cards in play?)</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:49.964Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "If I were to have game level lists, they would just be enumerable wrappers over the individual lists.  The internal debate is whether to create a game level wrapper for each possible list, or just create a player wrapper and compose the lists as needed.  (I.e. do I create public static Pile CardsInPlay { get { return players.SelectMany(p=>p.CardsInPlay);}} or do I just use Game.Players.SelectMany(p=> p.CardsInPlay) each time I need to get all cards in play?)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21759,
+      "name": "arenson9",
+      "username": "arenson9",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+      "created_at": "2011-08-28T04:58:10.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"&quot;&quot;TheJayMann&quot;&quot;\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n \"\"TheJayMann\"\":</div>\n<blockquote>\n<p>If I were to have game level lists, they would just be enumerable wrappers over the individual lists.  The internal debate is whether to create a game level wrapper for each possible list, or just create a player wrapper and compose the lists as needed.  (I.e. do I create public static Pile CardsInPlay { get { return players.SelectMany(p=&gt;p.CardsInPlay);}} or do I just use Game.Players.SelectMany(p=&gt; p.CardsInPlay) each time I need to get all cards in play?)</p>\n</blockquote>\n</aside>\n<p>Ah. Very interesting. I can see arguments on both sides in terms of understandability. I’d probably implement the wrappers after about the 2nd or third time I wanted all of the cards in play.</p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:50.035Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "arenson9",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"\"TheJayMann\"\"]\n\nIf I were to have game level lists, they would just be enumerable wrappers over the individual lists.  The internal debate is whether to create a game level wrapper for each possible list, or just create a player wrapper and compose the lists as needed.  (I.e. do I create public static Pile CardsInPlay { get { return players.SelectMany(p=>p.CardsInPlay);}} or do I just use Game.Players.SelectMany(p=> p.CardsInPlay) each time I need to get all cards in play?)\n\n[/quote]\n\n\nAh. Very interesting. I can see arguments on both sides in terms of understandability. I'd probably implement the wrappers after about the 2nd or third time I wanted all of the cards in play.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 18,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 21761,
+      "name": "TheJayMann",
+      "username": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+      "created_at": "2011-08-28T05:51:09.000Z",
+      "cooked": "<p>So I created a chm based on what I’ve documented of the model thus far.  I can’t attach more than 192 KB at a time, so I have to provide a link.</p>\n<p><a href=\"http://www.mediafire.com/download.php?spb13h8khh8dp8h\" class=\"onebox\" target=\"_blank\" rel=\"noopener nofollow ugc\">http://www.mediafire.com/download.php?spb13h8khh8dp8h</a></p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:55:50.124Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 5114,
+      "topic_slug": "im-bored",
+      "display_username": "TheJayMann",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.mediafire.com/download.php?spb13h8khh8dp8h",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "So I created a chm based on what I've documented of the model thus far.  I can't attach more than 192 KB at a time, so I have to provide a link.\n\nhttp://www.mediafire.com/download.php?spb13h8khh8dp8h",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-07",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

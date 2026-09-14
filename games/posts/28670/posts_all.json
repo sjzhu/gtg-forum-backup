@@ -1,0 +1,994 @@
+{
+  "posts": [
+    {
+      "id": 239195,
+      "name": "Chaosmancer",
+      "username": "Chaosmancer",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chaosmancer/{size}/1977_2.png",
+      "created_at": "2021-07-11T20:42:03.749Z",
+      "cooked": "<p>So, I don’t know if this has been discussed much before, a cursory glance through the threads didn’t jump out at me, but I’m curious about people’s thoughts on the defend action/reaction/ect. I’m not only looking to critique, but also seeing if I’m missing a kep component.</p>\n<p>Starting at the basics. You can use your entire turn to roll a die pool and defend against a single attack.</p>\n<p>This seems… basically never worth it. The only two instances I can think of someone doing this involve knowing for a fact you will be the target of the attack. Either because you are blocking a doorway, or because you have taunted the villain in some way. This is especially bad in any situation where you are getting hit by multiple targets.</p>\n<p>Then you have Hit the Deck. Roll a single die defend reaction to a single attack, and take a minor twist on top of it.</p>\n<p>And this really depends on the twists. It is very possible to roll poorly on the defend and still take most of the damage, but then you also are taking a minor twist which could be say a hinder on your next action. You’ve traded maybe 4 hp in exchange for a -2 on your next action, which could spiral into many more issues.</p>\n<p>But, I think also that we are in a situation that makes it hard to alter Hit the Deck.</p>\n<p>Before I get into that, a bit of context for some experience. I’ve been running basically a 1-player game of Sentinels for a while now. The character in question has the Genius ability “A Plan for Everything” which allows them to defend as a reaction, and boost based on the result of their roll. Combined with their Ressurrection… I’m pretty sure they are effectively unbeatable in a 1v1 fight. Especially combined with Expanded Mind to get a persistent Boost, they have fairly trivially gotten a +3 persistent, turning each defense into a 1d10+3, which spawns additional +3 and +4 boosts, allowing for them to easily get +6 on actions on their turn. I had a full “villain” against them at full health (hero turned bad, so I had built them as a hero) and the MC was at 11 health, and they curb stomped them.</p>\n<p>However, I have to be incredibly careful when coming up with scenarios for them, because even a small squad of 5d6 mooks can devastate them by focusing fire. And even the tankiest character can’t really safely stand up to more than 5 attacks per round.</p>\n<p>So, on one hand, I think that making Hit the Deck a “defend as a reaction” with no twist has a solid chance of making characters far too tanky. It makes winning 1v1 a real possibility, and the game is about a team of heroes. But, let us go ahead an also look at a few of the abilities that allow defense.</p>\n<details>\n<summary>\nI went through all of them alphabetically, it was a long list. Categorizing them below</summary>\n<p><strong>Ambush Awareness</strong> is a reaction defend that only works if you have not taken any actions.  This… very much sucks. If you are attacked, before you act, on the first turn… there are just too many gates here for no real benefit. It is a Green ability</p>\n<p><strong>Danger Sense</strong> allows a reaction defend, but only from environments and surprise attacks. This is already better than ambush awareness, but still pretty limited in scope. It is a yellow ability, but it is okay if the environment is a consistent concern.</p>\n<p><strong>Misdirection</strong> gets interesting. Yellow ability, reaction defend if someone else is getting attacked and they are yellow or red. Defend that damage, then redirect any remaining to a minion of your choice. This is… really good. Completely cancels an attack against an ally, with a chance of taking out a minion. Less good if there are no minions around, but still, this is good.</p>\n<p><strong>Mystic Redirection</strong> is less good, but still potentially good. Yellow ability that allows you to cancel an attack against a yellow or red ally, but you defend against the damage and take any spillover. Taking a hit for an ally can be really good, taking the hit yourself is situational, in my opinion.</p>\n<p><strong>Magical Shield</strong> is a good defend, but you can’t use it to defend yourself, only an ally in Yellow or Red. I guess it is comparable to Redirection, in that you are defending an ally, but they can still take damage, even if you take no damage. I guess it feels better to me because I’ve seen to many people take blows for others and drop, leaving the team high and dry, so taking damage yourself is something I’m much more leery of. Yellow.</p>\n<p><strong>Reach through The Veil</strong> is Magical shield, plus you can move the Ally to somewhere else in the scene. This is huge I think. Because you can move them out of range of further attacks, or towards something they need to get to. This is real good. Yellow</p>\n<p><strong>Halt</strong> is defend an attack from close range. Nothing really fancy here, but limited in terms of it having to be a close range thing attacking you. Yellow</p>\n<p><strong>A Plan for Everything</strong> I’ve already mentioned, it is bonkers good. (1)R</p>\n<p><strong>Extrasensory Awareness</strong> is odd. Green ability, defend any attack… but only if you would change zones if you took the damage.</p>\n<p><strong>Always on the Move</strong> is an attack, plus defend with min, Green. There are a few abilities like this, I’ll try and keep a count (1)</p>\n<p><strong>Shadowy Figure</strong> is the exact same thing, with a single improvement. The Defend is against all attacks. Green (3)</p>\n<p><strong>Diversion</strong> is just a straight defend. Yellow</p>\n<p><strong>Defensive Strike</strong> is the opposite of Always on the move. Defend, then attack with Min. Green.</p>\n<p><strong>Living Bulwark</strong> is almost Always on the Move, but defends another character.</p>\n<p><strong>Barrel Roll</strong> is a green defend that only applies while flying.</p>\n<p><strong>Energy Conversion</strong> is a max die defend, with a min die boost. Green</p>\n<p><strong>Adaptive Programming</strong> is a mid die defend, with a min die boost. Green.</p>\n<p><strong>Illusory Double</strong> is Diversion, but with a pre-defined power. Yellow.</p>\n<p><strong>Minuscule form</strong> is a green defend, max die, and removes all penalties.</p>\n<p><strong>Scout</strong> is overcome, max die defend, and move in the scene.</p>\n<p><strong>Bombardment</strong> is a defend, with a max attack. Yellow.</p>\n<p><strong>Regeneration</strong> is defend max, heal min. Yellow.</p>\n<p><strong>Stalwart</strong> is defending yourself and all nearby allies against all attacks. (Finally, I was wondering if this even existed)</p>\n<p><strong>Shield</strong> is a red defend, and if you reduce the damage to 0 you hinder the source.</p>\n<p><strong>Impenetrable Defense</strong> is a red defend of all attacks for Max+Mid. This is an Action.</p>\n<p><strong>Intercession</strong> is red, when multiple people are attacked you can take all that damage, rolling a defense of power+die</p>\n<p><strong>Defensive Deflection</strong> is basically Misdirection, but with much looser targeting restrictions.</p>\n<p><strong>Reactive Defense</strong> allows you to become the target and defend. This is a red ability. (1)</p>\n</details>\n<p>Okay, so what am I seeing? A whole lot of very hard to categorize things, but I can do my best.</p>\n<p>There are five reaction defends with limits. Some of the limits are easy (must be flying) some are much harder. Then there are two just standard defend reactions, one sort of has a limit in that is can only be used with a specific power, but that is trivial I thing.</p>\n<p>We also have a red defend that if you reduce the damage to 0, you hinder. This is basically the same as the standard defends, with a small rider. There is also a red defend with Max+Mid, but is an action.</p>\n<ul>\n<li>Call this 9 abilities that are either defend with limits or pure defend</li>\n</ul>\n<p>There are then three abilities (a yellow and two reds) that allow you to take a hit for an ally, and defend against that hit.</p>\n<p>I also want to make special mention of Intercession, which allows you to take a lot of hits for a lot of people, and defend against it. Depending on how this is supposed to work… this is literally a sacrifice play. Taking four instances of 8 is 32 damage, and you have to be in Red to do this.</p>\n<ul>\n<li>Call this 4 abilities that let you take the hit</li>\n</ul>\n<p>Magical Shield and Reach through the Veil allow you to defend an ally, but they might take spillover. Reach through also allows you to move the ally somewhere else, making it very powerful.</p>\n<p>Misdirection and Defensive Deflection (Red) do the same thing, but redirect the spillover to a different target, generally an enemy. Making these potentially the strongest defend reactions.</p>\n<ul>\n<li>Call this 4 abilities to defend an ally, increasing in power.</li>\n</ul>\n<p>Of course there is plan for everything and a red ability that allow you to defend and boost yourself as a reaction.</p>\n<p>Now we start getting into actions though, and we find some odd things.</p>\n<p>There are 5 abilities that allow you to attack and defend, some in different orders, but only single attacks.</p>\n<p>4 other abilities are attack and defend against all attacks. And a couple of these were green.</p>\n<p>Then we get 2 boost actions that include defends.</p>\n<p>Modular has a lot of options as actions, but they have some weirder things. A defend that removes hinders, a defend that moves you, a defend that heals. and Finally the only place where you can get a defend against all attacks that also defends your nearby allies. It is an action, but I wondered if this even existed.</p>\n<p>Trying to pull this even tighter into a bow, because ~24 abilities is a lot. Most defends are reactions or riders. Riders actually cover 14 of them. Only 5 abilities out of the ~24 allow you to defend against all attacks, only 1 of those isn’t a rider. There are more defends that are limited in scope or dangerous to use than that.  There are only four defend reactions that have a guaranteed positive for you, and two of them are Red. And finally, 8/24 of the abilities allow you to defend an ally, either taking the blow, shielding them, or redirecting.</p>\n<p>//////////////////////////////////////////////////////////////////////////////////////////////////////</p>\n<p>So, what kind of changes am I thinking of?</p>\n<p>Well, I think the most obvious thing is that the basic Defend Action and any ability that is focused on just being a defend action (maybe the defend + min heal) should be a defend against all attacks. Yes, this could allow you to cancel multiple enemy turns by canceling their damage, but this can also be achieved with AOE attacks or Hinders.</p>\n<p>In a situation against 6d6 minions, an AOE of 4 damage potentially kills all of them. A mass hinder of -2 reduces all damage they can deal by 2 to every target, and makes them less efficient at any given action. And these are not uncommon things for a hero to be able to do. Meanwhile, a defend may prevent them from killing you, but it doesn’t hinder their ability to boost, overcome or hinder you, and it leave them all alive while the clock ticks down.</p>\n<p>I also think we need way more abilities that allow for a hero to defend all of their allies. The fact that it is left to a single modular ability is bizarre to me. And the only other ability that allows for a mass defend has a high chance of killing the person doing it.</p>\n<p>But… do we change Hit the Deck? I don’t know. Some of the defend reactions like Reach Through the Veil or Plan for Everything would still be amazing even with hit the Deck not causing a twist, others would be rendered entirely useless. I don’t think the defends as riders would be affected, because there are a lot of good reactions in the game.</p>\n<p>But I also think a lot of these defend options that would be made useless… are already really bad. Like Ambush Awareness or Danger Sense, these abilities just don’t seem good to me anyways, because of how limited they are.</p>\n<p>So, thoughts? I know I rambled a lot, I’m not used to trying to analyze this game and the sure number of nearly identical abilities with minor tweaks makes it really hard to try and pin down what works and what the baseline should be.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-07-11T20:42:03.749Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 372,
+      "reads": 42,
+      "readers_count": 41,
+      "score": 1858.4,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "Chaosmancer",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "So, I don't know if this has been discussed much before, a cursory glance through the threads didn't jump out at me, but I'm curious about people's thoughts on the defend action/reaction/ect. I'm not only looking to critique, but also seeing if I'm missing a kep component. \n\nStarting at the basics. You can use your entire turn to roll a die pool and defend against a single attack. \n\nThis seems.... basically never worth it. The only two instances I can think of someone doing this involve knowing for a fact you will be the target of the attack. Either because you are blocking a doorway, or because you have taunted the villain in some way. This is especially bad in any situation where you are getting hit by multiple targets. \n\nThen you have Hit the Deck. Roll a single die defend reaction to a single attack, and take a minor twist on top of it. \n\nAnd this really depends on the twists. It is very possible to roll poorly on the defend and still take most of the damage, but then you also are taking a minor twist which could be say a hinder on your next action. You've traded maybe 4 hp in exchange for a -2 on your next action, which could spiral into many more issues. \n\nBut, I think also that we are in a situation that makes it hard to alter Hit the Deck. \n\n\nBefore I get into that, a bit of context for some experience. I've been running basically a 1-player game of Sentinels for a while now. The character in question has the Genius ability \"A Plan for Everything\" which allows them to defend as a reaction, and boost based on the result of their roll. Combined with their Ressurrection... I'm pretty sure they are effectively unbeatable in a 1v1 fight. Especially combined with Expanded Mind to get a persistent Boost, they have fairly trivially gotten a +3 persistent, turning each defense into a 1d10+3, which spawns additional +3 and +4 boosts, allowing for them to easily get +6 on actions on their turn. I had a full \"villain\" against them at full health (hero turned bad, so I had built them as a hero) and the MC was at 11 health, and they curb stomped them. \n\nHowever, I have to be incredibly careful when coming up with scenarios for them, because even a small squad of 5d6 mooks can devastate them by focusing fire. And even the tankiest character can't really safely stand up to more than 5 attacks per round. \n\nSo, on one hand, I think that making Hit the Deck a \"defend as a reaction\" with no twist has a solid chance of making characters far too tanky. It makes winning 1v1 a real possibility, and the game is about a team of heroes. But, let us go ahead an also look at a few of the abilities that allow defense. \n\n\n[details=\"I went through all of them alphabetically, it was a long list. Categorizing them below\"]\n**Ambush Awareness** is a reaction defend that only works if you have not taken any actions.  This... very much sucks. If you are attacked, before you act, on the first turn... there are just too many gates here for no real benefit. It is a Green ability\n\n**Danger Sense** allows a reaction defend, but only from environments and surprise attacks. This is already better than ambush awareness, but still pretty limited in scope. It is a yellow ability, but it is okay if the environment is a consistent concern. \n\n**Misdirection** gets interesting. Yellow ability, reaction defend if someone else is getting attacked and they are yellow or red. Defend that damage, then redirect any remaining to a minion of your choice. This is... really good. Completely cancels an attack against an ally, with a chance of taking out a minion. Less good if there are no minions around, but still, this is good. \n\n**Mystic Redirection** is less good, but still potentially good. Yellow ability that allows you to cancel an attack against a yellow or red ally, but you defend against the damage and take any spillover. Taking a hit for an ally can be really good, taking the hit yourself is situational, in my opinion. \n\n**Magical Shield** is a good defend, but you can't use it to defend yourself, only an ally in Yellow or Red. I guess it is comparable to Redirection, in that you are defending an ally, but they can still take damage, even if you take no damage. I guess it feels better to me because I've seen to many people take blows for others and drop, leaving the team high and dry, so taking damage yourself is something I'm much more leery of. Yellow.\n\n**Reach through The Veil** is Magical shield, plus you can move the Ally to somewhere else in the scene. This is huge I think. Because you can move them out of range of further attacks, or towards something they need to get to. This is real good. Yellow\n\n**Halt** is defend an attack from close range. Nothing really fancy here, but limited in terms of it having to be a close range thing attacking you. Yellow\n\n**A Plan for Everything** I've already mentioned, it is bonkers good. (1)R\n\n**Extrasensory Awareness** is odd. Green ability, defend any attack... but only if you would change zones if you took the damage. \n\n**Always on the Move** is an attack, plus defend with min, Green. There are a few abilities like this, I'll try and keep a count (1) \n\n**Shadowy Figure** is the exact same thing, with a single improvement. The Defend is against all attacks. Green (3)\n\n**Diversion** is just a straight defend. Yellow \n\n**Defensive Strike** is the opposite of Always on the move. Defend, then attack with Min. Green.\n\n**Living Bulwark** is almost Always on the Move, but defends another character. \n\n**Barrel Roll** is a green defend that only applies while flying. \n\n**Energy Conversion** is a max die defend, with a min die boost. Green\n\n**Adaptive Programming** is a mid die defend, with a min die boost. Green. \n\n**Illusory Double** is Diversion, but with a pre-defined power. Yellow.\n\n**Minuscule form** is a green defend, max die, and removes all penalties. \n\n**Scout** is overcome, max die defend, and move in the scene. \n\n**Bombardment** is a defend, with a max attack. Yellow. \n\n**Regeneration** is defend max, heal min. Yellow.\n\n**Stalwart** is defending yourself and all nearby allies against all attacks. (Finally, I was wondering if this even existed) \n\n**Shield** is a red defend, and if you reduce the damage to 0 you hinder the source. \n\n**Impenetrable Defense** is a red defend of all attacks for Max+Mid. This is an Action. \n\n**Intercession** is red, when multiple people are attacked you can take all that damage, rolling a defense of power+die\n\n**Defensive Deflection** is basically Misdirection, but with much looser targeting restrictions. \n\n**Reactive Defense** allows you to become the target and defend. This is a red ability. (1)\n[/details]\n \nOkay, so what am I seeing? A whole lot of very hard to categorize things, but I can do my best. \n\nThere are five reaction defends with limits. Some of the limits are easy (must be flying) some are much harder. Then there are two just standard defend reactions, one sort of has a limit in that is can only be used with a specific power, but that is trivial I thing. \n\nWe also have a red defend that if you reduce the damage to 0, you hinder. This is basically the same as the standard defends, with a small rider. There is also a red defend with Max+Mid, but is an action. \n\n- Call this 9 abilities that are either defend with limits or pure defend\n\n\nThere are then three abilities (a yellow and two reds) that allow you to take a hit for an ally, and defend against that hit. \n\nI also want to make special mention of Intercession, which allows you to take a lot of hits for a lot of people, and defend against it. Depending on how this is supposed to work... this is literally a sacrifice play. Taking four instances of 8 is 32 damage, and you have to be in Red to do this. \n\n- Call this 4 abilities that let you take the hit\n\nMagical Shield and Reach through the Veil allow you to defend an ally, but they might take spillover. Reach through also allows you to move the ally somewhere else, making it very powerful. \n\nMisdirection and Defensive Deflection (Red) do the same thing, but redirect the spillover to a different target, generally an enemy. Making these potentially the strongest defend reactions. \n\n\n- Call this 4 abilities to defend an ally, increasing in power. \n\n\nOf course there is plan for everything and a red ability that allow you to defend and boost yourself as a reaction. \n\n\nNow we start getting into actions though, and we find some odd things. \n\nThere are 5 abilities that allow you to attack and defend, some in different orders, but only single attacks. \n\n4 other abilities are attack and defend against all attacks. And a couple of these were green. \n\nThen we get 2 boost actions that include defends. \n\nModular has a lot of options as actions, but they have some weirder things. A defend that removes hinders, a defend that moves you, a defend that heals. and Finally the only place where you can get a defend against all attacks that also defends your nearby allies. It is an action, but I wondered if this even existed. \n\n\nTrying to pull this even tighter into a bow, because ~24 abilities is a lot. Most defends are reactions or riders. Riders actually cover 14 of them. Only 5 abilities out of the ~24 allow you to defend against all attacks, only 1 of those isn't a rider. There are more defends that are limited in scope or dangerous to use than that.  There are only four defend reactions that have a guaranteed positive for you, and two of them are Red. And finally, 8/24 of the abilities allow you to defend an ally, either taking the blow, shielding them, or redirecting.\n\n//////////////////////////////////////////////////////////////////////////////////////////////////////\n\nSo, what kind of changes am I thinking of? \n\nWell, I think the most obvious thing is that the basic Defend Action and any ability that is focused on just being a defend action (maybe the defend + min heal) should be a defend against all attacks. Yes, this could allow you to cancel multiple enemy turns by canceling their damage, but this can also be achieved with AOE attacks or Hinders. \n\nIn a situation against 6d6 minions, an AOE of 4 damage potentially kills all of them. A mass hinder of -2 reduces all damage they can deal by 2 to every target, and makes them less efficient at any given action. And these are not uncommon things for a hero to be able to do. Meanwhile, a defend may prevent them from killing you, but it doesn't hinder their ability to boost, overcome or hinder you, and it leave them all alive while the clock ticks down. \n\nI also think we need way more abilities that allow for a hero to defend all of their allies. The fact that it is left to a single modular ability is bizarre to me. And the only other ability that allows for a mass defend has a high chance of killing the person doing it. \n\nBut... do we change Hit the Deck? I don't know. Some of the defend reactions like Reach Through the Veil or Plan for Everything would still be amazing even with hit the Deck not causing a twist, others would be rendered entirely useless. I don't think the defends as riders would be affected, because there are a lot of good reactions in the game. \n\nBut I also think a lot of these defend options that would be made useless... are already really bad. Like Ambush Awareness or Danger Sense, these abilities just don't seem good to me anyways, because of how limited they are. \n\n\nSo, thoughts? I know I rambled a lot, I'm not used to trying to analyze this game and the sure number of nearly identical abilities with minor tweaks makes it really hard to try and pin down what works and what the baseline should be.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3125,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-12-29",
+      "user_birthdate": "1904-01-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239200,
+      "name": "catDreaming",
+      "username": "catDreaming",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/c/4491bb/{size}.png",
+      "created_at": "2021-07-11T23:36:05.425Z",
+      "cooked": "<p>Having played in a two multi player games, one with and one without defensive reactions, I don’t really have an issue with how Defends work. One hero games are very much not a good sample for comparison to normal gameplay, but if heroes are dying consistently, something else is probably also going wrong that needs addressing.<br>\nDefends don’t actually advance the heroes objective on their own. And I think that you are severely overestimating the severity of a minor twist, and I say that as someone who has had to use Hit The Deck to avoid going OUT during tough fights very often.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-07-11T23:36:05.425Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 39,
+      "readers_count": 38,
+      "score": 17.8,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "catDreaming",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Having played in a two multi player games, one with and one without defensive reactions, I don’t really have an issue with how Defends work. One hero games are very much not a good sample for comparison to normal gameplay, but if heroes are dying consistently, something else is probably also going wrong that needs addressing.\nDefends don’t actually advance the heroes objective on their own. And I think that you are severely overestimating the severity of a minor twist, and I say that as someone who has had to use Hit The Deck to avoid going OUT during tough fights very often.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 16355,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2017-09-25",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239228,
+      "name": "Chaosmancer",
+      "username": "Chaosmancer",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chaosmancer/{size}/1977_2.png",
+      "created_at": "2021-07-12T17:17:43.124Z",
+      "cooked": "<p>I don’t think I’m overestimating them, I think I am seeing that they are so variable as to be hard to quantify.</p>\n<p>It is a valid minor twist to put a new minion on the field. It is a valid minor twist to progress the scene a single tick, which could move it from yellow to red. It is a valid minor twist to hinder the hero based on the Max die, which will be the die you rolled, and could be a -3 on your next action. You could entirely lose a key green ability.</p>\n<p>These are all straight from the book. Are they as bad as being knocked completely out? No. But then are we saying that the only valid time to use Hit the Deck is to try and prevent you from going Out? Most other defend abilities aren’t written with that in mind.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-07-12T17:17:43.455Z",
+      "reply_count": 0,
+      "reply_to_post_number": 2,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 39,
+      "readers_count": 38,
+      "score": 12.8,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "Chaosmancer",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 2,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "reply_to_user": {
+        "username": "catDreaming",
+        "name": "catDreaming",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/4491bb/{size}.png"
+      },
+      "bookmarked": false,
+      "raw": "I don't think I'm overestimating them, I think I am seeing that they are so variable as to be hard to quantify. \n\nIt is a valid minor twist to put a new minion on the field. It is a valid minor twist to progress the scene a single tick, which could move it from yellow to red. It is a valid minor twist to hinder the hero based on the Max die, which will be the die you rolled, and could be a -3 on your next action. You could entirely lose a key green ability. \n\nThese are all straight from the book. Are they as bad as being knocked completely out? No. But then are we saying that the only valid time to use Hit the Deck is to try and prevent you from going Out? Most other defend abilities aren't written with that in mind.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3125,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": "Automatically removed quote of whole previous post.",
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-12-29",
+      "user_birthdate": "1904-01-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239231,
+      "name": "FrivYeti",
+      "username": "FrivYeti",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+      "created_at": "2021-07-12T18:27:42.223Z",
+      "cooked": "<p>I think that, if you’re generally worried about Defend being not good enough against minions and swarms, the best solution would be the following:</p>\n<ul>\n<li>\n<p>When you take a Defend action, or when an Ability grants you a Defend reaction, it is ablative. Apply the full rating against the first attack against you, and then reduce it by 1 against each successive attack until it hits 0. (This slightly weakens “Defend against everything” Abilities; you can either shrug and say that’s not a big deal, or give them +1 Defense to compensate.)</p>\n</li>\n<li>\n<p>When you “Hit the Deck”, you can use it as a reaction but it only applies to a single attack.</p>\n</li>\n</ul>\n<p>This doesn’t make Defend any stronger against big-die enemies, but it makes it more useful against minions. If you get attacked by four enemies for 4 damage each, currently a Defend of 4 stops 4 damage and you take 12, whereas a Defend 4 for the turn stops 16 damage and you take 0. Under this revision, it would stop 10 damage and you’d take 6.</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-07-12T18:27:42.223Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 38,
+      "readers_count": 37,
+      "score": 42.6,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "FrivYeti",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I think that, if you're generally worried about Defend being not good enough against minions and swarms, the best solution would be the following:\n\n* When you take a Defend action, or when an Ability grants you a Defend reaction, it is ablative. Apply the full rating against the first attack against you, and then reduce it by 1 against each successive attack until it hits 0. (This slightly weakens \"Defend against everything\" Abilities; you can either shrug and say that's not a big deal, or give them +1 Defense to compensate.) \n\n* When you \"Hit the Deck\", you can use it as a reaction but it only applies to a single attack. \n\nThis doesn't make Defend any stronger against big-die enemies, but it makes it more useful against minions. If you get attacked by four enemies for 4 damage each, currently a Defend of 4 stops 4 damage and you take 12, whereas a Defend 4 for the turn stops 16 damage and you take 0. Under this revision, it would stop 10 damage and you'd take 6.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 13884,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2016-02-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239237,
+      "name": "FrivYeti",
+      "username": "FrivYeti",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+      "created_at": "2021-07-12T21:28:55.684Z",
+      "cooked": "<p>Mulling it over, and there is a possibility that the kind of ablative Defense I’m discussing would make you pretty indestructible if you have Max die effects (a defense of 10, 9, 8, 7, 6 is going to swallow a heck of a lot of damage.) Something that might work better would be to halve your Defense after each hit, rounding up. This gives you very good defense against one hit, moderate defense against a second, and then dwindles fast, while also stopping at 1 instead of at 0 to ensure that you keep a little bit of defense whenever you act defensively.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-07-12T21:28:55.684Z",
+      "reply_count": 2,
+      "reply_to_post_number": 4,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 36,
+      "readers_count": 35,
+      "score": 32.2,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "FrivYeti",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "reply_to_user": {
+        "username": "FrivYeti",
+        "name": "FrivYeti",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png"
+      },
+      "bookmarked": false,
+      "raw": "Mulling it over, and there is a possibility that the kind of ablative Defense I'm discussing would make you pretty indestructible if you have Max die effects (a defense of 10, 9, 8, 7, 6 is going to swallow a heck of a lot of damage.) Something that might work better would be to halve your Defense after each hit, rounding up. This gives you very good defense against one hit, moderate defense against a second, and then dwindles fast, while also stopping at 1 instead of at 0 to ensure that you keep a little bit of defense whenever you act defensively.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 13884,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2016-02-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239239,
+      "name": "KateWalker",
+      "username": "TakeWalker",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+      "created_at": "2021-07-12T22:16:53.581Z",
+      "cooked": "<p>Maybe just reduce it by 2 per hit, so you don’t have to math as much?</p>\n<p>I do like this idea, as pure, one-hit defends are a pretty crappy effect and really only worth it as an add-on to an ability that does something else. Maybe a “defend everything” stops being ablative but its maximum value is reduced somehow.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-07-12T22:17:04.791Z",
+      "reply_count": 0,
+      "reply_to_post_number": 5,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 35,
+      "readers_count": 34,
+      "score": 22.0,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "KateWalker",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "reply_to_user": {
+        "username": "FrivYeti",
+        "name": "FrivYeti",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png"
+      },
+      "bookmarked": false,
+      "raw": "Maybe just reduce it by 2 per hit, so you don't have to math as much?\n\nI do like this idea, as pure, one-hit defends are a pretty crappy effect and really only worth it as an add-on to an ability that does something else. Maybe a \"defend everything\" stops being ablative but its maximum value is reduced somehow.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 14005,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2016-02-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239249,
+      "name": "Chaosmancer",
+      "username": "Chaosmancer",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chaosmancer/{size}/1977_2.png",
+      "created_at": "2021-07-13T11:07:19.319Z",
+      "cooked": "<p>I do like this idea of ablative rounding, but I’m curious why becoming very hard to hurt for a round is a bad thing?</p>\n<p>Going back to your math of the 4 minions dealing 4 damage, what do you see as the downsides of a player using their entire turn to tank that 16 damage?</p>\n<p>I think this is my biggest hang-up. Sentinels is not a game that rewards taking your time. So taking an entire turn to do nothing but make it more likely you survive to the next turn isn’t usually worth much, and it only becomes worth it if you can focus fire on yourself, and create a distraction for other team members to utilize. But, I feel like people are seeing something in the gameplay that I’m not.</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-07-13T11:07:19.319Z",
+      "reply_count": 1,
+      "reply_to_post_number": 5,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 34,
+      "readers_count": 33,
+      "score": 26.8,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "Chaosmancer",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "reply_to_user": {
+        "username": "FrivYeti",
+        "name": "FrivYeti",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png"
+      },
+      "bookmarked": false,
+      "raw": "I do like this idea of ablative rounding, but I'm curious why becoming very hard to hurt for a round is a bad thing? \n\nGoing back to your math of the 4 minions dealing 4 damage, what do you see as the downsides of a player using their entire turn to tank that 16 damage? \n\nI think this is my biggest hang-up. Sentinels is not a game that rewards taking your time. So taking an entire turn to do nothing but make it more likely you survive to the next turn isn't usually worth much, and it only becomes worth it if you can focus fire on yourself, and create a distraction for other team members to utilize. But, I feel like people are seeing something in the gameplay that I'm not.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 1,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3125,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-12-29",
+      "user_birthdate": "1904-01-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239256,
+      "name": "FrivYeti",
+      "username": "FrivYeti",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+      "created_at": "2021-07-13T15:55:33.152Z",
+      "cooked": "<p>Thematically, I’m not too concerned with using your entire turn to turtle. But I have three reasons to feel that it disrupts the game’s engine in unhelpful ways:</p>\n<ol>\n<li>\n<p>Using your Reaction to turtle while using your turn to be hyper-effective feels like it will dramatically reduce the usefulness of other Reactions. Given the choice between “I don’t take damage for the round” and “I hurt one minion” or “I boost when a thing happens to me”, one of those seems a lot bigger than the other two. And since there are a <em>lot</em> of Defend reactions, that’s a concern for a lot of characters.</p>\n</li>\n<li>\n<p>I feel like it’s a problem for Abilities that let you Defend and do a thing, because they’re balanced on the assumption that the Defend half of the action is a one-time thing. This is doubly true for villains, unless you’re only planning on giving lengthy defenses to heroes.</p>\n</li>\n<li>\n<p>It’s an issue for the GM’s tactical decisions. The GM isn’t supposed to be trying to ‘win’, but players can tell when you’re doing things that are just literally pointless. If everyone at the table knows that someone has 8 Defense, the minions throwing themselves uselessly at them doesn’t feel as much like a tank. It feels more like an oops. Whereas if someone has moderate defense, minions still piling on can do a little bit while still saving people with lower defense.</p>\n</li>\n</ol>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-07-13T15:55:33.152Z",
+      "reply_count": 1,
+      "reply_to_post_number": 7,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 31,
+      "readers_count": 30,
+      "score": 16.2,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "FrivYeti",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "reply_to_user": {
+        "username": "Chaosmancer",
+        "name": "Chaosmancer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/chaosmancer/{size}/1977_2.png"
+      },
+      "bookmarked": false,
+      "raw": "Thematically, I'm not too concerned with using your entire turn to turtle. But I have three reasons to feel that it disrupts the game's engine in unhelpful ways:\n\n1. Using your Reaction to turtle while using your turn to be hyper-effective feels like it will dramatically reduce the usefulness of other Reactions. Given the choice between \"I don't take damage for the round\" and \"I hurt one minion\" or \"I boost when a thing happens to me\", one of those seems a lot bigger than the other two. And since there are a *lot* of Defend reactions, that's a concern for a lot of characters. \n\n2. I feel like it's a problem for Abilities that let you Defend and do a thing, because they're balanced on the assumption that the Defend half of the action is a one-time thing. This is doubly true for villains, unless you're only planning on giving lengthy defenses to heroes.\n\n3. It's an issue for the GM's tactical decisions. The GM isn't supposed to be trying to 'win', but players can tell when you're doing things that are just literally pointless. If everyone at the table knows that someone has 8 Defense, the minions throwing themselves uselessly at them doesn't feel as much like a tank. It feels more like an oops. Whereas if someone has moderate defense, minions still piling on can do a little bit while still saving people with lower defense.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 13884,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2016-02-11",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239260,
+      "name": "Chaosmancer",
+      "username": "Chaosmancer",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/chaosmancer/{size}/1977_2.png",
+      "created_at": "2021-07-13T17:19:34.459Z",
+      "cooked": "<p>Ah, okay, this is part of the problem with the subject being spiked out in so many directions.</p>\n<ol>\n<li>\n<p>I absolutely would not do ablative defense for Hit the Deck. The only change I’ve really considered to Hit the Deck is not having a twist. I do think there are a lot of defend reactions that need to be altered, like the Ambush Awareness reaction which is very worthless in my opinion. And considering some of the other reactions are amazing (Plan for Everything or Mystic Redirection) I am not sure how much this would change.</p>\n</li>\n<li>\n<p>I have actually seen very few Villain defends that are only a defend once, most of them are “defend against all attacks” that I have seen. I do agree that the balance is a concern though.</p>\n</li>\n<li>\n<p>I think if it was every single turn, then it would feel strange, but GMs actually have a lot more options. Instead of attacking, you can hinder the tank. Or you could have some minions boost and the others attack. I do fully agree that a GM who just wastes turn after turn attacking an immovable object feels like a mistake, but there are enough other options and doing it once in a fight doesn’t feel like a mistake too me.</p>\n</li>\n</ol>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-07-13T17:19:34.459Z",
+      "reply_count": 0,
+      "reply_to_post_number": 8,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 30,
+      "readers_count": 29,
+      "score": 6.0,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "Chaosmancer",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "reply_to_user": {
+        "username": "FrivYeti",
+        "name": "FrivYeti",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png"
+      },
+      "bookmarked": false,
+      "raw": "Ah, okay, this is part of the problem with the subject being spiked out in so many directions. \n\n1) I absolutely would not do ablative defense for Hit the Deck. The only change I've really considered to Hit the Deck is not having a twist. I do think there are a lot of defend reactions that need to be altered, like the Ambush Awareness reaction which is very worthless in my opinion. And considering some of the other reactions are amazing (Plan for Everything or Mystic Redirection) I am not sure how much this would change. \n\n2) I have actually seen very few Villain defends that are only a defend once, most of them are \"defend against all attacks\" that I have seen. I do agree that the balance is a concern though. \n\n3) I think if it was every single turn, then it would feel strange, but GMs actually have a lot more options. Instead of attacking, you can hinder the tank. Or you could have some minions boost and the others attack. I do fully agree that a GM who just wastes turn after turn attacking an immovable object feels like a mistake, but there are enough other options and doing it once in a fight doesn't feel like a mistake too me.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3125,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-12-29",
+      "user_birthdate": "1904-01-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239377,
+      "name": "Cult of Gloom",
+      "username": "Cult_of_Gloom",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/cult_of_gloom/{size}/1878_2.png",
+      "created_at": "2021-07-16T23:45:34.591Z",
+      "cooked": "<p>For standard SCRPG play, Defending being bad is not a bug its a feature.</p>\n<p>SCRPG is a proactive game with a time limit. The heroes have enemies to defeat, challenges to overcome, and objectives to accomplish and if playing defense was good a lot more scenes would end with healthy heroes watching the doomsday device fire.</p>\n<p>The other thing to keep in mind is that the GM is not trying to win. If you use a villain ability to create a number of minions, those minions should spread out and attack multiple heroes even though it would be objectively more useful to focus fire.</p>\n<p>So for general play, i wouldn’t personally be in favor of making Defend or Hit the Deck any stronger.</p>\n<p>For single play, you’re going to have to change things around for sure. The game is not designed for it. Even the tankest hero is never going to be invincible in one v one because there are plenty of tricks villains have to deal with it. (unreactable attacks, using overcomes to create challenges the hero needs to deal with and generating twists, using overcomes to hide and make the hero waste time tracking them down while the scene ticks forward and generates twists, just eating them every turn as a titan to name a few) but several -villains- are pretty darn close to it. More so if the environment is under villain/GM control, which the default assumption is that it is. So they get to play turn order paddy cake all the time while the hero is on their lonesome.</p>\n<p>I don’t know that improving defend or hit the deck is the way i would go about it though, I don’t think it would be enough.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-07-16T23:45:34.591Z",
+      "reply_count": 1,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 3,
+      "reads": 27,
+      "readers_count": 26,
+      "score": 70.4,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "Cult of Gloom",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "For standard SCRPG play, Defending being bad is not a bug its a feature. \n\nSCRPG is a proactive game with a time limit. The heroes have enemies to defeat, challenges to overcome, and objectives to accomplish and if playing defense was good a lot more scenes would end with healthy heroes watching the doomsday device fire.\n\nThe other thing to keep in mind is that the GM is not trying to win. If you use a villain ability to create a number of minions, those minions should spread out and attack multiple heroes even though it would be objectively more useful to focus fire. \n\nSo for general play, i wouldn't personally be in favor of making Defend or Hit the Deck any stronger.\n\nFor single play, you're going to have to change things around for sure. The game is not designed for it. Even the tankest hero is never going to be invincible in one v one because there are plenty of tricks villains have to deal with it. (unreactable attacks, using overcomes to create challenges the hero needs to deal with and generating twists, using overcomes to hide and make the hero waste time tracking them down while the scene ticks forward and generates twists, just eating them every turn as a titan to name a few) but several -villains- are pretty darn close to it. More so if the environment is under villain/GM control, which the default assumption is that it is. So they get to play turn order paddy cake all the time while the hero is on their lonesome. \n\nI don't know that improving defend or hit the deck is the way i would go about it though, I don't think it would be enough.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "count": 3,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 15898,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2017-07-30",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 239378,
+      "name": "",
+      "username": "fjur",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+      "created_at": "2021-07-17T01:07:08.673Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Cult_of_Gloom\" data-post=\"10\" data-topic=\"28670\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/cult_of_gloom/48/1878_2.png\" class=\"avatar\"> Cult_of_Gloom:</div>\n<blockquote>\n<p>For standard SCRPG play, Defending being bad is not a bug its a feature.</p>\n<p>SCRPG is a proactive game with a time limit. The heroes have enemies to defeat, challenges to overcome, and objectives to accomplish and if playing defense was good a lot more scenes would end with healthy heroes watching the doomsday device fire.</p>\n</blockquote>\n</aside>\n<p>I agree. Would anyone here want to read a comic book of the <a href=\"https://marvel.fandom.com/wiki/Susan_Storm_(Earth-616)\" rel=\"noopener nofollow ugc\">Invisible Woman</a> or <a href=\"https://sentinelswiki.com/index.php?title=Captain_Cosmic\" rel=\"noopener nofollow ugc\">Captain Cosmic</a> hiding behind their force fields the whole time?</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-07-17T01:07:08.673Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 1,
+      "incoming_link_count": 4,
+      "reads": 26,
+      "readers_count": 25,
+      "score": 25.2,
+      "yours": false,
+      "topic_id": 28670,
+      "topic_slug": "discussing-defends",
+      "display_username": "",
+      "primary_group_name": "playtesters",
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Susan_Storm_(Earth-616)",
+          "internal": false,
+          "reflection": false,
+          "title": "Susan Storm (Earth-616) | Marvel Database | Fandom",
+          "clicks": 5
+        },
+        {
+          "url": "https://sentinelswiki.com/index.php?title=Captain_Cosmic",
+          "internal": false,
+          "reflection": false,
+          "title": "Captain Cosmic - Sentinel Comics Wiki",
+          "clicks": 4
+        }
+      ],
+      "read": false,
+      "user_title": "Regular",
+      "title_is_group": false,
+      "bookmarked": false,
+      "raw": "[quote=\"Cult_of_Gloom, post:10, topic:28670\"]\nFor standard SCRPG play, Defending being bad is not a bug its a feature.\n\nSCRPG is a proactive game with a time limit. The heroes have enemies to defeat, challenges to overcome, and objectives to accomplish and if playing defense was good a lot more scenes would end with healthy heroes watching the doomsday device fire.\n[/quote]\n\nI agree. Would anyone here want to read a comic book of the [Invisible Woman](https://marvel.fandom.com/wiki/Susan_Storm_(Earth-616)) or [Captain Cosmic](https://sentinelswiki.com/index.php?title=Captain_Cosmic) hiding behind their force fields the whole time?",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17294,
+      "hidden": false,
+      "trust_level": 3,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2019-02-25",
+      "user_birthdate": "1904-10-12",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

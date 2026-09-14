@@ -1,0 +1,1667 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 6717,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2012-11-23T02:25:03.000Z",
+        "cooked": "<p>So, I've been working out some documentation that would specify exactly which steps are taken for the various actions and triggers which occur in the Sentinels of the Multiverse game.&nbsp; It might be handy to eventually put this in some Wiki form.&nbsp; I created this initial document based on the rules, some logic that the Greater Than Games staff have stated, and based on how some official rulings have been made.</p><blockquote><p><span lang=\"\">mechanical order of events.</span></p><p><span lang=\"\"> </span></p><p><span lang=\"\">Hero Turn:</span></p><p><span lang=\"\">E: Until start of turn.</span></p><p><span lang=\"\">E: At start of turn.</span></p><p><span lang=\"\">P: Play card phase.</span></p><p><span lang=\"\">P: Power phase.</span></p><p><span lang=\"\">P: Draw card phase.</span></p><p><span lang=\"\">E: At end of turn.</span></p><p><span lang=\"\">E: Until end of turn.</span></p><p><span lang=\"\">Villain/Environment turn:</span></p><p><span lang=\"\">E: Until start of turn.</span></p><p><span lang=\"\">E: At start of turn.</span></p><p><span lang=\"\">P: Play card phase.</span></p><p><span lang=\"\">E: At end of turn.</span></p><p><span lang=\"\">E: Until end of turn.</span></p><p><span lang=\"\">Play card/put card into play:</span></p><p><span lang=\"\">E: Would play card/put card into play.</span></p><p><span lang=\"\">Card resolves.</span></p><p><span lang=\"\">E: Is played/enters play.</span></p><p><span lang=\"\">(Note: play card ⊂ enters play)</span></p><p><span lang=\"\">Power usage:</span></p><p><span lang=\"\">E: Hero would use a power.</span></p><p><span lang=\"\">Power resolves.</span></p><p><span lang=\"\">E: Hero uses a power.</span></p><p><span lang=\"\">Card draw:</span></p><p><span lang=\"\">E: Player would draw a card.</span></p><p><span lang=\"\">Player takes card into hand.</span></p><p><span lang=\"\">E: Player draws a card</span></p><p><span lang=\"\">Card destruction:</span></p><p><span lang=\"\">E: Card would be destroyed.</span></p><p><span lang=\"\">Card is placed in appropriate trash.</span></p><p><span lang=\"\">E: Card is destroyed.</span></p><p><span lang=\"\">Source deals target damage:</span></p><p><span lang=\"\">E: Source would deal target damage.</span></p><p><span lang=\"\">E: Source deals target damage.</span></p><p><span lang=\"\">E: Target would be dealt damage.</span></p><p><span lang=\"\">Target takes damage.</span></p><p><span lang=\"\">E: Target is dealt damage.</span></p><p><span lang=\"\">E: Source has dealt damage.</span></p><p><span lang=\"\">When an action is created, it is wrapped as a single action queue and placed on top of the action stack. Only one action stack exists. When an action occurs, it is placed on the top of the stack, and, if that action, or a reaction to a trigger of that action occurs, the new action is placed on top of the current action on the stack. (If that action in turn causes other actions to occur, they are placed on top of that action in the stack.) Once the topmost action is complete, it is taken off of the stack, and the next topmost action continues where it left off.</span></p><p><span lang=\"\">Cards which specifically react to themselves being played or entering play (e.g. Heroic Interception or Matriarch's fowls) resolve before other cards which react to a card being played, even though they were played last in card order.</span></p><p><span lang=\"\">All regular triggers appear to take place after it's corresponding action. Almost all regular triggers have a correpsonding \"would\" trigger which occurs prior to the action. All reactions which react to a \"would\" trigger typically have either an 'instead\" action or an \"also\" action. An \"instead\" action immediately cancels the action about to take place, as well as any further triggers that action contains, and proceeds with the specified action. An \"also\" adds the specified action to the current action's action queue. The original action is completely resolved, including all triggers, (but not any other actions further up the action stack), and then resolves the next action.</span></p><p>&nbsp;</p></blockquote><p>A quick explanation of couple terms.&nbsp;&nbsp;A stack can be thought of as like a stack of plates (or even a stack of cards). The&nbsp;first thing put in the stack is on bottom, with the last thing put in the stack on top.&nbsp; The item on top is always dealt with first, and, when removed, the second to last thing is now dealt with.&nbsp; The first thing put on the stack remains on the stack until everything is completely dealt with such as it is now the only thing on&nbsp;the stack.&nbsp;&nbsp;A queue is like a line (i.e. a&nbsp;grociery store line).&nbsp; The first thing in the line is the first thing&nbsp;dealt with.&nbsp; Anything added to the&nbsp;queue&nbsp;gets put in back and waits for the first one to finish.&nbsp; Once the first is finished, the second is&nbsp;ready&nbsp;to be dealt with.&nbsp; The last item added to&nbsp;a queue remains until all other items are dealt with, leaving it the only one left in the queue.&nbsp;</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:36:46.172Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 15.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>So, I&#39;ve been working out some documentation that would specify exactly which steps are taken for the various actions and triggers which occur in the Sentinels of the Multiverse game.&nbsp; It might be handy to eventually put this in some Wiki form.&nbsp; I created this initial document based on the rules, some logic that the Greater Than Games staff have stated, and based on how some official rulings have been made.</p><blockquote><p><span lang=\"\">mechanical order of events.</span></p><p><span lang=\"\"> </span></p><p><span lang=\"\">Hero Turn:</span></p><dir></dir><dir></dir><p><span lang=\"\">E: Until start of turn.</span></p><p><span lang=\"\">E: At start of turn.</span></p><p><span lang=\"\">P: Play card phase.</span></p><p><span lang=\"\">P: Power phase.</span></p><p><span lang=\"\">P: Draw card phase.</span></p><p><span lang=\"\">E: At end of turn.</span></p><p><span lang=\"\">E: Until end of turn.</span></p><p><span lang=\"\">Villain/Environment turn:</span></p><dir></dir><dir></dir><p><span lang=\"\">E: Until start of turn.</span></p><p><span lang=\"\">E: At start of turn.</span></p><p><span lang=\"\">P: Play card phase.</span></p><p><span lang=\"\">E: At end of turn.</span></p><p><span lang=\"\">E: Until end of turn.</span></p><p><span lang=\"\">Play card/put card into play:</span></p><dir></dir><dir></dir><p><span lang=\"\">E: Would play card/put card into play.</span></p><p><span lang=\"\">Card resolves.</span></p><p><span lang=\"\">E: Is played/enters play.</span></p><p><span lang=\"\">(Note: play card &sub; enters play)</span></p><p><span lang=\"\">Power usage:</span></p><dir></dir><dir></dir><p><span lang=\"\">E: Hero would use a power.</span></p><p><span lang=\"\">Power resolves.</span></p><p><span lang=\"\">E: Hero uses a power.</span></p><p><span lang=\"\">Card draw:</span></p><dir></dir><dir></dir><p><span lang=\"\">E: Player would draw a card.</span></p><p><span lang=\"\">Player takes card into hand.</span></p><p><span lang=\"\">E: Player draws a card</span></p><p><span lang=\"\">Card destruction:</span></p><dir></dir><dir></dir><p><span lang=\"\">E: Card would be destroyed.</span></p><p><span lang=\"\">Card is placed in appropriate trash.</span></p><p><span lang=\"\">E: Card is destroyed.</span></p><p><span lang=\"\">Source deals target damage:</span></p><dir></dir><dir></dir><p><span lang=\"\">E: Source would deal target damage.</span></p><p><span lang=\"\">E: Source deals target damage.</span></p><p><span lang=\"\">E: Target would be dealt damage.</span></p><p><span lang=\"\">Target takes damage.</span></p><p><span lang=\"\">E: Target is dealt damage.</span></p><p><span lang=\"\">E: Source has dealt damage.</span></p><p><span lang=\"\">When an action is created, it is wrapped as a single action queue and placed on top of the action stack. Only one action stack exists. When an action occurs, it is placed on the top of the stack, and, if that action, or a reaction to a trigger of that action occurs, the new action is placed on top of the current action on the stack. (If that action in turn causes other actions to occur, they are placed on top of that action in the stack.) Once the topmost action is complete, it is taken off of the stack, and the next topmost action continues where it left off.</span></p><p><span lang=\"\">Cards which specifically react to themselves being played or entering play (e.g. Heroic Interception or Matriarch&#39;s fowls) resolve before other cards which react to a card being played, even though they were played last in card order.</span></p><p><span lang=\"\">All regular triggers appear to take place after it&#39;s corresponding action. Almost all regular triggers have a correpsonding &quot;would&quot; trigger which occurs prior to the action. All reactions which react to a &quot;would&quot; trigger typically have either an &#39;instead&quot; action or an &quot;also&quot; action. An &quot;instead&quot; action immediately cancels the action about to take place, as well as any further triggers that action contains, and proceeds with the specified action. An &quot;also&quot; adds the specified action to the current action&#39;s action queue. The original action is completely resolved, including all triggers, (but not any other actions further up the action stack), and then resolves the next action.</span></p><p>&nbsp;</p></blockquote><p>A quick explanation of couple terms.&nbsp;&nbsp;A stack can be thought of as like a stack of plates (or even a stack of cards). The&nbsp;first thing put in the stack is on bottom, with the last thing put in the stack on top.&nbsp; The item on top is always dealt with first, and, when removed, the second to last thing is now dealt with.&nbsp; The first thing put on the stack remains on the stack until everything is completely dealt with such as it is now the only thing on&nbsp;the stack.&nbsp;&nbsp;A queue is like a line (i.e. a&nbsp;grociery store line).&nbsp; The first thing in the line is the first thing&nbsp;dealt with.&nbsp; Anything added to the&nbsp;queue&nbsp;gets put in back and waits for the first one to finish.&nbsp; Once the first is finished, the second is&nbsp;ready&nbsp;to be dealt with.&nbsp; The last item added to&nbsp;a queue remains until all other items are dealt with, leaving it the only one left in the queue.&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46426,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2012-11-23T04:41:50.000Z",
+        "cooked": "<p>ill admit. I started reading then spaced out on turky infused tiredness.</p><p>&nbsp;</p><p>Ill come back to this in a few days :p</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:55.586Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>ill admit. I started reading then spaced out on turky infused tiredness.</p><p>&nbsp;</p><p>Ill come back to this in a few days :p</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46427,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2012-11-23T04:54:11.000Z",
+        "cooked": "<p>Well, it doesn't help that the post editor mostly ate my original formatting.&nbsp; It's much easier to read what I typed on Wordpad than what ended up being posted.&nbsp; Bullets got eaten up too, even though I could have sworn I remember seeing them in the preview...</p><p>Also, something I forgot to mention, lines that begin with E: represent triggers which can have a reaction (an event), P: represents a phase, and can be referenced with the keyword \"during,\" and anything without a starting letter is something simply happening (in the provided cases, showing where the aformentioned action takes place relative to all the related triggers).</p><p>Also, this isn't supposed to be some beginner's guide to help them played, but rather a detailed examination of how cards and actions on the cards interact with each other at a very low level.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:55.667Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Well, it doesn&#39;t help that the post editor mostly ate my original formatting.&nbsp; It&#39;s much easier to read what I typed on Wordpad than what ended up being posted.&nbsp; Bullets got eaten up too, even though I could have sworn I remember seeing them in the preview...</p><p>Also, something I forgot to mention, lines that begin with E: represent triggers which can have a reaction (an event), P: represents a phase, and can be referenced with the keyword &quot;during,&quot; and anything without a starting letter is something simply happening (in the provided cases, showing where the aformentioned action takes place relative to all the related triggers).</p><p>Also, this isn&#39;t supposed to be some beginner&#39;s guide to help them played, but rather a detailed examination of how cards and actions on the cards interact with each other at a very low level.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46428,
+        "name": "Koga",
+        "username": "Koga",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/koga/{size}/2058_2.png",
+        "created_at": "2012-11-23T05:33:08.000Z",
+        "cooked": "<p>What I'm getting from that list is that Legacy's Fortitude would always activate after Superhuman Durability. Looks to me that being dealt damage is coming after would be dealt damage.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:55.773Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "Koga",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>What I&#39;m getting from that list is that Legacy&#39;s Fortitude would always activate after Superhuman Durability. Looks to me that being dealt damage is coming after would be dealt damage.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 101,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-15",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46429,
+        "name": "TheSoundOfTrees",
+        "username": "TheSoundOfTrees",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/da6949/{size}.png",
+        "created_at": "2012-11-23T05:40:46.000Z",
+        "cooked": "<p>It's interesting to see the differences between this resolution order and the one I intuitively use. For instance, I would consider \"untill end of turn\" as being resolved before \"end of turn\". I'll have to ponder all these little differences.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:55.849Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "TheSoundOfTrees",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>It&#39;s interesting to see the differences between this resolution order and the one I intuitively use. For instance, I would consider &quot;untill end of turn&quot; as being resolved before &quot;end of turn&quot;. I&#39;ll have to ponder all these little differences.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 911,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-09-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46430,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2012-11-23T06:03:00.000Z",
+        "cooked": "<p>I really like this, but I'm not sure why you have broken out the events before and after damage into so many steps.&nbsp; Do you have examples of cards that trigger off each of these events and why you resolve them in this order?</p><p>Also It might be a little confusing to label \"Until start of turn\" and \"Until end of turn\" as events steps since I don't think card effects really trigger off of them.&nbsp; They are really more timing&nbsp;points to refer to periods in the game.&nbsp; Plus I can't think of anything that says \"until the end of a turn\", rather the cards refer to \"since the end of&nbsp;a turn\".&nbsp; Though maybe I'm just not remembering&nbsp;some cards.</p><p>Another good note at the bottom&nbsp;would be that if a card leaves play you stop resolving its text, with the exception of card effects which specifically trigger when that card is destroyed, and cards which refer to future event(s) (\"until the start of your next turn...\" or \"the next time...\").&nbsp; EDIT: Although maybe that is just further details in the concept of stack resolution, which is getting off of the topic of the order of operations.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:55.926Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I really like this, but I&#39;m not sure why you have broken out the events before and after damage into so many steps.&nbsp; Do you have examples of cards that trigger off each of these events and why you resolve them in this order?</p><p>Also It might be a little confusing to label &quot;Until start of turn&quot; and &quot;Until end of turn&quot; as events steps since I don&#39;t think card effects really trigger off of them.&nbsp; They are really more timing&nbsp;points to refer to periods in the game.&nbsp; Plus I can&#39;t think of anything that says &quot;until the end of a turn&quot;, rather the cards refer to &quot;since the end of&nbsp;a turn&quot;.&nbsp; Though maybe I&#39;m just not remembering&nbsp;some cards.</p><p>Another good note at the bottom&nbsp;would be that if a card leaves play you stop resolving its text, with the exception of card effects which specifically trigger when that card is destroyed, and cards which refer to future event(s) (&quot;until the start of your next turn...&quot; or &quot;the next time...&quot;).&nbsp; EDIT: Although maybe that is just further details in the concept of stack resolution, which is getting off of the topic of the order of operations.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46432,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2012-11-23T13:05:05.000Z",
+        "cooked": "<p>Note that this is the first attempt to put an order to things, and I may have some things in the wrong order (which is why I'd like a discussion about it, maybe improve on it).&nbsp; And the reason I break dealing damage into so many steps is that some cards react to a target&nbsp;taking damage, while some cards react to a source dealing damage.&nbsp; I could see until end of turn occuring prior to at end of turn, but I don't think any cards refer to until end of turn, so it was more future proofing than anything.&nbsp; Also, while I label the \"untils\" as triggers, they aren't the traditional triggers, as the actions they typically trigger are such to stop an already defined continuous action or modiier.</p><p>In reguards to Fortitude vs Superhuman Durability, for a bit now I've noted that Fortitude always occurs prior to Superhuman Durability as Fortitude gives a static (always on) modifier, whereas Superhuman Durability is activated via event.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:56.004Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Note that this is the first attempt to put an order to things, and I may have some things in the wrong order (which is why I&#39;d like a discussion about it, maybe improve on it).&nbsp; And the reason I break dealing damage into so many steps is that some cards react to a target&nbsp;taking damage, while some cards react to a source dealing damage.&nbsp; I could see until end of turn occuring prior to at end of turn, but I don&#39;t think any cards refer to until end of turn, so it was more future proofing than anything.&nbsp; Also, while I label the &quot;untils&quot; as triggers, they aren&#39;t the traditional triggers, as the actions they typically trigger are such to stop an already defined continuous action or modiier.</p><p>In reguards to Fortitude vs Superhuman Durability, for a bit now I&#39;ve noted that Fortitude always occurs prior to Superhuman Durability as Fortitude gives a static (always on) modifier, whereas Superhuman Durability is activated via event.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46434,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2012-11-23T16:38:58.000Z",
+        "cooked": "<p>I agree that 'until end of turn' should be after 'at end of turn'.&nbsp; End of turn actions is described as a phase which is still inside the turn.&nbsp; This is a little strange, but otherwise the actions would be occuring outside of a turn which would be a problem for reactions which are limited to 'the first time each turn'.</p><p>The actual interaction with the 'until end of turn' point could come up if Absolute Zero is using Coolant Blast (which checks the amount of fire damage dealt to him since the end of his last turn) and Embolden + Imbued Fire caused Fanatic to deal him fire damage at the end of his last turn.&nbsp; In this case that fire damage would not be counted because it was during his last turn.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:56.070Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I agree that &#39;until end of turn&#39; should be after &#39;at end of turn&#39;.&nbsp; End of turn actions is described as a phase which is still inside the turn.&nbsp; This is a little strange, but otherwise the actions would be occuring outside of a turn which would be a problem for reactions which are limited to &#39;the first time each turn&#39;.</p><p>The actual interaction with the &#39;until end of turn&#39; point could come up if Absolute Zero is using Coolant Blast (which checks the amount of fire damage dealt to him since the end of his last turn) and Embolden + Imbued Fire caused Fanatic to deal him fire damage at the end of his last turn.&nbsp; In this case that fire damage would not be counted because it was during his last turn.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46435,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2012-11-23T16:47:31.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"TheJayMann\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/thejaymann/48/2261_2.png\" class=\"avatar\"> TheJayMann:</div>\n<blockquote>\n<p>In reguards to Fortitude vs Superhuman Durability, for a bit now I've noted that Fortitude always occurs prior to Superhuman Durability as Fortitude gives a static (always on) modifier, whereas Superhuman Durability is activated via event.</p>\n</blockquote>\n</aside>\n<p>Fortitude before Durability is the order everyone asks about because they would like to reverse the order, but the official ruling is not that fortitude is always first.&nbsp; The ruling is that it is order of cards played, so if you were to play Durability before Fortitude, then they would resolve in the other order.</p>\n<p><a href=\"http://sentinelsofthemultiverse.com/forum/topic/same-or-different\" rel=\"noopener nofollow ugc\">http://sentinelsofthemultiverse.com/forum/topic/same-or-different</a></p>\n<p>If this thread is meant to describe a house-rule system for simplified effect resolution, then I would support resolving Fortitude first always.&nbsp; It seems like it would be better to start with a document in line with the official rulings and then maybe creating a house rule version.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:56.141Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "http://sentinelsofthemultiverse.com/forum/topic/same-or-different",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"TheJayMann\"]\n\nIn reguards to Fortitude vs Superhuman Durability, for a bit now I&#39;ve noted that Fortitude always occurs prior to Superhuman Durability as Fortitude gives a static (always on) modifier, whereas Superhuman Durability is activated via event.\n\n[/quote]\n\nFortitude before Durability is the order everyone asks about because they would like to reverse the order, but the official ruling is not that fortitude is always first.&nbsp; The ruling is that it is order of cards played, so if you were to play Durability before Fortitude, then they would resolve in the other order.\n\n<a href=\"http://sentinelsofthemultiverse.com/forum/topic/same-or-different\">http://sentinelsofthemultiverse.com/forum/topic/same-or-different</a>\n\nIf this thread is meant to describe a house-rule system for simplified effect resolution, then I would support resolving Fortitude first always.&nbsp; It seems like it would be better to start with a document in line with the official rulings and then maybe creating a house rule version.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46436,
+        "name": "TheJayMann",
+        "username": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "created_at": "2012-11-23T17:01:39.000Z",
+        "cooked": "<p>Another reason for creating this is also to deal with the inconsistancies found by official rulings.&nbsp; There has been precident for official rulings to be changed, either by errata (The Wraith chaning from \"prevent 2 damage\" to \"reduce 2 damage\"), and by one person overruling another (Paul initially stating that a player with no cards has no hand, while Christopher changing it to a player with no cards has a hand of zero cards).&nbsp; If something official contradicts it, then either the official ruling should change to match the system of rules, or the system of rules needs to change to match the official ruling.&nbsp; Also, the official ruling that Fortitude and Superhuman Durability react to the same trigger (even though Fortitude mentions no trigger) contradicts the official ruling given to Imbued Fire (that all fire damage is increased by 1).&nbsp; Both Fortitude and Imbued fire are worded the same (one stated as reducing damage dealt to Legacy by 1, with no mention of when Legacy is dealt damage, the other stated as increasing fire damage dealt by one, with no mention of when the source deals fire damage), yet, one one case, it's ruled that it's only in effect when damage would be dealt to Legacy, and the other is ruled as a static always in effect modifier.&nbsp; It is inconsistancies like this that I wish to catch.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:56.220Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "TheJayMann",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Another reason for creating this is also to deal with the inconsistancies found by official rulings.&nbsp; There has been precident for official rulings to be changed, either by errata (The Wraith chaning from &quot;prevent 2 damage&quot; to &quot;reduce 2 damage&quot;), and by one person overruling another (Paul initially stating that a player with no cards has no hand, while Christopher changing it to a player with no cards has a hand of zero cards).&nbsp; If something official contradicts it, then either the official ruling should change to match the system of rules, or the system of rules needs to change to match the official ruling.&nbsp; Also, the official ruling that Fortitude and Superhuman Durability react to the same trigger (even though Fortitude mentions no trigger) contradicts the official ruling given to Imbued Fire (that all fire damage is increased by 1).&nbsp; Both Fortitude and Imbued fire are worded the same (one stated as reducing damage dealt to Legacy by 1, with no mention of when Legacy is dealt damage, the other stated as increasing fire damage dealt by one, with no mention of when the source deals fire damage), yet, one one case, it&#39;s ruled that it&#39;s only in effect when damage would be dealt to Legacy, and the other is ruled as a static always in effect modifier.&nbsp; It is inconsistancies like this that I wish to catch.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46437,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2012-11-23T17:39:29.000Z",
+        "cooked": "<p>I don't think this is an inconsistent ruling.&nbsp; I think that all card&nbsp;text&nbsp;is resolved in the order the cards are played.&nbsp; Resolving Fortitude or Imbued Fire means&nbsp;creating an effect on 'damage to Legacy' or 'fire damage'.&nbsp; As you continue resolving other cards you might change the target or type of damage, which will change whether the effects created by Fortitude or Imbued Fire apply to that damage.&nbsp; That doesn't mean that you are resolving Fortitude or Imbued Fire text&nbsp;later, you are just re-evaluating whether the effect they created applies to the damage.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:56.291Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I don&#39;t think this is an inconsistent ruling.&nbsp; I think that all card&nbsp;text&nbsp;is resolved in the order the cards are played.&nbsp; Resolving Fortitude or Imbued Fire means&nbsp;creating an effect on &#39;damage to Legacy&#39; or &#39;fire damage&#39;.&nbsp; As you continue resolving other cards you might change the target or type of damage, which will change whether the effects created by Fortitude or Imbued Fire apply to that damage.&nbsp; That doesn&#39;t mean that you are resolving Fortitude or Imbued Fire text&nbsp;later, you are just re-evaluating whether the effect they created applies to the damage.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46438,
+        "name": "Spiff",
+        "username": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "created_at": "2012-11-23T17:52:33.000Z",
+        "cooked": "<p>I thought I'd heard that SotM had been designed specifically to avoid having a Magic: the Gathering-style event stack. What would be the difference between what they have and what you're describing?</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:56.366Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "Spiff",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I thought I&#39;d heard that SotM had been designed specifically to avoid having a Magic: the Gathering-style event stack. What would be the difference between what they have and what you&#39;re describing?</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 73,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 46439,
+        "name": "dypaca",
+        "username": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "created_at": "2012-11-23T18:07:34.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Spiff\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/spiff/48/1865_2.png\" class=\"avatar\"> Spiff:</div>\n<blockquote>\n<p>I thought I'd heard that SotM had been designed specifically to avoid having a Magic: the Gathering-style event stack. What would be the difference between what they have and what you're describing?</p>\n</blockquote>\n</aside>\n<p>The difference is that Magic is full of cards and abilities which can be played or activated at any time by a player.&nbsp; Basically it allows players to put things on top of the stack at any time.&nbsp; Sentinels does not allow player actions to inject themselves on top of the stack at any time.&nbsp; Even if you can play multiple cards during your play phase, you have to fully resolve the first card before you can play the second.</p>\n<p>However the procedure for resolving reaction effects in Sentinels is done as&nbsp;a stack exactly like Magic.&nbsp; Without a large&nbsp;array of 'at-will' actions the stack typically doesn't get very deep, but mechanically it is the same.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:19:56.463Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 6715,
+        "topic_slug": "operation-order",
+        "display_username": "dypaca",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Spiff\"]\n\nI thought I&#39;d heard that SotM had been designed specifically to avoid having a Magic: the Gathering-style event stack. What would be the difference between what they have and what you&#39;re describing?\n\n[/quote]\n\nThe difference is that Magic is full of cards and abilities which can be played or activated at any time by a player.&nbsp; Basically it allows players to put things on top of the stack at any time.&nbsp; Sentinels does not allow player actions to inject themselves on top of the stack at any time.&nbsp; Even if you can play multiple cards during your play phase, you have to fully resolve the first card before you can play the second.\n\nHowever the procedure for resolving reaction effects in Sentinels is done as&nbsp;a stack exactly like Magic.&nbsp; Without a large&nbsp;array of &#39;at-will&#39; actions the stack typically doesn&#39;t get very deep, but mechanically it is the same.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 466,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      6717,
+      46426,
+      46427,
+      46428,
+      46429,
+      46430,
+      46432,
+      46434,
+      46435,
+      46436,
+      46437,
+      46438,
+      46439
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      5042
+    ],
+    [
+      2,
+      5041
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 12,
+      "reply_count": 1,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-12T14:09:24.588Z",
+      "bumped": true,
+      "bumped_at": "2026-09-12T14:09:24.588Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 21,
+      "views": 92,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32017,
+      "title": "Text for a future rulebook",
+      "fancy_title": "Text for a future rulebook",
+      "slug": "text-for-a-future-rulebook",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2025-10-29T18:32:19.434Z",
+      "last_posted_at": "2025-10-31T21:15:02.195Z",
+      "bumped": true,
+      "bumped_at": "2025-10-31T21:15:02.195Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 114,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13161,
+            "username": "MindWanderer",
+            "name": "MindWanderer",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32029,
+      "title": "OblivAeon weird card interaction",
+      "fancy_title": "OblivAeon weird card interaction",
+      "slug": "oblivaeon-weird-card-interaction",
+      "posts_count": 14,
+      "reply_count": 9,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2025-11-04T23:13:14.702Z",
+      "last_posted_at": "2025-11-17T13:06:56.375Z",
+      "bumped": true,
+      "bumped_at": "2025-11-17T16:35:26.816Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 158,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 31872,
+      "title": "Argent Adept Six-Instrument Orchestration",
+      "fancy_title": "Argent Adept Six-Instrument Orchestration",
+      "slug": "argent-adept-six-instrument-orchestration",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-10-21T02:28:56.949Z",
+      "last_posted_at": "2025-10-21T03:50:57.042Z",
+      "bumped": true,
+      "bumped_at": "2025-10-21T03:50:57.042Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 84,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 32442,
+      "title": "Episode 324 of the Letters Page: Writers’ Room: Fanatic Vol. 2 #173",
+      "fancy_title": "Episode 324 of the Letters Page: Writers’ Room: Fanatic Vol. 2 #173",
+      "slug": "episode-324-of-the-letters-page-writers-room-fanatic-vol-2-173",
+      "posts_count": 7,
+      "reply_count": 0,
+      "highest_post_number": 7,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/optimized/2X/8/8c4ccefb56fa798033d41df982e3acd24aead1ab_2_675x1024.png",
+      "created_at": "2026-07-14T14:12:58.719Z",
+      "last_posted_at": "2026-07-18T00:27:23.481Z",
+      "bumped": true,
+      "bumped_at": "2026-07-18T02:52:09.448Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 6,
+      "views": 115,
+      "category_id": 25,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 14005,
+            "username": "TakeWalker",
+            "name": "KateWalker",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 6715,
+  "title": "Operation order",
+  "fancy_title": "Operation order",
+  "posts_count": 13,
+  "created_at": "2012-11-23T02:25:03.000Z",
+  "views": 1495,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2012-11-23T18:07:34.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "operation-order",
+  "category_id": 12,
+  "word_count": 2562,
+  "deleted_at": null,
+  "user_id": 17,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_6715",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 13,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 6,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 466,
+        "username": "dypaca",
+        "name": "dypaca",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png",
+        "post_count": 5,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 17,
+        "username": "TheJayMann",
+        "name": "TheJayMann",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png",
+        "post_count": 4,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 73,
+        "username": "Spiff",
+        "name": "Spiff",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 101,
+        "username": "Koga",
+        "name": "Koga",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/koga/{size}/2058_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 911,
+        "username": "TheSoundOfTrees",
+        "name": "TheSoundOfTrees",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/da6949/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 1390,
+        "username": "lynkfox",
+        "name": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 17,
+      "username": "TheJayMann",
+      "name": "TheJayMann",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thejaymann/{size}/2261_2.png"
+    },
+    "last_poster": {
+      "id": 466,
+      "username": "dypaca",
+      "name": "dypaca",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dypaca/{size}/2079_2.png"
+    }
+  },
+  "bookmarks": []
+}

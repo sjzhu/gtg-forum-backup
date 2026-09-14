@@ -1,0 +1,259 @@
+{
+  "posts": [
+    {
+      "id": 6471,
+      "name": "broccoli",
+      "username": "broccoli",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/broccoli/{size}/1861_2.png",
+      "created_at": "2012-10-17T19:58:40.000Z",
+      "cooked": "<p>So we had sort of a weird game last night. &nbsp;We were fighting The Chairman on Wagner Mars Base. &nbsp;We had sort of a bad draw, since we got an Underboss for the first and second cards played, which means that with The Operative helping out, we had 4 underbosses in play by the end of turn 2. &nbsp;Luckily, the base played Meteor Storm, so we decided to take some turns to build things up and see what we could do. &nbsp;Well, without any damage being dealt, we ended up with all Underbosses and Thugs in play very soon, which brought up the question of how to clear the table.</p><p>In comes Oxygen Leak. &nbsp;We figured we could build up some cards, skip a turn just before the environment's turn, and (while taking a hit ourselves), let it clear the board for us. &nbsp;This led to an interesting situation though. &nbsp;All 3 Villanous Weaponries were out, and there were 6 cards in the environment trash. &nbsp;Oxygen Leak deals X damage where X = the number of cards in the environment trash. &nbsp;So it deals 6 damage to each of us, then 6 damage to Villainous Weaponry....so does Oxygen Leak now start dealing 7 damage? &nbsp;8 after the next Weaponry dies?</p><p>We just weren't sure if it only checked X once when it started, or it was constantly evaluated as damage was dealt. &nbsp;The \"nothing happens simultaneously\" rule leads me to believe it checks X before it deals each damage, but it wasn't 100% clear.</p><p>Thoughts?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:36:25.922Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 1,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 5.0,
+      "yours": false,
+      "topic_id": 6470,
+      "topic_slug": "oxygen-leak-is-x-calculated-once-or-constantly",
+      "display_username": "broccoli",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>So we had sort of a weird game last night. &nbsp;We were fighting The Chairman on Wagner Mars Base. &nbsp;We had sort of a bad draw, since we got an Underboss for the first and second cards played, which means that with The Operative helping out, we had 4 underbosses in play by the end of turn 2. &nbsp;Luckily, the base played Meteor Storm, so we decided to take some turns to build things up and see what we could do. &nbsp;Well, without any damage being dealt, we ended up with all Underbosses and Thugs in play very soon, which brought up the question of how to clear the table.</p><p>In comes Oxygen Leak. &nbsp;We figured we could build up some cards, skip a turn just before the environment&#39;s turn, and (while taking a hit ourselves), let it clear the board for us. &nbsp;This led to an interesting situation though. &nbsp;All 3 Villanous Weaponries were out, and there were 6 cards in the environment trash. &nbsp;Oxygen Leak deals X damage where X = the number of cards in the environment trash. &nbsp;So it deals 6 damage to each of us, then 6 damage to Villainous Weaponry....so does Oxygen Leak now start dealing 7 damage? &nbsp;8 after the next Weaponry dies?</p><p>We just weren&#39;t sure if it only checked X once when it started, or it was constantly evaluated as damage was dealt. &nbsp;The &quot;nothing happens simultaneously&quot; rule leads me to believe it checks X before it deals each damage, but it wasn&#39;t 100% clear.</p><p>Thoughts?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 233,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 40597,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2012-10-17T20:16:37.000Z",
+      "cooked": "<p>Yep - we play that each attack is independent, and the damage dealt is based on game state at the time that attack happens.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:14:16.802Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6470,
+      "topic_slug": "oxygen-leak-is-x-calculated-once-or-constantly",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Yep - we play that each attack is independent, and the damage dealt is based on game state at the time that attack happens.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 40598,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2012-10-17T21:25:00.000Z",
+      "cooked": "<blockquote><p>So we had sort of a weird game last night. &nbsp;We were fighting The Chairman on Wagner Mars Base.</p></blockquote><p>That is weird.&nbsp; How'd The Chairman and all his street thugs get on Mars...? ;)</p><p>I also agree with Rabit's expert analysis.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:14:16.873Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6470,
+      "topic_slug": "oxygen-leak-is-x-calculated-once-or-constantly",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<blockquote><p>So we had sort of a weird game last night. &nbsp;We were fighting The Chairman on Wagner Mars Base.</p></blockquote><p>That is weird.&nbsp; How&#39;d The Chairman and all his street thugs get on Mars...? ;)</p><p>I also agree with Rabit&#39;s expert analysis.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

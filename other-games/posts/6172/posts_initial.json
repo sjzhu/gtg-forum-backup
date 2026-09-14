@@ -1,0 +1,259 @@
+{
+  "posts": [
+    {
+      "id": 6174,
+      "name": "BaloTheJester",
+      "username": "BaloTheJester",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/balothejester/{size}/2080_2.png",
+      "created_at": "2012-08-19T15:44:32.000Z",
+      "cooked": "<p>So, we were playing Sentinels last night, and I had something brought into question it never occurred to me to question before. If this has been covered before, please let me know, and I apologize.</p><p>So, two questions:</p><p>If end-of-turn effects cause someone to play cards that themselves have end-of-turn effects, do the played cards also resolve their end-of-turn effects? (e.g., The Chairman's The Muscle card puts an Enforcers card into play, does Enforcers then target the lowest HP hero for damage/card loss?)</p><p>Assuming the played cards do resolve: If an effect like Sub-Zero Atmosphere that changes end-of-turn to start-of-turn is out in the above scenario, would the Enforcers still resolve, just at the start instead of the end?</p><p>Thanks!</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:36:02.377Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6172,
+      "topic_slug": "cards-just-played-and-end-of-turn",
+      "display_username": "BaloTheJester",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>So, we were playing Sentinels last night, and I had something brought into question it never occurred to me to question before. If this has been covered before, please let me know, and I apologize.</p><p>So, two questions:</p><p>If end-of-turn effects cause someone to play cards that themselves have end-of-turn effects, do the played cards also resolve their end-of-turn effects? (e.g., The Chairman&#39;s The Muscle card puts an Enforcers card into play, does Enforcers then target the lowest HP hero for damage/card loss?)</p><p>Assuming the played cards do resolve: If an effect like Sub-Zero Atmosphere that changes end-of-turn to start-of-turn is out in the above scenario, would the Enforcers still resolve, just at the start instead of the end?</p><p>Thanks!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 507,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-07-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 36414,
+      "name": "pwatson1974",
+      "username": "pwatson1974",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pwatson1974/{size}/1925_2.png",
+      "created_at": "2012-08-19T16:16:00.000Z",
+      "cooked": "<p>You are correct on the first part. Cards are resolved in order of play and if a card brigns out another card, that second card would be added to the queue for resolving.</p><p>On the second, yes, if I've understood you correctly. The Muscle's end of turn text now resolves at the start of the turn, bringing out an Enforcers card. That card gets added to the resolve queue. When it comes to it, its end of turn text now resolves at the start of the turn, which is the phase you're still in, so it resolves.</p><p>Then The Chairman plays his card.</p><p>Then the end of turn occurs but nothing happens as all end of turn effects (including the Operatives grab a sub-boss routine) now occur at the start of the turn.</p><p>Does that answer the question?</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:10:17.842Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6172,
+      "topic_slug": "cards-just-played-and-end-of-turn",
+      "display_username": "pwatson1974",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>You are correct on the first part. Cards are resolved in order of play and if a card brigns out another card, that second card would be added to the queue for resolving.</p><p>On the second, yes, if I&#39;ve understood you correctly. The Muscle&#39;s end of turn text now resolves at the start of the turn, bringing out an Enforcers card. That card gets added to the resolve queue. When it comes to it, its end of turn text now resolves at the start of the turn, which is the phase you&#39;re still in, so it resolves.</p><p>Then The Chairman plays his card.</p><p>Then the end of turn occurs but nothing happens as all end of turn effects (including the Operatives grab a sub-boss routine) now occur at the start of the turn.</p><p>Does that answer the question?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 293,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-02-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 36417,
+      "name": "BaloTheJester",
+      "username": "BaloTheJester",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/balothejester/{size}/2080_2.png",
+      "created_at": "2012-08-19T20:44:38.000Z",
+      "cooked": "<p>That does, thank you. It also means we handled Sub-Zero Atmosphere wrong, but he was the groom at the wedding we were all attending the next day so I don't mind letting his interpretation trump this time. :) Thanks so much for the help!</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:10:17.933Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6172,
+      "topic_slug": "cards-just-played-and-end-of-turn",
+      "display_username": "BaloTheJester",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>That does, thank you. It also means we handled Sub-Zero Atmosphere wrong, but he was the groom at the wedding we were all attending the next day so I don&#39;t mind letting his interpretation trump this time. :) Thanks so much for the help!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 507,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-07-06",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

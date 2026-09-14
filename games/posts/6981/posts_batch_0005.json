@@ -1,0 +1,4224 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 51192,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2017-04-12T19:42:01.000Z",
+        "cooked": "<p>You seem very pessimistic about how quickly we can implement content =)</p><p>I can make a wrapper script that generates daily data. Would a shared dropbox folder work for you for delivery?</p>",
+        "post_number": 271,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.260Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51193,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2017-04-12T19:46:02.000Z",
+        "cooked": "<p>Also, are you using all of the data files, or only some of them? If there are some I can avoid generating that will save some time.</p>",
+        "post_number": 272,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.323Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51194,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-04-12T21:32:37.000Z",
+        "cooked": "<p>Vengeance came out in 2014, so... yeah, if you can implement and release OblivAeon and all its promos within 12 months after it finally ships, I will be very surprised. &nbsp;Not a dig at Handelabra, it's just a lot of work to get something like that working.</p><p>I'd prefer not to have to deal with Dropbox's authentication method--it looks like the only way to get API access to a shared folder is to create a key that would grant carte blanche access to the whole Dropbox account, so I'd have to create an account specifically for this purpose to not expose my personal files if the app was compromised. &nbsp;But if that's the easiest way for you, I can work with it.</p><p>Assuming the Android data works correctly now, yeah, I'd definitely like all three platforms. &nbsp;I'm still undecided whether I should handle abandoned games, in which case I'd need the start files as well as the end ones. &nbsp;I can't really count them in the win/loss ratios unless I calculate all the stats twice (with and without abandoned games counting as losses). &nbsp;I suppose I could do that.</p>",
+        "post_number": 273,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.383Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51195,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2017-04-12T22:46:25.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"TakeWalker\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/takewalker/48/5677_2.png\" class=\"avatar\"> TakeWalker:</div>\n<blockquote>\n<p>Not sure how much you read notes left in game entries, so I thought I'd mention here: There's no game-end option for the Earth being sentenced to destruction in the Celestial Tribunal. Happened to me yesterday! :B</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Done!</p>\n<p>&nbsp;</p>\n<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p>LOL!Anyway, yes, my plan was to keep them separate.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Cool!</p>",
+        "post_number": 274,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.446Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51196,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-04-13T01:47:38.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p>Vengeance came out in 2014, so… yeah, if you can implement and release OblivAeon and all its promos within 12 months after it finally ships, I will be very surprised. &nbsp;</p>\n</blockquote>\n</aside>\n<p>That's not really a fair estimator. &nbsp;To say that it has taken Handelabra three years to make Vengeance would imply that they have spent those three years working on Vengeance - which they have not. &nbsp;Sentinels was released on Steam in December of 2014. &nbsp;Since then, they have released 4 expansions, 3 mini expansions, and Vengeance.</p>\n<p>If you want to fairly estimate how long it took to make Vengeance, you have to look at the Season 2 Kickstarter. &nbsp;The Kickstarter concluded in May of 2016. &nbsp;Vengeance was released in December of 2016. &nbsp;That's a half year turnaround time. &nbsp;And sure, the OblivAeon format is probably trickier to code than Vengeance was. &nbsp;But I would be very much surprised if it's half a year longer. &nbsp;Especially as all the code is cumulative - the more features and effects they build into the game, the easier it is to use those effects on new cards without much effort. &nbsp;Visionary Unleashed, for example, is probably only an hour of coding and a week of bugging Adam for art. &nbsp;It's only the weird ones like Collector Guise or Maze of Mirrors that actually take significant time to create. &nbsp;Also, although their focus is Villains that the moment, they know how the OblivAeon gameplay works and can get a head start on designing it and preparing for it.</p>\n<p>&nbsp;</p>\n<p>So yes, I find your surprise surprising.</p>",
+        "post_number": 275,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.522Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51197,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-04-13T02:01:45.000Z",
+        "cooked": "<p>All right, fair enough. &nbsp;They're coding faster than &gt;G is developing. &nbsp;But they do still have some catch-up to do, and OblivAeon has a&nbsp;<em>lot</em> of content, not even counting the new format. &nbsp;I still think a year is probably a reasonable estimate.</p>",
+        "post_number": 276,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.621Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51198,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-04-13T11:33:21.000Z",
+        "cooked": "<p>And not a terrible one, either. I mean, if it took an extra year, would that be so bad?</p>",
+        "post_number": 277,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.689Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51199,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2017-04-13T12:01:57.000Z",
+        "cooked": "<p>[quote=MindWanderer]<span>Vengeance came out in 2014, so... yeah, if you can implement and release OblivAeon and all its promos within 12 months after it finally ships, I will be very surprised. &nbsp;Not a dig at Handelabra, it's just a lot of work to get something like that working.[/quote</span><span>]</span></p><p><span>I agree it's a lot of work. But we didn't start working on Vengeance in 2014. We started focusing on it in September 2016, and it was released in December 2016. I expect you will be \"very surprised\" =)</span></p><p><span>\n&gt; </span><span>I'd prefer not to have to deal with Dropbox's authentication method\n</span></p><p><span>What alternative do you prefer? Creating new dropbox accounts is not generally a big deal, we do so for API access ourselves.</span></p><p><span>\n&gt; Assuming the Android data works correctly now, yeah, I'd definitely like all three platforms.\n</span></p><p><span>I asked Google what's going on with the Android data, and got no response (surprise). We do also have Android/iOS data from Flurry that may be more reliable, if you're up for parsing another data file format.</span></p><p><span>\n&gt; I'm still undecided whether I should handle abandoned games, in which case I'd need the start files as well as the end ones. &nbsp;I can't really count them in the win/loss ratios unless I calculate all the stats twice (with and without abandoned games counting as losses). &nbsp;I suppose I could do that.</span><span>\n</span></p><p><span>So does that mean you want the start game events or not =)</span></p>",
+        "post_number": 278,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.761Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51200,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-04-13T18:55:54.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p><b>MindWanderer wrote:</b></p>\n<div><blockquote>Vengeance came out in 2014, so... yeah, if you can implement and release OblivAeon and all its promos within 12 months after it finally ships, I will be very surprised. &nbsp;Not a dig at Handelabra, it's just a lot of work to get something like that working.</blockquote></div>\nI agree it's a lot of work. But we didn't start working on Vengeance in 2014. We started focusing on it in September 2016, and it was released in December 2016. I expect you will be \"very surprised\" =)\n</blockquote>\n</aside>\n<p>I can live with that! &nbsp;I doubt I'll get to play OblivAeon much with my group of friends, given how long a game will take.</p>\n<div> \n[quote=\"MigrantP\"]\n Quote:<br><blockquote>I'd prefer not to have to deal with Dropbox's authentication method</blockquote></div>\nWhat alternative do you prefer? Creating new dropbox accounts is not generally a big deal, we do so for API access ourselves.\n[/quote]\nEh, that's fine then. &nbsp;I'll probably need an app account for API use at some point in the future anyway.\n<div> \n[quote=\"MigrantP\"]\n Quote:<br><blockquote>Assuming the Android data works correctly now, yeah, I'd definitely like all three platforms.</blockquote></div>\nI asked Google what's going on with the Android data, and got no response (surprise). We do also have Android/iOS data from Flurry that may be more reliable, if you're up for parsing another data file format.\n[/quote]\nSure, I can do that. &nbsp;I imagine the format is similar, since you're recording the same events.\n<div> \n[quote=\"MigrantP\"]\n Quote:<br><blockquote>I'm still undecided whether I should handle abandoned games, in which case I'd need the start files as well as the end ones. &nbsp;I can't really count them in the win/loss ratios unless I calculate all the stats twice (with and without abandoned games counting as losses). &nbsp;I suppose I could do that.</blockquote></div>\nSo does that mean you want the start game events or not =) \n[/quote]\nYeah, go ahead and give them to me. &nbsp;Not sure what the abandoned game report will look like, but only one way to find out.",
+        "post_number": 279,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.836Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51201,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-04-27T01:02:12.000Z",
+        "cooked": "<p>All right, here we go!</p><p>http://mindwanderer.net/sotm/app-stats-lite.html<br><span>http://mindwanderer.net/sotm/app-stats-full.html</span></p><p>Everyone please take a look and sanity-check it. &nbsp;Please bear in mind:</p><ul>\n<li>This is only one month's worth of data, January 2017. &nbsp;As a result, some elements which were in beta at the time (Challenge mode and a certain villain) have extremely small numbers. &nbsp;It's still a data set of over 50,000 games!</li>\n<li>It would actually be even more games than that, but as discussed earlier in the thread, multiple identical games played in the same day are counted only once (per platform, because it was way easier that way), so Weekly One-Shots are typically counted as two wins and two losses every day the week they're active.</li>\n<li>Android data isn't included because the reports are messed up and I don't have the Flurry data yet.</li>\n<li>Game abandonment rate is extremely high. &nbsp;Currently, the win rates and model coefficients only count completed games. &nbsp;E<span>ven though I'm sure a good percentage of abandoned games are the players giving up, a</span>bandonment rates are far higher than even loss rates in our user-submitted data set, so it's clearly not reasonable to count abandoned games as losses. &nbsp;Also, the win rates, surprisingly, match up pretty closely anyway.</li>\n<li>I took out the Fear Factor, because the logistic regression model captures the same concept pretty well anyway, and with a data set this large, it's pretty robust.</li>\n<li>The Sentinels are kind of screwed up. &nbsp;Apparently you change between the Adamant and regular Sentinels the normal way, and that changes which \"Instructions\" card you use, which is reported in the data. &nbsp;However, you can of course swap out individual team members on top of that. &nbsp;For Vengeance games, I do have the data for which individual Sentinel was from which set, but I didn't bother trying to include it because A) it would be super annoying, and B) I don't have that data for normal games.</li>\n<li>Speaking of individual hero quirkiness, Completionist Guise is going to mess everything up a bit, since I determine game abandonment rates by comparing started games to completed games, but those won't match up if Guise swaps them. &nbsp;I don't see a good way of dealing with this, but it's just one hero so I'm planning on ignoring it.</li>\n</ul>",
+        "post_number": 280,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.917Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51202,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-04-27T01:37:27.000Z",
+        "cooked": "<p>Huh. &nbsp;I've only glanced through the stats, but if I'm reading it correctly, several of the villains are way easier to defeat in Advanced mode then in regular mode.</p>",
+        "post_number": 281,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:46.985Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51203,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-04-27T01:43:08.000Z",
+        "cooked": "<p>It's not that they're easier to defeat, per se. &nbsp;The model doesn't take player skill into account, and people usually only take on Advanced villains when they're much more confident of their skill level. &nbsp;So there's a significant selection bias.</p>",
+        "post_number": 282,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.047Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51204,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-04-27T02:43:11.000Z",
+        "cooked": "<p>Huh. &nbsp;Maybe the different modes should be seperated (or at least seperable)?</p><p>&nbsp;</p><p>&nbsp;</p><p>On a different note, I find myself surprised as to how low Insula Primalis is in the Environments. &nbsp;I would definately have expected it to be considered easier than Omnitron IV. &nbsp;Maybe the original four environments have a new player bias as well?</p>",
+        "post_number": 283,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.113Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51205,
+        "name": "Jeysie",
+        "username": "Jeysie",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/jeysie/{size}/1868_2.png",
+        "created_at": "2017-04-27T12:21:35.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p>Currently, the win rates and model coefficients only count completed games. &nbsp;Even though I'm sure a good percentage of abandoned games are the players giving up, abandonment rates are far higher than even loss rates in our user-submitted data set, so it's clearly not reasonable to count abandoned games as losses.</p>\n</blockquote>\n</aside>\n<p>Yeah, other reasons why I abandon games:</p>\n<p>I screwed up the setup I wanted (wrong variant or hero order or whatever) and don't want to play through the existing game before redoing things.</p>\n<p>I could probably win but it would be extremely tedious because of the state the game ended up in.</p>\n<p>I have to pause the game and then when I come back I either just don't feel like continuing it or I'm silly and actually forget to continue it.</p>",
+        "post_number": 284,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.177Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Jeysie",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15072,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-11-11",
+        "user_birthdate": "1904-03-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51206,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-04-27T12:32:45.000Z",
+        "cooked": "<p>So will we no longer need to manually input digital games now? Cuz I kind of like having those games under my name. :B</p>",
+        "post_number": 285,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.261Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51207,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-04-27T12:38:39.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"TakeWalker\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/takewalker/48/5677_2.png\" class=\"avatar\"> TakeWalker:</div>\n<blockquote>\n<p>So will we no longer need to manually input digital games now? Cuz I kind of like having those games under my name. :B</p>\n</blockquote>\n</aside>\n<p>Mindwanderer said earlier that the data from MigrantP and the manually input games will be separate. So I would continue inputting your games.&nbsp;</p>",
+        "post_number": 286,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.320Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51208,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-04-27T12:43:03.000Z",
+        "cooked": "<p>Taking a closer look at the stats, when was this data compiled? Because, with minor exception, all my challenge games have been digital, and the only ones I haven't beaten are Miss Info and Cosmotron. Point being, Akash'Bhuta, Voss and Kaargra Warfang shouldn't come up as no games completed. :B Also, if you sort the solo villains by win rate in either version of the stats, the results do not make sense. D: Team villains come out just fine, but then they also don't have any 0's, 100's or N/A's. I guess it's being sorted alphabetically instead of numerically?</p>",
+        "post_number": 287,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.382Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51209,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-04-27T12:53:13.000Z",
+        "cooked": "<p>\n[quote=\"TakeWalker\"]\n</p><p>Taking a closer look at the stats, when was this data compiled? Because, with minor exception, all my challenge games have been digital, and the only ones I haven't beaten are Miss Info and Cosmotron. Point being, Akash'Bhuta, Voss and Kaargra Warfang shouldn't come up as no games completed. :B&nbsp;<span>\n[/quote]\n</span></p><p>&nbsp;\n[quote=\"MindWanderer\"]\n</p><ul><li>This is only one month's worth of data, January 2017. &nbsp;As a result, some elements which were in beta at the time (Challenge mode and a certain villain) have extremely small numbers. &nbsp;It's still a data set of over 50,000 games!</li></ul><p>\n[/quote]\n</p><div>&nbsp;</div>",
+        "post_number": 288,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.444Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51210,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2017-04-27T13:03:08.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"TakeWalker\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/takewalker/48/5677_2.png\" class=\"avatar\"> TakeWalker:</div>\n<blockquote>\n<p>Taking a closer look at the stats, when was this data compiled?</p>\n</blockquote>\n</aside>\n<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p>&nbsp;Please bear in mind:This is only one month's worth of data, January 2017.</p>\n</blockquote>\n</aside>\n<p>So that is before Challenge mode was even implimented in the videogame (publicly).</p>\n<p>I don't know if it gathers info from betatesters but if it does then I suspect a lot of&nbsp; abandoned games come from encountering bugs or simple not encountering them when wanting to test out certain interactions.</p>",
+        "post_number": 289,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.546Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51211,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2017-04-27T13:04:05.000Z",
+        "cooked": "<p>I hate you Powerhound_2000, how dare you be 10 minutes faster than me yet not show up when I open the thread.</p>",
+        "post_number": 290,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.619Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51212,
+        "name": "Dandolo",
+        "username": "Dandolo",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dandolo/{size}/1845_2.png",
+        "created_at": "2017-04-27T13:20:14.000Z",
+        "cooked": "<p>If a player were to start a game, not like the opening set-up and then press restart game 30 times until they got a start they liked would that count as 30 abandoned games?</p>\n<p>If so, I think the high abandonment rate can possibly be attributed to a sub-set of players who restart games they don’t like the start of, until they get a start they like.</p>\n<p>Looking villain by villain, I notice very high abandonment rates for villains like Iron Legacy, Chairman, and Dreamer all of whom have cards that can be awful if they do (or don’t) come out on turn 1 or during setup.</p>",
+        "post_number": 291,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.693Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Dandolo",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13339,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-11-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51213,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-04-27T20:08:35.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p>Huh. &nbsp;Maybe the different modes should be seperated (or at least seperable)?</p>\n</blockquote>\n</aside>\n<p>They are, using the filter field. &nbsp;You can put \"Advanced,\" \"Challenge,\" or \"Ultimate\" there to show only those. &nbsp;You&nbsp;<em>can</em> use negation–the filter supports regex–but the syntax is ridiculous. &nbsp;I keep meaning to make that easier, haven't gotten around to it yet.</p>\n<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p>On a different note, I find myself surprised as to how low Insula Primalis is in the Environments. &nbsp;I would definately have expected it to be considered easier than Omnitron IV. &nbsp;Maybe the original four environments have a new player bias as well?</p>\n</blockquote>\n</aside>\n<p>I'm sure it does. &nbsp;Especially with the $0.99 sale they had a while back, I imagine lots of players have only the base set. &nbsp;And I think \"  Sentinels: Learn to Play\" is included as well, so Baron Blade and Insula Primalis are over-represented.</p>\n<aside class=\"quote no-group\" data-username=\"TakeWalker\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/takewalker/48/5677_2.png\" class=\"avatar\"> TakeWalker:</div>\n<blockquote>\n<p>Also, if you sort the solo villains by win rate in either version of the stats, the results do not make sense. D: Team villains come out just fine, but then they also don't have any 0's, 100's or N/A's. I guess it's being sorted alphabetically instead of numerically?</p>\n</blockquote>\n</aside>\n<p>Yep, exactly. &nbsp;Fixed by replacing \"N/A\" with a blank.</p>\n<aside class=\"quote group-playtesters\" data-username=\"Dandolo\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dandolo/48/1845_2.png\" class=\"avatar\"> Dandolo:</div>\n<blockquote>\n<p>If a player were to start a game, not like the opening set-up and then press restart game 30 times until they got a start they liked would that count as 30 abandoned games?</p>\n</blockquote>\n</aside>\n<p>It would only count as 1, unless they did it on different days–and if they went on to complete a game, it wouldn't even count as abandoned. &nbsp;In fact, and this just occurred to me, if they abandoned 30 times, lost at least once, and won at least once, it would effectively be -1 abandoned games! &nbsp;Hm… I can't think of an elegant solution to this.</p>",
+        "post_number": 292,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.767Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51214,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2017-04-27T21:33:46.000Z",
+        "cooked": "<p>The learn to play edition is supposed to be recording to a separate store, but it looks like that might not be the case. Regardless you're going to be seeing a lot of tutorial games. You could potentially just ignore that particular setup.</p>",
+        "post_number": 293,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.848Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51215,
+        "name": "KateWalker",
+        "username": "TakeWalker",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+        "created_at": "2017-04-27T23:45:12.000Z",
+        "cooked": "<p><em>Hurr, I am good at read</em> :B</p>",
+        "post_number": 294,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.927Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "KateWalker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-02-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51216,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-05-02T20:11:19.000Z",
+        "cooked": "<p>App stats added to the main page,&nbsp;http://mindwanderer.net/sotm/ !</p><p>Data includes pretty much everything now, from May 2015 to April 2017. &nbsp;Over&nbsp;<strong>one million games</strong> recorded (not even counting the duplicate and playtest events that get dropped)!</p><p>Data is not currently added automatically. &nbsp;Not only does MigrantP not have an automated update system in place (which looks like it might be burdensome on Handelabra's end), it's kind of burdensome on my end too. &nbsp;I need to try to tweak my analysis tool to try to speed up adding data to the existing set. &nbsp;(By comparison, I just re-analyze the whole user-submitted data set every day, and that takes about 13 minutes. &nbsp;Doing the entire Handelabra set at once would take in excess of 2 hours, and uses a whole lot more CPU and RAM while it does so.)</p><p>Also, I added default regex to the villain tables that filters out the Advanced, Challenge, and Ultimate game modes. &nbsp;It's confusing but it works; a more elegant solution using JS DataTables is certainly possible but would have been more work than I'm willing to put in right now. &nbsp;Sometimes I do things just for myself.</p>",
+        "post_number": 295,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:47.990Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51217,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2017-05-03T16:32:07.000Z",
+        "cooked": "<p>Thanks MindWanderer - we're glad to help out and it's looking great!</p>",
+        "post_number": 296,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.069Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51218,
+        "name": "dclietz",
+        "username": "dclietz",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3ec8ea/{size}.png",
+        "created_at": "2017-05-03T19:32:49.000Z",
+        "cooked": "<p>It is very interesting how different the hero win rates are for the video game data vs. the human submitted data. It seems like the large disparity in number of abandoned games for different villains makes the villain data a bit suspect.&nbsp;</p>",
+        "post_number": 297,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.154Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "dclietz",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4343,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51219,
+        "name": "Dandolo",
+        "username": "Dandolo",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dandolo/{size}/1845_2.png",
+        "created_at": "2017-05-03T19:39:15.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dclietz\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3ec8ea/48.png\" class=\"avatar\"> dclietz:</div>\n<blockquote>\n<p>It is very interesting how different the hero win rates are for the video game data vs. the human submitted data. It seems like the large disparity in number of abandoned games for different villains makes the villain data a bit suspect.</p>\n</blockquote>\n</aside>\n<p>The one that’s really throwing me for a loop is Tachyon’s win rate being so low. I usually think of her as one of the top 10 heroes.</p>",
+        "post_number": 298,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.257Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Dandolo",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13339,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-11-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51220,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-05-03T20:35:31.000Z",
+        "cooked": "<p>I don't think Tachyon gets much use from players that have Team Leader and Super Scientific available to them. &nbsp;They're substantially better in the majority of cases. &nbsp;I believe she's the only hero whose variants, collectively, get used more than their base version, and not only that, but each variant gets used nearly as much as the base version all by themselves. &nbsp;For most other heroes, no variant is even close; most get used an order of magnitude or more less often.</p><p>A lot of the differences also have to do with the Undo feature, I think. &nbsp;Super-Scientific Tachyon, for instance--I bet she's so much better in the video game than in real life for exactly that reason. &nbsp;I'm sure abandoned games have a lot to do with it too, but I'm not sure how they'd do so in a predictable way.</p>",
+        "post_number": 299,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.365Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51221,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2017-05-03T20:52:13.000Z",
+        "cooked": "<p>I would guess the self-submitted data skews more toward more advanced players, and those who wouldn't \"cheat\" on the tabletop. But the video game has players of all kinds.</p><p>One of the tricky things about \"completion rate\" is that it could consider a game started on Monday and finished on Tuesday as abandoned.</p><p>MindWanderer, how are you tracking games that have an \"End Game\" event but not a \"Start Game\" event on the same day?</p>",
+        "post_number": 300,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.456Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51222,
+        "name": "dclietz",
+        "username": "dclietz",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3ec8ea/{size}.png",
+        "created_at": "2017-05-03T22:27:37.000Z",
+        "cooked": "<p>Ah, good points.&nbsp;</p><p>Is there an anonomized identifier that tells you which system submitted which games? If so, you could look at the stats just for devices that have been used for lots of games to get an approximation of experienced player's experiences. I bet Tachyon's and Nightmist's win rate would go up, for example.&nbsp;</p><p>&nbsp;</p>",
+        "post_number": 301,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.553Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "dclietz",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4343,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51223,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-05-03T22:47:04.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"MigrantP\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/migrantp/48/1921_2.png\" class=\"avatar\"> MigrantP:</div>\n<blockquote>\n<p>MindWanderer, how are you tracking games that have an \"End Game\" event but not a \"Start Game\" event on the same day?</p>\n</blockquote>\n</aside>\n<p>I don't! &nbsp;There's no connection between start games and end games, and I didn't see a particular need to map them. &nbsp;I just deal with the totals. &nbsp;So if Legacy was in 100 started games and 50 finished games, I report his completion rate as 50%. &nbsp;If I ran a whole report for a single day, yeah, I could get errors where there would be 1 completed game and 0 started games with a particular hero/villain/etc, but with aggregates that's not an issue.</p>",
+        "post_number": 302,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.645Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51224,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-05-08T18:54:16.000Z",
+        "cooked": "<p>Interesting fact I just noticed: One way to beat Heroic Infinitor is to get him banished by Unforgiving Wasteland while on his front side. &nbsp;However, apparently this has never actually happened! &nbsp;I'm guessing it's so much easier to beat him with the \"no more manifestations\" condition that it never comes up, but it's funny that apparently no one has ever even gone for it.</p>",
+        "post_number": 303,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.840Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51225,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-05-08T18:55:51.000Z",
+        "cooked": "<p>Not outside of testing versions at least.&nbsp;</p>",
+        "post_number": 304,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.905Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51226,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-05-08T19:22:41.000Z",
+        "cooked": "<p>I actually get the testing data, too. &nbsp;I'm filtering out any data that includes games with content that hasn't been released yet, but right now I'm reporting games played with Heroic Infinitor that took place before he officially went live. &nbsp;I imagine there are tests performed on versions of the app that don't report their results at all, but beta testers' results are in there (unless they tested against, for example, Extremist Sky-Scraper--I'm not saying she's in there at all, but if she were, her games would be filtered out).</p>",
+        "post_number": 305,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:48.964Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51227,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-05-08T21:49:28.000Z",
+        "cooked": "<p>Hmm. That strategy would be good for challenge Heroic Infinitor, who is nigh impossible to beat on his front side.</p>",
+        "post_number": 306,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.024Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51228,
+        "name": "Blackfang108",
+        "username": "Blackfang108",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/74df32/{size}.png",
+        "created_at": "2017-05-09T17:00:46.000Z",
+        "cooked": "<p>He's hard, but I wouldn't say Nigh-Impossible.</p><p>Don't use an environment and heros with extra targets, and keep yourself healed, and he'll fizzle out.</p><p>I tried beating him with CC, and had no luck.</p><p>Freedom Tower, no small HP targets?&nbsp; Just get a little DR and you're golden.</p>",
+        "post_number": 307,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.093Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Blackfang108",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 14551,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-05-31",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51229,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2017-05-09T17:04:43.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p>I actually get the testing data, too.  I’m filtering out any data that includes games with content that hasn’t been released yet, but right now I’m reporting games played with Heroic Infinitor that took place before he officially went live.  I imagine there are tests performed on versions of the app that don’t report their results at all, but beta testers’ results are in there (unless they tested against, for example, Extremist Sky-Scraper–I’m not saying she’s in there at all, but if she were, her games would be filtered out).</p>\n</blockquote>\n</aside>\n<p>Testing data might mess the results. I might be the minority, but when I am testing, I don’t always play to win. Often, I am looking and testing particular interactions.</p>",
+        "post_number": 308,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.166Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51230,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-05-09T17:05:56.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>MindWanderer wrote:</b><br><blockquote>I actually get the testing data, too. &nbsp;I'm filtering out any data that includes games with content that hasn't been released yet, but right now I'm reporting games played with Heroic Infinitor that took place before he officially went live. &nbsp;I imagine there are tests performed on versions of the app that don't report their results at all, but beta testers' results are in there (unless they tested against, for example, Extremist Sky-Scraper--I'm not saying she's in there at all, but if she were, her games would be filtered out).\n&nbsp;\n</blockquote></div>\n&nbsp;\n<p>Testing data might mess the results. I might be the minority, but when I am testing, I don't always play to win. Often, I am looking and testing particular interactions.</p>\n</blockquote>\n</aside>\n<p>I had meant to say something along these lines. &nbsp; Thanks for writing them for me about why I'm hesitant that they should be added. &nbsp;</p>",
+        "post_number": 309,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.226Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51231,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2017-05-09T17:15:24.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>Pydro wrote:</b><br><blockquote>&nbsp;MindWanderer wrote:<br><blockquote>I actually get the testing data, too. &nbsp;I'm filtering out any data that includes games with content that hasn't been released yet, but right now I'm reporting games played with Heroic Infinitor that took place before he officially went live. &nbsp;I imagine there are tests performed on versions of the app that don't report their results at all, but beta testers' results are in there (unless they tested against, for example, Extremist Sky-Scraper--I'm not saying she's in there at all, but if she were, her games would be filtered out).&nbsp;\n&nbsp;\n</blockquote>\n&nbsp;Testing data might mess the results. I might be the minority, but when I am testing, I don't always play to win. Often, I am looking and testing particular interactions.\n</blockquote></div>\nI had meant to say something along these lines. &nbsp; Thanks for writing them for me about why I'm hesitant that they should be added. &nbsp;\n</blockquote>\n</aside>\n<p>I already did say <a href=\"https://greaterthangames.com/comment/169352#comment-169352\" rel=\"noopener nofollow ugc\">something</a>!</p>\n<p>&nbsp;</p>",
+        "post_number": 310,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.306Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/comment/169352#comment-169352",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51232,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-05-09T17:17:05.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>I already did say  <a href=\"https://greaterthangames.com/comment/169352#comment-169352\" rel=\"noopener nofollow ugc\">something</a> !&nbsp;</p>\n</blockquote>\n</aside>\n<p>Well I think I missed that one. &nbsp; Thanks for showing your concern about it as well</p>",
+        "post_number": 311,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.377Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51233,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-05-09T17:44:11.000Z",
+        "cooked": "<p>MigrantP and I talked about that, but the number of test games which are actually completed is really small compared to all the legit \"playing to win\" data. &nbsp;I'd be more worried about people aiming for achievements and unlocks, but even with that, it's just a small amount of noise in the larger signal. &nbsp;Remember, we're looking at over a million games here.</p>",
+        "post_number": 312,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.457Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51234,
+        "name": "Sonvar",
+        "username": "Powerhound_2000",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+        "created_at": "2017-05-09T17:49:20.000Z",
+        "cooked": "<p>Regardless of the number I'd prefer those be excluded.&nbsp;</p>",
+        "post_number": 313,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.526Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Sonvar",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5464,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-09-14",
+        "user_birthdate": "1904-02-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51235,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-05-10T01:22:59.000Z",
+        "cooked": "<p>Well, I don't have any way of doing that. &nbsp;They're not identified in any way. &nbsp;I thought about setting up an elaborate check to see if any games were reported with characters that hadn't been released yet, setting up a whole table with the release dates of every hero, villain, and environment, but not only would that have been a great deal of trouble for very little gain, it still wouldn't necessarily catch all the playtester games.</p><p>And again, games in which people deliberately lose or do other strange things in order to unlock a particular character or achievement will be literally hundreds of times more common. &nbsp;I started analyzing just January, before filtering out playtest games (challenge mode and Biomancer), and the filter ended up taking out only a dozen games or so. &nbsp;At that rate, I estimate perhaps 0.03% of games being playtest games. &nbsp;It's nothing compared to the other noise there will be in the data; it's less than the amount of clerical error in the user-submitted statistics project by far.</p><p>In other news, since there are so many games in the Handelabra data, I've added some more stats in the Details screen: the logistic regression model coefficient for each hero, villain, and environment assuming you've already selected that particular hero, villain, or environment. This makes it easier to see things like, for instance, the Mobile Defense Platform being unusually bad against Deadline and the Sentinels unusually good against Tormented Infinitor (common sense, but good to see numerical confirmation). &nbsp;Some of the sample sizes are still really small, though, so use at your own discretion.</p>",
+        "post_number": 314,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.604Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51236,
+        "name": "dclietz",
+        "username": "dclietz",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/3ec8ea/{size}.png",
+        "created_at": "2017-06-13T22:44:45.000Z",
+        "cooked": "<p>I did a few comparisons of the Video game stats vs. the Physical game stats. Here are some things I found interesting.</p><p>The completion rate ranking for villains tracks the win rate ranking pretty well, meaning I think people are more often abandoning games they think they will lose than games they think they will win. So, I think the win rate stats are biased by the completion rates - heroes with lower completion rates (36% like Argent Adept: Prime Warden) are probably \"overrated\" when you just look at win rates and heroes with higher completion rates (57% like Legacy:Young) are \"underrated\".</p><p>That said, some villains provoke abandonment more or less often than the win rate alone would predict. For example, more games against Wager Master and Kaargra get completed than expected, my guess is because they can win in a single card play. But fewer games against Akash and Spite get completed than expected, my guess is because they can be annoying depending on how the cards fall and that they can lock down hero damage so that people just don't want to finish even if they would eventually win.</p><p>The top 5 heroes that did better in the physical game than the video game (by rank, not win %) were Sky-Scraper (22 ranks) Tachyon (21) Visionary (18) Prime Warden Captain Cosmic (13) and Dark Watch Fixer (13). I have no idea why these heroes either underperformed in the video game (or overperformed in the physical game, depending on how you look at it).</p><p>The top 5 heroes that did better in the video game than the physical game were Setback (19) KNYFE: Rogue Agent (17) Mr. Fixer (15) KNYFE (14) and Parse (14). At least some of those seem to be due to the UNDO feature helping heroes with random base powers.</p><p>The top 3 villains that did better in the physical game than the video game were La Capitan (10) The Matriarch (8) and Cosmic Omnitron (4). The top 3 villains that did better in the video game than the physical game were Miss Information (12) Wager Master (9) and Tormented Infinitor (5). This is surprising to me, because I consider most of those villains in both categories to be easier to beat once you know their strategy, so I would have thought that would bias one way or the other.</p><p>The harder villains tend to have a much lower win rate in the video game than the physical game. I'd guess that this is because people reporting physical games are more likely to both 1) win and 2) report wins.</p><p>The top 5 most popular heroes in the video game are the base versions of Legacy, Tempest, Ra, Wraith, and Haka. Base Tachyon is the least popular hero from the first set, presumably due to her promos being very popular.</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "post_number": 315,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.675Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "dclietz",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4343,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-04-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51237,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2017-06-14T01:49:39.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dclietz\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3ec8ea/48.png\" class=\"avatar\"> dclietz:</div>\n<blockquote>\n<p>The top 5 heroes that did better in the physical game than the video game (by rank, not win %) were Sky-Scraper (22 ranks) Tachyon (21) Visionary (18) Prime Warden Captain Cosmic (13) and Dark Watch Fixer (13). I have no idea why these heroes either underperformed in the video game (or overperformed in the physical game, depending on how you look at it).</p>\n</blockquote>\n</aside>\n<p>For Prime Warden Captian Cosmic I would guess it's because people would use it multiple times in a single turn and allow it to give the choice that many times. Which is very, very powerful. Dark Watch Mister Fixer may be people forgoing the destruction on it.&nbsp;</p>\n<aside class=\"quote group-playtesters\" data-username=\"dclietz\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/d/3ec8ea/48.png\" class=\"avatar\"> dclietz:</div>\n<blockquote>\n<p>The top 5 heroes that did better in the video game than the physical game were Setback (19) KNYFE: Rogue Agent (17) Mr. Fixer (15) KNYFE (14) and Parse (14). At least some of those seem to be due to the UNDO feature helping heroes with random base powers.</p>\n</blockquote>\n</aside>\n<p>If someone uses the undo feature to get a favorable result then I would also guess they would also check the decks in the physical to see what the result could be. My best guess is because people have had more practice with the heroes, thus allowing them to be more skilled by the time that hero was released in the Video Game. I think this is probably most true with Mister Fixer.</p>",
+        "post_number": 316,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.760Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51238,
+        "name": "MindWanderer",
+        "username": "MindWanderer",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+        "created_at": "2017-06-14T01:56:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>For Prime Warden Captian Cosmic I would guess it's because people would use it multiple times in a single turn and allow it to give the choice that many times. Which is very, very powerful.</p>\n</blockquote>\n</aside>\n<p>That got nerfed, you can't do that anymore. &nbsp;Unless you think people are still applying the old interpretation?&nbsp;</p>\n<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>Dark Watch Mister Fixer may be people forgoing the destruction on it.</p>\n</blockquote>\n</aside>\n<p>Like… cheating? &nbsp;That doesn't make much sense.</p>\n<aside class=\"quote group-playtesters\" data-username=\"Ronway\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/ronway/48/1856_2.png\" class=\"avatar\"> Ronway:</div>\n<blockquote>\n<p>If someone uses the undo feature to get a favorable result then I would also guess they would also check the decks in the physical to see what the result could be.&nbsp;</p>\n</blockquote>\n</aside>\n<p>I dunno, I find myself doing it more in the video game. &nbsp;Somehow it seems easier to justify than if I were doing it in person. &nbsp;I think that in a video game I'm more used to \"anything the game allows me to do is legal\" whereas in a physical game I know it's on me to not cheat.</p>",
+        "post_number": 317,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.847Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MindWanderer",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13161,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-10-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51239,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2017-06-14T02:03:36.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<p><b>Ronway wrote:</b></p>\n<div><blockquote>For Prime Warden Captian Cosmic I would guess it's because people would use it multiple times in a single turn and allow it to give the choice that many times. Which is very, very powerful.\n&nbsp;\n</blockquote></div>\nThat got nerfed, you can't do that anymore. &nbsp;Unless you think people are still applying the old interpretation?&nbsp;\n</blockquote>\n</aside>\n<p>There would still be games that were input that people would have used that. Also people would houserule that it still works like that.</p>\n<aside class=\"quote group-playtesters\" data-username=\"MindWanderer\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/mindwanderer/48/4816_2.png\" class=\"avatar\"> MindWanderer:</div>\n<blockquote>\n<div><b>Ronway wrote:</b><br><blockquote>Dark Watch Mister Fixer may be people forgoing the destruction on it.\n&nbsp;\n</blockquote></div>\nLike... cheating? &nbsp;That doesn't make much sense.\n</blockquote>\n</aside>\n<p>I believe the proper term would be houserule.</p>",
+        "post_number": 318,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:49.929Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51240,
+        "name": "Natediggadoggity",
+        "username": "Natediggadoggity",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/f04885/{size}.png",
+        "created_at": "2017-06-14T13:31:51.000Z",
+        "cooked": "<p>In light of the abandonment issue, I’d love a “surrender” button to insta-lose. There are many times I get to a bad game state, where it’s pretty sure I’m going to lose, and it’s not worth spending the time to make sure.</p>\n<p>Of course, a surrender button might be more accurate, but it also could just have the same problem, reversed?</p>\n<p>If you had a surrender button, would you be more likely to use it only when you’re going to lose? Would you use it instead of abandoning and never abandon again? Or would you ignore it and continue to just abandon all games instead?</p>",
+        "post_number": 319,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:50.000Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Natediggadoggity",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 12286,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-03-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51241,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2017-06-14T14:02:00.000Z",
+        "cooked": "<p>I know I abandon a bunch of Akash games. In many games, I have a tendency to find it difficult to stop then pick it up later. I often forget exactly what I was trying to do and the specifics of what is going on. This happens to many games, not just SotM.</p>\n<p>Akash games tends to be longer. If I don’t finish it in one sitting, I very often abandon it instead of finishing it later.</p>",
+        "post_number": 320,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:50.065Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 6981
+}

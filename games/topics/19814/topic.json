@@ -1,0 +1,2536 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 19816,
+        "name": "rickjonzz",
+        "username": "rickjonzz",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rickjonzz/{size}/1934_2.png",
+        "created_at": "2020-03-27T13:36:45.000Z",
+        "cooked": "<p>Like many other groups, my regular tabletop group is moving to digital for the duration. I've tried a few of the free versions of different tabletops, like Adam, I'll be using roll20.net.&nbsp;</p>\n<p>Unlike Adam - I have no artistic ability (beyond Order of the Stick level doodles), but thankfully there are so many people drawing superheroes other than familiar Marvel and DC. One of the best places to look is the SuperheroOC board on deviantart.&nbsp;</p>\n<p>And since SCRPG doesn't need a battlemap, I just made a template and will drag tokens onto the board. And here's what I'm using to organize the tokens.&nbsp;</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:53:39.118Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 817,
+        "reads": 32,
+        "readers_count": 31,
+        "score": 4086.4,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "rickjonzz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Like many other groups, my regular tabletop group is moving to digital for the duration. I've tried a few of the free versions of different tabletops, like Adam, I'll be using roll20.net.&nbsp;</p>\r\n\r\n<p>Unlike Adam - I have no artistic ability (beyond Order of the Stick level doodles), but thankfully there are so many people drawing superheroes other than familiar Marvel and DC. One of the best places to look is the SuperheroOC board on deviantart.&nbsp;</p>\r\n\r\n<p>And since SCRPG doesn't need a battlemap, I just made a template and will drag tokens onto the board. And here's what I'm using to organize the tokens.&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16523,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-11-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230135,
+        "name": "ErekLich",
+        "username": "ErekLich",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/f6c823/{size}.png",
+        "created_at": "2020-03-27T19:31:55.000Z",
+        "cooked": "<p>We ran the Intro miniseries on Roll20 - it worked fairly well!</p>\n<p>Here's some Macros:</p>\n<p>Mid die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl2dl1</p>\n<p>Min die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl1</p>\n<p>Max die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}k1</p>\n<p>Min+Mid: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl2</p>\n<p>Mid+Max: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}dl1</p>\n<p>Min+Mid+Max: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}</p>\n<p>I wasn't able to figure out a way to get Min+Max using Roll20's stuff, but thankfully that one doesn't get used too often.</p>\n<p>Additionally, I was able to keep Minions in groups fairly easily; each token can have 3 hit point bars so I just had each one represent each minion's die size.&nbsp; Just make sure to set them all as visible to your players!</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:03.847Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 32,
+        "readers_count": 31,
+        "score": 16.4,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "ErekLich",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>We ran the Intro miniseries on Roll20 - it worked fairly well!</p>\r\n\r\n<p>Here's some Macros:</p>\r\n\r\n<p>Mid die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl2dl1</p>\r\n\r\n<p>Min die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl1</p>\r\n\r\n<p>Max die: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}k1</p>\r\n\r\n<p>Min+Mid: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}kl2</p>\r\n\r\n<p>Mid+Max: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}dl1</p>\r\n\r\n<p>Min+Mid+Max: /roll {1d?{Power Die}+1d?{Quality Die}+1d?{Status Die}}</p>\r\n\r\n<p>I wasn't able to figure out a way to get Min+Max using Roll20's stuff, but thankfully that one doesn't get used too often.</p>\r\n\r\n<p>Additionally, I was able to keep Minions in groups fairly easily; each token can have 3 hit point bars so I just had each one represent each minion's die size.&nbsp; Just make sure to set them all as visible to your players!</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17324,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2019-03-18",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230136,
+        "name": "gameguythinks",
+        "username": "gameguythinks",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/gameguythinks/{size}/1985_2.png",
+        "created_at": "2020-03-28T20:21:40.000Z",
+        "cooked": "<p>We are currentyly running the intro series on Roll20 and it's been great!</p>\n<p>I ended up creating an ability macro that would compensate for the basic roll not getting the correct status from the&nbsp;environment.</p>\n<pre>/roll {@{Tachyon|power_value}, @{Tachyon|quality_value}, ?{Status Die|Green, 1d6|Yellow, 1d6|Red, 1d8}}kh2dh1+?{Mods|0}</pre>\n<p>I created a custom token marker set so that I could assign dice to minions and lieutenants. In order to track multiple boosts and hinderances, we use B's and H's with the values. I haven't figured out a cool way to track a non-character specific boost or hindrance other than just using the text tool and typing it on the playing mat.</p>\n<p>&nbsp;</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:03.926Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 24,
+        "readers_count": 23,
+        "score": 9.8,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "gameguythinks",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>We are currentyly running the intro series on Roll20 and it's been great!</p>\r\n\r\n<p>I ended up creating an ability macro that would compensate for the basic roll not getting the correct status from the&nbsp;environment.</p>\r\n\r\n<pre>\r\n/roll {@{Tachyon|power_value}, @{Tachyon|quality_value}, ?{Status Die|Green, 1d6|Yellow, 1d6|Red, 1d8}}kh2dh1+?{Mods|0}</pre>\r\n\r\n<p>I created a custom token marker set so that I could assign dice to minions and lieutenants. In order to track multiple boosts and hinderances, we use B's and H's with the values. I haven't figured out a cool way to track a non-character specific boost or hindrance other than just using the text tool and typing it on the playing mat.</p>\r\n\r\n<p>&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17640,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2020-03-04",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230137,
+        "name": "Justin Wawrzonek",
+        "username": "drevilz4l",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+        "created_at": "2020-04-24T13:14:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"gameguythinks\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/gameguythinks/48/1985_2.png\" class=\"avatar\"> gameguythinks:</div>\n<blockquote>\n<p>We are currentyly running the intro series on Roll20 and it’s been great!</p>\n<p>I ended up creating an ability macro that would compensate for the basic roll not getting the correct status from the environment.</p>\n<p>/roll {@{Tachyon|power_value}, @{Tachyon|quality_value}, ?{Status Die|Green, 1d6|Yellow, 1d6|Red, 1d8}}kh2dh1+?{Mods|0}</p>\n<p>I created a custom token marker set so that I could assign dice to minions and lieutenants. In order to track multiple boosts and hinderances, we use B’s and H’s with the values. I haven’t figured out a cool way to track a non-character specific boost or hindrance other than just using the text tool and typing it on the playing mat.</p>\n</blockquote>\n</aside>\n<p>I just stole this idea. Fantastic idea!</p>\n<p>What does everyone do for marking Hinders and Boosts? Did you just put them in the Roll20 Bars and tell the player what they represent? or do you have some other more interesting way to to do it?</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:03.999Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 37,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 189.6,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "Justin Wawrzonek",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "[quote=\"gameguythinks\"]\n\nWe are currentyly running the intro series on Roll20 and it's been great!\n\nI ended up creating an ability macro that would compensate for the basic roll not getting the correct status from the environment.\n\n/roll {@{Tachyon|power_value}, @{Tachyon|quality_value}, ?{Status Die|Green, 1d6|Yellow, 1d6|Red, 1d8}}kh2dh1+?{Mods|0}\n\nI created a custom token marker set so that I could assign dice to minions and lieutenants. In order to track multiple boosts and hinderances, we use B's and H's with the values. I haven't figured out a cool way to track a non-character specific boost or hindrance other than just using the text tool and typing it on the playing mat.\n\n \n\n[/quote]\n\nI just stole this idea. Fantastic idea!\n\nWhat does everyone do for marking Hinders and Boosts? Did you just put them in the Roll20 Bars and tell the player what they represent? or do you have some other more interesting way to to do it?",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 83,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230138,
+        "name": "theDissilent",
+        "username": "theDissilent",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thedissilent/{size}/1848_2.png",
+        "created_at": "2020-04-26T20:13:36.000Z",
+        "cooked": "<p>I'm working on a new version of the character sheet, and started a discussion for it.</p>\n<p><a href=\"https://greaterthangames.com/forum/topic/new-roll20-character-sheet-22932\" rel=\"noopener nofollow ugc\">https://greaterthangames.com/forum/topic/new-roll20-character-sheet-22932</a></p>\n<p>If you have any suggestions, please comment there.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.073Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 6,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 34.2,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "theDissilent",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/forum/topic/new-roll20-character-sheet-22932",
+            "internal": false,
+            "reflection": false,
+            "clicks": 43
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I'm working on a new version of the character sheet, and started a discussion for it.</p>\r\n\r\n<p><a href=\"https://greaterthangames.com/forum/topic/new-roll20-character-sheet-22932\">https://greaterthangames.com/forum/topic/new-roll20-character-sheet-22932</a></p>\r\n\r\n<p>If you have any suggestions, please comment there.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17676,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2020-04-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230139,
+        "name": "theDissilent",
+        "username": "theDissilent",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thedissilent/{size}/1848_2.png",
+        "created_at": "2020-05-15T16:49:53.000Z",
+        "cooked": "<p>A Macro that a GM can use without having to fill out a character sheet:</p>\n<p>GM-Roll<br>\n&amp;{template:default} {{name=Custom Roll}} {{Power Die - d?{Power Die|6}=[[d?{Power Die}cs&gt;13cf&lt;0]]}} {{Quality Die - d?{Quality Die|6}=[[d?{Quality Die}cs&gt;13cf&lt;0]]}} {{Status Die - d?{Status Die|6}=[[d?{Status Die}cs&gt;13cf&lt;0]]}}</p>\n<p>It promts the user to type 3 numbers (defaut 6), then rolls the 3 dice of those sizes as Power/Quality/Status.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.170Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 24.0,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "theDissilent",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>A Macro that a GM can use without having to fill out a character sheet:</p>\r\n\r\n<p>GM-Roll<br />\r\n&amp;{template:default} {{name=Custom Roll}} {{Power Die - d?{Power Die|6}=[[d?{Power Die}cs&gt;13cf&lt;0]]}} {{Quality Die - d?{Quality Die|6}=[[d?{Quality Die}cs&gt;13cf&lt;0]]}} {{Status Die - d?{Status Die|6}=[[d?{Status Die}cs&gt;13cf&lt;0]]}}</p>\r\n\r\n<p>It promts the user to type 3 numbers (defaut 6), then rolls the 3 dice of those sizes as Power/Quality/Status.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17676,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2020-04-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230140,
+        "name": "theDissilent",
+        "username": "theDissilent",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thedissilent/{size}/1848_2.png",
+        "created_at": "2020-05-15T17:03:13.000Z",
+        "cooked": "<h2><strong>Downgradeable Minions:</strong></h2>\n<p>On the Macros/Decks/Rollable Tables Tab, create a Rollable table named Minions.</p>\n<p>Create 5 Table Items with images to represent die sizes (like those used on the minion tab of the character sheet).</p>\n<p>Once created, click Token to have one spawn on the table.</p>\n<p>Right-click &gt; Muti-Sided &gt; Choose Side will let you upgrade or downgrade each token.</p>\n<p>Spawn one to represent each Minion or Luitenant, and they can be quickly adjusted when they take damage or otherwise change size.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.238Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 28.6,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "theDissilent",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<h2><strong>Downgradeable Minions:</strong></h2>\r\n\r\n<p>On the Macros/Decks/Rollable Tables Tab, create a Rollable table named Minions.</p>\r\n\r\n<p>Create 5 Table Items with images to represent die sizes (like those used on the minion tab of the character sheet).</p>\r\n\r\n<p>Once created, click Token to have one spawn on the table.</p>\r\n\r\n<p>Right-click &gt; Muti-Sided &gt; Choose Side will let you upgrade or downgrade each token.</p>\r\n\r\n<p>Spawn one to represent each Minion or Luitenant, and they can be quickly adjusted when they take damage or otherwise change size.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17676,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2020-04-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230141,
+        "name": "Fynikz",
+        "username": "Fynikz",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/f/9e8a1a/{size}.png",
+        "created_at": "2020-05-15T19:59:02.000Z",
+        "cooked": "<p>For minions, I took the dice images from the book (along with some other icons) and turned them into a token set. So this way the dice appears in the upper right of the portrait, and you can easily tell how many minions and what die sizes are on the board. Plus its easy to toggle.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.349Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 13.6,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "Fynikz",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>For minions, I took the dice images from the book (along with some other icons) and turned them into a token set. So this way the dice appears in the upper right of the portrait, and you can easily tell how many minions and what die sizes are on the board. Plus its easy to toggle.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13688,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2016-01-16",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230142,
+        "name": "rickjonzz",
+        "username": "rickjonzz",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rickjonzz/{size}/1934_2.png",
+        "created_at": "2020-05-20T14:02:18.000Z",
+        "cooked": "<p>So I've run SCRPG for my group twice now, and have made adjustments.&nbsp;</p>\n<p>Firstly, thank you so much to&nbsp;<a href=\"https://greaterthangames.com/users/thedissilent\" title=\"View user profile.\" rel=\"noopener nofollow ugc\">theDissilent</a>&nbsp;for updating the character sheets. They're so useful. I can even use the villain side for environments, minions &amp; lieutenants. For environments, I put their three dice in power, quality and status respectively. For minions and lieutenants, I leave powers and qualities empty and just give them a series of status checkboxes (10 minion, d8 minion, d6 minion, d4 minion, d10 lieutenant, ....) and only check the status box when I want them to roll. Side note, I was having a hard time keeping track of all of my windows (roll20, villains, lieutenants, minions, etc) until I learned this trick with Chrome. After you pop out their character sheet into a new window, right click on the bar at the top, and select \"show as tab\". Then pop out each other villain, select \"show as tab\" and drag all the villain tabs into one chrome window. So you've got one chome window for the board and one for the villains, and it's easy to switch tabs to the villain in question.&nbsp;</p>\n<p>Here's what I did to make session 2 (\"Leave the Gundam, Take the Cannoli\") of roll20 gameplay&nbsp;better than session 1.&nbsp;</p>\n<p>I don't really consider what I'm doing as a battlemap. I think of it as a game board.&nbsp;&nbsp;</p>\n<ul>\n\t<li>I made the game table vertical rather than horizontal, so folks can use the scroll wheel to look over the board. I know there's a way to side scroll, but vertical is more intuitive.</li>\n\t<li>I pulled the individual GYR turn markers out of the PDF and made individual tokens for each, so I can have custom scene trackers. Also, I can't believe until just this second I hadn't thought to use the token built in red \"X\" token icon to mark turn completion.</li>\n\t<li>I uploaded a stopwatch token to use for Challenges. I put the description in the icon text and use the colored dot token icons&nbsp;to show the number of steps.&nbsp;</li>\n\t<li>Rather than use the Fog of War to hide everything but the heroes until the fight starts (and then reveal the other parts as minions or whatever arrive), I put a big visible space for the board and fog out the rest of it. Then, I just drag the icons I need onto the board as needed.</li>\n</ul>\n<p>To Do:&nbsp;</p>\n<ul>\n\t<li>I had just used the single \"Flex\" and \"Snail\" token icons for Boost and Hinder. I had a request to make custom tokens of:&nbsp;+1, -1, +2, -2, etc so folks could put the boosts and hinders on the tokens. So I'm going figure that out. If I get really clever, I will even use colors or something to denote if a mod is normal, exclusive or persistent.&nbsp;</li>\n</ul>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.416Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 7,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 38.6,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "rickjonzz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://greaterthangames.com/users/thedissilent",
+            "internal": false,
+            "reflection": false,
+            "clicks": 4
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>So I've run SCRPG for my group twice now, and have made adjustments.&nbsp;</p>\r\n\r\n<p>Firstly, thank you so much to&nbsp;<a about=\"/users/thedissilent\" datatype=\"\" href=\"https://greaterthangames.com/users/thedissilent\" lang=\"\" property=\"name\" title=\"View user profile.\" typeof=\"UserAccount\">theDissilent</a>&nbsp;for updating the character sheets. They're so useful. I can even use the villain side for environments, minions &amp; lieutenants. For environments, I put their three dice in power, quality and status respectively. For minions and lieutenants, I leave powers and qualities empty and just give them a series of status checkboxes (10 minion, d8 minion, d6 minion, d4 minion, d10 lieutenant, ....) and only check the status box when I want them to roll. Side note, I was having a hard time keeping track of all of my windows (roll20, villains, lieutenants, minions, etc) until I learned this trick with Chrome. After you pop out their character sheet into a new window, right click on the bar at the top, and select \"show as tab\". Then pop out each other villain, select \"show as tab\" and drag all the villain tabs into one chrome window. So you've got one chome window for the board and one for the villains, and it's easy to switch tabs to the villain in question.&nbsp;</p>\r\n\r\n<p>Here's what I did to make session 2 (\"Leave the Gundam, Take the Cannoli\") of roll20 gameplay&nbsp;better than session 1.&nbsp;</p>\r\n\r\n<p>I don't really consider what I'm doing as a battlemap. I think of it as a game board.&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>I made the game table vertical rather than horizontal, so folks can use the scroll wheel to look over the board. I know there's a way to side scroll, but vertical is more intuitive.</li>\r\n\t<li>I pulled the individual GYR turn markers out of the PDF and made individual tokens for each, so I can have custom scene trackers. Also, I can't believe until just this second I hadn't thought to use the token built in red \"X\" token icon to mark turn completion.</li>\r\n\t<li>I uploaded a stopwatch token to use for Challenges. I put the description in the icon text and use the colored dot token icons&nbsp;to show the number of steps.&nbsp;</li>\r\n\t<li>Rather than use the Fog of War to hide everything but the heroes until the fight starts (and then reveal the other parts as minions or whatever arrive), I put a big visible space for the board and fog out the rest of it. Then, I just drag the icons I need onto the board as needed.</li>\r\n</ul>\r\n\r\n<p>To Do:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>I had just used the single \"Flex\" and \"Snail\" token icons for Boost and Hinder. I had a request to make custom tokens of:&nbsp;+1, -1, +2, -2, etc so folks could put the boosts and hinders on the tokens. So I'm going figure that out. If I get really clever, I will even use colors or something to denote if a mod is normal, exclusive or persistent.&nbsp;</li>\r\n</ul>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16523,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-11-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230143,
+        "name": "Justin Wawrzonek",
+        "username": "drevilz4l",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+        "created_at": "2020-05-20T16:59:56.000Z",
+        "cooked": "<p>How did you get the numbers on the Boost and Hinder markers on each character?</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.494Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 17.8,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "Justin Wawrzonek",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "raw": "<p>How did you get the numbers on the Boost and Hinder markers on each character?</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 83,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230144,
+        "name": "rickjonzz",
+        "username": "rickjonzz",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rickjonzz/{size}/1934_2.png",
+        "created_at": "2020-05-20T21:39:37.000Z",
+        "cooked": "<p>I didn't put individual boost/hinder markers on character tokens. I just put a single icon that meant \"Boosted\" and another for \"Hindered\". However, due to player requests, today I added custom token icons for plus and minus one through five. You can't mark yourself as having mutliple boosts of the same ammount, but it's better than nothing. (So if Absolute Zero boosts himself for +2 and then Legacy boostsseveryone for another +2, Absolute Zero's player&nbsp;couldn't put 2 of the +2 icons on their token)&nbsp;</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.558Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 28.2,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "rickjonzz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I didn't put individual boost/hinder markers on character tokens. I just put a single icon that meant \"Boosted\" and another for \"Hindered\". However, due to player requests, today I added custom token icons for plus and minus one through five. You can't mark yourself as having mutliple boosts of the same ammount, but it's better than nothing. (So if Absolute Zero boosts himself for +2 and then Legacy boostsseveryone for another +2, Absolute Zero's player&nbsp;couldn't put 2 of the +2 icons on their token)&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16523,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-11-03",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230145,
+        "name": "ErekLich",
+        "username": "ErekLich",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/f6c823/{size}.png",
+        "created_at": "2020-05-20T23:56:33.000Z",
+        "cooked": "<p>If you hover over any of the toggleable icons and press a number key, it will pop up that icon with that number over it.&nbsp; So we just use the green circle with the appropriate number for boosts, and the red circle for hinders.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.617Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 11,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 58.0,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "ErekLich",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>If you hover over any of the toggleable icons and press a number key, it will pop up that icon with that number over it.&nbsp; So we just use the green circle with the appropriate number for boosts, and the red circle for hinders.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17324,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2019-03-18",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230146,
+        "name": "shadowopal",
+        "username": "shadowopal",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/a88e57/{size}.png",
+        "created_at": "2020-06-17T03:46:35.000Z",
+        "cooked": "<p>Hi all. I made a pretty background. I may alter the layout and see it the scroll wheell is more attractive to me. It didn't take very long in Gimp.</p>\n<p>&nbsp;</p>\n<p><a href=\"https://drive.google.com/file/d/10HDOLzE7xMc_aS2afBw1Bh1Qz35tK-e6/view?usp=sharing\" rel=\"noopener nofollow ugc\">https://drive.google.com/file/d/10HDOLzE7xMc_aS2afBw1Bh1Qz35tK-e6/view?usp=sharing</a></p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.676Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 22.8,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "shadowopal",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://drive.google.com/file/d/10HDOLzE7xMc_aS2afBw1Bh1Qz35tK-e6/view?usp=sharing",
+            "internal": false,
+            "reflection": false,
+            "title": "Roll 20 SotM Background copy.jpg - Google Drive",
+            "clicks": 36
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Hi all. I made a pretty background. I may alter the layout and see it the scroll wheell is more attractive to me. It didn't take very long in Gimp.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"https://drive.google.com/file/d/10HDOLzE7xMc_aS2afBw1Bh1Qz35tK-e6/view?usp=sharing\">https://drive.google.com/file/d/10HDOLzE7xMc_aS2afBw1Bh1Qz35tK-e6/view?usp=sharing</a></p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13571,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-12-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230147,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2020-06-17T16:39:13.000Z",
+        "cooked": "<p>Very shiny! :-D&nbsp;</p>\n<p>What font did you use for the headings?&nbsp;</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.745Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 7.4,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Very shiny! :-D&nbsp;</p>\r\n\r\n<p>What font did you use for the headings?&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230148,
+        "name": "Harknail",
+        "username": "Harknail",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/harknail/{size}/1972_2.png",
+        "created_at": "2020-07-03T22:25:50.000Z",
+        "cooked": "<p>Based on the advice here, I made custom status tokens today. I have 6 different colors of +1 thru +4 and -1 thu -4. This works out well since each color is one line in the status markers.</p>\n<p>Thought I would share these since there's quite a bit of work making that many.</p>\n<p>The red ones didn't come out well. The multiple remapings to make masked gifs resulted in inconsistent color.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.817Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 10,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 67.8,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "Harknail",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Based on the advice here, I made custom status tokens today. I have 6 different colors of +1 thru +4 and -1 thu -4. This works out well since each color is one line in the status markers.</p>\r\n\r\n<p>Thought I would share these since there's quite a bit of work making that many.</p>\r\n\r\n<p>The red ones didn't come out well. The multiple remapings to make masked gifs resulted in inconsistent color.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-09-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230149,
+        "name": "shadowopal",
+        "username": "shadowopal",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/a88e57/{size}.png",
+        "created_at": "2020-07-07T22:32:00.000Z",
+        "cooked": "<p>Sorry I missed this for so long. I have been swamped. I uploaded the photoshop file, a pdf version and font to google drive if anyone wants to use it.</p>\n<p>https://drive.google.com/drive/folders/1i8Fwhv6ZPV1vkxncISbCckcAEqN0kVXZ?usp=sharing</p>\n<p>&nbsp;</p>\n<p>the font is badaboom_BB from&nbsp;www.blambot.com</p>\n<p>&nbsp;</p>\n<p>The comic sheet layout template is from medialoot</p>\n<p><a href=\"https://medialoot.com/blog/free-printable-comic-strip-templates/\" rel=\"noopener nofollow ugc\">https://medialoot.com/blog/free-printable-comic-strip-templates/</a></p>\n<p>&nbsp;</p>\n<p>I got the silouettes from Alexandra Petruk at dreamstime.com id 39456814 and 79660781</p>\n<p>Backgrounds for the comic cells from vectorstock.com 21811376</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.889Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 16,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 83.2,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "shadowopal",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://medialoot.com/blog/free-printable-comic-strip-templates/",
+            "internal": false,
+            "reflection": false,
+            "title": "Free, Printable Comic Strip Templates — Medialoot",
+            "clicks": 17
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Sorry I missed this for so long. I have been swamped. I uploaded the photoshop file, a pdf version and font to google drive if anyone wants to use it.</p>\r\n\r\n<p>https://drive.google.com/drive/folders/1i8Fwhv6ZPV1vkxncISbCckcAEqN0kVXZ?usp=sharing</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>the font is badaboom_BB from&nbsp;www.blambot.com</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>The comic sheet layout template is from medialoot</p>\r\n\r\n<p><a href=\"https://medialoot.com/blog/free-printable-comic-strip-templates/\">https://medialoot.com/blog/free-printable-comic-strip-templates/</a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>I got the silouettes from Alexandra Petruk at dreamstime.com id 39456814 and 79660781</p>\r\n\r\n<p>Backgrounds for the comic cells from vectorstock.com 21811376</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13571,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-12-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230150,
+        "name": "shadowopal",
+        "username": "shadowopal",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/a88e57/{size}.png",
+        "created_at": "2020-07-07T22:45:52.000Z",
+        "cooked": "<p>Thanks for sharing!</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:04.974Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 7,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 38.2,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "shadowopal",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Thanks for sharing!</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13571,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-12-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230151,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2020-07-08T18:19:16.000Z",
+        "cooked": "<p>Thanks, shadowopal! :-D&nbsp;</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:05.033Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 14,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 73.6,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Thanks, shadowopal! :-D&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 230152,
+        "name": "GeorgeDubya",
+        "username": "GeorgeDubya",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/g/b487fb/{size}.png",
+        "created_at": "2020-07-15T00:12:46.000Z",
+        "cooked": "<p>Hey all, I've been following along with this and using some of the tips and tricks people shared in my own Roll20 game. I figured I'd share some of the things I've done here with you all, along with some of the images I've compiled from here and other spots online to ease things for new people who may want to use them.</p>\n<p><a href=\"https://drive.google.com/file/d/1a-iTHEsyQqWkOHQxPz9-Cs3WD-fqLzLs/view?usp=sharing\" rel=\"noopener nofollow ugc\">Here's a player view of the main page I've been using for encounters.</a> In the bottom left, I have the charts for boost/hinder amounts and overcome results. Just above those are a token box I can copy/paste when challenges arise for the players to overcome (I'm being very open and transparent about the number and types of overcomes needed for everything, so I just type out what the challenge is in text and paste up the correct number of boxes). In the bottom right, there are tokens for boosts, hinders, minions, and lieutenants. All of which are Rollable tables as suggested by theDissilent above. This lets me copy/paste the appropriate token, swap it to the correct size, and be done with it. Players can freely move and choose sides for the boosts/hinders, so I can create them and let the players change them as necessary.</p>\n<p><a href=\"https://drive.google.com/file/d/11QIHQ-7FryKC4BzxTQe2W8VEB0mRCqts/view?usp=sharing\" rel=\"noopener nofollow ugc\">Here's what that map looks like on the GM side of things right now.</a> Since there's no villain in the scene, I have the potential Lieutenants that can appear in the Villain box. Similarly, I have all the minions that will be around when the scene starts prepped in their box ready to just change layers as needed. In the Environment section, I have the various potential twists visible to me so I don't have to flip back to a different page (It's a pretty basic bank heist with hostages scenario), and I have the environment dice sizes there as a reminder. The scene tracker is also separate images for each thing, so I can just X them out as the scene goes on, and I can add/subtract them as needed for different length trackers.</p>\n<p><a href=\"https://drive.google.com/drive/folders/1UDKHU9fFS1-jCRT8CWTVH6gL4A8xU2Aj?usp=sharing\" rel=\"noopener nofollow ugc\">Here's a link to the Google Docs folder with all the various images I've been using.</a></p>\n<p>In addition to giving the images and showing how I've implemented some of the ideas people have come up with, I'm also fully open to any suggestions or constructive criticism.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "updated_at": "2021-02-07T06:05:05.105Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 27,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 140.0,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "GeorgeDubya",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://drive.google.com/file/d/1a-iTHEsyQqWkOHQxPz9-Cs3WD-fqLzLs/view?usp=sharing",
+            "internal": false,
+            "reflection": false,
+            "title": "Player view.png - Google Drive",
+            "clicks": 32
+          },
+          {
+            "url": "https://drive.google.com/file/d/11QIHQ-7FryKC4BzxTQe2W8VEB0mRCqts/view?usp=sharing",
+            "internal": false,
+            "reflection": false,
+            "title": "Roll20.png - Google Drive",
+            "clicks": 24
+          },
+          {
+            "url": "https://drive.google.com/drive/folders/1UDKHU9fFS1-jCRT8CWTVH6gL4A8xU2Aj?usp=sharing",
+            "internal": false,
+            "reflection": false,
+            "title": "Roll20 Stuff - Google Drive",
+            "clicks": 19
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Hey all, I've been following along with this and using some of the tips and tricks people shared in my own Roll20 game. I figured I'd share some of the things I've done here with you all, along with some of the images I've compiled from here and other spots online to ease things for new people who may want to use them.</p>\r\n\r\n<p><a href=\"https://drive.google.com/file/d/1a-iTHEsyQqWkOHQxPz9-Cs3WD-fqLzLs/view?usp=sharing\">Here's a player view of the main page I've been using for encounters.</a> In the bottom left, I have the charts for boost/hinder amounts and overcome results. Just above those are a token box I can copy/paste when challenges arise for the players to overcome (I'm being very open and transparent about the number and types of overcomes needed for everything, so I just type out what the challenge is in text and paste up the correct number of boxes). In the bottom right, there are tokens for boosts, hinders, minions, and lieutenants. All of which are Rollable tables as suggested by theDissilent above. This lets me copy/paste the appropriate token, swap it to the correct size, and be done with it. Players can freely move and choose sides for the boosts/hinders, so I can create them and let the players change them as necessary.</p>\r\n\r\n<p><a href=\"https://drive.google.com/file/d/11QIHQ-7FryKC4BzxTQe2W8VEB0mRCqts/view?usp=sharing\">Here's what that map looks like on the GM side of things right now.</a> Since there's no villain in the scene, I have the potential Lieutenants that can appear in the Villain box. Similarly, I have all the minions that will be around when the scene starts prepped in their box ready to just change layers as needed. In the Environment section, I have the various potential twists visible to me so I don't have to flip back to a different page (It's a pretty basic bank heist with hostages scenario), and I have the environment dice sizes there as a reminder. The scene tracker is also separate images for each thing, so I can just X them out as the scene goes on, and I can add/subtract them as needed for different length trackers.</p>\r\n\r\n<p><a href=\"https://drive.google.com/drive/folders/1UDKHU9fFS1-jCRT8CWTVH6gL4A8xU2Aj?usp=sharing\">Here's a link to the Google Docs folder with all the various images I've been using.</a></p>\r\n\r\n<p>In addition to giving the images and showing how I've implemented some of the ideas people have come up with, I'm also fully open to any suggestions or constructive criticism.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 60,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-09-02",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 242854,
+        "name": "theDissilent",
+        "username": "theDissilent",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thedissilent/{size}/1848_2.png",
+        "created_at": "2022-02-21T19:40:01.757Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"theDissilent\" data-post=\"7\" data-topic=\"19814\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/thedissilent/48/1848_2.png\" class=\"avatar\"> theDissilent:</div>\n<blockquote>\n<h2><strong>Downgradeable Minions:</strong></h2>\n<p>On the Macros/Decks/Rollable Tables Tab, create a Rollable table named Minions.</p>\n<p>Create 5 Table Items with images to represent die sizes (like those used on the minion tab of the character sheet).</p>\n<p>Once created, click Token to have one spawn on the table.</p>\n<p>Right-click &gt; Muti-Sided &gt; Choose Side will let you upgrade or downgrade each token.</p>\n<p>Spawn one to represent each Minion or Luitenant, and they can be quickly adjusted when they take damage or otherwise change size.</p>\n</blockquote>\n</aside>\n<p>Hello again. People were asking about a tab for minions on the character sheet (currently only a tab for minion-maker), so I thought I would update you on how my group currently handles minions.</p>\n<p>I’ve gotten into writing API code, so this part only works if you have a “Pro” level account on Roll20. First you need to add the “TokenMod” script to your game, and turn on “Players can use --ids:”, then you create a new script, and put my code in:</p>\n<pre><code class=\"lang-auto\">on('ready',function(){\n    \"use strict\";\n    var handleInput = function(msg) {\n        if ((msg.content.indexOf(\"!minion\") !== -1 ) &amp;&amp; (msg.selected)) {\n            let speaker = 'player|'+msg.playerid,\n                rollcolor = '{{color-Green=1}} ',\n                numselected = msg.selected.length,\n                rollstr = '&amp;{template:scrpg} ';\n            if (numselected &gt; 1) {rollstr += '{{name=Minion Roll}} {{labelless=1}} '};\n            if (msg.content.indexOf(\"--gray\") !== -1 ) {rollcolor = '';}\n            else if (msg.content.indexOf(\"--green\") !== -1 ) {rollcolor = '{{color-Green=1}} ';}\n            else if (msg.content.indexOf(\"--yellow\") !== -1 ) {rollcolor = '{{color-Yellow=1}} ';}\n            else if (msg.content.indexOf(\"--red\") !== -1 ) {rollcolor = '{{color-Red=1}} ';};\n            for (let i = 0; i &lt; numselected; i++) {\n                let token_id = msg.selected[i]._id,\n                    token = getObj(\"graphic\", msg.selected[i]._id),\n                    token_name = token.get('name') || 'Minion Roll',\n                    markers = token.get('statusmarkers').split(':'),\n                    diesize = (12-token.get('currentSide')*2),\n                    imgs = _.map(token.get('sides').split(/\\|/),(i)=&gt;{return i;}).length;\n                if (imgs == 5) {\n                    if (msg.content.indexOf(\"--degrade\") !== -1) {sendChat(speaker,\"!token-mod --ignore-selected --ids \"+token_id+\" --set currentside|+\")}\n                    else if (msg.content.indexOf(\"--upgrade\") !== -1) {\n                        sendChat(speaker,\"!token-mod --ignore-selected --ids \"+token_id+\" --set currentside|-\");\n                    };\n                    let dievalue = Math.floor(Math.random() * diesize) + 1;\n                    if (numselected == 1) {rollstr += '{{name='+token_name+'}} {{suffix='+markers[0]+'}} ';};\n                    if ((i % 4 == 0) &amp;&amp; (i != 0)) {rollstr += '\\n&amp;{template:scrpg} {{labelless=1}} ';};\n                    if (i % 4 == 0) {rollstr += '{{die1-d'+diesize+'=1}} {{roll1=[['+dievalue+']]}} {{r1name=d'+diesize+' = }} '+rollcolor;};\n                    if (i % 4 == 1) {rollstr += '{{die2-d'+diesize+'=1}} {{roll2=[['+dievalue+']]}} {{r2name=d'+diesize+' = }} ';};\n                    if (i % 4 == 2) {rollstr += '{{die3-d'+diesize+'=1}} {{roll3=[['+dievalue+']]}} {{r3name=d'+diesize+' = }} ';};\n                    if (i % 4 == 3) {rollstr += '{{die4-d'+diesize+'=1}} {{roll4=[['+dievalue+']]}} {{r4name=d'+diesize+' = }} ';};\n                };\n            };\n            if (msg.content.indexOf(\"--roll\") !== -1) {sendChat(speaker,rollstr);};\n        };\n    };\n    on('chat:message', handleInput);\n});\n</code></pre>\n<p>Once you have done that, you can activate the code from any 5-sided token in your game. The 5 images can be anything you want, but I recommend being able to tell which die they represent, such as:<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.greaterthangames.com/uploads/default/original/2X/e/e4d0a2fcfbc9b6f527e8a8c51524957959788363.png\" data-download-href=\"https://forums.greaterthangames.com/uploads/default/e4d0a2fcfbc9b6f527e8a8c51524957959788363\" title=\"d12\"><img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/e/e4d0a2fcfbc9b6f527e8a8c51524957959788363.png\" alt=\"d12\" data-base62-sha1=\"wEbRE6zT0r4lbXEEAf8lN238pzl\" width=\"100\" height=\"100\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">d12</span><span class=\"informations\">100×100 14.4 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.greaterthangames.com/uploads/default/original/2X/6/68df3039890405489357e1a3af0f243c0fd4f111.png\" data-download-href=\"https://forums.greaterthangames.com/uploads/default/68df3039890405489357e1a3af0f243c0fd4f111\" title=\"d10\"><img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/6/68df3039890405489357e1a3af0f243c0fd4f111.png\" alt=\"d10\" data-base62-sha1=\"eXJPOTyIdItesIfBjdxt5EIetzj\" width=\"100\" height=\"100\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">d10</span><span class=\"informations\">100×100 13.4 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.greaterthangames.com/uploads/default/original/2X/1/122ba634ab13936fa368f06a0c13d3d7aa1cf41c.png\" data-download-href=\"https://forums.greaterthangames.com/uploads/default/122ba634ab13936fa368f06a0c13d3d7aa1cf41c\" title=\"d8\"><img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/1/122ba634ab13936fa368f06a0c13d3d7aa1cf41c.png\" alt=\"d8\" data-base62-sha1=\"2AK6YAt4QnSLfpJkzpoUCWThY4c\" width=\"100\" height=\"100\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">d8</span><span class=\"informations\">100×100 10.7 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.greaterthangames.com/uploads/default/original/2X/a/adf3e22beb0e3427e53070d367676a407b1ae55f.png\" data-download-href=\"https://forums.greaterthangames.com/uploads/default/adf3e22beb0e3427e53070d367676a407b1ae55f\" title=\"d6\"><img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/a/adf3e22beb0e3427e53070d367676a407b1ae55f.png\" alt=\"d6\" data-base62-sha1=\"oOR7sAfAa4dNTizItP64HEPYUuH\" width=\"100\" height=\"100\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">d6</span><span class=\"informations\">100×100 10.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.greaterthangames.com/uploads/default/original/2X/1/1abfd7a7f07c36843665b15c4d9d7ac517121fc2.png\" data-download-href=\"https://forums.greaterthangames.com/uploads/default/1abfd7a7f07c36843665b15c4d9d7ac517121fc2\" title=\"d4\"><img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/1/1abfd7a7f07c36843665b15c4d9d7ac517121fc2.png\" alt=\"d4\" data-base62-sha1=\"3ODqWXaHY956P7rILUDhqEBt0dQ\" width=\"100\" height=\"100\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">d4</span><span class=\"informations\">100×100 8.67 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\nWith 1 or more of these tokens selected, type in chat (or a macro):</p>\n<blockquote>\n<p>!minion --roll --gray</p>\n</blockquote>\n<p>(It defaults to green, but you can change it to yellow, red, or in this example gray)</p>\n<p>If the token is on it’s 1st image, a d12 will be rolled… on it’s 5th image a d4 will be rolled. If your GM has 6 d6 minions (on their 4th image), but one of them has dropped to a d4 (on it’s 5th image), select the group, then use this text, and you’d get this in chat:<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forums.greaterthangames.com/uploads/default/original/2X/2/24ac1c77e1521514a7becf1bcdc8df7471719b9b.jpeg\" data-download-href=\"https://forums.greaterthangames.com/uploads/default/24ac1c77e1521514a7becf1bcdc8df7471719b9b\" title=\"d6minions\"><img src=\"https://forums.greaterthangames.com/uploads/default/original/2X/2/24ac1c77e1521514a7becf1bcdc8df7471719b9b.jpeg\" alt=\"d6minions\" data-base62-sha1=\"5epW01B7MFT88lDB2WD9uFK9NCH\" width=\"239\" height=\"165\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">d6minions</span><span class=\"informations\">239×165 12.3 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\nIf multiple tokens are selected it defaults to “Minion Roll”, or if you only select 1 token, it will put that token’s name, and current status marker into the chat. (We use custom status markers to differentiate Attack minions from Boost minions, and so on)</p>\n<p>The code also allows for:</p>\n<blockquote>\n<p>!minion --degrade</p>\n</blockquote>\n<p>to change a token to it’s next image, or:</p>\n<blockquote>\n<p>!minion --upgrade</p>\n</blockquote>\n<p>to change the token back to it’s previous image.<br>\nI recommend setting these 3 lines as Token actions for your minions, so there will be 3 buttons on the top of the screen any time you select 1 or more of your 5-sided tokens.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "updated_at": "2022-02-21T22:11:35.596Z",
+        "reply_count": 0,
+        "reply_to_post_number": 7,
+        "quote_count": 1,
+        "incoming_link_count": 7,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 70.2,
+        "yours": false,
+        "topic_id": 19814,
+        "topic_slug": "using-roll20-for-scrpg",
+        "display_username": "theDissilent",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://forums.greaterthangames.com/t/new-roll20-character-sheet/19888/49",
+            "internal": true,
+            "reflection": true,
+            "title": "New Roll20 Character Sheet",
+            "clicks": 8
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"theDissilent, post:7, topic:19814, full:true\"]\n<h2><strong>Downgradeable Minions:</strong></h2>\n\n<p>On the Macros/Decks/Rollable Tables Tab, create a Rollable table named Minions.</p>\n\n<p>Create 5 Table Items with images to represent die sizes (like those used on the minion tab of the character sheet).</p>\n\n<p>Once created, click Token to have one spawn on the table.</p>\n\n<p>Right-click &gt; Muti-Sided &gt; Choose Side will let you upgrade or downgrade each token.</p>\n\n<p>Spawn one to represent each Minion or Luitenant, and they can be quickly adjusted when they take damage or otherwise change size.</p>\n[/quote]\n\nHello again. People were asking about a tab for minions on the character sheet (currently only a tab for minion-maker), so I thought I would update you on how my group currently handles minions.\n\nI've gotten into writing API code, so this part only works if you have a \"Pro\" level account on Roll20. First you need to add the \"TokenMod\" script to your game, and turn on \"Players can use --ids:\", then you create a new script, and put my code in:\n```\non('ready',function(){\n    \"use strict\";\n    var handleInput = function(msg) {\n        if ((msg.content.indexOf(\"!minion\") !== -1 ) && (msg.selected)) {\n            let speaker = 'player|'+msg.playerid,\n                rollcolor = '{{color-Green=1}} ',\n                numselected = msg.selected.length,\n                rollstr = '&{template:scrpg} ';\n            if (numselected > 1) {rollstr += '{{name=Minion Roll}} {{labelless=1}} '};\n            if (msg.content.indexOf(\"--gray\") !== -1 ) {rollcolor = '';}\n            else if (msg.content.indexOf(\"--green\") !== -1 ) {rollcolor = '{{color-Green=1}} ';}\n            else if (msg.content.indexOf(\"--yellow\") !== -1 ) {rollcolor = '{{color-Yellow=1}} ';}\n            else if (msg.content.indexOf(\"--red\") !== -1 ) {rollcolor = '{{color-Red=1}} ';};\n            for (let i = 0; i < numselected; i++) {\n                let token_id = msg.selected[i]._id,\n                    token = getObj(\"graphic\", msg.selected[i]._id),\n                    token_name = token.get('name') || 'Minion Roll',\n                    markers = token.get('statusmarkers').split(':'),\n                    diesize = (12-token.get('currentSide')*2),\n                    imgs = _.map(token.get('sides').split(/\\|/),(i)=>{return i;}).length;\n                if (imgs == 5) {\n                    if (msg.content.indexOf(\"--degrade\") !== -1) {sendChat(speaker,\"!token-mod --ignore-selected --ids \"+token_id+\" --set currentside|+\")}\n                    else if (msg.content.indexOf(\"--upgrade\") !== -1) {\n                        sendChat(speaker,\"!token-mod --ignore-selected --ids \"+token_id+\" --set currentside|-\");\n                    };\n                    let dievalue = Math.floor(Math.random() * diesize) + 1;\n                    if (numselected == 1) {rollstr += '{{name='+token_name+'}} {{suffix='+markers[0]+'}} ';};\n                    if ((i % 4 == 0) && (i != 0)) {rollstr += '\\n&{template:scrpg} {{labelless=1}} ';};\n                    if (i % 4 == 0) {rollstr += '{{die1-d'+diesize+'=1}} {{roll1=[['+dievalue+']]}} {{r1name=d'+diesize+' = }} '+rollcolor;};\n                    if (i % 4 == 1) {rollstr += '{{die2-d'+diesize+'=1}} {{roll2=[['+dievalue+']]}} {{r2name=d'+diesize+' = }} ';};\n                    if (i % 4 == 2) {rollstr += '{{die3-d'+diesize+'=1}} {{roll3=[['+dievalue+']]}} {{r3name=d'+diesize+' = }} ';};\n                    if (i % 4 == 3) {rollstr += '{{die4-d'+diesize+'=1}} {{roll4=[['+dievalue+']]}} {{r4name=d'+diesize+' = }} ';};\n                };\n            };\n            if (msg.content.indexOf(\"--roll\") !== -1) {sendChat(speaker,rollstr);};\n        };\n    };\n    on('chat:message', handleInput);\n});\n```\nOnce you have done that, you can activate the code from any 5-sided token in your game. The 5 images can be anything you want, but I recommend being able to tell which die they represent, such as:\n![d12|100x100](upload://wEbRE6zT0r4lbXEEAf8lN238pzl.png)\n![d10|100x100](upload://eXJPOTyIdItesIfBjdxt5EIetzj.png)\n![d8|100x100](upload://2AK6YAt4QnSLfpJkzpoUCWThY4c.png)\n![d6|100x100](upload://oOR7sAfAa4dNTizItP64HEPYUuH.png)\n![d4|100x100](upload://3ODqWXaHY956P7rILUDhqEBt0dQ.png)\nWith 1 or more of these tokens selected, type in chat (or a macro):\n> !minion --roll --gray\n\n(It defaults to green, but you can change it to yellow, red, or in this example gray)\n\nIf the token is on it's 1st image, a d12 will be rolled... on it's 5th image a d4 will be rolled. If your GM has 6 d6 minions (on their 4th image), but one of them has dropped to a d4 (on it's 5th image), select the group, then use this text, and you'd get this in chat:\n![d6minions|239x165](upload://5epW01B7MFT88lDB2WD9uFK9NCH.jpeg)\nIf multiple tokens are selected it defaults to \"Minion Roll\", or if you only select 1 token, it will put that token's name, and current status marker into the chat. (We use custom status markers to differentiate Attack minions from Boost minions, and so on)\n\nThe code also allows for:\n\n> !minion --degrade\n\nto change a token to it's next image, or:\n\n> !minion --upgrade\n\nto change the token back to it's previous image.\nI recommend setting these 3 lines as Token actions for your minions, so there will be 3 buttons on the top of the screen any time you select 1 or more of your 5-sided tokens.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17676,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2020-04-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      19816,
+      230135,
+      230136,
+      230137,
+      230138,
+      230139,
+      230140,
+      230141,
+      230142,
+      230143,
+      230144,
+      230145,
+      230146,
+      230147,
+      230148,
+      230149,
+      230150,
+      230151,
+      230152,
+      242854
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2359
+    ],
+    [
+      3,
+      2358
+    ],
+    [
+      4,
+      2331
+    ],
+    [
+      5,
+      2329
+    ],
+    [
+      6,
+      2310
+    ],
+    [
+      9,
+      2305
+    ],
+    [
+      13,
+      2278
+    ],
+    [
+      14,
+      2277
+    ],
+    [
+      15,
+      2261
+    ],
+    [
+      16,
+      2257
+    ],
+    [
+      18,
+      2256
+    ],
+    [
+      19,
+      2250
+    ],
+    [
+      20,
+      1663
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-11T20:08:26.107Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T20:08:26.107Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 63,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18678,
+            "username": "Xenokkah",
+            "name": "Xenokkah",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/xenokkah/{size}/6523_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32563,
+      "title": "Sentinel Choices Diskdriver Raid on DTRPG",
+      "fancy_title": "Sentinel Choices Diskdriver Raid on DTRPG",
+      "slug": "sentinel-choices-diskdriver-raid-on-dtrpg",
+      "posts_count": 9,
+      "reply_count": 6,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-09-02T15:07:14.263Z",
+      "last_posted_at": "2026-09-04T20:45:57.058Z",
+      "bumped": true,
+      "bumped_at": "2026-09-04T20:45:57.058Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 17,
+      "views": 78,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16859,
+            "username": "aramis",
+            "name": "aramis",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/aramis/{size}/1871_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 18233,
+            "username": "Faralis",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/faralis/{size}/5866_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32180,
+      "title": "Some stories from the table",
+      "fancy_title": "Some stories from the table",
+      "slug": "some-stories-from-the-table",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-02-18T17:35:54.250Z",
+      "last_posted_at": "2026-02-18T17:35:54.365Z",
+      "bumped": true,
+      "bumped_at": "2026-02-18T17:35:54.365Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 53,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 19073,
+            "username": "A-total-phyco",
+            "name": "Owen",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/a-total-phyco/{size}/7243_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32328,
+      "title": "The History of Venture Comics, Pt. 2: Places to Go, Supervillains To See",
+      "fancy_title": "The History of Venture Comics, Pt. 2: Places to Go, Supervillains To See",
+      "slug": "the-history-of-venture-comics-pt-2-places-to-go-supervillains-to-see",
+      "posts_count": 131,
+      "reply_count": 74,
+      "highest_post_number": 131,
+      "image_url": null,
+      "created_at": "2026-05-22T16:35:45.986Z",
+      "last_posted_at": "2026-09-11T17:01:34.433Z",
+      "bumped": true,
+      "bumped_at": "2026-09-11T17:01:34.433Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 359,
+      "views": 1404,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16875,
+            "username": "Sea-Envy",
+            "name": "Sea-Envy",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/sea-envy/{size}/1849_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19186,
+            "username": "zeeshanlatif",
+            "name": "Zeeshan Latif",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/z/ecccb3/{size}.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32102,
+      "title": "Sinister Sentinels: Play the Bad Guys",
+      "fancy_title": "Sinister Sentinels: Play the Bad Guys",
+      "slug": "sinister-sentinels-play-the-bad-guys",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/original/2X/b/b77149cfb16f7f761f61f02ebe2393a0744ce605.png",
+      "created_at": "2025-12-21T19:20:20.070Z",
+      "last_posted_at": "2025-12-21T19:53:35.569Z",
+      "bumped": true,
+      "bumped_at": "2025-12-21T19:53:35.569Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 6,
+      "views": 126,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 19814,
+  "title": "Using roll20 for SCRPG",
+  "fancy_title": "Using roll20 for SCRPG",
+  "posts_count": 20,
+  "created_at": "2020-03-27T13:36:45.000Z",
+  "views": 2897,
+  "reply_count": 1,
+  "like_count": 3,
+  "last_posted_at": "2022-02-21T19:40:01.757Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "using-roll20-for-scrpg",
+  "category_id": 26,
+  "word_count": 3099,
+  "deleted_at": null,
+  "user_id": 16523,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_19814",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 20,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 10,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 17676,
+        "username": "theDissilent",
+        "name": "theDissilent",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/thedissilent/{size}/1848_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 16523,
+        "username": "rickjonzz",
+        "name": "rickjonzz",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rickjonzz/{size}/1934_2.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 13571,
+        "username": "shadowopal",
+        "name": "shadowopal",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/a88e57/{size}.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 20,
+        "username": "Rabit",
+        "name": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 83,
+        "username": "drevilz4l",
+        "name": "Justin Wawrzonek",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/drevilz4l/{size}/1979_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 17324,
+        "username": "ErekLich",
+        "name": "ErekLich",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/f6c823/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 719,
+        "username": "Harknail",
+        "name": "Harknail",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/harknail/{size}/1972_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 60,
+        "username": "GeorgeDubya",
+        "name": "GeorgeDubya",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/g/b487fb/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 17640,
+        "username": "gameguythinks",
+        "name": "gameguythinks",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/gameguythinks/{size}/1985_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 13688,
+        "username": "Fynikz",
+        "name": "Fynikz",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/f/9e8a1a/{size}.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 16523,
+      "username": "rickjonzz",
+      "name": "rickjonzz",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rickjonzz/{size}/1934_2.png"
+    },
+    "last_poster": {
+      "id": 17676,
+      "username": "theDissilent",
+      "name": "theDissilent",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/thedissilent/{size}/1848_2.png"
+    },
+    "links": [
+      {
+        "url": "https://greaterthangames.com/forum/topic/new-roll20-character-sheet-22932",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 43,
+        "user_id": 17676,
+        "domain": "greaterthangames.com",
+        "root_domain": "greaterthangames.com"
+      },
+      {
+        "url": "https://drive.google.com/file/d/10HDOLzE7xMc_aS2afBw1Bh1Qz35tK-e6/view?usp=sharing",
+        "title": "Roll 20 SotM Background copy.jpg - Google Drive",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 36,
+        "user_id": 13571,
+        "domain": "drive.google.com",
+        "root_domain": "google.com"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1a-iTHEsyQqWkOHQxPz9-Cs3WD-fqLzLs/view?usp=sharing",
+        "title": "Player view.png - Google Drive",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 32,
+        "user_id": 60,
+        "domain": "drive.google.com",
+        "root_domain": "google.com"
+      },
+      {
+        "url": "https://drive.google.com/file/d/11QIHQ-7FryKC4BzxTQe2W8VEB0mRCqts/view?usp=sharing",
+        "title": "Roll20.png - Google Drive",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 24,
+        "user_id": 60,
+        "domain": "drive.google.com",
+        "root_domain": "google.com"
+      },
+      {
+        "url": "https://drive.google.com/drive/folders/1UDKHU9fFS1-jCRT8CWTVH6gL4A8xU2Aj?usp=sharing",
+        "title": "Roll20 Stuff - Google Drive",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 19,
+        "user_id": 60,
+        "domain": "drive.google.com",
+        "root_domain": "google.com"
+      },
+      {
+        "url": "https://medialoot.com/blog/free-printable-comic-strip-templates/",
+        "title": "Free, Printable Comic Strip Templates — Medialoot",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 17,
+        "user_id": 13571,
+        "domain": "medialoot.com",
+        "root_domain": "medialoot.com"
+      },
+      {
+        "url": "https://forums.greaterthangames.com/t/new-roll20-character-sheet/19888/49",
+        "title": "New Roll20 Character Sheet",
+        "internal": true,
+        "attachment": false,
+        "reflection": true,
+        "clicks": 8,
+        "user_id": 17676,
+        "domain": "forums.greaterthangames.com",
+        "root_domain": "greaterthangames.com"
+      },
+      {
+        "url": "https://greaterthangames.com/users/thedissilent",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 4,
+        "user_id": 16523,
+        "domain": "greaterthangames.com",
+        "root_domain": "greaterthangames.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

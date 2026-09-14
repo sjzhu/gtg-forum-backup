@@ -1,0 +1,275 @@
+{
+  "posts": [
+    {
+      "id": 6173,
+      "name": "cajunjoel",
+      "username": "cajunjoel1",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/c/d6d6ee/{size}.png",
+      "created_at": "2012-08-19T02:38:09.000Z",
+      "cooked": "<p>So with this new forum, we have this thing called \"Text Format\" below the body field when posting a topic or reply to a forum.</p><p>The text format is used to either allow you to use BBCode or a WYSIWYG editor. Until tonight, these were separate items. With the addition of the \"Quote\" button (w00t!) we've added functionality that merges the two together.</p><p>So you can either use the toolbar icons, which will show you what your post looks like as you type it.</p><p><strong>&nbsp; &nbsp;OR</strong></p><p>You can use BBCode&nbsp;<em>without selecting BBCode in the Text Format.&nbsp;&nbsp;</em>Given this, you may never need to use the BBCode text format again.&nbsp;</p><p>The system doesn't much care which version you use, but both will work and you can even mix them.&nbsp;(The reason for this is because the quote button will use BBCode to place the quote into a \"Filtered HTML\" box. Go figure.)</p><p><span>As always, you can use the quote icon in the toolbar to quote some text, but it won't automatically include another person's name. :)</span></p><p>So have at it. We may continue to tweak how the quotes appear as time goes on, but that's a definite bonus.</p><p>--Joel</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:36:02.248Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 6170,
+      "topic_slug": "notes-about-the-text-format-option",
+      "display_username": "cajunjoel",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>So with this new forum, we have this thing called \"Text Format\" below the body field when posting a topic or reply to a forum.</p><p>The text format is used to either allow you to use BBCode or a WYSIWYG editor. Until tonight, these were separate items. With the addition of the \"Quote\" button (w00t!) we've added functionality that merges the two together.</p><p>So you can either use the toolbar icons, which will show you what your post looks like as you type it.</p><p><strong>&nbsp; &nbsp;OR</strong></p><p>You can use BBCode&nbsp;<em>without selecting BBCode in the Text Format.&nbsp;&nbsp;</em>Given this, you may never need to use the BBCode text format again.&nbsp;</p><p>The system doesn't much care which version you use, but both will work and you can even mix them.&nbsp;(The reason for this is because the quote button will use BBCode to place the quote into a \"Filtered HTML\" box. Go figure.)</p><p><span>As always, you can use the quote icon in the toolbar to quote some text, but it won't automatically include another person's name. :)</span></p><p>So have at it. We may continue to tweak how the quotes appear as time goes on, but that's a definite bonus.</p><p>--Joel</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 446,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 36411,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2012-08-23T15:40:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"cajunjoel\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/cajunjoel/48/1846_2.png\" class=\"avatar\"> cajunjoel:</div>\n<blockquote>\n<p>So have at it. We may continue to tweak how the quotes appear as time goes on, but that's a definite bonus.–Joel</p>\n</blockquote>\n</aside>\n<p>Thought I'd give this a try to see how it worked. I'm <em>especially</em> interested in how the use of BBCode within the <span class=\"bbcode-i\">formatted</span> text will work. I'd tried a post earlier with the <strong>URL</strong> <span class=\"bbcode-b\">BBCode</span> tag that failed, so I'm going to give it a try, here.</p>\n<p><a href=\"http://sentinelsofthemultiverse.com/\" rel=\"noopener nofollow ugc\">Here's a normal link</a> and <a href=\"http://sentinelsofthemultiverse.com/\" data-bbcode=\"true\" rel=\"noopener nofollow ugc\">here's a BBCode link</a>.</p>\n<p>&nbsp;</p>\n<p><strong>Results</strong>:&nbsp;It ignored the bold (\"[<span class=\"bbcode-b\">b]\" /&nbsp;\"[</span>/b]\")&nbsp;and italicized (\"[<span class=\"bbcode-i\">i]\" / \"[</span>/i]\") BBCodes and displays the url codes without processing (which is what I experienced in my earlier post).</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:10:17.678Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 1,
+      "readers_count": 0,
+      "score": 0.2,
+      "yours": false,
+      "topic_id": 6170,
+      "topic_slug": "notes-about-the-text-format-option",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://sentinelsofthemultiverse.com/",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"cajunjoel\"]\n\nSo have at it. We may continue to tweak how the quotes appear as time goes on, but that&#39;s a definite bonus.--Joel\n\n[/quote]\n\nThought I&#39;d give this a try to see how it worked. I&#39;m <em>especially</em> interested in how the use of BBCode within the [i]formatted[/i] text will work. I&#39;d tried a post earlier with the <strong>URL</strong> [b]BBCode[/b] tag that failed, so I&#39;m going to give it a try, here.\n\n<a href=\"http://sentinelsofthemultiverse.com/\">Here&#39;s a normal link</a> and [url=http://sentinelsofthemultiverse.com/]here&#39;s a BBCode link[/url].\n\n&nbsp;\n\n<strong>Results</strong>:&nbsp;It ignored the bold (&quot;[[b]b]&quot; /&nbsp;&quot;[[/b]/b]&quot;)&nbsp;and italicized (&quot;[[i]i]&quot; / &quot;[[/i]/i]&quot;) BBCodes and displays the url codes without processing (which is what I experienced in my earlier post).\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 36413,
+      "name": "cajunjoel",
+      "username": "cajunjoel1",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/c/d6d6ee/{size}.png",
+      "created_at": "2012-09-10T02:12:00.000Z",
+      "cooked": "<p>I'll try this again now that we've made some changes…</p>\n<p><span class=\"bbcode-b\">This should be bold using bbcode</span></p>\n<p><a href=\"http://www.google.com\" data-bbcode=\"true\" rel=\"noopener nofollow ugc\">This should be a link to google.com</a></p>\n<p><span class=\"bbcode-i\">And this should be italics</span></p>\n<p>&nbsp;</p>\n<p>Finally, as a note, any prior non-working BBcode is working somewhat better. Except those few that have GIGANTIC sizing on them. The old boards uses different measurements for sizing of fonts. I still need to search/replace to fix those. (or the owner can edit and fix them on their own)</p>\n<p>–Joel</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T02:10:17.763Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 6170,
+      "topic_slug": "notes-about-the-text-format-option",
+      "display_username": "cajunjoel",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.google.com",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I&#39;ll try this again now that we&#39;ve made some changes...\n\n[b]This should be bold using bbcode[/b]\n\n[url=http://www.google.com]This should be a link to google.com[/url]\n\n[i]And this should be italics[/i]\n\n&nbsp;\n\nFinally, as a note, any prior non-working BBcode is working somewhat better. Except those few that have GIGANTIC sizing on them. The old boards uses different measurements for sizing of fonts. I still need to search/replace to fix those. (or the owner can edit and fix them on their own)\n\n--Joel\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 446,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-27",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

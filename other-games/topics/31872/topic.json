@@ -1,0 +1,718 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 264084,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-10-21T02:28:57.078Z",
+        "cooked": "<p>It’s been a while since I did this fun little puzzle.  How to play all six instruments in a single turn?  For ease of reference, I’m going to give the involved cards shorter names as follows:</p>\n<ul>\n<li>“Super” is Inspiring Supertonic.</li>\n<li>“Sub” is Alacritous Subdominant.</li>\n<li>All Instruments are referred to only by the instrument name (Harp, Lyra, Drum, Bell, Horn and Pipes).</li>\n</ul>\n<p>Step 1:  During your play phase, play Polyphoric Flare to gain your first Power of the turn by taking 2 damage.  Activate one Instrument that isn’t relevant to the rest of this sequence (the Pipes are a good choice, since they don’t do an Accompany).<br>\nStep 2:  With your normal power, use the Lyra.  Choose to Perform Super, regaining your power.<br>\nStep 3:  With the Lyra still waiting to Accompany, use your third power of the turn to activate the Bell.  Perform any Rhythm you like, then activate the Accompany of Sub.  You now gain your fourth power, at the expense of Sub being destroyed as soon as the Bell finishes resolving.  Choose to Perform Super again, regaining your power yet again.<br>\nStep 4:  The Bell and Lyra are still pending; with this activate your fifth Power and play the Harp.  Have the Harp use the Perform of Super again, and regain your power yet again.<br>\nStep 5:  The Lyra, then Bell, and then Harp all have Accompanies pending, but first you must fully resolve one more Power; use this to play the Drum or Pipes.  For ease of reference we’ll say it’s the Pipes; you Perform two Melodies and that power fully resolves.<br>\nStep 6:  With the pending Harp accompany, activate a Harmony <em>other</em> than Sub.  The Harp effect now fully resolves.<br>\nStep 7:  The Bell activates the Accompany of Sub, which will be destroyed when it fully resolves.  Use the resulting Power to activate the Horn, Perform one of your Melodies a second time, and then re-activate the Accompany of Sub, giving you one more Power.  With this, you activate the Drum.<br>\nStep 8:  The Drum activates a Rhythm Accompany and then Performs a Melody, possibly for the third time this turn.</p>\n<p>Okay I think I did something wrong.  I need to test this in the program to see how it resolves the timing of Sub’s Accompany - is it destroyed the first time one of the pending Accompanies resolve, or only the last time?  If the latter, this is a much easier formula and doesn’t require Polyphoric Flare, unless you want to Vocalize on top of all six Instruments.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2025-10-21T03:51:19.060Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 24,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 138.4,
+        "yours": false,
+        "topic_id": 31872,
+        "topic_slug": "argent-adept-six-instrument-orchestration",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "It's been a while since I did this fun little puzzle.  How to play all six instruments in a single turn?  For ease of reference, I'm going to give the involved cards shorter names as follows:\n* \"Super\" is Inspiring Supertonic.\n* \"Sub\" is Alacritous Subdominant.\n* All Instruments are referred to only by the instrument name (Harp, Lyra, Drum, Bell, Horn and Pipes).\n\nStep 1:  During your play phase, play Polyphoric Flare to gain your first Power of the turn by taking 2 damage.  Activate one Instrument that isn't relevant to the rest of this sequence (the Pipes are a good choice, since they don't do an Accompany).\nStep 2:  With your normal power, use the Lyra.  Choose to Perform Super, regaining your power.\nStep 3:  With the Lyra still waiting to Accompany, use your third power of the turn to activate the Bell.  Perform any Rhythm you like, then activate the Accompany of Sub.  You now gain your fourth power, at the expense of Sub being destroyed as soon as the Bell finishes resolving.  Choose to Perform Super again, regaining your power yet again.\nStep 4:  The Bell and Lyra are still pending; with this activate your fifth Power and play the Harp.  Have the Harp use the Perform of Super again, and regain your power yet again.\nStep 5:  The Lyra, then Bell, and then Harp all have Accompanies pending, but first you must fully resolve one more Power; use this to play the Drum or Pipes.  For ease of reference we'll say it's the Pipes; you Perform two Melodies and that power fully resolves.\nStep 6:  With the pending Harp accompany, activate a Harmony *other* than Sub.  The Harp effect now fully resolves.\nStep 7:  The Bell activates the Accompany of Sub, which will be destroyed when it fully resolves.  Use the resulting Power to activate the Horn, Perform one of your Melodies a second time, and then re-activate the Accompany of Sub, giving you one more Power.  With this, you activate the Drum.\nStep 8:  The Drum activates a Rhythm Accompany and then Performs a Melody, possibly for the third time this turn.\n\nOkay I think I did something wrong.  I need to test this in the program to see how it resolves the timing of Sub's Accompany - is it destroyed the first time one of the pending Accompanies resolve, or only the last time?  If the latter, this is a much easier formula and doesn't require Polyphoric Flare, unless you want to Vocalize on top of all six Instruments.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 264085,
+        "name": "",
+        "username": "LonelyMan",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "created_at": "2025-10-21T03:50:57.042Z",
+        "cooked": "<p>Alright, I worked out how it was to have been done, and all the above is completely wrong.  Here’s the correct sequence, or one of them:</p>\n<p>1 - The Argent Adept uses the power on Xu’s Bell.<br>\nCreated decision [ActivateAbility/ActivateAbility D542 The Argent Adept]<br>\nThe Argent Adept activates the text on Inventive Preparation.<br>\nCreated decision [SelectTurnTakers/None D543 The Argent Adept]<br>\nCreated decision [SelectTurnTaker/None D544 The Argent Adept]<br>\nRevealed card: Mere  Location: Haka’s revealed cards<br>\nCreated decision [YesNoCard/None D545 Haka]<br>\nHaka discards Mere.<br>\nInventive Preparation moved Mere from Haka’s revealed cards to Haka’s trash.<br>\nCreated decision [SelectTurnTaker/None D546 The Argent Adept]<br>\nRevealed card: Retcon  Location: Guise’s revealed cards<br>\nCreated decision [YesNoCard/None D547 Guise]<br>\nGuise discards Retcon.<br>\nInventive Preparation moved Retcon from Guise’s revealed cards to Guise’s trash.<br>\nCreated decision [SelectTurnTaker/None D548 The Argent Adept]<br>\nRevealed card: Sarabande of Destruction  Location: The Argent Adept’s revealed cards<br>\nCreated decision [YesNoCard/None D549 The Argent Adept]<br>\nThe Argent Adept discards Sarabande of Destruction.<br>\nInventive Preparation moved Sarabande of Destruction from The Argent Adept’s revealed cards to The Argent Adept’s trash.<br>\nCreated decision [SelectTurnTaker/None D550 The Argent Adept]<br>\nCreated decision [ActivateAbility/ActivateAbility D551 The Argent Adept]<br>\nThe Argent Adept activates the text on Alacritous Subdominant.<br>\nCreated decision [UsePower/UsePower D552 The Argent Adept]<br>\n2 - The Argent Adept uses the power on Telamon’s Lyra.<br>\nCreated decision [ActivateAbility/ActivateAbility D553 The Argent Adept]<br>\nThe Argent Adept activates the text on Inspiring Supertonic.<br>\nCreated decision [SelectTurnTaker/None D554 The Argent Adept]<br>\nCreated decision [UsePower/UsePower D555 The Argent Adept]<br>\n3 - The Argent Adept uses the power on Eydisar’s Horn.<br>\nCreated decision [ActivateAbility/ActivateAbility D556 The Argent Adept]<br>\nThe Argent Adept activates the text on Rhapsody of Vigor.<br>\nCreated decision [SelectCards/None D557 The Argent Adept]<br>\nCreated decision [SelectCard/None D557-1 The Argent Adept]<br>\nRhapsody of Vigor caused Haka to regain 1 HP. HP is now 6.<br>\nCreated decision [SelectCard/None D557-2 The Argent Adept]<br>\nRhapsody of Vigor caused The Argent Adept to regain 1 HP. HP is now 21.<br>\nCreated decision [SelectCard/None D557-3 The Argent Adept]<br>\nRhapsody of Vigor caused Guise to regain 1 HP. HP is now 22.<br>\nCreated decision [SelectCard/None D557-4 The Argent Adept]<br>\nCreated decision [ActivateAbility/ActivateAbility D558 The Argent Adept]<br>\nThe Argent Adept activates the text on Alacritous Subdominant.<br>\nCreated decision [UsePower/UsePower D559 The Argent Adept]<br>\n4 - The Argent Adept uses the power on Musaragni’s Harp.<br>\nCreated decision [ActivateAbility/ActivateAbility D560 The Argent Adept]<br>\nThe Argent Adept activates the text on Inspiring Supertonic.<br>\nCreated decision [SelectTurnTaker/None D561 The Argent Adept]<br>\nCreated decision [UsePower/UsePower D562 The Argent Adept]<br>\n5 - The Argent Adept uses the power on Akpunku’s Drum.<br>\nCreated decision [ActivateAbility/ActivateAbility D563 The Argent Adept]<br>\nThe Argent Adept activates the text on Inventive Preparation.<br>\nCreated decision [SelectTurnTaker/None D564 The Argent Adept]<br>\nCreated decision [SelectCard/None D565 Guise]<br>\nInventive Preparation plays Super Ultra Kawaii!!.<br>\nCreated decision [ActivateAbility/ActivateAbility D566 The Argent Adept]<br>\nThe Argent Adept activates the text on Rhapsody of Vigor.<br>\nCreated decision [SelectCards/None D567 The Argent Adept]<br>\nCreated decision [SelectCard/None D567-1 The Argent Adept]<br>\nRhapsody of Vigor caused Haka to regain 1 HP. HP is now 7.<br>\nCreated decision [SelectCard/None D567-2 The Argent Adept]<br>\nRhapsody of Vigor caused The Argent Adept to regain 1 HP. HP is now 22.<br>\nCreated decision [SelectCard/None D567-3 The Argent Adept]<br>\nRhapsody of Vigor caused Guise to regain 1 HP. HP is now 23.<br>\nCreated decision [SelectCard/None D567-4 The Argent Adept]<br>\nCreated decision [ActivateAbility/ActivateAbility D568 The Argent Adept]<br>\nThe Argent Adept activates the text on Alacritous Subdominant.<br>\nCreated decision [UsePower/UsePower D569 The Argent Adept]<br>\n6 - The Argent Adept uses the power on Drake’s Pipes.</p>\n<p>The bell and the horn can probably be switched, and the Lyra could move to virtually any position in the sequence, but it’s absolutely crucial that you start with bell and horn BEFORE doing harp, and end with pipes and drum in either order after harp.  All this is of course assuming you have no additional powers from outside your deck, and no more than the bare minimum 8 cards in play (which would mean every Rhythm and Melody activation would go to waste, you need one each of those and preferably a second Melody to get the most out of this achievement, all the Instruments and 1 each of the two relevant Harmony cards is the minimum for the achievement itself).  Throwing in a Polyphoric Flare or a Silver Shadow somewhere in this process helps, but not as much as you’d think; the need to get the exact sequence of “horn/bell before harp before pipes/drum” is the crucial part.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2025-10-21T03:50:57.042Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 13.0,
+        "yours": false,
+        "topic_id": 31872,
+        "topic_slug": "argent-adept-six-instrument-orchestration",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Alright, I worked out how it was to have been done, and all the above is completely wrong.  Here's the correct sequence, or one of them:\n\n1 - The Argent Adept uses the power on Xu's Bell.\nCreated decision [ActivateAbility/ActivateAbility D542 The Argent Adept]\nThe Argent Adept activates the text on Inventive Preparation.\nCreated decision [SelectTurnTakers/None D543 The Argent Adept]\nCreated decision [SelectTurnTaker/None D544 The Argent Adept]\nRevealed card: Mere  Location: Haka's revealed cards\nCreated decision [YesNoCard/None D545 Haka]\nHaka discards Mere.\nInventive Preparation moved Mere from Haka's revealed cards to Haka's trash.\nCreated decision [SelectTurnTaker/None D546 The Argent Adept]\nRevealed card: Retcon  Location: Guise's revealed cards\nCreated decision [YesNoCard/None D547 Guise]\nGuise discards Retcon.\nInventive Preparation moved Retcon from Guise's revealed cards to Guise's trash.\nCreated decision [SelectTurnTaker/None D548 The Argent Adept]\nRevealed card: Sarabande of Destruction  Location: The Argent Adept's revealed cards\nCreated decision [YesNoCard/None D549 The Argent Adept]\nThe Argent Adept discards Sarabande of Destruction.\nInventive Preparation moved Sarabande of Destruction from The Argent Adept's revealed cards to The Argent Adept's trash.\nCreated decision [SelectTurnTaker/None D550 The Argent Adept]\nCreated decision [ActivateAbility/ActivateAbility D551 The Argent Adept]\nThe Argent Adept activates the text on Alacritous Subdominant.\nCreated decision [UsePower/UsePower D552 The Argent Adept]\n2 - The Argent Adept uses the power on Telamon's Lyra.\nCreated decision [ActivateAbility/ActivateAbility D553 The Argent Adept]\nThe Argent Adept activates the text on Inspiring Supertonic.\nCreated decision [SelectTurnTaker/None D554 The Argent Adept]\nCreated decision [UsePower/UsePower D555 The Argent Adept]\n3 - The Argent Adept uses the power on Eydisar's Horn.\nCreated decision [ActivateAbility/ActivateAbility D556 The Argent Adept]\nThe Argent Adept activates the text on Rhapsody of Vigor.\nCreated decision [SelectCards/None D557 The Argent Adept]\nCreated decision [SelectCard/None D557-1 The Argent Adept]\nRhapsody of Vigor caused Haka to regain 1 HP. HP is now 6.\nCreated decision [SelectCard/None D557-2 The Argent Adept]\nRhapsody of Vigor caused The Argent Adept to regain 1 HP. HP is now 21.\nCreated decision [SelectCard/None D557-3 The Argent Adept]\nRhapsody of Vigor caused Guise to regain 1 HP. HP is now 22.\nCreated decision [SelectCard/None D557-4 The Argent Adept]\nCreated decision [ActivateAbility/ActivateAbility D558 The Argent Adept]\nThe Argent Adept activates the text on Alacritous Subdominant.\nCreated decision [UsePower/UsePower D559 The Argent Adept]\n4 - The Argent Adept uses the power on Musaragni's Harp.\nCreated decision [ActivateAbility/ActivateAbility D560 The Argent Adept]\nThe Argent Adept activates the text on Inspiring Supertonic.\nCreated decision [SelectTurnTaker/None D561 The Argent Adept]\nCreated decision [UsePower/UsePower D562 The Argent Adept]\n5 - The Argent Adept uses the power on Akpunku's Drum.\nCreated decision [ActivateAbility/ActivateAbility D563 The Argent Adept]\nThe Argent Adept activates the text on Inventive Preparation.\nCreated decision [SelectTurnTaker/None D564 The Argent Adept]\nCreated decision [SelectCard/None D565 Guise]\nInventive Preparation plays Super Ultra Kawaii!!.\nCreated decision [ActivateAbility/ActivateAbility D566 The Argent Adept]\nThe Argent Adept activates the text on Rhapsody of Vigor.\nCreated decision [SelectCards/None D567 The Argent Adept]\nCreated decision [SelectCard/None D567-1 The Argent Adept]\nRhapsody of Vigor caused Haka to regain 1 HP. HP is now 7.\nCreated decision [SelectCard/None D567-2 The Argent Adept]\nRhapsody of Vigor caused The Argent Adept to regain 1 HP. HP is now 22.\nCreated decision [SelectCard/None D567-3 The Argent Adept]\nRhapsody of Vigor caused Guise to regain 1 HP. HP is now 23.\nCreated decision [SelectCard/None D567-4 The Argent Adept]\nCreated decision [ActivateAbility/ActivateAbility D568 The Argent Adept]\nThe Argent Adept activates the text on Alacritous Subdominant.\nCreated decision [UsePower/UsePower D569 The Argent Adept]\n6 - The Argent Adept uses the power on Drake's Pipes.\n\nThe bell and the horn can probably be switched, and the Lyra could move to virtually any position in the sequence, but it's absolutely crucial that you start with bell and horn BEFORE doing harp, and end with pipes and drum in either order after harp.  All this is of course assuming you have no additional powers from outside your deck, and no more than the bare minimum 8 cards in play (which would mean every Rhythm and Melody activation would go to waste, you need one each of those and preferably a second Melody to get the most out of this achievement, all the Instruments and 1 each of the two relevant Harmony cards is the minimum for the achievement itself).  Throwing in a Polyphoric Flare or a Silver Shadow somewhere in this process helps, but not as much as you'd think; the need to get the exact sequence of \"horn/bell before harp before pipes/drum\" is the crucial part.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18355,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2023-02-27",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      264084,
+      264085
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      327
+    ],
+    [
+      2,
+      326
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 32583,
+      "title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "fancy_title": "One Last Post: Saying Goodbye to the GTG Forums",
+      "slug": "one-last-post-saying-goodbye-to-the-gtg-forums",
+      "posts_count": 12,
+      "reply_count": 1,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2026-09-11T15:33:24.692Z",
+      "last_posted_at": "2026-09-12T14:09:24.588Z",
+      "bumped": true,
+      "bumped_at": "2026-09-12T14:09:24.588Z",
+      "archetype": "banner",
+      "unseen": true,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "There has been a Greater Than Games forum since 2011, when we first started the company. \nThe first iteration, built into our original website, was pretty janky. But it existed! And as people discovered Sentinels of the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 21,
+      "views": 90,
+      "category_id": 72,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5,
+            "username": "Christopher",
+            "name": "Christopher",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/christopher/{size}/1851_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 442,
+            "username": "MigrantP",
+            "name": "MigrantP",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17294,
+            "username": "fjur",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/fjur/{size}/4849_2.png",
+            "primary_group_name": "playtesters",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32017,
+      "title": "Text for a future rulebook",
+      "fancy_title": "Text for a future rulebook",
+      "slug": "text-for-a-future-rulebook",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2025-10-29T18:32:19.434Z",
+      "last_posted_at": "2025-10-31T21:15:02.195Z",
+      "bumped": true,
+      "bumped_at": "2025-10-31T21:15:02.195Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 114,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13161,
+            "username": "MindWanderer",
+            "name": "MindWanderer",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/mindwanderer/{size}/4816_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32029,
+      "title": "OblivAeon weird card interaction",
+      "fancy_title": "OblivAeon weird card interaction",
+      "slug": "oblivaeon-weird-card-interaction",
+      "posts_count": 14,
+      "reply_count": 9,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2025-11-04T23:13:14.702Z",
+      "last_posted_at": "2025-11-17T13:06:56.375Z",
+      "bumped": true,
+      "bumped_at": "2025-11-17T16:35:26.816Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 158,
+      "category_id": 12,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17936,
+            "username": "Omegatron",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/omegatron/{size}/4904_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32331,
+      "title": "Episode 318 of the Letters Page: Writers’ Room: A Day in the Life: Benchmark",
+      "fancy_title": "Episode 318 of the Letters Page: Writers’ Room: A Day in the Life: Benchmark",
+      "slug": "episode-318-of-the-letters-page-writers-room-a-day-in-the-life-benchmark",
+      "posts_count": 32,
+      "reply_count": 19,
+      "highest_post_number": 32,
+      "image_url": "https://forums.greaterthangames.com/uploads/default/optimized/2X/8/8024c5ee253429a35a862a97395eca03e6eae4c6_2_660x1024.jpeg",
+      "created_at": "2026-05-26T14:26:14.988Z",
+      "last_posted_at": "2026-06-09T19:08:07.558Z",
+      "bumped": true,
+      "bumped_at": "2026-06-09T19:08:07.558Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 51,
+      "views": 391,
+      "category_id": 25,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 5464,
+            "username": "Powerhound_2000",
+            "name": "Sonvar",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 14005,
+            "username": "TakeWalker",
+            "name": "KateWalker",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/takewalker/{size}/5677_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18183,
+            "username": "psychedelicchurro",
+            "name": "Kento",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/psychedelicchurro/{size}/6027_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20,
+            "username": "Rabit",
+            "name": "Rabit",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+            "primary_group_name": "playtesters",
+            "flair_name": "playtesters",
+            "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+            "flair_group_id": 41,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 32328,
+      "title": "The History of Venture Comics, Pt. 2: Places to Go, Supervillains To See",
+      "fancy_title": "The History of Venture Comics, Pt. 2: Places to Go, Supervillains To See",
+      "slug": "the-history-of-venture-comics-pt-2-places-to-go-supervillains-to-see",
+      "posts_count": 133,
+      "reply_count": 75,
+      "highest_post_number": 133,
+      "image_url": null,
+      "created_at": "2026-05-22T16:35:45.986Z",
+      "last_posted_at": "2026-09-12T04:27:06.370Z",
+      "bumped": true,
+      "bumped_at": "2026-09-12T04:27:06.370Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags_descriptions": {},
+      "like_count": 362,
+      "views": 1416,
+      "category_id": 26,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 13884,
+            "username": "FrivYeti",
+            "name": "FrivYeti",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/frivyeti/{size}/1919_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16875,
+            "username": "Sea-Envy",
+            "name": "Sea-Envy",
+            "avatar_template": "/user_avatar/forums.greaterthangames.com/sea-envy/{size}/1849_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18355,
+            "username": "LonelyMan",
+            "name": "",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19186,
+            "username": "zeeshanlatif",
+            "name": "Zeeshan Latif",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/z/ecccb3/{size}.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 228,
+            "username": "Chief_Lackey_Rich",
+            "name": "Chief Lackey Rich",
+            "avatar_template": "/letter_avatar_proxy/v4/letter/c/6de8d8/{size}.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "tags_descriptions": {},
+  "id": 31872,
+  "title": "Argent Adept Six-Instrument Orchestration",
+  "fancy_title": "Argent Adept Six-Instrument Orchestration",
+  "posts_count": 2,
+  "created_at": "2025-10-21T02:28:56.949Z",
+  "views": 84,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2025-10-21T03:50:57.042Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "argent-adept-six-instrument-orchestration",
+  "category_id": 12,
+  "word_count": 1235,
+  "deleted_at": null,
+  "user_id": 18355,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_31872",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 2,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 1,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 18355,
+        "username": "LonelyMan",
+        "name": "",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3
+      }
+    ],
+    "created_by": {
+      "id": 18355,
+      "username": "LonelyMan",
+      "name": "",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png"
+    },
+    "last_poster": {
+      "id": 18355,
+      "username": "LonelyMan",
+      "name": "",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/l/f4b2a3/{size}.png"
+    }
+  },
+  "bookmarks": []
+}

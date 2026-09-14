@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": 238309,
+      "name": "",
+      "username": "The_Justifier",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/the_justifier/{size}/4954_2.png",
+      "created_at": "2021-06-08T04:17:48.689Z",
+      "cooked": "<p>I’ve played around with various numbers of heroes that aren’t 3, 4, or 5, and I’ve seen indications that sometimes it works okay.  I’ve fought Iron Legacy with all of the Freedom Six heroes (not the specific promos, I don’t think, just the same hero decks that correspond to those promos), and I’ve done a couple of 2v2 Vengeance tests.  In both cases I did lose horribly, but there was no real sense that it was because the game was fully broken and couldn’t possibly work, it’s just that I was fighting an insanely hard villain and didn’t manage to pull the win off.  I believe I even tried going 1v1 with Proletariat, just because that seemed fitting, though this worked even worse than the 2v2 tests; Vengeance in general is easier with more heroes, even though it also means more villains, because you can focus fire and take out one foe at a time, so it’s not surprising that a game with fewer than 3 heroes is especially challenging.  So far I can’t think of anything in the fifteen VOTM-style decks that obviously couldn’t work at all in a game with H=2 or even H=1, with the exception of several villain cards being effectively blank, and the obvious fact that Greazer does not incapacitate himself because he incapacitated you when you and he are the only characters.</p>\n<p>I’m thinking it would be an interesting project to look through every villain deck, count all the H-based variables, and formally decide which villains are capable of working for unorthodox H values.  I think it’d be pretty awesome to fight Akash’Bhuta with a ridiculous number of heroes, sort of a mini-OblivAeon where Entomb kills the team’s weaker members outright, but leaves several incapacitated heroes to help the survivors work on all the insane numbers of Primal Limbs she has in play (particularly if she’s on Challenge Mode, so they have to take out her 200 HP as well).  I’m sure that if H went up too far, you’d end up with like a hero drawing and playing ten extra cards every round, and it’d clearly be a joke at that point, but I’d be very interested in computing exactly where the game stops being fun because of this issue.  By a similar token, fighting Apostate with a set of seven heroes themed around the Seven Cardinal Virtues (Fanatic gets Justice, obviously; I’d have to think about the others) seems like a fun time, if that’s vaguely feasible; I haven’t looked at Apostate in a while, so I forget whether any of his cards would obviously break with an H higher than 5.  Further adjustments would be required in some cases; altering the HP totals of Citizens to account for a higher H value would make a much more epic Citizen Dawn battle, and it’d be really cool to do Expat and Setback against Kismet with a slightly lower-HP Talisman, where only Setback can damage the Talisman and only Expat can damage Kismet herself, because Pete doesn’t want to hurt his old girlfriend and Expat doesn’t recognize a magical necklace as something she ought to shoot.</p>\n<p>Does anyone have any interest in seeing me produce this list?</p>\n<p>EDIT:  Another example of a cool 2-v-2 match I’d like to toy with: Plague Rat and The Operative (or another fairly weak villain) versus a couple heroes, ideally their nemeses (so Setback for sure and probably Fixer), where you play Dreamer-style on the assumption that the other villain is a person infected with the Rat Plague who you want to try and save.  Some tweaking is likely appropriate, such as removing the Handlers and references to them, but the most important factor is that if you kill Plague Rat you win the whole game, but if the other villain dies, you lose.  Operative’s mix of melee and poison damage makes her ideal for representing a plague victim anyway.</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-06-08T06:15:50.158Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 11,
+      "reads": 30,
+      "readers_count": 29,
+      "score": 61.0,
+      "yours": false,
+      "topic_id": 28591,
+      "topic_slug": "the-h-mechanic-beyond-the-1d3-2-range",
+      "display_username": "",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 3,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "I've played around with various numbers of heroes that aren't 3, 4, or 5, and I've seen indications that sometimes it works okay.  I've fought Iron Legacy with all of the Freedom Six heroes (not the specific promos, I don't think, just the same hero decks that correspond to those promos), and I've done a couple of 2v2 Vengeance tests.  In both cases I did lose horribly, but there was no real sense that it was because the game was fully broken and couldn't possibly work, it's just that I was fighting an insanely hard villain and didn't manage to pull the win off.  I believe I even tried going 1v1 with Proletariat, just because that seemed fitting, though this worked even worse than the 2v2 tests; Vengeance in general is easier with more heroes, even though it also means more villains, because you can focus fire and take out one foe at a time, so it's not surprising that a game with fewer than 3 heroes is especially challenging.  So far I can't think of anything in the fifteen VOTM-style decks that obviously couldn't work at all in a game with H=2 or even H=1, with the exception of several villain cards being effectively blank, and the obvious fact that Greazer does not incapacitate himself because he incapacitated you when you and he are the only characters.\n\nI'm thinking it would be an interesting project to look through every villain deck, count all the H-based variables, and formally decide which villains are capable of working for unorthodox H values.  I think it'd be pretty awesome to fight Akash'Bhuta with a ridiculous number of heroes, sort of a mini-OblivAeon where Entomb kills the team's weaker members outright, but leaves several incapacitated heroes to help the survivors work on all the insane numbers of Primal Limbs she has in play (particularly if she's on Challenge Mode, so they have to take out her 200 HP as well).  I'm sure that if H went up too far, you'd end up with like a hero drawing and playing ten extra cards every round, and it'd clearly be a joke at that point, but I'd be very interested in computing exactly where the game stops being fun because of this issue.  By a similar token, fighting Apostate with a set of seven heroes themed around the Seven Cardinal Virtues (Fanatic gets Justice, obviously; I'd have to think about the others) seems like a fun time, if that's vaguely feasible; I haven't looked at Apostate in a while, so I forget whether any of his cards would obviously break with an H higher than 5.  Further adjustments would be required in some cases; altering the HP totals of Citizens to account for a higher H value would make a much more epic Citizen Dawn battle, and it'd be really cool to do Expat and Setback against Kismet with a slightly lower-HP Talisman, where only Setback can damage the Talisman and only Expat can damage Kismet herself, because Pete doesn't want to hurt his old girlfriend and Expat doesn't recognize a magical necklace as something she ought to shoot.\n\nDoes anyone have any interest in seeing me produce this list?\n\nEDIT:  Another example of a cool 2-v-2 match I'd like to toy with: Plague Rat and The Operative (or another fairly weak villain) versus a couple heroes, ideally their nemeses (so Setback for sure and probably Fixer), where you play Dreamer-style on the assumption that the other villain is a person infected with the Rat Plague who you want to try and save.  Some tweaking is likely appropriate, such as removing the Handlers and references to them, but the most important factor is that if you kill Plague Rat you win the whole game, but if the other villain dies, you lose.  Operative's mix of melee and poison damage makes her ideal for representing a plague victim anyway.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 17950,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2021-05-14",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

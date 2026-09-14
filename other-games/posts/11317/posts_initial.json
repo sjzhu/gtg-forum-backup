@@ -1,0 +1,1721 @@
+{
+  "posts": [
+    {
+      "id": 11319,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-09-29T15:46:55.000Z",
+      "cooked": "<p><span><span>I have seen a lot of different opinion regarding how to exactly handle timing issues with attacks, and I wanted to try and clear things up.</span></span></p><p>&nbsp;</p><p><span><span>“WOULD BE DEALT” VS “DEALT”</span></span></p><p>&nbsp;</p><p><span><span>There has been a lot of speculation about how these two wordings affect the timing of attacks, and that “would be dealt” should trigger first. I understand that the wording can be confusing, but I want to emphasize that they do not have different timings, and we already know this.</span></span></p><p>&nbsp;</p><p><span><span>Originally, all cards triggered in the order that they were played. However, after some problems, namely with Superhuman Durability and Fortitude, this changed so that you can choose which card takes effect first. Here are the text of the cards:</span></span></p><p>&nbsp;</p><p><em><span><span>Superhuman Durability: Whenever Legacy would be dealt 5 or more Damage from a single source, reduce that Damage by 3.</span></span></em></p><p>&nbsp;</p><p><em><span><span>Fortitude: Reduce Damage dealt to Legacy by 1.</span></span></em></p><p>&nbsp;</p><p><span><span>Notice how Superhuman Durability says “would be dealt” and Fortitude says “damage dealt.” If these would have had different timings, then there would never have been an issue, since Superhuman Durability would always trigger first. However, since we had a previous ruling that says they trigger in the order they were played, we can clearly see what “would be dealt” and “dealt” do not have different timings.</span></span></p><p>&nbsp;</p><p><span><span>If this is true, then why the different wording and the confusion? If you look at the cards, you can see that “would” is used in very specific situations that have nothing to do with timing. There are two types of situations where “would” is used:</span></span></p><p>&nbsp;</p><ol><li><p><span><span>When there is a conditional modifier</span><span>. Consider the example above with Superhuman Durability and Fortitude. Fortitude doesn’t have a “would” because the modifier always applies when Legacy would take damage. The “would” in Superhuman durability is being used to show that the modifier is conditional, and that it will only trigger under the specified conditions.</span></span></p></li></ol><p>&nbsp;</p><ol start=\"2\"><li><p><span><span>When you are to replace a standard effect with a different one.</span><span> The other time when “would” is used is when you would normally do one type of effect, but a card is telling you to do another type of effect instead. For example:</span></span></p></li></ol><p><em><span><span>Amulet of the Elder Gods: The first time Nightmist would be dealt Damage each turn, you may discard 2 cards. If you do, you may redirect that Damage to a Target of your choice.</span></span></em></p><p>&nbsp;</p><p><span><span>Here, NightMist should have taken damage, but the Amulet allows you to do another effect instead. When this “would” is used, the original effect is negated, and another effect happens instead.</span></span></p><p>&nbsp;</p><p><span><span>In general, when the word “would” is used in SotM, it is being used in one of the two ways above, and it is not meant to indicate a different timing of an effect.</span></span></p><p>&nbsp;</p><p><span><span>Dealing Damage Order of Operations</span></span></p><p>&nbsp;</p><p><span><span>Now that we know that “would be dealt” and “dealt” do not have different timings, let’s go through the order of operations for dealing damage.</span></span></p><p>&nbsp;</p><ol>\n<li><p><span><span>Determine damage type</span></span></p></li>\n<li><p><span><span>Identify and apply all modifiers to dealing</span></span></p></li>\n<li><p><span><span>Determine if damaged is dealt, and reduce hp</span></span></p></li>\n<li><p><span><span>Apply effects based on damage being dealt</span></span></p></li>\n</ol><p>&nbsp;</p><p><span><span>Determine damage type</span></span></p><p>&nbsp;</p><p><span><span>The very first step when dealing damage is to determine the damage type. Based on the newest ruling, if there are multiple cards that change the damage type, you can choose the order of the effects and, essentially, choose what the final type will be. Determining damage type first, also explains how to interpret Imbued Fire. Even though the change of damage type comes after the damage increase in the text, since damage type is determined first, it will apply first, and the heroes will get the damage increase.</span></span></p><p>&nbsp;</p><p><span><span>Identify and apply all modifiers relating to dealing damage</span></span></p><p>&nbsp;</p><p><span><span>At this point, you should identify all modifiers that would increase or decrease the damage. It doesn’t matter if it says “would be dealt” or just “dealt.” It, also, doesn’t matter where the modifier is coming from. It could be from the source of the damage, the target, or something else. All modifiers are considered at this point.</span></span></p><p>&nbsp;</p><p><span><span>Consider the following example using the following cards:</span></span></p><p>&nbsp;</p><p><span><span>Stunbolt: Power: The Wraith deals 1 Target 1 Projectile Damage. Until the start of your next turn, reduce all Damage dealt by that Target by 1.</span></span></p><p>&nbsp;</p><p><span><span>Localized Hurricane: Increase Damage dealt to Tempest by 1.</span></span></p><p><span><span>Power: Tempest deals up to 2 Targets 3 Projectile Damage each. You may draw 2 cards.</span></span></p><p><span><span>Power: Destroy this card.</span></span></p><p>&nbsp;</p><p><span><span>Shielding Winds: Whenever a Hero Target would be dealt 5 or more Damage from a single source, reduce that Damage by 2.</span></span></p><p>&nbsp;</p><p><span><span>Voss, Tempest’s nemesis (+1 damage) is attempting to deal 3 damage to Tempest, and was previously hit by Stunbolt. We have 4 different modifiers (with the nemesis bonus), and you can apply them in any order that you want. Here is how I would apply the modifiers:</span></span></p><p>&nbsp;</p><ol>\n<li><p><span><span>Use Localized Hurricane’s modifier to increase the damage to 4.</span></span></p></li>\n<li><p><span><span>Use the nemesis bonus to increase the damage to 5. </span><span>Note that the first two steps can be switched.</span></span></p></li>\n<li><p><span><span>Now that the damage is up to 5, I can now use Shielding Winds modifier to decrease it to 3.</span></span></p></li>\n<li><p><span><span>Finally, I use Stunbolt’s modifier for a final damage of 2.</span></span></p></li>\n</ol><p>&nbsp;</p><p><span><span>You do not have to apply the damage dealer’s modifier’s first, then the target’s second. Also, you do not have to apply “would be dealt” first and “dealt” second. Once you have identified all the modifiers, you can apply them in </span><span>any</span><span> order.</span></span></p><p>&nbsp;</p><p><span><span>Determine if damaged is dealt and reduce hp</span></span></p><p>&nbsp;</p><p><span><span>At this point, we can now determine if damage was dealt. If after all of the modifiers the total damage is at least one, then damage was dealt and you might reduce hp. A good rule for SotM is that “damage dealt = reduce hp”. If no hp is reduced, either because of modifiers that brought the damage below 0, or because a target is immune, then no damage is dealt. </span></span></p><p>&nbsp;</p><p><span><span>Apply effects based on damage being dealt</span></span></p><p><span><span>Once you have determines that there is actually damage being dealt, then the final step of damage calculation is to apply any effects based on damage being dealt. If no damage is being dealt, then this step is skipped. There are two types of effects that can happen here:</span></span></p><p>&nbsp;</p><ol><li><p><span><span>Effects that apply </span><span>after</span><span> taking damage. </span><span>There are many effects in SotM that happen after a target is dealt damage. When this type of effect applies, the target first takes the damage, then applies the effect. A common example of this type of effect, is a retaliation attack. For example:</span></span></p></li></ol><p>&nbsp;</p><p><span><span>Isothermic Transducer: When Absolute Zero is dealt Fire Damage, Absolute Zero deals 1 Target that much Cold Damage.</span></span></p><p>&nbsp;</p><p><span><span>With Isothermic Transducer, Absolute Zero needs to actually take damage, have his hp reduced, to apply the damage to the other target. </span></span></p><p>&nbsp;</p><ol start=\"2\"><li><p><span><span>Effect that apply </span><span>instead</span><span> of taking damage. </span><span>&nbsp;With this type of effect, the target </span><span>does not</span><span> take the initial damage, but instead applies another effect. Often, the word “would” and “instead” on the card indicates that this is happening. For example,</span></span></p></li></ol><p>&nbsp;</p><p><span><span>Null-Point Calibration Unit: When Absolute Zero would take Cold Damage, he regains that many HP instead.</span></span></p><p>&nbsp;</p><p><span><span>In this case, Absolute Zero does not take the initial cold damage, but instead regains that many hp.</span></span></p><p>&nbsp;</p><p><span><span>Another type of effect that fall under the second type is redirection. In SotM redirection has its own keyword and meaning. Even though it might not say “would” it works in a similar way. </span></span></p><p>&nbsp;</p><p><span><span>Note that even though the effect or target changes, there still has to be some damage “being dealt” (as per step 3) for this effect to take place. This is why NightMist can’t redirect damage while in Mistform. Since she didn’t take any damage, the effect wouldn’t trigger.</span></span></p><p>&nbsp;</p><p><span><span>I know this was a long post, but, hopefully, it can shed some light on how to deal damage in the greatest co-op superhero game ever made.</span></span></p><div>&nbsp;</div>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:42:35.856Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 7,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 35.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: center;\"><span id=\"docs-internal-guid-e2fd9c89-c216-2388-ee4c-6b39bdb20ae2\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">I have seen a lot of different opinion regarding how to exactly handle timing issues with attacks, and I wanted to try and clear things up.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; text-decoration: underline; white-space: pre-wrap;\">&ldquo;WOULD BE DEALT&rdquo; VS &ldquo;DEALT&rdquo;</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">There has been a lot of speculation about how these two wordings affect the timing of attacks, and that &ldquo;would be dealt&rdquo; should trigger first. I understand that the wording can be confusing, but I want to emphasize that they do not have different timings, and we already know this.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Originally, all cards triggered in the order that they were played. However, after some problems, namely with Superhuman Durability and Fortitude, this changed so that you can choose which card takes effect first. Here are the text of the cards:</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><em><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Superhuman Durability: Whenever Legacy would be dealt 5 or more Damage from a single source, reduce that Damage by 3.</span></span></em></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><em><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Fortitude: Reduce Damage dealt to Legacy by 1.</span></span></em></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Notice how Superhuman Durability says &ldquo;would be dealt&rdquo; and Fortitude says &ldquo;damage dealt.&rdquo; If these would have had different timings, then there would never have been an issue, since Superhuman Durability would always trigger first. However, since we had a previous ruling that says they trigger in the order they were played, we can clearly see what &ldquo;would be dealt&rdquo; and &ldquo;dealt&rdquo; do not have different timings.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">If this is true, then why the different wording and the confusion? If you look at the cards, you can see that &ldquo;would&rdquo; is used in very specific situations that have nothing to do with timing. There are two types of situations where &ldquo;would&rdquo; is used:</span></span></p><p>&nbsp;</p><ol style=\"margin-top:0pt;margin-bottom:0pt;\"><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-style: italic; white-space: pre-wrap;\">When there is a conditional modifier</span><span style=\"font-size: 16px; white-space: pre-wrap;\">. Consider the example above with Superhuman Durability and Fortitude. Fortitude doesn&rsquo;t have a &ldquo;would&rdquo; because the modifier always applies when Legacy would take damage. The &ldquo;would&rdquo; in Superhuman durability is being used to show that the modifier is conditional, and that it will only trigger under the specified conditions.</span></span></p></li></ol><p>&nbsp;</p><ol start=\"2\" style=\"margin-top:0pt;margin-bottom:0pt;\"><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial; font-style: italic;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">When you are to replace a standard effect with a different one.</span><span style=\"font-size: 16px; font-style: normal; white-space: pre-wrap;\"> The other time when &ldquo;would&rdquo; is used is when you would normally do one type of effect, but a card is telling you to do another type of effect instead. For example:</span></span></p></li></ol><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;\"><em><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Amulet of the Elder Gods: The first time Nightmist would be dealt Damage each turn, you may discard 2 cards. If you do, you may redirect that Damage to a Target of your choice.</span></span></em></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Here, NightMist should have taken damage, but the Amulet allows you to do another effect instead. When this &ldquo;would&rdquo; is used, the original effect is negated, and another effect happens instead.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">In general, when the word &ldquo;would&rdquo; is used in SotM, it is being used in one of the two ways above, and it is not meant to indicate a different timing of an effect.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; text-decoration: underline; white-space: pre-wrap;\">Dealing Damage Order of Operations</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Now that we know that &ldquo;would be dealt&rdquo; and &ldquo;dealt&rdquo; do not have different timings, let&rsquo;s go through the order of operations for dealing damage.</span></span></p><p>&nbsp;</p><ol style=\"margin-top:0pt;margin-bottom:0pt;\"><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Determine damage type</span></span></p></li><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Identify and apply all modifiers to dealing</span></span></p></li><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Determine if damaged is dealt, and reduce hp</span></span></p></li><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Apply effects based on damage being dealt</span></span></p></li></ol><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Determine damage type</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">The very first step when dealing damage is to determine the damage type. Based on the newest ruling, if there are multiple cards that change the damage type, you can choose the order of the effects and, essentially, choose what the final type will be. Determining damage type first, also explains how to interpret Imbued Fire. Even though the change of damage type comes after the damage increase in the text, since damage type is determined first, it will apply first, and the heroes will get the damage increase.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Identify and apply all modifiers relating to dealing damage</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">At this point, you should identify all modifiers that would increase or decrease the damage. It doesn&rsquo;t matter if it says &ldquo;would be dealt&rdquo; or just &ldquo;dealt.&rdquo; It, also, doesn&rsquo;t matter where the modifier is coming from. It could be from the source of the damage, the target, or something else. All modifiers are considered at this point.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Consider the following example using the following cards:</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Stunbolt: Power: The Wraith deals 1 Target 1 Projectile Damage. Until the start of your next turn, reduce all Damage dealt by that Target by 1.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Localized Hurricane: Increase Damage dealt to Tempest by 1.</span></span></p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Power: Tempest deals up to 2 Targets 3 Projectile Damage each. You may draw 2 cards.</span></span></p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Power: Destroy this card.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Shielding Winds: Whenever a Hero Target would be dealt 5 or more Damage from a single source, reduce that Damage by 2.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Voss, Tempest&rsquo;s nemesis (+1 damage) is attempting to deal 3 damage to Tempest, and was previously hit by Stunbolt. We have 4 different modifiers (with the nemesis bonus), and you can apply them in any order that you want. Here is how I would apply the modifiers:</span></span></p><p>&nbsp;</p><ol style=\"margin-top:0pt;margin-bottom:0pt;\"><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Use Localized Hurricane&rsquo;s modifier to increase the damage to 4.</span></span></p></li><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Use the nemesis bonus to increase the damage to 5. </span><span style=\"font-size: 16px; font-style: italic; white-space: pre-wrap;\">Note that the first two steps can be switched.</span></span></p></li><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Now that the damage is up to 5, I can now use Shielding Winds modifier to decrease it to 3.</span></span></p></li><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Finally, I use Stunbolt&rsquo;s modifier for a final damage of 2.</span></span></p></li></ol><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">You do not have to apply the damage dealer&rsquo;s modifier&rsquo;s first, then the target&rsquo;s second. Also, you do not have to apply &ldquo;would be dealt&rdquo; first and &ldquo;dealt&rdquo; second. Once you have identified all the modifiers, you can apply them in </span><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">any</span><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\"> order.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Determine if damaged is dealt and reduce hp</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">At this point, we can now determine if damage was dealt. If after all of the modifiers the total damage is at least one, then damage was dealt and you might reduce hp. A good rule for SotM is that &ldquo;damage dealt = reduce hp&rdquo;. If no hp is reduced, either because of modifiers that brought the damage below 0, or because a target is immune, then no damage is dealt. </span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Apply effects based on damage being dealt</span></span></p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Once you have determines that there is actually damage being dealt, then the final step of damage calculation is to apply any effects based on damage being dealt. If no damage is being dealt, then this step is skipped. There are two types of effects that can happen here:</span></span></p><p>&nbsp;</p><ol style=\"margin-top:0pt;margin-bottom:0pt;\"><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial; font-style: italic;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Effects that apply </span><span style=\"font-size: 16px; text-decoration: underline; white-space: pre-wrap;\">after</span><span style=\"font-size: 16px; white-space: pre-wrap;\"> taking damage. </span><span style=\"font-size: 16px; font-style: normal; white-space: pre-wrap;\">There are many effects in SotM that happen after a target is dealt damage. When this type of effect applies, the target first takes the damage, then applies the effect. A common example of this type of effect, is a retaliation attack. For example:</span></span></p></li></ol><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Isothermic Transducer: When Absolute Zero is dealt Fire Damage, Absolute Zero deals 1 Target that much Cold Damage.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">With Isothermic Transducer, Absolute Zero needs to actually take damage, have his hp reduced, to apply the damage to the other target. </span></span></p><p>&nbsp;</p><ol start=\"2\" style=\"margin-top:0pt;margin-bottom:0pt;\"><li dir=\"ltr\" style=\"font-size: 16px; font-family: Arial; font-style: italic;\"><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Effect that apply </span><span style=\"font-size: 16px; text-decoration: underline; white-space: pre-wrap;\">instead</span><span style=\"font-size: 16px; white-space: pre-wrap;\"> of taking damage. </span><span style=\"font-size: 16px; font-style: normal; white-space: pre-wrap;\">&nbsp;With this type of effect, the target </span><span style=\"font-size: 16px; white-space: pre-wrap;\">does not</span><span style=\"font-size: 16px; font-style: normal; white-space: pre-wrap;\"> take the initial damage, but instead applies another effect. Often, the word &ldquo;would&rdquo; and &ldquo;instead&rdquo; on the card indicates that this is happening. For example,</span></span></p></li></ol><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; font-style: italic; white-space: pre-wrap;\">Null-Point Calibration Unit: When Absolute Zero would take Cold Damage, he regains that many HP instead.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">In this case, Absolute Zero does not take the initial cold damage, but instead regains that many hp.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Another type of effect that fall under the second type is redirection. In SotM redirection has its own keyword and meaning. Even though it might not say &ldquo;would&rdquo; it works in a similar way. </span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">Note that even though the effect or target changes, there still has to be some damage &ldquo;being dealt&rdquo; (as per step 3) for this effect to take place. This is why NightMist can&rsquo;t redirect damage while in Mistform. Since she didn&rsquo;t take any damage, the effect wouldn&rsquo;t trigger.</span></span></p><p>&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.15;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-e2fd9c89-c215-40e5-2ef2-f99dcb2c9397\"><span style=\"font-size: 16px; font-family: Arial; white-space: pre-wrap;\">I know this was a long post, but, hopefully, it can shed some light on how to deal damage in the greatest co-op superhero game ever made.</span></span></p><div>&nbsp;</div>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118474,
+      "name": "Ronway",
+      "username": "Ronway",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+      "created_at": "2014-09-29T15:56:00.000Z",
+      "cooked": "<p>I learned nothing about Sentinels of the Multiverse from this. I demand it be removed and then a new thread to be made that actually teaches me something about Sentinels of the Multiverse.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:24.521Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Ronway",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I learned nothing about Sentinels of the Multiverse from this. I demand it be removed and then a new thread to be made that actually teaches me something about Sentinels of the Multiverse.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-02",
+      "user_birthdate": "1904-01-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118475,
+      "name": "The Orange Mailman",
+      "username": "The_Orange_Mailman",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/c68b51/{size}.png",
+      "created_at": "2014-11-24T01:12:32.000Z",
+      "cooked": "<blockquote><p>Determine damage type</p><p>&nbsp;</p><p>The very first step when dealing damage is to determine the damage type.&nbsp; Based on the newest ruling, if there are multiple cards that change the damage type, you can choose the order of the effects and, essentially, choose what the final type will be.</p></blockquote><p>&nbsp;</p><p>Can&nbsp;someone point me in the direction of what this newest ruling entails.&nbsp; I thought that the order in which the cards were played was essential in this whole process.&nbsp; The other night I was playing Mr. Fixer while there was another card in play which changed all the damage to one type.&nbsp; He has a style that allows him to change damage type and I was wondering if he could change the damage type even when there was another card that stated all damage was of one type.&nbsp; Thanks in advance.</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:24.594Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "The Orange Mailman",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<blockquote><p>Determine damage type</p><p>&nbsp;</p><p>The very first step when dealing damage is to determine the damage type.&nbsp; Based on the newest ruling, if there are multiple cards that change the damage type, you can choose the order of the effects and, essentially, choose what the final type will be.</p></blockquote><p>&nbsp;</p><p>Can&nbsp;someone point me in the direction of what this newest ruling entails.&nbsp; I thought that the order in which the cards were played was essential in this whole process.&nbsp; The other night I was playing Mr. Fixer while there was another card in play which changed all the damage to one type.&nbsp; He has a style that allows him to change damage type and I was wondering if he could change the damage type even when there was another card that stated all damage was of one type.&nbsp; Thanks in advance.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10951,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-10-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118476,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-11-24T01:19:46.000Z",
+      "cooked": "<p><a href=\"https://greaterthangames.com/forum/topic/timing-and-order-of-operations-4347\" class=\"onebox\" target=\"_blank\" rel=\"noopener\">https://greaterthangames.com/forum/topic/timing-and-order-of-operations-4347</a></p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:24.688Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/timing-and-order-of-operations-4347",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "https://greaterthangames.com/forum/topic/timing-and-order-of-operations-4347",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118477,
+      "name": "Nataraja",
+      "username": "Nataraja",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/n/7feea3/{size}.png",
+      "created_at": "2014-11-24T18:49:09.000Z",
+      "cooked": "<p>Having an order of operations is nice and all, but this creates one more issue with Legacy's \"Lead from the Front\" and other, similar cards that redirect damage to a target whom may have damage modifiers of their own</p><p>If Legacy redirects any damage to himself, may he apply the reduction from Fortitude/Superhuman Durability from himself? Applying operations to damage in order would suggest not, since redirection happens after damage quantity has already been figured out</p><p>I know that's probably not the intent of those interactions, and certainly I can apply rule ofcommon sense where required, but it would be nice, I think, to have an official and officially worded ruling for those situations</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:24.758Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Nataraja",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Having an order of operations is nice and all, but this creates one more issue with Legacy&#39;s &quot;Lead from the Front&quot; and other, similar cards that redirect damage to a target whom may have damage modifiers of their own</p><p>If Legacy redirects any damage to himself, may he apply the reduction from Fortitude/Superhuman Durability from himself? Applying operations to damage in order would suggest not, since redirection happens after damage quantity has already been figured out</p><p>I know that&#39;s probably not the intent of those interactions, and certainly I can apply rule ofcommon sense where required, but it would be nice, I think, to have an official and officially worded ruling for those situations</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 11015,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-11-24",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118478,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-11-24T18:56:18.000Z",
+      "cooked": "<p>Once redirection occurs you go back to the damage modifiers step and start over with different targets.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:24.836Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Once redirection occurs you go back to the damage modifiers step and start over with different targets.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118479,
+      "name": "Nataraja",
+      "username": "Nataraja",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/n/7feea3/{size}.png",
+      "created_at": "2014-11-24T19:02:26.000Z",
+      "cooked": "<p>That opens a whole new can of worms: do effects that add to damage (Obsidian Fields for example) get applied again when damage gets redirected? This could lead to absurd quantities and kinda defeats the purpose of Legacy using Lead from the Front to tank damage...</p><p>&nbsp;</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:24.908Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Nataraja",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>That opens a whole new can of worms: do effects that add to damage (Obsidian Fields for example) get applied again when damage gets redirected? This could lead to absurd quantities and kinda defeats the purpose of Legacy using Lead from the Front to tank damage...</p><p>&nbsp;</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 11015,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-11-24",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118480,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-11-24T19:09:53.000Z",
+      "cooked": "<p>No, all previous modifiers are cancelled and you start again, applying everything applies. Redurect essentiallu cancels out the previous attack completely, and starts a new one with a new target.</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:24.990Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "No, all previous modifiers are cancelled and you start again, applying everything applies. Redurect essentiallu cancels out the previous attack completely, and starts a new one with a new target.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118481,
+      "name": "Nataraja",
+      "username": "Nataraja",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/n/7feea3/{size}.png",
+      "created_at": "2014-11-24T19:11:35.000Z",
+      "cooked": "<p>Ah, seems a bit fiddly but makes sense, thank you!</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.043Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Nataraja",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Ah, seems a bit fiddly but makes sense, thank you!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 11015,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-11-24",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118482,
+      "name": "Killswitch",
+      "username": "Killswitch",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/killswitch/{size}/2116_2.png",
+      "created_at": "2014-11-24T19:52:39.000Z",
+      "cooked": "<p>There's that F word again :/</p><p>Reminnds me of that thread on BGG...</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.104Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Killswitch",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>There&#39;s that F word again :/</p><p>Reminnds me of that thread on BGG...</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 8636,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-08-05",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118483,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2014-11-24T20:07:24.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"xThe Killswitch\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n xThe Killswitch:</div>\n<blockquote>\n<p>There's that F word again <img src=\"https://forums.greaterthangames.com/images/emoji/apple/confused.png?v=12\" title=\":confused:\" class=\"emoji\" alt=\":confused:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>Reminnds me of that thread on BGG…</p>\n</blockquote>\n</aside>\n<p>Shush, you.  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.186Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"xThe Killswitch\"]\n\nThere&#39;s that F word again :/\n\nReminnds me of that thread on BGG...\n\n[/quote]\n\nShush, you.  :wink: ",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118484,
+      "name": "The Orange Mailman",
+      "username": "The_Orange_Mailman",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/c68b51/{size}.png",
+      "created_at": "2014-11-24T23:53:39.000Z",
+      "cooked": "<p>Thanks.&nbsp; I was playing correctly.&nbsp; Still lost though.</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.262Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "The Orange Mailman",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Thanks.&nbsp; I was playing correctly.&nbsp; Still lost though.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10951,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-10-26",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118485,
+      "name": "eNamorD",
+      "username": "eNamorD",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/e/b5e925/{size}.png",
+      "created_at": "2014-11-26T04:52:51.000Z",
+      "cooked": "<p>Are you implying that the order of calculations happening within a step is left up to player choice? If so, then reading through this makes me think that Step 4 should be split into two parts - the first part for effects which happen <em>instead</em> of the damage taking the place and the second part for effects which happen <em>after </em>the damage taking place. Otherwise, something like this could happen...</p><p>Let's say Absolute Zero is at 4 HP and has an Isothermic Transducer out and Legacy has Lead From the Front. A villain character card aims an attack at Absolute Zero, and the final result at step 3 is that Absolute Zero is going to take 4 fire damage.</p><blockquote><p>Isothermic Transducer</p><p>Whenever Absolute Zero is dealt fire damage, Absolute Zero deals 1 target that much cold damage.</p></blockquote><blockquote><p>Lead from the Front</p><p>Whenever a Hero target would be dealt damage by a Villain card, you may redirect that damage to Legacy.</p></blockquote><p>Both of these effects happen as a result of the damage. If we could pick and choose the order of these effects, couldn't we choose to have AZ deal one target 4 cold damage using IT and then have Legacy tank the actual hit?</p><p>It doesn't feel quite right to me, so I think step 4 is actually two separate steps.</p><p>....</p><p>4. Apply effects which happen instead of taking damage</p><p>5. Apply effects which happen after taking damage.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.331Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "eNamorD",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Are you implying that the order of calculations happening within a step is left up to player choice? If so, then reading through this makes me think that Step 4 should be split into two parts - the first part for effects which happen <em>instead</em> of the damage taking the place and the second part for effects which happen <em>after </em>the damage taking place. Otherwise, something like this could happen...</p><p>Let&#39;s say Absolute Zero is at 4 HP and has an Isothermic Transducer out and Legacy has Lead From the Front. A villain character card aims an attack at Absolute Zero, and the final result at step 3 is that Absolute Zero is going to take 4 fire damage.</p><blockquote><p>Isothermic Transducer</p><p>Whenever Absolute Zero is dealt fire damage, Absolute Zero deals 1 target that much cold damage.</p></blockquote><blockquote><p>Lead from the Front</p><p>Whenever a Hero target would be dealt damage by a Villain card, you may redirect that damage to Legacy.</p></blockquote><p>Both of these effects happen as a result of the damage. If we could pick and choose the order of these effects, couldn&#39;t we choose to have AZ deal one target 4 cold damage using IT and then have Legacy tank the actual hit?</p><p>It doesn&#39;t feel quite right to me, so I think step 4 is actually two separate steps.</p><p>....</p><p>4. Apply effects which happen instead of taking damage</p><p>5. Apply effects which happen after taking damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10977,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-11-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118486,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2014-11-26T05:06:00.000Z",
+      "cooked": "<p>\"is dealt\" means HP is lowered, if Legacy takes the hit then no fire damage \"is dealt\" to AZ, so there is no corresponding generation of cold damage.</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.411Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>&quot;is dealt&quot; means HP is lowered, if Legacy takes the hit then no fire damage &quot;is dealt&quot; to AZ, so there is no corresponding generation of cold damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118487,
+      "name": "Rabk",
+      "username": "Rabk",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabk/{size}/1978_2.png",
+      "created_at": "2014-11-26T13:48:04.000Z",
+      "cooked": "<blockquote><p><span>Lead from the Front<br><br>Whenever a Hero target <strong>would be dealt</strong> damage by a Villain card, you may redirect that damage to Legacy.</span></p></blockquote><blockquote>Isothermic Transducer<br><br>Whenever Absolute Zero <strong>is dealt</strong> fire damage, Absolute Zero deals 1 target that much cold damage.</blockquote><h2>&nbsp;</h2><p>Lead from the front triggers before damage is dealt, while the Transducer doesn't power up until after A0 has actually taken damage (lost HP).</p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.482Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Rabk",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<blockquote><p><span style=\"font-size: 12.7272720336914px;\">Lead from the Front<br /><br />Whenever a Hero target <strong>would be dealt</strong> damage by a Villain card, you may redirect that damage to Legacy.</span></p></blockquote><blockquote>Isothermic Transducer<br /><br />Whenever Absolute Zero <strong>is dealt</strong> fire damage, Absolute Zero deals 1 target that much cold damage.</blockquote><h2>&nbsp;</h2><p>Lead from the front triggers before damage is dealt, while the Transducer doesn&#39;t power up until after A0 has actually taken damage (lost HP).</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5962,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118488,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-11-26T15:33:00.000Z",
+      "cooked": "<p>“Would be dealt” and “dealt” do not have different timings:</p>\n<p><a href=\"https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047\" class=\"onebox\" target=\"_blank\" rel=\"noopener\">https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047</a></p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.572Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "\"Would be dealt\" and \"dealt\" do not have different timings:\r\n\r\nhttps://greaterthangames.com/forum/topic/dealing-damage-timing-clarification-6047",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118489,
+      "name": "Rabk",
+      "username": "Rabk",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabk/{size}/1978_2.png",
+      "created_at": "2014-11-26T15:43:00.000Z",
+      "cooked": "<p>OK, now I'm even more confused. A0 has to actually take damage for the Transducer to trigger, no? I don't see how it can be possible for Lead from the Front and IT to both apply their effects to the same instance of damage.</p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.646Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Rabk",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>OK, now I&#39;m even more confused. A0 has to actually take damage for the Transducer to trigger, no? I don&#39;t see how it can be possible for Lead from the Front and IT to both apply their effects to the same instance of damage.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5962,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-10-21",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118490,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-11-26T15:46:39.000Z",
+      "cooked": "<p>Both can’t apply. They have the same timing, but both effects are mutually exclusive. If you choose one set of effects, the other won’t apply anymore.</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.715Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "Both can't apply. They have the same timing, but both effects are mutually exclusive. If you choose one set of effects, the other won't apply anymore.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118491,
+      "name": "AlexxKay",
+      "username": "AlexxKay",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/59ef9b/{size}.png",
+      "created_at": "2014-11-26T15:55:00.000Z",
+      "cooked": "<p>This thread may help a bit: https://greaterthangames.com/forum/topic/damage-effects-timing-meta-question-6141</p><p>Combining the claims of both threads, a fuller list of steps would be:</p><p>0. Is the damage source allowed to deal damage at all?&nbsp; If no, stop.</p><p>1. Make Irreducible (if applicable)</p><p>2. Change Damage Type</p><p>3. Check If Immune.&nbsp; (If so, stop here)</p><p>4. Increase or Reduce Amount</p><p>5. Redirect or Prevent Damage</p><p>5a. If damage is redirected, go back to step 1 and re-evaluate with new target.</p><p>5b. If damage is entirely prevented, stop here.</p><p>6. Apply damage (reducing HP)</p><p>7. Apply effects based on damage being dealt</p><p>Within a given step, if there are multiple things happening, the players choose the order.&nbsp; [This can be a little weird in step 5, which mixes multiple types of things.&nbsp; The example that leaps to mind is that if Undaunted is trying to prevent 1 damage, and Smoke Bombs is trying to redirect that damage, players choose what order they happen in.]</p><p>Applying this to the problem above, we see that Lead From the Front takes place in step 5, while Isothermic Transducer doesn't trigger until step 7.</p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.810Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "AlexxKay",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>This thread may help a bit: https://greaterthangames.com/forum/topic/damage-effects-timing-meta-question-6141</p><p>Combining the claims of both threads, a fuller list of steps would be:</p><p>0. Is the damage source allowed to deal damage at all?&nbsp; If no, stop.</p><p>1. Make Irreducible (if applicable)</p><p>2. Change Damage Type</p><p>3. Check If Immune.&nbsp; (If so, stop here)</p><p>4. Increase or Reduce Amount</p><p>5. Redirect or Prevent Damage</p><p>5a. If damage is redirected, go back to step 1 and re-evaluate with new target.</p><p>5b. If damage is entirely prevented, stop here.</p><p>6. Apply damage (reducing HP)</p><p dir=\"ltr\">7. Apply effects based on damage being dealt</p><p>Within a given step, if there are multiple things happening, the players choose the order.&nbsp; [This can be a little weird in step 5, which mixes multiple types of things.&nbsp; The example that leaps to mind is that if Undaunted is trying to prevent 1 damage, and Smoke Bombs is trying to redirect that damage, players choose what order they happen in.]</p><p>Applying this to the problem above, we see that Lead From the Front takes place in step 5, while Isothermic Transducer doesn&#39;t trigger until step 7.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 6457,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-12-04",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 118492,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-11-26T16:06:00.000Z",
+      "cooked": "<p>FWIW, my choice of steps was based on the wording of the cards, and all similar wordings are put into one step for consistency. This is not to say that two opposite effects happen.</p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:51:25.897Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11317,
+      "topic_slug": "dealing-damage-timing-clarification",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "FWIW, my choice of steps was based on the wording of the cards, and all similar wordings are put into one step for consistency. This is not to say that two opposite effects happen.",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

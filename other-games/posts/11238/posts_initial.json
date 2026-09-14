@@ -1,0 +1,1722 @@
+{
+  "posts": [
+    {
+      "id": 11239,
+      "name": "Zondebok",
+      "username": "Zondebok",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/z/e480ec/{size}.png",
+      "created_at": "2014-09-05T17:24:52.000Z",
+      "cooked": "<p>When a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?</p>",
+      "post_number": 1,
+      "post_type": 1,
+      "updated_at": "2021-02-07T01:42:29.996Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Zondebok",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>When a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10453,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117059,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-09-05T17:32:00.000Z",
+      "cooked": "<p>It is reset for each target. For example, if Visionary puts Wrest the Mind of the Electro Pusle Explosive it will look like this:</p><p>Target first hero target with 15 damage, redirect to another target. EPE and Visionary take 3 damage.</p><p><span>Target second hero target with 12 damage, redirect to another target. EPE and Visionary take 3 damage.</span></p><p><span>Target third hero target with 9 damage, redirect to another target. EPE and Visionary take 3 damage.</span></p><p>Since EPE's hp, and therefore damage, changes between targets, a different amount of damage will be dealt.</p>",
+      "post_number": 2,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:38.713Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>It is reset for each target. For example, if Visionary puts Wrest the Mind of the Electro Pusle Explosive it will look like this:</p><p>Target first hero target with 15 damage, redirect to another target. EPE and Visionary take 3 damage.</p><p><span style=\"font-size: 13px; line-height: 20px;\">Target second hero target with 12 damage, redirect to another target. EPE and Visionary take 3 damage.</span></p><p><span style=\"font-size: 13px;\">Target third hero target with 9 damage, redirect to another target. EPE and Visionary take 3 damage.</span></p><p>Since EPE&#39;s hp, and therefore damage, changes between targets, a different amount of damage will be dealt.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117060,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2014-09-05T17:35:53.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"rick.mogstad\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n rick.mogstad:</div>\n<blockquote>\n<p>When a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?</p>\n</blockquote>\n</aside>\n<p>Can you give a specific example? There might be fringe cases where a blanket answer wont work for such a general question.</p>\n<p>Damage is applied in order of player choice, and there could be any number of factors that change the damage dealt in-between targets (like DR and such)</p>",
+      "post_number": 3,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:38.792Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"rick.mogstad\"]\n\nWhen a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?\n\n[/quote]\n\nCan you give a specific example? There might be fringe cases where a blanket answer wont work for such a general question.\n\nDamage is applied in order of player choice, and there could be any number of factors that change the damage dealt in-between targets (like DR and such)\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117061,
+      "name": "Zondebok",
+      "username": "Zondebok",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/z/e480ec/{size}.png",
+      "created_at": "2014-09-05T19:20:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p>It is reset for each target. For example, if Visionary puts Wrest the Mind of the Electro Pusle Explosive it will look like this:Target first hero target with 15 damage, redirect to another target. EPE and Visionary take 3 damage.Target second hero target with 12 damage, redirect to another target. EPE and Visionary take 3 damage.Target third hero target with 9 damage, redirect to another target. EPE and Visionary take 3 damage.Since EPE's hp, and therefore damage, changes between targets, a different amount of damage will be dealt.</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Is there any specific rules/rulings that would indicate that X gets reset? &nbsp;In many games X is only assigned once, even if it is used for multiple steps later. &nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+      "post_number": 4,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:38.867Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Zondebok",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\nIt is reset for each target. For example, if Visionary puts Wrest the Mind of the Electro Pusle Explosive it will look like this:Target first hero target with 15 damage, redirect to another target. EPE and Visionary take 3 damage.Target second hero target with 12 damage, redirect to another target. EPE and Visionary take 3 damage.Target third hero target with 9 damage, redirect to another target. EPE and Visionary take 3 damage.Since EPE&#39;s hp, and therefore damage, changes between targets, a different amount of damage will be dealt.\n\n[/quote]\n\n&nbsp;\n\nIs there any specific rules/rulings that would indicate that X gets reset? &nbsp;In many games X is only assigned once, even if it is used for multiple steps later. &nbsp;\n\n&nbsp;\n\n&nbsp;\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10453,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117062,
+      "name": "Zondebok",
+      "username": "Zondebok",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/z/e480ec/{size}.png",
+      "created_at": "2014-09-05T19:22:37.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>rick.mogstad wrote:</b><br><blockquote>When a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?\n&nbsp;\n</blockquote></div>\nCan you give a specific example? There might be fringe cases where a blanket answer wont work for such a general question.Damage is applied in order of player choice, and there could be any number of factors that change the damage dealt in-between targets (like DR and such)\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>It really shouldn't matter the situation. &nbsp;If a card says \"Do X &lt;something&gt; to all &lt;some target type&gt; where X = &lt;some condition&gt;\", then either X is set once at the beginning, then applied to all applicable targets, or it is evaluated real-time for each target. &nbsp;If there are different rules for different situations, it seems like it will be difficult to make a judgement call when playing the game.</p>",
+      "post_number": 5,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:38.944Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Zondebok",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Foote\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>rick.mogstad wrote:</b><br /><blockquote class=\"bb-quote-body\">When a card deals X damage to multiple targets, at which point is X set? &nbsp;Does it get reset for each target, or is it set once, and then damage is applied in an order chosen by the players?\n&nbsp;\n</blockquote></div>\nCan you give a specific example? There might be fringe cases where a blanket answer wont work for such a general question.Damage is applied in order of player choice, and there could be any number of factors that change the damage dealt in-between targets (like DR and such)\n\n[/quote]\n\n&nbsp;\n\nIt really shouldn&#39;t matter the situation. &nbsp;If a card says &quot;Do X &lt;something&gt; to all &lt;some target type&gt; where X = &lt;some condition&gt;&quot;, then either X is set once at the beginning, then applied to all applicable targets, or it is evaluated real-time for each target. &nbsp;If there are different rules for different situations, it seems like it will be difficult to make a judgement call when playing the game.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10453,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117063,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2014-09-05T19:29:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"rick.mogstad\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n rick.mogstad:</div>\n<blockquote>\n<p>&nbsp;It really shouldn't matter the situation. &nbsp;</p>\n</blockquote>\n</aside>\n<p>Whelp. Idk what to tell you. Sometimes it does. But generally, there is no \"snapshotting\", if you are familiar with that term. Triggers or amounts that are determined off of the current gamestate (like the EPE example) will change as the gamestate changes.</p>\n<p>Do you have a specific example you can use to illustrate your question?</p>\n<p>Also, the EPE example Pydro used is an officially confirmed interaction.</p>",
+      "post_number": 6,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.021Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"rick.mogstad\"]\n\n &nbsp;It really shouldn&#39;t matter the situation. &nbsp; \n\n[/quote]\n\nWhelp. Idk what to tell you. Sometimes it does. But generally, there is no &quot;snapshotting&quot;, if you are familiar with that term. Triggers or amounts that are determined off of the current gamestate (like the EPE example) will change as the gamestate changes.\n\nDo you have a specific example you can use to illustrate your question?\n\nAlso, the EPE example Pydro used is an officially confirmed interaction.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117064,
+      "name": "Zondebok",
+      "username": "Zondebok",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/z/e480ec/{size}.png",
+      "created_at": "2014-09-05T19:35:04.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Foote\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/foote/48/1877_2.png\" class=\"avatar\"> Foote:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>rick.mogstad wrote:</b><br><blockquote>&nbsp;It really shouldn't matter the situation. &nbsp;\n&nbsp;\n</blockquote></div>\nWhelp. Idk what to tell you. Sometimes it does. But generally, there is no \"snapshotting\", if you are familiar with that term. Triggers or amounts that are determined off of the current gamestate (like the EPE example) will change as the gamestate changes.Do you have a specific example you can use to illustrate your question?Also, the EPE example Pydro used is an officially confirmed interaction.\n</blockquote>\n</aside>\n<p>Since I bought the game yesterday, don't have the cards in front of me, and can't find any comprehensive listing of the cards anywhere, no, I don't have a specific example.</p>\n<p>Are you saying that there are certain times when \"snapshotting\" does occur?</p>",
+      "post_number": 7,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.126Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Zondebok",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Foote\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>rick.mogstad wrote:</b><br /><blockquote class=\"bb-quote-body\">&nbsp;It really shouldn&#39;t matter the situation. &nbsp;\n&nbsp;\n</blockquote></div>\nWhelp. Idk what to tell you. Sometimes it does. But generally, there is no &quot;snapshotting&quot;, if you are familiar with that term. Triggers or amounts that are determined off of the current gamestate (like the EPE example) will change as the gamestate changes.Do you have a specific example you can use to illustrate your question?Also, the EPE example Pydro used is an officially confirmed interaction.\n\n[/quote]\n\n Since I bought the game yesterday, don&#39;t have the cards in front of me, and can&#39;t find any comprehensive listing of the cards anywhere, no, I don&#39;t have a specific example. \n\nAre you saying that there are certain times when &quot;snapshotting&quot; does occur?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10453,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117065,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2014-09-05T19:39:00.000Z",
+      "cooked": "<p>I can't think of any off the top of my head honestly, but this game can be so situational at times that weird fringe cases can, and do, come up.</p><p>OH! And Welcome to the forums!!</p>",
+      "post_number": 8,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.199Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I can&#39;t think of any off the top of my head honestly, but this game can be so situational at times that weird fringe cases can, and do, come up.</p><p>OH! And Welcome to the forums!!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117066,
+      "name": "Sonvar",
+      "username": "Powerhound_2000",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/powerhound_2000/{size}/1859_2.png",
+      "created_at": "2014-09-05T19:39:06.000Z",
+      "cooked": "<p>Here is a list of cards to help&nbsp;https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ1RFBlSXlJV1p0SVE&amp;usp=sharing#gid=0</p>",
+      "post_number": 9,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.267Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Sonvar",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": "",
+      "bookmarked": false,
+      "raw": "<p>Here is a list of cards to help&nbsp;https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ1RFBlSXlJV1p0SVE&amp;usp=sharing#gid=0</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 5464,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-09-14",
+      "user_birthdate": "1904-02-02",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117067,
+      "name": "Zondebok",
+      "username": "Zondebok",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/z/e480ec/{size}.png",
+      "created_at": "2014-09-05T19:53:47.000Z",
+      "cooked": "<p>I get that this is not a competitive game, but it seems like one should be able to figure out what do to in a given situation by following the rules of the game. &nbsp;It seems like this snapshotting is not covered in the rules, but someone, somewhere has made an official ruling about it. &nbsp;I am fine either way, I just like to know all of the mechanics/rules and how to apply them :)</p><p>&nbsp;</p><p>I'm sure I will be asking more as I get more time to play.</p>",
+      "post_number": 10,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.341Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Zondebok",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>I get that this is not a competitive game, but it seems like one should be able to figure out what do to in a given situation by following the rules of the game. &nbsp;It seems like this snapshotting is not covered in the rules, but someone, somewhere has made an official ruling about it. &nbsp;I am fine either way, I just like to know all of the mechanics/rules and how to apply them :)</p><p>&nbsp;</p><p>I&#39;m sure I will be asking more as I get more time to play.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10453,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117068,
+      "name": "Ameena",
+      "username": "Ameena",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/ameena/{size}/1907_2.png",
+      "created_at": "2014-09-05T19:56:11.000Z",
+      "cooked": "<p>Another example of AE damage changing would be Ra using Scorched Earth when there are multiple environment targets out - say there are four of them currently in play. Scorched Earth will do four points of damage (assuming Ra has no buffs of any kind) to all non-hero targets. When this is applied to the first of the environment targets (the order is player choice), if that's enough to destroy it then there will now be three environment targets reamining, so Scorched Earth's damage will now be three. If that's enough to kill the next target, then the damage will reduce again, and so on.</p><p>So in a case like this, it's a good idea to attack all the villain targets first (assuming you do want them all destroyed at this point - sometimes you might want to leave someting in play for various reasons) so that they take maximum damage, then attack the environment targets in the order that seems most useful if the damage is enough to destroy any of them.</p>",
+      "post_number": 11,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.408Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Ameena",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>Another example of AE damage changing would be Ra using Scorched Earth when there are multiple environment targets out - say there are four of them currently in play. Scorched Earth will do four points of damage (assuming Ra has no buffs of any kind) to all non-hero targets. When this is applied to the first of the environment targets (the order is player choice), if that&#39;s enough to destroy it then there will now be three environment targets reamining, so Scorched Earth&#39;s damage will now be three. If that&#39;s enough to kill the next target, then the damage will reduce again, and so on.</p><p>So in a case like this, it&#39;s a good idea to attack all the villain targets first (assuming you do want them all destroyed at this point - sometimes you might want to leave someting in play for various reasons) so that they take maximum damage, then attack the environment targets in the order that seems most useful if the damage is enough to destroy any of them.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 1117,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-10-15",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117069,
+      "name": "Zondebok",
+      "username": "Zondebok",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/z/e480ec/{size}.png",
+      "created_at": "2014-09-05T20:03:00.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Powerhound_2000\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/powerhound_2000/48/1859_2.png\" class=\"avatar\"> Powerhound_2000:</div>\n<blockquote>\n<p>Here is a list of cards to help&nbsp;<a href=\"https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ1RFBlSXlJV1p0SVE&amp;usp=sharing#gid=0\" rel=\"noopener nofollow ugc\">https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ…</a></p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Haha. &nbsp;Now I just need a list with all of the acronyms <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>Thanks though, this will be quite helpful.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Off topic: Is there a way to change the display name in the forum from the auto-generated account name they gave me? &nbsp;Also, is there some way to subscribe to forums/topics that I'm not seeing?</p>",
+      "post_number": 12,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.470Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Zondebok",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Powerhound_2000\"]\n\nHere is a list of cards to help&nbsp;<a href=\"https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ1RFBlSXlJV1p0SVE&amp;usp=sharing#gid=0\">https://docs.google.com/spreadsheet/ccc?key=0AprCZHVK0QvtdDVyV1VTTk54TEJ...</a>\n\n[/quote]\n\n&nbsp;\n\nHaha. &nbsp;Now I just need a list with all of the acronyms :)\n\nThanks though, this will be quite helpful.\n\n&nbsp;\n\n&nbsp;\n\nOff topic: Is there a way to change the display name in the forum from the auto-generated account name they gave me? &nbsp;Also, is there some way to subscribe to forums/topics that I&#39;m not seeing?\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10453,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117070,
+      "name": "Foote",
+      "username": "Foote",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/foote/{size}/1877_2.png",
+      "created_at": "2014-09-05T20:07:14.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"rick.mogstad\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n rick.mogstad:</div>\n<blockquote>\n<p>I just like to know all of the mechanics/rules and how to apply them :)&nbsp;I'm sure I will be asking more as I get more time to play.</p>\n</blockquote>\n</aside>\n<p>Me too! Ask all the questions! If theres one thing we love around here its talking about rules interactions. You'll fit right in.</p>",
+      "post_number": 13,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.546Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Foote",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"rick.mogstad\"]\n\nI just like to know all of the mechanics/rules and how to apply them :)&nbsp;I&#39;m sure I will be asking more as I get more time to play.\n\n[/quote]\n\nMe too! Ask all the questions! If theres one thing we love around here its talking about rules interactions. You&#39;ll fit right in.\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 4333,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-04-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117071,
+      "name": "Spiff",
+      "username": "Spiff",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/spiff/{size}/1865_2.png",
+      "created_at": "2014-09-05T20:43:25.000Z",
+      "cooked": "<p><a href=\"http://www.spiffworld.com/sotm/\" rel=\"noopener nofollow ugc\">I've got a card list too</a>, no acronym knowledge required.</p>",
+      "post_number": 14,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.616Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Spiff",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "http://www.spiffworld.com/sotm/",
+          "internal": false,
+          "reflection": false,
+          "title": "Spiff's SotM Resources",
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p><a href=\"http://www.spiffworld.com/sotm/\">I&#39;ve got a card list too</a>, no acronym knowledge required.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 73,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-09-09",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117072,
+      "name": "Rabit",
+      "username": "Rabit",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+      "created_at": "2014-09-05T20:50:00.000Z",
+      "cooked": "<aside class=\"quote no-group\" data-username=\"rick.mogstad\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n rick.mogstad:</div>\n<blockquote>\n<p>Is there a way to change the display name in the forum from the auto-generated account name they gave me?</p>\n</blockquote>\n</aside>\n<p>What alias do you want? Ask and we shall make it happen (assuming it isn't already claimed).</p>\n<p>And welcome to the community - glad to have you!  <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slightly_smiling_face.png?v=12\" title=\":slightly_smiling_face:\" class=\"emoji\" alt=\":slightly_smiling_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "post_number": 15,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.689Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Rabit",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"rick.mogstad\"]\n\nIs there a way to change the display name in the forum from the auto-generated account name they gave me?\n\n[/quote]\n\nWhat alias do you want? Ask and we shall make it happen (assuming it isn&#39;t already claimed).\n\nAnd welcome to the community - glad to have you!  :slightly_smiling_face: ",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 20,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2011-08-08",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117073,
+      "name": "Pydro",
+      "username": "Pydro",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+      "created_at": "2014-09-05T21:06:08.000Z",
+      "cooked": "<p><a href=\"https://greaterthangames.com/forum/topic/sotm-glossary-or-what-on-earth-are-these-people-talking-about-4300\">Abbreviations</a></p>",
+      "post_number": 16,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.757Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Pydro",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "link_counts": [
+        {
+          "url": "https://greaterthangames.com/forum/topic/sotm-glossary-or-what-on-earth-are-these-people-talking-about-4300",
+          "internal": false,
+          "reflection": false,
+          "clicks": 0
+        }
+      ],
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p><a href=\"https://greaterthangames.com/forum/topic/sotm-glossary-or-what-on-earth-are-these-people-talking-about-4300\">Abbreviations</a></p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": true,
+      "admin": false,
+      "staff": true,
+      "user_id": 436,
+      "hidden": false,
+      "trust_level": 4,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-05-19",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117074,
+      "name": "Greywind",
+      "username": "Greywind",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+      "created_at": "2014-09-05T21:30:41.000Z",
+      "cooked": "<p>The only forums you shouldn't have access to are the Playtester forums.</p>",
+      "post_number": 17,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.843Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Greywind",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>The only forums you shouldn&#39;t have access to are the Playtester forums.</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 3795,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2013-02-23",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117075,
+      "name": "Matchstickman",
+      "username": "Matchstickman",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+      "created_at": "2014-09-05T21:45:00.000Z",
+      "cooked": "<p>That's not what was being asked.</p><p>No, there is no hidden option you are not seeing where you can subscribe to a topic/forum, you just have to rely on the update notices next to each forum when you check back.</p><p>&nbsp;</p><p>Welcome to the forums!</p>",
+      "post_number": 18,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.926Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Matchstickman",
+      "primary_group_name": "playtesters",
+      "flair_name": "playtesters",
+      "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+      "flair_bg_color": "",
+      "flair_color": "",
+      "flair_group_id": 41,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "<p>That&#39;s not what was being asked.</p><p>No, there is no hidden option you are not seeing where you can subscribe to a topic/forum, you just have to rely on the update notices next to each forum when you check back.</p><p>&nbsp;</p><p>Welcome to the forums!</p>",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 326,
+      "hidden": false,
+      "trust_level": 2,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2012-04-10",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117076,
+      "name": "Zondebok",
+      "username": "Zondebok",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/z/e480ec/{size}.png",
+      "created_at": "2014-09-06T00:02:16.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Rabit\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/rabit/48/5774_2.png\" class=\"avatar\"> Rabit:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>rick.mogstad wrote:</b><br><blockquote>Is there a way to change the display name in the forum from the auto-generated account name they gave me?\n&nbsp;\n</blockquote></div>\nWhat alias do you want? Ask and we shall make it happen (assuming it isn't already claimed).And welcome to the community - glad to have you!  :slightly_smiling_face: \n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Zondebok, please. <img src=\"https://forums.greaterthangames.com/images/emoji/apple/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "post_number": 19,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:39.999Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Zondebok",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Rabit\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>rick.mogstad wrote:</b><br /><blockquote class=\"bb-quote-body\">Is there a way to change the display name in the forum from the auto-generated account name they gave me?\n&nbsp;\n</blockquote></div>\nWhat alias do you want? Ask and we shall make it happen (assuming it isn&#39;t already claimed).And welcome to the community - glad to have you!  :slightly_smiling_face: \n\n[/quote]\n\n&nbsp;\n\nZondebok, please. :)",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10453,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    },
+    {
+      "id": 117077,
+      "name": "Zondebok",
+      "username": "Zondebok",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/z/e480ec/{size}.png",
+      "created_at": "2014-09-06T00:04:38.000Z",
+      "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Pydro\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/pydro/48/1844_2.png\" class=\"avatar\"> Pydro:</div>\n<blockquote>\n<p><a href=\"https://greaterthangames.com/forum/topic/sotm-glossary-or-what-on-earth-are-these-people-talking-about-4300\" rel=\"noopener nofollow ugc\">Abbreviations</a></p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Thanks!</p>",
+      "post_number": 20,
+      "post_type": 1,
+      "updated_at": "2021-02-07T03:49:40.066Z",
+      "reply_count": 0,
+      "reply_to_post_number": null,
+      "quote_count": 0,
+      "incoming_link_count": 0,
+      "reads": 0,
+      "readers_count": 0,
+      "score": 0.0,
+      "yours": false,
+      "topic_id": 11238,
+      "topic_slug": "cards-dealing-x-damage-to-multiple-targets",
+      "display_username": "Zondebok",
+      "primary_group_name": null,
+      "flair_name": null,
+      "flair_url": null,
+      "flair_bg_color": null,
+      "flair_color": null,
+      "flair_group_id": null,
+      "badges_granted": [],
+      "version": 1,
+      "can_edit": false,
+      "can_delete": false,
+      "can_recover": false,
+      "can_see_hidden_post": false,
+      "can_wiki": false,
+      "read": false,
+      "user_title": null,
+      "bookmarked": false,
+      "raw": "[quote=\"Pydro\"]\n\n<a href=\"https://greaterthangames.com/forum/topic/sotm-glossary-or-what-on-earth-are-these-people-talking-about-4300\" rel=\"nofollow\">Abbreviations</a>\n\n[/quote]\n\n&nbsp;\n\nThanks!\n",
+      "actions_summary": [
+        {
+          "id": 2,
+          "can_act": true
+        },
+        {
+          "id": 6,
+          "can_act": true
+        },
+        {
+          "id": 3,
+          "can_act": true
+        },
+        {
+          "id": 4,
+          "can_act": true
+        },
+        {
+          "id": 8,
+          "can_act": true
+        },
+        {
+          "id": 10,
+          "can_act": true
+        },
+        {
+          "id": 7,
+          "can_act": true
+        }
+      ],
+      "moderator": false,
+      "admin": false,
+      "staff": false,
+      "user_id": 10453,
+      "hidden": false,
+      "trust_level": 1,
+      "deleted_at": null,
+      "user_deleted": false,
+      "edit_reason": null,
+      "can_view_edit_history": true,
+      "wiki": false,
+      "user_cakedate": "2014-09-03",
+      "can_accept_answer": false,
+      "can_unaccept_answer": false,
+      "accepted_answer": false,
+      "topic_accepted_answer": false
+    }
+  ]
+}

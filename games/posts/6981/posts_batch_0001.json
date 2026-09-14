@@ -1,0 +1,4208 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 50992,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-02-13T21:41:04.000Z",
+        "cooked": "<p>Not usually, it will usually say 'Thanks!'</p><p>&nbsp;</p><p>go ahead and put it in again, i police the document for duplicates. Also, being the older googledocs, it doesn't always work properly... i hope they put in some sort of migrate tool to migrate from an older version to the new gsheets</p><p>&nbsp;</p><p><br>ALSO! I've been working on updating the statistics again. Its hard going work,because in order to make it not so stupidly processive intensive, ive removed the formulas from the webdoc, to put them into an actually excel sheet. But gsheets and excel use similar... but different formulas. Most notably, array formulas are done &nbsp;ENTIRELY different (its an actually formula function in gsheets, and in excell you have to end a formula by hitting ctr alt enter - and array formulas are how I am able to even begin to sort the information)</p><p>&nbsp;</p><p>so ive had to rewrite most of the formulas I used to parse the data. Its slow going, but if you are interested in...</p><p>&nbsp;</p><p>here is the villains as of today...</p><p>&nbsp;</p><p>https://docs.google.com/spreadsheets/d/1tX46pXuJYoK21LVMXM8eHRkbLffUkR_-h4nP2X97hT0/edit#gid=0</p><p>&nbsp;</p><p>Not pretty, but you can at least get an idea of where we have been going over the last few months since the last update!</p>",
+        "post_number": 71,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.244Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 50993,
+        "name": "arenson9",
+        "username": "arenson9",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arenson9/{size}/1900_2.png",
+        "created_at": "2014-02-13T22:00:24.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"broccoli\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/broccoli/48/1861_2.png\" class=\"avatar\"> broccoli:</div>\n<blockquote>\n<p>Having work with both (tangentally), I second the vote for postgres over mysql.</p>\n</blockquote>\n</aside>\n<p>I've worked with MySQL, but not PostgreSQL. I like MySQL quite well.</p>",
+        "post_number": 72,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.323Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "arenson9",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 18,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-07",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 50994,
+        "name": "Greywind",
+        "username": "Greywind",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+        "created_at": "2014-02-13T23:19:46.000Z",
+        "cooked": "<p>Lynkfox, why are you going with \"loss percent\" rather than \"win percent\" when the numbers look like the winning percentage?</p>",
+        "post_number": 73,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.407Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Greywind",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3795,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 50995,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-02-14T00:12:34.000Z",
+        "cooked": "<p>Because its villains. The Heroes have won that many times, yes, but the villains lost!</p>",
+        "post_number": 74,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.471Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 50996,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-02-17T04:10:25.000Z",
+        "cooked": "<p>HAH!</p><p>&nbsp;</p><p>we have hit the limit of Cells allowed for an old version of Google Drive Sheets. (40,000) I am working on converting the sheet tot he new version without loosing any of the data. This may be difficult, but the new version runs faster, smother, better, and has no limit (well, 2million they say, but should be able to go above it (they say) )&nbsp;</p><p>&nbsp;</p><p>So for the time being the response form has been disabled. When i get this figured out, I'll provide the new link to the new submit your data form.</p>",
+        "post_number": 75,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.540Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 50997,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-02-17T06:17:21.000Z",
+        "cooked": "<p>New Submit form. Please use this form from now on!</p><p>&nbsp;</p><p>https://docs.google.com/forms/d/1zCJwaHbUeS9VqbIhqZj2zAJ1TuWq5E0lnHWndheq1IM/viewform#start=invite</p>",
+        "post_number": 76,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.612Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 50998,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-02-17T06:30:44.000Z",
+        "cooked": "<p>And ive put up the individual hero data.</p><p>&nbsp;</p><p>https://docs.google.com/spreadsheets/d/1tX46pXuJYoK21LVMXM8eHRkbLffUkR_-h4nP2X97hT0/edit#gid=0</p>",
+        "post_number": 77,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.685Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 50999,
+        "name": "Envisioner",
+        "username": "Envisioner",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/9de053/{size}.png",
+        "created_at": "2014-02-17T17:35:01.000Z",
+        "cooked": "<p>Heh, Citizen Dawn is the most popular villain by far.&nbsp; Everyone wants a piece of her.</p><p>Only seven Vengeance Five games so far...not that surprising, of course.</p>",
+        "post_number": 78,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.756Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 0.8,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Envisioner",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5332,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-29",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51000,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-02-18T20:26:13.000Z",
+        "cooked": "<p>The Heroes vrs specific Villains has been posted on the work book</p><p>&nbsp;</p><p>https://docs.google.com/spreadsheets/d/1tX46pXuJYoK21LVMXM8eHRkbLffUkR_-h4nP2X97hT0/edit#gid=928215062</p>",
+        "post_number": 79,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.837Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51001,
+        "name": "MigrantP",
+        "username": "MigrantP",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/migrantp/{size}/1921_2.png",
+        "created_at": "2014-02-27T04:32:49.000Z",
+        "cooked": "<p>The link in Sentinels Sidekick isn't working right now, but we will fix it pretty soon.</p>",
+        "post_number": 80,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.914Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "MigrantP",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": true,
+        "staff": true,
+        "user_id": 442,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-22",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51002,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-03-14T20:56:35.000Z",
+        "cooked": "<p>I took the latest data in the worksheet (might be the old one, I dunno) and created a few minimal reports at&nbsp;http://public.tableausoftware.com/views/SotMVengeance/VillainWinPct?:embed=y&amp;:display_count=no</p><p>&nbsp;</p><p>I think I have improved my turn-around cycle by about 15X, so I should be able to do more things and update more quickly now.&nbsp;</p><p>&nbsp;</p><p>Lynkfox, where is the new data being stored? And does it have 2-6 hero stuff all together?</p><p>&nbsp;</p><p>Arathorn</p>",
+        "post_number": 81,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:31.979Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51003,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-03-14T21:31:43.000Z",
+        "cooked": "<p>FWIW, I don't have a stake in the MySQL vs. PostgreSQL debate. I've used 'em both. Either will work fine for me to link up with, once I get all the necessary expansions into SQL instead of doing them manually. I made good progress on that in the last couple weeks (slower for this update, hopefully faster to do new updates). But I lost a bit of data I'd gotten manually. I need to figure out how to get # of heroes accurately with my new ingest mechanism going.</p><p>I've not used the new gsheets at all. I'm glad we won't be running into space issues.</p><p>Also, BTW, if it's tough to get all the new data together with the old data, I can pretty well do ingests from multiple sources, once I get a few things ironed out.</p><p>Paul, though, you could make me hugely happy with a SQL DB getting all the information in. HINT HINT! :P</p><p>&nbsp;</p><p>Arathorn</p>",
+        "post_number": 82,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.050Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51004,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-03-15T02:34:10.000Z",
+        "cooked": "<p>Its the same data lay out as the previous - limitations in the manner in which data is collected via the google sheets, unfortunately. Could probably put it through a Table converge function, maybe even on the same sheet, but not sure how much that would slow it down. the new Sheets are better for running processes, but still... over 7000 data entries really can throw a kink in it. ;)</p>",
+        "post_number": 83,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.122Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51005,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-03-17T01:08:00.000Z",
+        "cooked": "<p>Lynkfox, one thing that I kinda almost need is unique headers for the columns. Right now, the hero incapicated column is the same for each hero. I don't know much about getting data into google sheets from a collection questionaire, but would it be possible to change that to Hero Incap-1 and then Hero Incap-2, and the like? Else, I can't pull in the data I want (well,&nbsp;<strong>can't</strong> is too strong, but I don't know how to). It all gets jumbled together. Same thing with \"Flip?\" for the Vengeance Five.</p><p>I still think I've got some good improvements on my turn-around time. I need to test a few more times and then I'll try to get everything put all together.</p><p>&nbsp;</p><p>Arathorn</p>",
+        "post_number": 84,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.191Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51006,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-03-17T11:44:48.000Z",
+        "cooked": "<p>Er. thats not easy.</p><p>&nbsp;</p><p>The headers are set by the Form. Each header is the first line of the Form Question. Changing the name of the Form question might create a whole new column. Ill do some tetsing to see if thats the case and see if I can switch those around, but I'm not sure how flexible that will be.</p>",
+        "post_number": 85,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.261Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51007,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-03-17T11:51:45.000Z",
+        "cooked": "<p>Wow. That was surprisingly easy. Yay new Google Forms. the Old forms would have made new columns when I changed the titles, but these new ones successfully just rename the columns. Should be much easier for you to parse the data!</p><p>&nbsp;</p>",
+        "post_number": 86,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.330Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51008,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-03-17T16:42:58.000Z",
+        "cooked": "<p>Fantastic! Thanks for doing that. I can do more analysis now. Eventually.</p><p>For now, I've just updated&nbsp;http://public.tableausoftware.com/views/Sentinels1/Overview?:embed=y&amp;:display_count=no%C2%A0which#1 with data through today. It seems a bit goofy, but I've not had the chance to full validate my results. Still, overall, things seem pretty close.</p><p>A couple other things in the data collection form I'd like to see changed:</p><ol>\n<li>\"Ra: Horus of the Two Horizons\" switched to match the earlier \"Ra: Horus of Two Horizons\"</li>\n<li>\"K.N.Y.F.E.\" only has the final period for hero 1. Elsewhere, she's \"K.N.Y.F.E\" -- I'd like to see those match exactly. Would make life a lot easier.</li>\n<li>\"Young Legacy\" shows up sometimes and \"Youngest Legacy\" sometimes. I thought it was \"Young Legacy\", but the important thing is consistency. Once the form is updated to always be one or the other, then we can update the stored records to all match.</li>\n<li>I think there might be one place with a \"Dark Watch Setbac\" on the form. The rest are all Setback (with the k), but I had to correct at least one.</li>\n</ol><p>&nbsp;</p><p>I plan on doing a bit more with villain/hero frequency, position order, hero incapaciation, etc. in the next week or so (I hope). I also think I have my updating process down to under an hour. We can maybe make it even faster, if you're willing to eliminate some of the text lines breaking up data.</p><p>And, yes, I think I do have all the two-player data, too.</p><p>Thanks for the collection and such!</p><p>Arathorn</p>",
+        "post_number": 87,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.400Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51009,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-03-17T19:29:53.000Z",
+        "cooked": "<p>Those names have now been changed on the Form, and ive gone through with a find and replace to switch them over. Should all be correct now! Let me know if you find anything else out of order.</p>",
+        "post_number": 88,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.473Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51010,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-03-17T19:32:40.000Z",
+        "cooked": "<p>I also replaced all the Yes, Both Sides, Yes, Side A and Yes Side B with just Yes, for advanced mode, for making it easier to parse the data through.</p>",
+        "post_number": 89,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.555Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51011,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-03-17T20:25:47.000Z",
+        "cooked": "<p>Thanks a million, lynkfox. I found and corrected a couple errors (that might not have been seen). But I'm still having a couple. Regardless, we've made fantastic progress in the last week!</p><p>Arathorn</p>",
+        "post_number": 90,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.630Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51012,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-03-18T13:58:27.000Z",
+        "cooked": "<p>I think I've fixed all my errors. And I got the updated data, so it should be nearly completely accurate at this point.</p><p>I'll try to update weekly. But feedback on what people like (and what they want to see more of!) would probably help encourage me. I still should do some Incapicitated work and some work on the Vengeful Five. Anything else?&nbsp;</p><p>And, all, please USE THE TABS across the top. There are LOTS of reports!</p><p>Arathorn</p>",
+        "post_number": 91,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.710Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51013,
+        "name": "squad",
+        "username": "squad",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/e9a140/{size}.png",
+        "created_at": "2014-03-20T15:07:24.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arathorn\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/bcef8e/48.png\" class=\"avatar\"> Arathorn:</div>\n<blockquote>\n<p>I think I've fixed all my errors. And I got the updated data, so it should be nearly completely accurate at this point.I'll try to update weekly. But feedback on what people like (and what they want to see more of!) would probably help encourage me. I still should do some Incapicitated work and some work on the Vengeful Five. Anything else?&nbsp;And, all, please USE THE TABS across the top. There are LOTS of reports!Arathorn</p>\n</blockquote>\n</aside>\n<p>For the Heroes tab, can you show not only the overall win %, but also how many entries that data is based on?&nbsp; Especially with the new heroes from Vengeance, I'd like to see how often they've been played relative to the other heroes, so I know when the sample size is big enough to trust.</p>\n<p>Also, the entry for Youngest Legacy is showing 100% win, which I'm sure is an error.</p>",
+        "post_number": 92,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.777Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "squad",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7732,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-01-18",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51014,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-03-21T19:28:05.000Z",
+        "cooked": "<p>Good idea, squad. I added game count reports to a few sheets. And updated with latest data (which corrects the Youngest Legacy problem). And added a new tab (at the end) which shows SOME stuff with two different heroes. So, you can ask, does Legacy work well with Argent Adept, for instance. That's still not the clearest sheet, but it shows a bit of analysis in that regard.</p><p>&nbsp;</p><p>Arathorn</p>",
+        "post_number": 93,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.853Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51015,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-03-22T04:06:54.000Z",
+        "cooked": "<p>Oh WoW! i love the ability to filter it by username. So awesome! Now I know who i haven't played against whom! :)</p>",
+        "post_number": 94,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:32.923Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51016,
+        "name": "squad",
+        "username": "squad",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/e9a140/{size}.png",
+        "created_at": "2014-03-22T17:09:32.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arathorn\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/a/bcef8e/48.png\" class=\"avatar\"> Arathorn:</div>\n<blockquote>\n<p>Good idea, squad. I added game count reports to a few sheets. And updated with latest data (which corrects the Youngest Legacy problem). And added a new tab (at the end) which shows SOME stuff with two different heroes. So, you can ask, does Legacy work well with Argent Adept, for instance. That's still not the clearest sheet, but it shows a bit of analysis in that regard.&nbsp;Arathorn</p>\n</blockquote>\n</aside>\n<p>Thanks!&nbsp; And great idea about the two hero comparison!&nbsp; I'll definitely put that information to good use.</p>",
+        "post_number": 95,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.006Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "squad",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 7732,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-01-18",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51017,
+        "name": "Azqa",
+        "username": "Azqa",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/azqa/{size}/2015_2.png",
+        "created_at": "2014-03-27T16:53:29.000Z",
+        "cooked": "<p>First off, thanks for making this available - it makes me unreasonably happy to have tools for slicing and dicing data. &nbsp;(Why yes, I do find myself growing more and more fond of Parse, why do you ask?)<br><br>Secondly, feedback for Arathorn:</p><ul>\n<li>It would be nice to have some global filtering available that extends across all reports, such as (de)selecting specific heroes and/or villains, preferably in a multi-checkbox dropdown list like you already have on several reports. &nbsp;Excluding certain options in a given report one by one sometimes carries over to other reports, but not always. &nbsp;Centralizing that functionality would be convenient.</li>\n<li>It would be nice to have the ability to mass de-select groups of heroes/villains by expansion. &nbsp;For example, I have no promo cards at all. &nbsp;For awhile I only had the base set and the Vengeance expansion. &nbsp;While it's great to be able to look at the data on cards that I don't have, I'm usually more concerned about the ones to which I do have access. &nbsp;I've just started getting some friends into the game and it's helpful to give them some broad overviews based on this data - e.g. \"Taking on The Chairman in Rook City, while thematically amazing, is likely to be very painful.\"</li>\n</ul>",
+        "post_number": 96,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.077Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Azqa",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8008,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-03-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51018,
+        "name": "rrenaud",
+        "username": "rrenaud",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/898d66/{size}.png",
+        "created_at": "2014-04-22T04:51:08.000Z",
+        "cooked": "<p>Can I get access to the raw data? &nbsp;I've made stats sites for race and dominion before.</p><p>http://jburnim.github.io/rftgstats/</p><p>http://councilroom.com</p>",
+        "post_number": 97,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.163Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "rrenaud",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8164,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-04-21",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51019,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-06-14T01:22:29.000Z",
+        "cooked": "<p><span>At long last, I have finally updated the charts again. I didn't do anything more than just update with new data. I changed computers, and it made things complicated, but I should be in a position to be quicker on updating again.</span></p><p>I really like the idea of being able to filter by expansion as well. I'm not quite sure exactly how I'll implement that, but I know it's doable. I just have been slammed at work and slammed at home. Home should be easing a bit, at least.&nbsp;</p><p>Later all!</p><p>Arathorn</p>",
+        "post_number": 98,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.237Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51020,
+        "name": "glenn frog knight",
+        "username": "glenn_frog_knight",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/g/aeb1de/{size}.png",
+        "created_at": "2014-07-11T22:45:29.000Z",
+        "cooked": "<p>Hey guys, Matthew Gray (the guy running http://x.gray.org/sentinels-of-the-multiverse-difficulty-scores.html) doesn't have access to the raw data he needs to update his site anymore. Can we do anything to get him access to that?</p>",
+        "post_number": 99,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.305Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "glenn frog knight",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4680,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-06-05",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51021,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-07-12T12:27:40.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"glenn frog knight\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n glenn frog knight:</div>\n<blockquote>\n<p>Hey guys, Matthew Gray (the guy running <a href=\"http://x.gray.org/sentinels-of-the-multiverse-difficulty-scores.html\" rel=\"noopener nofollow ugc\">http://x.gray.org/sentinels-of-the-multiverse-difficulty-scores.html</a>) doesn't have access to the raw data he needs to update his site anymore. Can we do anything to get him access to that?</p>\n</blockquote>\n</aside>\n<p>&nbsp;</p>\n<p>Tell him to send me an email from the gdoc address he'll use to access them (lynkfox at gmail) and i'll add him up.</p>",
+        "post_number": 100,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.384Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51022,
+        "name": "SandyStriker",
+        "username": "SandyStriker",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/2acd7d/{size}.png",
+        "created_at": "2014-11-14T00:04:59.000Z",
+        "cooked": "<p>I think this project is awesome and I have been adding a lot of games over the last few months. I really appreciate the work that went into getting this all set up. Now that it is Mid-November and I see Arathorn was last in the forums 4 months ago I began to worry that the sheets will no longer update and any activity added is now in vain. Does anyone know if these awesome sheets will be updated? If not, is there another way to see the raw data?</p><p>Thank you</p>",
+        "post_number": 101,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.455Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "SandyStriker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8417,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-07-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51023,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-11-14T01:50:23.000Z",
+        "cooked": "<p>the sheets are sometimes updated randomly, but we always come back to them. It may go by the wayside for a while, but it always comes back :)</p>",
+        "post_number": 102,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.527Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51024,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-11-21T04:23:43.000Z",
+        "cooked": "<p>I was just hoping to update tomorrow.... &nbsp;It's always on my mind; life is just busy.</p>",
+        "post_number": 103,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.598Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51025,
+        "name": "Arathorn",
+        "username": "Arathorn",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/a/bcef8e/{size}.png",
+        "created_at": "2014-11-22T01:41:29.000Z",
+        "cooked": "<p>Updated! Thanks for the reminders, all!</p><p>&nbsp;</p><p>Arathorn</p>",
+        "post_number": 104,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.674Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Arathorn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5033,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-07-25",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51026,
+        "name": "Matchstickman",
+        "username": "Matchstickman",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/matchstickman/{size}/1880_2.png",
+        "created_at": "2014-11-22T03:27:44.000Z",
+        "cooked": "<p>Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-</p><p>*breathe*</p><p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh!</p><p>I can't submit statistics for games with the SS Tachyon in them, this is a disaster!</p>",
+        "post_number": 105,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.757Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Matchstickman",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 326,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-04-10",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51027,
+        "name": "Ronway",
+        "username": "Ronway",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/ronway/{size}/1856_2.png",
+        "created_at": "2014-11-22T03:41:13.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"Matchstickman\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/matchstickman/48/1880_2.png\" class=\"avatar\"> Matchstickman:</div>\n<blockquote>\n<p>Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-<em>breathe</em>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh!I can't submit statistics for games with the SS Tachyon in them, this is a disaster!</p>\n</blockquote>\n</aside>\n<p>Do what I do, put it in as Tachyon and put in the comments that is it SS Tachyon, that way it can be fixed when SS Tachyon is added!</p>",
+        "post_number": 106,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.825Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Ronway",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-02",
+        "user_birthdate": "1904-01-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51028,
+        "name": "SandyStriker",
+        "username": "SandyStriker",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/2acd7d/{size}.png",
+        "created_at": "2014-11-24T21:35:13.000Z",
+        "cooked": "<p>Thanks so much for the update and this project</p>",
+        "post_number": 107,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.901Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "SandyStriker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8417,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-07-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51029,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-11-30T02:45:08.000Z",
+        "cooked": "<p>I completely forgot to get off my butt and update it. &gt;&lt;</p><p>&nbsp;</p><p>Super Scientific Tachyon</p><p>&nbsp;</p><p>is now added as an option after Team Leader Tachyon in all relevant fields.</p>",
+        "post_number": 108,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:33.968Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51030,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2014-12-16T00:43:54.000Z",
+        "cooked": "<p>I jumped the gun a little bit, since we have the names of everyone from WotC.</p><p>&nbsp;</p><p>All the environments, heroes, villains, and promo's are up on the Survey now. Playtesters, if you are using the final proofs then by all means, put the data in, but if you arent then don't :P</p><p>&nbsp;</p><p>have fun everyone!</p><p>&nbsp;</p><p>(if anyone see's something i forgot and or missed or see's that i missspelled something, let me know!</p>",
+        "post_number": 109,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.046Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51031,
+        "name": "Pydro",
+        "username": "Pydro",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/pydro/{size}/1844_2.png",
+        "created_at": "2014-12-16T00:45:48.000Z",
+        "cooked": "<p>Forgot the end parenthesis.</p>",
+        "post_number": 110,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.130Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Pydro",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 436,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-05-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51032,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2015-01-21T21:12:00.000Z",
+        "cooked": "<p>I just thought of something.</p><p>&nbsp;</p><p>&nbsp;</p><p>how the FRACK are we going to Statistic 10 new Vengeance style villains? SON OF A....</p><p>&nbsp;</p><p>&nbsp;</p><p>considering I think there is something like 3003 variations of all 15... gah....</p>",
+        "post_number": 111,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.200Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51033,
+        "name": "Greywind",
+        "username": "Greywind",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/greywind/{size}/2006_2.png",
+        "created_at": "2015-01-21T21:14:04.000Z",
+        "cooked": "<p>It's a kind of magic...</p>",
+        "post_number": 112,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.274Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Greywind",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3795,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-02-23",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51034,
+        "name": "skalchemist",
+        "username": "skalchemist",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/b2d939/{size}.png",
+        "created_at": "2015-01-21T21:51:25.000Z",
+        "cooked": "<p>I was looking at the tables on the Tableaux web page in detail today, and found something that confuses me. &nbsp;So hopefully Arathorn or someone else will see this and take a look.</p><p>If you look at the \"Villain\" tab, as of this moment, you can see that column headings are&nbsp;</p><p>\"Villain\", \"Heroes Win?\", \"Villain Loss Pct\", \"Total Number of Games\"</p><p>Now look a the lines for Kaargra Warfang compared to Infinitor. &nbsp;In both cases, the \"Total Number of Games\" is 3. &nbsp;However, the \"Villain Loss Pct\" is 33.33% for Kaargra and 27.27% for Infinitor. &nbsp;For Kaargra, this makes sense.</p><p>But for Infinitor, this seems impossible. &nbsp;If there are really 3 total games, then the only possible values for \"Villain Loss Pct\" are 0%, 33.33%, 66.66% or 100%. &nbsp;So where is that 27.27% coming from? &nbsp; &nbsp;Now it's possible the column is mislabeled, and should actually say \"Total Number of Games Lost to Villain\". &nbsp;If that were the case, then that would mean there are 9 total games for Kaargra and 11 total games for Infinitor, except...take a look at Progeny. &nbsp;Progeny shows 3 games and 38.46%. &nbsp;There is no whole number ratio with 3 in the numerator that gives that percentage. &nbsp;(3/7 = 0.4286, 3/8 =0.375). &nbsp;In fact, 5/13 = 38.46%. &nbsp;So where is the 3 coming from?</p><p>Now look at the \"Environment\" tab. &nbsp;It has columns labeled...</p><p>\"Enivironment\", \"Heroes Win?\", \"Hero Win Pct\", \"Total Number of Games Won in Environment\"</p><p>Now look at the line for Omintron IV. &nbsp;It shows the \"Total Number of Games Won in Environment\" is 4, and the \"Hero Win Pct\" is 72.22%. &nbsp;Except, again, this is not possible. &nbsp;There is no whole number denominator X for which 4/X = 0.7222 (4/5=0.8 and 4/6=0.6666). &nbsp;In fact, this percentage is 13/18, and there really isn't any way to reasonably manipulate those two numbers I can think of to get to 4. &nbsp;</p><p><span>So something seems screwy. &nbsp;It's easy to see the problem with the new Wrath items because the total number of games is still small. &nbsp;but I have to assume that the same problem exists on all the other lines, it's just harder to see.&nbsp;</span></p><p>I'm curious as to what might be happening. &nbsp;Thanks for your time.</p><p>Hans</p><p>&nbsp;</p>",
+        "post_number": 113,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.355Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "skalchemist",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11365,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-01-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51035,
+        "name": "Azqa",
+        "username": "Azqa",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/azqa/{size}/2015_2.png",
+        "created_at": "2015-01-21T22:15:34.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"skalchemist\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/s/b2d939/48.png\" class=\"avatar\"> skalchemist:</div>\n<blockquote>\n<p>I was looking at the tables on the Tableaux web page in detail today, and found something that confuses me. &nbsp;So hopefully Arathorn or someone else will see this and take a look.If you look at the \"Villain\" tab, as of this moment, you can see that column headings are&nbsp;\"Villain\", \"Heroes Win?\", \"Villain Loss Pct\", \"Total Number of Games\"Now look a the lines for Kaargra Warfang compared to Infinitor. &nbsp;In both cases, the \"Total Number of Games\" is 3. &nbsp;However, the \"Villain Loss Pct\" is 33.33% for Kaargra and 27.27% for Infinitor. &nbsp;For Kaargra, this makes sense.But for Infinitor, this seems impossible. &nbsp;If there are really 3 total games, then the only possible values for \"Villain Loss Pct\" are 0%, 33.33%, 66.66% or 100%. &nbsp;So where is that 27.27% coming from? &nbsp; &nbsp;</p>\n</blockquote>\n</aside>\n<p>Look at the Hero vs. Villain Win Pct for Infinitor. &nbsp;Data is available for 3 and 4 heroes, or for 4 heroes. &nbsp;For 3 &amp; 4, the win % are:</p>\n<p>Captain Cosmic 50%<br>Guise 66%<br>Parse 100%<br>PW Fanatic 100%<br>Sky-Scraper 66%<br>Sentinels 100%<br><br>For 4 heroes, the win % are:</p>\n<p>Captain Cosmic 100%<br>Guise 100%<br>Parse 100%<br>PW Fanatic 100%<br>Sky-Scraper 100%<br>Sentinels 100%<br><br>So the 3-hero game that was a loss had to have been Captain Cosmic, Guise, and Sky. &nbsp;CC was only in one of the 4-hero games, which was a win. &nbsp;Guise and Sky were in both 4-hero games (wins). &nbsp;Parse, PW Fanatic, and the Sentinels were each in one of the 4-hero games. &nbsp;Hypothetically that would give us this:<br><br>LOSS:<br>CC<br>Guise<br>Sky<br><br>WIN:<br>CC<br>Guise<br>Sky<br>Parse<br><br>WIN:<br>PW Fanatic<br>Guise<br>Sky<br>Sentinels<br><br>That's a total of 11 hero vs villain matchups, with 3 losses for a villain win % of 27.27% &nbsp;Captain Cosmic's win rate is 50% (one out of two games), Guise and Sky-scraper are at 66% (two out of three) and Parse, PW Fanatic, and Sentinels are each at 100% (one out of one.)</p>",
+        "post_number": 114,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.447Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Azqa",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8008,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-03-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51036,
+        "name": "skalchemist",
+        "username": "skalchemist",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/b2d939/{size}.png",
+        "created_at": "2015-01-21T22:44:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"EdgeDS\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n EdgeDS:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>skalchemist wrote:</b><br><blockquote>I was looking at the tables on the Tableaux web page in detail today, and found something that confuses me. &nbsp;So hopefully Arathorn or someone else will see this and take a look.If you look at the \"Villain\" tab, as of this moment, you can see that column headings are&nbsp;\"Villain\", \"Heroes Win?\", \"Villain Loss Pct\", \"Total Number of Games\"Now look a the lines for Kaargra Warfang compared to Infinitor. &nbsp;In both cases, the \"Total Number of Games\" is 3. &nbsp;However, the \"Villain Loss Pct\" is 33.33% for Kaargra and 27.27% for Infinitor. &nbsp;For Kaargra, this makes sense.But for Infinitor, this seems impossible. &nbsp;If there are really 3 total games, then the only possible values for \"Villain Loss Pct\" are 0%, 33.33%, 66.66% or 100%. &nbsp;So where is that 27.27% coming from? &nbsp; &nbsp;\n&nbsp;\n</blockquote></div>\nLook at the Hero vs. Villain Win Pct for Infinitor. &nbsp;Data is available for 3 and 4 heroes, or for 4 heroes. &nbsp;For 3 &amp; 4, the win % are:Captain Cosmic 50%Guise 66%Parse 100%PW Fanatic 100%Sky-Scraper 66%Sentinels 100%For 4 heroes, the win % are:Captain Cosmic 100%Guise 100%Parse 100%PW Fanatic 100%Sky-Scraper 100%Sentinels 100%So the 3-hero game that was a loss had to have been Captain Cosmic, Guise, and Sky. &nbsp;CC was only in one of the 4-hero games, which was a win. &nbsp;Guise and Sky were in both 4-hero games (wins). &nbsp;Parse, PW Fanatic, and the Sentinels were each in one of the 4-hero games. &nbsp;Hypothetically that would give us this:LOSS:CCGuiseSkyWIN:CCGuiseSkyParseWIN:PW FanaticGuiseSkySentinelsThat's a total of 11 hero vs villain matchups, with 3 losses for a villain win % of 27.27% &nbsp;Captain Cosmic's win rate is 50% (one out of two games), Guise and Sky-scraper are at 66% (two out of three) and Parse, PW Fanatic, and Sentinels are each at 100% (one out of one.)\n</blockquote>\n</aside>\n<p>Following your example, you seem to be saying that the percentage that is shown is not…</p>\n<h1><a name=\"p-51036-of-games-villain-has-appeared-and-lost-of-games-the-villain-has-appeared-1\" class=\"anchor\" href=\"#p-51036-of-games-villain-has-appeared-and-lost-of-games-the-villain-has-appeared-1\"></a>of games villain has appeared and lost/# of games the villain has appeared</h1>\n<p>you seem to be saying it is…</p>\n<h1><a name=\"p-51036-of-games-villain-has-appeared-and-lost-of-heroes-total-in-those-games-2\" class=\"anchor\" href=\"#p-51036-of-games-villain-has-appeared-and-lost-of-heroes-total-in-those-games-2\"></a>of games villain has appeared and lost/# of heroes total in those games</h1>\n<p>That could be how the percentage is actually calculated, but that number seems unhelpful. &nbsp;The units of the numerator (games) and denominator (heroes) are different, so I'm not sure how you would even intepret it in a useful way. &nbsp; It also isn't what is suggested by the column heading which uses the word \"games\". &nbsp;Why would you use one denominator for the hero percentages, and a different one for the villains? &nbsp;Finally, if by chance a particular villain was played more frequently with 3 hero groups, and another with 5, it would mean that the first villain would have an artificially inflated win percentage and the 2nd deflated, even if their game win percentage was the same.</p>\n<p>Also, if that were the case, it still doesn't explain how you go from 3 of something on the Progeny line to 38.46%. &nbsp;That just isn't possible. &nbsp;38.46% has to be representing 5/13. &nbsp;So 5 of what and 13 of what and where is the 3 coming from?</p>\n<p>I'll provide one more example. &nbsp;I looked through the underlying data to find one of the older villains whose percentage was an obvious repeating decimal where one could calculate what the underlying fraction must be. &nbsp;Iron Legacy has a pct listed of 44.57%, but when you look at the underlying data you can see this is actually 44.566544567% &nbsp;That's pretty clearly a repeating decimal, and some quick math tells us that fraction is 365/819. &nbsp;But the number of games listed there is 439. &nbsp;Where is that coming from? &nbsp;819-365 is 454, so there is no help there. &nbsp; What is going on?</p>\n<p>I believe that all of the numbers in the table are by some definition correct. &nbsp;But I am now almost certain that the column headings are not describing what is actually in the column.</p>",
+        "post_number": 115,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.537Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "skalchemist",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11365,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-01-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51037,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2015-01-21T23:47:00.000Z",
+        "cooked": "<p>That... is a question for Arathorn, I'm afraid. I don't understand all that stuff he does with the Tableu.</p><p>&nbsp;</p><p>I will, however, check the actual data points for Infinitor and make sure something didnt get entered wrong.</p><p>&nbsp;</p><p>&nbsp;</p><p>Edit:</p><p>&nbsp;</p><p>I think, what happened, was just a delay in all the data.</p><p>&nbsp;</p><p>Before 1/8 (when the tableu was last updated) i see 4 infinitor games. However, two of them were on the 8th. it is quite possible that while updating or messing around with the data, Arathorn ended up with one game getting added in.</p><p>&nbsp;</p><p>&nbsp;</p><p>Currently, there are 30ish games with Infinitor in the data. When he updates it again, It should even out.</p>",
+        "post_number": 116,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.631Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51038,
+        "name": "Azqa",
+        "username": "Azqa",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/azqa/{size}/2015_2.png",
+        "created_at": "2015-01-21T23:49:00.000Z",
+        "cooked": "<p>Nope. &nbsp;I'm saying the formula is # of hero vs. villain matchups with a LOSS / # of hero vs. villain matchups TOTAL.</p>\n<p>Think of it this way (formatting is going to be horrible, I'm sure):<br>[table]</p>\n<p>[tr][h]Hero[/h][h]Villain[/h][h]Outcome[/h][h]Game ID[/h][/tr]</p>\n<p>[tr][td]Cosmic[/td][td]Infinitor[/td][td]LOSS[/td][td]1[/td][/tr]</p>\n<p>[tr][td]Guise[/td][td]Infinitor[/td][td]LOSS[/td]  [td]1[/td]  [/tr]</p>\n<p>[tr][td]Sky-Scraper[/td][td]Infinitor[/td][td]LOSS[/td]  [td]1[/td]  [/tr]</p>\n<p>[tr][td]Cosmic[/td][td]Infinitor[/td][td]WIN[/td]  [td]2[/td]  [/tr]</p>\n<p>[tr][td]Guise[/td][td]Infinitor[/td][td]WIN[/td]  [td]2[/td]  [/tr]</p>\n<p>[tr][td]Sky-Scraper[/td][td]Infinitor[/td][td]WIN[/td]  [td]2[/td]  [/tr]</p>\n<div> [tr][td]Parse[/td][td]Infinitor[/td][td]WIN[/td]  [td]2[/td]  [/tr] </div><div> [tr][td]PW Fanatic[/td][td]Infinitor[/td][td]WIN[/td]  [td]3[/td]  [/tr] </div>\n [tr][td]Guise[/td][td]Infinitor[/td][td]WIN[/td]  [td]3[/td]  [/tr] \n<p>[tr][td]Sky-Scraper[/td][td]Infinitor[/td][td]WIN[/td]  [td]3[/td]  [/tr]</p>\n<div> [tr][td]Sentinels[/td][td]Infinitor[/td][td]WIN[/td]  [td]3[/td]  [/tr] </div>\n[/table]\n<p>The total number of records is 11. &nbsp;The total number of hero losses is 3. &nbsp;The total number of distinct Game IDs is 3. &nbsp;The total villain win % (which is the header on the report) is 3/11 or 27.27% &nbsp; If the 3-hero game would've been won and one of the 4-hero games a loss, then the villain win % would be 36.36% for 4/11, still with 3 games.</p>\n<p>3 of something on the Progeny line is pretty straightforward too - 3 games, one with 3 players, two with 5 players, where one of the 5-player games is a loss. &nbsp;13 total records, 5 of which are a loss, with 3 distinct game IDs.</p>",
+        "post_number": 117,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.724Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Azqa",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8008,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-03-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51039,
+        "name": "lynkfox",
+        "username": "lynkfox",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/lynkfox/{size}/1997_2.png",
+        "created_at": "2015-01-21T23:53:47.000Z",
+        "cooked": "<p>Or, thats what it is - which would make some sense, though thats now how the records are stored in the statistics file, but I know Arathorn does some translating of them so they work properly in tableu. Again, unfortunately, I'm not really certain how that works out.</p>",
+        "post_number": 118,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.815Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "lynkfox",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1390,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2012-11-01",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51040,
+        "name": "skalchemist",
+        "username": "skalchemist",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/s/b2d939/{size}.png",
+        "created_at": "2015-01-22T02:41:00.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"EdgeDS\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n EdgeDS:</div>\n<blockquote>\n<p>Nope. &nbsp;I'm saying the formula is # of hero vs. villain matchups with a LOSS / # of hero vs. villain matchups TOTAL.Think of it this way (formatting is going to be horrible, I'm sure):</p>\n<table><tbody><tr><th>Hero</th><th>Villain</th><th>Outcome</th><th>Game ID</th></tr><tr><td>Cosmic</td><td>Infinitor</td><td>LOSS</td><td>1</td></tr><tr><td>Guise</td><td>Infinitor</td><td>LOSS</td><td>1</td></tr><tr><td>Sky-Scraper</td><td>Infinitor</td><td>LOSS</td><td>1</td></tr><tr><td>Cosmic</td><td>Infinitor</td><td>WIN</td><td>2</td></tr><tr><td>Guise</td><td>Infinitor</td><td>WIN</td><td>2</td></tr><tr><td>Sky-Scraper</td><td>Infinitor</td><td>WIN</td><td>2</td></tr><tr><td>Parse</td><td>Infinitor</td><td>WIN</td><td>2</td></tr><tr><td>PW Fanatic</td><td>Infinitor</td><td>WIN</td><td>3</td></tr><tr><td>Guise</td><td>Infinitor</td><td>WIN</td><td>3</td></tr><tr><td>Sky-Scraper</td><td>Infinitor</td><td>WIN</td><td>3</td></tr><tr><td>Sentinels</td><td>Infinitor</td><td>WIN</td><td>3</td></tr></tbody></table>\nThe total number of records is 11. &nbsp;The total number of hero losses is 3. &nbsp;The total number of distinct Game IDs is 3. &nbsp;The total villain win % (which is the header on the report) is 3/11 or 27.27% &nbsp; If the 3-hero game would've been won and one of the 4-hero games a loss, then the villain win % would be 36.36% for 4/11, still with 3 games.3 of something on the Progeny line is pretty straightforward too - 3 games, one with 3 players, two with 5 players, where one of the 5-player games is a loss. &nbsp;13 total records, 5 of which are a loss, with 3 distinct game IDs.\n</blockquote>\n</aside>\n<p>Hmmm…ok, that makes sense, as to what is happening behind the scenes. &nbsp;It seems strange to me that that percentage would be based on matchups, but then you would list the number of actual games (instead of either the numerator or denominator of the percentage), but the math works out.</p>\n<p>If that is what is happening, then I suggest that the labelling on the columns could use some work, or a few footnotes. &nbsp;  I think that percentage itself (matchups over matchups) is not very intuitive, as it seems to me most people will be thinking in terms of \"If I play in a game against Iron Legacy how likely am I to win?\", and that number is not quite that. &nbsp;It seems odd that the percentage there should vary based on the size of the games lost, as you demonstrate in your example. &nbsp;The fact that the column lists games instead of matchups increases this non-intuitive feeling for me. &nbsp;On the other hand, with large numbers of games played, the proprotions should even out (assuming there is no bias in the size of games played against certain villains/environments) to be something close to the game over game percentage, where the actual numerators and denominators of the percentage are all roughly 4 times the number of actual games played.</p>\n<p>But your explanation makes sense to me, Edge, thanks for taking the time to think this through. &nbsp;In the case of Iron Legacy, it is possible that by chance the true fraction is actually a higher multiple of the reduced fraction that gives that percentage. &nbsp;In other words, its actually something like 1095 winning matchups over 2457 total matchups, which 3*(365/819), with 439 game ids.</p>",
+        "post_number": 119,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.894Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "skalchemist",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 11365,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2015-01-19",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 51041,
+        "name": "Azqa",
+        "username": "Azqa",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/azqa/{size}/2015_2.png",
+        "created_at": "2015-01-22T05:47:39.000Z",
+        "cooked": "<p>There could be Villain Win % and Villain Win % by Game as separate columns with the different calculations - that's something for Arathorn to consider. &nbsp;If you look at the Villain Win % for a specific number of heroes at a time, I think it should work out to be the same number for those two calculations. &nbsp;</p><p>Because villain difficulty often scales with the number of heroes (most get easier, at least one gets harder) it's probably more accurate to give an overall win rate based on matchups than by game count. &nbsp;If people want better estimates of success, they need to supply more data for the question. &nbsp;Asking how likely they are to win a game against a villain can often have an answer that varies wildly if they only bring three heroes instead of five.</p><p>Glad my explanation made sense :)</p>",
+        "post_number": 120,
+        "post_type": 1,
+        "updated_at": "2021-02-07T02:24:34.981Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 6981,
+        "topic_slug": "sentinels-statistics-project",
+        "display_username": "Azqa",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 8008,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-03-11",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ]
+  },
+  "id": 6981
+}

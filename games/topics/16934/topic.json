@@ -1,0 +1,2007 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 16935,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-07-31T01:50:23.000Z",
+        "cooked": "<p>When BoDaN grants an extra element using its first power, can the type of that element be set at any time the same way an 'any' element can be, or is it fixed at the time the power is used?</p><p>&nbsp;</p><p>If BoDaN uses Vengeance of the Dead (whenever a building or Dahan is destroyed this turn, deal 1 damage), what happens?</p><p>example cases: &nbsp;</p><p>A land has 3 towns and 1 city. &nbsp;Vengeance of the Dead is used. &nbsp;Lightning's Swift Strike uses its max leveled innate power to destroy all three towns. &nbsp;Can BoDaN 'kill' the city? &nbsp;(I'm guessing yes)</p><p><span>A land has 3 towns and 1 city. &nbsp;Vengeance of the Dead is used. &nbsp;Lightning's Swift Strike uses its innate power to destroy two towns, and then destroys the third with Shatter Homesteads. &nbsp;Can BoDaN 'kill' the city? &nbsp;(I have no idea.)</span></p><p><span>A land has 3 towns and 1 city. &nbsp;Vengeance of the Dead is used. &nbsp;Lightning's Swift Strike destroys one town with Shatter Homesteads. &nbsp;It then proceeds to destroy the remaining two towns and the city with its innate. &nbsp;Can BoDaN 'kill' the city in between the destruction of the last town and the destruction of the city? &nbsp;(I'm guessing no)</span></p>",
+        "post_number": 1,
+        "post_type": 1,
+        "updated_at": "2021-02-07T01:49:49.928Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 667,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 3325.4,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>When BoDaN grants an extra element using its first power, can the type of that element be set at any time the same way an &#39;any&#39; element can be, or is it fixed at the time the power is used?</p><p>&nbsp;</p><p>If BoDaN uses Vengeance of the Dead (whenever a building or Dahan is destroyed this turn, deal 1 damage), what happens?</p><p>example cases: &nbsp;</p><p>A land has 3 towns and 1 city. &nbsp;Vengeance of the Dead is used. &nbsp;Lightning&#39;s Swift Strike uses its max leveled innate power to destroy all three towns. &nbsp;Can BoDaN &#39;kill&#39; the city? &nbsp;(I&#39;m guessing yes)</p><p><span style=\"font-size: 13px;\">A land has 3 towns and 1 city. &nbsp;Vengeance of the Dead is used. &nbsp;Lightning&#39;s Swift Strike uses its innate power to destroy two towns, and then destroys the third with Shatter Homesteads. &nbsp;Can BoDaN &#39;kill&#39; the city? &nbsp;(I have no idea.)</span></p><p><span style=\"font-size: 13px;\">A land has 3 towns and 1 city. &nbsp;Vengeance of the Dead is used. &nbsp;Lightning&#39;s Swift Strike destroys one town with Shatter Homesteads. &nbsp;It then proceeds to destroy the remaining two towns and the city with its innate. &nbsp;Can BoDaN &#39;kill&#39; the city in between the destruction of the last town and the destruction of the city? &nbsp;(I&#39;m guessing no)</span></p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200816,
+        "name": "tedv",
+        "username": "tedv",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/f08c70/{size}.png",
+        "created_at": "2017-07-31T14:06:30.000Z",
+        "cooked": "<p>That extra element is chosen at the time the innate power resolves.</p><p>Vengeance of the Dead checks for actual destruction and generates damage as a result. This means that if Bringer plays Vengeance, and another spirit kills buildings, Vengeance will do nightmare damage. So in the first example, I think Lightning killing 3 towns causes Vengeance will deal 3 damage which will generate 5 fear from not destroying a city.</p><p>The second example is unclear to me, because nightmare damage wears off when the power finishes resolving, but Vengeance of the Dead creates an effect which generates damage on future powers. If I had to make a ruling, I would rule that Vengeance grafts text onto future powers this turn that says, \"The Vengeance power deals damage when buildings are destroyed\", and Bringer grafts texts that says \"Damage from the Vengeance power doesn't actually destroy things\". This means the 2 nightmare damage from LSS's innate power would wear off when the innate finishes, so the third damage from shatter homesteads would not kill the city. But don't take this as an official ruling.</p><p>Example 3 is like 2, and I think it would fail for the same reason.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:11.570Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 20.4,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "tedv",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>That extra element is chosen at the time the innate power resolves.</p><p>Vengeance of the Dead checks for actual destruction and generates damage as a result. This means that if Bringer plays Vengeance, and another spirit kills buildings, Vengeance will do nightmare damage. So in the first example, I think Lightning killing 3 towns causes Vengeance will deal 3 damage which will generate 5 fear from not destroying a city.</p><p>The second example is unclear to me, because nightmare damage wears off when the power finishes resolving, but Vengeance of the Dead creates an effect which generates damage on future powers. If I had to make a ruling, I would rule that Vengeance grafts text onto future powers this turn that says, &quot;The Vengeance power deals damage when buildings are destroyed&quot;, and Bringer grafts texts that says &quot;Damage from the Vengeance power doesn&#39;t actually destroy things&quot;. This means the 2 nightmare damage from LSS&#39;s innate power would wear off when the innate finishes, so the third damage from shatter homesteads would not kill the city. But don&#39;t take this as an official ruling.</p><p>Example 3 is like 2, and I think it would fail for the same reason.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15860,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-07-21",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200817,
+        "name": "Eric R",
+        "username": "Eric_R",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/b9bd4f/{size}.png",
+        "created_at": "2017-07-31T16:46:57.000Z",
+        "cooked": "<p>Re: Vengeance of the Dead - I read this last night, and am still thinking on it. Vengeance sets up a triggered effect (or text-graft, depending how you think about it) for the rest of the turn, but the game has few enough of these - and most of them are so minor - that deep questions about how they work haven't cropped up before. I'm certain the effect causing the Damage belongs to BoD&amp;N (so isn't dealing real damage), but beyond that it depends on substructure... and I want to sit down and work through some more complicated (not-currently-existing) situations to make sure that the substructure I choose produces sensible results in the future.</p><p>As a&nbsp;<strong>temporary ruling</strong>, let's go with Ted's interpretation above: Examples 2 and 3 couldn't not-kill the City, because&nbsp;<span>each Power that triggers Vengeance of the Dead is considered separately for To Dream a Thousand Deaths, and&nbsp;</span><span>neither 1 Damage nor 2 Damage kills a City. <em>(I'm going this way 100% because it involves less bookkeeping - consdering all&nbsp;</em></span><em><span>Damage done due to Vengeance of the Dead to come from the same Power use would mean you'd have to track Vengeance of the Dead damage separately from real Damage over the course of the turn, which could get annoying. I don't know if this will be the final direction.)</span></em></p><p>I'm slightly surprised this one didn't show up during playtesting, since Fast Fear is great for BoD&amp;N - but not <em>too</em> surprised, as Vengeance of the Dead got a late overhaul. For a long time, it was Slow, and said \"1 Damage per Town/City/Dahan destroyed in target land this turn\". It was changed in large part because players kept having to rewind and figure out what (if anything) had been killed there, particularly when it was played without a specific target in mind. The current incarnation means the target land gets picked first, and then you know to keep an eye out for kills there. (And also enables the capacity for chain-reactions, which can be quite satisfying to pull off.)</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:11.643Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 20.4,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Eric R",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Re: Vengeance of the Dead - I read this last night, and am still thinking on it. Vengeance sets up a triggered effect (or text-graft, depending how you think about it) for the rest of the turn, but the game has few enough of these - and most of them are so minor - that deep questions about how they work haven&#39;t cropped up before. I&#39;m certain the effect causing the Damage belongs to BoD&amp;N (so isn&#39;t dealing real damage), but beyond that it depends on substructure... and I want to sit down and work through some more complicated (not-currently-existing) situations to make sure that the substructure I choose produces sensible results in the future.</p><p>As a&nbsp;<strong>temporary ruling</strong>, let&#39;s go with Ted&#39;s interpretation above: Examples 2 and 3 couldn&#39;t not-kill the City, because&nbsp;<span style=\"font-size: 13px;\">each Power that triggers Vengeance of the Dead is considered separately for To Dream a Thousand Deaths, and&nbsp;</span><span style=\"font-size: 13px;\">neither 1 Damage nor 2 Damage kills a City. <em>(I&#39;m going this way 100% because it involves less bookkeeping - consdering all&nbsp;</em></span><em><span style=\"font-size: 13px;\">Damage done due to Vengeance of the Dead to come from the same Power use would mean you&#39;d have to track Vengeance of the Dead damage separately from real Damage over the course of the turn, which could get annoying. I don&#39;t know if this will be the final direction.)</span></em></p><p>I&#39;m slightly surprised this one didn&#39;t show up during playtesting, since Fast Fear is great for BoD&amp;N - but not <em>too</em> surprised, as Vengeance of the Dead got a late overhaul. For a long time, it was Slow, and said &quot;1 Damage per Town/City/Dahan destroyed in target land this turn&quot;. It was changed in large part because players kept having to rewind and figure out what (if anything) had been killed there, particularly when it was played without a specific target in mind. The current incarnation means the target land gets picked first, and then you know to keep an eye out for kills there. (And also enables the capacity for chain-reactions, which can be quite satisfying to pull off.)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10886,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-09-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200818,
+        "name": "phantaskippy",
+        "username": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "created_at": "2017-07-31T16:48:24.000Z",
+        "cooked": "<p>It is the same power so it should work.</p><p>Agree with the element, it is set when you use it.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:11.709Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 5.4,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "phantaskippy",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>It is the same power so it should work.</p><p>Agree with the element, it is set when you use it.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3684,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-01-26",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200819,
+        "name": "dpt",
+        "username": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "created_at": "2017-07-31T17:22:37.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"phantaskippy\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/phantaskippy/48/1897_2.png\" class=\"avatar\"> phantaskippy:</div>\n<blockquote>\n<p>It is the same power so it should work.</p>\n</blockquote>\n</aside>\n<p>The bookkeeping argument is strong for me. We want to avoid any situation where we have to track both \"real damage\" and \"phantom damage\" for any length of time, since there's no way to track the phantom damage. (Also consider: What if Shattering Homesteads was used Fast, and the innate Thundering Destruction is used slow. Do you reall want to to track that 1 \"phantom damage\" has been done to that city from the Slow phase to the Fast phase?)</p>\n<p>The temporary decision on Question 2 sidestepped the core part of Question 3. Suppose that the City had already taken 1 damage from Shattering Storm or something, and then Thundering Destruction destroyed the two towns. The phantom damage from Vengeance of the Dead could then not-destroy the City, right? Could Thundering Destruction then actually destroy the City, or is the timing wrong? What if it were a Town–when does it get pushed?</p>\n<blockquote>\n<p>Agree with the element, it is set when you use it.<br>\nYes. An exception was made for the 'Any' elements on Presence tracks, since there's no clear time that you gain them.</p>\n</blockquote>",
+        "post_number": 5,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:11.772Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "dpt",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"phantaskippy\"]\n It is the same power so it should work.\n[/quote]\n \n\n The bookkeeping argument is strong for me. We want to avoid any situation where we have to track both &quot;real damage&quot; and &quot;phantom damage&quot; for any length of time, since there&#39;s no way to track the phantom damage. (Also consider: What if Shattering Homesteads was used Fast, and the innate Thundering Destruction is used slow. Do you reall want to to track that 1 &quot;phantom damage&quot; has been done to that city from the Slow phase to the Fast phase?) \n\nThe temporary decision on Question 2 sidestepped the core part of Question 3. Suppose that the City had already taken 1 damage from Shattering Storm or something, and then Thundering Destruction destroyed the two towns. The phantom damage from Vengeance of the Dead could then not-destroy the City, right? Could Thundering Destruction then actually destroy the City, or is the timing wrong? What if it were a Town--when does it get pushed?\n\n> Agree with the element, it is set when you use it. \nYes. An exception was made for the &#39;Any&#39; elements on Presence tracks, since there&#39;s no clear time that you gain them. \n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5124,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200820,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-07-31T18:54:01.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<div>Quote:<br>\n<blockquote>Agree with the element, it is set when you use it.\n</blockquote>\n</div>\n<p>Yes. An exception was made for the ‘Any’ elements on Presence tracks, since there’s no clear time that you gain them.</p>\n</blockquote>\n</aside>\n<p>Really? I would assume that you gain them when you gain energy / play cards. I assumed that you could set ‘Any’ elements whenever you want because it was too frustrating for spirits who could gain and play powers mid-turn to have to guess at which elements they would need.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:11.845Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 49,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 240.4,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"dpt\"]\n\n<div class=\"bb-quote\">Quote:<br />\n<blockquote class=\"bb-quote-body\">Agree with the element, it is set when you use it.\n</blockquote>\n</div>\n\nYes. An exception was made for the 'Any' elements on Presence tracks, since there's no clear time that you gain them.\n\n[/quote]\n\nReally? I would assume that you gain them when you gain energy / play cards. I assumed that you could set 'Any' elements whenever you want because it was too frustrating for spirits who could gain and play powers mid-turn to have to guess at which elements they would need.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200821,
+        "name": "dpt",
+        "username": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "created_at": "2017-10-12T00:54:30.000Z",
+        "cooked": "<p>Incidentally, Vengeance of the Dead has been reworded in the upcoming third printing. (Yes, I know the second printing isn't yet available.) The new wording is</p><p>\n&gt; 3 Fear.<br>After each effect that destroys [Town]/[City]/[Dahan] in target land, 1 Damage per [Town]/[City]/[Dahan] destroyed.\n</p><p>This is intended to make it more clear that each instance of 1 Damage is a separate effect.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:11.914Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "dpt",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>Incidentally, Vengeance of the Dead has been reworded in the upcoming third printing. (Yes, I know the second printing isn&#39;t yet available.) The new wording is</p><p>\n> 3 Fear.<br />After each effect that destroys [Town]/[City]/[Dahan] in target land, 1 Damage per [Town]/[City]/[Dahan] destroyed.\n</p><p>This is intended to make it more clear that each instance of 1 Damage is a separate effect.</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5124,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200822,
+        "name": "jffdougan",
+        "username": "jffdougan",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/jffdougan/{size}/1882_2.png",
+        "created_at": "2017-10-12T02:00:23.000Z",
+        "cooked": "<p>1 Damage, or Defend 1? Or am I mixing it up with a different power?</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:11.972Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "jffdougan",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>1 Damage, or Defend 1? Or am I mixing it up with a different power?</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5845,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-10-09",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200823,
+        "name": "dpt",
+        "username": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "created_at": "2017-10-12T02:03:04.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"jffdougan\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/jffdougan/48/1882_2.png\" class=\"avatar\"> jffdougan:</div>\n<blockquote>\n<p>1 Damage, or Defend 1? Or am I mixing it up with a different power?</p>\n</blockquote>\n</aside>\n<p>1 Damage, you must be mixing it up with something. You can see the current text here:&nbsp;  <a href=\"https://sick.oberien.de/?query=vengeance\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Spirit Island Card Katalog</a></p>",
+        "post_number": 9,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.041Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "dpt",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://sick.oberien.de/?query=vengeance",
+            "internal": false,
+            "reflection": false,
+            "title": "Spirit Island Card Katalog",
+            "clicks": 0
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"jffdougan\"]\n 1 Damage, or Defend 1? Or am I mixing it up with a different power?  \n[/quote]\n1 Damage, you must be mixing it up with something. You can see the current text here:&nbsp;  https://sick.oberien.de/?query=vengeance \n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5124,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200824,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2017-10-12T11:37:45.000Z",
+        "cooked": "<p>Is there a way to just get a list of errata?&nbsp; <img src=\"//forums.greaterthangames.com/images/emoji/apple/slightly_frowning_face.png?v=9\" title=\":slightly_frowning_face:\" class=\"emoji\" alt=\":slightly_frowning_face:\"></p>",
+        "post_number": 10,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.105Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Is there a way to just get a list of errata?&nbsp; :slightly_frowning_face: ",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200825,
+        "name": "dpt",
+        "username": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "created_at": "2017-10-12T12:06:20.000Z",
+        "cooked": "<p>Eric did that for the second printing, but no one has had a chance for the third printing yet. We do have records so it will come eventually.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.171Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "dpt",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Eric did that for the second printing, but no one has had a chance for the third printing yet. We do have records so it will come eventually.",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5124,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200826,
+        "name": "tedv",
+        "username": "tedv",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/f08c70/{size}.png",
+        "created_at": "2017-10-12T12:26:27.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>Incidentally, Vengeance of the Dead has been reworded in the upcoming third printing. (Yes, I know the second printing isn't yet available.) The new wording is</p>\n<div>Quote:<br><blockquote>3 Fear.After each effect that destroys [Town]/[City]/[Dahan] in target land, 1 Damage per [Town]/[City]/[Dahan] destroyed.\n&nbsp;\n</blockquote></div>\nThis is intended to make it more clear that each instance of 1 Damage is a separate effect.\n</blockquote>\n</aside>\n<p>I wonder how that interacts with ravaging. I assume each instance of invaders ravaging in one land, and the dahan fighting back, is considered an \"effect\", so you choose to have one land ravage first, then deal Vengeance damage to kill things in adjacent lands that have not yet been selected for ravage. That's how I'd play it anyway.</p>\n<p>But another interpretation is that the entire ravage phase is an \"effect\", meaning this wouldn't work.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.251Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "tedv",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"dpt\"]\n\nIncidentally, Vengeance of the Dead has been reworded in the upcoming third printing. (Yes, I know the second printing isn&#39;t yet available.) The new wording is\n<div class=\"bb-quote\">Quote:<br /><blockquote class=\"bb-quote-body\">3 Fear.After each effect that destroys [Town]/[City]/[Dahan] in target land, 1 Damage per [Town]/[City]/[Dahan] destroyed.\n&nbsp;\n</blockquote></div>\nThis is intended to make it more clear that each instance of 1 Damage is a separate effect.\n\n[/quote]\n\nI wonder how that interacts with ravaging. I assume each instance of invaders ravaging in one land, and the dahan fighting back, is considered an &quot;effect&quot;, so you choose to have one land ravage first, then deal Vengeance damage to kill things in adjacent lands that have not yet been selected for ravage. That&#39;s how I&#39;d play it anyway.\n\nBut another interpretation is that the entire ravage phase is an &quot;effect&quot;, meaning this wouldn&#39;t work.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15860,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-07-21",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200827,
+        "name": "Rabit",
+        "username": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "created_at": "2017-10-12T15:54:33.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>Eric did that for the second printing…</p>\n</blockquote>\n</aside>\n<p>I must have missed it being posted, but poking around I found <a href=\"https://querki.net/u/darker/spirit-island-faq/#!Changes-in-core-game-second-printing\" rel=\"noopener nofollow ugc\">the actual page on the FAQ</a>.</p>\n<p>Thanks!&nbsp;</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.320Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Rabit",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://querki.net/u/darker/spirit-island-faq/#!Changes-in-core-game-second-printing",
+            "internal": false,
+            "reflection": false,
+            "title": "Querki: Loading Spirit Island FAQ...",
+            "clicks": 1
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"dpt\"]\n\nEric did that for the second printing... \n[/quote]\n \n\nI must have missed it being posted, but poking around I found <a href=\"https://querki.net/u/darker/spirit-island-faq/#!Changes-in-core-game-second-printing\">the actual page on the FAQ</a>.\n\nThanks!&nbsp;\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2011-08-08",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200828,
+        "name": "dpt",
+        "username": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "created_at": "2017-10-12T16:10:12.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"tedv\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/letter_avatar_proxy/v4/letter/t/f08c70/48.png\" class=\"avatar\"> tedv:</div>\n<blockquote>\n<p>I wonder how that interacts with ravaging. I assume each instance of invaders ravaging in one land, and the dahan fighting back, is considered an \"effect\", so you choose to have one land ravage first, then deal Vengeance damage to kill things in adjacent lands that have not yet been selected for ravage. That's how I'd play it anyway.</p>\n<p>But another interpretation is that the entire ravage phase is an \"effect\", meaning this wouldn't work.</p>\n</blockquote>\n</aside>\n<p>Your first interpretation is consistent with the FAQ entry on <a href=\"https://querki.net/u/darker/spirit-island-faq/#!.9v5kaam\" data-bbcode=\"true\" rel=\"noopener nofollow ugc\">how to resolve Ravages</a>.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.442Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "dpt",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://querki.net/u/darker/spirit-island-faq/#!.9v5kaam",
+            "internal": false,
+            "reflection": false,
+            "title": "Querki: Loading Spirit Island FAQ...",
+            "clicks": 1
+          }
+        ],
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"tedv\"]\n\nI wonder how that interacts with ravaging. I assume each instance of invaders ravaging in one land, and the dahan fighting back, is considered an &quot;effect&quot;, so you choose to have one land ravage first, then deal Vengeance damage to kill things in adjacent lands that have not yet been selected for ravage. That&#39;s how I&#39;d play it anyway.\n\nBut another interpretation is that the entire ravage phase is an &quot;effect&quot;, meaning this wouldn&#39;t work.\n\n[/quote]\nYour first interpretation is consistent with the FAQ entry on [url=https://querki.net/u/darker/spirit-island-faq/#!.9v5kaam]how to resolve Ravages[/url].\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5124,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200829,
+        "name": "Eric R",
+        "username": "Eric_R",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/b9bd4f/{size}.png",
+        "created_at": "2017-10-12T16:14:00.000Z",
+        "cooked": "<aside class=\"quote group-playtesters\" data-username=\"dpt\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://forums.greaterthangames.com/user_avatar/forums.greaterthangames.com/dpt/48/1922_2.png\" class=\"avatar\"> dpt:</div>\n<blockquote>\n<p>Incidentally, Vengeance of the Dead has been reworded in the upcoming third printing. (Yes, I know the second printing isn't yet available.) The new wording is</p>\n<div>Quote:<br><blockquote>3 Fear.After each effect that destroys [Town]/[City]/[Dahan] in target land, 1 Damage per [Town]/[City]/[Dahan] destroyed.\n&nbsp;\n</blockquote></div>\nThis is intended to make it more clear that each instance of 1 Damage is a separate effect.\n</blockquote>\n</aside>\n<p>?</p>\n<p>With this wording, a  &nbsp;single effect destroying N [Town][City][Dahan] will result in a single Vengeance of the Dead trigger doing N damage, just  &nbsp;like a Power stating \"1 Damage per Blight\" is a single effect doing (<span class=\"hashtag-raw\">#blight</span>) damage, not (<span class=\"hashtag-raw\">#blight</span>) separate one-Damage effects.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.506Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Eric R",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"dpt\"]\n\nIncidentally, Vengeance of the Dead has been reworded in the upcoming third printing. (Yes, I know the second printing isn&#39;t yet available.) The new wording is\n<div class=\"bb-quote\">Quote:<br /><blockquote class=\"bb-quote-body\">3 Fear.After each effect that destroys [Town]/[City]/[Dahan] in target land, 1 Damage per [Town]/[City]/[Dahan] destroyed.\n&nbsp;\n</blockquote></div>\nThis is intended to make it more clear that each instance of 1 Damage is a separate effect.\n\n[/quote]\n\n ? \n\n With this wording, a  &nbsp;single effect destroying N [Town][City][Dahan] will result in a single Vengeance of the Dead trigger doing N damage, just  &nbsp;like a Power stating &quot;1 Damage per Blight&quot; is a single effect doing (#blight) damage, not (#blight) separate one-Damage effects. \n\n&nbsp;\n\n&nbsp;\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10886,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-09-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200830,
+        "name": "Eric R",
+        "username": "Eric_R",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/b9bd4f/{size}.png",
+        "created_at": "2017-10-12T16:28:53.000Z",
+        "cooked": "<p>(I've just added Errata for Vengeance of the Dead to the FAQ. Also for the lack of \"simultaneously\" in the 1st-printing Ravage rules, which is a genuine error.)</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.571Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Eric R",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>(I&#39;ve just added Errata for Vengeance of the Dead to the FAQ. Also for the lack of &quot;simultaneously&quot; in the 1st-printing Ravage rules, which is a genuine error.)</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10886,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-09-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200831,
+        "name": "dpt",
+        "username": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "created_at": "2017-10-12T17:24:09.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Eric R\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Eric R:</div>\n<blockquote>\n<p>&nbsp;</p>\n<div><b>dpt wrote:</b><br><blockquote>Incidentally, Vengeance of the Dead has been reworded in the upcoming third printing. (Yes, I know the second printing isn't yet available.) The new wording isQuote:<br><blockquote>3 Fear.After each effect that destroys [Town]/[City]/[Dahan] in target land, 1 Damage per [Town]/[City]/[Dahan] destroyed.&nbsp;\n&nbsp;\n</blockquote>\nThis is intended to make it more clear that each instance of 1 Damage is a separate effect.\n</blockquote></div>\n?With this wording, a&nbsp;single effect destroying N [Town][City][Dahan] will result in a single Vengeance of the Dead trigger doing N damage, just&nbsp;like a Power stating \"1 Damage per Blight\" is a single effect doing (#blight) damage, not (#blight) separate one-Damage effects.&nbsp;&nbsp;\n</blockquote>\n</aside>\n<p>You are, of course, correct, that's what the effect of the new wording is. I'm not sure what I was thinking.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.632Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 0,
+        "readers_count": 0,
+        "score": 0.0,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "dpt",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Eric R\"]\n\n&nbsp;\n<div class=\"bb-quote\"><b>dpt wrote:</b><br /><blockquote class=\"bb-quote-body\">Incidentally, Vengeance of the Dead has been reworded in the upcoming third printing. (Yes, I know the second printing isn&#39;t yet available.) The new wording isQuote:<br /><blockquote class=\"bb-quote-body\">3 Fear.After each effect that destroys [Town]/[City]/[Dahan] in target land, 1 Damage per [Town]/[City]/[Dahan] destroyed.&nbsp;\n&nbsp;\n</blockquote>\nThis is intended to make it more clear that each instance of 1 Damage is a separate effect.\n</blockquote></div>\n?With this wording, a&nbsp;single effect destroying N [Town][City][Dahan] will result in a single Vengeance of the Dead trigger doing N damage, just&nbsp;like a Power stating &quot;1 Damage per Blight&quot; is a single effect doing (#blight) damage, not (#blight) separate one-Damage effects.&nbsp;&nbsp;\n\n[/quote]\nYou are, of course, correct, that&#39;s what the effect of the new wording is. I&#39;m not sure what I was thinking.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5124,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-08-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200832,
+        "name": "Arcanist Lupus",
+        "username": "Arcanist_Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "created_at": "2017-10-12T18:04:17.000Z",
+        "cooked": "<p>Did we ever get a verdict on whether Bringer could stack Vengeance triggers caused by different effects?</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.702Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Arcanist Lupus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "Did we ever get a verdict on whether Bringer could stack Vengeance triggers caused by different effects?",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6719,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2013-12-06",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200833,
+        "name": "Eric R",
+        "username": "Eric_R",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/b9bd4f/{size}.png",
+        "created_at": "2017-10-13T02:09:15.000Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arcanist Lupus\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Arcanist Lupus:</div>\n<blockquote>\n<p>Did we ever get a verdict on whether Bringer could stack Vengeance triggers caused by different effects?</p>\n</blockquote>\n</aside>\n<p>The intent is now \"no\". All Vengeance damage caused by a single effect is grouped together, but Vengeance damage from different effects is considered separately. (There's no \"memory\" over time.)</p>\n<p>Nomenclature and/or Bringer's panel probably need to be updated in order to make this clearer, but getting VotD squared away was the start.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.770Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Eric R",
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "[quote=\"Arcanist Lupus\"]\n\nDid we ever get a verdict on whether Bringer could stack Vengeance triggers caused by different effects?\n\n[/quote]\n\nThe intent is now &quot;no&quot;. All Vengeance damage caused by a single effect is grouped together, but Vengeance damage from different effects is considered separately. (There&#39;s no &quot;memory&quot; over time.)\n\nNomenclature and/or Bringer&#39;s panel probably need to be updated in order to make this clearer, but getting VotD squared away was the start.\n",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 10886,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2014-09-28",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      },
+      {
+        "id": 200834,
+        "name": "Baldrekr",
+        "username": "Baldrekr",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/7ab992/{size}.png",
+        "created_at": "2017-10-13T17:58:00.000Z",
+        "cooked": "<p>I have another question about triggering \"whenever a town is destroyed in this land, do X\" -- what if they are destroyed as a result of being pushed from that land into the ocean? &nbsp;Do they count as being destroyed in land X, or destroyed in the ocean, or not destroyed at all?</p><p>&nbsp;</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "updated_at": "2021-02-07T05:29:12.830Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 16934,
+        "topic_slug": "bringer-of-dreams-and-nightmares-questions",
+        "display_username": "Baldrekr",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "raw": "<p>I have another question about triggering &quot;whenever a town is destroyed in this land, do X&quot; -- what if they are destroyed as a result of being pushed from that land into the ocean? &nbsp;Do they count as being destroyed in land X, or destroyed in the ocean, or not destroyed at all?</p><p>&nbsp;</p>",
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16439,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "user_cakedate": "2017-10-12",
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": false
+      }
+    ],
+    "stream": [
+      16935,
+      200816,
+      200817,
+      200818,
+      200819,
+      200820,
+      200821,
+      200822,
+      200823,
+      200824,
+      200825,
+      200826,
+      200827,
+      200828,
+      200829,
+      200830,
+      200831,
+      200832,
+      200833,
+      200834,
+      200835,
+      200836
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      3330
+    ],
+    [
+      2,
+      3329
+    ],
+    [
+      7,
+      3257
+    ],
+    [
+      11,
+      3256
+    ],
+    [
+      20,
+      3255
+    ]
+  ],
+  "tags_descriptions": {},
+  "id": 16934,
+  "title": "Bringer of Dreams and Nightmares questions!",
+  "fancy_title": "Bringer of Dreams and Nightmares questions!",
+  "posts_count": 22,
+  "created_at": "2017-07-31T01:50:23.000Z",
+  "views": 2874,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2017-10-13T18:12:56.000Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "bringer-of-dreams-and-nightmares-questions",
+  "category_id": 18,
+  "word_count": 2619,
+  "deleted_at": null,
+  "user_id": 6719,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_16934",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 22,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 8,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_invite_to": true,
+    "can_invite_via_email": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 5124,
+        "username": "dpt",
+        "name": "dpt",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png",
+        "post_count": 7,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 6719,
+        "username": "Arcanist_Lupus",
+        "name": "Arcanist Lupus",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 10886,
+        "username": "Eric_R",
+        "name": "Eric R",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/e/b9bd4f/{size}.png",
+        "post_count": 4,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 20,
+        "username": "Rabit",
+        "name": "Rabit",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/rabit/{size}/7330_2.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 2
+      },
+      {
+        "id": 15860,
+        "username": "tedv",
+        "name": "tedv",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/f08c70/{size}.png",
+        "post_count": 2,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 3684,
+        "username": "phantaskippy",
+        "name": "phantaskippy",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/phantaskippy/{size}/1897_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      },
+      {
+        "id": 16439,
+        "username": "Baldrekr",
+        "name": "Baldrekr",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/7ab992/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 5845,
+        "username": "jffdougan",
+        "name": "jffdougan",
+        "avatar_template": "/user_avatar/forums.greaterthangames.com/jffdougan/{size}/1882_2.png",
+        "post_count": 1,
+        "primary_group_name": "playtesters",
+        "flair_name": "playtesters",
+        "flair_url": "/uploads/default/original/1X/f46928191dbf93b4d0df24571543f49779579225.png",
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 41,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 6719,
+      "username": "Arcanist_Lupus",
+      "name": "Arcanist Lupus",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/arcanist_lupus/{size}/2169_2.png"
+    },
+    "last_poster": {
+      "id": 5124,
+      "username": "dpt",
+      "name": "dpt",
+      "avatar_template": "/user_avatar/forums.greaterthangames.com/dpt/{size}/1922_2.png"
+    },
+    "links": [
+      {
+        "url": "https://querki.net/u/darker/spirit-island-faq/#!.9v5kaam",
+        "title": "Querki: Loading Spirit Island FAQ...",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 5124,
+        "domain": "querki.net",
+        "root_domain": "querki.net"
+      },
+      {
+        "url": "https://querki.net/u/darker/spirit-island-faq/#!Changes-in-core-game-second-printing",
+        "title": "Querki: Loading Spirit Island FAQ...",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 20,
+        "domain": "querki.net",
+        "root_domain": "querki.net"
+      }
+    ]
+  },
+  "bookmarks": []
+}
